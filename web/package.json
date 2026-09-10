@@ -1,0 +1,51 @@
+{
+  "name": "yeongtong-top-clinic",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/build.mjs review",
+    "build:preview": "node scripts/build.mjs review",
+    "build:release": "node scripts/build.mjs production",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src tests",
+    "content:validate": "node scripts/validate.mjs review",
+    "harness-check": "node scripts/harness-check.mjs",
+    "test": "vitest run",
+    "audit:static": "node scripts/audit.mjs",
+    "test:e2e": "playwright test",
+    "test:performance": "node scripts/performance.mjs",
+    "serve": "node scripts/serve.mjs",
+    "verify:live": "node scripts/verify-live.mjs",
+    "measure": "node scripts/measure.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "16.3.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.55.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "cheerio": "^1.1.0",
+    "chrome-launcher": "1.2.1",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.4",
+    "lighthouse": "13.4.1",
+    "postcss": "^8.5.0",
+    "prettier": "3.9.6",
+    "sharp": "0.35.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.0",
+    "vitest": "5.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-09-11",
+  "scope": "Planning consistency only; no app build or deployment performed",
+  "checks": {
+    "planned_pages_76": true,
+    "ids_and_paths_unique": true,
+    "all_related_pages_exist": true,
+    "all_19_services_covered": true,
+    "all_145_source_urls_decided": true,
+    "retired_only_footer_49": true,
+    "migration_targets_exist": true,
+    "all_25_cases_5_notices": true,
+    "all_pages_have_individual_plan": true,
+    "all_source_documents_exist": true,
+    "all_candidate_assets_exist": true,
+    "all_preferred_images_exist": true,
+    "sitemap_73_unique_correct_urls": true,
+    "no_publication_approval_fabricated": true,
+    "local_document_links_resolve": true,
+    "workflow_blueprint_not_installed": true
+  },
+  "missing_links": [],
+  "all_passed": true
+}

@@ -1,0 +1,35 @@
+id,category,priority,requirement,verification,evidence,implementation_status
+BUILD01,정적 생성,P0,공개 경로별 HTML 생성 및 핵심 본문 포함,산출물 HTML과 route manifest 대조,static-audit.json,planned
+BUILD02,정적 생성,P0,JavaScript 비활성에서도 병원 사실과 본문 탐색 가능,JS 비활성 브라우저 검사,playwright-report,planned
+BUILD03,정적 생성,P0,실행 서버 전용 기능 없이 정적 빌드 성공,CI 정적 export 검사,build-log,planned
+URL01,경로,P0,루트 및 프로젝트 하위 경로 모두 정상,두 basePath 설정의 정적 서버 E2E,basepath-report.json,planned
+URL02,경로,P0,깊은 경로 직접 접근과 새로고침 정상,대표 경로 브라우저 및 HTTP 검사,route-report.json,planned
+URL03,경로,P0,알 수 없는 URL 실제 404 및 복귀 링크 제공,배포 서버 HTTP 상태 검사,postdeploy-report.json,planned
+URL04,경로,P0,canonical sitemap OG schema 자산 URL의 prefix 일치,공통 URL 함수 및 최종 HTML 검사,url-audit.json,planned
+DATA01,콘텐츠,P0,필수 병원 사실 운영 확인 및 같은 원장 사용,운영 기록과 HTML schema 비교,operations-review,planned
+DATA02,콘텐츠,P0,미승인 또는 만료된 의료 글 공개 차단,해시 변경 만료 누락 테스트,content-validation.json,planned
+DATA03,콘텐츠,P0,자료 사용 권리 미확인 항목 공개 제외,자산 본문 권리 원장 대조,rights-review,planned
+DATA04,콘텐츠,P0,의료진과 주장 출처 참조 유효,계약 교차 참조 검사,content-validation.json,planned
+DATA05,콘텐츠,P0,미확정 사실과 합성 예제 공개 산출물 미포함,배포 allowlist 및 artifact 검사,artifact-audit.json,planned
+MED01,의료 검수,P0,주장 대상 조건 근거 한계 의료진 대조,실제 의료진 원문 검수 기록,medical-review,planned
+MED02,의료 검수,P0,응급 문맥의 다음 행동과 CTA 적정,위험도별 의료진 및 화면 검수,medical-review,planned
+DEMAND01,질문 수요,P0,빈도 미측정을 고빈도 또는 0건으로 변환하지 않음,null 및 F0 F1 F2 판정 검사,demand-validation.json,planned
+SEO01,검색,P0,고유 title description H1 lang 및 대표 URL,전체 공개 HTML 감사,seo-audit.json,planned
+SEO02,검색,P0,미리보기 noindex 및 공개 환경 색인 정책 일치,원본 HTML robots 실제 URL 검사,indexing-report.json,planned
+SEO03,검색,P0,공개 경로 sitemap 포함 및 고립 글 없음,내부 링크 그래프 대조,link-report.json,planned
+SEO04,검색,P0,JSON-LD가 실제 화면과 일치하며 가짜 평점 없음,파싱 및 출처 대조,schema-report.json,planned
+UI01,화면,P0,지정한 모바일 태블릿 데스크톱에서 깨짐 없음,대표 템플릿 시각 검사,screenshots,planned
+UI02,화면,P0,모바일 메뉴와 하단 행동 버튼이 본문을 가리지 않음,키보드 터치 안전 영역 검사,playwright-report,planned
+UI03,화면,P0,전화 지도 주소 안내가 실제 병원과 일치,운영 원장 및 실제 링크 수동 확인,operations-review,planned
+A11Y01,접근성,P0,중대 axe 오류 없음 및 키보드 포커스 정상,자동 검사와 수동 탐색,a11y-report.json,planned
+A11Y02,접근성,P0,대비 확대 스크린리더 핵심 흐름 확인,WCAG 목표 수동 확인,a11y-manual-review,planned
+PERF01,성능,P0,대표 페이지 Lighthouse와 전송량 예산 검증,고정 조건 3회 중앙값 및 네트워크 기록,performance-report,planned
+PERF02,성능,운영,실사용 LCP INP CLS 측정 가능 시 별도 보고,기기별 75백분위 및 표본 범위 확인,field-vitals-report,planned
+DEPLOY01,배포,P0,web/out만 artifact 업로드,workflow와 artifact 파일 목록 검사,artifact-audit.json,planned
+DEPLOY02,배포,P0,실제 도메인 HTTPS robots sitemap 주요 경로 확인,배포 후 HTTP 및 브라우저 검사,postdeploy-report.json,planned
+DEPLOY03,배포,P0,호스팅 용도 적합성과 대표 도메인 이전 방식 기록,운영 설정 기록 검토,hosting-decision-record,planned
+DEPLOY04,배포,P0,실패 시 기존 배포 유지 및 유효한 이전 버전 복구,테스트 환경 배포 롤백 검증,rollback-record,planned
+SEC01,정보 보호,P0,비밀키 환자정보 연구원본 승인메모가 공개 파일에 없음,파일 allowlist 및 사람 검토,artifact-audit.json,planned
+NOTICE01,운영,P0,공지 적용 기간과 종료 상태 명확,날짜 경계 및 화면 확인,notice-tests,planned
+FEES01,운영,P1,가격 조건 총액 여부와 유효기간 표시,운영 원장 및 만료 테스트,fees-review,planned
+SEARCH01,검색 기능,P2,정적 검색에 공개 승인 문서만 포함,검색 색인과 공개 manifest 대조,search-index-report,planned

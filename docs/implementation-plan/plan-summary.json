@@ -1,0 +1,19 @@
+{
+  "planned_pages": 76,
+  "phase_counts": {
+    "P0": 21,
+    "P2": 27,
+    "P1": 28
+  },
+  "case_pages": 25,
+  "notice_pages": 5,
+  "sitemap_candidate_urls": 73,
+  "approved_publication_pages": 0,
+  "legacy_urls": 145,
+  "legacy_unmapped": [
+    "https://yttop.co.kr/49"
+  ],
+  "asset_page_associations": 1761,
+  "application_implemented": false,
+  "deployed": false
+}

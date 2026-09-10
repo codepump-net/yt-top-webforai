@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "demo": true,
+  "hospital": {
+    "name": "제작 검증용 예시의원 — 실재하지 않는 기관",
+    "origin": "https://hospital.example.invalid",
+    "address": "제작 검증용 가상 주소",
+    "phone": "00-0000-0000",
+    "hours": [
+      {"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "12:00"},
+      {"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "13:00", "closes": "18:00"}
+    ],
+    "holiday_note": "예시: 토·일·공휴일 휴진. 실제 기관의 공휴일 예외 데이터로 교체해야 합니다.",
+    "parking": "예시: 주차 조건은 병원 담당자 확인 전입니다.",
+    "intake": "예시: 접수 마감과 예약 조건은 담당자 확인 전입니다.",
+    "verified_at": "2026-09-11"
+  },
+  "physicians": [
+    {
+      "id": "sample-doctor",
+      "name": "가상 의료진",
+      "specialty": "실제 자격 입력 전",
+      "bio": "하네스 제작 검증용 인물입니다. 실제 의료진 경력으로 교체하고 확인해야 합니다.",
+      "credentials": ["실제 자격 확인 전 — 예시"],
+      "memberships": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "synthetic-study",
+      "title": "조건 대조 검사만을 위한 가상 연구 — 실제 의학 근거 아님",
+      "url": "https://evidence.example.invalid/synthetic-study",
+      "publisher": "검증용 합성 자료",
+      "design": "하네스 테스트 데이터; 실제 연구 아님",
+      "checked_at": "2026-09-11",
+      "scope": {
+        "condition": "가상 조건 A",
+        "population": "예시 성인 집단",
+        "intervention": "예시 중재 A",
+        "timing": "예시 시작 후 3시간 이내",
+        "outcome": "예시 결과 A",
+        "measure": "OR; 실제 수치 없음"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "visit-guide",
+      "title": "방문 전 어떤 정보를 확인하나요?",
+      "description": "병원 기본정보가 여러 페이지에서 일치하는지 확인하는 제작 예시입니다.",
+      "author_id": "sample-doctor",
+      "risk": "operational",
+      "question": "진료시간과 접수 조건은 어디에서 확인하나요?",
+      "answer": "{{hospital.name}}의 안내 시간은 {{hospital.hours}}입니다. {{hospital.intake}}",
+      "sections": [{"heading": "위치와 주차", "text": "주소: {{hospital.address}}. {{hospital.parking}}"}],
+      "limits": "이 페이지는 실제 병원 안내가 아닌 제작 검증용 예시입니다.",
+      "claims": [],
+      "images": [],
+      "cta": "contact",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "evidence-example",
+      "title": "의료 근거의 적용 조건을 어떻게 보존하나요? — 검증용 예시",
+      "description": "진료 조언이 아닌 출처와 문장 조건 대조를 위한 합성 예시입니다.",
+      "author_id": "sample-doctor",
+      "risk": "medical",
+      "question": "연구의 조건과 문장 조건이 다르면 어떻게 되나요?",
+      "answer": "대상과 적용 시점이 다른 연구를 같은 효과의 근거로 쓰지 않도록 조건을 대조합니다. 이 예시는 실제 의학적 주장을 담지 않습니다.",
+      "sections": [{"heading": "검수할 항목", "text": "질환·대상·중재·시점·결과·지표를 원문과 대조하고 의료진이 문장 전체를 확인합니다."}],
+      "limits": "실제 근거 문헌과 의료진 검수 없이 이 예시를 병원 콘텐츠로 공개하면 안 됩니다.",
+      "claims": [{
+        "text": "이 합성 자료는 정해진 예시 집단과 예시 시점만 표현합니다. 실제 치료 효과를 의미하지 않습니다.",
+        "source_id": "synthetic-study",
+        "scope": {"condition": "가상 조건 A", "population": "예시 성인 집단", "intervention": "예시 중재 A", "timing": "예시 시작 후 3시간 이내", "outcome": "예시 결과 A", "measure": "OR; 실제 수치 없음"}
+      }],
+      "images": [],
+      "cta": "none",
+      "updated_at": "2026-09-11"
+    }
+  ],
+  "reviews": []
+}

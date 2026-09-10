@@ -1,0 +1,28 @@
+{
+  "site": "https://codepump-net.github.io/yt-top-webforai/",
+  "aliases": ["영통탑내과", "영통 탑내과"],
+  "selection": "Editorial test set based on clinic services; not a verified high-frequency query ranking.",
+  "frequencyEvidence": null,
+  "queries": [
+    {"id":"location","query":"영통탑내과는 어디에 있나요?","target":"/visit/"},
+    {"id":"hours","query":"영통탑내과 토요일 진료시간은 언제인가요?","target":"/visit/"},
+    {"id":"phone","query":"영통탑내과 검사 예약은 어디로 문의하나요?","target":"/visit/"},
+    {"id":"physicians","query":"영통탑내과 의료진의 전문 분야는 무엇인가요?","target":"/doctors/"},
+    {"id":"echo","query":"영통탑내과 심장초음파 검사 전 준비할 것은 무엇인가요?","target":"/services/heart/echocardiography/"},
+    {"id":"holter","query":"홀터검사는 심장초음파와 어떻게 다른가요?","target":"/health/heart-test-differences/"},
+    {"id":"palpitations","query":"검사 후에도 두근거림이 있으면 어떤 기록을 준비하나요?","target":"/health/palpitations-test-followup/"},
+    {"id":"gastroscopy","query":"영통탑내과 위내시경 전에 무엇을 확인해야 하나요?","target":"/services/endoscopy/gastroscopy/"},
+    {"id":"colonoscopy","query":"대장내시경 예약 전에 복용약을 알려야 하나요?","target":"/health/colonoscopy-preparation-questions/"},
+    {"id":"checkups","query":"영통탑내과에서 안내하는 건강검진에는 어떤 종류가 있나요?","target":"/checkups/"},
+    {"id":"national","query":"국가건강검진을 받기 전에 어떤 항목을 확인하나요?","target":"/checkups/national/"},
+    {"id":"employment","query":"채용검진을 받을 때 제출기관 양식이 필요한가요?","target":"/checkups/employment/"},
+    {"id":"drug","query":"영통탑내과 마약검사 영문서류는 어떻게 문의하나요?","target":"/checkups/drug-screening/"},
+    {"id":"tuberculosis","query":"기숙사 결핵검진 서류를 준비할 때 무엇을 확인하나요?","target":"/checkups/tuberculosis/"},
+    {"id":"visa","query":"외국인 비자검진 전에 어떤 조건을 확인하나요?","target":"/checkups/visa/"},
+    {"id":"abdomen","query":"상복부와 하복부 초음파 준비는 같은가요?","target":"/services/ultrasound/abdomen/"},
+    {"id":"thyroid","query":"갑상선 초음파 결과는 어떤 정보를 함께 보나요?","target":"/services/ultrasound/thyroid/"},
+    {"id":"cough","query":"기침 진료를 받을 때 어떤 증상 기록을 준비하나요?","target":"/conditions/chronic-cough/"},
+    {"id":"fees","query":"영통탑내과 내시경 비용에 추가 처치가 모두 포함되나요?","target":"/fees/"},
+    {"id":"urgent","query":"심한 흉통과 호흡곤란이 있으면 예약을 기다려야 하나요?","target":"/health/palpitations-test-followup/"}
+  ]
+}

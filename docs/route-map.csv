@@ -1,0 +1,42 @@
+route_id,new_path,template,phase,source_url,disposition,release_condition
+home,/,home,P0,https://yttop.co.kr/,rewrite,병원 기본정보 운영 확인
+about,/about/,about,P0,https://yttop.co.kr/16,merge,소개 내용과 사진 사용 범위 확인
+doctors,/doctors/,physician-index,P0,https://yttop.co.kr/48,rewrite,현재 의료진 확인
+doctor-detail,/doctors/[slug]/,physician-detail,P0,https://yttop.co.kr/48,split,개인별 자격 경력 사진 확인 및 slug 확정
+visit,/visit/,visit,P0,https://yttop.co.kr/42,merge,43번 위치 안내와 통합 및 시간 주차 확인
+services,/services/,service-index,P0,,new,공개 가능한 서비스만 노출
+heart-index,/services/heart/,service-hub,P0,https://yttop.co.kr/18,rewrite,심장검사 제공 범위 검수
+echocardiography,/services/heart/echocardiography/,service-detail,P0,https://yttop.co.kr/23,rewrite,검사 종류 예약 준비 안내 검수
+holter,/services/heart/holter/,service-detail,P0,https://yttop.co.kr/36,rewrite,기록 시간 장비 준비 결과 안내 검수
+carotid,/services/heart/carotid-ultrasound/,service-detail,P1,https://yttop.co.kr/37,rewrite,검사 대상 범위 한계 검수
+hrv,/services/heart/heart-rate-variability/,service-detail,P1,https://yttop.co.kr/38,rewrite,검사 적응과 해석 범위 검수
+abi,/services/heart/arterial-assessment/,service-detail,P1,https://yttop.co.kr/39,rewrite,실제 검사 방식과 해석 범위 확인
+cardiac-markers,/services/heart/cardiac-markers/,service-detail,P1,https://yttop.co.kr/40,rewrite,검사 가능 범위 및 응급 상황 안내 검수
+checkups,/checkups/,checkup-index,P0,https://yttop.co.kr/17,rewrite,실제 검진 제공 범위 확인
+national-checkup,/checkups/national/,checkup-detail,P0,https://yttop.co.kr/31,rewrite,대상 항목 준비 및 최신 제도 근거 검수
+employment-checkup,/checkups/employment/,checkup-detail,P1,https://yttop.co.kr/32,rewrite,제출기관 조건 준비물 결과일 확인
+drug-screening,/checkups/drug-screening/,checkup-detail,P1,https://yttop.co.kr/33,rewrite,검사 항목 충돌 해결 및 버전 확정
+tuberculosis-screening,/checkups/tuberculosis/,checkup-detail,P1,https://yttop.co.kr/34,rewrite,기숙사 제출 조건 검사 종류 결과일 확인
+visa-checkup,/checkups/visa/,checkup-detail,P1,https://yttop.co.kr/35,rewrite,비자 유형별 실제 발급 가능 서류 확인
+ultrasound-index,/services/ultrasound/,service-hub,P1,https://yttop.co.kr/24,rewrite,검사별 범위 검수
+abdominal-ultrasound,/services/ultrasound/abdomen/,service-detail,P1,https://yttop.co.kr/25,rewrite,상하복부 구분과 검사별 준비 확인
+thyroid-ultrasound,/services/ultrasound/thyroid/,service-detail,P1,https://yttop.co.kr/26,rewrite,검사 대상과 진단 한계 검수
+bowel-ultrasound,/services/ultrasound/bowel/,service-detail,P1,https://yttop.co.kr/27,rewrite,소장 대장 맹장 설명과 검사 한계 검수
+conditions,/conditions/,condition-index,P1,https://yttop.co.kr/20,rewrite,공개 가능한 내과 안내만 노출
+chronic-cough,/conditions/chronic-cough/,condition-detail,P1,https://yttop.co.kr/28,rewrite,만성기침 설명과 위험 신호 검수
+heart-disease,/conditions/heart-disease/,condition-detail,P1,https://yttop.co.kr/29,rewrite,질환별 설명 범위 및 응급 행동 검수
+cancer-screening,/checkups/cancer-screening/,checkup-detail,P1,https://yttop.co.kr/30,rewrite,검진 대상과 방법의 최신 공식 근거 확인
+acute-care,/conditions/acute-care/,condition-detail,P1,https://yttop.co.kr/46,rewrite,진료 가능 범위와 긴급 이송 조건 검수
+cancer-support,/services/cancer-support/,service-detail,P1,https://yttop.co.kr/47,rewrite,제공 서비스와 근거 수준 및 효능 표현 검수
+endoscopy,/services/endoscopy/,service-hub,P1,,new,기존 검진 증례 이벤트 확인 및 준비 지침 신규 확정
+notices,/notices/,notice-index,P0,https://yttop.co.kr/44,rewrite,유효기간 및 종료 상태 확인
+notice-detail,/notices/[slug]/,notice-detail,P0,https://yttop.co.kr/44,split,공개 대상 게시물별 적용 기간과 URL 확정
+fees,/fees/,fees,P1,,new,승인된 가격 항목 조건 적용일 확보
+health,/health/,article-index,P1,,new,공개 승인된 자체 의료 글 확보
+health-detail,/health/[slug]/,article-detail,P1,,new,자체 집필 근거 및 현재 의료 검수
+cases,/cases/,case-index,P2,https://yttop.co.kr/21,select,사례별 이용 범위 및 의료 검수
+case-detail,/cases/[slug]/,case-detail,P2,https://yttop.co.kr/21,select,환자 식별정보 제거와 사례 이용 범위 확인
+privacy,/privacy/,policy,P0,,new,실제 분석 및 외부 연결 방식 반영
+content-policy,/content-policy/,policy,P0,,new,작성 검수 정정 책임과 절차 확정
+search,/search/,search,P2,,new,승인된 공개 본문만 정적 검색 색인 생성
+not-found,/404.html,not-found,P0,,new,잘못된 URL 실제 404 및 복귀 링크 검증

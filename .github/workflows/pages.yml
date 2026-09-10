@@ -1,0 +1,135 @@
+name: Validate and deploy clinic site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: clinic-site-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: Validate (${{ matrix.layout }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - layout: root
+            base_path: ''
+          - layout: project
+            base_path: ${{ vars.SITE_BASE_PATH || '/yt-top-webforai' }}
+    defaults:
+      run:
+        working-directory: web
+    env:
+      CI: true
+      NEXT_TELEMETRY_DISABLED: 1
+      SITE_ORIGIN: ${{ vars.SITE_ORIGIN || 'https://codepump-net.github.io' }}
+      SITE_BASE_PATH: ${{ matrix.base_path }}
+      BUILD_MODE: ${{ github.event_name == 'pull_request' && 'review' || vars.PUBLICATION_MODE || 'review' }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - run: npm ci
+      - run: npm audit --audit-level=moderate
+      - run: npm run lint
+      - run: npm test
+      - run: npm run harness-check
+      - name: Build static HTML and audit every page
+        run: node scripts/build.mjs "$BUILD_MODE"
+      - run: npm run typecheck
+      - name: Confirm unreviewed content cannot become a release
+        if: env.BUILD_MODE == 'review'
+        run: |
+          if node scripts/validate.mjs production; then
+            echo 'All release reviews are present; production gate can pass.'
+          else
+            echo 'Production correctly blocked while reviews are pending.'
+          fi
+          node scripts/validate.mjs review
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - run: npm run test:performance
+      - name: Retain audit evidence and browser reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: checks-${{ matrix.layout }}
+          path: |
+            web/reports/
+            web/playwright-report/
+            web/test-results/
+          retention-days: 30
+      - name: Retain a downloadable complete site
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-${{ matrix.layout }}
+          path: web/out/
+          include-hidden-files: true
+          retention-days: 30
+      - name: Prepare Pages artifact
+        if: matrix.layout == 'project' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: web/out
+
+  deploy:
+    name: Deploy GitHub Pages
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Refuse an obsolete deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CURRENT_SHA=$(gh api repos/${{ github.repository }}/commits/main --jq .sha)
+          test "$CURRENT_SHA" = "$GITHUB_SHA"
+      - uses: actions/configure-pages@v6
+      - name: Deploy verified artifact
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+        working-directory: web
+      - name: Verify deployed commit and all pages
+        env:
+          DEPLOY_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_SHA: ${{ github.sha }}
+        working-directory: web
+        run: node scripts/verify-live.mjs
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: live-verification
+          path: web/reports/live-verification.json
+          retention-days: 30

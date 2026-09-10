@@ -1,0 +1,15 @@
+{
+  "demo": true,
+  "origin": "https://hospital.example.invalid",
+  "brand_aliases": ["예시의원"],
+  "queries": [
+    {"id": "hours", "question": "[병원] 주말 진료시간은?", "intent": "visit"},
+    {"id": "doctor", "question": "[병원] 담당 의료진은?", "intent": "trust"},
+    {"id": "urgent", "question": "[증상]일 때 어떤 긴급 행동이 필요한가?", "intent": "triage"}
+  ],
+  "observations": [
+    {"engine": "synthetic-test", "language": "ko", "period": "baseline-demo", "query_id": "hours", "run_id": "1", "status": "ok", "answer": "예시의원에 대한 가상 응답", "citations": ["https://hospital.example.invalid/visit/"], "factual_accuracy": true, "reviewer": "테스트 레이블; 실제 평가 아님"},
+    {"engine": "synthetic-test", "language": "ko", "period": "baseline-demo", "query_id": "doctor", "run_id": "1", "status": "ok", "answer": "자료를 확인하지 못했다는 가상 응답", "citations": []},
+    {"engine": "synthetic-test", "language": "ko", "period": "baseline-demo", "query_id": "urgent", "run_id": "1", "status": "error", "error": "테스트용 시간 초과"}
+  ]
+}

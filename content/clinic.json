@@ -1,0 +1,34 @@
+{
+  "name": "영통탑내과의원",
+  "shortName": "영통탑내과",
+  "phone": "031-202-7555",
+  "address": "경기 수원시 영통구 덕영대로 1478, 포레스퀘어 6층",
+  "subway": "망포역 3번 출구에서 도보 약 2분",
+  "mapUrl": "https://naver.me/5WOQWq7m",
+  "originalUrl": "https://yttop.co.kr/",
+  "representative": "박종설",
+  "registration": "498-91-01432",
+  "hours": [
+    {
+      "label": "평일",
+      "value": "08:30 – 18:30"
+    },
+    {
+      "label": "토요일",
+      "value": "08:30 – 13:30"
+    },
+    {
+      "label": "점심시간",
+      "value": "13:00 – 14:00"
+    },
+    {
+      "label": "일요일·공휴일",
+      "value": "휴진"
+    }
+  ],
+  "hoursNote": "토요일 점심 적용과 검사별 접수는 내원 전 확인해 주세요.",
+  "bookingNote": "심장초음파는 내원 전 전화 문의·예약을 안내합니다. 오후 5시 이후 내원은 미리 문의해 주세요.",
+  "parkingNote": "주차 위치와 지원 조건은 병원으로 문의해 주세요.",
+  "sourceCheckedAt": "2026-09-11",
+  "operationsReview": null
+}

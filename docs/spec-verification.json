@@ -1,0 +1,16 @@
+{
+  "scope": "Document consistency only; application not implemented or tested",
+  "route_patterns": 41,
+  "acceptance_criteria": 34,
+  "checks": {
+    "local_links_resolve": true,
+    "csv_columns_valid": true,
+    "route_ids_unique": true,
+    "route_paths_unique": true,
+    "criteria_ids_unique": true,
+    "all_19_existing_services_mapped": true,
+    "implementation_not_claimed": true
+  },
+  "missing_links": [],
+  "all_passed": true
+}

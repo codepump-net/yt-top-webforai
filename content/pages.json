@@ -1,0 +1,3545 @@
+[
+  {
+    "id": "home",
+    "path": "/",
+    "title": "영통탑내과",
+    "metaTitle": "영통탑내과 | 진료·검사·건강검진·방문 안내",
+    "description": "망포역 3번 출구 인근 영통탑내과의 진료·검사, 의료진, 건강검진과 방문 안내를 확인하세요. 전화 031-202-7555, 포레스퀘어 6층.",
+    "template": "home",
+    "category": "병원 안내",
+    "intro": "망포역 3번 출구 인근 영통탑내과의 진료·검사, 의료진, 건강검진과 방문 안내를 확인하세요. 전화 031-202-7555, 포레스퀘어 6층.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "visit",
+      "doctors",
+      "heart-index",
+      "checkups",
+      "endoscopy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/42"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/43"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/48"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/16"
+      }
+    ],
+    "image": "clinic",
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "not-found",
+    "path": "/404.html",
+    "title": "페이지를 찾을 수 없습니다",
+    "metaTitle": "페이지를 찾을 수 없습니다 | 영통탑내과",
+    "description": "요청한 페이지를 찾을 수 없습니다. 홈페이지나 검색에서 필요한 진료·검사 안내를 찾아보세요.",
+    "template": "not-found",
+    "category": "병원 안내",
+    "intro": "요청한 페이지를 찾을 수 없습니다. 홈페이지나 검색에서 필요한 진료·검사 안내를 찾아보세요.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "home",
+      "visit",
+      "search",
+      "sitemap"
+    ],
+    "sources": [],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": false,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "about",
+    "path": "/about/",
+    "title": "병원 소개",
+    "metaTitle": "병원 소개 | 영통탑내과",
+    "description": "한 분의 건강을, 더 가까이 살피겠습니다.",
+    "template": "about",
+    "category": "병원 안내",
+    "intro": "한 분의 건강을, 더 가까이 살피겠습니다.",
+    "blocks": [
+      {
+        "heading": "병원 소개",
+        "text": "망포역 인근 포레스퀘어 6층에서 내과 진료와 건강검진, 심장·초음파·내시경 검사를 안내합니다. 필요한 진료와 검사 과정을 이해할 수 있도록 설명하고, 상태에 따라 다른 의료기관과의 연계를 안내합니다."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "doctors",
+      "services",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/16"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/41"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/48"
+      }
+    ],
+    "image": "clinic",
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "cases",
+    "path": "/cases/",
+    "title": "진단 사례",
+    "metaTitle": "진단 사례 | 영통탑내과",
+    "description": "기존 홈페이지에 소개된 진단 과정을 이해하기 위한 교육용 요약입니다. 환자 개인 정보와 검사 이미지는 포함하지 않았습니다.",
+    "template": "case-index",
+    "category": "진단 사례",
+    "intro": "기존 홈페이지에 소개된 진단 과정을 이해하기 위한 교육용 요약입니다. 환자 개인 정보와 검사 이미지는 포함하지 않았습니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "services",
+      "conditions",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "case-164673116",
+    "path": "/cases/case-164673116/",
+    "title": "복수·단백뇨와 대장암 진단 사례",
+    "metaTitle": "복수·단백뇨와 대장암 진단 사례 | 영통탑내과",
+    "description": "복부 초음파와 혈액·소변검사 등을 통해 이상 소견을 살펴본 사례입니다. 원문은 상급병원에서 추가 진단과 치료가 진행되었다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파와 혈액·소변검사 등을 통해 이상 소견을 살펴본 사례입니다. 원문은 상급병원에서 추가 진단과 치료가 진행되었다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파와 혈액·소변검사 등을 통해 이상 소견을 살펴본 사례입니다. 원문은 상급병원에서 추가 진단과 치료가 진행되었다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673116&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:12:30+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673131",
+    "path": "/cases/case-164673131/",
+    "title": "속쓰림으로 내원한 위암 진단 사례",
+    "metaTitle": "속쓰림으로 내원한 위암 진단 사례 | 영통탑내과",
+    "description": "위내시경에서 추가 평가가 필요한 병변을 관찰하고 조직검사를 시행한 사례입니다. 원문에 없는 병기나 치료 결과는 이 요약에 추가하지 않았습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "위내시경에서 추가 평가가 필요한 병변을 관찰하고 조직검사를 시행한 사례입니다. 원문에 없는 병기나 치료 결과는 이 요약에 추가하지 않았습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "위내시경에서 추가 평가가 필요한 병변을 관찰하고 조직검사를 시행한 사례입니다. 원문에 없는 병기나 치료 결과는 이 요약에 추가하지 않았습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673131&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:12:47+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673206",
+    "path": "/cases/case-164673206/",
+    "title": "갑상선암 증례 — 진단 사례",
+    "metaTitle": "갑상선암 증례 — 진단 사례 | 영통탑내과",
+    "description": "갑상선 초음파의 결절 소견 이후 추가 검사를 진행한 사례입니다. 원문은 세침검사와 상급병원 치료의 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "갑상선 초음파의 결절 소견 이후 추가 검사를 진행한 사례입니다. 원문은 세침검사와 상급병원 치료의 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "갑상선 초음파의 결절 소견 이후 추가 검사를 진행한 사례입니다. 원문은 세침검사와 상급병원 치료의 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "thyroid-ultrasound",
+      "ultrasound-index",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673206&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:15:12+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673218",
+    "path": "/cases/case-164673218/",
+    "title": "수신증 사례 — 진단 사례",
+    "metaTitle": "수신증 사례 — 진단 사례 | 영통탑내과",
+    "description": "초음파에서 신우 확장 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 수신증에 대한 진료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "초음파에서 신우 확장 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 수신증에 대한 진료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "초음파에서 신우 확장 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 수신증에 대한 진료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673218&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:15:47+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673233",
+    "path": "/cases/case-164673233/",
+    "title": "하복부 통증으로 내원하여 시행한 초음파 — 진단 사례",
+    "metaTitle": "하복부 통증으로 내원하여 시행한 초음파 — 진단 사례 | 영통탑내과",
+    "description": "하복부 초음파의 이상 소견 이후 추가 검사로 이어진 사례입니다. 원문은 복강 내 병변 확인과 상급병원 치료를 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "하복부 초음파의 이상 소견 이후 추가 검사로 이어진 사례입니다. 원문은 복강 내 병변 확인과 상급병원 치료를 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "하복부 초음파의 이상 소견 이후 추가 검사로 이어진 사례입니다. 원문은 복강 내 병변 확인과 상급병원 치료를 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673233&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:16:07+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673242",
+    "path": "/cases/case-164673242/",
+    "title": "발열 복통으로 내원한 복막염 환자. — 진단 사례",
+    "metaTitle": "발열 복통으로 내원한 복막염 환자. — 진단 사례 | 영통탑내과",
+    "description": "복부 초음파에서 염증 관련 소견을 확인한 사례입니다. 원문은 상급병원에서 복막염으로 확인되어 치료받은 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파에서 염증 관련 소견을 확인한 사례입니다. 원문은 상급병원에서 복막염으로 확인되어 치료받은 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파에서 염증 관련 소견을 확인한 사례입니다. 원문은 상급병원에서 복막염으로 확인되어 치료받은 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673242&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-05-30T15:16:23+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165150420",
+    "path": "/cases/case-165150420/",
+    "title": "복강내 종괴 증례 — 진단 사례",
+    "metaTitle": "복강내 종괴 증례 — 진단 사례 | 영통탑내과",
+    "description": "복부 초음파에서 종괴가 의심되는 소견을 관찰한 사례입니다. 원문은 CT 등 추가 검사와 상급병원 치료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파에서 종괴가 의심되는 소견을 관찰한 사례입니다. 원문은 CT 등 추가 검사와 상급병원 치료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파에서 종괴가 의심되는 소견을 관찰한 사례입니다. 원문은 CT 등 추가 검사와 상급병원 치료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165150420&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T15:48:03+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165150549",
+    "path": "/cases/case-165150549/",
+    "title": "대장 베체트 증례 — 진단 사례",
+    "metaTitle": "대장 베체트 증례 — 진단 사례 | 영통탑내과",
+    "description": "대장내시경과 조직·혈액검사를 통해 장 증상을 평가한 사례입니다. 원문은 베체트 장염 확인 후 상급병원 치료로 이어진 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "대장내시경과 조직·혈액검사를 통해 장 증상을 평가한 사례입니다. 원문은 베체트 장염 확인 후 상급병원 치료로 이어진 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "대장내시경과 조직·혈액검사를 통해 장 증상을 평가한 사례입니다. 원문은 베체트 장염 확인 후 상급병원 치료로 이어진 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165150549&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T15:50:09+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165150795",
+    "path": "/cases/case-165150795/",
+    "title": "폐렴 증례 — 진단 사례",
+    "metaTitle": "폐렴 증례 — 진단 사례 | 영통탑내과",
+    "description": "흉부 영상 소견을 확인하고 CT 등 추가 평가로 이어진 사례입니다. 원문은 폐렴 치료 후 병변이 호전되었다고 기록합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "흉부 영상 소견을 확인하고 CT 등 추가 평가로 이어진 사례입니다. 원문은 폐렴 치료 후 병변이 호전되었다고 기록합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "흉부 영상 소견을 확인하고 CT 등 추가 평가로 이어진 사례입니다. 원문은 폐렴 치료 후 병변이 호전되었다고 기록합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "acute-care",
+      "chronic-cough",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165150795&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T15:53:18+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165151140",
+    "path": "/cases/case-165151140/",
+    "title": "비후성 심근병증 증례 — 진단 사례",
+    "metaTitle": "비후성 심근병증 증례 — 진단 사례 | 영통탑내과",
+    "description": "흉부 영상·심전도·심장초음파·혈액검사를 함께 살펴본 사례입니다. 원문은 상급병원에서 비후성 심근병증으로 진단 후 치료 중이라고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "흉부 영상·심전도·심장초음파·혈액검사를 함께 살펴본 사례입니다. 원문은 상급병원에서 비후성 심근병증으로 진단 후 치료 중이라고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "흉부 영상·심전도·심장초음파·혈액검사를 함께 살펴본 사례입니다. 원문은 상급병원에서 비후성 심근병증으로 진단 후 치료 중이라고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165151140&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T16:00:22+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165203625",
+    "path": "/cases/case-165203625/",
+    "title": "지속되는 두근거림으로 내원하여 진단된 심실빈맥 — 진단 사례",
+    "metaTitle": "지속되는 두근거림으로 내원하여 진단된 심실빈맥 — 진단 사례 | 영통탑내과",
+    "description": "일반 심전도 이후 홀터 기록으로 추가 리듬 이상을 확인한 사례입니다. 원문은 심실빈맥 확인 후 치료가 진행되었다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "일반 심전도 이후 홀터 기록으로 추가 리듬 이상을 확인한 사례입니다. 원문은 심실빈맥 확인 후 치료가 진행되었다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "일반 심전도 이후 홀터 기록으로 추가 리듬 이상을 확인한 사례입니다. 원문은 심실빈맥 확인 후 치료가 진행되었다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165203625&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-06-10T16:37:52+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165203941",
+    "path": "/cases/case-165203941/",
+    "title": "두근거림 호흡곤란으로 내원하여 진단된 심방세동 — 진단 사례",
+    "metaTitle": "두근거림 호흡곤란으로 내원하여 진단된 심방세동 — 진단 사례 | 영통탑내과",
+    "description": "진료실 검사와 장시간 심전도 기록의 역할을 함께 보여주는 사례입니다. 원문은 홀터 기록 중 증상과 심방세동이 확인되어 후속 치료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "진료실 검사와 장시간 심전도 기록의 역할을 함께 보여주는 사례입니다. 원문은 홀터 기록 중 증상과 심방세동이 확인되어 후속 치료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "진료실 검사와 장시간 심전도 기록의 역할을 함께 보여주는 사례입니다. 원문은 홀터 기록 중 증상과 심방세동이 확인되어 후속 치료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165203941&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-10T16:40:58+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165204038",
+    "path": "/cases/case-165204038/",
+    "title": "혈변과 대장내시경을 통한 대장암 진단 사례",
+    "metaTitle": "혈변과 대장내시경을 통한 대장암 진단 사례 | 영통탑내과",
+    "description": "대장내시경에서 병변을 관찰한 후 조직검사로 확인한 사례입니다. 원문은 이후 상급병원에서 치료를 진행했다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "대장내시경에서 병변을 관찰한 후 조직검사로 확인한 사례입니다. 원문은 이후 상급병원에서 치료를 진행했다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "대장내시경에서 병변을 관찰한 후 조직검사로 확인한 사례입니다. 원문은 이후 상급병원에서 치료를 진행했다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165204038&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-10T16:44:17+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165259713",
+    "path": "/cases/case-165259713/",
+    "title": "생리통으로 오인된 난소종양 — 진단 사례",
+    "metaTitle": "생리통으로 오인된 난소종양 — 진단 사례 | 영통탑내과",
+    "description": "하복부 초음파에서 추가 평가가 필요한 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 난소종양 치료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "하복부 초음파에서 추가 평가가 필요한 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 난소종양 치료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "하복부 초음파에서 추가 평가가 필요한 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 난소종양 치료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165259713&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-11T18:22:30+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165259783",
+    "path": "/cases/case-165259783/",
+    "title": "식도 점막하 종양 — 진단 사례",
+    "metaTitle": "식도 점막하 종양 — 진단 사례 | 영통탑내과",
+    "description": "내시경에서 식도 점막하 병변을 확인한 사례입니다. 원문에는 추가 검사로 병변을 평가하고 추적 내시경을 계획한 과정이 소개되어 있습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "내시경에서 식도 점막하 병변을 확인한 사례입니다. 원문에는 추가 검사로 병변을 평가하고 추적 내시경을 계획한 과정이 소개되어 있습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "내시경에서 식도 점막하 병변을 확인한 사례입니다. 원문에는 추가 검사로 병변을 평가하고 추적 내시경을 계획한 과정이 소개되어 있습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165259783&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-11T18:23:39+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165259921",
+    "path": "/cases/case-165259921/",
+    "title": "대동맥 판막협착 및 대동맥판막 역류. — 진단 사례",
+    "metaTitle": "대동맥 판막협착 및 대동맥판막 역류. — 진단 사례 | 영통탑내과",
+    "description": "심전도와 심장초음파 등에서 심장 구조·판막의 여러 소견을 함께 확인한 사례입니다. 원문은 진단과 약물 치료의 경과를 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심전도와 심장초음파 등에서 심장 구조·판막의 여러 소견을 함께 확인한 사례입니다. 원문은 진단과 약물 치료의 경과를 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심전도와 심장초음파 등에서 심장 구조·판막의 여러 소견을 함께 확인한 사례입니다. 원문은 진단과 약물 치료의 경과를 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165259921&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-11T18:26:59+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165338662",
+    "path": "/cases/case-165338662/",
+    "title": "상,하복부 통증으로 내원한 맹장염 — 진단 사례",
+    "metaTitle": "상,하복부 통증으로 내원한 맹장염 — 진단 사례 | 영통탑내과",
+    "description": "복부 초음파에서 염증 소견을 확인한 뒤 응급실의 추가 검사로 이어진 사례입니다. 원문은 이후 충수염 수술을 받았다고 기록합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파에서 염증 소견을 확인한 뒤 응급실의 추가 검사로 이어진 사례입니다. 원문은 이후 충수염 수술을 받았다고 기록합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파에서 염증 소견을 확인한 뒤 응급실의 추가 검사로 이어진 사례입니다. 원문은 이후 충수염 수술을 받았다고 기록합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165338662&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-06-12T18:28:20+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165338735",
+    "path": "/cases/case-165338735/",
+    "title": "목에 혹이 만져져요. 림프종 진단사례. — 진단 사례",
+    "metaTitle": "목에 혹이 만져져요. 림프종 진단사례. — 진단 사례 | 영통탑내과",
+    "description": "목 부위 림프절 소견을 확인하고 추가 영상·조직검사로 이어진 사례입니다. 원문은 림프종 확인 후 치료가 진행되었다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "목 부위 림프절 소견을 확인하고 추가 영상·조직검사로 이어진 사례입니다. 원문은 림프종 확인 후 치료가 진행되었다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "목 부위 림프절 소견을 확인하고 추가 영상·조직검사로 이어진 사례입니다. 원문은 림프종 확인 후 치료가 진행되었다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165338735&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-12T18:30:22+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165396187",
+    "path": "/cases/case-165396187/",
+    "title": "재발하는 뇌경색으로 내원하여 진단된 심방세동. — 진단 사례",
+    "metaTitle": "재발하는 뇌경색으로 내원하여 진단된 심방세동. — 진단 사례 | 영통탑내과",
+    "description": "심전도·심장초음파·홀터 기록을 함께 확인한 사례입니다. 원문은 심방세동과 판막 소견 등을 평가한 뒤 상급병원 진료를 의뢰했다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심전도·심장초음파·홀터 기록을 함께 확인한 사례입니다. 원문은 심방세동과 판막 소견 등을 평가한 뒤 상급병원 진료를 의뢰했다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심전도·심장초음파·홀터 기록을 함께 확인한 사례입니다. 원문은 심방세동과 판막 소견 등을 평가한 뒤 상급병원 진료를 의뢰했다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165396187&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-06-13T15:02:54+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165396249",
+    "path": "/cases/case-165396249/",
+    "title": "식도궤양 — 진단 사례",
+    "metaTitle": "식도궤양 — 진단 사례 | 영통탑내과",
+    "description": "위내시경으로 위식도접합부의 궤양과 출혈 소견을 확인한 사례입니다. 원문은 추가 진료를 위해 대학병원에 의뢰한 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "위내시경으로 위식도접합부의 궤양과 출혈 소견을 확인한 사례입니다. 원문은 추가 진료를 위해 대학병원에 의뢰한 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "위내시경으로 위식도접합부의 궤양과 출혈 소견을 확인한 사례입니다. 원문은 추가 진료를 위해 대학병원에 의뢰한 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165396249&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T15:04:10+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165396339",
+    "path": "/cases/case-165396339/",
+    "title": "대동맥판막협착 진단 사례",
+    "metaTitle": "대동맥판막협착 진단 사례 | 영통탑내과",
+    "description": "심장초음파에서 판막과 심장 구조의 이상을 확인해 상급병원으로 의뢰한 사례입니다. 제목과 본문의 중증도 표현이 달라, 이 요약에서는 중증도를 확정하지 않습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심장초음파에서 판막과 심장 구조의 이상을 확인해 상급병원으로 의뢰한 사례입니다. 제목과 본문의 중증도 표현이 달라, 이 요약에서는 중증도를 확정하지 않습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심장초음파에서 판막과 심장 구조의 이상을 확인해 상급병원으로 의뢰한 사례입니다. 제목과 본문의 중증도 표현이 달라, 이 요약에서는 중증도를 확정하지 않습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165396339&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T15:06:35+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165407798",
+    "path": "/cases/case-165407798/",
+    "title": "대동맥류를 동반한 이엽성 판막증 — 진단 사례",
+    "metaTitle": "대동맥류를 동반한 이엽성 판막증 — 진단 사례 | 영통탑내과",
+    "description": "심장초음파에서 대동맥과 판막의 이상 소견을 관찰한 사례입니다. 이엽성 판막과 대동맥류 등이 의심되어 상급병원으로 의뢰한 과정이 소개되어 있습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심장초음파에서 대동맥과 판막의 이상 소견을 관찰한 사례입니다. 이엽성 판막과 대동맥류 등이 의심되어 상급병원으로 의뢰한 과정이 소개되어 있습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심장초음파에서 대동맥과 판막의 이상 소견을 관찰한 사례입니다. 이엽성 판막과 대동맥류 등이 의심되어 상급병원으로 의뢰한 과정이 소개되어 있습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165407798&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T16:26:01+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165407885",
+    "path": "/cases/case-165407885/",
+    "title": "궤양성대장염 — 진단 사례",
+    "metaTitle": "궤양성대장염 — 진단 사례 | 영통탑내과",
+    "description": "반복되는 장 증상에 대해 대장내시경과 조직검사를 진행한 사례입니다. 원문은 궤양성대장염으로 진단 후 치료를 이어간 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "반복되는 장 증상에 대해 대장내시경과 조직검사를 진행한 사례입니다. 원문은 궤양성대장염으로 진단 후 치료를 이어간 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "반복되는 장 증상에 대해 대장내시경과 조직검사를 진행한 사례입니다. 원문은 궤양성대장염으로 진단 후 치료를 이어간 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165407885&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T16:27:50+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165407958",
+    "path": "/cases/case-165407958/",
+    "title": "대장용종 절제 사례 — 진단 사례",
+    "metaTitle": "대장용종 절제 사례 — 진단 사례 | 영통탑내과",
+    "description": "대장내시경에서 용종을 발견해 절제하고 조직검사 결과를 확인한 과정입니다. 원문은 조직 소견을 바탕으로 추적관찰을 안내한 사례를 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "대장내시경에서 용종을 발견해 절제하고 조직검사 결과를 확인한 과정입니다. 원문은 조직 소견을 바탕으로 추적관찰을 안내한 사례를 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "대장내시경에서 용종을 발견해 절제하고 조직검사 결과를 확인한 과정입니다. 원문은 조직 소견을 바탕으로 추적관찰을 안내한 사례를 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165407958&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T16:29:35+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-167025586",
+    "path": "/cases/case-167025586/",
+    "title": "심근경색 진단과정 — 진단 사례",
+    "metaTitle": "심근경색 진단과정 — 진단 사례 | 영통탑내과",
+    "description": "원문은 심전도·흉부 영상·심장초음파·혈액 표지자를 함께 확인하고 상급병원 응급실로 의뢰한 과정을 소개합니다. 이후 상급병원에서 심근경색 치료를 받았다고 기록되어 있습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "원문은 심전도·흉부 영상·심장초음파·혈액 표지자를 함께 확인하고 상급병원 응급실로 의뢰한 과정을 소개합니다. 이후 상급병원에서 심근경색 치료를 받았다고 기록되어 있습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "원문은 심전도·흉부 영상·심장초음파·혈액 표지자를 함께 확인하고 상급병원 응급실로 의뢰한 과정을 소개합니다. 이후 상급병원에서 심근경색 치료를 받았다고 기록되어 있습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=167025586&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-07-25T14:23:36+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "checkups",
+    "path": "/checkups/",
+    "title": "건강검진 안내",
+    "metaTitle": "건강검진 안내 | 영통탑내과",
+    "description": "국가건강검진부터 채용·기숙사·비자 관련 검진까지 안내합니다. 검진 목적과 제출 기관이 요구하는 항목을 먼저 확인하세요.",
+    "template": "checkup-index",
+    "category": "건강검진",
+    "intro": "국가건강검진부터 채용·기숙사·비자 관련 검진까지 안내합니다. 검진 목적과 제출 기관이 요구하는 항목을 먼저 확인하세요.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "national-checkup",
+      "employment-checkup",
+      "drug-screening",
+      "tuberculosis-screening",
+      "visa-checkup",
+      "cancer-screening",
+      "checkup-preparation"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/17"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "cancer-screening",
+    "path": "/checkups/cancer-screening/",
+    "title": "암검진 안내",
+    "metaTitle": "암검진 안내 | 영통탑내과",
+    "description": "암종별 검진의 대상과 검사 방법을 구분해 확인하세요.",
+    "template": "checkup-detail",
+    "category": "건강검진",
+    "intro": "암종별 검진의 대상과 검사 방법을 구분해 확인하세요.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "기존 홈페이지는 위암·대장암·간암·유방암·자궁경부암 검진을 안내합니다. 대상과 주기, 본인이 받을 검사는 최신 공단 안내와 병원 상담으로 확인합니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "검진 대상 안내와 이전 검사 결과를 준비해 주세요. 내시경·초음파 등 포함된 검사에 맞춰 준비 방법을 안내받습니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "모든 암종에 같은 검사를 시행하는 것은 아닙니다. 검진 결과와 추가 검사 필요 여부는 의료진에게 설명받습니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "기존 홈페이지는 위암·대장암·간암·유방암·자궁경부암 검진을 안내합니다. 대상과 주기, 본인이 받을 검사는 최신 공단 안내와 병원 상담으로 확인합니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "검진 대상 안내와 이전 검사 결과를 준비해 주세요. 내시경·초음파 등 포함된 검사에 맞춰 준비 방법을 안내받습니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "모든 암종에 같은 검사를 시행하는 것은 아닙니다. 검진 결과와 추가 검사 필요 여부는 의료진에게 설명받습니다."
+      }
+    ],
+    "related": [
+      "checkups",
+      "national-checkup",
+      "endoscopy",
+      "notice-screening-evaluation",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/30"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "drug-screening",
+    "path": "/checkups/drug-screening/",
+    "title": "마약검사·영문서류",
+    "metaTitle": "마약검사·영문서류 | 영통탑내과",
+    "description": "제출 목적에 따른 마약검사와 영문서류 발급 조건을 확인할 수 있습니다.",
+    "template": "checkup-detail",
+    "category": "건강검진",
+    "intro": "제출 목적에 따른 마약검사와 영문서류 발급 조건을 확인할 수 있습니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "영통탑내과의 기존 검사 페이지와 공지에서 마약검사·영문서류를 안내합니다. 정확한 검사 항목은 제출처 요구와 실제 검사 종류를 대조해 확인해야 합니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "신분증과 제출기관 양식, 필요한 검사 항목을 준비해 문의해 주세요. 영문 표기가 필요한 경우 이름 표기와 서류 조건을 함께 확인합니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "기존 안내 간 항목 표기가 달라 이 화면에는 확정되지 않은 검사 목록을 싣지 않았습니다. 검사 가능 항목과 당일 발급 여부를 예약 전에 확인해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "영통탑내과의 기존 검사 페이지와 공지에서 마약검사·영문서류를 안내합니다. 정확한 검사 항목은 제출처 요구와 실제 검사 종류를 대조해 확인해야 합니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "신분증과 제출기관 양식, 필요한 검사 항목을 준비해 문의해 주세요. 영문 표기가 필요한 경우 이름 표기와 서류 조건을 함께 확인합니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "기존 안내 간 항목 표기가 달라 이 화면에는 확정되지 않은 검사 목록을 싣지 않았습니다. 검사 가능 항목과 당일 발급 여부를 예약 전에 확인해 주세요."
+      }
+    ],
+    "related": [
+      "checkups",
+      "employment-checkup",
+      "notice-drug-certificate",
+      "fees",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/33"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "employment-checkup",
+    "path": "/checkups/employment/",
+    "title": "채용검진·제출 서류",
+    "metaTitle": "채용검진·제출 서류 | 영통탑내과",
+    "description": "채용·제출 목적에 맞는 검진과 서류 발급을 안내합니다.",
+    "template": "checkup-detail",
+    "category": "건강검진",
+    "intro": "채용·제출 목적에 맞는 검진과 서류 발급을 안내합니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "검사 항목과 양식은 제출기관에 따라 달라질 수 있습니다. 회사나 기관에서 받은 안내문을 먼저 확인해 주세요."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "제출처, 제출 기한, 지정 양식과 신분증을 준비해 문의해 주세요. 검사 준비와 결과지 발급일은 필요한 항목을 확인한 뒤 안내받습니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "모든 면허·비자·기관의 지정 검진을 동일하게 취급하지 않습니다. 제출기관이 정한 조건과 병원의 실제 발급 가능 범위를 확인해야 합니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "검사 항목과 양식은 제출기관에 따라 달라질 수 있습니다. 회사나 기관에서 받은 안내문을 먼저 확인해 주세요."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "제출처, 제출 기한, 지정 양식과 신분증을 준비해 문의해 주세요. 검사 준비와 결과지 발급일은 필요한 항목을 확인한 뒤 안내받습니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "모든 면허·비자·기관의 지정 검진을 동일하게 취급하지 않습니다. 제출기관이 정한 조건과 병원의 실제 발급 가능 범위를 확인해야 합니다."
+      }
+    ],
+    "related": [
+      "checkups",
+      "drug-screening",
+      "tuberculosis-screening",
+      "visa-checkup",
+      "fees",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/32"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "national-checkup",
+    "path": "/checkups/national/",
+    "title": "국가건강검진",
+    "metaTitle": "국가건강검진 | 영통탑내과",
+    "description": "국가건강검진 대상 확인부터 검사 준비와 결과 안내까지, 필요한 절차를 확인하세요.",
+    "template": "checkup-detail",
+    "category": "건강검진",
+    "intro": "국가건강검진 대상 확인부터 검사 준비와 결과 안내까지, 필요한 절차를 확인하세요.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "기존 홈페이지에서 국가검진과 암검진을 안내하고 있습니다. 개인별 대상 항목은 국민건강보험공단의 대상 조회와 병원 예약 상담을 통해 확인합니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "신분증과 검진 대상 안내를 준비해 주세요. 금식·음료·복용약에 관한 사항은 실제 검진 항목과 예약 시각에 맞춰 안내받습니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "검진은 개인의 모든 질환을 확인하는 진료를 대신하지 않습니다. 증상이 있거나 기존 질환을 치료 중이라면 예약할 때 함께 알려주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "기존 홈페이지에서 국가검진과 암검진을 안내하고 있습니다. 개인별 대상 항목은 국민건강보험공단의 대상 조회와 병원 예약 상담을 통해 확인합니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "신분증과 검진 대상 안내를 준비해 주세요. 금식·음료·복용약에 관한 사항은 실제 검진 항목과 예약 시각에 맞춰 안내받습니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "검진은 개인의 모든 질환을 확인하는 진료를 대신하지 않습니다. 증상이 있거나 기존 질환을 치료 중이라면 예약할 때 함께 알려주세요."
+      }
+    ],
+    "related": [
+      "checkups",
+      "cancer-screening",
+      "checkup-preparation",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/31"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "tuberculosis-screening",
+    "path": "/checkups/tuberculosis/",
+    "title": "기숙사 결핵검진",
+    "metaTitle": "기숙사 결핵검진 | 영통탑내과",
+    "description": "기숙사 등 제출기관에서 요구하는 결핵검진과 결과지 조건을 확인하세요.",
+    "template": "checkup-detail",
+    "category": "건강검진",
+    "intro": "기숙사 등 제출기관에서 요구하는 결핵검진과 결과지 조건을 확인하세요.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "제출처가 요구하는 검사 종류를 먼저 확인해야 합니다. 흉부 영상 검사와 잠복결핵 관련 검사를 같은 항목으로 가정하지 않습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "기숙사 안내문이나 제출 양식, 신분증과 제출 기한을 준비해 문의해 주세요."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "검사 종류와 결과지 유효기간은 기관별로 다를 수 있습니다. 필요한 검사를 확인하기 전에 발급 가능 여부를 확정하지 않습니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "제출처가 요구하는 검사 종류를 먼저 확인해야 합니다. 흉부 영상 검사와 잠복결핵 관련 검사를 같은 항목으로 가정하지 않습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "기숙사 안내문이나 제출 양식, 신분증과 제출 기한을 준비해 문의해 주세요."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "검사 종류와 결과지 유효기간은 기관별로 다를 수 있습니다. 필요한 검사를 확인하기 전에 발급 가능 여부를 확정하지 않습니다."
+      }
+    ],
+    "related": [
+      "checkups",
+      "employment-checkup",
+      "fees",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/34"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "visa-checkup",
+    "path": "/checkups/visa/",
+    "title": "외국인 비자검진",
+    "metaTitle": "외국인 비자검진 | 영통탑내과",
+    "description": "비자 유형과 제출기관의 요구에 맞춰 검진 가능 여부를 안내합니다.",
+    "template": "checkup-detail",
+    "category": "건강검진",
+    "intro": "비자 유형과 제출기관의 요구에 맞춰 검진 가능 여부를 안내합니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "외국인 검진은 비자·제출처·양식에 따라 조건이 달라질 수 있습니다. 병원에서 시행할 수 있는 범위를 예약 전에 확인해 주세요."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "여권 등 필요한 신분 확인 자료와 제출기관 안내를 준비합니다. 사진·양식·영문서류 필요 여부는 상담 시 확인해 주세요."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "특정 비자나 국가의 지정 검진을 모두 제공한다는 뜻은 아닙니다. 서류 요건과 제출기한을 사전에 확인해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "외국인 검진은 비자·제출처·양식에 따라 조건이 달라질 수 있습니다. 병원에서 시행할 수 있는 범위를 예약 전에 확인해 주세요."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "여권 등 필요한 신분 확인 자료와 제출기관 안내를 준비합니다. 사진·양식·영문서류 필요 여부는 상담 시 확인해 주세요."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "특정 비자나 국가의 지정 검진을 모두 제공한다는 뜻은 아닙니다. 서류 요건과 제출기한을 사전에 확인해 주세요."
+      }
+    ],
+    "related": [
+      "checkups",
+      "drug-screening",
+      "fees",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/35"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "conditions",
+    "path": "/conditions/",
+    "title": "내과 진료 안내",
+    "metaTitle": "내과 진료 안내 | 영통탑내과",
+    "description": "반복되는 기침, 심장 관련 증상과 급성기질환의 진료를 안내합니다. 증상의 시작과 변화, 복용약을 정리하면 상담에 도움이 됩니다.",
+    "template": "condition-index",
+    "category": "내과 진료",
+    "intro": "반복되는 기침, 심장 관련 증상과 급성기질환의 진료를 안내합니다. 증상의 시작과 변화, 복용약을 정리하면 상담에 도움이 됩니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "chronic-cough",
+      "heart-disease",
+      "acute-care",
+      "cancer-support",
+      "services",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/20"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "acute-care",
+    "path": "/conditions/acute-care/",
+    "title": "급성기질환 진료",
+    "metaTitle": "급성기질환 진료 | 영통탑내과",
+    "description": "발열·복통·호흡기 증상 등 급성기질환의 진료를 안내합니다.",
+    "template": "condition-detail",
+    "category": "내과 진료",
+    "intro": "발열·복통·호흡기 증상 등 급성기질환의 진료를 안내합니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "증상의 경과를 확인하고 필요한 검사와 처치를 검토합니다. 상태에 따라 응급실이나 다른 의료기관으로의 연계가 필요할 수 있습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "증상 시작 시점, 복용약, 기존 질환과 다른 병원의 검사 결과를 알려주세요."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "원문에 소개된 모든 질환을 병원 안에서 치료한다는 의미는 아닙니다. 심한 호흡곤란·의식 저하·급격한 상태 악화는 즉시 긴급 도움을 요청하세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "증상의 경과를 확인하고 필요한 검사와 처치를 검토합니다. 상태에 따라 응급실이나 다른 의료기관으로의 연계가 필요할 수 있습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "증상 시작 시점, 복용약, 기존 질환과 다른 병원의 검사 결과를 알려주세요."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "원문에 소개된 모든 질환을 병원 안에서 치료한다는 의미는 아닙니다. 심한 호흡곤란·의식 저하·급격한 상태 악화는 즉시 긴급 도움을 요청하세요."
+      }
+    ],
+    "related": [
+      "conditions",
+      "bowel-ultrasound",
+      "abdominal-ultrasound",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/46"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "chronic-cough",
+    "path": "/conditions/chronic-cough/",
+    "title": "만성기침 진료",
+    "metaTitle": "만성기침 진료 | 영통탑내과",
+    "description": "기침이 지속될 때 증상 경과와 동반 증상을 함께 살펴보는 진료입니다.",
+    "template": "condition-detail",
+    "category": "내과 진료",
+    "intro": "기침이 지속될 때 증상 경과와 동반 증상을 함께 살펴보는 진료입니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "언제부터 기침이 있었는지, 가래·발열·호흡곤란이 동반되는지, 어떤 상황에서 심해지는지 확인합니다. 진찰에 따라 필요한 검사를 논의합니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "복용 중인 약과 기존 질환, 이전 검사 결과를 알려주세요. 처방약을 임의로 끊지 말고 진료에서 상담합니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "기침의 원인을 글만으로 진단할 수는 없습니다. 숨쉬기 어렵거나 상태가 급격히 나빠지는 경우 예약일까지 기다리지 말고 신속한 진료를 받으세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "언제부터 기침이 있었는지, 가래·발열·호흡곤란이 동반되는지, 어떤 상황에서 심해지는지 확인합니다. 진찰에 따라 필요한 검사를 논의합니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "복용 중인 약과 기존 질환, 이전 검사 결과를 알려주세요. 처방약을 임의로 끊지 말고 진료에서 상담합니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "기침의 원인을 글만으로 진단할 수는 없습니다. 숨쉬기 어렵거나 상태가 급격히 나빠지는 경우 예약일까지 기다리지 말고 신속한 진료를 받으세요."
+      }
+    ],
+    "related": [
+      "conditions",
+      "acute-care",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/28"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "heart-disease",
+    "path": "/conditions/heart-disease/",
+    "title": "심장질환 진료",
+    "metaTitle": "심장질환 진료 | 영통탑내과",
+    "description": "두근거림·가슴 불편감 등 심장 관련 증상의 평가와 검사를 안내합니다.",
+    "template": "condition-detail",
+    "category": "내과 진료",
+    "intro": "두근거림·가슴 불편감 등 심장 관련 증상의 평가와 검사를 안내합니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "심전도, 심장초음파, 홀터 등은 서로 다른 정보를 제공합니다. 검사 선택과 결과 해석은 증상과 진찰을 바탕으로 이뤄집니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "증상이 시작된 시점, 지속되는 시간, 운동이나 휴식과의 관계를 알려주세요. 이전 검사와 복용약 정보도 함께 준비합니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "갑작스럽고 심한 흉통, 심한 호흡곤란, 의식 저하 등이 있으면 일반 예약을 기다리지 말고 119 등 긴급 도움을 요청하세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "심전도, 심장초음파, 홀터 등은 서로 다른 정보를 제공합니다. 검사 선택과 결과 해석은 증상과 진찰을 바탕으로 이뤄집니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "증상이 시작된 시점, 지속되는 시간, 운동이나 휴식과의 관계를 알려주세요. 이전 검사와 복용약 정보도 함께 준비합니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "갑작스럽고 심한 흉통, 심한 호흡곤란, 의식 저하 등이 있으면 일반 예약을 기다리지 말고 119 등 긴급 도움을 요청하세요."
+      }
+    ],
+    "related": [
+      "conditions",
+      "heart-index",
+      "palpitations-followup",
+      "doctor-park-jongseol"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/29"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "content-policy",
+    "path": "/content-policy/",
+    "title": "의료정보 작성·검수 원칙",
+    "metaTitle": "의료정보 작성·검수 원칙 | 영통탑내과",
+    "description": "의료정보의 출처와 적용 범위를 함께 안내합니다.",
+    "template": "policy",
+    "category": "병원 안내",
+    "intro": "의료정보의 출처와 적용 범위를 함께 안내합니다.",
+    "blocks": [
+      {
+        "heading": "의료정보 작성·검수 원칙",
+        "text": "병원 정보는 기존 영통탑내과 홈페이지를 바탕으로 정리했습니다. 게시일과 자료 확인일, 의료적 검토일은 구분하며 실제 검수 이력이 없는 글에 검수자를 표시하지 않습니다. 개별 환자의 진단·치료는 온라인 설명만으로 결정할 수 없습니다. 안내 내용에 오류가 있거나 현재 운영과 다른 부분이 있으면 병원으로 문의해 주세요."
+      },
+      {
+        "heading": "출처와 질문의 선정",
+        "text": "기존 병원 홈페이지의 공개 정보를 정리하고, 일부 검사 설명은 대학병원 건강정보를 함께 참고합니다. 질문은 안내에 필요한 주제를 편집한 것으로 검색 빈도가 검증된 순위나 외부 이용자의 실제 질의로 표시하지 않습니다. 외부 질의응답의 글과 개인정보는 옮기지 않습니다."
+      },
+      {
+        "heading": "사례와 자료의 범위",
+        "text": "진단 사례는 기존 글의 취지를 설명하는 교육용 요약입니다. 환자의 나이·성별·수치·검사 이미지는 싣지 않았으며 치료 효과를 보장하거나 전형적인 결과로 제시하지 않습니다. 현재 운영 정보와 차이가 날 수 있는 과거 공지는 게시일을 함께 표시합니다."
+      },
+      {
+        "heading": "검토와 수정",
+        "text": "현재는 홈페이지 검토본으로, 의료진의 최종 검수 이력이 없습니다. 운영 시간·비용·서류·검사 조건은 병원에서 확인해야 합니다. 실제 검수 후 담당자와 검토일, 출처를 기록하고 내용이 바뀌면 다시 확인하는 절차를 적용합니다."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "doctors",
+      "health",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/48"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "doctors",
+    "path": "/doctors/",
+    "title": "의료진 소개",
+    "metaTitle": "의료진 소개 | 영통탑내과",
+    "description": "내과 전문의 박종설 대표원장과 가정의학과 전문의 박라영 원장의 전문 분야와 주요 진료 이력을 소개합니다.",
+    "template": "physician-index",
+    "category": "병원 안내",
+    "intro": "내과 전문의 박종설 대표원장과 가정의학과 전문의 박라영 원장의 전문 분야와 주요 진료 이력을 소개합니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "doctor-park-jongseol",
+      "doctor-park-rayoung",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/48"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "doctor-park-jongseol",
+    "path": "/doctors/park-jongseol/",
+    "title": "박종설 대표원장",
+    "metaTitle": "박종설 대표원장 | 영통탑내과",
+    "description": "내과 전문의 박종설 대표원장의 주요 이력과 학회 활동을 기존 홈페이지 의료진 소개를 기준으로 안내합니다.",
+    "template": "physician-detail",
+    "category": "병원 안내",
+    "intro": "내과 전문의 박종설 대표원장의 주요 이력과 학회 활동을 기존 홈페이지 의료진 소개를 기준으로 안내합니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "doctors",
+      "heart-index",
+      "endoscopy",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/48"
+      }
+    ],
+    "image": "jongseol",
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "doctor-park-rayoung",
+    "path": "/doctors/park-rayoung/",
+    "title": "박라영 원장",
+    "metaTitle": "박라영 원장 | 영통탑내과",
+    "description": "가정의학과 전문의 박라영 원장의 주요 이력과 인정 자격을 기존 홈페이지 의료진 소개를 기준으로 안내합니다.",
+    "template": "physician-detail",
+    "category": "병원 안내",
+    "intro": "가정의학과 전문의 박라영 원장의 주요 이력과 인정 자격을 기존 홈페이지 의료진 소개를 기준으로 안내합니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "doctors",
+      "checkups",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/48"
+      }
+    ],
+    "image": "rayoung",
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "fees",
+    "path": "/fees/",
+    "title": "비용·서류 발급 안내",
+    "metaTitle": "비용·서류 발급 안내 | 영통탑내과",
+    "description": "검사와 서류 비용은 적용 항목을 먼저 확인해 주세요.",
+    "template": "fees",
+    "category": "병원 안내",
+    "intro": "검사와 서류 비용은 적용 항목을 먼저 확인해 주세요.",
+    "blocks": [
+      {
+        "heading": "비용·서류 발급 안내",
+        "text": "검사비·진정 비용·조직검사·추가 처치·서류 발급 비용은 서로 다른 항목일 수 있습니다. 기존 이벤트 가격을 상시 총 검사비로 안내하지 않습니다. 검사 종류와 제출 서류를 알려주시면 적용 조건을 확인할 수 있습니다."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "checkups",
+      "endoscopy",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "health",
+    "path": "/health/",
+    "title": "검사·진료 이해하기",
+    "metaTitle": "검사·진료 이해하기 | 영통탑내과",
+    "description": "심장검사의 차이부터 건강검진·내시경 준비까지. 의료진과 상담할 때 필요한 질문과 확인 사항을 정리했습니다.",
+    "template": "article-index",
+    "category": "건강정보",
+    "intro": "심장검사의 차이부터 건강검진·내시경 준비까지. 의료진과 상담할 때 필요한 질문과 확인 사항을 정리했습니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "heart-test-differences",
+      "palpitations-followup",
+      "checkup-preparation",
+      "colonoscopy-preparation",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/23"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/36"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/31"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "checkup-preparation",
+    "path": "/health/checkup-preparation-checklist/",
+    "title": "건강검진 전 준비 확인표",
+    "metaTitle": "건강검진 전 준비 확인표 | 영통탑내과",
+    "description": "본인의 검진 항목과 예약 시각을 먼저 확인하세요. 모든 검진에 같은 준비 방법을 적용하지 않습니다.",
+    "template": "article-detail",
+    "category": "건강정보",
+    "intro": "본인의 검진 항목과 예약 시각을 먼저 확인하세요. 모든 검진에 같은 준비 방법을 적용하지 않습니다.",
+    "blocks": [
+      {
+        "heading": "검진 항목 확인",
+        "text": "내시경·초음파·혈액검사 등 실제 포함된 항목에 따라 준비를 안내받습니다."
+      },
+      {
+        "heading": "식사·물·커피",
+        "text": "금식은 음식과 음료를 구분해 확인해야 합니다. 인터넷의 일률적인 시간표보다 본인의 예약 안내를 확인해 주세요."
+      },
+      {
+        "heading": "복용약",
+        "text": "약 이름과 복용 목적을 알려주세요. 특히 검사 전 조정이 필요한 약은 의료진에게 확인하고 임의로 중단하지 않습니다."
+      },
+      {
+        "heading": "방문 준비",
+        "text": "신분증·제출기관 양식·이전 검사 결과를 확인합니다. 진정 검사가 있다면 보호자와 귀가 방법도 사전에 문의해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "검진에 어떤 항목이 포함되는지 확인해야 하나요?",
+        "answer": "내시경·초음파·혈액검사 등 실제 포함된 항목에 따라 준비를 안내받습니다."
+      },
+      {
+        "question": "금식할 때 물과 커피도 제한하나요?",
+        "answer": "금식은 음식과 음료를 구분해 확인해야 합니다. 인터넷의 일률적인 시간표보다 본인의 예약 안내를 확인해 주세요."
+      },
+      {
+        "question": "평소 먹는 약을 중단해야 하나요?",
+        "answer": "약 이름과 복용 목적을 알려주세요. 특히 검사 전 조정이 필요한 약은 의료진에게 확인하고 임의로 중단하지 않습니다."
+      }
+    ],
+    "related": [
+      "national-checkup",
+      "employment-checkup",
+      "endoscopy",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/31"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/32"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "title": "대장내시경 준비 시 확인할 질문",
+    "metaTitle": "대장내시경 준비 시 확인할 질문 | 영통탑내과",
+    "description": "검사 시각·진정 여부·정결제 종류에 맞춘 준비가 필요합니다. 본인에게 제공된 병원 안내를 기준으로 준비해 주세요.",
+    "template": "article-detail",
+    "category": "건강정보",
+    "intro": "검사 시각·진정 여부·정결제 종류에 맞춘 준비가 필요합니다. 본인에게 제공된 병원 안내를 기준으로 준비해 주세요.",
+    "blocks": [
+      {
+        "heading": "음식과 음료",
+        "text": "검사 전 식사 종류와 중단 시점, 물과 다른 음료의 제한은 서로 구분해 확인합니다."
+      },
+      {
+        "heading": "정결제 복용",
+        "text": "안내받은 제품과 복용 순서를 확인합니다. 복용이 어렵거나 구토 등 문제가 생기면 병원에 연락하고 임의로 생략하지 않습니다."
+      },
+      {
+        "heading": "복용약과 기존 질환",
+        "text": "현재 약과 기존 질환을 예약 시 알려주세요. 검사 전 약 조정은 개별 안내가 필요합니다."
+      },
+      {
+        "heading": "검사 당일과 귀가",
+        "text": "진정 여부에 따른 보호자·귀가 안내를 미리 확인합니다. 준비가 맞는지 불분명하면 방문 전에 문의해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "검사 전 음식과 음료는 어떻게 준비하나요?",
+        "answer": "검사 전 식사 종류와 중단 시점, 물과 다른 음료의 제한은 서로 구분해 확인합니다."
+      },
+      {
+        "question": "정결제를 먹기 어렵다면 어떻게 하나요?",
+        "answer": "안내받은 제품과 복용 순서를 확인합니다. 복용이 어렵거나 구토 등 문제가 생기면 병원에 연락하고 임의로 생략하지 않습니다."
+      },
+      {
+        "question": "복용약이나 기존 질환을 알려야 하나요?",
+        "answer": "현재 약과 기존 질환을 예약 시 알려주세요. 검사 전 약 조정은 개별 안내가 필요합니다."
+      }
+    ],
+    "related": [
+      "colonoscopy",
+      "endoscopy",
+      "checkup-preparation",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/30"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/31"
+      },
+      {
+        "title": "서울아산병원 건강증진센터 · 진정 대장내시경",
+        "url": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=12"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "heart-test-differences",
+    "path": "/health/heart-test-differences/",
+    "title": "심전도·심장초음파·홀터검사의 차이",
+    "metaTitle": "심전도·심장초음파·홀터검사의 차이 | 영통탑내과",
+    "description": "검사마다 확인하는 정보가 다릅니다. 어느 검사가 항상 더 정확한지보다, 어떤 질문에 답하는 검사인지 이해하는 것이 중요합니다.",
+    "template": "article-detail",
+    "category": "건강정보",
+    "intro": "검사마다 확인하는 정보가 다릅니다. 어느 검사가 항상 더 정확한지보다, 어떤 질문에 답하는 검사인지 이해하는 것이 중요합니다.",
+    "blocks": [
+      {
+        "heading": "심전도",
+        "text": "심장의 전기적 활동을 기록합니다. 기록 시점의 정보와 장시간 기록의 정보는 구분해 살펴봅니다."
+      },
+      {
+        "heading": "심장초음파",
+        "text": "심장의 구조와 움직임, 혈류를 영상으로 평가합니다. 전기적 활동을 기록하는 심전도와 역할이 다릅니다."
+      },
+      {
+        "heading": "홀터검사",
+        "text": "일상생활 중 심전도를 기록합니다. 증상이 나타난 시점과 기록을 함께 확인할 수 있습니다."
+      },
+      {
+        "heading": "결과를 함께 이해하기",
+        "text": "한 검사의 정상 결과가 모든 심장질환의 배제를 뜻하지 않습니다. 지속되는 증상은 검사 결과와 함께 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "심전도는 무엇을 기록하나요?",
+        "answer": "심장의 전기적 활동을 기록합니다. 기록 시점의 정보와 장시간 기록의 정보는 구분해 살펴봅니다."
+      },
+      {
+        "question": "심장초음파는 심전도와 어떻게 다른가요?",
+        "answer": "심장의 구조와 움직임, 혈류를 영상으로 평가합니다. 전기적 활동을 기록하는 심전도와 역할이 다릅니다."
+      },
+      {
+        "question": "홀터검사는 어떤 정보를 확인하나요?",
+        "answer": "일상생활 중 심전도를 기록합니다. 증상이 나타난 시점과 기록을 함께 확인할 수 있습니다."
+      }
+    ],
+    "related": [
+      "echocardiography",
+      "holter",
+      "heart-index",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/23"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/36"
+      },
+      {
+        "title": "서울아산병원 · 심장초음파 검사",
+        "url": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=516"
+      },
+      {
+        "title": "서울대학교병원 · 서맥과 심전도 검사 설명",
+        "url": "https://www.snuh.org/health/nMedInfo/nView.do?medid=AA001378"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "palpitations-followup",
+    "path": "/health/palpitations-test-followup/",
+    "title": "검사 후에도 두근거림이 계속될 때 확인할 점",
+    "metaTitle": "검사 후에도 두근거림이 계속될 때 확인할 점 | 영통탑내과",
+    "description": "검사 중 평소의 증상이 기록되었는지, 결과와 증상이 어떻게 연결되는지 진료에서 확인해 주세요.",
+    "template": "article-detail",
+    "category": "건강정보",
+    "intro": "검사 중 평소의 증상이 기록되었는지, 결과와 증상이 어떻게 연결되는지 진료에서 확인해 주세요.",
+    "blocks": [
+      {
+        "heading": "증상이 기록된 시점",
+        "text": "검사 중 두근거림이 나타난 시각과 활동을 기록하면 상담에 도움이 됩니다."
+      },
+      {
+        "heading": "검사에서 증상이 없었다면",
+        "text": "검사 때 증상이 나타나지 않았다는 사실도 결과를 해석할 때 고려합니다. 검사 하나의 결과로 원인을 스스로 단정하지 않습니다."
+      },
+      {
+        "heading": "진료에 가져갈 정보",
+        "text": "증상 발생 시각·지속 시간·동반 증상과 이전 검사 결과, 복용약을 정리해 주세요."
+      },
+      {
+        "heading": "긴급한 증상",
+        "text": "심한 흉통·호흡곤란이나 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을 요청하세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "두근거림이 나타날 때 무엇을 기록하나요?",
+        "answer": "검사 중 두근거림이 나타난 시각과 활동을 기록하면 상담에 도움이 됩니다."
+      },
+      {
+        "question": "검사 중 증상이 나타나지 않았다면 어떻게 하나요?",
+        "answer": "검사 때 증상이 나타나지 않았다는 사실도 결과를 해석할 때 고려합니다. 검사 하나의 결과로 원인을 스스로 단정하지 않습니다."
+      },
+      {
+        "question": "다음 진료에 어떤 정보를 가져가면 좋을까요?",
+        "answer": "증상 발생 시각·지속 시간·동반 증상과 이전 검사 결과, 복용약을 정리해 주세요."
+      }
+    ],
+    "related": [
+      "holter",
+      "heart-disease",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/36"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/29"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notices",
+    "path": "/notices/",
+    "title": "공지사항",
+    "metaTitle": "공지사항 | 영통탑내과",
+    "description": "기존 홈페이지에 게시된 장비 도입, 검진과 서류 발급 소식을 확인하세요. 과거 휴진 기록과 현재 운영 안내는 구분해 살펴보세요.",
+    "template": "notice-index",
+    "category": "공지사항",
+    "intro": "기존 홈페이지에 게시된 장비 도입, 검진과 서류 발급 소식을 확인하세요. 과거 휴진 기록과 현재 운영 안내는 구분해 살펴보세요.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "visit",
+      "notice-screening-evaluation",
+      "notice-drug-certificate",
+      "notice-pathfast",
+      "notice-closure-20250624",
+      "notice-mammography"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-closure-20250624",
+    "path": "/notices/closure-2025-06-24/",
+    "title": "2025년 6월 24일 오후 휴진 기록",
+    "metaTitle": "2025년 6월 24일 오후 휴진 기록 | 영통탑내과",
+    "description": "2025년 6월 24일 박종설 원장의 오후 진료 휴진에 관한 과거 공지입니다. 현재 진료시간이나 상시 휴진 안내가 아니며, 현재 일정은 진료시간·오시는 길에서 확인해 주세요.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "2025년 6월 24일 박종설 원장의 오후 진료 휴진에 관한 과거 공지입니다. 현재 진료시간이나 상시 휴진 안내가 아니며, 현재 일정은 진료시간·오시는 길에서 확인해 주세요.",
+    "blocks": [
+      {
+        "heading": "종료된 휴진 공지",
+        "text": "2025년 6월 24일 박종설 원장의 오후 진료 휴진에 관한 과거 공지입니다. 현재 진료시간이나 상시 휴진 안내가 아니며, 현재 일정은 진료시간·오시는 길에서 확인해 주세요."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "visit",
+      "notices"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=165787604&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2025-06-20T16:17:28+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": false,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-drug-certificate",
+    "path": "/notices/drug-certificate/",
+    "title": "마약검사 영문서류 발급 안내",
+    "metaTitle": "마약검사 영문서류 발급 안내 | 영통탑내과",
+    "description": "영문서류가 필요한 경우 제출기관의 양식과 요구 검사 항목을 미리 확인해 주세요. 검사 항목과 발급 가능 시점은 실제 검사와 서류 조건에 따라 병원에 문의해 주세요.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "영문서류가 필요한 경우 제출기관의 양식과 요구 검사 항목을 미리 확인해 주세요. 검사 항목과 발급 가능 시점은 실제 검사와 서류 조건에 따라 병원에 문의해 주세요.",
+    "blocks": [
+      {
+        "heading": "마약검사 영문서류 발급 안내",
+        "text": "영문서류가 필요한 경우 제출기관의 양식과 요구 검사 항목을 미리 확인해 주세요. 검사 항목과 발급 가능 시점은 실제 검사와 서류 조건에 따라 병원에 문의해 주세요."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "drug-screening",
+      "employment-checkup"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=172420773&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2026-07-14T12:33:16+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-mammography",
+    "path": "/notices/mammography-equipment/",
+    "title": "디지털 유방촬영 장비 도입 안내",
+    "metaTitle": "디지털 유방촬영 장비 도입 안내 | 영통탑내과",
+    "description": "기존 홈페이지에서 Pinkview – DR Smart 디지털 유방촬영 장비 도입을 안내합니다. 검사 대상과 실제 검진 항목은 예약 전에 확인해 주세요.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "기존 홈페이지에서 Pinkview – DR Smart 디지털 유방촬영 장비 도입을 안내합니다. 검사 대상과 실제 검진 항목은 예약 전에 확인해 주세요.",
+    "blocks": [
+      {
+        "heading": "디지털 유방촬영 장비 도입 안내",
+        "text": "기존 홈페이지에서 Pinkview – DR Smart 디지털 유방촬영 장비 도입을 안내합니다. 검사 대상과 실제 검진 항목은 예약 전에 확인해 주세요."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "national-checkup",
+      "cancer-screening"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=165253784&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2025-06-11T16:32:19+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-pathfast",
+    "path": "/notices/pathfast/",
+    "title": "심장 표지자 검사 장비 도입 안내",
+    "metaTitle": "심장 표지자 검사 장비 도입 안내 | 영통탑내과",
+    "description": "기존 홈페이지에서 심장 관련 혈액 표지자 검사를 위한 PATHFAST 도입을 안내합니다. 실제 검사 항목과 결과 설명은 진료 시 확인하며, 장비 도입이 모든 심장질환의 진단을 보장하는 것은 아닙니다.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "기존 홈페이지에서 심장 관련 혈액 표지자 검사를 위한 PATHFAST 도입을 안내합니다. 실제 검사 항목과 결과 설명은 진료 시 확인하며, 장비 도입이 모든 심장질환의 진단을 보장하는 것은 아닙니다.",
+    "blocks": [
+      {
+        "heading": "PATHFAST 장비 도입 안내",
+        "text": "기존 홈페이지에서 심장 관련 혈액 표지자 검사를 위한 PATHFAST 도입을 안내합니다. 실제 검사 항목과 결과 설명은 진료 시 확인하며, 장비 도입이 모든 심장질환의 진단을 보장하는 것은 아닙니다."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "cardiac-markers",
+      "heart-index"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=166166318&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2025-06-26T10:23:10+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-screening-evaluation",
+    "path": "/notices/screening-evaluation/",
+    "title": "국가검진기관 평가 안내",
+    "metaTitle": "국가검진기관 평가 안내 | 영통탑내과",
+    "description": "기존 홈페이지는 간암·위암 부문 국가검진기관 평가에서 우수기관으로 선정되었다고 안내합니다. 평가의 회차·적용 기간과 해당 부문을 구분해 확인해야 하며, 모든 검진 분야에 대한 평가로 확대하지 않습니다.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "기존 홈페이지는 간암·위암 부문 국가검진기관 평가에서 우수기관으로 선정되었다고 안내합니다. 평가의 회차·적용 기간과 해당 부문을 구분해 확인해야 하며, 모든 검진 분야에 대한 평가로 확대하지 않습니다.",
+    "blocks": [
+      {
+        "heading": "국가검진기관 평가 안내",
+        "text": "기존 홈페이지는 간암·위암 부문 국가검진기관 평가에서 우수기관으로 선정되었다고 안내합니다. 평가의 회차·적용 기간과 해당 부문을 구분해 확인해야 하며, 모든 검진 분야에 대한 평가로 확대하지 않습니다."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "national-checkup",
+      "cancer-screening"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=172420973&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2026-07-14T12:44:19+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "privacy",
+    "path": "/privacy/",
+    "title": "개인정보 처리 안내",
+    "metaTitle": "개인정보 처리 안내 | 영통탑내과",
+    "description": "이 사이트에서는 환자 정보를 입력받는 상담·예약 폼을 운영하지 않습니다.",
+    "template": "policy",
+    "category": "병원 안내",
+    "intro": "이 사이트에서는 환자 정보를 입력받는 상담·예약 폼을 운영하지 않습니다.",
+    "blocks": [
+      {
+        "heading": "개인정보 처리 안내",
+        "text": "전화와 외부 지도 링크를 통해 안내받을 수 있습니다. 외부 서비스로 이동하면 해당 서비스의 정책이 적용됩니다. 이 사이트는 별도의 방문자 분석 도구와 광고 추적기를 사용하지 않으며, 사이트 검색어도 서버로 전송하지 않습니다. GitHub Pages 호스팅에 필요한 접속 정보의 처리는 GitHub 개인정보 정책을 따릅니다."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "content-policy",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "GitHub 개인정보 처리방침",
+        "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "search",
+    "path": "/search/",
+    "title": "사이트 검색",
+    "metaTitle": "사이트 검색 | 영통탑내과",
+    "description": "진료·검사 이름, 의료진, 방문 안내와 건강정보를 찾아보세요. 여러 단어를 띄어 쓰면 해당 단어가 모두 포함된 자료를 찾습니다.",
+    "template": "search",
+    "category": "병원 안내",
+    "intro": "진료·검사 이름, 의료진, 방문 안내와 건강정보를 찾아보세요. 여러 단어를 띄어 쓰면 해당 단어가 모두 포함된 자료를 찾습니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "services",
+      "checkups",
+      "health",
+      "sitemap"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": false,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "services",
+    "path": "/services/",
+    "title": "진료·검사 안내",
+    "metaTitle": "진료·검사 안내 | 영통탑내과",
+    "description": "심장검사, 내시경, 초음파와 내과 진료를 안내합니다. 검사별 목적·준비 사항·결과를 이해할 때 확인할 점을 살펴보세요.",
+    "template": "service-index",
+    "category": "병원 안내",
+    "intro": "심장검사, 내시경, 초음파와 내과 진료를 안내합니다. 검사별 목적·준비 사항·결과를 이해할 때 확인할 점을 살펴보세요.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "ultrasound-index",
+      "endoscopy",
+      "conditions",
+      "cancer-support",
+      "checkups"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/18"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/24"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/20"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/47"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "cancer-support",
+    "path": "/services/cancer-support/",
+    "title": "암환자 진료·케어 안내",
+    "metaTitle": "암환자 진료·케어 안내 | 영통탑내과",
+    "description": "암 치료 과정에서 필요한 진료와 케어의 범위를 상담합니다.",
+    "template": "service-detail",
+    "category": "병원 안내",
+    "intro": "암 치료 과정에서 필요한 진료와 케어의 범위를 상담합니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "기존 홈페이지에서는 암환자 케어를 소개합니다. 현재 받는 치료와 주치의의 치료 계획을 바탕으로 병원에서 제공 가능한 진료를 확인합니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "진단과 치료 이력, 현재 복용약, 주치의의 안내를 준비해 주세요. 치료 변경은 담당 의료진과 상의합니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "지지 진료가 기존 항암치료를 대신하거나 완치·생존 개선을 보장하는 것은 아닙니다. 구체적인 제공 항목과 근거를 상담에서 확인해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "기존 홈페이지에서는 암환자 케어를 소개합니다. 현재 받는 치료와 주치의의 치료 계획을 바탕으로 병원에서 제공 가능한 진료를 확인합니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "진단과 치료 이력, 현재 복용약, 주치의의 안내를 준비해 주세요. 치료 변경은 담당 의료진과 상의합니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "지지 진료가 기존 항암치료를 대신하거나 완치·생존 개선을 보장하는 것은 아닙니다. 구체적인 제공 항목과 근거를 상담에서 확인해 주세요."
+      }
+    ],
+    "related": [
+      "conditions",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/47"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "endoscopy",
+    "path": "/services/endoscopy/",
+    "title": "위·대장내시경 안내",
+    "metaTitle": "위·대장내시경 안내 | 영통탑내과",
+    "description": "위내시경과 대장내시경의 목적과 준비를 안내합니다. 검사 시각, 진정 여부와 복용약에 맞는 개별 안내를 확인해 주세요.",
+    "template": "service-hub",
+    "category": "내시경",
+    "intro": "위내시경과 대장내시경의 목적과 준비를 안내합니다. 검사 시각, 진정 여부와 복용약에 맞는 개별 안내를 확인해 주세요.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "gastroscopy",
+      "colonoscopy",
+      "colonoscopy-preparation",
+      "cancer-screening",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/30"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/31"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "colonoscopy",
+    "path": "/services/endoscopy/colonoscopy/",
+    "title": "대장내시경",
+    "metaTitle": "대장내시경 | 영통탑내과",
+    "description": "대장내시경은 대장 내부를 살펴보는 검사입니다. 정확한 준비 안내를 확인해 주세요.",
+    "template": "service-detail",
+    "category": "내시경",
+    "intro": "대장내시경은 대장 내부를 살펴보는 검사입니다. 정확한 준비 안내를 확인해 주세요.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "검사에 앞서 장 정결 준비가 필요합니다. 용종이나 이상 소견이 있는 경우 추가 검사·처치가 필요한지 설명받습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "본인에게 안내된 정결제와 복용 순서를 확인해 주세요. 복용이 어렵거나 준비 중 문제가 생기면 병원에 연락하고 임의로 복용법을 바꾸지 않습니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "검사와 진정·조직검사·용종절제 비용은 동일한 항목이 아닙니다. 실제 필요한 절차와 적용 조건을 확인해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "검사에 앞서 장 정결 준비가 필요합니다. 용종이나 이상 소견이 있는 경우 추가 검사·처치가 필요한지 설명받습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "본인에게 안내된 정결제와 복용 순서를 확인해 주세요. 복용이 어렵거나 준비 중 문제가 생기면 병원에 연락하고 임의로 복용법을 바꾸지 않습니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "검사와 진정·조직검사·용종절제 비용은 동일한 항목이 아닙니다. 실제 필요한 절차와 적용 조건을 확인해 주세요."
+      }
+    ],
+    "related": [
+      "endoscopy",
+      "colonoscopy-preparation",
+      "cancer-screening",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/30"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/31"
+      },
+      {
+        "title": "서울아산병원 건강증진센터 · 진정 대장내시경",
+        "url": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=12"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "gastroscopy",
+    "path": "/services/endoscopy/gastroscopy/",
+    "title": "위내시경",
+    "metaTitle": "위내시경 | 영통탑내과",
+    "description": "위내시경은 식도·위·십이지장 등 상부 소화관을 살펴보는 검사입니다.",
+    "template": "service-detail",
+    "category": "내시경",
+    "intro": "위내시경은 식도·위·십이지장 등 상부 소화관을 살펴보는 검사입니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "검진 또는 진료 목적으로 시행하며, 진정 여부와 추가 검사 필요성은 예약과 진료 과정에서 확인합니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "예약 시각·진정 여부에 맞는 식사와 음료 제한을 안내받습니다. 복용약과 기존 질환을 미리 알려주세요."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "추가 조직검사나 처치 여부에 따라 설명과 비용이 달라질 수 있습니다. 검사 결과는 의료진에게 안내받습니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "검진 또는 진료 목적으로 시행하며, 진정 여부와 추가 검사 필요성은 예약과 진료 과정에서 확인합니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "예약 시각·진정 여부에 맞는 식사와 음료 제한을 안내받습니다. 복용약과 기존 질환을 미리 알려주세요."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "추가 조직검사나 처치 여부에 따라 설명과 비용이 달라질 수 있습니다. 검사 결과는 의료진에게 안내받습니다."
+      }
+    ],
+    "related": [
+      "endoscopy",
+      "cancer-screening",
+      "checkup-preparation",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/30"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/31"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "heart-index",
+    "path": "/services/heart/",
+    "title": "심장검사 안내",
+    "metaTitle": "심장검사 안내 | 영통탑내과",
+    "description": "심장초음파부터 홀터검사까지, 심장의 구조와 리듬을 살피는 검사들을 안내합니다. 검사 선택은 증상과 진료 결과에 따라 달라집니다.",
+    "template": "service-hub",
+    "category": "심장검사",
+    "intro": "심장초음파부터 홀터검사까지, 심장의 구조와 리듬을 살피는 검사들을 안내합니다. 검사 선택은 증상과 진료 결과에 따라 달라집니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "echocardiography",
+      "holter",
+      "carotid",
+      "hrv",
+      "abi",
+      "cardiac-markers",
+      "heart-disease",
+      "doctor-park-jongseol"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/18"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "abi",
+    "path": "/services/heart/arterial-assessment/",
+    "title": "동맥경화도 검사",
+    "metaTitle": "동맥경화도 검사 | 영통탑내과",
+    "description": "팔·다리의 혈관 상태를 평가하는 동맥경화도 검사를 안내합니다.",
+    "template": "service-detail",
+    "category": "심장검사",
+    "intro": "팔·다리의 혈관 상태를 평가하는 동맥경화도 검사를 안내합니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "기존 홈페이지에서 혈관 평가를 위한 검사로 소개하고 있습니다. 실제 사용 장비와 측정 지표는 검사 상담 시 확인할 수 있습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "기존 혈관질환과 검사 이력을 알려주세요. 검사 방식에 따라 준비가 다를 수 있어 예약 안내를 확인합니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "측정값 하나로 모든 혈관질환을 진단하거나 배제하지 않습니다. 다른 검사와의 차이도 결과 상담에서 확인해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "기존 홈페이지에서 혈관 평가를 위한 검사로 소개하고 있습니다. 실제 사용 장비와 측정 지표는 검사 상담 시 확인할 수 있습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "기존 혈관질환과 검사 이력을 알려주세요. 검사 방식에 따라 준비가 다를 수 있어 예약 안내를 확인합니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "측정값 하나로 모든 혈관질환을 진단하거나 배제하지 않습니다. 다른 검사와의 차이도 결과 상담에서 확인해 주세요."
+      }
+    ],
+    "related": [
+      "heart-index",
+      "carotid",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/39"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "cardiac-markers",
+    "path": "/services/heart/cardiac-markers/",
+    "title": "심장 표지자 검사",
+    "metaTitle": "심장 표지자 검사 | 영통탑내과",
+    "description": "혈액 속 심장 관련 표지자를 확인하는 검사입니다. 기존 홈페이지에서 PATHFAST 장비 도입을 안내하고 있습니다.",
+    "template": "service-detail",
+    "category": "심장검사",
+    "intro": "혈액 속 심장 관련 표지자를 확인하는 검사입니다. 기존 홈페이지에서 PATHFAST 장비 도입을 안내하고 있습니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "증상과 진찰, 심전도·영상 검사 등과 함께 혈액검사를 해석합니다. 제공하는 검사 항목과 결과 설명 절차는 진료 시 확인해 주세요."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "증상이 시작된 시점과 이전 심장질환·검사 이력을 알려주세요. 검사 소요시간만을 기준으로 진료나 응급 평가를 미루지 않습니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "검사 시점과 임상 상황에 따라 해석이 달라집니다. 정상 결과 하나가 심근경색을 포함한 모든 긴급 질환의 배제를 뜻하지 않습니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "증상과 진찰, 심전도·영상 검사 등과 함께 혈액검사를 해석합니다. 제공하는 검사 항목과 결과 설명 절차는 진료 시 확인해 주세요."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "증상이 시작된 시점과 이전 심장질환·검사 이력을 알려주세요. 검사 소요시간만을 기준으로 진료나 응급 평가를 미루지 않습니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "검사 시점과 임상 상황에 따라 해석이 달라집니다. 정상 결과 하나가 심근경색을 포함한 모든 긴급 질환의 배제를 뜻하지 않습니다."
+      }
+    ],
+    "related": [
+      "heart-index",
+      "heart-disease",
+      "notice-pathfast",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/40"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "carotid",
+    "path": "/services/heart/carotid-ultrasound/",
+    "title": "경동맥 초음파",
+    "metaTitle": "경동맥 초음파 | 영통탑내과",
+    "description": "목 부위의 경동맥을 초음파로 살펴보는 검사입니다.",
+    "template": "service-detail",
+    "category": "심장검사",
+    "intro": "목 부위의 경동맥을 초음파로 살펴보는 검사입니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "경동맥의 구조와 혈류를 살펴보는 검사로 소개하고 있습니다. 검사 필요성과 결과는 기존 질환과 진료 상황을 함께 고려해 설명받습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "예약 시 검사 목적과 기존 혈관 검사 여부를 알려주세요. 착용할 옷과 당일 준비는 병원의 검사 안내를 확인해 주세요."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "검사 결과를 개인의 뇌졸중 발생 확률이나 모든 혈관의 상태로 단순하게 해석하지 않습니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "경동맥의 구조와 혈류를 살펴보는 검사로 소개하고 있습니다. 검사 필요성과 결과는 기존 질환과 진료 상황을 함께 고려해 설명받습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "예약 시 검사 목적과 기존 혈관 검사 여부를 알려주세요. 착용할 옷과 당일 준비는 병원의 검사 안내를 확인해 주세요."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "검사 결과를 개인의 뇌졸중 발생 확률이나 모든 혈관의 상태로 단순하게 해석하지 않습니다."
+      }
+    ],
+    "related": [
+      "heart-index",
+      "abi",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/37"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "echocardiography",
+    "path": "/services/heart/echocardiography/",
+    "title": "심장초음파 검사",
+    "metaTitle": "심장초음파 검사 | 영통탑내과",
+    "description": "심장의 움직임과 구조를 살펴보는 초음파 검사입니다. 영통탑내과는 내원 전 전화 문의와 예약을 안내하고 있습니다.",
+    "template": "service-detail",
+    "category": "심장검사",
+    "intro": "심장의 움직임과 구조를 살펴보는 초음파 검사입니다. 영통탑내과는 내원 전 전화 문의와 예약을 안내하고 있습니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "초음파 영상을 통해 심장 근육의 움직임, 판막과 혈류 등 심장의 구조·기능을 평가합니다. 심전도와는 관찰하는 정보가 달라, 증상과 진료 결과에 따라 함께 살펴볼 수 있습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "예약할 때 검사 종류와 함께 진행하는 검사가 있는지 알려주세요. 준비 사항은 예약 안내에 따라 확인하고, 이전 검사 결과가 있다면 진료 시 제시해 주세요."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "검사 하나로 모든 심장질환을 확인하거나 배제할 수는 없습니다. 영상의 질과 증상, 다른 검사 결과를 함께 해석해야 합니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "초음파 영상을 통해 심장 근육의 움직임, 판막과 혈류 등 심장의 구조·기능을 평가합니다. 심전도와는 관찰하는 정보가 달라, 증상과 진료 결과에 따라 함께 살펴볼 수 있습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "예약할 때 검사 종류와 함께 진행하는 검사가 있는지 알려주세요. 준비 사항은 예약 안내에 따라 확인하고, 이전 검사 결과가 있다면 진료 시 제시해 주세요."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "검사 하나로 모든 심장질환을 확인하거나 배제할 수는 없습니다. 영상의 질과 증상, 다른 검사 결과를 함께 해석해야 합니다."
+      }
+    ],
+    "related": [
+      "heart-index",
+      "holter",
+      "heart-test-differences",
+      "doctor-park-jongseol",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/23"
+      },
+      {
+        "title": "서울아산병원 · 심장초음파 검사",
+        "url": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=516"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "hrv",
+    "path": "/services/heart/heart-rate-variability/",
+    "title": "심박 변이도 검사",
+    "metaTitle": "심박 변이도 검사 | 영통탑내과",
+    "description": "심장 박동 사이 간격의 변화를 측정하는 검사입니다.",
+    "template": "service-detail",
+    "category": "심장검사",
+    "intro": "심장 박동 사이 간격의 변화를 측정하는 검사입니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "심박 변이도는 박동 간격의 변동을 다루는 지표입니다. 심장 구조를 보는 초음파나 장시간 리듬을 기록하는 홀터와는 검사 목적을 구분해야 합니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "검사 전 활동과 복용약 등 검사 조건에 영향을 줄 수 있는 정보는 진료 시 알려주세요. 처방약을 임의로 중단하지 않습니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "하나의 수치로 스트레스나 특정 질환을 확정하지 않습니다. 검사 조건과 의료진의 설명을 함께 확인해 주세요."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "심박 변이도는 박동 간격의 변동을 다루는 지표입니다. 심장 구조를 보는 초음파나 장시간 리듬을 기록하는 홀터와는 검사 목적을 구분해야 합니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "검사 전 활동과 복용약 등 검사 조건에 영향을 줄 수 있는 정보는 진료 시 알려주세요. 처방약을 임의로 중단하지 않습니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "하나의 수치로 스트레스나 특정 질환을 확정하지 않습니다. 검사 조건과 의료진의 설명을 함께 확인해 주세요."
+      }
+    ],
+    "related": [
+      "heart-index",
+      "holter",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/38"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "holter",
+    "path": "/services/heart/holter/",
+    "title": "홀터검사",
+    "metaTitle": "홀터검사 | 영통탑내과",
+    "description": "일상생활 중 심전도를 기록해 간헐적으로 나타나는 심장 리듬 변화를 살펴보는 검사입니다.",
+    "template": "service-detail",
+    "category": "심장검사",
+    "intro": "일상생활 중 심전도를 기록해 간헐적으로 나타나는 심장 리듬 변화를 살펴보는 검사입니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "진료실에서 짧게 측정하는 심전도와 달리 생활 중의 기록을 확인합니다. 기존 홈페이지에는 장시간 기록을 활용한 진단 사례가 소개되어 있습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "장비 부착과 반납 시간, 샤워·운동 가능 여부는 안내받은 장비의 지침을 따라주세요. 증상이 나타난 시각과 당시 활동을 기록하면 결과 상담에 도움이 됩니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "검사 중 평소 증상이 나타나지 않았다면 기록의 의미가 달라질 수 있습니다. 이상이 없다는 결과만으로 지속되는 증상의 원인이 모두 배제되는 것은 아닙니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "진료실에서 짧게 측정하는 심전도와 달리 생활 중의 기록을 확인합니다. 기존 홈페이지에는 장시간 기록을 활용한 진단 사례가 소개되어 있습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "장비 부착과 반납 시간, 샤워·운동 가능 여부는 안내받은 장비의 지침을 따라주세요. 증상이 나타난 시각과 당시 활동을 기록하면 결과 상담에 도움이 됩니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "검사 중 평소 증상이 나타나지 않았다면 기록의 의미가 달라질 수 있습니다. 이상이 없다는 결과만으로 지속되는 증상의 원인이 모두 배제되는 것은 아닙니다."
+      }
+    ],
+    "related": [
+      "heart-index",
+      "palpitations-followup",
+      "echocardiography",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/36"
+      },
+      {
+        "title": "서울대학교병원 · 서맥과 심전도 검사 설명",
+        "url": "https://www.snuh.org/health/nMedInfo/nView.do?medid=AA001378"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "ultrasound-index",
+    "path": "/services/ultrasound/",
+    "title": "초음파 검사 안내",
+    "metaTitle": "초음파 검사 안내 | 영통탑내과",
+    "description": "복부·갑상선·장 초음파의 관찰 범위와 준비 사항을 확인하세요. 부위와 검사 목적에 따라 준비 과정이 달라질 수 있습니다.",
+    "template": "service-hub",
+    "category": "초음파검사",
+    "intro": "복부·갑상선·장 초음파의 관찰 범위와 준비 사항을 확인하세요. 부위와 검사 목적에 따라 준비 과정이 달라질 수 있습니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "thyroid-ultrasound",
+      "bowel-ultrasound",
+      "echocardiography",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/24"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "abdominal-ultrasound",
+    "path": "/services/ultrasound/abdomen/",
+    "title": "상·하복부 초음파",
+    "metaTitle": "상·하복부 초음파 | 영통탑내과",
+    "description": "상복부와 하복부의 장기를 초음파로 살펴보는 검사입니다.",
+    "template": "service-detail",
+    "category": "초음파검사",
+    "intro": "상복부와 하복부의 장기를 초음파로 살펴보는 검사입니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "검사 부위와 진료 목적에 따라 관찰하는 장기가 다릅니다. 증상과 기존 검사 결과를 바탕으로 필요한 범위를 설명받습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "상복부·하복부 검사와 함께 진행하는 검사에 따라 식사나 소변 준비가 다를 수 있습니다. 예약할 때 안내를 확인해 주세요."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "초음파 영상만으로 모든 복부 질환을 확정하거나 배제할 수는 없습니다. 필요한 경우 다른 검사를 함께 검토합니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "검사 부위와 진료 목적에 따라 관찰하는 장기가 다릅니다. 증상과 기존 검사 결과를 바탕으로 필요한 범위를 설명받습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "상복부·하복부 검사와 함께 진행하는 검사에 따라 식사나 소변 준비가 다를 수 있습니다. 예약할 때 안내를 확인해 주세요."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "초음파 영상만으로 모든 복부 질환을 확정하거나 배제할 수는 없습니다. 필요한 경우 다른 검사를 함께 검토합니다."
+      }
+    ],
+    "related": [
+      "ultrasound-index",
+      "bowel-ultrasound",
+      "acute-care",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/25"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "bowel-ultrasound",
+    "path": "/services/ultrasound/bowel/",
+    "title": "소장·대장·맹장 초음파",
+    "metaTitle": "소장·대장·맹장 초음파 | 영통탑내과",
+    "description": "소장·대장·맹장 부위의 초음파 검사를 안내합니다.",
+    "template": "service-detail",
+    "category": "초음파검사",
+    "intro": "소장·대장·맹장 부위의 초음파 검사를 안내합니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "증상과 진찰에 따라 장 주변의 소견을 살펴볼 수 있습니다. 장 내부를 직접 관찰하는 내시경과는 검사 방식이 다릅니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "증상의 위치와 시작 시점, 기존 검사 여부를 알려주세요. 검사 부위에 필요한 준비는 병원 안내를 확인합니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "초음파가 모든 장 질환을 배제하거나 내시경을 항상 대신하는 것은 아닙니다. 급격한 악화나 심한 통증은 신속한 평가가 필요합니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "증상과 진찰에 따라 장 주변의 소견을 살펴볼 수 있습니다. 장 내부를 직접 관찰하는 내시경과는 검사 방식이 다릅니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "증상의 위치와 시작 시점, 기존 검사 여부를 알려주세요. 검사 부위에 필요한 준비는 병원 안내를 확인합니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "초음파가 모든 장 질환을 배제하거나 내시경을 항상 대신하는 것은 아닙니다. 급격한 악화나 심한 통증은 신속한 평가가 필요합니다."
+      }
+    ],
+    "related": [
+      "ultrasound-index",
+      "endoscopy",
+      "acute-care",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/27"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "thyroid-ultrasound",
+    "path": "/services/ultrasound/thyroid/",
+    "title": "갑상선 초음파",
+    "metaTitle": "갑상선 초음파 | 영통탑내과",
+    "description": "갑상선의 모양과 결절 등 구조적 소견을 살펴보는 검사입니다.",
+    "template": "service-detail",
+    "category": "초음파검사",
+    "intro": "갑상선의 모양과 결절 등 구조적 소견을 살펴보는 검사입니다.",
+    "blocks": [
+      {
+        "heading": "검사와 진료 이해하기",
+        "text": "목 부위 초음파 영상으로 갑상선을 확인합니다. 갑상선 기능을 확인하는 검사와는 구분해 이해할 필요가 있습니다."
+      },
+      {
+        "heading": "방문 전 준비",
+        "text": "이전 갑상선 검사나 치료 이력이 있다면 알려주세요. 기존 결과를 함께 보면 변화에 대한 상담에 도움이 됩니다."
+      },
+      {
+        "heading": "결과와 적용 범위",
+        "text": "결절이 보인다는 사실만으로 암을 확정하지 않습니다. 추가 검사 여부와 결과의 의미는 진료에서 설명받습니다."
+      }
+    ],
+    "questions": [
+      {
+        "question": "어떤 검사·진료인가요?",
+        "answer": "목 부위 초음파 영상으로 갑상선을 확인합니다. 갑상선 기능을 확인하는 검사와는 구분해 이해할 필요가 있습니다."
+      },
+      {
+        "question": "방문 전에 무엇을 준비하나요?",
+        "answer": "이전 갑상선 검사나 치료 이력이 있다면 알려주세요. 기존 결과를 함께 보면 변화에 대한 상담에 도움이 됩니다."
+      },
+      {
+        "question": "결과를 볼 때 어떤 점을 확인하나요?",
+        "answer": "결절이 보인다는 사실만으로 암을 확정하지 않습니다. 추가 검사 여부와 결과의 의미는 진료에서 설명받습니다."
+      }
+    ],
+    "related": [
+      "ultrasound-index",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/26"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "sitemap",
+    "path": "/sitemap/",
+    "title": "전체 페이지 안내",
+    "metaTitle": "전체 페이지 안내 | 영통탑내과",
+    "description": "병원 소개부터 진료·검사·건강검진·건강정보까지, 영통탑내과 홈페이지의 전체 페이지를 분야별로 안내합니다.",
+    "template": "sitemap",
+    "category": "병원 안내",
+    "intro": "병원 소개부터 진료·검사·건강검진·건강정보까지, 영통탑내과 홈페이지의 전체 페이지를 분야별로 안내합니다.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "home",
+      "services",
+      "checkups",
+      "health",
+      "cases",
+      "notices"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "visit",
+    "path": "/visit/",
+    "title": "진료시간·오시는 길",
+    "metaTitle": "진료시간·오시는 길 | 영통탑내과",
+    "description": "망포역 3번 출구에서 도보 약 2분, 포레스퀘어 6층에 있습니다. 평일 08:30–18:30, 토요일 08:30–13:30 진료를 안내합니다. 방문 전 예약과 접수를 확인해 주세요.",
+    "template": "visit",
+    "category": "병원 안내",
+    "intro": "망포역 3번 출구에서 도보 약 2분, 포레스퀘어 6층에 있습니다. 평일 08:30–18:30, 토요일 08:30–13:30 진료를 안내합니다. 방문 전 예약과 접수를 확인해 주세요.",
+    "blocks": [],
+    "questions": [],
+    "related": [
+      "home",
+      "checkups",
+      "echocardiography",
+      "notices"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/42"
+      },
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/43"
+      }
+    ],
+    "image": "clinic",
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  }
+]

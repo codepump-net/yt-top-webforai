@@ -1,0 +1,82 @@
+# DESIGN ONLY. Implement the npm commands before placing this in .github/workflows/.
+# Pin verified action revisions and exact Node/Python patch versions during implementation.
+name: Validate and deploy hospital site
+on:
+  push:
+    branches: [main]
+    paths: ['web/**', 'content/**', 'harness/**', '.github/workflows/**']
+  workflow_dispatch:
+  schedule:
+    - cron: '17 15 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: hospital-pages-production
+  cancel-in-progress: false
+env:
+  SITE_ORIGIN: https://codepump-net.github.io
+  SITE_BASE_PATH: /yt-top-webforai
+  SITE_INDEXING_ENABLED: ${{ vars.SITE_INDEXING_ENABLED || 'false' }}
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: npm ci --prefix web
+      - run: npm --prefix web run typecheck
+      - run: npm --prefix web run lint
+      - run: npm --prefix web run content:validate
+      - run: npm --prefix web run harness-check
+      - run: npm --prefix web test
+      - run: npm --prefix web run build:release
+      - run: npm --prefix web run audit:static
+      - run: npx --no-install playwright install --with-deps chromium firefox webkit
+        working-directory: web
+      - run: npm --prefix web run test:e2e
+      - run: npm --prefix web run test:performance
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: web/out
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Reject a stale build before deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          current_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/main" --jq '.object.sha')"
+          test "$current_sha" = "$GITHUB_SHA"
+      - uses: actions/deploy-pages@v4
+        id: deployment
+  verify-live:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - run: npm ci --prefix web
+      # Must assert the deployed public manifest SHA equals GITHUB_SHA.
+      - run: npm --prefix web run verify:live

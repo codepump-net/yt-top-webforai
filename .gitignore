@@ -1,0 +1,16 @@
+# Local research evidence stays out of the public source repository.
+research/
+harness/runs/
+web/node_modules/
+web/.next/
+web/out/
+web/reports/
+web/test-results/
+web/playwright-report/
+web/.local/
+web/tsconfig.tsbuildinfo
+web/next-env.d.ts
+__pycache__/
+*.pyc
+.env*
+!.env.example
