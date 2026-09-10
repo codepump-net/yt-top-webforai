@@ -2,6 +2,7 @@
 
 영통탑내과 홈페이지의 SEO·AEO·GEO 조사와 React 정적 사이트 구현 저장소입니다.
 
+- **[개발 결과·실제 검증 보고서](docs/development-completion.ko.md)** — 76개 페이지 구현, 두 CI 검증 성공, Pages 최초 활성화 필요
 - **[개발·운영 인수 문서](docs/development-handoff.ko.md)** — 실행, 원고 수정, 실제 검수, 자동 배포, AI 인용 관측
 - **[웹 앱 실행](web/README.md)** — Next.js 16.3.4 · React 19.3.0 · TypeScript · Tailwind CSS 4.3.3
 - [콘텐츠 원장](content/README.md) — 76개 페이지, 의료진 2명, 진단 사례 25편, 공지 5편

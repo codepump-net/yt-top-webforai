@@ -1,0 +1,61 @@
+{
+  "mode": "review",
+  "note": "Mobile simulated lab metrics. INP requires real user measurement; review noindex intentionally fails is-crawlable.",
+  "errors": [],
+  "reports": [
+    {
+      "route": "/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 1610.6376249999998,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 51,
+        "first-contentful-paint": 775.0550500000002
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/services/heart/echocardiography/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2057.1798,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 116,
+        "first-contentful-paint": 766.1797999999999
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/search/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2159.3611,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 106,
+        "first-contentful-paint": 923.68055
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    }
+  ]
+}

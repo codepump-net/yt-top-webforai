@@ -1,0 +1,541 @@
+{
+  "mode": "review",
+  "routeCount": 76,
+  "maxJsGzip": 174849,
+  "maxCssGzip": 7758,
+  "errors": [],
+  "routes": [
+    {
+      "path": "/",
+      "htmlBytes": 85268,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3517
+    },
+    {
+      "path": "/404.html",
+      "htmlBytes": 22498,
+      "jsGzip": 173128,
+      "cssGzip": 7758,
+      "staticTextLength": 113
+    },
+    {
+      "path": "/about/",
+      "htmlBytes": 43920,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2577
+    },
+    {
+      "path": "/cases/",
+      "htmlBytes": 83654,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 4849
+    },
+    {
+      "path": "/cases/case-164673116/",
+      "htmlBytes": 49203,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3135
+    },
+    {
+      "path": "/cases/case-164673131/",
+      "htmlBytes": 49339,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3151
+    },
+    {
+      "path": "/cases/case-164673206/",
+      "htmlBytes": 47254,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3041
+    },
+    {
+      "path": "/cases/case-164673218/",
+      "htmlBytes": 48544,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3051
+    },
+    {
+      "path": "/cases/case-164673233/",
+      "htmlBytes": 49114,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3117
+    },
+    {
+      "path": "/cases/case-164673242/",
+      "htmlBytes": 48220,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3134
+    },
+    {
+      "path": "/cases/case-165150420/",
+      "htmlBytes": 48750,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3078
+    },
+    {
+      "path": "/cases/case-165150549/",
+      "htmlBytes": 49137,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3135
+    },
+    {
+      "path": "/cases/case-165150795/",
+      "htmlBytes": 46979,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3008
+    },
+    {
+      "path": "/cases/case-165151140/",
+      "htmlBytes": 49486,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3180
+    },
+    {
+      "path": "/cases/case-165203625/",
+      "htmlBytes": 48863,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3240
+    },
+    {
+      "path": "/cases/case-165203941/",
+      "htmlBytes": 50224,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3260
+    },
+    {
+      "path": "/cases/case-165204038/",
+      "htmlBytes": 49137,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3129
+    },
+    {
+      "path": "/cases/case-165259713/",
+      "htmlBytes": 49044,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3101
+    },
+    {
+      "path": "/cases/case-165259783/",
+      "htmlBytes": 49149,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3135
+    },
+    {
+      "path": "/cases/case-165259921/",
+      "htmlBytes": 49540,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3198
+    },
+    {
+      "path": "/cases/case-165338662/",
+      "htmlBytes": 48278,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3142
+    },
+    {
+      "path": "/cases/case-165338735/",
+      "htmlBytes": 49214,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3129
+    },
+    {
+      "path": "/cases/case-165396187/",
+      "htmlBytes": 49087,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3261
+    },
+    {
+      "path": "/cases/case-165396249/",
+      "htmlBytes": 48899,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3103
+    },
+    {
+      "path": "/cases/case-165396339/",
+      "htmlBytes": 49606,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3189
+    },
+    {
+      "path": "/cases/case-165407798/",
+      "htmlBytes": 49831,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3216
+    },
+    {
+      "path": "/cases/case-165407885/",
+      "htmlBytes": 49067,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3120
+    },
+    {
+      "path": "/cases/case-165407958/",
+      "htmlBytes": 49287,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3145
+    },
+    {
+      "path": "/cases/case-167025586/",
+      "htmlBytes": 49115,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3251
+    },
+    {
+      "path": "/checkups/",
+      "htmlBytes": 59826,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2687
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "htmlBytes": 49853,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3239
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "htmlBytes": 50157,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3269
+    },
+    {
+      "path": "/checkups/employment/",
+      "htmlBytes": 50853,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3176
+    },
+    {
+      "path": "/checkups/national/",
+      "htmlBytes": 48356,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3108
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "htmlBytes": 47684,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3014
+    },
+    {
+      "path": "/checkups/visa/",
+      "htmlBytes": 47710,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3020
+    },
+    {
+      "path": "/conditions/",
+      "htmlBytes": 52394,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2647
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "htmlBytes": 46904,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3062
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "htmlBytes": 46548,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3049
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "htmlBytes": 47308,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3133
+    },
+    {
+      "path": "/content-policy/",
+      "htmlBytes": 45471,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2980
+    },
+    {
+      "path": "/doctors/",
+      "htmlBytes": 44902,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2369
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "htmlBytes": 48442,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3281
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "htmlBytes": 46028,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3059
+    },
+    {
+      "path": "/fees/",
+      "htmlBytes": 43510,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2548
+    },
+    {
+      "path": "/health/",
+      "htmlBytes": 52323,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2889
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "htmlBytes": 50436,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3242
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "htmlBytes": 52647,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3432
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "htmlBytes": 53913,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3413
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "htmlBytes": 48389,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3226
+    },
+    {
+      "path": "/notices/",
+      "htmlBytes": 54857,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3410
+    },
+    {
+      "path": "/notices/closure-2025-06-24/",
+      "htmlBytes": 43994,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2936
+    },
+    {
+      "path": "/notices/drug-certificate/",
+      "htmlBytes": 43351,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2762
+    },
+    {
+      "path": "/notices/mammography-equipment/",
+      "htmlBytes": 42970,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2771
+    },
+    {
+      "path": "/notices/pathfast/",
+      "htmlBytes": 43943,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2869
+    },
+    {
+      "path": "/notices/screening-evaluation/",
+      "htmlBytes": 43917,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2821
+    },
+    {
+      "path": "/privacy/",
+      "htmlBytes": 40707,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2469
+    },
+    {
+      "path": "/search/",
+      "htmlBytes": 158588,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 8031
+    },
+    {
+      "path": "/services/",
+      "htmlBytes": 65074,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3178
+    },
+    {
+      "path": "/services/cancer-support/",
+      "htmlBytes": 45009,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2989
+    },
+    {
+      "path": "/services/endoscopy/",
+      "htmlBytes": 51287,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2791
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "htmlBytes": 51777,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3439
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "htmlBytes": 49608,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3236
+    },
+    {
+      "path": "/services/heart/",
+      "htmlBytes": 61095,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2935
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "htmlBytes": 46928,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3159
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "htmlBytes": 48758,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3426
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "htmlBytes": 46704,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3137
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "htmlBytes": 53201,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3632
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "htmlBytes": 47029,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3211
+    },
+    {
+      "path": "/services/heart/holter/",
+      "htmlBytes": 50932,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3450
+    },
+    {
+      "path": "/services/ultrasound/",
+      "htmlBytes": 51503,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 2720
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "htmlBytes": 48394,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3202
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "htmlBytes": 48525,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3236
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "htmlBytes": 45252,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3069
+    },
+    {
+      "path": "/sitemap/",
+      "htmlBytes": 117764,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3462
+    },
+    {
+      "path": "/visit/",
+      "htmlBytes": 55138,
+      "jsGzip": 174849,
+      "cssGzip": 7758,
+      "staticTextLength": 3059
+    }
+  ]
+}

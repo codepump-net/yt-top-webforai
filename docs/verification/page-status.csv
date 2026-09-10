@@ -1,0 +1,77 @@
+﻿id,path,title,implementation,static_audit,browser_no_js,medical_or_operations_review,current_indexing
+home,/,영통탑내과,complete,passed,passed,pending,noindex
+not-found,/404.html,페이지를 찾을 수 없습니다,complete,passed,passed,pending,noindex
+about,/about/,병원 소개,complete,passed,passed,pending,noindex
+cases,/cases/,진단 사례,complete,passed,passed,pending,noindex
+case-164673116,/cases/case-164673116/,복수·단백뇨와 대장암 진단 사례,complete,passed,passed,pending,noindex
+case-164673131,/cases/case-164673131/,속쓰림으로 내원한 위암 진단 사례,complete,passed,passed,pending,noindex
+case-164673206,/cases/case-164673206/,갑상선암 증례 — 진단 사례,complete,passed,passed,pending,noindex
+case-164673218,/cases/case-164673218/,수신증 사례 — 진단 사례,complete,passed,passed,pending,noindex
+case-164673233,/cases/case-164673233/,하복부 통증으로 내원하여 시행한 초음파 — 진단 사례,complete,passed,passed,pending,noindex
+case-164673242,/cases/case-164673242/,발열 복통으로 내원한 복막염 환자. — 진단 사례,complete,passed,passed,pending,noindex
+case-165150420,/cases/case-165150420/,복강내 종괴 증례 — 진단 사례,complete,passed,passed,pending,noindex
+case-165150549,/cases/case-165150549/,대장 베체트 증례 — 진단 사례,complete,passed,passed,pending,noindex
+case-165150795,/cases/case-165150795/,폐렴 증례 — 진단 사례,complete,passed,passed,pending,noindex
+case-165151140,/cases/case-165151140/,비후성 심근병증 증례 — 진단 사례,complete,passed,passed,pending,noindex
+case-165203625,/cases/case-165203625/,지속되는 두근거림으로 내원하여 진단된 심실빈맥 — 진단 사례,complete,passed,passed,pending,noindex
+case-165203941,/cases/case-165203941/,두근거림 호흡곤란으로 내원하여 진단된 심방세동 — 진단 사례,complete,passed,passed,pending,noindex
+case-165204038,/cases/case-165204038/,혈변과 대장내시경을 통한 대장암 진단 사례,complete,passed,passed,pending,noindex
+case-165259713,/cases/case-165259713/,생리통으로 오인된 난소종양 — 진단 사례,complete,passed,passed,pending,noindex
+case-165259783,/cases/case-165259783/,식도 점막하 종양 — 진단 사례,complete,passed,passed,pending,noindex
+case-165259921,/cases/case-165259921/,대동맥 판막협착 및 대동맥판막 역류. — 진단 사례,complete,passed,passed,pending,noindex
+case-165338662,/cases/case-165338662/,"상,하복부 통증으로 내원한 맹장염 — 진단 사례",complete,passed,passed,pending,noindex
+case-165338735,/cases/case-165338735/,목에 혹이 만져져요. 림프종 진단사례. — 진단 사례,complete,passed,passed,pending,noindex
+case-165396187,/cases/case-165396187/,재발하는 뇌경색으로 내원하여 진단된 심방세동. — 진단 사례,complete,passed,passed,pending,noindex
+case-165396249,/cases/case-165396249/,식도궤양 — 진단 사례,complete,passed,passed,pending,noindex
+case-165396339,/cases/case-165396339/,대동맥판막협착 진단 사례,complete,passed,passed,pending,noindex
+case-165407798,/cases/case-165407798/,대동맥류를 동반한 이엽성 판막증 — 진단 사례,complete,passed,passed,pending,noindex
+case-165407885,/cases/case-165407885/,궤양성대장염 — 진단 사례,complete,passed,passed,pending,noindex
+case-165407958,/cases/case-165407958/,대장용종 절제 사례 — 진단 사례,complete,passed,passed,pending,noindex
+case-167025586,/cases/case-167025586/,심근경색 진단과정 — 진단 사례,complete,passed,passed,pending,noindex
+checkups,/checkups/,건강검진 안내,complete,passed,passed,pending,noindex
+cancer-screening,/checkups/cancer-screening/,암검진 안내,complete,passed,passed,pending,noindex
+drug-screening,/checkups/drug-screening/,마약검사·영문서류,complete,passed,passed,pending,noindex
+employment-checkup,/checkups/employment/,채용검진·제출 서류,complete,passed,passed,pending,noindex
+national-checkup,/checkups/national/,국가건강검진,complete,passed,passed,pending,noindex
+tuberculosis-screening,/checkups/tuberculosis/,기숙사 결핵검진,complete,passed,passed,pending,noindex
+visa-checkup,/checkups/visa/,외국인 비자검진,complete,passed,passed,pending,noindex
+conditions,/conditions/,내과 진료 안내,complete,passed,passed,pending,noindex
+acute-care,/conditions/acute-care/,급성기질환 진료,complete,passed,passed,pending,noindex
+chronic-cough,/conditions/chronic-cough/,만성기침 진료,complete,passed,passed,pending,noindex
+heart-disease,/conditions/heart-disease/,심장질환 진료,complete,passed,passed,pending,noindex
+content-policy,/content-policy/,의료정보 작성·검수 원칙,complete,passed,passed,pending,noindex
+doctors,/doctors/,의료진 소개,complete,passed,passed,pending,noindex
+doctor-park-jongseol,/doctors/park-jongseol/,박종설 대표원장,complete,passed,passed,pending,noindex
+doctor-park-rayoung,/doctors/park-rayoung/,박라영 원장,complete,passed,passed,pending,noindex
+fees,/fees/,비용·서류 발급 안내,complete,passed,passed,pending,noindex
+health,/health/,검사·진료 이해하기,complete,passed,passed,pending,noindex
+checkup-preparation,/health/checkup-preparation-checklist/,건강검진 전 준비 확인표,complete,passed,passed,pending,noindex
+colonoscopy-preparation,/health/colonoscopy-preparation-questions/,대장내시경 준비 시 확인할 질문,complete,passed,passed,pending,noindex
+heart-test-differences,/health/heart-test-differences/,심전도·심장초음파·홀터검사의 차이,complete,passed,passed,pending,noindex
+palpitations-followup,/health/palpitations-test-followup/,검사 후에도 두근거림이 계속될 때 확인할 점,complete,passed,passed,pending,noindex
+notices,/notices/,공지사항,complete,passed,passed,pending,noindex
+notice-closure-20250624,/notices/closure-2025-06-24/,2025년 6월 24일 오후 휴진 기록,complete,passed,passed,pending,noindex
+notice-drug-certificate,/notices/drug-certificate/,마약검사 영문서류 발급 안내,complete,passed,passed,pending,noindex
+notice-mammography,/notices/mammography-equipment/,디지털 유방촬영 장비 도입 안내,complete,passed,passed,pending,noindex
+notice-pathfast,/notices/pathfast/,심장 표지자 검사 장비 도입 안내,complete,passed,passed,pending,noindex
+notice-screening-evaluation,/notices/screening-evaluation/,국가검진기관 평가 안내,complete,passed,passed,pending,noindex
+privacy,/privacy/,개인정보 처리 안내,complete,passed,passed,pending,noindex
+search,/search/,사이트 검색,complete,passed,passed,pending,noindex
+services,/services/,진료·검사 안내,complete,passed,passed,pending,noindex
+cancer-support,/services/cancer-support/,암환자 진료·케어 안내,complete,passed,passed,pending,noindex
+endoscopy,/services/endoscopy/,위·대장내시경 안내,complete,passed,passed,pending,noindex
+colonoscopy,/services/endoscopy/colonoscopy/,대장내시경,complete,passed,passed,pending,noindex
+gastroscopy,/services/endoscopy/gastroscopy/,위내시경,complete,passed,passed,pending,noindex
+heart-index,/services/heart/,심장검사 안내,complete,passed,passed,pending,noindex
+abi,/services/heart/arterial-assessment/,동맥경화도 검사,complete,passed,passed,pending,noindex
+cardiac-markers,/services/heart/cardiac-markers/,심장 표지자 검사,complete,passed,passed,pending,noindex
+carotid,/services/heart/carotid-ultrasound/,경동맥 초음파,complete,passed,passed,pending,noindex
+echocardiography,/services/heart/echocardiography/,심장초음파 검사,complete,passed,passed,pending,noindex
+hrv,/services/heart/heart-rate-variability/,심박 변이도 검사,complete,passed,passed,pending,noindex
+holter,/services/heart/holter/,홀터검사,complete,passed,passed,pending,noindex
+ultrasound-index,/services/ultrasound/,초음파 검사 안내,complete,passed,passed,pending,noindex
+abdominal-ultrasound,/services/ultrasound/abdomen/,상·하복부 초음파,complete,passed,passed,pending,noindex
+bowel-ultrasound,/services/ultrasound/bowel/,소장·대장·맹장 초음파,complete,passed,passed,pending,noindex
+thyroid-ultrasound,/services/ultrasound/thyroid/,갑상선 초음파,complete,passed,passed,pending,noindex
+sitemap,/sitemap/,전체 페이지 안내,complete,passed,passed,pending,noindex
+visit,/visit/,진료시간·오시는 길,complete,passed,passed,pending,noindex

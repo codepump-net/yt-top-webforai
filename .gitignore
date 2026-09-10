@@ -1,6 +1,7 @@
 # Local research evidence stays out of the public source repository.
 research/
 harness/runs/
+artifacts/
 web/node_modules/
 web/.next/
 web/out/
