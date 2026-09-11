@@ -1,0 +1,325 @@
+{
+  "mode": "review",
+  "routeCount": 45,
+  "publicFilesChecked": 274,
+  "maxJsGzip": 177142,
+  "maxCssGzip": 8258,
+  "errors": [],
+  "routes": [
+    {
+      "path": "/",
+      "htmlBytes": 74217,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 3221
+    },
+    {
+      "path": "/404.html",
+      "htmlBytes": 16835,
+      "jsGzip": 175598,
+      "cssGzip": 8258,
+      "staticTextLength": 113
+    },
+    {
+      "path": "/about/",
+      "htmlBytes": 35921,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2211
+    },
+    {
+      "path": "/cases/",
+      "htmlBytes": 62102,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 4369
+    },
+    {
+      "path": "/checkups/",
+      "htmlBytes": 51801,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2338
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "htmlBytes": 39933,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2720
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "htmlBytes": 40299,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2753
+    },
+    {
+      "path": "/checkups/employment/",
+      "htmlBytes": 42868,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2811
+    },
+    {
+      "path": "/checkups/national/",
+      "htmlBytes": 40327,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2721
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "htmlBytes": 39824,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2659
+    },
+    {
+      "path": "/checkups/visa/",
+      "htmlBytes": 39769,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2659
+    },
+    {
+      "path": "/conditions/",
+      "htmlBytes": 44414,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2299
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "htmlBytes": 39012,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2708
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "htmlBytes": 38664,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2684
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "htmlBytes": 39306,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2750
+    },
+    {
+      "path": "/doctors/",
+      "htmlBytes": 35223,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 1972
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "htmlBytes": 39526,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2773
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "htmlBytes": 36974,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2543
+    },
+    {
+      "path": "/fees/",
+      "htmlBytes": 35705,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2216
+    },
+    {
+      "path": "/health/",
+      "htmlBytes": 42767,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2469
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "htmlBytes": 42495,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2864
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "htmlBytes": 44687,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 3053
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "htmlBytes": 44511,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2983
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "htmlBytes": 40487,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2846
+    },
+    {
+      "path": "/notices/",
+      "htmlBytes": 32118,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2030
+    },
+    {
+      "path": "/privacy/",
+      "htmlBytes": 31379,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2070
+    },
+    {
+      "path": "/search/",
+      "htmlBytes": 99114,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 4690
+    },
+    {
+      "path": "/services/",
+      "htmlBytes": 56837,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2803
+    },
+    {
+      "path": "/services/cancer-support/",
+      "htmlBytes": 37249,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2636
+    },
+    {
+      "path": "/services/endoscopy/",
+      "htmlBytes": 43184,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2407
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "htmlBytes": 43766,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 3044
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "htmlBytes": 41610,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2841
+    },
+    {
+      "path": "/services/heart/",
+      "htmlBytes": 52903,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2560
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "htmlBytes": 38935,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2762
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "htmlBytes": 38983,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2900
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "htmlBytes": 38725,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2743
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "htmlBytes": 45125,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 3234
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "htmlBytes": 39149,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2834
+    },
+    {
+      "path": "/services/heart/holter/",
+      "htmlBytes": 42856,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 3049
+    },
+    {
+      "path": "/services/ultrasound/",
+      "htmlBytes": 43468,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2357
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "htmlBytes": 40470,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2823
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "htmlBytes": 40595,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2856
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "htmlBytes": 37385,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2691
+    },
+    {
+      "path": "/sitemap/",
+      "htmlBytes": 78040,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2583
+    },
+    {
+      "path": "/visit/",
+      "htmlBytes": 47179,
+      "jsGzip": 177142,
+      "cssGzip": 8258,
+      "staticTextLength": 2699
+    }
+  ]
+}

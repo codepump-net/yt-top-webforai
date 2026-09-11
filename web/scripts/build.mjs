@@ -1,4 +1,6 @@
 import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { loadContent } from './data.mjs';
 import { sha256 } from './content-contract.mjs';
@@ -22,6 +24,11 @@ function run(script, args = []) {
   if (result.error || result.status !== 0) process.exit(result.status || 1);
 }
 run('scripts/validate.mjs', [mode]);
+// Only clear this project's generated export. Retired routes must not survive a rebuild.
+const exportDir = fileURLToPath(new URL('../out', import.meta.url));
+if (path.resolve('out') !== exportDir) throw new Error('Build must run from the web directory');
+await fs.rm(exportDir, { recursive: true, force: true });
+await fs.mkdir('reports', { recursive: true });
 run('node_modules/next/dist/bin/next', ['build']);
 const data = await loadContent();
 const absolute = (path) => absoluteUrl(path, origin, basePath);
@@ -36,10 +43,10 @@ await fs.writeFile(
   xml(mode === 'production' ? data.pages.filter((p) => p.indexable) : []),
 );
 if (mode === 'review')
-  await fs.writeFile('out/planned-sitemap.xml', xml(data.pages.filter((p) => p.indexable)));
+  await fs.writeFile('reports/planned-sitemap.xml', xml(data.pages.filter((p) => p.indexable)));
 await fs.writeFile(
   'out/robots.txt',
-  `# Project-path file; only an origin-root robots.txt controls crawling.\nUser-agent: *\nAllow: /\n${mode === 'production' ? `Sitemap: ${absolute('/sitemap.xml')}\n` : '# Review pages use HTML noindex. Do not submit planned-sitemap.xml.\n'}`,
+  `User-agent: *\nAllow: /\n${mode === 'production' ? `Sitemap: ${absolute('/sitemap.xml')}\n` : ''}`,
 );
 await fs.writeFile('out/.nojekyll', '');
 // Optional discovery aid, not a search or AI ranking signal. Never advertise review content.
@@ -87,7 +94,7 @@ for (const page of data.pages) {
   });
 }
 await fs.writeFile(
-  'out/build-manifest.json',
+  'reports/build-manifest.json',
   JSON.stringify(
     {
       version: 1,

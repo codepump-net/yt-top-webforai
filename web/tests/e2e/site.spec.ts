@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
-const manifest = JSON.parse(fs.readFileSync('out/build-manifest.json', 'utf8')) as {
+const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8')) as {
   basePath: string;
   routes: { path: string; id: string; indexable: boolean }[];
 };
 const url = (path: string) => `http://127.0.0.1:3000${manifest.basePath}${path}`;
-test('all 76 routes return HTML with one heading and correct indexing', async ({ request }) => {
+test('all patient routes return HTML with one heading and correct indexing', async ({ request }) => {
   for (const route of manifest.routes) {
     const response = await request.get(url(route.path));
     expect(response.status(), route.path).toBe(200);

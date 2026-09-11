@@ -2,6 +2,8 @@
 import json
 from pathlib import Path
 root = Path(__file__).resolve().parents[2]
+if (root / 'content/page-intents.json').exists():
+    raise SystemExit('Historical importer disabled: edit current content under docs/patient-content-policy.ko.md.')
 file = root / 'content/pages.json'
 pages = json.loads(file.read_text(encoding='utf-8'))
 intros = {

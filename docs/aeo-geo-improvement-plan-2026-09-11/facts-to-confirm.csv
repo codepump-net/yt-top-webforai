@@ -1,0 +1,19 @@
+fact_id,topic,confirmation_needed,required_role,evidence_needed,affected_page_ids,publication_rule,status
+F01,병원 기본정보,공식 명칭과 전화 및 도로명 주소와 층수의 현재 값 확인,병원 운영 담당,현재 병원 안내와 운영 담당 확인 기록,home;about;visit,공통 원장으로 화면과 메타 및 구조화 주소 생성;현재 수집값을 새 확인 완료로 표시하지 않음,pending
+F02,진료시간과 휴진,요일별 진료 구간과 점심 적용 특히 토요일 및 접수 마감과 공휴일 예외 확인,병원 운영 담당,요일별 운영표와 실제 접수 안내,home;visit,확인한 구간만 구조화;검사 접수 마감을 진료 종료와 혼동하지 않음,pending
+F03,예약과 결과 상담,검사별 전화 예약 필요 여부와 오후 방문 안내 및 결과 상담 일정 확인,병원 운영 담당 및 검사 담당,현재 예약 접수와 결과 상담 절차,visit;echocardiography;holter;gastroscopy;colonoscopy,확인된 절차를 안내하고 당일 검사나 결과를 임의 보장하지 않음,pending
+F04,주차와 접근,주차장 진입 위치와 지원 조건 및 비용과 보행 또는 휠체어 접근 확인,병원 운영 담당,현장 확인 또는 병원 확인된 사진과 이용 안내,visit,지원 시간과 무료 여부를 추정하지 않고 미확정 세부사항은 문의 경로 제공,pending
+F05,지도 좌표,기존 지도 링크가 실제 병원으로 연결되는지와 건물 좌표 및 출입 동선 확인,병원 운영 담당 및 개발 담당,실제 지도와 주소 및 현장 대조 기록,visit;home,geo와 hasMap은 확인된 값만 생성;다른 지점이나 임의 좌표 금지,pending
+F06,의료진 현재 정보,전문과목과 현재 직책 및 경력과 진료 분야와 프로필 사진 사용 상태 확인,각 의료진 및 병원 운영 담당,본인 확인 가능한 프로필 자료와 실제 담당 범위,doctors;doctor-park-jongseol;doctor-park-rayoung,학회 소속과 자격 구분;실제 집필 또는 검토 수행 사실은 별도 기록,pending
+F07,심장초음파 시행 범위,실제 시행 검사 종류와 검사 준비 및 결과 설명 범위 확인,해당 검사 담당 의료진,병원 검사 안내서와 근거 문헌 대조,echocardiography;heart-test-differences;heart-disease,경흉부와 경식도 및 부하검사를 혼동하지 않고 시행하지 않는 검사 제외,pending
+F08,홀터와 심전도,실제 장비 기록 시간과 착용 중 생활 안내 및 증상 기록과 반납 절차 확인,해당 검사 담당 의료진 및 검사 담당,장비별 병원 안내서와 기록 양식 및 최신 관련 근거,holter;heart-test-differences;palpitations-followup,24시간 등 장비 시간을 관행만으로 확정하지 않고 기록 누락과 재상담 안내 검토,pending
+F09,내시경 시행 절차,위와 대장 및 진정 검사 시행 범위와 상담 및 처치와 결과 설명 절차 확인,내시경 담당 의료진 및 검사 담당,현재 병원 내시경 안내와 운영 절차,gastroscopy;colonoscopy;endoscopy,즉시 검사나 진정 및 용종절제 또는 당일 결과를 임의 확정하지 않음,pending
+F10,내시경 준비 지침,예약 시각과 검사 조합별 음식과 물 및 음료와 정결제 및 복약과 동행 및 귀가 안내 확인,내시경 담당 의료진,영통탑의 현행 준비 안내서 버전과 근거 대조,colonoscopy-preparation;gastroscopy;colonoscopy;checkup-preparation,시간과 용량 및 약 중단은 타 병원 안내를 복사하지 않음;상황별 문의 방법 제공,pending
+F11,검진 범위와 대상,국가 및 암과 채용 및 결핵과 비자검진의 현재 시행 항목과 대상 및 준비 구분 확인,검진 담당 의료진 및 운영 담당,병원 검진 목록과 집필 시점 공식 제도 및 제출처 요건 확인,checkups;national-checkup;cancer-screening;employment-checkup;tuberculosis-screening;visa-checkup;checkup-preparation,모든 비자나 제출기관에서 인정된다고 단정하지 않고 확인 경로 안내,pending
+F12,마약검사 항목 충돌,기존 검사 페이지와 영문 안내의 항목 차이를 확인하고 현재 가능한 검사와 제출서류 범위 확정,검사 담당 의료진 및 운영 담당,실제 검사 항목표와 결과지 양식의 개인정보 없는 확인 자료,drug-screening;fees,DOA 항목 수나 성분 목록 및 특정 제출처 효력을 추정하지 않음,pending
+F13,비용과 포함 범위,현재 안내 가능한 비용과 시행일 및 진정과 조직검사 등 추가 항목 및 과거 이벤트 종료 여부 확인,병원 운영 담당 및 해당 의료진,현행 비용표와 항목별 포함 및 별도 조건,fees;gastroscopy;colonoscopy;drug-screening,확인 전 총액을 생성하지 않고 견적에 필요한 항목을 제공,pending
+F14,서류 발급,국문과 영문 발급 가능 서류 및 준비물과 발급일과 대리 발급 조건 확인,병원 운영 담당,현재 발급 안내와 집필 시점 적용 요건,fees;employment-checkup;tuberculosis-screening;visa-checkup;drug-screening,개별 제출처 승인과 발급 소요 시간을 임의 보장하지 않음,pending
+F15,증상 진료와 긴급 안내,기침과 급성 증상 및 두근거림의 병원 진료 범위와 즉시 도움 안내 문구 검토,해당 진료 의료진,현재 진료 범위와 최신 근거에 따른 문구 검토,acute-care;chronic-cough;heart-disease;palpitations-followup,긴급 상황에 일반 예약 CTA를 우선하지 않도록 실제 의료 검토 수행,pending
+F16,기타 검사 범위와 한계,복부와 장 및 갑상선과 경동맥 초음파 및 ABI와 HRV와 심장 표지자의 실제 시행과 준비 확인,해당 검사 담당 의료진,병원 검사 목록과 장비 또는 항목 안내 및 주장별 근거,abdominal-ultrasound;bowel-ultrasound;thyroid-ultrasound;carotid;abi;hrv;cardiac-markers,검사만으로 질환을 확정하거나 배제하지 않고 준비를 다른 검사에서 복제하지 않음,pending
+F17,암환자 진료 범위,실제 제공하는 상담과 진료 및 치료기관과의 연계 범위 확인,담당 의료진,현재 제공 진료와 근거 있는 안내,cancer-support,시행하지 않는 항암치료나 효능 및 생존율을 추정하지 않음,pending
+F18,병행 운영 사실 동기화,기존 MAIN2 및 검사 표기 충돌의 현재 잔존 여부와 공지 원문 및 상호 링크 확인,양쪽 사이트 운영 담당,현재 원 사이트 재확인과 변경 대상 및 사실 대조표,home;about;notices;cases;visit,과거 크롤링 지적을 현재 사실로 단정하지 않고 전체 이전이나 일괄 canonical을 적용하지 않음,pending

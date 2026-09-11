@@ -13,7 +13,7 @@ export function citationBelongsToSite(citation, site) {
     return false;
   }
 }
-export function measureObservations(input, queries, site, aliases) {
+export function measureObservations(input, queries, site, aliases, originalSites = []) {
   if (!Array.isArray(input) || !Array.isArray(queries) || !aliases.length)
     throw new Error('Observation array, queries and aliases required');
   const ids = new Set(queries.map((q) => q.id));
@@ -29,7 +29,15 @@ export function measureObservations(input, queries, site, aliases) {
       !row.runId
     )
       throw new Error('Invalid observation identity');
-    const key = [row.engine, row.period, row.language].join('|');
+    const key = JSON.stringify([
+      row.engine,
+      row.period,
+      row.language,
+      row.model ?? null,
+      row.region ?? null,
+      row.searchMode ?? null,
+      row.querySetVersion ?? null,
+    ]);
     const unique = [key, row.queryId, row.runId].join('|');
     if (seen.has(unique)) throw new Error('Duplicate observation');
     seen.add(unique);
@@ -49,19 +57,31 @@ export function measureObservations(input, queries, site, aliases) {
   return [...groups].map(([key, rows]) => {
     const good = rows.filter((r) => r.status === 'ok');
     const labeled = good.filter((r) => typeof r.accurate === 'boolean' && r.reviewer);
-    const [engine, period, language] = key.split('|');
+    const [engine, period, language, model, region, searchMode, querySetVersion] = JSON.parse(key);
+    const citedNew = (r) => r.citations.some((c) => citationBelongsToSite(c, site));
+    const citedOriginal = (r) =>
+      r.citations.some((c) => originalSites.some((s) => citationBelongsToSite(c, s)));
+    const newCount = good.filter(citedNew).length;
+    const originalCount = good.filter(citedOriginal).length;
+    const eitherCount = good.filter((r) => citedNew(r) || citedOriginal(r)).length;
     return {
       engine,
       period,
       language,
+      model,
+      region,
+      searchMode,
+      querySetVersion,
       attempts: rows.length,
       validAnswers: good.length,
       errors: rows.length - good.length,
       queryCoverage: ids.size ? new Set(good.map((r) => r.queryId)).size / ids.size : null,
-      citationRate: good.length
-        ? good.filter((r) => r.citations.some((c) => citationBelongsToSite(c, site))).length /
-          good.length
-        : null,
+      newSiteCitedAnswers: newCount,
+      originalSiteCitedAnswers: originalCount,
+      eitherSiteCitedAnswers: eitherCount,
+      citationRate: good.length ? newCount / good.length : null,
+      originalSiteCitationRate: good.length ? originalCount / good.length : null,
+      eitherSiteCitationRate: good.length ? eitherCount / good.length : null,
       brandMentionRate: good.length
         ? good.filter((r) =>
             aliases.some((a) => r.answer.toLocaleLowerCase().includes(a.toLocaleLowerCase())),

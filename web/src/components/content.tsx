@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import {
   type Page,
+  type ContentLink,
   pages,
   pageById,
   clinic,
@@ -19,10 +20,10 @@ import {
   href,
   breadcrumbs,
   structuredData,
-  reviewMode,
   reviewFor,
   phoneHref,
 } from '@/lib/site';
+import caseLinks from '../../../content/case-links.json';
 import { VisitInfo } from './chrome';
 import { Search, type SearchItem } from './search';
 
@@ -106,17 +107,11 @@ export function DoctorCards() {
               alt={d.imageKind === 'portrait' ? `${d.name} ${d.role}` : ''}
               loading="lazy"
             />
-            {d.imageKind === 'silhouette' && (
-              <span className="photo-note">기존 홈페이지 소개 이미지</span>
-            )}
           </div>
           <div className="doctor-caption">
             <span className="eyebrow">{d.specialty}</span>
-            <h3>
-              {d.name}
-              <span>{d.role}</span>
-              <ArrowUpRight size={24} />
-            </h3>
+            <h3>{d.name}</h3>
+            <p className="doctor-role">{d.role}</p>
             <p>{d.careers[0]}</p>
             <span className="text-link">
               약력 살펴보기 <ArrowRight size={16} />
@@ -213,7 +208,7 @@ function Home() {
         <SectionHeading
           eyebrow="HEALTH GUIDE"
           title="검사 전에, 먼저 이해하세요."
-          text="자주 궁금해하는 검사와 준비 사항을 쉬운 설명으로 정리했습니다."
+          text="검사의 목적과 준비 사항을 쉬운 설명으로 확인하세요."
           link={['/health/', '건강정보 모두 보기']}
         />
         <Cards
@@ -260,20 +255,8 @@ function Home() {
           title="병원 소식"
           link={['/notices/', '공지사항 전체 보기']}
         />
-        <div className="notice-list">
-          {pages
-            .filter((p) => p.template === 'notice-detail' && p.indexable)
-            .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
-            .slice(0, 3)
-            .map((p) => (
-              <a key={p.id} href={href(p.path)}>
-                <span className="eyebrow">병원 소식</span>
-                <h3>{p.title}</h3>
-                <time dateTime={p.publishedAt ?? ''}>{p.publishedAt?.slice(0, 10)}</time>
-                <ArrowUpRight size={20} />
-              </a>
-            ))}
-        </div>
+        <p>휴진 일정과 검사·서류 발급 소식은 병원 홈페이지의 공지사항에서 확인하세요.</p>
+        <OriginalNoticesLink />
       </section>
     </>
   );
@@ -290,10 +273,6 @@ function getChildren(page: Page): Page[] {
       'cancer-support',
     ]);
   if (page.id === 'health') return pages.filter((p) => p.template === 'article-detail');
-  if (page.id === 'notices')
-    return pages
-      .filter((p) => p.template === 'notice-detail')
-      .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
   return pages.filter(
     (p) =>
       p.path.startsWith(page.path) &&
@@ -308,30 +287,33 @@ function searchItems(items: Page[]): SearchItem[] {
     category: p.category,
     url: href(p.path),
     text:
-      p.blocks.map((b) => `${b.heading} ${b.text}`).join(' ') +
+      p.blocks
+        .map(
+          (b) =>
+            `${b.heading} ${b.text} ${b.table ? [b.table.caption, ...b.table.columns, ...b.table.rows.flat()].join(' ') : ''}`,
+        )
+        .join(' ') +
       ' ' +
       p.questions.map((q) => q.question + ' ' + q.answer).join(' '),
   }));
 }
-function Provenance({ page }: { page: Page }) {
+function OriginalNoticesLink() {
   return (
-    <aside className="provenance" aria-label="자료 출처와 검토 상태">
-      <h2>자료 안내</h2>
-      <p>
-        자료 확인일 <time dateTime={page.updatedAt}>{page.updatedAt}</time>
-        {page.publishedAt && (
-          <>
-            {' '}
-            · 기존 글 게시일{' '}
-            <time dateTime={page.publishedAt}>{page.publishedAt.slice(0, 10)}</time>
-          </>
-        )}
-      </p>
-      <p>
-        {reviewMode
-          ? '기존 자료를 바탕으로 정리한 검토용 안내입니다. 의료진의 최종 검수와 현재 운영 정보 확인 전입니다.'
-          : '개인의 상태에 따라 진료와 검사 준비가 달라질 수 있습니다. 의료진 안내를 확인해 주세요.'}
-      </p>
+    <a
+      className="button secondary"
+      href="https://yttop.co.kr/44"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      병원 공지사항 확인 <ArrowUpRight size={18} />
+      <span className="sr-only"> (새 창)</span>
+    </a>
+  );
+}
+function Sources({ page }: { page: Page }) {
+  return (
+    <aside className="provenance" aria-label="참고 자료">
+      <h2>참고 자료</h2>
       <ul>
         {page.sources.map((s, i) => (
           <li key={s.url}>
@@ -344,9 +326,6 @@ function Provenance({ page }: { page: Page }) {
           </li>
         ))}
       </ul>
-      <a className="text-link" href={href('/content-policy/')}>
-        의료정보 작성·검수 원칙 <ArrowRight size={14} />
-      </a>
     </aside>
   );
 }
@@ -354,9 +333,47 @@ function BodyBlocks({ page }: { page: Page }) {
   return (
     <>
       {page.blocks.map((b, i) => (
-        <section className="article-section" id={`section-${i + 1}`} key={b.heading}>
+        <section className="article-section" id={b.id ?? `section-${i + 1}`} key={b.heading}>
           <h2>{b.heading}</h2>
           <p>{b.text}</p>
+          {b.table && (
+            <div
+              className="answer-table-wrap"
+              role="region"
+              aria-label={b.table.caption}
+              tabIndex={0}
+            >
+              <table className="answer-table">
+                <caption>{b.table.caption}</caption>
+                <thead>
+                  <tr>
+                    {b.table.columns.map((c) => (
+                      <th scope="col" key={c}>
+                        {c}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {b.table.rows.map((row, n) => (
+                    <tr key={n}>
+                      {row.map((cell, j) =>
+                        j === 0 ? (
+                          <th scope="row" key={j}>
+                            {cell}
+                          </th>
+                        ) : (
+                          <td key={j}>{cell}</td>
+                        ),
+                      )}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+          <AnswerSources page={page} ids={b.sourceIds} />
+          <ContextLinks links={b.links} />
         </section>
       ))}
       {page.questions.length > 0 && (
@@ -365,12 +382,14 @@ function BodyBlocks({ page }: { page: Page }) {
           <h2>궁금한 점을 확인하세요</h2>
           <div className="qa-list">
             {page.questions.map((q, i) => (
-              <details key={q.question} open={i === 0}>
+              <details id={q.id} key={q.question} open={i === 0}>
                 <summary>
                   <span>Q.</span>
                   {q.question}
                 </summary>
                 <p>{q.answer}</p>
+                <AnswerSources page={page} ids={q.sourceIds} />
+                <ContextLinks links={q.links} />
               </details>
             ))}
           </div>
@@ -379,12 +398,50 @@ function BodyBlocks({ page }: { page: Page }) {
     </>
   );
 }
+function AnswerSources({ page, ids = [] }: { page: Page; ids?: string[] }) {
+  if (!ids.length) return null;
+  return (
+    <ul className="answer-sources" aria-label="이 설명의 참고 자료">
+      {ids.map((id) => {
+        const s = page.sources.find((s) => s.id === id)!;
+        return (
+          <li key={id}>
+            <a href={s.url} target="_blank" rel="noopener noreferrer">
+              {s.title}
+              <ArrowUpRight size={13} />
+              <span className="sr-only"> (새 창)</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+function ContextLinks({ links = [] }: { links?: ContentLink[] }) {
+  if (!links.length) return null;
+  return (
+    <ul className="context-links">
+      {links.map((l) => (
+        <li key={`${l.pageId}#${l.anchor ?? ''}`}>
+          <a href={href(pageById(l.pageId)!.path) + (l.anchor ? `#${l.anchor}` : '')}>
+            {l.label} <ArrowRight size={14} />
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
 function ReviewAttribution({ page }: { page: Page }) {
   const review = reviewFor(page);
   return review ? (
     <p className="small">
-      {review.role === 'medical' ? '의료 검토' : '정보 확인'}: {review.reviewer} ·{' '}
-      <time dateTime={review.reviewedAt}>{review.reviewedAt.slice(0, 10)}</time>
+      {review.role === 'medical' ? '의료 검토' : '정보 확인'}:{' '}
+      {review.reviewerId ? (
+        <a href={href(`/doctors/${review.reviewerId}/`)}>{review.reviewer}</a>
+      ) : (
+        review.reviewer
+      )}{' '}
+      · <time dateTime={review.reviewedAt}>{review.reviewedAt.slice(0, 10)}</time>
     </p>
   ) : null;
 }
@@ -459,18 +516,12 @@ function DoctorDetail({ page }: { page: Page }) {
           height="664"
           alt={doctor.imageKind === 'portrait' ? `${doctor.name} ${doctor.role}` : ''}
         />
-        {doctor.imageKind === 'silhouette' && (
-          <p className="small">기존 홈페이지에서 제공한 소개 이미지입니다.</p>
-        )}
       </div>
       <div>
         <span className="eyebrow">{doctor.specialty}</span>
         <h2>
           {doctor.name} <small>{doctor.role}</small>
         </h2>
-        <p className="small">
-          기존 홈페이지 의료진 소개 기준이며, 현재 소속·학회 직책은 최종 확인 전입니다.
-        </p>
         {[
           ['주요 이력', doctor.careers],
           ['인정 자격', doctor.credentials],
@@ -584,10 +635,22 @@ export function PageContent({ page }: { page: Page }) {
               ) : page.id === 'sitemap' ? (
                 <SiteMap />
               ) : page.id === 'cases' ? (
-                <Search
-                  items={searchItems(pages.filter((p) => p.template === 'case-detail'))}
-                  label="진단 사례에서 궁금한 내용을 찾아보세요"
-                />
+                <>
+                  <BodyBlocks page={page} />
+                  <Search
+                    items={caseLinks.map((item) => ({
+                      ...item,
+                      text: item.description,
+                      external: true,
+                    }))}
+                    label="진단 사례에서 궁금한 내용을 찾아보세요"
+                  />
+                </>
+              ) : page.id === 'notices' ? (
+                <>
+                  <BodyBlocks page={page} />
+                  <OriginalNoticesLink />
+                </>
               ) : null}
               {page.id === 'about' && (
                 <div className="about-intro">
@@ -613,31 +676,17 @@ export function PageContent({ page }: { page: Page }) {
                   </div>
                 </div>
               )}
-              {page.template === 'case-detail' && (
-                <p className="notice-box">
-                  기존 홈페이지 진단 사례의 교육용 요약입니다. 개별 환자의 정보·검사 이미지는 싣지
-                  않았으며, 같은 증상에 같은 진단이 적용되는 것은 아닙니다.
-                </p>
-              )}
-              {page.id === 'notice-closure-20250624' && (
-                <p className="notice-box">
-                  지난 휴진 기록입니다. 현재 진료시간은 <a href={href('/visit/')}>방문 안내</a>를
-                  확인해 주세요.
-                </p>
-              )}
               {page.risk === 'urgent_context_review' && (
                 <p className="urgent-note">
                   심한 흉통·호흡곤란 또는 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을
                   요청하세요.
                 </p>
               )}
-              <BodyBlocks page={page} />
-              {/index|hub/.test(page.template) && !['doctors', 'cases'].includes(page.id) && (
-                <Cards
-                  icons={page.id !== 'notices' && page.id !== 'health'}
-                  items={getChildren(page)}
-                />
-              )}
+              {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}
+              {/index|hub/.test(page.template) &&
+                !['doctors', 'cases', 'notices'].includes(page.id) && (
+                  <Cards icons={page.id !== 'health'} items={getChildren(page)} />
+                )}
               {page.id === 'fees' && (
                 <div className="article-section">
                   <h2>전화 문의 시 함께 확인할 항목</h2>
@@ -655,7 +704,7 @@ export function PageContent({ page }: { page: Page }) {
               {page.id !== 'search' && page.id !== 'sitemap' && (
                 <>
                   <ReviewAttribution page={page} />
-                  <Provenance page={page} />
+                  {!['cases', 'notices'].includes(page.id) && <Sources page={page} />}
                 </>
               )}
             </article>
@@ -665,7 +714,7 @@ export function PageContent({ page }: { page: Page }) {
                   <span className="eyebrow">이 페이지에서</span>
                   <nav aria-label="본문 목차">
                     {page.blocks.map((b, i) => (
-                      <a href={`#section-${i + 1}`} key={b.heading}>
+                      <a href={`#${b.id ?? `section-${i + 1}`}`} key={b.heading}>
                         {b.heading}
                       </a>
                     ))}

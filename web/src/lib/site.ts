@@ -4,10 +4,47 @@ import clinicData from '../../../content/clinic.json';
 import physicianData from '../../../content/physicians.json';
 import reviewData from '../../../content/reviews.json';
 import { assetPath, absoluteUrl, jsonSafe } from './urls.mjs';
+import {
+  resolveClinic,
+  resolvePages,
+  clinicHoursSchema,
+  clinicAddressSchema,
+} from './content-model.mjs';
 
-export type Page = (typeof rawPages)[number];
-export const pages: Page[] = rawPages;
-export const clinic = clinicData;
+export type Source = {
+  id?: string;
+  title: string;
+  url: string;
+  kind?: 'clinic' | 'medical';
+  checkedAt?: string;
+};
+export type ContentLink = { pageId: string; anchor?: string; label: string };
+export type ContentTable = { caption: string; columns: string[]; rows: string[][] };
+export type Block = {
+  id?: string;
+  heading: string;
+  text: string;
+  sourceIds?: string[];
+  links?: ContentLink[];
+  table?: ContentTable;
+};
+export type Question = {
+  id?: string;
+  question: string;
+  answer: string;
+  sourceIds?: string[];
+  links?: ContentLink[];
+};
+export type Page = Omit<(typeof rawPages)[number], 'blocks' | 'questions' | 'sources'> & {
+  blocks: Block[];
+  questions: Question[];
+  sources: Source[];
+};
+export const clinic = resolveClinic(clinicData) as typeof clinicData & {
+  address: string;
+  hours: Array<{ id: string; label: string; value: string }>;
+};
+export const pages: Page[] = resolvePages(rawPages, clinic);
 export const phoneHref = 'tel:' + clinic.phone.replace(/[^\d+]/g, '');
 export const physicians = physicianData;
 export const basePath = process.env.SITE_BASE_PATH ?? '';
@@ -26,6 +63,7 @@ type ReviewRecord = {
   expiresAt: string;
   evidence: string;
   digest: string;
+  reviewerId?: string;
 };
 export const reviewFor = (page: Page) =>
   reviewMode
@@ -83,7 +121,7 @@ export function breadcrumbs(page: Page) {
 }
 
 export function structuredData(page: Page) {
-  const clinicId = absolute('/#clinic');
+  const clinicId = new URL('#clinic', clinic.originalUrl).href;
   const siteId = absolute('/#website');
   const pageId = absolute(page.path + '#webpage');
   const doctor = physicians.find((p) => page.id === `doctor-${p.id}`);
@@ -95,17 +133,13 @@ export function structuredData(page: Page) {
       '@type': 'MedicalClinic',
       '@id': clinicId,
       name: clinic.name,
-      url: absolute('/'),
-      sameAs: clinic.originalUrl,
+      url: clinic.originalUrl,
+      sameAs: absolute('/'),
       telephone: clinic.phone,
       image: absolute('/assets/clinic-1600.webp'),
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: '덕영대로 1478, 포레스퀘어 6층',
-        addressLocality: '수원시 영통구',
-        addressRegion: '경기도',
-        addressCountry: 'KR',
-      },
+      address: clinicAddressSchema(clinic),
+      openingHoursSpecification: clinicHoursSchema(clinic),
+      hasMap: clinic.mapUrl,
       medicalSpecialty: [
         'https://schema.org/PrimaryCare',
         'https://schema.org/Cardiovascular',
@@ -115,7 +149,7 @@ export function structuredData(page: Page) {
     {
       '@type': 'WebSite',
       '@id': siteId,
-      name: clinic.name,
+      name: '영통탑내과 진료·검사 안내',
       url: absolute('/'),
       inLanguage: 'ko-KR',
       publisher: { '@id': clinicId },
@@ -140,7 +174,16 @@ export function structuredData(page: Page) {
       citation: page.sources.map((s) => s.url),
       ...(review?.role === 'medical'
         ? {
-            reviewedBy: { '@type': 'Person', name: review.reviewer },
+            reviewedBy: {
+              '@type': 'Person',
+              name: review.reviewer,
+              ...(review.reviewerId
+                ? {
+                    '@id': absolute(`/doctors/${review.reviewerId}/#person`),
+                    url: absolute(`/doctors/${review.reviewerId}/`),
+                  }
+                : {}),
+            },
             lastReviewed: review.reviewedAt.slice(0, 10),
           }
         : {}),

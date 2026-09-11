@@ -1,14 +1,39 @@
 import { z } from 'zod';
 import crypto from 'node:crypto';
+import { validatePatientScope } from './public-content-policy.mjs';
 export const sha256 = (value) =>
   crypto
     .createHash('sha256')
     .update(typeof value === 'string' || Buffer.isBuffer(value) ? value : JSON.stringify(value))
     .digest('hex');
 const source = z.object({
+  id: z
+    .string()
+    .regex(/^[a-z0-9-]+$/)
+    .optional(),
   title: z.string().min(3),
   url: z.url().refine((s) => s.startsWith('https://'), 'HTTPS source required'),
+  kind: z.enum(['clinic', 'medical']).optional(),
+  checkedAt: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/)
+    .optional(),
 });
+const anchor = z.string().regex(/^[a-z][a-z0-9-]*$/);
+const refs = z.array(z.string()).optional();
+const links = z
+  .array(
+    z.object({ pageId: z.string(), anchor: anchor.optional(), label: z.string().min(3) }).strict(),
+  )
+  .optional();
+const table = z
+  .object({
+    caption: z.string().min(3),
+    columns: z.array(z.string().min(1)).min(2),
+    rows: z.array(z.array(z.string().min(1))).min(1),
+  })
+  .strict()
+  .refine((t) => t.rows.every((r) => r.length === t.columns.length), 'Table column mismatch');
 const date = z
   .string()
   .regex(/^\d{4}-\d{2}-\d{2}$/)
@@ -23,9 +48,30 @@ export const pageSchema = z
     template: z.string().min(3),
     category: z.string().min(2),
     intro: z.string().min(20),
-    blocks: z.array(z.object({ heading: z.string().min(2), text: z.string().min(20) })),
+    blocks: z.array(
+      z
+        .object({
+          id: anchor.optional(),
+          heading: z.string().min(2),
+          text: z.string().min(20),
+          sourceIds: refs,
+          links,
+          table: table.optional(),
+        })
+        .strict(),
+    ),
     questions: z
-      .array(z.object({ question: z.string().min(8), answer: z.string().min(20) }))
+      .array(
+        z
+          .object({
+            id: anchor.optional(),
+            question: z.string().min(8),
+            answer: z.string().min(20),
+            sourceIds: refs,
+            links,
+          })
+          .strict(),
+      )
       .max(8),
     related: z.array(z.string()),
     sources: z.array(source),
@@ -43,11 +89,22 @@ export function pageDigest(page, context) {
 }
 export function validateContent(
   pages,
-  { mode = 'review', reviews = [], clinic, physicians, assets, rendererDigest, now = new Date() },
+  {
+    mode = 'review',
+    reviews = [],
+    clinic,
+    physicians,
+    assets,
+    rendererDigest,
+    caseLinks,
+    pageIntents,
+    now = new Date(),
+  },
 ) {
   const errors = [];
   const parsed = z.array(pageSchema).safeParse(pages);
   if (!parsed.success) return parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`);
+  errors.push(...validatePatientScope(pages, { caseLinks, pageIntents, clinic, physicians }));
   if (!['review', 'production'].includes(mode)) errors.push('Unknown build mode');
   for (const field of ['id', 'path', 'metaTitle', 'description']) {
     const all = pages.map((p) => p[field]);
@@ -55,6 +112,34 @@ export function validateContent(
   }
   const ids = new Set(pages.map((p) => p.id));
   for (const page of pages) {
+    const sourceIds = page.sources.map((s) => s.id).filter(Boolean);
+    if (new Set(sourceIds).size !== sourceIds.length)
+      errors.push(`${page.id}: duplicate source ID`);
+    const anchors = [...page.blocks, ...page.questions].map((b) => b.id).filter(Boolean);
+    if (
+      new Set(anchors).size !== anchors.length ||
+      anchors.some((a) => ['questions', 'related'].includes(a))
+    )
+      errors.push(`${page.id}: duplicate or reserved anchor`);
+    for (const item of [...page.blocks, ...page.questions]) {
+      for (const ref of item.sourceIds ?? [])
+        if (!sourceIds.includes(ref)) errors.push(`${page.id}: unknown source ${ref}`);
+      for (const link of item.links ?? []) {
+        const target = pages.find((p) => p.id === link.pageId);
+        if (
+          !target ||
+          (link.anchor &&
+            ![...target.blocks, ...target.questions].some((b) => b.id === link.anchor))
+        )
+          errors.push(`${page.id}: invalid contextual link ${link.pageId}#${link.anchor ?? ''}`);
+      }
+    }
+    for (const s of page.sources)
+      if (
+        s.kind === 'medical' &&
+        /(?:hidoc\.co\.kr|doctornow\.co\.kr|kin\.naver\.com)/.test(new URL(s.url).hostname)
+      )
+        errors.push(`${page.id}: question-discovery source is not clinical evidence`);
     if (page.id !== 'not-found' && page.sources.length === 0)
       errors.push(`${page.id}: source required`);
     for (const id of page.related)
@@ -90,6 +175,7 @@ export function validateContent(
         pageId: z.string(),
         status: z.literal('approved'),
         reviewer: z.string().min(2),
+        reviewerId: z.string().optional(),
         role: z.enum(['medical', 'operations']),
         reviewedAt: z.iso.datetime({ offset: true }),
         expiresAt: z.iso.datetime({ offset: true }),
@@ -114,6 +200,11 @@ export function validateContent(
         errors.push(`${page.id}: expired or invalid review period`);
       if (page.risk !== 'operational' && review.role !== 'medical')
         errors.push(`${page.id}: medical reviewer required`);
+      if (
+        review.role === 'medical' &&
+        !physicians.some((p) => p.id === review.reviewerId && p.name === review.reviewer)
+      )
+        errors.push(`${page.id}: medical reviewer profile and name must match`);
       if (/example|placeholder|테스트|예시|미정/i.test(review.reviewer + review.evidence))
         errors.push(`${page.id}: example review is not approval`);
     }

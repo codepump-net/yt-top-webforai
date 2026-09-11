@@ -1,0 +1,34 @@
+[
+  {
+    "route": "health/heart-test-differences/",
+    "width": 390,
+    "status": 200,
+    "horizontalOverflow": false,
+    "tables": 1,
+    "screenshot": "web/reports/aeo-visuals/heart-390.png"
+  },
+  {
+    "route": "health/heart-test-differences/",
+    "width": 1440,
+    "status": 200,
+    "horizontalOverflow": false,
+    "tables": 1,
+    "screenshot": "web/reports/aeo-visuals/heart-1440.png"
+  },
+  {
+    "route": "health/colonoscopy-preparation-questions/",
+    "width": 390,
+    "status": 200,
+    "horizontalOverflow": false,
+    "tables": 1,
+    "screenshot": "web/reports/aeo-visuals/colonoscopy-390.png"
+  },
+  {
+    "route": "health/colonoscopy-preparation-questions/",
+    "width": 1440,
+    "status": 200,
+    "horizontalOverflow": false,
+    "tables": 1,
+    "screenshot": "web/reports/aeo-visuals/colonoscopy-1440.png"
+  }
+]

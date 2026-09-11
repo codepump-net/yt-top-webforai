@@ -16,12 +16,12 @@ const chrome = await launch({
   userDataDir: path.resolve('.local/lighthouse-profile'),
   chromeFlags: ['--headless=new', '--no-sandbox', '--disable-dev-shm-usage'],
 });
-const manifest = JSON.parse(await fs.readFile('out/build-manifest.json', 'utf8'));
+const manifest = JSON.parse(await fs.readFile('reports/build-manifest.json', 'utf8'));
 const reports = [];
 const errors = [];
 try {
   await fs.mkdir('reports/lighthouse', { recursive: true });
-  for (const route of ['', 'services/heart/echocardiography/', 'search/']) {
+  for (const route of ['', 'services/heart/echocardiography/', 'search/', 'health/colonoscopy-preparation-questions/']) {
     const result = await lighthouse(url + route, {
       port: chrome.port,
       output: ['json', 'html'],

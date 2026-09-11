@@ -2,7 +2,7 @@
   "name": "영통탑내과의원",
   "shortName": "영통탑내과",
   "phone": "031-202-7555",
-  "address": "경기 수원시 영통구 덕영대로 1478, 포레스퀘어 6층",
+  "addressParts": { "region": "경기도", "locality": "수원시 영통구", "street": "덕영대로 1478, 포레스퀘어 6층", "country": "KR" },
   "subway": "망포역 3번 출구에서 도보 약 2분",
   "mapUrl": "https://naver.me/5WOQWq7m",
   "originalUrl": "https://yttop.co.kr/",
@@ -10,19 +10,19 @@
   "registration": "498-91-01432",
   "hours": [
     {
-      "label": "평일",
-      "value": "08:30 – 18:30"
+      "id": "weekdays", "label": "평일",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:30", "closes": "18:30", "breakId": "lunch"
     },
     {
-      "label": "토요일",
-      "value": "08:30 – 13:30"
+      "id": "saturday", "label": "토요일", "days": ["Saturday"],
+      "opens": "08:30", "closes": "13:30", "breakUnconfirmed": true
     },
     {
-      "label": "점심시간",
-      "value": "13:00 – 14:00"
+      "id": "lunch", "label": "점심시간", "opens": "13:00", "closes": "14:00"
     },
     {
-      "label": "일요일·공휴일",
+      "id": "closed", "label": "일요일·공휴일",
       "value": "휴진"
     }
   ],

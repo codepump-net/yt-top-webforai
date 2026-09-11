@@ -1,0 +1,227 @@
+[
+  {
+    "id": "home",
+    "path": "/",
+    "patientNeed": "병원의 진료 분야와 위치를 파악하고 필요한 안내로 이동한다."
+  },
+  {
+    "id": "not-found",
+    "path": "/404.html",
+    "patientNeed": "없는 주소에서 홈페이지나 검색으로 돌아가 필요한 안내를 찾는다."
+  },
+  {
+    "id": "about",
+    "path": "/about/",
+    "patientNeed": "병원 소개의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+  },
+  {
+    "id": "cases",
+    "path": "/cases/",
+    "patientNeed": "병원이 게시한 실제 진단 사례를 주제별로 찾아 원문으로 이동한다."
+  },
+  {
+    "id": "checkups",
+    "path": "/checkups/",
+    "patientNeed": "건강검진 안내에서 검진 목적에 맞는 안내 찾기 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "cancer-screening",
+    "path": "/checkups/cancer-screening/",
+    "patientNeed": "암검진 안내에서 검진 대상과 실제 검사 구분 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "drug-screening",
+    "path": "/checkups/drug-screening/",
+    "patientNeed": "마약검사·영문서류에서 제출처 요구를 먼저 준비하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "employment-checkup",
+    "path": "/checkups/employment/",
+    "patientNeed": "채용검진·제출 서류에서 제출처 안내문 준비 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "national-checkup",
+    "path": "/checkups/national/",
+    "patientNeed": "국가건강검진에서 대상과 검사 항목 확인 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "tuberculosis-screening",
+    "path": "/checkups/tuberculosis/",
+    "patientNeed": "기숙사 결핵검진에서 제출처 안내문 준비 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "visa-checkup",
+    "path": "/checkups/visa/",
+    "patientNeed": "외국인 비자검진에서 제출처 안내문 준비 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "conditions",
+    "path": "/conditions/",
+    "patientNeed": "내과 진료 안내에서 진료 전에 증상의 경과를 정리하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "acute-care",
+    "path": "/conditions/acute-care/",
+    "patientNeed": "급성기질환 진료에서 가장 불편한 증상부터 전달 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "chronic-cough",
+    "path": "/conditions/chronic-cough/",
+    "patientNeed": "만성기침 진료에서 기침이 언제 어떻게 나타나는지 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "heart-disease",
+    "path": "/conditions/heart-disease/",
+    "patientNeed": "심장질환 진료에서 증상 이름보다 발생 상황이 중요합니다 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "doctors",
+    "path": "/doctors/",
+    "patientNeed": "의료진 소개의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+  },
+  {
+    "id": "doctor-park-jongseol",
+    "path": "/doctors/park-jongseol/",
+    "patientNeed": "박종설 대표원장의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+  },
+  {
+    "id": "doctor-park-rayoung",
+    "path": "/doctors/park-rayoung/",
+    "patientNeed": "박라영 원장의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+  },
+  {
+    "id": "fees",
+    "path": "/fees/",
+    "patientNeed": "비용·서류 발급 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+  },
+  {
+    "id": "health",
+    "path": "/health/",
+    "patientNeed": "검사·진료 이해하기에서 지금 필요한 검사 안내부터 읽어보세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "checkup-preparation",
+    "path": "/health/checkup-preparation-checklist/",
+    "patientNeed": "건강검진 전 준비 확인표에서 검진 항목부터 확인하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "patientNeed": "대장내시경 준비 시 확인할 질문에서 식사 조절과 금식은 같은 안내가 아닙니다 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "heart-test-differences",
+    "path": "/health/heart-test-differences/",
+    "patientNeed": "심전도·심장초음파·홀터검사의 차이에서 심장검사는 관찰하는 정보가 다릅니다 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "palpitations-followup",
+    "path": "/health/palpitations-test-followup/",
+    "patientNeed": "검사 후에도 두근거림이 계속될 때 확인할 점에서 검사 중 평소 증상이 있었는지 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "notices",
+    "path": "/notices/",
+    "patientNeed": "방문할 날짜의 휴진과 병원 소식을 원래 공지 채널에서 확인한다."
+  },
+  {
+    "id": "privacy",
+    "path": "/privacy/",
+    "patientNeed": "상담 정보 입력과 검색어 전송 여부, 외부 서비스의 개인정보 처리를 이해한다."
+  },
+  {
+    "id": "search",
+    "path": "/search/",
+    "patientNeed": "검사 이름이나 방문 목적에 맞는 병원 안내 페이지를 찾는다."
+  },
+  {
+    "id": "services",
+    "path": "/services/",
+    "patientNeed": "진료·검사 안내에서 진료 목적과 검사 안내 연결 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "cancer-support",
+    "path": "/services/cancer-support/",
+    "patientNeed": "암환자 진료·케어 안내에서 현재 치료와 상담 목적 공유 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "endoscopy",
+    "path": "/services/endoscopy/",
+    "patientNeed": "위·대장내시경 안내에서 검사 선택과 준비를 나누어 확인하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "colonoscopy",
+    "path": "/services/endoscopy/colonoscopy/",
+    "patientNeed": "대장내시경에서 대장 안쪽을 관찰하는 검사 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "gastroscopy",
+    "path": "/services/endoscopy/gastroscopy/",
+    "patientNeed": "위내시경에서 위내시경이 살펴보는 범위 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "heart-index",
+    "path": "/services/heart/",
+    "patientNeed": "심장검사 안내에서 어떤 심장검사 안내가 필요한가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "abi",
+    "path": "/services/heart/arterial-assessment/",
+    "patientNeed": "동맥경화도 검사에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "cardiac-markers",
+    "path": "/services/heart/cardiac-markers/",
+    "patientNeed": "심장 표지자 검사에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "carotid",
+    "path": "/services/heart/carotid-ultrasound/",
+    "patientNeed": "경동맥 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "echocardiography",
+    "path": "/services/heart/echocardiography/",
+    "patientNeed": "심장초음파 검사에서 심장초음파에서 살펴보는 것 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "hrv",
+    "path": "/services/heart/heart-rate-variability/",
+    "patientNeed": "심박 변이도 검사에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "holter",
+    "path": "/services/heart/holter/",
+    "patientNeed": "홀터검사에서 간헐적인 증상과 기록 검사 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "ultrasound-index",
+    "path": "/services/ultrasound/",
+    "patientNeed": "초음파 검사 안내에서 초음파는 검사 부위부터 확인하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "abdominal-ultrasound",
+    "path": "/services/ultrasound/abdomen/",
+    "patientNeed": "상·하복부 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "bowel-ultrasound",
+    "path": "/services/ultrasound/bowel/",
+    "patientNeed": "소장·대장·맹장 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "thyroid-ultrasound",
+    "path": "/services/ultrasound/thyroid/",
+    "patientNeed": "갑상선 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+  },
+  {
+    "id": "sitemap",
+    "path": "/sitemap/",
+    "patientNeed": "병원의 전체 안내를 분야별 목록에서 찾아 이동한다."
+  },
+  {
+    "id": "visit",
+    "path": "/visit/",
+    "patientNeed": "진료시간·오시는 길의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+  }
+]

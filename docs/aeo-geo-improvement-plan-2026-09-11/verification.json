@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-09-11",
+  "scope": "Documentation consistency only; no application implementation, clinical approval, frequency verification, deployment or AI outcome certification",
+  "checks": {
+    "csv_columns_valid": true,
+    "all_18_references_preserved": true,
+    "source_urls_and_dispositions_match": true,
+    "candidate_and_excluded_counts": true,
+    "all_candidates_have_valid_primary_and_related_pages": true,
+    "excluded_references_not_assigned_for_publication": true,
+    "no_frequency_or_publication_approval_invented": true,
+    "fact_ids_unique_and_pending": true,
+    "fact_page_references_valid": true,
+    "question_fact_references_valid": true,
+    "all_45_current_routes_exactly_once": true,
+    "clinical_waves_10_and_15": true,
+    "page_plan_fact_references_valid": true,
+    "all_12_tasks_have_valid_dependencies": true,
+    "task_dependencies_acyclic": true,
+    "local_markdown_links_resolve": true,
+    "utf8_without_replacement_characters": true
+  },
+  "all_passed": true,
+  "counts": {
+    "current_routes": 45,
+    "clinical_routes": 25,
+    "first_wave_clinical_routes": 10,
+    "question_source_records": 18,
+    "question_candidates": 13,
+    "excluded_source_records": 5,
+    "primary_answer_pages": 7,
+    "fact_groups": 18,
+    "implementation_tasks": 12
+  },
+  "source_sha256": {
+    "content/pages.json": "464503a59be1d217bf5e0823dc4d4a51facda5d619212a1f8a8e787326a2950d",
+    "research/2026-09-11-korean-medical-qa/data/question-reference-index.json": "dd2a1c3888f88925d1ebb62e837a09aad59b107e0298787217316d7b4c9be629"
+  },
+  "missing_links": []
+}

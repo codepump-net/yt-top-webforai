@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-09-11T04:03:11.409318+00:00",
+  "scope": {
+    "previousRoutes": 76,
+    "currentRoutes": 45,
+    "removedPolicyRoutes": 1,
+    "consolidatedCaseRoutes": 25,
+    "consolidatedNoticeRoutes": 5,
+    "caseArticleLinksRetained": 25
+  },
+  "gitHead": "5eb2d827216b5fb99d77cbff97aade4cc13e0d4f",
+  "worktreeChangesIncluded": true,
+  "contentDigest": "53ccc45fbd0346a4391d8688e5ab053b174bf456db4a0f0f77f5844c7904c1ec",
+  "validation": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "unitTestsPassed": 31,
+    "pythonHarnessTestsPassed": 17,
+    "layouts": {
+      "root": {
+        "routes": 45,
+        "publicFilesChecked": 274,
+        "staticErrors": [],
+        "browserTests": {
+          "startTime": "2026-09-11T04:00:58.668Z",
+          "duration": 26294.482,
+          "expected": 27,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      },
+      "project": {
+        "routes": 45,
+        "publicFilesChecked": 274,
+        "staticErrors": [],
+        "browserTests": {
+          "startTime": "2026-09-11T04:01:31.203Z",
+          "duration": 27363.451,
+          "expected": 27,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      }
+    }
+  },
+  "performance": {
+    "sampledPages": 3,
+    "mobilePerformanceScores": [
+      99,
+      99,
+      99
+    ],
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "seoScores": [
+      66,
+      66,
+      66
+    ],
+    "seoLimitation": "Review noindex intentionally fails is-crawlable. No AEO/GEO outcome measurement."
+  },
+  "publication": {
+    "mode": "review",
+    "noindex": true,
+    "externalDeploymentPerformed": false,
+    "ciExecutedThisChange": false,
+    "previewUrl": "http://127.0.0.1:4173/yt-top-webforai/"
+  },
+  "limitations": [
+    "Browser checks used Windows Edge (Chromium).",
+    "Current medical and operational reviews remain pending.",
+    "External case links were checked against the existing source inventory; original host blocked this audit browser with HTTP 403.",
+    "Changed GitHub Actions artifact retrieval has not been executed on GitHub in this cleanup."
+  ]
+}

@@ -121,6 +121,15 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci
         working-directory: web
+      - name: Load expected manifest from this run's build evidence
+        uses: actions/download-artifact@v5
+        with:
+          name: checks-project
+          path: .verification
+      - name: Place expected manifest outside the public export
+        run: |
+          mkdir -p web/reports
+          cp .verification/reports/build-manifest.json web/reports/build-manifest.json
       - name: Verify deployed commit and all pages
         env:
           DEPLOY_URL: ${{ steps.deployment.outputs.page_url }}

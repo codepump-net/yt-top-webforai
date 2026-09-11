@@ -1,0 +1,183 @@
+[
+  {
+    "questionId": "Q01",
+    "sourceId": "C0000560798",
+    "pageId": "echocardiography",
+    "path": "/services/heart/echocardiography/",
+    "anchor": "echo-limits",
+    "question": "심장초음파가 정상이면 모든 심장질환을 배제할 수 있나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F07",
+      "F06"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q02",
+    "sourceId": "C0000696382",
+    "pageId": "heart-test-differences",
+    "path": "/health/heart-test-differences/",
+    "anchor": "different-normal",
+    "question": "심전도와 심장초음파 중 어느 결과를 먼저 믿어야 하나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F07",
+      "F08"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q03",
+    "sourceId": "C0000558942",
+    "pageId": "palpitations-followup",
+    "path": "/health/palpitations-test-followup/",
+    "anchor": "continued-palpitations",
+    "question": "홀터검사 후에도 두근거림이 있으면 무엇을 알려야 하나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F08",
+      "F15"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q04",
+    "sourceId": "C0000422642",
+    "pageId": "heart-test-differences",
+    "path": "/health/heart-test-differences/",
+    "anchor": "intermittent-testing",
+    "question": "두근거림이 가끔 나타나면 홀터검사를 받으면 되나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F07",
+      "F08"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q05",
+    "sourceId": "C0000878970",
+    "pageId": "holter",
+    "path": "/services/heart/holter/",
+    "anchor": "holter-results",
+    "question": "홀터검사 결과는 어떤 자료와 함께 설명받나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F08",
+      "F03"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q06",
+    "sourceId": "C0000605007",
+    "pageId": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "anchor": "food-and-fasting",
+    "question": "대장내시경 전 식사 조절과 금식을 어떻게 구분하나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F09",
+      "F10"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q07",
+    "sourceId": "C0000998201",
+    "pageId": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "anchor": "morning-booking",
+    "question": "오전 대장내시경은 몇 시부터 준비해야 하나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F09",
+      "F10",
+      "F03"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q08",
+    "sourceId": "C0000985651",
+    "pageId": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "anchor": "water",
+    "question": "대장내시경 준비 중 물을 마셔도 되나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F10"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q09",
+    "sourceId": "C0000998200",
+    "pageId": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "anchor": "previous-day-food",
+    "question": "대장내시경 전날 어떤 음식을 먹을 수 있나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F10"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q10",
+    "sourceId": "C0000998196",
+    "pageId": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "anchor": "coffee",
+    "question": "대장내시경 준비 중 커피를 마셨다면 어떻게 하나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F10"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q11",
+    "sourceId": "C0001003913",
+    "pageId": "checkup-preparation",
+    "path": "/health/checkup-preparation-checklist/",
+    "anchor": "fasting-purpose",
+    "question": "검진 항목마다 금식과 준비 안내가 다른 이유는 무엇인가요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F11",
+      "F10"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q12",
+    "sourceId": "C0001003911",
+    "pageId": "checkup-preparation",
+    "path": "/health/checkup-preparation-checklist/",
+    "anchor": "coffee-before-checkup",
+    "question": "검진 전 커피나 물을 마셨다면 어떤 정보를 알려야 하나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F11",
+      "F10",
+      "F03"
+    ],
+    "frequencyEvidence": null
+  },
+  {
+    "questionId": "Q13",
+    "sourceId": "C0000984716",
+    "pageId": "gastroscopy",
+    "path": "/services/endoscopy/gastroscopy/",
+    "anchor": "sedation-prep",
+    "question": "진정 내시경을 함께 받으면 검진 준비와 귀가 안내가 달라지나요?",
+    "status": "general_answer_implemented_clinical_review_pending",
+    "clinicSpecificFactsPending": [
+      "F09",
+      "F10"
+    ],
+    "frequencyEvidence": null
+  }
+]

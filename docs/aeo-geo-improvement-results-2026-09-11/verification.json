@@ -1,0 +1,167 @@
+{
+  "checkedAt": "2026-09-11T06:54:00.900749+00:00",
+  "scope": "Local implementation verification; not clinical approval or observed SEO/AI outcomes.",
+  "passed": true,
+  "sourceContentDigest": "8fc2dfb3a0ea79349b068364d471202d343f3bb98b255393879dac2af62efed9",
+  "checks": [
+    {
+      "name": "before audit preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "45 route scope preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "after manifest digest matches audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "current manifest equals copied project evidence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all 45 exported HTML hashes match manifest",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "new feature baseline zero in preserved manuscripts",
+      "passed": true,
+      "details": {
+        "sourceLinkedBlocks": 0,
+        "sourceLinkedQuestions": 0,
+        "comparisonTables": 0,
+        "contextualLinks": 0
+      }
+    },
+    {
+      "name": "all 13 research questions have exact manuscript targets",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "32 evaluation queries include all research questions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "research frequency remains unknown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual medical and operation approvals not fabricated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "root static and content checks passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "root browser 29 passed",
+      "passed": true,
+      "details": {
+        "startTime": "2026-09-11T06:35:56.003Z",
+        "duration": 30017.451,
+        "expected": 29,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "name": "project static and content checks passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "project browser 29 passed",
+      "passed": true,
+      "details": {
+        "startTime": "2026-09-11T06:37:44.819Z",
+        "duration": 30241.766,
+        "expected": 29,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "name": "4 Lighthouse samples retain performance 99",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "4 additional viewport checks have no page overflow",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all 18 medical source URLs responded 200 on final attempt",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "production requires genuine approvals",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review noindex retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archive contains exactly the final export",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archive has 45 manifest routes plus framework error aliases, without internal documents",
+      "passed": true,
+      "details": {
+        "manifestRoutes": 45,
+        "htmlFiles": 47,
+        "frameworkErrorAliases": [
+          "404/index.html",
+          "_not-found/index.html"
+        ]
+      }
+    },
+    {
+      "name": "updated documentation local links resolve",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "additionalCommandsCompletedThisSession": {
+    "unitTestsPassed": 35,
+    "pythonHarnessTestsPassed": 17,
+    "lint": "passed",
+    "typecheck": "passed"
+  },
+  "visualReview": {
+    "inspectedImages": [
+      "web/reports/aeo-visuals/heart-1440.png",
+      "web/reports/aeo-visuals/colonoscopy-390.png"
+    ],
+    "finding": "Tables, source links and patient navigation remained readable; no layout issue found in these views."
+  },
+  "archive": {
+    "path": "artifacts/yeongtong-top-review.zip",
+    "bytes": 1691458,
+    "sha256": "fcf7ddc881fcfa9f743050003c1ac16bd8255932b2142ae7f6c83378fa07916d"
+  },
+  "remoteDeploymentPerformed": false,
+  "publicTargetStatus": 404,
+  "actualMedicalApproval": false,
+  "observedSearchRankingChange": null,
+  "observedAICitationChange": null
+}

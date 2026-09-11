@@ -1,5 +1,5 @@
 'use client';
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, Search as SearchIcon } from 'lucide-react';
 
 export type SearchItem = {
@@ -8,6 +8,7 @@ export type SearchItem = {
   category: string;
   url: string;
   text: string;
+  external?: boolean;
 };
 export function Search({
   items,
@@ -20,24 +21,41 @@ export function Search({
 }) {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('전체');
+  const input = useRef<HTMLInputElement>(null);
   const categories = ['전체', ...new Set(items.map((p) => p.category))];
   const results = useMemo(() => {
-    const words = query
-      .normalize('NFKC')
-      .toLocaleLowerCase('ko')
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean);
-    return items.filter(
-      (p) =>
-        (category === '전체' || p.category === category) &&
-        words.every((word) =>
-          `${p.title} ${p.description} ${p.text}`
-            .normalize('NFKC')
-            .toLocaleLowerCase('ko')
-            .includes(word),
-        ),
-    );
+    const normalize = (value: string) =>
+      value.normalize('NFKC').toLocaleLowerCase('ko').trim().replace(/\s+/g, ' ');
+    const phrase = normalize(query);
+    const words = phrase.split(' ').filter(Boolean);
+    return items
+      .filter((p) => category === '전체' || p.category === category)
+      .map((item) => {
+        const title = normalize(item.title),
+          description = normalize(item.description);
+        const text = normalize(item.text);
+        if (!words.every((word) => `${title} ${description} ${text}`.includes(word))) return null;
+        let score = 0;
+        if (phrase) {
+          score =
+            title === phrase
+              ? 10000
+              : title.startsWith(phrase)
+                ? 9000
+                : title.includes(phrase)
+                  ? 8000
+                  : 0;
+          score += words.reduce(
+            (total, word) =>
+              total + (title.includes(word) ? 500 : description.includes(word) ? 40 : 1),
+            0,
+          );
+        }
+        return { item, score };
+      })
+      .filter((result) => result !== null)
+      .sort((a, b) => b.score - a.score)
+      .map(({ item }) => item);
   }, [items, query, category]);
   return (
     <div className="search-widget">
@@ -47,6 +65,7 @@ export function Search({
       <div className="search-field">
         <SearchIcon size={22} />
         <input
+          ref={input}
           id="site-query"
           type="search"
           value={query}
@@ -71,9 +90,7 @@ export function Search({
         </div>
       )}
       <noscript>
-        <p className="notice-box">
-          검색 필터는 JavaScript가 필요합니다. 아래 전체 목록에서 페이지를 선택할 수 있습니다.
-        </p>
+        <p className="notice-box">아래 전체 목록에서 필요한 안내를 선택할 수 있습니다.</p>
       </noscript>
       <p className="result-count" role="status" aria-live="polite">
         {query ? `“${query}” 검색 결과 ` : '전체 '}
@@ -81,11 +98,22 @@ export function Search({
       </p>
       <div className="search-results">
         {results.map((p) => (
-          <a href={p.url} key={p.url} className="result-card">
+          <a
+            href={p.url}
+            key={p.url}
+            className="result-card"
+            target={p.external ? '_blank' : undefined}
+            rel={p.external ? 'noopener noreferrer' : undefined}
+          >
             <div>
               <span className="eyebrow">{p.category}</span>
               <h2>{p.title}</h2>
               <p>{p.description}</p>
+              {p.external && (
+                <span className="card-link">
+                  병원 홈페이지에서 보기 <span className="sr-only"> (새 창)</span>
+                </span>
+              )}
             </div>
             <ArrowUpRight size={22} />
           </a>
@@ -101,6 +129,7 @@ export function Search({
             onClick={() => {
               setQuery('');
               setCategory('전체');
+              input.current?.focus();
             }}
           >
             전체 목록 보기

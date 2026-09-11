@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "commit": "5eb2d827216b5fb99d77cbff97aade4cc13e0d4f",
+  "mode": "review",
+  "origin": "https://codepump-net.github.io",
+  "basePath": "",
+  "builtAt": "2026-09-11T06:35:54.108Z",
+  "contentDigest": "8fc2dfb3a0ea79349b068364d471202d343f3bb98b255393879dac2af62efed9",
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "file": "index.html",
+      "sha256": "86a7964d6bb030d68366c229cfa9ebb53b89e5459c5e0c5ac442ea0fe7140b83",
+      "bytes": 76733,
+      "indexable": false
+    },
+    {
+      "id": "not-found",
+      "path": "/404.html",
+      "file": "404.html",
+      "sha256": "8391781bd107193c953d40d29d5c69dff4fde3212b65ec564c7d50908a0adbc2",
+      "bytes": 16841,
+      "indexable": false
+    },
+    {
+      "id": "about",
+      "path": "/about/",
+      "file": "about/index.html",
+      "sha256": "525971add6a67509a456a670565c174bf292401df0b3a9367c0a76e537f803f3",
+      "bytes": 39707,
+      "indexable": false
+    },
+    {
+      "id": "cases",
+      "path": "/cases/",
+      "file": "cases/index.html",
+      "sha256": "1c5963e12ee140b06d1789df943e103e4c865ed4cc1546dba2722135aa9e9dc8",
+      "bytes": 63381,
+      "indexable": false
+    },
+    {
+      "id": "checkups",
+      "path": "/checkups/",
+      "file": "checkups/index.html",
+      "sha256": "ea22a3824c2203b76b60a79d29f3de9388c83a7425c19672e98d9beeebd1c231",
+      "bytes": 58762,
+      "indexable": false
+    },
+    {
+      "id": "cancer-screening",
+      "path": "/checkups/cancer-screening/",
+      "file": "checkups/cancer-screening/index.html",
+      "sha256": "15c859d0b58713e48f9040eb4adfbfe19d9207636f994500018dea5e5385d61d",
+      "bytes": 53811,
+      "indexable": false
+    },
+    {
+      "id": "drug-screening",
+      "path": "/checkups/drug-screening/",
+      "file": "checkups/drug-screening/index.html",
+      "sha256": "d906a49cc4bf3cec8716310ad2e102b7337081665f5184e56c72df398c786496",
+      "bytes": 55129,
+      "indexable": false
+    },
+    {
+      "id": "employment-checkup",
+      "path": "/checkups/employment/",
+      "file": "checkups/employment/index.html",
+      "sha256": "0bc341bd96b01d01f6cba600c411b7492e39906f6318c729fef25bb727c54bbe",
+      "bytes": 54866,
+      "indexable": false
+    },
+    {
+      "id": "national-checkup",
+      "path": "/checkups/national/",
+      "file": "checkups/national/index.html",
+      "sha256": "9d124fa31ab7e823208bfc6ce515b0a344e8a4d85a62ede71ee9759d6b8b4650",
+      "bytes": 58376,
+      "indexable": false
+    },
+    {
+      "id": "tuberculosis-screening",
+      "path": "/checkups/tuberculosis/",
+      "file": "checkups/tuberculosis/index.html",
+      "sha256": "eb459ffe02a269384a9f1ac516bb2294d0c80b15e055f707fd8fc655b60f70e2",
+      "bytes": 51310,
+      "indexable": false
+    },
+    {
+      "id": "visa-checkup",
+      "path": "/checkups/visa/",
+      "file": "checkups/visa/index.html",
+      "sha256": "43c557845408f72c806ca1da31b53ba4ccfb8cb995b8302f8dde9de261a725f8",
+      "bytes": 51429,
+      "indexable": false
+    },
+    {
+      "id": "conditions",
+      "path": "/conditions/",
+      "file": "conditions/index.html",
+      "sha256": "a5b72c81f3de0a4b2e241d4a711a492e917bfee7fcfb333ded93cb59307b75d4",
+      "bytes": 51477,
+      "indexable": false
+    },
+    {
+      "id": "acute-care",
+      "path": "/conditions/acute-care/",
+      "file": "conditions/acute-care/index.html",
+      "sha256": "3d3cb08e887cc96e1050c566062d0eb8d08caa936045574c9095a96fbed4c2b1",
+      "bytes": 49027,
+      "indexable": false
+    },
+    {
+      "id": "chronic-cough",
+      "path": "/conditions/chronic-cough/",
+      "file": "conditions/chronic-cough/index.html",
+      "sha256": "f8bb16fc51abbe67e4b89878ea16fd9f5872cce5a25fe7692aa79bdafed5ec2f",
+      "bytes": 53748,
+      "indexable": false
+    },
+    {
+      "id": "heart-disease",
+      "path": "/conditions/heart-disease/",
+      "file": "conditions/heart-disease/index.html",
+      "sha256": "6fcc741b3e48465a1a40cf99d73280ce6a849b011f63cc52bbd992b043fd65de",
+      "bytes": 62645,
+      "indexable": false
+    },
+    {
+      "id": "doctors",
+      "path": "/doctors/",
+      "file": "doctors/index.html",
+      "sha256": "555f1394f1a2feb9c78f2fe013ffa0eb5dacd26061bf9119210e62fc87af8bde",
+      "bytes": 36062,
+      "indexable": false
+    },
+    {
+      "id": "doctor-park-jongseol",
+      "path": "/doctors/park-jongseol/",
+      "file": "doctors/park-jongseol/index.html",
+      "sha256": "7371cc8143c2d857194f5b11d19c9f211fd2d9fa5666f3a8fa94cee4008ab72d",
+      "bytes": 40558,
+      "indexable": false
+    },
+    {
+      "id": "doctor-park-rayoung",
+      "path": "/doctors/park-rayoung/",
+      "file": "doctors/park-rayoung/index.html",
+      "sha256": "9b9d0abfdc6aa53527017c63dc2204d4b7aeeae78626f11a6f41464c91a0d356",
+      "bytes": 37979,
+      "indexable": false
+    },
+    {
+      "id": "fees",
+      "path": "/fees/",
+      "file": "fees/index.html",
+      "sha256": "8cc8011eba34114ed28843f15d50e5dc08e4bafb6efc24bc7829f9512729e048",
+      "bytes": 44479,
+      "indexable": false
+    },
+    {
+      "id": "health",
+      "path": "/health/",
+      "file": "health/index.html",
+      "sha256": "555890dbae2f7653929bd85d1822780f8435ef57d8554821514e42903ee5d84f",
+      "bytes": 49703,
+      "indexable": false
+    },
+    {
+      "id": "checkup-preparation",
+      "path": "/health/checkup-preparation-checklist/",
+      "file": "health/checkup-preparation-checklist/index.html",
+      "sha256": "d4260be4e01396a26750c3335c86f23c9be9591fc4e363a6ea343d825429a964",
+      "bytes": 70823,
+      "indexable": false
+    },
+    {
+      "id": "colonoscopy-preparation",
+      "path": "/health/colonoscopy-preparation-questions/",
+      "file": "health/colonoscopy-preparation-questions/index.html",
+      "sha256": "ff055c7ab3bc3b2bcec4ef81e2445c5bb0640833d87c08149aaae007d0e5da7d",
+      "bytes": 65374,
+      "indexable": false
+    },
+    {
+      "id": "heart-test-differences",
+      "path": "/health/heart-test-differences/",
+      "file": "health/heart-test-differences/index.html",
+      "sha256": "23f336b57f4b50a24423ef9351f030b1a057790fe03adbbe7a0cab57c81ff49b",
+      "bytes": 69031,
+      "indexable": false
+    },
+    {
+      "id": "palpitations-followup",
+      "path": "/health/palpitations-test-followup/",
+      "file": "health/palpitations-test-followup/index.html",
+      "sha256": "09be9d84cd35509a425c6f788bee7561486cff47737d8608396aca8fae5b6a0a",
+      "bytes": 58143,
+      "indexable": false
+    },
+    {
+      "id": "notices",
+      "path": "/notices/",
+      "file": "notices/index.html",
+      "sha256": "1e0c32ffb5d080be9b3a4ecc3424097bb8f1e279d8c1888056289100a707ae21",
+      "bytes": 33267,
+      "indexable": false
+    },
+    {
+      "id": "privacy",
+      "path": "/privacy/",
+      "file": "privacy/index.html",
+      "sha256": "c9dfafeb063f70864d299d3d542952641536e9c8c78fa0f72cf69dbd8e87e088",
+      "bytes": 32282,
+      "indexable": false
+    },
+    {
+      "id": "search",
+      "path": "/search/",
+      "file": "search/index.html",
+      "sha256": "ace7271a7b0f041337a4484339c486d28f21d3b5dab6b32904d6b749cb44b133",
+      "bytes": 138113,
+      "indexable": false
+    },
+    {
+      "id": "services",
+      "path": "/services/",
+      "file": "services/index.html",
+      "sha256": "cc30412cf224b2c58bbab5ab81a82b82b28d15260a31fcbe7c8b4bfcf77e1f7a",
+      "bytes": 63231,
+      "indexable": false
+    },
+    {
+      "id": "cancer-support",
+      "path": "/services/cancer-support/",
+      "file": "services/cancer-support/index.html",
+      "sha256": "be10f4cc0cce83d0e828acb1fdfe1737e189ba84531fa56a8aadc98a338bdb5a",
+      "bytes": 50004,
+      "indexable": false
+    },
+    {
+      "id": "endoscopy",
+      "path": "/services/endoscopy/",
+      "file": "services/endoscopy/index.html",
+      "sha256": "9d37a28f9026ee34014867d8cdbdb84514709d4403f53ab704559d269af02d58",
+      "bytes": 48635,
+      "indexable": false
+    },
+    {
+      "id": "colonoscopy",
+      "path": "/services/endoscopy/colonoscopy/",
+      "file": "services/endoscopy/colonoscopy/index.html",
+      "sha256": "80138ef855b869a759183506e8b6ea86845e37a4548c68f1a1bfcd1a3f23b4db",
+      "bytes": 61270,
+      "indexable": false
+    },
+    {
+      "id": "gastroscopy",
+      "path": "/services/endoscopy/gastroscopy/",
+      "file": "services/endoscopy/gastroscopy/index.html",
+      "sha256": "66900c5c5b47f84aa36e168a5a5e8e90d3a73c9fcf51f3f80a7fbf721a085819",
+      "bytes": 62085,
+      "indexable": false
+    },
+    {
+      "id": "heart-index",
+      "path": "/services/heart/",
+      "file": "services/heart/index.html",
+      "sha256": "d62e3f4689ad07ba5ecfea7ab6ce36f09d5766366249bf97f7793a004750c591",
+      "bytes": 59174,
+      "indexable": false
+    },
+    {
+      "id": "abi",
+      "path": "/services/heart/arterial-assessment/",
+      "file": "services/heart/arterial-assessment/index.html",
+      "sha256": "1718a640a14f4497df9fd78bed77caed01cb3527513b62f0cbb4424c96f5ea5a",
+      "bytes": 53721,
+      "indexable": false
+    },
+    {
+      "id": "cardiac-markers",
+      "path": "/services/heart/cardiac-markers/",
+      "file": "services/heart/cardiac-markers/index.html",
+      "sha256": "44d948fda135f4f9bdd714b3d0706cc73335577f361dfdd0c9aaffaf1b169433",
+      "bytes": 58317,
+      "indexable": false
+    },
+    {
+      "id": "carotid",
+      "path": "/services/heart/carotid-ultrasound/",
+      "file": "services/heart/carotid-ultrasound/index.html",
+      "sha256": "bc2ae4fc182bf570f01e05a4cfddfb346c02ca7a55f498f4ec83fae5fa58e6ab",
+      "bytes": 54672,
+      "indexable": false
+    },
+    {
+      "id": "echocardiography",
+      "path": "/services/heart/echocardiography/",
+      "file": "services/heart/echocardiography/index.html",
+      "sha256": "6f6492e2ad212e18a5528b89c8e122bf2420d1878bf4fd775881e648638a10a6",
+      "bytes": 66846,
+      "indexable": false
+    },
+    {
+      "id": "hrv",
+      "path": "/services/heart/heart-rate-variability/",
+      "file": "services/heart/heart-rate-variability/index.html",
+      "sha256": "35c8056da1472b52a0bae6fc307d56d3e006519bc3c812a408f5c0247d0e3cff",
+      "bytes": 55100,
+      "indexable": false
+    },
+    {
+      "id": "holter",
+      "path": "/services/heart/holter/",
+      "file": "services/heart/holter/index.html",
+      "sha256": "601e84025681bf95504a7b5c06515e7508f8f1d98e6f7d740a01b5a4e5e56f9d",
+      "bytes": 62042,
+      "indexable": false
+    },
+    {
+      "id": "ultrasound-index",
+      "path": "/services/ultrasound/",
+      "file": "services/ultrasound/index.html",
+      "sha256": "228456e0e6a389ed4cacd9365064c61ae1bbdf5bbb5a061de74ca29acd5dbd49",
+      "bytes": 49507,
+      "indexable": false
+    },
+    {
+      "id": "abdominal-ultrasound",
+      "path": "/services/ultrasound/abdomen/",
+      "file": "services/ultrasound/abdomen/index.html",
+      "sha256": "85b0ba0e5e69e0f7e13273f33def60481b6f779e7c176e57aa66c6b6cf61b6d1",
+      "bytes": 53955,
+      "indexable": false
+    },
+    {
+      "id": "bowel-ultrasound",
+      "path": "/services/ultrasound/bowel/",
+      "file": "services/ultrasound/bowel/index.html",
+      "sha256": "d4e19141d4175dcf2cd15c2c0508f0c75692362b29c6cb9a6920f8c02a1b3847",
+      "bytes": 55997,
+      "indexable": false
+    },
+    {
+      "id": "thyroid-ultrasound",
+      "path": "/services/ultrasound/thyroid/",
+      "file": "services/ultrasound/thyroid/index.html",
+      "sha256": "d4df51a54998647a4ce4abc0adb93ac1a9ac983151d7f4992c93ae6fcdae4ef5",
+      "bytes": 51650,
+      "indexable": false
+    },
+    {
+      "id": "sitemap",
+      "path": "/sitemap/",
+      "file": "sitemap/index.html",
+      "sha256": "4fca45688bf55b23240fe941a40d0887539a32a9c1cd3a401af9c6297efae9b0",
+      "bytes": 79423,
+      "indexable": false
+    },
+    {
+      "id": "visit",
+      "path": "/visit/",
+      "file": "visit/index.html",
+      "sha256": "13e79de40388803c21a143550ebed5f442f5ca932cbb4ae414a37acfa3c991bb",
+      "bytes": 53303,
+      "indexable": false
+    }
+  ]
+}

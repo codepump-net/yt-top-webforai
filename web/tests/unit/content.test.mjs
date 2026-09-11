@@ -4,8 +4,8 @@ import { validateContent, pageDigest, sha256 } from '../../scripts/content-contr
 import { assetPath, absoluteUrl, normalizeBase, jsonSafe } from '../../src/lib/urls.mjs';
 const data = await loadContent();
 describe('Content and release contract', () => {
-  it('validates all 76 real authored pages', () => {
-    expect(data.pages).toHaveLength(76);
+  it('validates all 45 patient-purpose pages', () => {
+    expect(data.pages).toHaveLength(45);
     expect(validateContent(data.pages, data)).toEqual([]);
   });
   it('blocks production without real reviews', () => {
@@ -76,6 +76,7 @@ describe('Content and release contract', () => {
       related: [],
       reviewStatus: 'approved',
     };
+    for (const item of [...p.blocks, ...p.questions]) item.links = [];
     const { operationsReview: ignored, ...facts } = data.clinic;
     void ignored;
     const clinic = {
@@ -98,7 +99,8 @@ describe('Content and release contract', () => {
       {
         pageId: p.id,
         status: 'approved',
-        reviewer: 'Unit clinician',
+        reviewer: data.physicians[0].name,
+        reviewerId: data.physicians[0].id,
         role: 'medical',
         reviewedAt: '2026-09-11T00:00:00+09:00',
         expiresAt: '2026-10-11T00:00:00+09:00',

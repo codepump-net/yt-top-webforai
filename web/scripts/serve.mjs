@@ -7,7 +7,9 @@ export async function serve({
   port = Number(process.env.PORT ?? 3000),
   root = path.resolve('out'),
 } = {}) {
-  const manifest = JSON.parse(await fs.readFile(path.join(root, 'build-manifest.json'), 'utf8'));
+  const manifest = JSON.parse(
+    await fs.readFile(path.resolve(root, '..', 'reports', 'build-manifest.json'), 'utf8'),
+  );
   const types = {
     '.html': 'text/html; charset=utf-8',
     '.js': 'text/javascript; charset=utf-8',

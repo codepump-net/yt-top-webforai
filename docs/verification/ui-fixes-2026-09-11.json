@@ -1,0 +1,250 @@
+{
+  "date": "2026-09-11",
+  "status": "verified",
+  "browser": "152.0.4191.66",
+  "measuredBuild": {
+    "commit": "5eb2d827216b5fb99d77cbff97aade4cc13e0d4f",
+    "builtAt": "2026-09-11T03:05:04.722Z",
+    "mode": "review",
+    "basePath": "/yt-top-webforai"
+  },
+  "sourceHashes": {
+    "src/app/globals.css": "29c06a71a16ce2d2485d9a8fa309914967d084369604960968ede92e1553f0cd",
+    "src/app/layout.tsx": "5cb806b1c63aece869871201ccb23d40000aa147d20b9c0c9abda03c62279e1e",
+    "src/components/chrome.tsx": "8bbeab8acdf57b3efa516c002847a60ef31911072456e3db17822c3ee2172795",
+    "src/components/content.tsx": "12ad0599671d29b4c8ba85b2304670f580002e022d46aad14738a94550bae842",
+    "src/components/search.tsx": "eb0241c804fc21e21233d3d4dd72689100137dbff15d04a051c6e1230badc8a8",
+    "src/components/site-navigation.tsx": "715950e618c57039f11a55117f837c87d9e65bc9af07eb16f620fb147aca23d8",
+    "src/components/print-questions.tsx": "c911a4a8036c0228c953d4f53539a106055b9cdcb7ed8dd34a21a19984f18f92"
+  },
+  "note": "Full geometry/spacing audit uses the unchanged CSS/content hashes. Final menu focus-exit handler additionally verified by both final 24-test E2E builds.",
+  "findings": [
+    {
+      "id": "UI-01",
+      "priority": "P1",
+      "title": "짧은 화면에서 펼친 메뉴 가림",
+      "status": "fixed",
+      "change": "가용 높이에 맞춘 메뉴 내부 스크롤. 메뉴를 열면 하단 연락 바를 숨기고, Escape·바깥 클릭·메뉴 밖 포커스 이동 시 닫음.",
+      "evidence": "screenshots/menu-scrolled-320x225.png"
+    },
+    {
+      "id": "UI-02",
+      "priority": "P1",
+      "title": "Tab 포커스가 하단 바 뒤에 숨음",
+      "status": "fixed",
+      "change": "헤더·하단 바 실제 높이를 스크롤 여백에 반영하고, 키보드 포커스가 고정 바 뒤로 들어가지 않도록 스크롤 보정.",
+      "evidence": "screenshots/home-320-default.png"
+    },
+    {
+      "id": "UI-03",
+      "priority": "P2",
+      "title": "검사 직접 안내가 검색 마지막에 표시됨",
+      "status": "fixed",
+      "change": "제목 정확 일치·제목 시작·제목 포함을 우선 정렬. 심장초음파와 대장내시경 직접 안내 모두 1위.",
+      "evidence": "screenshots/search-ranked-1.png"
+    },
+    {
+      "id": "UI-04",
+      "priority": "P2",
+      "title": "인쇄 시 접힌 Q&A 답변 누락",
+      "status": "fixed",
+      "change": "인쇄에서 닫힌 답변까지 표시. 인쇄 전 펼침 상태 저장·인쇄 후 복원. JavaScript 없는 인쇄 CSS도 확인.",
+      "evidence": "screenshots/print-answers.png"
+    },
+    {
+      "id": "UI-05",
+      "priority": "P2",
+      "title": "태블릿 상세 화면의 전화 경로 부족",
+      "status": "fixed",
+      "change": "601~1100px 헤더에 44px 전화 아이콘 제공. 600px 이하 하단 전화 바와 이어짐.",
+      "evidence": "screenshots/tablet-detail-768.png"
+    },
+    {
+      "id": "UI-06",
+      "priority": "P2",
+      "title": "작은 진료시간·예약 안내와 시간표 줄바꿈",
+      "status": "fixed",
+      "change": "상세 본문 17px, 진료시간·예약 설명 16px. 모바일 연락처·시간표를 한 열로 배치.",
+      "evidence": "screenshots/home-contact-320.png"
+    },
+    {
+      "id": "UI-07",
+      "priority": "P2",
+      "title": "짧은 데스크톱 창의 사이드바 하단 이탈",
+      "status": "fixed",
+      "change": "짧은 데스크톱 창에서는 사이드바를 일반 흐름으로 전환. 다른 높이에서도 가용 높이를 넘으면 내부 스크롤 제공.",
+      "evidence": "screenshots/sidebar-1280x450.png"
+    },
+    {
+      "id": "UI-08",
+      "priority": "P2",
+      "title": "검색 초기화 후 키보드 포커스 소실",
+      "status": "fixed",
+      "change": "빈 결과 초기화 후 입력창으로 포커스를 돌려 즉시 다음 검색어 입력 가능.",
+      "evidence": "screenshots/search-empty-site-390.png"
+    },
+    {
+      "id": "UI-09",
+      "priority": "P3",
+      "title": "글자 확대 시 이름·메뉴의 지나친 분절",
+      "status": "fixed",
+      "change": "이름·직함을 별도 행으로 나누고 모바일 의료진 카드를 세로로 배치. 헤더 메뉴도 단어를 끊지 않고 행 단위로 재배치.",
+      "evidence": "screenshots/doctors-390-text-200.png"
+    },
+    {
+      "id": "UI-10",
+      "priority": "P3",
+      "title": "독립 링크의 44px 조작 영역 목표 미달",
+      "status": "fixed",
+      "change": "전화·지도·필터·전체 보기·목차·푸터 등 독립 조작 영역을 최소 44px로 조정.",
+      "evidence": "screenshots/home-contact-320.png"
+    }
+  ],
+  "additionalImprovements": [
+    "주 메뉴 현재 구간 표시",
+    "모바일 메뉴 열기/닫기 상태 이름",
+    "공지 게시일과 지난 휴진 기록 배지"
+  ],
+  "checks": {
+    "routes": 76,
+    "viewportChecks": 1216,
+    "textStressChecks": 456,
+    "documentOverflow": 0,
+    "detectedTextClipping": 0,
+    "detectedSiblingOverlap": 0,
+    "pixelDensityChecks": 50,
+    "mobileAxePages": 76,
+    "mobileAxeViolations": 0,
+    "projectE2E": {
+      "startTime": "2026-09-11T03:17:13.707Z",
+      "duration": 25589.736999999997,
+      "expected": 24,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "rootE2E": {
+      "startTime": "2026-09-11T03:14:32.152Z",
+      "duration": 24330.977,
+      "expected": 24,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "unitTests": 20,
+    "keyboardObscured": [
+      {
+        "route": "/",
+        "count": 0
+      },
+      {
+        "route": "/services/heart/echocardiography/",
+        "count": 0
+      },
+      {
+        "route": "/search/",
+        "count": 0
+      }
+    ],
+    "printAnswers": [
+      {
+        "question": "검사 전 음식과 음료는 어떻게 준비하나요?",
+        "answerPresent": true,
+        "beforeOccurrences": 2,
+        "afterOccurrences": 2
+      },
+      {
+        "question": "정결제를 먹기 어렵다면 어떻게 하나요?",
+        "answerPresent": true,
+        "beforeOccurrences": 1,
+        "afterOccurrences": 2
+      },
+      {
+        "question": "복용약이나 기존 질환을 알려야 하나요?",
+        "answerPresent": true,
+        "beforeOccurrences": 1,
+        "afterOccurrences": 2
+      }
+    ],
+    "searchRank": [
+      {
+        "query": "심장초음파",
+        "rank": 1,
+        "total": 10
+      },
+      {
+        "query": "대장내시경",
+        "rank": 1,
+        "total": 7
+      },
+      {
+        "query": "진료시간",
+        "rank": 1,
+        "total": 1
+      }
+    ],
+    "mobileHomeSmallTargetCount": 0,
+    "mobileSearchSmallTargetCount": 0,
+    "performance": [
+      {
+        "route": "/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2180.8615,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 21.034625000000005,
+          "first-contentful-paint": 757.8615
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/services/heart/echocardiography/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2025.6909,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 20,
+          "first-contentful-paint": 755.6909
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/search/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 1655.0808000000002,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 11.5,
+          "first-contentful-paint": 905.0808
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Windows Edge Chromium browser engine",
+    "Viewport equivalent zoom and injected text sizing; no real mobile keyboard, Safari, Firefox, VoiceOver or NVDA verification",
+    "Production deployment not performed"
+  ]
+}

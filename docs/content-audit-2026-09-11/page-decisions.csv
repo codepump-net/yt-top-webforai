@@ -1,0 +1,77 @@
+﻿id,path,title,action,reason,destination
+home,/,영통탑내과,유지·본문 정리,병원의 진료 분야와 위치를 파악하고 필요한 안내로 이동한다.,/
+not-found,/404.html,페이지를 찾을 수 없습니다,유지·공통 UI 정리,없는 주소에서 홈페이지나 검색으로 돌아가 필요한 안내를 찾는다.,/404.html
+about,/about/,병원 소개,유지·본문 정리,병원 소개의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/about/
+cases,/cases/,진단 사례,유지·본문 정리,병원이 게시한 실제 진단 사례를 주제별로 찾아 원문으로 이동한다.,/cases/
+case-164673116,/cases/case-164673116/,복수·단백뇨와 대장암 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=164673116&t=board
+case-164673131,/cases/case-164673131/,속쓰림으로 내원한 위암 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=164673131&t=board
+case-164673206,/cases/case-164673206/,갑상선암 증례 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=164673206&t=board
+case-164673218,/cases/case-164673218/,수신증 사례 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=164673218&t=board
+case-164673233,/cases/case-164673233/,하복부 통증으로 내원하여 시행한 초음파 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=164673233&t=board
+case-164673242,/cases/case-164673242/,발열 복통으로 내원한 복막염 환자. — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=164673242&t=board
+case-165150420,/cases/case-165150420/,복강내 종괴 증례 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165150420&t=board
+case-165150549,/cases/case-165150549/,대장 베체트 증례 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165150549&t=board
+case-165150795,/cases/case-165150795/,폐렴 증례 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165150795&t=board
+case-165151140,/cases/case-165151140/,비후성 심근병증 증례 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165151140&t=board
+case-165203625,/cases/case-165203625/,지속되는 두근거림으로 내원하여 진단된 심실빈맥 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165203625&t=board
+case-165203941,/cases/case-165203941/,두근거림 호흡곤란으로 내원하여 진단된 심방세동 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165203941&t=board
+case-165204038,/cases/case-165204038/,혈변과 대장내시경을 통한 대장암 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165204038&t=board
+case-165259713,/cases/case-165259713/,생리통으로 오인된 난소종양 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165259713&t=board
+case-165259783,/cases/case-165259783/,식도 점막하 종양 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165259783&t=board
+case-165259921,/cases/case-165259921/,대동맥 판막협착 및 대동맥판막 역류. — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165259921&t=board
+case-165338662,/cases/case-165338662/,"상,하복부 통증으로 내원한 맹장염 — 진단 사례",목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165338662&t=board
+case-165338735,/cases/case-165338735/,목에 혹이 만져져요. 림프종 진단사례. — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165338735&t=board
+case-165396187,/cases/case-165396187/,재발하는 뇌경색으로 내원하여 진단된 심방세동. — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165396187&t=board
+case-165396249,/cases/case-165396249/,식도궤양 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165396249&t=board
+case-165396339,/cases/case-165396339/,대동맥판막협착 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165396339&t=board
+case-165407798,/cases/case-165407798/,대동맥류를 동반한 이엽성 판막증 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165407798&t=board
+case-165407885,/cases/case-165407885/,궤양성대장염 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165407885&t=board
+case-165407958,/cases/case-165407958/,대장용종 절제 사례 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=165407958&t=board
+case-167025586,/cases/case-167025586/,심근경색 진단과정 — 진단 사례,목록으로 통합,한두 문장과 반복 제작 설명으로 구성된 상세 페이지를 병원 원문 링크로 통합,/cases/ → https://yttop.co.kr/21/?bmode=view&idx=167025586&t=board
+checkups,/checkups/,건강검진 안내,유지·본문 정리,건강검진 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/checkups/
+cancer-screening,/checkups/cancer-screening/,암검진 안내,유지·본문 정리,암검진 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/checkups/cancer-screening/
+drug-screening,/checkups/drug-screening/,마약검사·영문서류,유지·본문 정리,마약검사·영문서류의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/checkups/drug-screening/
+employment-checkup,/checkups/employment/,채용검진·제출 서류,유지·본문 정리,채용검진·제출 서류의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/checkups/employment/
+national-checkup,/checkups/national/,국가건강검진,유지·본문 정리,국가건강검진의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/checkups/national/
+tuberculosis-screening,/checkups/tuberculosis/,기숙사 결핵검진,유지·본문 정리,기숙사 결핵검진의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/checkups/tuberculosis/
+visa-checkup,/checkups/visa/,외국인 비자검진,유지·본문 정리,외국인 비자검진의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/checkups/visa/
+conditions,/conditions/,내과 진료 안내,유지·본문 정리,내과 진료 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/conditions/
+acute-care,/conditions/acute-care/,급성기질환 진료,유지·본문 정리,급성기질환 진료의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/conditions/acute-care/
+chronic-cough,/conditions/chronic-cough/,만성기침 진료,유지·본문 정리,만성기침 진료의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/conditions/chronic-cough/
+heart-disease,/conditions/heart-disease/,심장질환 진료,유지·본문 정리,심장질환 진료의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/conditions/heart-disease/
+content-policy,/content-policy/,의료정보 작성·검수 원칙,내부 문서로 이동,실행 여부가 확인되지 않은 제작·검수 절차는 환자용 독립 페이지 목적에 맞지 않음,docs/patient-content-policy.ko.md
+doctors,/doctors/,의료진 소개,유지·본문 정리,의료진 소개의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/doctors/
+doctor-park-jongseol,/doctors/park-jongseol/,박종설 대표원장,유지·본문 정리,박종설 대표원장의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/doctors/park-jongseol/
+doctor-park-rayoung,/doctors/park-rayoung/,박라영 원장,유지·본문 정리,박라영 원장의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/doctors/park-rayoung/
+fees,/fees/,비용·서류 발급 안내,유지·본문 정리,비용·서류 발급 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/fees/
+health,/health/,검사·진료 이해하기,유지·본문 정리,검사·진료 이해하기의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/health/
+checkup-preparation,/health/checkup-preparation-checklist/,건강검진 전 준비 확인표,유지·본문 정리,건강검진 전 준비 확인표의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/health/checkup-preparation-checklist/
+colonoscopy-preparation,/health/colonoscopy-preparation-questions/,대장내시경 준비 시 확인할 질문,유지·본문 정리,대장내시경 준비 시 확인할 질문의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/health/colonoscopy-preparation-questions/
+heart-test-differences,/health/heart-test-differences/,심전도·심장초음파·홀터검사의 차이,유지·본문 정리,심전도·심장초음파·홀터검사의 차이의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/health/heart-test-differences/
+palpitations-followup,/health/palpitations-test-followup/,검사 후에도 두근거림이 계속될 때 확인할 점,유지·본문 정리,검사 후에도 두근거림이 계속될 때 확인할 점의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/health/palpitations-test-followup/
+notices,/notices/,공지사항,유지·본문 정리,방문할 날짜의 휴진과 병원 소식을 원래 공지 채널에서 확인한다.,/notices/
+notice-closure-20250624,/notices/closure-2025-06-24/,2025년 6월 24일 오후 휴진 기록,기존 공지 채널로 통합,과거 휴진·장비·평가 소식의 복제본 대신 원 게시 채널에서 날짜와 최신 공지 확인,/notices/ → https://yttop.co.kr/44
+notice-drug-certificate,/notices/drug-certificate/,마약검사 영문서류 발급 안내,기존 공지 채널로 통합,과거 휴진·장비·평가 소식의 복제본 대신 원 게시 채널에서 날짜와 최신 공지 확인,/notices/ → https://yttop.co.kr/44
+notice-mammography,/notices/mammography-equipment/,디지털 유방촬영 장비 도입 안내,기존 공지 채널로 통합,과거 휴진·장비·평가 소식의 복제본 대신 원 게시 채널에서 날짜와 최신 공지 확인,/notices/ → https://yttop.co.kr/44
+notice-pathfast,/notices/pathfast/,심장 표지자 검사 장비 도입 안내,기존 공지 채널로 통합,과거 휴진·장비·평가 소식의 복제본 대신 원 게시 채널에서 날짜와 최신 공지 확인,/notices/ → https://yttop.co.kr/44
+notice-screening-evaluation,/notices/screening-evaluation/,국가검진기관 평가 안내,기존 공지 채널로 통합,과거 휴진·장비·평가 소식의 복제본 대신 원 게시 채널에서 날짜와 최신 공지 확인,/notices/ → https://yttop.co.kr/44
+privacy,/privacy/,개인정보 처리 안내,유지·본문 정리,"상담 정보 입력과 검색어 전송 여부, 외부 서비스의 개인정보 처리를 이해한다.",/privacy/
+search,/search/,사이트 검색,유지·본문 정리,검사 이름이나 방문 목적에 맞는 병원 안내 페이지를 찾는다.,/search/
+services,/services/,진료·검사 안내,유지·본문 정리,진료·검사 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/
+cancer-support,/services/cancer-support/,암환자 진료·케어 안내,유지·본문 정리,암환자 진료·케어 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/cancer-support/
+endoscopy,/services/endoscopy/,위·대장내시경 안내,유지·본문 정리,위·대장내시경 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/endoscopy/
+colonoscopy,/services/endoscopy/colonoscopy/,대장내시경,유지·본문 정리,대장내시경의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/endoscopy/colonoscopy/
+gastroscopy,/services/endoscopy/gastroscopy/,위내시경,유지·본문 정리,위내시경의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/endoscopy/gastroscopy/
+heart-index,/services/heart/,심장검사 안내,유지·본문 정리,심장검사 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/heart/
+abi,/services/heart/arterial-assessment/,동맥경화도 검사,유지·본문 정리,동맥경화도 검사의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/heart/arterial-assessment/
+cardiac-markers,/services/heart/cardiac-markers/,심장 표지자 검사,유지·본문 정리,심장 표지자 검사의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/heart/cardiac-markers/
+carotid,/services/heart/carotid-ultrasound/,경동맥 초음파,유지·본문 정리,경동맥 초음파의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/heart/carotid-ultrasound/
+echocardiography,/services/heart/echocardiography/,심장초음파 검사,유지·본문 정리,심장초음파 검사의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/heart/echocardiography/
+hrv,/services/heart/heart-rate-variability/,심박 변이도 검사,유지·본문 정리,심박 변이도 검사의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/heart/heart-rate-variability/
+holter,/services/heart/holter/,홀터검사,유지·본문 정리,홀터검사의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/heart/holter/
+ultrasound-index,/services/ultrasound/,초음파 검사 안내,유지·본문 정리,초음파 검사 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/ultrasound/
+abdominal-ultrasound,/services/ultrasound/abdomen/,상·하복부 초음파,유지·본문 정리,상·하복부 초음파의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/ultrasound/abdomen/
+bowel-ultrasound,/services/ultrasound/bowel/,소장·대장·맹장 초음파,유지·본문 정리,소장·대장·맹장 초음파의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/ultrasound/bowel/
+thyroid-ultrasound,/services/ultrasound/thyroid/,갑상선 초음파,유지·본문 정리,갑상선 초음파의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/services/ultrasound/thyroid/
+sitemap,/sitemap/,전체 페이지 안내,유지·본문 정리,병원의 전체 안내를 분야별 목록에서 찾아 이동한다.,/sitemap/
+visit,/visit/,진료시간·오시는 길,유지·본문 정리,진료시간·오시는 길의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다.,/visit/

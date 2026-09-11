@@ -1,52 +1,21 @@
-import { ArrowUpRight, Clock3, MapPin, Phone, Search, Menu } from 'lucide-react';
-import { clinic, href, nav, pageById, reviewMode, phoneHref } from '@/lib/site';
+import { ArrowUpRight, Clock3, MapPin, Phone } from 'lucide-react';
+import { clinic, href, nav, pageById, phoneHref, basePath } from '@/lib/site';
+import { SiteNavigation } from './site-navigation';
 
 export function Header() {
   return (
     <>
-      {reviewMode && (
-        <div className="review-bar">
-          홈페이지 검토본 <span>· 병원 운영·의료정보 최종 확인 전입니다.</span>
-          <a href={href('/content-policy/')}>
-            작성 원칙 <ArrowUpRight size={12} />
-          </a>
-        </div>
-      )}
       <header className="site-header">
-        <div className="container header-inner">
-          <a className="brand" href={href('/')} aria-label="영통탑내과 홈">
-            <img src={href('/assets/logo.webp')} width="294" height="77" alt="영통탑내과의원" />
-          </a>
-          <nav className="desktop-nav" aria-label="주 메뉴">
-            {nav.map(([id, label]) => (
-              <a key={id} href={href(pageById(id)!.path)}>
-                {label}
-              </a>
-            ))}
-          </nav>
-          <div className="header-actions">
-            <a className="icon-button" href={href('/search/')} aria-label="사이트 검색">
-              <Search size={21} />
-            </a>
-            <a className="header-phone" href={phoneHref}>
-              <Phone size={16} /> 전화 문의
-            </a>
-            <details className="mobile-nav">
-              <summary aria-label="전체 메뉴 열기">
-                <Menu size={25} />
-              </summary>
-              <nav aria-label="모바일 메뉴">
-                {nav.map(([id, label]) => (
-                  <a key={id} href={href(pageById(id)!.path)}>
-                    {label}
-                  </a>
-                ))}
-                <a href={href('/notices/')}>공지사항</a>
-                <a href={href('/sitemap/')}>전체 페이지</a>
-              </nav>
-            </details>
-          </div>
-        </div>
+        <SiteNavigation
+          items={nav.map(([id, label]) => ({ href: href(pageById(id)!.path), label }))}
+          homeUrl={href('/')}
+          logoUrl={href('/assets/logo.webp')}
+          searchUrl={href('/search/')}
+          noticeUrl={href('/notices/')}
+          sitemapUrl={href('/sitemap/')}
+          phoneUrl={phoneHref}
+          basePath={basePath}
+        />
       </header>
     </>
   );
@@ -110,7 +79,6 @@ export function Footer() {
               <a href={href('/fees/')}>비용·서류</a>
               <a href={href('/notices/')}>공지사항</a>
               <a href={href('/sitemap/')}>전체 페이지</a>
-              <a href={href('/content-policy/')}>의료정보 작성 원칙</a>
               <a href={href('/privacy/')}>개인정보 처리 안내</a>
             </div>
           </div>
@@ -123,13 +91,12 @@ export function Footer() {
                 {clinic.address} · <a href={phoneHref}>{clinic.phone}</a>
               </p>
               <p className="footer-note">
-                {reviewMode
-                  ? '기존 홈페이지를 바탕으로 제작한 검토용 사이트입니다. 실제 진료와 검사 준비는 병원 안내를 확인해 주세요.'
-                  : '이 사이트의 의료정보는 일반적인 이해를 돕기 위한 자료입니다. 개인별 진단·치료는 의료진과 상담해 주세요.'}
+                영통탑내과의 진료·검사와 방문을 안내합니다. 개인별 진단·치료와 검사 준비는 의료진의
+                안내를 확인해 주세요.
               </p>
             </div>
             <a href="https://yttop.co.kr/" target="_blank" rel="noopener noreferrer">
-              기존 홈페이지 <ArrowUpRight size={14} />
+              영통탑내과 홈페이지 <ArrowUpRight size={14} />
               <span className="sr-only"> (새 창)</span>
             </a>
           </div>

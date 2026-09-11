@@ -1,0 +1,141 @@
+[
+  {
+    "url": "https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/",
+    "checkedAt": "2026-09-11T06:36:32.667Z",
+    "status": 200,
+    "finalUrl": "https://www.medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/"
+  },
+  {
+    "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+    "checkedAt": "2026-09-11T06:36:32.706Z",
+    "status": 200,
+    "finalUrl": "https://www.medlineplus.gov/lab-tests/how-to-understand-your-lab-results/"
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms",
+    "checkedAt": "2026-09-11T06:36:32.707Z",
+    "status": 200,
+    "finalUrl": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms"
+  },
+  {
+    "url": "https://www.nhs.uk/symptoms/cough/",
+    "checkedAt": "2026-09-11T06:36:32.708Z",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/symptoms/cough/"
+  },
+  {
+    "url": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=516",
+    "checkedAt": "2026-09-11T06:36:34.464Z",
+    "status": 200,
+    "finalUrl": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=516"
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis",
+    "checkedAt": "2026-09-11T06:36:34.465Z",
+    "status": 200,
+    "finalUrl": "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis"
+  },
+  {
+    "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/colonoscopy",
+    "checkedAt": "2026-09-11T06:36:34.465Z",
+    "status": 200,
+    "finalUrl": "https://www.niddk.nih.gov/health-information/diagnostic-tests/colonoscopy"
+  },
+  {
+    "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-endoscopy",
+    "checkedAt": "2026-09-11T06:36:34.466Z",
+    "status": 200,
+    "finalUrl": "https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-endoscopy"
+  },
+  {
+    "url": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=12",
+    "checkedAt": "2026-09-11T06:36:34.885Z",
+    "status": 200,
+    "finalUrl": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=12"
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/heart-tests",
+    "checkedAt": "2026-09-11T06:36:34.886Z",
+    "status": 200,
+    "finalUrl": "https://www.nhlbi.nih.gov/health/heart-tests"
+  },
+  {
+    "url": "https://www.cancer.gov/about-cancer/treatment/cam",
+    "checkedAt": "2026-09-11T06:36:34.886Z",
+    "status": 200,
+    "finalUrl": "https://www.cancer.gov/about-cancer/treatment/cam"
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/peripheral-artery-disease/diagnosis",
+    "checkedAt": "2026-09-11T06:36:34.887Z",
+    "status": 200,
+    "finalUrl": "https://www.nhlbi.nih.gov/health/peripheral-artery-disease/diagnosis"
+  },
+  {
+    "url": "https://medlineplus.gov/lab-tests/troponin-test/",
+    "checkedAt": "2026-09-11T06:36:35.829Z",
+    "error": "fetch failed"
+  },
+  {
+    "url": "https://www.amc.seoul.kr/asan/examination/examView.do?examId=32869",
+    "checkedAt": "2026-09-11T06:36:35.830Z",
+    "status": 200,
+    "finalUrl": "https://www.amc.seoul.kr/asan/examination/examView.do?examId=32869"
+  },
+  {
+    "url": "https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv",
+    "checkedAt": "2026-09-11T06:36:35.830Z",
+    "status": 200,
+    "finalUrl": "https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv"
+  },
+  {
+    "url": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=24",
+    "checkedAt": "2026-09-11T06:36:35.830Z",
+    "status": 200,
+    "finalUrl": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=24"
+  },
+  {
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/appendicitis/diagnosis",
+    "checkedAt": "2026-09-11T06:36:36.538Z",
+    "status": 200,
+    "finalUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/appendicitis/diagnosis"
+  },
+  {
+    "url": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=21",
+    "checkedAt": "2026-09-11T06:36:36.539Z",
+    "status": 200,
+    "finalUrl": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=21"
+  },
+  {
+    "url": "https://codepump-net.github.io/yt-top-webforai/",
+    "checkedAt": "2026-09-11T06:36:36.539Z",
+    "status": 404,
+    "finalUrl": "https://codepump-net.github.io/yt-top-webforai/"
+  },
+  {
+    "url": "https://yttop.co.kr/",
+    "checkedAt": "2026-09-11T06:36:36.539Z",
+    "status": 200,
+    "finalUrl": "https://yttop.co.kr/"
+  },
+  {
+    "url": "https://blog.thegungang365.com/",
+    "checkedAt": "2026-09-11T06:36:37.235Z",
+    "status": 200,
+    "finalUrl": "https://blog.thegungang365.com/"
+  },
+  {
+    "url": "https://blog.olympicpark365.com/",
+    "checkedAt": "2026-09-11T06:36:37.236Z",
+    "status": 200,
+    "finalUrl": "https://blog.olympicpark365.com/"
+  },
+  {
+    "url": "https://medlineplus.gov/lab-tests/troponin-test/",
+    "checkedAt": "2026-09-11T06:37:48.458140+00:00",
+    "status": 200,
+    "finalUrl": "https://www.medlineplus.gov/lab-tests/troponin-test/",
+    "attempt": "retry_after_transient_fetch_failure",
+    "bytes": 37334
+  }
+]

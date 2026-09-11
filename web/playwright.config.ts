@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import fs from 'node:fs';
-const manifest = JSON.parse(fs.readFileSync('out/build-manifest.json', 'utf8'));
+const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 export default defineConfig({
   testDir: './tests/e2e',
   timeout: 120_000,

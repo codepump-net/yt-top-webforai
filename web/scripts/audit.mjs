@@ -2,10 +2,25 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { gzipSync } from 'node:zlib';
 import { load } from 'cheerio';
-const manifest = JSON.parse(await fs.readFile('out/build-manifest.json', 'utf8'));
+import { publicTextErrors, nonPublicArtifact } from './public-content-policy.mjs';
+const manifest = JSON.parse(await fs.readFile('reports/build-manifest.json', 'utf8'));
 const errors = [];
 const titles = new Set();
 const reports = [];
+let publicFilesChecked = 0;
+for (const file of await fs.readdir('out', { recursive: true })) {
+  if (nonPublicArtifact(file)) errors.push(`${file}: internal artifact in public export`);
+  if (!/\.(?:html|txt|xml|json)$/.test(file)) continue;
+  publicFilesChecked++;
+  const raw = await fs.readFile(path.join('out', file), 'utf8');
+  // Includes inline JSON-LD, serialized React payloads and noscript, not only the visible article.
+  errors.push(...publicTextErrors(raw, file));
+  if (file.endsWith('.html')) {
+    const html = load(raw);
+    html('script,style').remove();
+    errors.push(...publicTextErrors(html.text(), file + ' decoded HTML'));
+  }
+}
 let maxJsGzip = 0;
 let maxCssGzip = 0;
 function localFile(url, currentPath) {
@@ -51,6 +66,12 @@ for (const route of manifest.routes) {
         !graph.some((n) => n['@type'] === 'BreadcrumbList')
       )
         errors.push(`${route.path}: incomplete schema`);
+      const clinic = graph?.find((n) => n['@type'] === 'MedicalClinic');
+      if (
+        clinic?.['@id'] !== 'https://yttop.co.kr/#clinic' ||
+        clinic?.url !== 'https://yttop.co.kr/'
+      )
+        errors.push(`${route.path}: shared hospital identity must retain original site URL`);
     } catch {
       errors.push(`${route.path}: invalid JSON-LD`);
     }
@@ -132,6 +153,7 @@ await fs.writeFile(
     {
       mode: manifest.mode,
       routeCount: reports.length,
+      publicFilesChecked,
       maxJsGzip,
       maxCssGzip,
       errors,

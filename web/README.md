@@ -18,4 +18,10 @@ Validation: `npm run lint`, `npm run typecheck` (after the first build), `npm te
 
 No API server or secret is needed. Images are already optimized and committed; raw research and the one-time import step are not required in CI.
 
+The app is a patient-facing hospital website operated alongside `yttop.co.kr`. Follow [the patient-content policy](../docs/patient-content-policy.ko.md) before adding pages or public copy. Current scope: 45 routes; 25 case links lead to the original hospital articles, and announcements use the existing board.
+
+Only `out/` is deployed. `reports/build-manifest.json` and `reports/planned-sitemap.xml` are internal build evidence. The preview server reads the manifest from `reports/`; `verify:live` also needs the matching CI build manifest there. Internal documentation, review records and planned output must never be copied into `out/`.
+
 [전체 개발·운영 인수 문서](../docs/development-handoff.ko.md)
+
+[AEO·GEO 개선 반영과 전후 검증](../docs/aeo-geo-improvement-results-2026-09-11/README.md): stable answer anchors, section-level source links, six comparison/preparation tables, shared clinic fact resolution and separate original/new-site observation metrics. `npm run test:performance` now measures the colonoscopy preparation guide in addition to the original three routes. The review publication gate remains active.

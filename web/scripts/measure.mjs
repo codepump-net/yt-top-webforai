@@ -4,7 +4,13 @@ const file = process.argv[2];
 if (!file) throw new Error('Usage: npm run measure -- path/to/private-observations.json');
 const catalog = JSON.parse(await fs.readFile('../content/measurement-queries.json', 'utf8'));
 const observations = JSON.parse(await fs.readFile(file, 'utf8'));
-const metrics = measureObservations(observations, catalog.queries, catalog.site, catalog.aliases);
+const metrics = measureObservations(
+  observations,
+  catalog.queries,
+  catalog.site,
+  catalog.aliases,
+  catalog.originalSites ?? [],
+);
 await fs.mkdir('reports', { recursive: true });
 await fs.writeFile(
   'reports/ai-observations.json',

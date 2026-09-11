@@ -1,0 +1,133 @@
+{
+  "client": "Node fetch with browser-style user agent; does not establish search crawler access.",
+  "pagesApiStatus": 404,
+  "results": [
+    {
+      "url": "https://codepump-net.github.io/yt-top-webforai/",
+      "checkedAt": "2026-09-11T05:01:02.136Z",
+      "status": 404,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlBytes": 9115,
+      "title": "Site not found · GitHub Pages",
+      "canonical": null,
+      "robots": [],
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://codepump-net.github.io/robots.txt",
+      "checkedAt": "2026-09-11T05:01:02.152Z",
+      "status": 404,
+      "finalUrl": "https://codepump-net.github.io/robots.txt",
+      "contentType": "text/html; charset=utf-8",
+      "htmlBytes": 9115,
+      "title": "Site not found · GitHub Pages",
+      "canonical": null,
+      "robots": [],
+      "xRobotsTag": null,
+      "robotsText": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Site not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        margin: 0;\n        font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n      }\n\n      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }\n\n      a { color: #4183c4; text-decoration: none; }\n      a:hover { text-decoration: underline; }\n\n      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }\n      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }\n\n      ul { list-style: none; margin: 25px 0; padding: 0; }\n      li { display: table-cell; font-weight: bold; width: 1%; }\n\n      .logo { display: inline-block; margin-top: 35px; }\n      .logo-img-2x { display: none; }\n      @media\n      only screen and (-webkit-min-device-pixel-ratio: 2),\n      only screen and (   min--moz-device-pixel-ratio: 2),\n      only screen and (     -o-min-device-pixel-ratio: 2/1),\n      only screen and (        min-device-pixel-ratio: 2),\n      only screen and (                min-resolution: 192dpi),\n      only screen and (                min-resolution: 2dppx) {\n        .logo-img-1x { display: none; }\n        .logo-img-2x { display: inline-block; }\n      }\n\n      #suggestions {\n        margin-top: 35px;\n        color: #ccc;\n      }\n      #suggestions a {\n        color: #666666;\n        font-weight: 200;\n        font-size: 14px;\n        margin: 0 10px;\n      }\n\n    </style>\n  </head>\n  <body>\n\n    <div class=\"container\">\n\n      <h1>404</h1>\n      <p><strong>There isn't a GitHub Pages site here.</strong></p>\n\n      <p>\n        If you're trying to publish one,\n        <a href=\"https://help.github.com/pages/\">read the full documentation</a>\n        to learn how to set up <strong>GitHub Pages</strong>\n        for your repository, organization, or user account.\n      </p>\n\n      <div id=\"suggestions\">\n        <a href=\"https://githubstatus.com\">GitHub Status</a> &mdash;\n        <a href=\"https://twitter.com/githubstatus\">@githubstatus</a>\n      </div>\n\n      <a href=\"/\" class=\"logo logo-img-1x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZX"
+    },
+    {
+      "url": "https://thegungang365.demo.htracker.co.kr/",
+      "checkedAt": "2026-09-11T05:01:02.152Z",
+      "status": 200,
+      "finalUrl": "https://thegungang365.demo.htracker.co.kr/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlBytes": 336411,
+      "title": "365일 야간에도 진료하는 우리동네 주치의 더건강한365의원 | 양천구 신정동 내과",
+      "canonical": "https://blog.thegungang365.com",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "xRobotsTag": "noindex, nofollow, noarchive"
+    },
+    {
+      "url": "https://thegungang365.demo.htracker.co.kr/robots.txt",
+      "checkedAt": "2026-09-11T05:01:02.731Z",
+      "status": 200,
+      "finalUrl": "https://thegungang365.demo.htracker.co.kr/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "htmlBytes": 26,
+      "title": "",
+      "canonical": null,
+      "robots": [],
+      "xRobotsTag": null,
+      "robotsText": "User-Agent: *\nDisallow: /\n"
+    },
+    {
+      "url": "https://blog.thegungang365.com/",
+      "checkedAt": "2026-09-11T05:01:02.732Z",
+      "status": 200,
+      "finalUrl": "https://blog.thegungang365.com/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlBytes": 336147,
+      "title": "365일 야간에도 진료하는 우리동네 주치의 더건강한365의원 | 양천구 신정동 내과",
+      "canonical": "https://blog.thegungang365.com",
+      "robots": [],
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://blog.thegungang365.com/robots.txt",
+      "checkedAt": "2026-09-11T05:01:02.733Z",
+      "status": 200,
+      "finalUrl": "https://blog.thegungang365.com/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "htmlBytes": 497,
+      "title": "",
+      "canonical": null,
+      "robots": [],
+      "xRobotsTag": null,
+      "robotsText": "User-Agent: *\nAllow: /\n\nUser-Agent: GPTBot\nAllow: /\n\nUser-Agent: ChatGPT-User\nAllow: /\n\nUser-Agent: OAI-SearchBot\nAllow: /\n\nUser-Agent: ClaudeBot\nAllow: /\n\nUser-Agent: Claude-User\nAllow: /\n\nUser-Agent: Claude-SearchBot\nAllow: /\n\nUser-Agent: PerplexityBot\nAllow: /\n\nUser-Agent: Perplexity-User\nAllow: /\n\nUser-Agent: Google-Extended\nAllow: /\n\nUser-Agent: Applebot-Extended\nAllow: /\n\nUser-Agent: Yeti\nAllow: /\n\nHost: https://blog.thegungang365.com\nSitemap: https://blog.thegungang365.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://blog.olympicpark365.com/",
+      "checkedAt": "2026-09-11T05:01:03.103Z",
+      "status": 200,
+      "finalUrl": "https://blog.olympicpark365.com/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlBytes": 638602,
+      "title": "올림픽파크365의원은 오늘도 진료중 | 전문의 5인 진료",
+      "canonical": "https://blog.olympicpark365.com",
+      "robots": [],
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://blog.olympicpark365.com/robots.txt",
+      "checkedAt": "2026-09-11T05:01:03.104Z",
+      "status": 200,
+      "finalUrl": "https://blog.olympicpark365.com/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "htmlBytes": 499,
+      "title": "",
+      "canonical": null,
+      "robots": [],
+      "xRobotsTag": null,
+      "robotsText": "User-Agent: *\nAllow: /\n\nUser-Agent: GPTBot\nAllow: /\n\nUser-Agent: ChatGPT-User\nAllow: /\n\nUser-Agent: OAI-SearchBot\nAllow: /\n\nUser-Agent: ClaudeBot\nAllow: /\n\nUser-Agent: Claude-User\nAllow: /\n\nUser-Agent: Claude-SearchBot\nAllow: /\n\nUser-Agent: PerplexityBot\nAllow: /\n\nUser-Agent: Perplexity-User\nAllow: /\n\nUser-Agent: Google-Extended\nAllow: /\n\nUser-Agent: Applebot-Extended\nAllow: /\n\nUser-Agent: Yeti\nAllow: /\n\nHost: https://blog.olympicpark365.com\nSitemap: https://blog.olympicpark365.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://yttop.co.kr/",
+      "checkedAt": "2026-09-11T05:01:03.105Z",
+      "status": 200,
+      "finalUrl": "https://yttop.co.kr/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlBytes": 814083,
+      "title": "수원건강검진, 영통탑내과",
+      "canonical": "http://yttop.co.kr/",
+      "robots": [],
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://yttop.co.kr/robots.txt",
+      "checkedAt": "2026-09-11T05:01:03.935Z",
+      "status": 200,
+      "finalUrl": "https://yttop.co.kr/robots.txt",
+      "contentType": "text/plain;charset=utf-8",
+      "htmlBytes": 207,
+      "title": "",
+      "canonical": null,
+      "robots": [],
+      "xRobotsTag": null,
+      "robotsText": "User-agent: *\nAllow: /\nDisallow: /site_join\nDisallow: /site_join_agree\nDisallow: /login\nDisallow: /logout.cm\nDisallow: /shop_cart\nDisallow: /?mode*\nDisallow: /admin\n\nSitemap: https://yttop.co.kr/sitemap.xml\n"
+    }
+  ]
+}

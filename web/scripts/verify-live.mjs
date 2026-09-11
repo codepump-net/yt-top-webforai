@@ -4,15 +4,13 @@ import { sha256 } from './content-contract.mjs';
 const base = process.env.DEPLOY_URL ?? 'https://codepump-net.github.io/yt-top-webforai/';
 const site = base.endsWith('/') ? base : base + '/';
 const expectedSha = process.env.EXPECTED_SHA ?? process.env.GITHUB_SHA;
-const response = await fetch(site + `build-manifest.json?verification=${Date.now()}`, {
-  signal: AbortSignal.timeout(30_000),
-  cache: 'no-store',
-});
-if (!response.ok) throw new Error(`Live manifest HTTP ${response.status}: ${site}`);
-const manifest = await response.json();
+// The expected manifest comes from this run's CI evidence artifact, outside the deployed web root.
+const manifest = JSON.parse(await fs.readFile('reports/build-manifest.json', 'utf8'));
 if (expectedSha && manifest.commit !== expectedSha)
   throw new Error(`Deployed commit mismatch: wanted ${expectedSha}, got ${manifest.commit}`);
 const failures = [];
+if (new URL(site).href !== new URL(manifest.basePath + '/', manifest.origin).href)
+  throw new Error('Deployment URL differs from the verified build origin/base path');
 const results = [];
 for (let start = 0; start < manifest.routes.length; start += 4) {
   const batch = manifest.routes.slice(start, start + 4);

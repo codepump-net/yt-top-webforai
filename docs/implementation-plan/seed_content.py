@@ -2,6 +2,8 @@
 import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
+if (ROOT / 'content/page-intents.json').exists():
+    raise SystemExit('Historical importer disabled: edit current content under docs/patient-content-policy.ko.md.')
 plans=json.loads((ROOT/'docs/implementation-plan/page-plans.json').read_text(encoding='utf-8'))
 facts=json.loads((ROOT/'research/2026-09-11-yttop/data/hospital-source-facts.json').read_text(encoding='utf-8-sig'))
 # Original editorial summaries based on the hospital's published service pages.

@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "case-164673116",
+    "path": "/cases/case-164673116/",
+    "title": "복수·단백뇨와 대장암 진단 사례",
+    "metaTitle": "복수·단백뇨와 대장암 진단 사례 | 영통탑내과",
+    "description": "복부 초음파와 혈액·소변검사 등을 통해 이상 소견을 살펴본 사례입니다. 원문은 상급병원에서 추가 진단과 치료가 진행되었다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파와 혈액·소변검사 등을 통해 이상 소견을 살펴본 사례입니다. 원문은 상급병원에서 추가 진단과 치료가 진행되었다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파와 혈액·소변검사 등을 통해 이상 소견을 살펴본 사례입니다. 원문은 상급병원에서 추가 진단과 치료가 진행되었다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673116&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:12:30+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673131",
+    "path": "/cases/case-164673131/",
+    "title": "속쓰림으로 내원한 위암 진단 사례",
+    "metaTitle": "속쓰림으로 내원한 위암 진단 사례 | 영통탑내과",
+    "description": "위내시경에서 추가 평가가 필요한 병변을 관찰하고 조직검사를 시행한 사례입니다. 원문에 없는 병기나 치료 결과는 이 요약에 추가하지 않았습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "위내시경에서 추가 평가가 필요한 병변을 관찰하고 조직검사를 시행한 사례입니다. 원문에 없는 병기나 치료 결과는 이 요약에 추가하지 않았습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "위내시경에서 추가 평가가 필요한 병변을 관찰하고 조직검사를 시행한 사례입니다. 원문에 없는 병기나 치료 결과는 이 요약에 추가하지 않았습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673131&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:12:47+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673206",
+    "path": "/cases/case-164673206/",
+    "title": "갑상선암 증례 — 진단 사례",
+    "metaTitle": "갑상선암 증례 — 진단 사례 | 영통탑내과",
+    "description": "갑상선 초음파의 결절 소견 이후 추가 검사를 진행한 사례입니다. 원문은 세침검사와 상급병원 치료의 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "갑상선 초음파의 결절 소견 이후 추가 검사를 진행한 사례입니다. 원문은 세침검사와 상급병원 치료의 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "갑상선 초음파의 결절 소견 이후 추가 검사를 진행한 사례입니다. 원문은 세침검사와 상급병원 치료의 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "thyroid-ultrasound",
+      "ultrasound-index",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673206&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:15:12+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673218",
+    "path": "/cases/case-164673218/",
+    "title": "수신증 사례 — 진단 사례",
+    "metaTitle": "수신증 사례 — 진단 사례 | 영통탑내과",
+    "description": "초음파에서 신우 확장 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 수신증에 대한 진료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "초음파에서 신우 확장 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 수신증에 대한 진료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "초음파에서 신우 확장 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 수신증에 대한 진료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673218&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:15:47+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673233",
+    "path": "/cases/case-164673233/",
+    "title": "하복부 통증으로 내원하여 시행한 초음파 — 진단 사례",
+    "metaTitle": "하복부 통증으로 내원하여 시행한 초음파 — 진단 사례 | 영통탑내과",
+    "description": "하복부 초음파의 이상 소견 이후 추가 검사로 이어진 사례입니다. 원문은 복강 내 병변 확인과 상급병원 치료를 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "하복부 초음파의 이상 소견 이후 추가 검사로 이어진 사례입니다. 원문은 복강 내 병변 확인과 상급병원 치료를 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "하복부 초음파의 이상 소견 이후 추가 검사로 이어진 사례입니다. 원문은 복강 내 병변 확인과 상급병원 치료를 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673233&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-05-30T15:16:07+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-164673242",
+    "path": "/cases/case-164673242/",
+    "title": "발열 복통으로 내원한 복막염 환자. — 진단 사례",
+    "metaTitle": "발열 복통으로 내원한 복막염 환자. — 진단 사례 | 영통탑내과",
+    "description": "복부 초음파에서 염증 관련 소견을 확인한 사례입니다. 원문은 상급병원에서 복막염으로 확인되어 치료받은 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파에서 염증 관련 소견을 확인한 사례입니다. 원문은 상급병원에서 복막염으로 확인되어 치료받은 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파에서 염증 관련 소견을 확인한 사례입니다. 원문은 상급병원에서 복막염으로 확인되어 치료받은 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=164673242&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-05-30T15:16:23+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165150420",
+    "path": "/cases/case-165150420/",
+    "title": "복강내 종괴 증례 — 진단 사례",
+    "metaTitle": "복강내 종괴 증례 — 진단 사례 | 영통탑내과",
+    "description": "복부 초음파에서 종괴가 의심되는 소견을 관찰한 사례입니다. 원문은 CT 등 추가 검사와 상급병원 치료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파에서 종괴가 의심되는 소견을 관찰한 사례입니다. 원문은 CT 등 추가 검사와 상급병원 치료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파에서 종괴가 의심되는 소견을 관찰한 사례입니다. 원문은 CT 등 추가 검사와 상급병원 치료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165150420&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T15:48:03+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165150549",
+    "path": "/cases/case-165150549/",
+    "title": "대장 베체트 증례 — 진단 사례",
+    "metaTitle": "대장 베체트 증례 — 진단 사례 | 영통탑내과",
+    "description": "대장내시경과 조직·혈액검사를 통해 장 증상을 평가한 사례입니다. 원문은 베체트 장염 확인 후 상급병원 치료로 이어진 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "대장내시경과 조직·혈액검사를 통해 장 증상을 평가한 사례입니다. 원문은 베체트 장염 확인 후 상급병원 치료로 이어진 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "대장내시경과 조직·혈액검사를 통해 장 증상을 평가한 사례입니다. 원문은 베체트 장염 확인 후 상급병원 치료로 이어진 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165150549&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T15:50:09+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165150795",
+    "path": "/cases/case-165150795/",
+    "title": "폐렴 증례 — 진단 사례",
+    "metaTitle": "폐렴 증례 — 진단 사례 | 영통탑내과",
+    "description": "흉부 영상 소견을 확인하고 CT 등 추가 평가로 이어진 사례입니다. 원문은 폐렴 치료 후 병변이 호전되었다고 기록합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "흉부 영상 소견을 확인하고 CT 등 추가 평가로 이어진 사례입니다. 원문은 폐렴 치료 후 병변이 호전되었다고 기록합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "흉부 영상 소견을 확인하고 CT 등 추가 평가로 이어진 사례입니다. 원문은 폐렴 치료 후 병변이 호전되었다고 기록합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "acute-care",
+      "chronic-cough",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165150795&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T15:53:18+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165151140",
+    "path": "/cases/case-165151140/",
+    "title": "비후성 심근병증 증례 — 진단 사례",
+    "metaTitle": "비후성 심근병증 증례 — 진단 사례 | 영통탑내과",
+    "description": "흉부 영상·심전도·심장초음파·혈액검사를 함께 살펴본 사례입니다. 원문은 상급병원에서 비후성 심근병증으로 진단 후 치료 중이라고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "흉부 영상·심전도·심장초음파·혈액검사를 함께 살펴본 사례입니다. 원문은 상급병원에서 비후성 심근병증으로 진단 후 치료 중이라고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "흉부 영상·심전도·심장초음파·혈액검사를 함께 살펴본 사례입니다. 원문은 상급병원에서 비후성 심근병증으로 진단 후 치료 중이라고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165151140&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-09T16:00:22+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165203625",
+    "path": "/cases/case-165203625/",
+    "title": "지속되는 두근거림으로 내원하여 진단된 심실빈맥 — 진단 사례",
+    "metaTitle": "지속되는 두근거림으로 내원하여 진단된 심실빈맥 — 진단 사례 | 영통탑내과",
+    "description": "일반 심전도 이후 홀터 기록으로 추가 리듬 이상을 확인한 사례입니다. 원문은 심실빈맥 확인 후 치료가 진행되었다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "일반 심전도 이후 홀터 기록으로 추가 리듬 이상을 확인한 사례입니다. 원문은 심실빈맥 확인 후 치료가 진행되었다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "일반 심전도 이후 홀터 기록으로 추가 리듬 이상을 확인한 사례입니다. 원문은 심실빈맥 확인 후 치료가 진행되었다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165203625&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-06-10T16:37:52+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165203941",
+    "path": "/cases/case-165203941/",
+    "title": "두근거림 호흡곤란으로 내원하여 진단된 심방세동 — 진단 사례",
+    "metaTitle": "두근거림 호흡곤란으로 내원하여 진단된 심방세동 — 진단 사례 | 영통탑내과",
+    "description": "진료실 검사와 장시간 심전도 기록의 역할을 함께 보여주는 사례입니다. 원문은 홀터 기록 중 증상과 심방세동이 확인되어 후속 치료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "진료실 검사와 장시간 심전도 기록의 역할을 함께 보여주는 사례입니다. 원문은 홀터 기록 중 증상과 심방세동이 확인되어 후속 치료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "진료실 검사와 장시간 심전도 기록의 역할을 함께 보여주는 사례입니다. 원문은 홀터 기록 중 증상과 심방세동이 확인되어 후속 치료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165203941&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-10T16:40:58+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165204038",
+    "path": "/cases/case-165204038/",
+    "title": "혈변과 대장내시경을 통한 대장암 진단 사례",
+    "metaTitle": "혈변과 대장내시경을 통한 대장암 진단 사례 | 영통탑내과",
+    "description": "대장내시경에서 병변을 관찰한 후 조직검사로 확인한 사례입니다. 원문은 이후 상급병원에서 치료를 진행했다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "대장내시경에서 병변을 관찰한 후 조직검사로 확인한 사례입니다. 원문은 이후 상급병원에서 치료를 진행했다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "대장내시경에서 병변을 관찰한 후 조직검사로 확인한 사례입니다. 원문은 이후 상급병원에서 치료를 진행했다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165204038&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-10T16:44:17+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165259713",
+    "path": "/cases/case-165259713/",
+    "title": "생리통으로 오인된 난소종양 — 진단 사례",
+    "metaTitle": "생리통으로 오인된 난소종양 — 진단 사례 | 영통탑내과",
+    "description": "하복부 초음파에서 추가 평가가 필요한 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 난소종양 치료로 이어졌다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "하복부 초음파에서 추가 평가가 필요한 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 난소종양 치료로 이어졌다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "하복부 초음파에서 추가 평가가 필요한 소견을 확인한 사례입니다. 원문은 상급병원 의뢰 후 난소종양 치료로 이어졌다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165259713&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-11T18:22:30+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165259783",
+    "path": "/cases/case-165259783/",
+    "title": "식도 점막하 종양 — 진단 사례",
+    "metaTitle": "식도 점막하 종양 — 진단 사례 | 영통탑내과",
+    "description": "내시경에서 식도 점막하 병변을 확인한 사례입니다. 원문에는 추가 검사로 병변을 평가하고 추적 내시경을 계획한 과정이 소개되어 있습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "내시경에서 식도 점막하 병변을 확인한 사례입니다. 원문에는 추가 검사로 병변을 평가하고 추적 내시경을 계획한 과정이 소개되어 있습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "내시경에서 식도 점막하 병변을 확인한 사례입니다. 원문에는 추가 검사로 병변을 평가하고 추적 내시경을 계획한 과정이 소개되어 있습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165259783&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-11T18:23:39+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165259921",
+    "path": "/cases/case-165259921/",
+    "title": "대동맥 판막협착 및 대동맥판막 역류. — 진단 사례",
+    "metaTitle": "대동맥 판막협착 및 대동맥판막 역류. — 진단 사례 | 영통탑내과",
+    "description": "심전도와 심장초음파 등에서 심장 구조·판막의 여러 소견을 함께 확인한 사례입니다. 원문은 진단과 약물 치료의 경과를 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심전도와 심장초음파 등에서 심장 구조·판막의 여러 소견을 함께 확인한 사례입니다. 원문은 진단과 약물 치료의 경과를 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심전도와 심장초음파 등에서 심장 구조·판막의 여러 소견을 함께 확인한 사례입니다. 원문은 진단과 약물 치료의 경과를 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165259921&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-11T18:26:59+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165338662",
+    "path": "/cases/case-165338662/",
+    "title": "상,하복부 통증으로 내원한 맹장염 — 진단 사례",
+    "metaTitle": "상,하복부 통증으로 내원한 맹장염 — 진단 사례 | 영통탑내과",
+    "description": "복부 초음파에서 염증 소견을 확인한 뒤 응급실의 추가 검사로 이어진 사례입니다. 원문은 이후 충수염 수술을 받았다고 기록합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "복부 초음파에서 염증 소견을 확인한 뒤 응급실의 추가 검사로 이어진 사례입니다. 원문은 이후 충수염 수술을 받았다고 기록합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "복부 초음파에서 염증 소견을 확인한 뒤 응급실의 추가 검사로 이어진 사례입니다. 원문은 이후 충수염 수술을 받았다고 기록합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165338662&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-06-12T18:28:20+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165338735",
+    "path": "/cases/case-165338735/",
+    "title": "목에 혹이 만져져요. 림프종 진단사례. — 진단 사례",
+    "metaTitle": "목에 혹이 만져져요. 림프종 진단사례. — 진단 사례 | 영통탑내과",
+    "description": "목 부위 림프절 소견을 확인하고 추가 영상·조직검사로 이어진 사례입니다. 원문은 림프종 확인 후 치료가 진행되었다고 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "목 부위 림프절 소견을 확인하고 추가 영상·조직검사로 이어진 사례입니다. 원문은 림프종 확인 후 치료가 진행되었다고 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "목 부위 림프절 소견을 확인하고 추가 영상·조직검사로 이어진 사례입니다. 원문은 림프종 확인 후 치료가 진행되었다고 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "acute-care",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165338735&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-12T18:30:22+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165396187",
+    "path": "/cases/case-165396187/",
+    "title": "재발하는 뇌경색으로 내원하여 진단된 심방세동. — 진단 사례",
+    "metaTitle": "재발하는 뇌경색으로 내원하여 진단된 심방세동. — 진단 사례 | 영통탑내과",
+    "description": "심전도·심장초음파·홀터 기록을 함께 확인한 사례입니다. 원문은 심방세동과 판막 소견 등을 평가한 뒤 상급병원 진료를 의뢰했다고 설명합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심전도·심장초음파·홀터 기록을 함께 확인한 사례입니다. 원문은 심방세동과 판막 소견 등을 평가한 뒤 상급병원 진료를 의뢰했다고 설명합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심전도·심장초음파·홀터 기록을 함께 확인한 사례입니다. 원문은 심방세동과 판막 소견 등을 평가한 뒤 상급병원 진료를 의뢰했다고 설명합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165396187&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-06-13T15:02:54+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165396249",
+    "path": "/cases/case-165396249/",
+    "title": "식도궤양 — 진단 사례",
+    "metaTitle": "식도궤양 — 진단 사례 | 영통탑내과",
+    "description": "위내시경으로 위식도접합부의 궤양과 출혈 소견을 확인한 사례입니다. 원문은 추가 진료를 위해 대학병원에 의뢰한 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "위내시경으로 위식도접합부의 궤양과 출혈 소견을 확인한 사례입니다. 원문은 추가 진료를 위해 대학병원에 의뢰한 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "위내시경으로 위식도접합부의 궤양과 출혈 소견을 확인한 사례입니다. 원문은 추가 진료를 위해 대학병원에 의뢰한 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165396249&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T15:04:10+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165396339",
+    "path": "/cases/case-165396339/",
+    "title": "대동맥판막협착 진단 사례",
+    "metaTitle": "대동맥판막협착 진단 사례 | 영통탑내과",
+    "description": "심장초음파에서 판막과 심장 구조의 이상을 확인해 상급병원으로 의뢰한 사례입니다. 제목과 본문의 중증도 표현이 달라, 이 요약에서는 중증도를 확정하지 않습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심장초음파에서 판막과 심장 구조의 이상을 확인해 상급병원으로 의뢰한 사례입니다. 제목과 본문의 중증도 표현이 달라, 이 요약에서는 중증도를 확정하지 않습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심장초음파에서 판막과 심장 구조의 이상을 확인해 상급병원으로 의뢰한 사례입니다. 제목과 본문의 중증도 표현이 달라, 이 요약에서는 중증도를 확정하지 않습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165396339&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T15:06:35+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165407798",
+    "path": "/cases/case-165407798/",
+    "title": "대동맥류를 동반한 이엽성 판막증 — 진단 사례",
+    "metaTitle": "대동맥류를 동반한 이엽성 판막증 — 진단 사례 | 영통탑내과",
+    "description": "심장초음파에서 대동맥과 판막의 이상 소견을 관찰한 사례입니다. 이엽성 판막과 대동맥류 등이 의심되어 상급병원으로 의뢰한 과정이 소개되어 있습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "심장초음파에서 대동맥과 판막의 이상 소견을 관찰한 사례입니다. 이엽성 판막과 대동맥류 등이 의심되어 상급병원으로 의뢰한 과정이 소개되어 있습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "심장초음파에서 대동맥과 판막의 이상 소견을 관찰한 사례입니다. 이엽성 판막과 대동맥류 등이 의심되어 상급병원으로 의뢰한 과정이 소개되어 있습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165407798&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T16:26:01+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165407885",
+    "path": "/cases/case-165407885/",
+    "title": "궤양성대장염 — 진단 사례",
+    "metaTitle": "궤양성대장염 — 진단 사례 | 영통탑내과",
+    "description": "반복되는 장 증상에 대해 대장내시경과 조직검사를 진행한 사례입니다. 원문은 궤양성대장염으로 진단 후 치료를 이어간 과정을 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "반복되는 장 증상에 대해 대장내시경과 조직검사를 진행한 사례입니다. 원문은 궤양성대장염으로 진단 후 치료를 이어간 과정을 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "반복되는 장 증상에 대해 대장내시경과 조직검사를 진행한 사례입니다. 원문은 궤양성대장염으로 진단 후 치료를 이어간 과정을 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165407885&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T16:27:50+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-165407958",
+    "path": "/cases/case-165407958/",
+    "title": "대장용종 절제 사례 — 진단 사례",
+    "metaTitle": "대장용종 절제 사례 — 진단 사례 | 영통탑내과",
+    "description": "대장내시경에서 용종을 발견해 절제하고 조직검사 결과를 확인한 과정입니다. 원문은 조직 소견을 바탕으로 추적관찰을 안내한 사례를 소개합니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "대장내시경에서 용종을 발견해 절제하고 조직검사 결과를 확인한 과정입니다. 원문은 조직 소견을 바탕으로 추적관찰을 안내한 사례를 소개합니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "대장내시경에서 용종을 발견해 절제하고 조직검사 결과를 확인한 과정입니다. 원문은 조직 소견을 바탕으로 추적관찰을 안내한 사례를 소개합니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "endoscopy",
+      "gastroscopy",
+      "colonoscopy",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=165407958&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": "2025-06-13T16:29:35+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "case-167025586",
+    "path": "/cases/case-167025586/",
+    "title": "심근경색 진단과정 — 진단 사례",
+    "metaTitle": "심근경색 진단과정 — 진단 사례 | 영통탑내과",
+    "description": "원문은 심전도·흉부 영상·심장초음파·혈액 표지자를 함께 확인하고 상급병원 응급실로 의뢰한 과정을 소개합니다. 이후 상급병원에서 심근경색 치료를 받았다고 기록되어 있습니다.",
+    "template": "case-detail",
+    "category": "진단 사례",
+    "intro": "원문은 심전도·흉부 영상·심장초음파·혈액 표지자를 함께 확인하고 상급병원 응급실로 의뢰한 과정을 소개합니다. 이후 상급병원에서 심근경색 치료를 받았다고 기록되어 있습니다.",
+    "blocks": [
+      {
+        "heading": "기존 홈페이지의 진단 과정 요약",
+        "text": "원문은 심전도·흉부 영상·심장초음파·혈액 표지자를 함께 확인하고 상급병원 응급실로 의뢰한 과정을 소개합니다. 이후 상급병원에서 심근경색 치료를 받았다고 기록되어 있습니다."
+      },
+      {
+        "heading": "사례를 읽을 때",
+        "text": "이 글은 기존 홈페이지가 소개한 사례의 진단 흐름을 간략히 정리한 것입니다. 환자의 개인 정보와 원본 검사 영상은 재게시하지 않았습니다. 같은 증상이라고 같은 질환이나 치료 결과를 의미하지 않습니다."
+      },
+      {
+        "heading": "원문과 진료 안내",
+        "text": "아래 출처에서 기존 사례를 확인할 수 있습니다. 본인의 증상과 검사 필요성은 개별 진료에서 상담해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "heart-index",
+      "echocardiography",
+      "heart-disease",
+      "cases",
+      "content-policy"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/21/?bmode=view&idx=167025586&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "urgent_context_review",
+    "publishedAt": "2025-07-25T14:23:36+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "sanitized-case-summary"
+  },
+  {
+    "id": "content-policy",
+    "path": "/content-policy/",
+    "title": "의료정보 작성·검수 원칙",
+    "metaTitle": "의료정보 작성·검수 원칙 | 영통탑내과",
+    "description": "의료정보의 출처와 적용 범위를 함께 안내합니다.",
+    "template": "policy",
+    "category": "병원 안내",
+    "intro": "의료정보의 출처와 적용 범위를 함께 안내합니다.",
+    "blocks": [
+      {
+        "heading": "의료정보 작성·검수 원칙",
+        "text": "병원 정보는 기존 영통탑내과 홈페이지를 바탕으로 정리했습니다. 게시일과 자료 확인일, 의료적 검토일은 구분하며 실제 검수 이력이 없는 글에 검수자를 표시하지 않습니다. 개별 환자의 진단·치료는 온라인 설명만으로 결정할 수 없습니다. 안내 내용에 오류가 있거나 현재 운영과 다른 부분이 있으면 병원으로 문의해 주세요."
+      },
+      {
+        "heading": "출처와 질문의 선정",
+        "text": "기존 병원 홈페이지의 공개 정보를 정리하고, 일부 검사 설명은 대학병원 건강정보를 함께 참고합니다. 질문은 안내에 필요한 주제를 편집한 것으로 검색 빈도가 검증된 순위나 외부 이용자의 실제 질의로 표시하지 않습니다. 외부 질의응답의 글과 개인정보는 옮기지 않습니다."
+      },
+      {
+        "heading": "사례와 자료의 범위",
+        "text": "진단 사례는 기존 글의 취지를 설명하는 교육용 요약입니다. 환자의 나이·성별·수치·검사 이미지는 싣지 않았으며 치료 효과를 보장하거나 전형적인 결과로 제시하지 않습니다. 현재 운영 정보와 차이가 날 수 있는 과거 공지는 게시일을 함께 표시합니다."
+      },
+      {
+        "heading": "검토와 수정",
+        "text": "현재는 홈페이지 검토본으로, 의료진의 최종 검수 이력이 없습니다. 운영 시간·비용·서류·검사 조건은 병원에서 확인해야 합니다. 실제 검수 후 담당자와 검토일, 출처를 기록하고 내용이 바뀌면 다시 확인하는 절차를 적용합니다."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "doctors",
+      "health",
+      "visit"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/48"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": null,
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-closure-20250624",
+    "path": "/notices/closure-2025-06-24/",
+    "title": "2025년 6월 24일 오후 휴진 기록",
+    "metaTitle": "2025년 6월 24일 오후 휴진 기록 | 영통탑내과",
+    "description": "2025년 6월 24일 박종설 원장의 오후 진료 휴진에 관한 과거 공지입니다. 현재 진료시간이나 상시 휴진 안내가 아니며, 현재 일정은 진료시간·오시는 길에서 확인해 주세요.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "2025년 6월 24일 박종설 원장의 오후 진료 휴진에 관한 과거 공지입니다. 현재 진료시간이나 상시 휴진 안내가 아니며, 현재 일정은 진료시간·오시는 길에서 확인해 주세요.",
+    "blocks": [
+      {
+        "heading": "종료된 휴진 공지",
+        "text": "2025년 6월 24일 박종설 원장의 오후 진료 휴진에 관한 과거 공지입니다. 현재 진료시간이나 상시 휴진 안내가 아니며, 현재 일정은 진료시간·오시는 길에서 확인해 주세요."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "visit",
+      "notices"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=165787604&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2025-06-20T16:17:28+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": false,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-drug-certificate",
+    "path": "/notices/drug-certificate/",
+    "title": "마약검사 영문서류 발급 안내",
+    "metaTitle": "마약검사 영문서류 발급 안내 | 영통탑내과",
+    "description": "영문서류가 필요한 경우 제출기관의 양식과 요구 검사 항목을 미리 확인해 주세요. 검사 항목과 발급 가능 시점은 실제 검사와 서류 조건에 따라 병원에 문의해 주세요.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "영문서류가 필요한 경우 제출기관의 양식과 요구 검사 항목을 미리 확인해 주세요. 검사 항목과 발급 가능 시점은 실제 검사와 서류 조건에 따라 병원에 문의해 주세요.",
+    "blocks": [
+      {
+        "heading": "마약검사 영문서류 발급 안내",
+        "text": "영문서류가 필요한 경우 제출기관의 양식과 요구 검사 항목을 미리 확인해 주세요. 검사 항목과 발급 가능 시점은 실제 검사와 서류 조건에 따라 병원에 문의해 주세요."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "drug-screening",
+      "employment-checkup"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=172420773&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2026-07-14T12:33:16+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-mammography",
+    "path": "/notices/mammography-equipment/",
+    "title": "디지털 유방촬영 장비 도입 안내",
+    "metaTitle": "디지털 유방촬영 장비 도입 안내 | 영통탑내과",
+    "description": "기존 홈페이지에서 Pinkview – DR Smart 디지털 유방촬영 장비 도입을 안내합니다. 검사 대상과 실제 검진 항목은 예약 전에 확인해 주세요.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "기존 홈페이지에서 Pinkview – DR Smart 디지털 유방촬영 장비 도입을 안내합니다. 검사 대상과 실제 검진 항목은 예약 전에 확인해 주세요.",
+    "blocks": [
+      {
+        "heading": "디지털 유방촬영 장비 도입 안내",
+        "text": "기존 홈페이지에서 Pinkview – DR Smart 디지털 유방촬영 장비 도입을 안내합니다. 검사 대상과 실제 검진 항목은 예약 전에 확인해 주세요."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "national-checkup",
+      "cancer-screening"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=165253784&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2025-06-11T16:32:19+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-pathfast",
+    "path": "/notices/pathfast/",
+    "title": "심장 표지자 검사 장비 도입 안내",
+    "metaTitle": "심장 표지자 검사 장비 도입 안내 | 영통탑내과",
+    "description": "기존 홈페이지에서 심장 관련 혈액 표지자 검사를 위한 PATHFAST 도입을 안내합니다. 실제 검사 항목과 결과 설명은 진료 시 확인하며, 장비 도입이 모든 심장질환의 진단을 보장하는 것은 아닙니다.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "기존 홈페이지에서 심장 관련 혈액 표지자 검사를 위한 PATHFAST 도입을 안내합니다. 실제 검사 항목과 결과 설명은 진료 시 확인하며, 장비 도입이 모든 심장질환의 진단을 보장하는 것은 아닙니다.",
+    "blocks": [
+      {
+        "heading": "PATHFAST 장비 도입 안내",
+        "text": "기존 홈페이지에서 심장 관련 혈액 표지자 검사를 위한 PATHFAST 도입을 안내합니다. 실제 검사 항목과 결과 설명은 진료 시 확인하며, 장비 도입이 모든 심장질환의 진단을 보장하는 것은 아닙니다."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "cardiac-markers",
+      "heart-index"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=166166318&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2025-06-26T10:23:10+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-screening-evaluation",
+    "path": "/notices/screening-evaluation/",
+    "title": "국가검진기관 평가 안내",
+    "metaTitle": "국가검진기관 평가 안내 | 영통탑내과",
+    "description": "기존 홈페이지는 간암·위암 부문 국가검진기관 평가에서 우수기관으로 선정되었다고 안내합니다. 평가의 회차·적용 기간과 해당 부문을 구분해 확인해야 하며, 모든 검진 분야에 대한 평가로 확대하지 않습니다.",
+    "template": "notice-detail",
+    "category": "공지사항",
+    "intro": "기존 홈페이지는 간암·위암 부문 국가검진기관 평가에서 우수기관으로 선정되었다고 안내합니다. 평가의 회차·적용 기간과 해당 부문을 구분해 확인해야 하며, 모든 검진 분야에 대한 평가로 확대하지 않습니다.",
+    "blocks": [
+      {
+        "heading": "국가검진기관 평가 안내",
+        "text": "기존 홈페이지는 간암·위암 부문 국가검진기관 평가에서 우수기관으로 선정되었다고 안내합니다. 평가의 회차·적용 기간과 해당 부문을 구분해 확인해야 하며, 모든 검진 분야에 대한 평가로 확대하지 않습니다."
+      },
+      {
+        "heading": "현재 안내 확인",
+        "text": "이 글의 날짜는 기존 홈페이지 게시일입니다. 현재 시행 여부와 예약·검사 조건은 관련 진료 안내와 병원 문의를 통해 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "national-checkup",
+      "cancer-screening"
+    ],
+    "sources": [
+      {
+        "title": "영통탑내과 기존 홈페이지",
+        "url": "https://yttop.co.kr/44/?bmode=view&idx=172420973&t=board"
+      }
+    ],
+    "image": null,
+    "risk": "operational",
+    "publishedAt": "2026-07-14T12:44:19+09:00",
+    "updatedAt": "2026-09-11",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  }
+]
