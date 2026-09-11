@@ -22,6 +22,10 @@ import {
   structuredData,
   reviewFor,
   phoneHref,
+  childrenFor,
+  careOverviewIds,
+  questionAnchor,
+  siteMapCategories,
 } from '@/lib/site';
 import caseLinks from '../../../content/case-links.json';
 import { VisitInfo } from './chrome';
@@ -181,17 +185,7 @@ function Home() {
           text="궁금한 진료 분야를 선택하면 검사 과정과 방문 전 준비를 확인할 수 있습니다."
           link={['/services/', '전체 진료·검사']}
         />
-        <Cards
-          icons
-          items={select([
-            'heart-index',
-            'endoscopy',
-            'ultrasound-index',
-            'checkups',
-            'conditions',
-            'cancer-support',
-          ])}
-        />
+        <Cards icons items={select(careOverviewIds)} />
       </section>
       <section className="section soft-section">
         <div className="container">
@@ -262,24 +256,6 @@ function Home() {
   );
 }
 
-function getChildren(page: Page): Page[] {
-  if (page.id === 'services')
-    return select([
-      'heart-index',
-      'endoscopy',
-      'ultrasound-index',
-      'checkups',
-      'conditions',
-      'cancer-support',
-    ]);
-  if (page.id === 'health') return pages.filter((p) => p.template === 'article-detail');
-  return pages.filter(
-    (p) =>
-      p.path.startsWith(page.path) &&
-      p.path !== page.path &&
-      p.path.slice(page.path.length).split('/').filter(Boolean).length === 1,
-  );
-}
 function searchItems(items: Page[]): SearchItem[] {
   return items.map((p) => ({
     title: p.title,
@@ -382,7 +358,7 @@ function BodyBlocks({ page }: { page: Page }) {
           <h2>궁금한 점을 확인하세요</h2>
           <div className="qa-list">
             {page.questions.map((q, i) => (
-              <details id={q.id} key={q.question} open={i === 0}>
+              <details id={questionAnchor(q, i)} key={q.question} open={i === 0}>
                 <summary>
                   <span>Q.</span>
                   {q.question}
@@ -544,18 +520,7 @@ function DoctorDetail({ page }: { page: Page }) {
   );
 }
 function SiteMap() {
-  const groups = [
-    '병원 안내',
-    '심장검사',
-    '내시경',
-    '초음파',
-    '건강검진',
-    '내과 진료',
-    '건강정보',
-    '진단 사례',
-    '공지사항',
-  ];
-  const categories = [...new Set([...groups, ...pages.map((p) => p.category)])];
+  const categories = siteMapCategories(pages);
   return (
     <div className="sitemap-grid">
       {categories.map((category) => {
@@ -685,7 +650,7 @@ export function PageContent({ page }: { page: Page }) {
               {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}
               {/index|hub/.test(page.template) &&
                 !['doctors', 'cases', 'notices'].includes(page.id) && (
-                  <Cards icons={page.id !== 'health'} items={getChildren(page)} />
+                  <Cards icons={page.id !== 'health'} items={childrenFor(page)} />
                 )}
               {page.id === 'fees' && (
                 <div className="article-section">

@@ -31,7 +31,16 @@ for (let start = 0; start < manifest.routes.length; start += 4) {
         throw new Error(`${route.path}: deployed HTML differs from manifest`);
       if (!route.indexable && !$('meta[name=robots]').attr('content')?.includes('noindex'))
         throw new Error(`${route.path}: noindex missing`);
-      return { path: route.path, status: result.status };
+      const robots =
+        $('meta[name=robots],meta[name=googlebot]')
+          .map((_, el) => $(el).attr('content'))
+          .get()
+          .join(',') +
+        ',' +
+        (result.headers.get('x-robots-tag') ?? '');
+      if (route.indexable && /noindex|nosnippet|\bnone\b/i.test(robots))
+        throw new Error(`${route.path}: published page blocks indexing or snippets`);
+      return { path: route.path, status: result.status, indexable: route.indexable, robots };
     }),
   );
   for (const r of checked)
@@ -42,6 +51,18 @@ const missing = await fetch(site + 'verification-nonexistent-path/', {
 });
 if (missing.status !== 404)
   failures.push(`Unknown route must return HTTP 404, got ${missing.status}`);
+const sitemapResponse = await fetch(site + 'sitemap.xml');
+const xml = load(await sitemapResponse.text(), { xmlMode: true });
+const sitemapUrls = xml('url > loc')
+  .map((_, el) => xml(el).text())
+  .get()
+  .sort();
+const expectedUrls = manifest.routes
+  .filter((r) => r.indexable)
+  .map((r) => site + r.path.slice(1))
+  .sort();
+if (!sitemapResponse.ok || JSON.stringify(sitemapUrls) !== JSON.stringify(expectedUrls))
+  failures.push('Published sitemap differs from verified indexable routes');
 await fs.mkdir('reports', { recursive: true });
 await fs.writeFile(
   'reports/live-verification.json',
@@ -53,6 +74,7 @@ await fs.writeFile(
       mode: manifest.mode,
       results,
       failures,
+      sitemapUrls,
     },
     null,
     2,

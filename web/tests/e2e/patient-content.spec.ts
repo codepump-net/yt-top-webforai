@@ -12,6 +12,8 @@ test('retired pages and internal build artifacts are not served', async ({ reque
     '/build-manifest.json',
     '/planned-sitemap.xml',
     '/content/reviews.json',
+    '/content/publication-approval.json',
+    '/publication-approval.json',
     '/docs/patient-content-policy.ko.md',
   ])
     expect((await request.get(url(route))).status(), route).toBe(404);

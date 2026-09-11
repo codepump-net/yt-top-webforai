@@ -1,5 +1,5 @@
 'use client';
-import { useMemo, useRef, useState } from 'react';
+import { useMemo, useRef, useState, useSyncExternalStore } from 'react';
 import { ArrowUpRight, Search as SearchIcon } from 'lucide-react';
 
 export type SearchItem = {
@@ -10,6 +10,13 @@ export type SearchItem = {
   text: string;
   external?: boolean;
 };
+const subscribeToUrl = (callback: () => void) => {
+  window.addEventListener('popstate', callback);
+  return () => window.removeEventListener('popstate', callback);
+};
+const queryFromUrl = () =>
+  (new URLSearchParams(window.location.search).get('q') ?? '').slice(0, 120);
+const emptyQuery = () => '';
 export function Search({
   items,
   label = '궁금한 검사나 진료를 찾아보세요',
@@ -19,7 +26,9 @@ export function Search({
   label?: string;
   filter?: boolean;
 }) {
-  const [query, setQuery] = useState('');
+  const initialQuery = useSyncExternalStore(subscribeToUrl, queryFromUrl, emptyQuery);
+  const [editedQuery, setQuery] = useState<string | null>(null);
+  const query = editedQuery ?? initialQuery;
   const [category, setCategory] = useState('전체');
   const input = useRef<HTMLInputElement>(null);
   const categories = ['전체', ...new Set(items.map((p) => p.category))];

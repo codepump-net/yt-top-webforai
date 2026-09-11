@@ -87,6 +87,72 @@ export const pageSchema = z
 export function pageDigest(page, context) {
   return sha256({ page, context });
 }
+// A publisher's confirmation of completed reviews is release evidence, not a
+// named clinician's byline. Keep it internal and bind it to the entire release.
+export function publicationDigest(
+  pages,
+  { clinic, physicians, assets, rendererDigest, caseLinks, pageIntents },
+) {
+  const { operationsReview, ...facts } = clinic;
+  void operationsReview;
+  return sha256({
+    pages,
+    clinic: facts,
+    physicians,
+    assets,
+    rendererDigest,
+    caseLinks,
+    pageIntents,
+  });
+}
+function validatePublicationApproval(approval, pages, context, now) {
+  const schema = z
+    .object({
+      version: z.literal(1),
+      kind: z.literal('user-confirmed-publication'),
+      status: z.literal('approved'),
+      recordedAt: z.iso.datetime({ offset: true }),
+      expiresAt: z.iso.datetime({ offset: true }),
+      pageIds: z.array(z.string()).min(1),
+      attestation: z
+        .object({
+          medicalReviewCompleted: z.literal(true),
+          operationsReviewCompleted: z.literal(true),
+          publicationAuthorized: z.literal(true),
+        })
+        .strict(),
+      evidence: z
+        .object({
+          kind: z.literal('user-message'),
+          statement: z.string().min(30),
+        })
+        .strict(),
+      digest: z.string().regex(/^[a-f0-9]{64}$/),
+    })
+    .strict();
+  if (!schema.safeParse(approval).success) return ['Invalid publication confirmation evidence'];
+  const errors = [];
+  const expected = pages
+    .filter((p) => p.indexable)
+    .map((p) => p.id)
+    .sort();
+  if (JSON.stringify([...approval.pageIds].sort()) !== JSON.stringify(expected))
+    errors.push('Publication confirmation scope differs from indexable pages');
+  if (pages.some((p) => p.indexable && p.reviewStatus !== 'approved'))
+    errors.push('Publication confirmation requires approved content status');
+  if (approval.digest !== publicationDigest(pages, context))
+    errors.push('Stale publication confirmation: content, facts, or renderer changed');
+  const recorded = new Date(approval.recordedAt),
+    expires = new Date(approval.expiresAt);
+  if (
+    recorded > now ||
+    expires <= now ||
+    expires <= recorded ||
+    expires - recorded > 366 * 86400000
+  )
+    errors.push('Publication confirmation period invalid or expired');
+  return errors;
+}
 export function validateContent(
   pages,
   {
@@ -98,6 +164,7 @@ export function validateContent(
     rendererDigest,
     caseLinks,
     pageIntents,
+    publicationApproval,
     now = new Date(),
   },
 ) {
@@ -168,7 +235,16 @@ export function validateContent(
   }
   if (!clinic?.phone || !clinic?.address || physicians.length !== 2)
     errors.push('Missing clinic identity or physician records');
-  if (mode === 'production') {
+  if (mode === 'production' && publicationApproval != null) {
+    errors.push(
+      ...validatePublicationApproval(
+        publicationApproval,
+        pages,
+        { clinic, physicians, assets, rendererDigest, caseLinks, pageIntents },
+        now,
+      ),
+    );
+  } else if (mode === 'production') {
     const context = { clinic, physicians, assets, rendererDigest };
     const approvalSchema = z
       .object({

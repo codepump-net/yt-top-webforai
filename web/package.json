@@ -20,6 +20,7 @@
     "test:performance": "node scripts/performance.mjs",
     "serve": "node scripts/serve.mjs",
     "verify:live": "node scripts/verify-live.mjs",
+    "verify:live:seo": "node scripts/verify-live-seo.mjs",
     "measure": "node scripts/measure.mjs"
   },
   "dependencies": {

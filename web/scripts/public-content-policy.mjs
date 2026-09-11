@@ -91,7 +91,7 @@ export function nonPublicArtifact(file) {
   const name = file.replaceAll('\\', '/');
   return (
     /(?:^|\/)(?:docs|research|reports|harness|content|\.local)(?:\/|$)/.test(name) ||
-    /(?:^|\/)(?:build-manifest\.json|planned-sitemap\.xml|retired-pages\.json|page-intents\.json|reviews\.json)$/.test(
+    /(?:^|\/)(?:build-manifest\.json|planned-sitemap\.xml|retired-pages\.json|page-intents\.json|reviews\.json|publication-approval\.json)$/.test(
       name,
     ) ||
     /(?:^|\/)content-policy(?:\/|$)/.test(name)

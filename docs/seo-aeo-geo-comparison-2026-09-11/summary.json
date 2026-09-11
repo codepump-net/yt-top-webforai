@@ -1,0 +1,147 @@
+{
+  "capturedAt": "2026-09-11T07:18:18.508Z",
+  "sites": [
+    {
+      "site": "yeongtong",
+      "pages": 44,
+      "sitemapUrls": 0,
+      "sitemapArticleCandidates": 0,
+      "uniqueTitles": 44,
+      "uniqueDescriptions": 44,
+      "h1ExactlyOne": 44,
+      "schemaParseErrors": 0,
+      "schemaFields": {
+        "citation": 44,
+        "reviewedBy": 0,
+        "lastReviewed": 0,
+        "author": 0
+      },
+      "schemaTypePages": {
+        "ListItem": 44,
+        "MedicalClinic": 44,
+        "BreadcrumbList": 44,
+        "WebSite": 44,
+        "PostalAddress": 44,
+        "CollectionPage": 12,
+        "OpeningHoursSpecification": 44,
+        "WebPage": 5,
+        "MedicalWebPage": 25,
+        "Person": 2,
+        "ProfilePage": 2
+      },
+      "citationsByHost": {
+        "yttop.co.kr": 63,
+        "medlineplus.gov": 8,
+        "www.nhlbi.nih.gov": 14,
+        "www.nhs.uk": 1,
+        "www.amc.seoul.kr": 4,
+        "www.niddk.nih.gov": 6,
+        "health.amc.seoul.kr": 3,
+        "docs.github.com": 1,
+        "www.cancer.gov": 1,
+        "my.clevelandclinic.org": 1
+      }
+    },
+    {
+      "site": "gungang-public",
+      "pages": 13,
+      "sitemapUrls": 27,
+      "sitemapArticleCandidates": 7,
+      "uniqueTitles": 13,
+      "uniqueDescriptions": 13,
+      "h1ExactlyOne": 13,
+      "schemaParseErrors": 0,
+      "schemaFields": {
+        "citation": 7,
+        "reviewedBy": 7,
+        "lastReviewed": 7,
+        "author": 7
+      },
+      "schemaTypePages": {
+        "ListItem": 10,
+        "MedicalClinic": 8,
+        "Answer": 4,
+        "WebSite": 13,
+        "PostalAddress": 8,
+        "ItemList": 4,
+        "Question": 4,
+        "FAQPage": 4,
+        "CollectionPage": 4,
+        "GeoCoordinates": 8,
+        "SearchAction": 1,
+        "Organization": 12,
+        "EducationalOccupationalCredential": 9,
+        "Person": 9,
+        "ProfilePage": 2,
+        "MedicalOrganization": 9,
+        "BreadcrumbList": 7,
+        "MedicalWebPage": 7,
+        "Article": 7,
+        "MedicalProcedure": 5
+      },
+      "citationsByHost": {
+        "pubmed.ncbi.nlm.nih.gov": 16,
+        "www.allergy.or.kr": 3,
+        "www.ncbi.nlm.nih.gov": 3,
+        "www.hira.or.kr": 2,
+        "www.cdc.gov": 1,
+        "www.nejm.org": 1,
+        "pmc.ncbi.nlm.nih.gov": 1,
+        "www.cochranelibrary.com": 1,
+        "www.rehabnews.net": 1,
+        "www.mohw.go.kr": 1
+      }
+    },
+    {
+      "site": "olympic",
+      "pages": 15,
+      "sitemapUrls": 100,
+      "sitemapArticleCandidates": 78,
+      "uniqueTitles": 15,
+      "uniqueDescriptions": 15,
+      "h1ExactlyOne": 15,
+      "schemaParseErrors": 0,
+      "schemaFields": {
+        "citation": 7,
+        "reviewedBy": 7,
+        "lastReviewed": 7,
+        "author": 7
+      },
+      "schemaTypePages": {
+        "ListItem": 12,
+        "MedicalClinic": 8,
+        "Answer": 6,
+        "WebSite": 15,
+        "PostalAddress": 8,
+        "ItemList": 6,
+        "Question": 6,
+        "FAQPage": 6,
+        "CollectionPage": 6,
+        "GeoCoordinates": 8,
+        "SearchAction": 1,
+        "Organization": 14,
+        "EducationalOccupationalCredential": 9,
+        "Person": 9,
+        "ProfilePage": 2,
+        "MedicalOrganization": 9,
+        "BreadcrumbList": 7,
+        "MedicalWebPage": 7,
+        "Article": 7,
+        "MedicalProcedure": 6
+      },
+      "citationsByHost": {
+        "pubmed.ncbi.nlm.nih.gov": 11,
+        "www.ncbi.nlm.nih.gov": 6,
+        "www.nhs.uk": 1,
+        "www.cochrane.org": 1,
+        "pmc.ncbi.nlm.nih.gov": 2,
+        "www.derma.or.kr": 1,
+        "nip.kdca.go.kr": 1,
+        "www.hira.or.kr": 1,
+        "www.guro.go.kr": 1,
+        "www.mohw.go.kr": 1,
+        "sda.or.kr": 1
+      }
+    }
+  ]
+}

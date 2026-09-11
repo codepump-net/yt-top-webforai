@@ -1,0 +1,75 @@
+{
+  "capturedAt": "2026-09-11T07:18:28.926Z",
+  "method": "Headless Edge; 390×844 CSS px; networkidle. Read-only navigation; no forms or phone links activated.",
+  "observations": [
+    {
+      "id": "yeongtong",
+      "url": "https://codepump-net.github.io/yt-top-webforai/",
+      "status": 200,
+      "title": "영통탑내과 | 진료·검사·건강검진·방문 안내",
+      "h1": [
+        "내 몸을 이해하는 진료,\n건강한 일상의 시작."
+      ],
+      "robots": "noindex, follow",
+      "bodyChars": 2343,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "brokenImages": 0,
+      "telLinks": [
+        "tel:0312027555",
+        "tel:0312027555",
+        "tel:0312027555",
+        "tel:0312027555"
+      ]
+    },
+    {
+      "id": "gungang-public",
+      "url": "https://blog.thegungang365.com/",
+      "status": 200,
+      "title": "365일 야간에도 진료하는 우리동네 주치의 더건강한365의원 | 양천구 신정동 내과",
+      "h1": [
+        "더건강한365의원 건강정보 | 양천구 신정동 내과 — 양천구 신정동에서 밤 12시까지 진료하는 더건강한365의원, 야간·공휴일·일요일 진료합니다."
+      ],
+      "bodyChars": 4654,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "brokenImages": 0,
+      "telLinks": [
+        "tel:02-2603-3650"
+      ]
+    },
+    {
+      "id": "olympic",
+      "url": "https://blog.olympicpark365.com/",
+      "status": 200,
+      "title": "올림픽파크365의원은 오늘도 진료중 | 전문의 5인 진료",
+      "h1": [
+        "올림픽파크365의원은 오늘도 진료중 — 응급의학과 전문의 5인 · 강동구 365일 진료"
+      ],
+      "bodyChars": 8074,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "brokenImages": 0,
+      "telLinks": [
+        "tel:02-482-1119"
+      ]
+    },
+    {
+      "id": "gungang-demo",
+      "url": "https://thegungang365.demo.htracker.co.kr/",
+      "status": 200,
+      "title": "365일 야간에도 진료하는 우리동네 주치의 더건강한365의원 | 양천구 신정동 내과",
+      "h1": [
+        "더건강한365의원 건강정보 | 양천구 신정동 내과 — 양천구 신정동에서 밤 12시까지 진료하는 더건강한365의원, 야간·공휴일·일요일 진료합니다."
+      ],
+      "robots": "noindex, nofollow",
+      "bodyChars": 4654,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "brokenImages": 0,
+      "telLinks": [
+        "tel:02-2603-3650"
+      ]
+    }
+  ]
+}

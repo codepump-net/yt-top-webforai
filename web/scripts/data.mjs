@@ -21,18 +21,29 @@ export async function loadContent() {
     'src/components/site-navigation.tsx',
     'src/lib/site.ts',
     'src/lib/content-model.mjs',
+    'src/lib/structured-data.mjs',
     '../content/case-links.json',
   ];
   const rendererDigest = sha256(
-    (await Promise.all(templates.map((f) => fs.readFile(f, 'utf8')))).join('\n'),
+    (await Promise.all(templates.map((f) => fs.readFile(f, 'utf8'))))
+      .map((s) => s.replace(/\r\n/g, '\n'))
+      .join('\n'),
   );
   const data = Object.fromEntries(names.map((n, i) => [n, values[i]]));
   data.clinic = resolveClinic(data.clinic);
   data.pages = resolvePages(data.pages, data.clinic);
+  const publicationApproval = await fs
+    .readFile('../content/publication-approval.json', 'utf8')
+    .then(JSON.parse)
+    .catch((e) => {
+      if (e.code === 'ENOENT') return null;
+      throw e;
+    });
   return {
     ...data,
     caseLinks: data['case-links'],
     pageIntents: data['page-intents'],
     rendererDigest,
+    publicationApproval,
   };
 }

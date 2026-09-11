@@ -3,13 +3,12 @@ import rawPages from '../../../content/pages.json';
 import clinicData from '../../../content/clinic.json';
 import physicianData from '../../../content/physicians.json';
 import reviewData from '../../../content/reviews.json';
+import assetData from '../../../content/assets.json';
+import caseLinks from '../../../content/case-links.json';
 import { assetPath, absoluteUrl, jsonSafe } from './urls.mjs';
-import {
-  resolveClinic,
-  resolvePages,
-  clinicHoursSchema,
-  clinicAddressSchema,
-} from './content-model.mjs';
+import { resolveClinic, resolvePages } from './content-model.mjs';
+import { createStructuredData, childPages } from './structured-data.mjs';
+export { careOverviewIds, questionAnchor, siteMapCategories } from './structured-data.mjs';
 
 export type Source = {
   id?: string;
@@ -54,6 +53,7 @@ export const href = (path: string) => assetPath(path, basePath);
 export const absolute = (path: string) => absoluteUrl(path, origin, basePath);
 export const pageById = (id: string) => pages.find((p) => p.id === id);
 export const pageByPath = (path: string) => pages.find((p) => p.path === path);
+export const childrenFor = (page: Page): Page[] => childPages(page, pages);
 type ReviewRecord = {
   pageId: string;
   status: string;
@@ -121,99 +121,17 @@ export function breadcrumbs(page: Page) {
 }
 
 export function structuredData(page: Page) {
-  const clinicId = new URL('#clinic', clinic.originalUrl).href;
-  const siteId = absolute('/#website');
-  const pageId = absolute(page.path + '#webpage');
-  const doctor = physicians.find((p) => page.id === `doctor-${p.id}`);
-  const medical = page.risk !== 'operational';
-  const review = reviewFor(page);
-  const collection = /index|hub|sitemap|home/.test(page.template);
-  const graph: Record<string, unknown>[] = [
-    {
-      '@type': 'MedicalClinic',
-      '@id': clinicId,
-      name: clinic.name,
-      url: clinic.originalUrl,
-      sameAs: absolute('/'),
-      telephone: clinic.phone,
-      image: absolute('/assets/clinic-1600.webp'),
-      address: clinicAddressSchema(clinic),
-      openingHoursSpecification: clinicHoursSchema(clinic),
-      hasMap: clinic.mapUrl,
-      medicalSpecialty: [
-        'https://schema.org/PrimaryCare',
-        'https://schema.org/Cardiovascular',
-        'https://schema.org/Gastroenterologic',
-      ],
-    },
-    {
-      '@type': 'WebSite',
-      '@id': siteId,
-      name: '영통탑내과 진료·검사 안내',
-      url: absolute('/'),
-      inLanguage: 'ko-KR',
-      publisher: { '@id': clinicId },
-    },
-    {
-      '@type': doctor
-        ? 'ProfilePage'
-        : collection
-          ? 'CollectionPage'
-          : medical
-            ? 'MedicalWebPage'
-            : 'WebPage',
-      '@id': pageId,
-      url: absolute(page.path),
-      name: page.title,
-      description: page.description,
-      inLanguage: 'ko-KR',
-      isPartOf: { '@id': siteId },
-      publisher: { '@id': clinicId },
-      dateModified: page.updatedAt,
-      ...(page.publishedAt ? { datePublished: page.publishedAt } : {}),
-      citation: page.sources.map((s) => s.url),
-      ...(review?.role === 'medical'
-        ? {
-            reviewedBy: {
-              '@type': 'Person',
-              name: review.reviewer,
-              ...(review.reviewerId
-                ? {
-                    '@id': absolute(`/doctors/${review.reviewerId}/#person`),
-                    url: absolute(`/doctors/${review.reviewerId}/`),
-                  }
-                : {}),
-            },
-            lastReviewed: review.reviewedAt.slice(0, 10),
-          }
-        : {}),
-      ...(doctor
-        ? { mainEntity: { '@id': absolute(page.path + '#person') } }
-        : { about: { '@id': clinicId } }),
-    },
-    {
-      '@type': 'BreadcrumbList',
-      '@id': absolute(page.path + '#breadcrumb'),
-      itemListElement: breadcrumbs(page).map((p, i) => ({
-        '@type': 'ListItem',
-        position: i + 1,
-        name: p.title,
-        item: absolute(p.path),
-      })),
-    },
-  ];
-  if (doctor)
-    graph.push({
-      '@type': 'Person',
-      '@id': absolute(page.path + '#person'),
-      name: doctor.name,
-      jobTitle: `${doctor.specialty} · ${doctor.role}`,
-      worksFor: { '@id': clinicId },
-      url: absolute(page.path),
-      ...(doctor.imageKind === 'portrait'
-        ? { image: absolute(`/assets/${doctor.image}-640.webp`) }
-        : {}),
-    });
-  // Q&A stays visible in semantic HTML. We do not claim FAQ rich-result eligibility.
-  return jsonSafe({ '@context': 'https://schema.org', '@graph': graph });
+  return jsonSafe(
+    createStructuredData({
+      page,
+      pages,
+      clinic,
+      physicians,
+      assets: assetData,
+      caseLinks,
+      absolute,
+      breadcrumbs: breadcrumbs(page),
+      review: reviewFor(page),
+    }),
+  );
 }

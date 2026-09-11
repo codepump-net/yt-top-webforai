@@ -2,7 +2,7 @@
 
 작성일: 2026-09-11. 실제 구현의 기준 문서입니다. 사전 개발 계획과 다른 점은 이 문서와 코드가 우선합니다. 공개 콘텐츠는 [환자용 기준](patient-content-policy.ko.md)과 [전수 정리 결과](content-audit-2026-09-11/README.md)를 따릅니다. 사이트는 기존 `yttop.co.kr`과 함께 운영하는 병원 홈페이지입니다.
 
-최신 변경: [AEO·GEO 개선 반영·전후 비교](aeo-geo-improvement-results-2026-09-11/README.md). 의료 상세 25개를 보강하고 절·질문별 출처, 문맥 링크와 표, 공통 사실 참조를 추가했습니다. 실제 의료·운영 승인과 공개 전환은 수행하지 않았습니다.
+최신 변경: [검색 공개 전환·구조화 데이터 확장](production-release-2026-09-11/README.ko.md). 사용자가 의료·운영 검토 완료와 검색 공개를 명시적으로 확인했습니다. 현재 원고와 렌더러에 연결된 공개 확인 기록을 검사하고 main을 production으로 빌드합니다. [이전 AEO·GEO 개선](aeo-geo-improvement-results-2026-09-11/README.md)은 공개 전환 전의 이력입니다.
 
 ## 구현 결과
 
@@ -25,9 +25,10 @@ ESLint는 Next.js 구성에 포함된 React·접근성 플러그인의 호환 �
 | 의료진 이력 | `content/physicians.json` | 현재 소속·전문 분야와 실제 소개 이미지 확인 |
 | 이미지 이력·해시 | `content/assets.json` | 실제 파일과 해시 일치 |
 | 실제 검수 이력 | `content/reviews.json` | 현재 빈 배열, 승인 이력 창작 금지 |
+| 사용자 공개 확인 | `content/publication-approval.json` | 실제 확인 문구·범위·digest·유효기간. 빌드 중 자동 갱신 금지 |
 | 관측용 질문 32개 | `content/measurement-queries.json` | 기존 20개 + 조사 기반 12개; Q03은 기존 질문과 통합, 빈도 검증 없음 |
 | 화면·헤더·방문 안내 | `web/src/components/` | 모바일·키보드·정적 HTML 검사 |
-| 메타·JSON-LD·URL | `web/src/lib/site.ts`, `urls.mjs` | 루트와 하위 경로를 함께 검사 |
+| 메타·JSON-LD·URL | `web/src/lib/site.ts`, `structured-data.mjs`, `urls.mjs` | 본문·답변 일치, 루트와 하위 경로 검사 |
 | 빌드·검증·실측 | `web/scripts/` | `build`, `audit`, `performance`, `verify-live` |
 | Actions 자동 배포 | `.github/workflows/pages.yml` | main push와 PR 검사, main만 배포 |
 
@@ -79,9 +80,9 @@ Windows 브라우저 검사는 설치된 Microsoft Edge를 사용합니다. Linu
 | 노출 준비 | production의 실제 indexable URL만 sitemap.xml, review의 HTML noindex, 정적 404 |
 | 관측 | 질문 집합과 인용 URL·브랜드 언급·오류·인간 검토 정확도를 분리 집계 |
 
-FAQ 형식의 본문은 제공합니다. FAQ 리치 결과나 AI 인용을 보장하는 마크업은 넣지 않습니다. Google의 변경 기록에 따라 FAQ 리치 결과를 성공 기준에서 제외했습니다. `llms.txt`는 production에서만 만드는 선택적 탐색 파일이며 순위 상승 효과를 가정하지 않습니다. 구현 방식은 [Next.js 정적 내보내기](https://nextjs.org/docs/app/guides/static-exports), [Google AI 최적화 안내](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), [Google 검색 변경 기록](https://developers.google.com/search/updates)을 참고했습니다.
+FAQ 본문과 동일한 FAQPage·Question·Answer를 제공합니다. Google의 변경 기록에 따라 FAQ 리치 결과를 성공 기준에서 제외했으며 AI 인용을 보장하지 않습니다. `llms.txt`는 production에서만 만드는 선택적 탐색 파일이며 순위 상승 효과를 가정하지 않습니다. 구현 방식은 [Next.js 정적 내보내기](https://nextjs.org/docs/app/guides/static-exports), [Google AI 최적화 안내](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), [Google 검색 변경 기록](https://developers.google.com/search/updates)을 참고했습니다.
 
-현재 기본 빌드는 모든 페이지에 `noindex, follow`를 설정합니다. 자동 빌드에 성공해도 곧바로 검색 노출 승인을 의미하지 않습니다. `out/sitemap.xml`에는 URL을 넣지 않으며, 향후 후보 43개는 공개 폴더 밖 `reports/planned-sitemap.xml`에 기록합니다. 검색엔진에 후보 사이트맵을 제출하지 않습니다. noindex는 검색 제외 요청일 뿐 접근 통제나 비밀 보관 기능이 아닙니다.
+main의 production 빌드는 사용자 공개 확인 기록을 검증한 뒤 43개 페이지를 색인 허용하고 `out/sitemap.xml`에 기록합니다. 사이트 검색과 404는 noindex입니다. PR·로컬 기본 review 빌드는 모든 페이지에 `noindex, follow`를 설정하고 사이트맵을 비웁니다. review의 후보 사이트맵은 `reports/planned-sitemap.xml`에만 기록하며 검색엔진에 제출하지 않습니다. 색인 허용은 실제 검색 노출을 보장하지 않으며 noindex는 접근 통제 기능이 아닙니다.
 
 프로젝트 경로의 `/yt-top-webforai/robots.txt`는 호스트 루트 `/robots.txt`를 대신하지 못합니다. 검토본을 robots에서 차단하면 noindex를 읽지 못할 수 있어 HTML 지시어로 제외합니다. 병행 운영 시 새 환자 안내는 자기 주소를 canonical로 사용합니다. 같은 병원의 MedicalClinic ID는 `https://yttop.co.kr/#clinic`으로 통일합니다. 실질적 중복 문서를 추가할 때 대표 URL을 별도로 판단합니다.
 
@@ -95,17 +96,19 @@ main 배포 직전 원격 main의 SHA를 확인하므로 오래된 실행이 최
 
 | 변수 | 기본값 | 의미 |
 |---|---|---|
-| `PUBLICATION_MODE` | `review` | `production`은 실제 검수가 모두 유효할 때만 빌드 가능 |
+| `PUBLICATION_MODE` | `production` | 현재 콘텐츠에 유효한 공개 확인 또는 개별 검토 기록이 필요. PR은 review |
 | `SITE_ORIGIN` | `https://codepump-net.github.io` | 경로 없는 HTTPS origin |
 | `SITE_BASE_PATH` | `/yt-top-webforai` | 독립 도메인 루트는 `/`를 명시 |
 
-최초 Pages 활성화는 저장소 관리 권한으로 Settings → Pages → Build and deployment → Source: **GitHub Actions**를 선택해야 합니다. 현재 연결 계정은 코드 push 권한이 있지만 Pages 생성 REST 호출이 HTTP 404로 거절되었습니다. 워크플로의 `GITHUB_TOKEN`만으로 최초 활성화를 대체할 수 없다는 [configure-pages 공식 입력 설명](https://github.com/actions/configure-pages/blob/main/action.yml)을 확인했습니다. 별도 토큰을 코드나 저장소에 넣지 않습니다. 배포가 막혀도 검사를 통과한 `site-project` 전체 결과물과 `checks-project` 보고서는 artifact로 남도록 구성했습니다. 실제 실행 결과는 별도 완료 보고서에 기록합니다.
+Pages는 GitHub Actions 방식으로 활성화돼 있으며 배포 주소는 `https://codepump-net.github.io/yt-top-webforai/`입니다. 배포가 막혀도 검사를 통과한 `site-project` 결과물과 `checks-project` 보고서는 artifact로 남습니다. 이전 문서의 최초 Pages 활성화 실패는 과거 이력입니다. 실제 실행 결과는 최신 공개 전환 기록에 남깁니다.
 
 기존 `yttop.co.kr`을 유지하며 동시에 운영합니다. 기존 사이트를 종료하거나 301로 일괄 이전하지 않습니다. 과거 [145개 URL 대응표](implementation-plan/legacy-url-map.csv)는 조사 이력이며 현재 이관 실행 지시가 아닙니다. 공지는 원래 게시판에서, 사례는 원래 게시물에서 읽도록 연결합니다.
 
 ## 운영·의료 검토 후 검색 공개
 
-화면 구현과 의료적 승인은 분리합니다. 현재 의료진·운영 담당자의 승인을 얻었다고 표시하지 않습니다. 특히 토요일 점심시간, 검사별 접수, 주차 지원, 비용, DOA 검사 세부 항목과 의료진 현재 직책을 확인해야 합니다. 기존 자료에서 내용이 충돌하는 항목은 확정값으로 만들지 않았습니다.
+사용자는 2026-09-11 의료·운영 검토와 검색 공개 조건 검토를 마쳤다고 확인했습니다. 현재는 `publication-approval.json`의 실제 확인 문구·대상·유효기간·콘텐츠 digest를 사용하는 공개 경로입니다. 확인 기록을 자동으로 재생성하지 않습니다. 특정 검토자의 이름이 제공되면 별도로 개별 검토 기록을 남길 수 있습니다. 토요일 점심 적용 등 현재 내용에서 미확정으로 남긴 사실을 이 확인만으로 새로운 확정값으로 바꾸지는 않습니다.
+
+아래는 공개 확인 기록을 사용하지 않고 **실명 검토 기록으로 전환할 때**의 절차입니다.
 
 1. 원고와 모든 공통 화면 문구를 실제 의료진·운영 담당자가 검토하고 수정합니다. 자료의 이용 권한과 사례 요약의 게시 적절성도 함께 확인합니다.
 2. `clinic.json`의 `operationsReview`에 실제 담당자, 확인 기록, 검토 시각·만료 시각과 `factsDigest`를 기록합니다. 해시는 `loadContent()`가 반환한 해석 완료 `clinic`에서 `operationsReview`를 뺀 객체의 `sha256`입니다. 원시 JSON만 해시하면 파생 주소·표시 시간이 빠져 일치하지 않습니다. 검수 기간은 담당자가 실제로 정합니다.

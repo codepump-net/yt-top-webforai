@@ -21,7 +21,12 @@ const reports = [];
 const errors = [];
 try {
   await fs.mkdir('reports/lighthouse', { recursive: true });
-  for (const route of ['', 'services/heart/echocardiography/', 'search/', 'health/colonoscopy-preparation-questions/']) {
+  for (const route of [
+    '',
+    'services/heart/echocardiography/',
+    'search/',
+    'health/colonoscopy-preparation-questions/',
+  ]) {
     const result = await lighthouse(url + route, {
       port: chrome.port,
       output: ['json', 'html'],
@@ -54,7 +59,9 @@ try {
         a.weight > 0 &&
         lhr.audits[a.id].score !== null &&
         lhr.audits[a.id].score < 1 &&
-        !(manifest.mode === 'review' && a.id === 'is-crawlable'),
+        !(
+          !manifest.routes.find((r) => r.path === '/' + route)?.indexable && a.id === 'is-crawlable'
+        ),
     );
     if (seoFailures.length)
       errors.push(`${route}: SEO audits: ${seoFailures.map((a) => a.id).join(',')}`);
@@ -73,7 +80,7 @@ await fs.writeFile(
   JSON.stringify(
     {
       mode: manifest.mode,
-      note: 'Mobile simulated lab metrics. INP requires real user measurement; review noindex intentionally fails is-crawlable.',
+      note: 'Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.',
       errors,
       reports,
     },

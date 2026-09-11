@@ -2,6 +2,9 @@
 
 기존 `yttop.co.kr`과 함께 운영할 **환자용 영통탑내과 병원 홈페이지**의 React 정적 사이트 구현 저장소입니다. 병원 소개·진료·검사·방문 안내를 환자와 AI 모델이 이해하기 쉽게 구성하며, 조사·개발 보고서는 사이트에 게시하지 않습니다.
 
+- **[검색 공개 전환·구조화 데이터 확장](docs/production-release-2026-09-11/README.ko.md)** — 사용자 확인에 따른 production 공개, 43개 색인 대상, 82개 질문·답변과 의료진·검사·서비스 연결
+- **[실제 배포 사이트 3곳 비교](docs/seo-aeo-geo-comparison-2026-09-11/README.ko.md)** — 공개 전환 전의 HTTP·모바일 성능·콘텐츠 비교 근거
+
 - **[AEO·GEO 개선 실행 계획](docs/aeo-geo-improvement-plan-2026-09-11/README.md)** — 기존 Q&A 조사 후보 13개 활용, 현재 45개 경로 개선, 병원 확인·구현·배포·레퍼런스 비교 기준
 - **[AEO·GEO 개선 반영·전후 비교](docs/aeo-geo-improvement-results-2026-09-11/README.md)** — 의료 상세 25개 보강, 조사 질문 13개 반영, 근거·공통 사실·검증 및 남은 공개 조건
 - **[최종 SEO·AEO·GEO 비교 검토](docs/seo-aeo-geo-review-2026-09-11/README.md)** — 기존 3개 사례와 기술·답변·근거·공개 상태 비교, 남은 개선 우선순위
@@ -17,7 +20,7 @@
 - [콘텐츠 원장](content/README.md) — 45개 경로, 의료진 2명, 진단 사례 원문 링크 25개
 - [자동 검사·배포 워크플로](.github/workflows/pages.yml)
 
-배포 목표 주소: `https://codepump-net.github.io/yt-top-webforai/`. 현재 빌드 기본값은 의료·운영 검토 전의 **noindex 검토본**입니다. Pages 최초 활성화와 실제 배포 결과는 개발 완료 보고서에서 확인합니다. 원본 크롤링·OCR·환자 관련 이미지는 로컬 `research/`에만 보관하므로 아래 조사 자료 링크는 공유 작업 공간에서 확인할 수 있습니다.
+배포 주소: `https://codepump-net.github.io/yt-top-webforai/`. 사용자가 의료·운영 검토 완료와 공개를 확인했으며 main의 Pages 빌드는 **production**이 기본입니다. PR과 `npm run build`는 로컬 검토를 위해 noindex를 유지합니다. 실제 배포와 검증 결과는 최신 공개 전환 기록에서 확인합니다. 원본 크롤링·OCR·환자 관련 이미지는 로컬 `research/`에만 보관하므로 아래 조사 자료 링크는 공유 작업 공간에서 확인할 수 있습니다.
 
 ## 개발 스펙
 

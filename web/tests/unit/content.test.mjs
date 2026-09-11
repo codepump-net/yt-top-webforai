@@ -10,8 +10,8 @@ describe('Content and release contract', () => {
   });
   it('blocks production without real reviews', () => {
     expect(
-      validateContent(data.pages, { ...data, mode: 'production' }).some((e) =>
-        e.includes('real review'),
+      validateContent(data.pages, { ...data, publicationApproval: null, mode: 'production' }).some(
+        (e) => e.includes('real review'),
       ),
     ).toBe(true);
   });
@@ -64,7 +64,12 @@ describe('Content and release contract', () => {
       evidence: 'Unit test only, never deployed',
       digest: '0'.repeat(64),
     }));
-    const errors = validateContent(pages, { ...data, mode: 'production', reviews });
+    const errors = validateContent(pages, {
+      ...data,
+      publicationApproval: null,
+      mode: 'production',
+      reviews,
+    });
     expect(errors.some((e) => e.includes('stale review'))).toBe(true);
     expect(errors.some((e) => e.includes('expired'))).toBe(true);
     expect(errors.some((e) => e.includes('medical reviewer'))).toBe(true);
@@ -111,6 +116,7 @@ describe('Content and release contract', () => {
     const options = {
       ...data,
       ...context,
+      publicationApproval: null,
       reviews,
       mode: 'production',
       now: new Date('2026-09-11T01:00:00+09:00'),

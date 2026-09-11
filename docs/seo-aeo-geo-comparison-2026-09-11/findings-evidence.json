@@ -1,0 +1,122 @@
+{
+  "capturedAt": "2026-09-11T07:18:18.508Z",
+  "findings": [
+    {
+      "id": "yeongtong",
+      "home": "https://codepump-net.github.io/yt-top-webforai/",
+      "homeStatus": 200,
+      "homeRobots": [
+        "noindex, follow"
+      ],
+      "canonical": [
+        "https://codepump-net.github.io/yt-top-webforai/"
+      ],
+      "clinicId": "https://yttop.co.kr/#clinic",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "덕영대로 1478, 포레스퀘어 6층",
+        "addressLocality": "수원시 영통구",
+        "addressRegion": "경기도",
+        "addressCountry": "KR"
+      },
+      "openingHours": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:30",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "14:00",
+          "closes": "18:30"
+        }
+      ]
+    },
+    {
+      "id": "gungang-demo",
+      "home": "https://thegungang365.demo.htracker.co.kr/",
+      "homeStatus": 200,
+      "homeRobots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://blog.thegungang365.com"
+      ],
+      "clinicId": "https://blog.thegungang365.com#business",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "서울특별시 양천구 신월로 280 (신정동) 1,2층",
+        "addressLocality": "서울 양천구 신정동",
+        "postalCode": "08058",
+        "addressCountry": "KR"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-24:00",
+        "Sa-Su 09:00-22:00",
+        "PublicHolidays 09:00-22:00"
+      ]
+    },
+    {
+      "id": "gungang-public",
+      "home": "https://blog.thegungang365.com/",
+      "homeStatus": 200,
+      "homeRobots": [],
+      "canonical": [
+        "https://blog.thegungang365.com"
+      ],
+      "clinicId": "https://blog.thegungang365.com#business",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "서울특별시 양천구 신월로 280 (신정동) 1,2층",
+        "addressLocality": "서울 양천구 신정동",
+        "postalCode": "08058",
+        "addressCountry": "KR"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-24:00",
+        "Sa-Su 09:00-22:00",
+        "PublicHolidays 09:00-22:00"
+      ],
+      "locationFaqFirstSentence": "서울특별시 양천구 신원로 280 1·2층 입니다."
+    },
+    {
+      "id": "olympic",
+      "home": "https://blog.olympicpark365.com/",
+      "homeStatus": 200,
+      "homeRobots": [],
+      "canonical": [
+        "https://blog.olympicpark365.com"
+      ],
+      "clinicId": "https://blog.olympicpark365.com#business",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "서울 강동구 양재대로 1313 1층, 2층, 5층 (성내동, 동산빌딩)",
+        "addressLocality": "서울 강동구",
+        "postalCode": "05408",
+        "addressCountry": "KR"
+      },
+      "openingHours": [
+        "Mo-Fr 09:00-23:00",
+        "Sa,Su 09:00-22:00"
+      ],
+      "articleHours": {
+        "url": "https://blog.olympicpark365.com/stop-bang-sleep-apnea-screening",
+        "text": "진료시간은 연중무휴 평일·주말·공휴일 09:00~22:00(진료마감 21:20)이며, 저희 병원은 강동구 둔촌동역 3번 출구에"
+      }
+    }
+  ]
+}

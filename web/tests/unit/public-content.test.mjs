@@ -52,6 +52,7 @@ describe('Patient-facing publication boundary', () => {
       'reports/audit.json',
       'docs/report.html',
       'content/reviews.json',
+      'publication-approval.json',
       'content-policy/index.html',
       'build-manifest.json',
       'planned-sitemap.xml',
