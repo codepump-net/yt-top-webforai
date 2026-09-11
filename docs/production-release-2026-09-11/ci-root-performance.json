@@ -1,0 +1,73 @@
+{
+  "mode": "production",
+  "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+  "errors": [],
+  "reports": [
+    {
+      "route": "/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2259.0468,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 84,
+        "first-contentful-paint": 947.5234
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/services/heart/echocardiography/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2021.1661,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 113,
+        "first-contentful-paint": 762.1660999999999
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/search/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "metrics": {
+        "largest-contentful-paint": 2193.5703000000003,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 130.00000000000023,
+        "first-contentful-paint": 921.5703000000001
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/health/colonoscopy-preparation-questions/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2012.6643,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 107,
+        "first-contentful-paint": 758.6642999999999
+      },
+      "failedAudits": []
+    }
+  ]
+}

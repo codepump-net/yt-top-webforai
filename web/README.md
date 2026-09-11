@@ -12,7 +12,7 @@ npm run build
 npm run serve
 ```
 
-For the GitHub project site, set `SITE_ORIGIN=https://codepump-net.github.io` and `SITE_BASE_PATH=/yt-top-webforai` **before building**. `build` always produces the noindex review site. `build:release` additionally requires real, current reviews and HTTPS.
+For the GitHub project site, set `SITE_ORIGIN=https://codepump-net.github.io` and `SITE_BASE_PATH=/yt-top-webforai` **before building**. `build` always produces the noindex review site. `build:release` requires HTTPS and valid publication evidence: either current individual review records or an explicit user confirmation bound to the current content and renderer. The main branch deploys the confirmed production release; PR builds stay in review mode.
 
 Validation: `npm run lint`, `npm run typecheck` (after the first build), `npm test`, `npm run harness-check`, `npm run test:e2e`, `npm run test:performance`. Linux needs `npx playwright install --with-deps chromium`; Windows uses installed Edge. Reports are generated locally and uploaded by CI.
 
@@ -24,4 +24,6 @@ Only `out/` is deployed. `reports/build-manifest.json` and `reports/planned-site
 
 [전체 개발·운영 인수 문서](../docs/development-handoff.ko.md)
 
-[AEO·GEO 개선 반영과 전후 검증](../docs/aeo-geo-improvement-results-2026-09-11/README.md): stable answer anchors, section-level source links, six comparison/preparation tables, shared clinic fact resolution and separate original/new-site observation metrics. `npm run test:performance` now measures the colonoscopy preparation guide in addition to the original three routes. The review publication gate remains active.
+[AEO·GEO 개선 반영과 전후 검증](../docs/aeo-geo-improvement-results-2026-09-11/README.md): stable answer anchors, section-level source links, six comparison/preparation tables, shared clinic fact resolution and separate original/new-site observation metrics. `npm run test:performance` measures the colonoscopy preparation guide in addition to the original three routes.
+
+[검색 공개 및 구조화 데이터 릴리스](../docs/production-release-2026-09-11/README.ko.md): the user's medical and operational confirmation authorizes 43 indexable pages. The production evidence checks remain enforced. `npm run verify:live:seo` checks the Lighthouse SEO score of every indexable deployed URL using the matching CI manifest.

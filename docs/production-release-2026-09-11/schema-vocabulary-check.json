@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-11T07:47:45.228Z",
+  "vocabulary": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
+  "scope": "Known schema.org types and property domains, across exported JSON-LD; not a Google rich-result eligibility guarantee or a full range validator.",
+  "pages": 44,
+  "objects": 1112,
+  "properties": 4113,
+  "errors": []
+}

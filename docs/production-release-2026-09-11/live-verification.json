@@ -1,0 +1,324 @@
+{
+  "checkedAt": "2026-09-11T07:49:27.170Z",
+  "site": "https://codepump-net.github.io/yt-top-webforai/",
+  "commit": "8d3471e8baf6d11cd8105ad9feaa1321f0d0a6b1",
+  "mode": "production",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/404.html",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/cases/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/checkups/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/checkups/employment/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/checkups/national/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/checkups/visa/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/conditions/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/doctors/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/fees/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/health/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/notices/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/cancer-support/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/endoscopy/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/heart/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/heart/holter/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/ultrasound/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/sitemap/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    },
+    {
+      "path": "/visit/",
+      "status": 200,
+      "indexable": true,
+      "robots": "index, follow,"
+    }
+  ],
+  "failures": [],
+  "sitemapUrls": [
+    "https://codepump-net.github.io/yt-top-webforai/",
+    "https://codepump-net.github.io/yt-top-webforai/about/",
+    "https://codepump-net.github.io/yt-top-webforai/cases/",
+    "https://codepump-net.github.io/yt-top-webforai/checkups/",
+    "https://codepump-net.github.io/yt-top-webforai/checkups/cancer-screening/",
+    "https://codepump-net.github.io/yt-top-webforai/checkups/drug-screening/",
+    "https://codepump-net.github.io/yt-top-webforai/checkups/employment/",
+    "https://codepump-net.github.io/yt-top-webforai/checkups/national/",
+    "https://codepump-net.github.io/yt-top-webforai/checkups/tuberculosis/",
+    "https://codepump-net.github.io/yt-top-webforai/checkups/visa/",
+    "https://codepump-net.github.io/yt-top-webforai/conditions/",
+    "https://codepump-net.github.io/yt-top-webforai/conditions/acute-care/",
+    "https://codepump-net.github.io/yt-top-webforai/conditions/chronic-cough/",
+    "https://codepump-net.github.io/yt-top-webforai/conditions/heart-disease/",
+    "https://codepump-net.github.io/yt-top-webforai/doctors/",
+    "https://codepump-net.github.io/yt-top-webforai/doctors/park-jongseol/",
+    "https://codepump-net.github.io/yt-top-webforai/doctors/park-rayoung/",
+    "https://codepump-net.github.io/yt-top-webforai/fees/",
+    "https://codepump-net.github.io/yt-top-webforai/health/",
+    "https://codepump-net.github.io/yt-top-webforai/health/checkup-preparation-checklist/",
+    "https://codepump-net.github.io/yt-top-webforai/health/colonoscopy-preparation-questions/",
+    "https://codepump-net.github.io/yt-top-webforai/health/heart-test-differences/",
+    "https://codepump-net.github.io/yt-top-webforai/health/palpitations-test-followup/",
+    "https://codepump-net.github.io/yt-top-webforai/notices/",
+    "https://codepump-net.github.io/yt-top-webforai/privacy/",
+    "https://codepump-net.github.io/yt-top-webforai/services/",
+    "https://codepump-net.github.io/yt-top-webforai/services/cancer-support/",
+    "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/",
+    "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/colonoscopy/",
+    "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/gastroscopy/",
+    "https://codepump-net.github.io/yt-top-webforai/services/heart/",
+    "https://codepump-net.github.io/yt-top-webforai/services/heart/arterial-assessment/",
+    "https://codepump-net.github.io/yt-top-webforai/services/heart/cardiac-markers/",
+    "https://codepump-net.github.io/yt-top-webforai/services/heart/carotid-ultrasound/",
+    "https://codepump-net.github.io/yt-top-webforai/services/heart/echocardiography/",
+    "https://codepump-net.github.io/yt-top-webforai/services/heart/heart-rate-variability/",
+    "https://codepump-net.github.io/yt-top-webforai/services/heart/holter/",
+    "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/",
+    "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/abdomen/",
+    "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/bowel/",
+    "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/thyroid/",
+    "https://codepump-net.github.io/yt-top-webforai/sitemap/",
+    "https://codepump-net.github.io/yt-top-webforai/visit/"
+  ]
+}

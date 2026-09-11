@@ -1,0 +1,439 @@
+{
+  "site": "https://codepump-net.github.io/yt-top-webforai/",
+  "commit": "8d3471e8baf6d11cd8105ad9feaa1321f0d0a6b1",
+  "checkedAt": "2026-09-11T07:55:32.329Z",
+  "note": "One live mobile Lighthouse SEO run for every indexable route. Search rankings, actual indexing and AI citation are not measured.",
+  "reports": [
+    {
+      "path": "/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:51:46.227Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/",
+      "warnings": []
+    },
+    {
+      "path": "/about/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/about/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:51:55.218Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/about/",
+      "warnings": []
+    },
+    {
+      "path": "/cases/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/cases/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:00.275Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/cases/",
+      "warnings": []
+    },
+    {
+      "path": "/checkups/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:05.500Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/",
+      "warnings": []
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/cancer-screening/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:12.785Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/cancer-screening/",
+      "warnings": []
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/drug-screening/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:17.837Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/drug-screening/",
+      "warnings": []
+    },
+    {
+      "path": "/checkups/employment/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/employment/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:22.939Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/employment/",
+      "warnings": []
+    },
+    {
+      "path": "/checkups/national/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/national/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:28.038Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/national/",
+      "warnings": []
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/tuberculosis/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:33.141Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/tuberculosis/",
+      "warnings": []
+    },
+    {
+      "path": "/checkups/visa/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/visa/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:38.252Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/visa/",
+      "warnings": []
+    },
+    {
+      "path": "/conditions/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:45.332Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/",
+      "warnings": []
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/acute-care/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:50.387Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/acute-care/",
+      "warnings": []
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/chronic-cough/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:52:55.511Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/chronic-cough/",
+      "warnings": []
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/heart-disease/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:00.624Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/heart-disease/",
+      "warnings": []
+    },
+    {
+      "path": "/doctors/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/doctors/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:05.715Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/doctors/",
+      "warnings": []
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/doctors/park-jongseol/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:10.953Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/doctors/park-jongseol/",
+      "warnings": []
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/doctors/park-rayoung/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:15.997Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/doctors/park-rayoung/",
+      "warnings": []
+    },
+    {
+      "path": "/fees/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/fees/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:21.033Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/fees/",
+      "warnings": []
+    },
+    {
+      "path": "/health/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:26.112Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/",
+      "warnings": []
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/checkup-preparation-checklist/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:31.210Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/checkup-preparation-checklist/",
+      "warnings": []
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/colonoscopy-preparation-questions/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:36.374Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/colonoscopy-preparation-questions/",
+      "warnings": []
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/heart-test-differences/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:41.522Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/heart-test-differences/",
+      "warnings": []
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/palpitations-test-followup/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:46.635Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/palpitations-test-followup/",
+      "warnings": []
+    },
+    {
+      "path": "/notices/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/notices/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:51.761Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/notices/",
+      "warnings": []
+    },
+    {
+      "path": "/privacy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/privacy/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:53:56.800Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/privacy/",
+      "warnings": []
+    },
+    {
+      "path": "/services/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:01.811Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/",
+      "warnings": []
+    },
+    {
+      "path": "/services/cancer-support/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/cancer-support/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:06.880Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/cancer-support/",
+      "warnings": []
+    },
+    {
+      "path": "/services/endoscopy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:11.934Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/",
+      "warnings": []
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/colonoscopy/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:17.000Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/colonoscopy/",
+      "warnings": []
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/gastroscopy/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:22.120Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/gastroscopy/",
+      "warnings": []
+    },
+    {
+      "path": "/services/heart/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:27.219Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/",
+      "warnings": []
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/arterial-assessment/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:32.315Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/arterial-assessment/",
+      "warnings": []
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/cardiac-markers/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:37.368Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/cardiac-markers/",
+      "warnings": []
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/carotid-ultrasound/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:42.433Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/carotid-ultrasound/",
+      "warnings": []
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/echocardiography/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:47.518Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/echocardiography/",
+      "warnings": []
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/heart-rate-variability/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:52.625Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/heart-rate-variability/",
+      "warnings": []
+    },
+    {
+      "path": "/services/heart/holter/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/holter/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:54:57.745Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/holter/",
+      "warnings": []
+    },
+    {
+      "path": "/services/ultrasound/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:55:02.873Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/",
+      "warnings": []
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/abdomen/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:55:07.946Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/abdomen/",
+      "warnings": []
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/bowel/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:55:13.062Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/bowel/",
+      "warnings": []
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/thyroid/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:55:18.153Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/thyroid/",
+      "warnings": []
+    },
+    {
+      "path": "/sitemap/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/sitemap/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:55:23.231Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/sitemap/",
+      "warnings": []
+    },
+    {
+      "path": "/visit/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/visit/",
+      "score": 100,
+      "failed": [],
+      "fetchedAt": "2026-09-11T07:55:28.352Z",
+      "version": "13.4.1",
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/visit/",
+      "warnings": []
+    }
+  ],
+  "errors": []
+}
