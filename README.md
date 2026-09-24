@@ -22,7 +22,7 @@
 - [콘텐츠 원장](content/README.md) — 71개 개발 경로, 의료진 2명, 진단 사례 원문 링크 25개
 - [자동 검사·배포 워크플로](.github/workflows/pages.yml)
 
-배포 주소: `https://codepump-net.github.io/yt-top-webforai/`. 2026-09-25 사용자의 “배포 후 원장님 검토” 요청에 따라 저장소 변수 `PUBLICATION_MODE=review`로 개편본을 배포합니다. 방문은 가능하지만 모든 페이지는 검토 기간에 noindex이며 공개 사이트맵은 비어 있습니다. 기존 승인 digest와 의료 검토 기록은 갱신하지 않습니다. 의료·운영 확인 후 현재 편집본에 대한 실제 승인 근거를 기록하고 production으로 전환합니다. [개편본 배포 기록](docs/director-content-review-2026-09-25/deployment.ko.md)을 참고하세요. 원본 크롤링·OCR·환자 관련 이미지는 로컬 `research/`에만 보관하므로 아래 조사 자료 링크는 공유 작업 공간에서 확인할 수 있습니다.
+배포 주소: `https://codepump-net.github.io/yt-top-webforai/`. 2026-09-25 사용자의 “배포 후 원장님 검토” 요청에 따라 저장소 변수 `PUBLICATION_MODE=review`로 개편본을 배포하고 실제 71개 경로를 검증했습니다. 방문은 가능하지만 모든 페이지는 검토 기간에 noindex이며 공개 사이트맵은 비어 있습니다. 기존 승인 digest와 의료 검토 기록은 갱신하지 않았습니다. 의료·운영 확인 후 현재 편집본에 대한 실제 승인 근거를 기록하고 production으로 전환합니다. [개편본 배포 기록](docs/director-content-review-2026-09-25/deployment.ko.md)을 참고하세요. 원본 크롤링·OCR·환자 관련 이미지는 로컬 `research/`에만 보관하므로 아래 조사 자료 링크는 공유 작업 공간에서 확인할 수 있습니다.
 
 ## 개발 스펙
 

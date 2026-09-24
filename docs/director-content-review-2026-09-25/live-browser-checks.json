@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-09-24T16:43:24.100Z",
+  "site": "https://codepump-net.github.io/yt-top-webforai",
+  "method": "Chromium, 390x844 mobile viewport. Wait for page network idle and explicitly load/decode lazy images before evaluating image failures. Initial image probe did not account for offscreen lazy images; corrected before this check.",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "language": "ko",
+      "heading": "내 몸을 이해하는 진료,건강한 일상의 시작.",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/health/cancer-treatment-symptoms/",
+      "status": 200,
+      "language": "ko",
+      "heading": "암 치료 중 증상별 대처와 위험 신호",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/en/checkups/visa/",
+      "status": 200,
+      "language": "en",
+      "heading": "E-2, F-2 and H-2 visa examinations and TB certificates",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/zh-hans/checkups/visa/",
+      "status": 200,
+      "language": "zh-Hans",
+      "heading": "E-2、F-2、H-2签证体检及结核病证明",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/th/checkups/visa/",
+      "status": 200,
+      "language": "th",
+      "heading": "ตรวจสุขภาพวีซ่า E-2, F-2, H-2 และใบรับรองวัณโรค",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/ru/checkups/visa/",
+      "status": 200,
+      "language": "ru",
+      "heading": "Обследование для виз E-2, F-2, H-2 и справка о туберкулёзе",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/ne/checkups/visa/",
+      "status": 200,
+      "language": "ne",
+      "heading": "E-2, F-2, H-2 भिसा स्वास्थ्य परीक्षण र क्षयरोग प्रमाणपत्र",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    }
+  ]
+}

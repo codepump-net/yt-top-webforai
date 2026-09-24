@@ -1,8 +1,10 @@
 # 2026-09-25 개편본 배포 기록
 
+**배포 완료:** [영통탑내과 개편본](https://codepump-net.github.io/yt-top-webforai/). 2026-09-25 01:41 KST에 실제 배포 71개 경로의 검증을 통과했다.
+
 사용자 요청: “배포 진행해주세요. 업데이트후 원장님한테 검토 요청하겠습니다.”
 
-이 요청은 개편본을 먼저 배포할 권한이며 의료·운영 검토가 완료되었다는 진술이 아니다. 기존 GitHub Pages 주소 `https://codepump-net.github.io/yt-top-webforai/`에 검토용 개편본을 배포한다. 저장소 변수 `PUBLICATION_MODE`를 2026-09-24T16:35:25Z에 `review`로 설정했으며, 워크플로와 production 승인 검증은 그대로 사용한다.
+이 요청은 개편본을 먼저 배포할 권한이며 의료·운영 검토가 완료되었다는 진술이 아니다. 기존 GitHub Pages 주소 `https://codepump-net.github.io/yt-top-webforai/`에 검토용 개편본을 배포했다. 저장소 변수 `PUBLICATION_MODE`를 2026-09-24T16:35:25Z에 `review`로 설정했으며, 워크플로와 production 승인 검증은 그대로 사용했다.
 
 ## 배포 범위와 검색 상태
 
@@ -16,4 +18,13 @@
 
 배포 준비 시 원격 main과 로컬 기준 커밋이 같음을 확인했다. Node.js 24 의존성 감사는 취약점 0건이며 `git diff --check`를 통과했다. 기존 로컬 전체 검사 결과는 [구현 검증 기록](implementation-validation.json)에 있다.
 
-GitHub Actions에서 루트·프로젝트 경로 각각의 콘텐츠 검사, 보안 감사, 단위·하네스·브라우저·성능 검사와 정적 출력 검사를 다시 수행한다. 성공한 동일 실행의 `web/out/`만 Pages에 배포하고, 그 실행의 매니페스트로 모든 페이지의 HTML 해시·canonical·noindex·사이트맵과 실제 HTTP 404를 검사한다. 배포 완료 후 실행 URL, 커밋과 실제 검사 결과를 이 기록에 추가한다.
+GitHub Actions에서 루트·프로젝트 경로 각각의 콘텐츠 검사, 보안 감사, 단위 59개·하네스 17개·브라우저 34개 검사와 성능·정적 출력 검사를 다시 수행해 통과했다. 성공한 동일 실행의 `web/out/`만 Pages에 배포하고, 그 실행의 매니페스트로 모든 페이지의 HTML 해시·canonical·noindex·사이트맵과 실제 HTTP 404를 검사했다.
+
+- 배포 커밋: `b2e686ff489aa8835d133c5296d24202bf64bb62`.
+- [GitHub Actions 실행 36028588426](https://github.com/codepump-net/yt-top-webforai/actions/runs/36028588426): 루트·프로젝트 검증과 Pages 배포 모두 성공. [실행 기록](ci-run.json).
+- [같은 실행의 검사 artifact 요약](ci-validation.json): 경로 구성별 71개 정적 경로와 공개 파일 425개 검사, 오류 0건. 브라우저 검사 각각 34개 통과, 재시도 성공·실패·건너뜀 0개.
+- 프로젝트 경로 성능 표본 6개: 성능 각 98, 접근성·권장사항 각 100, LCP 2,011~2,296ms, CLS 0. 루트 경로의 성능은 90~99다. 모바일 시뮬레이션 결과이며 실사용·AI 노출 성과가 아니다. 검토 모드의 SEO 66은 noindex에 따른 결과다.
+- [배포 후 검증](live-verification.json): 2026-09-24T16:41:44.281Z, 총 71개 경로의 실제 응답과 빌드 해시 일치, 실패 0건. 존재하지 않는 경로의 실제 HTTP 404와 빈 공개 sitemap도 확인했다.
+- [실제 주소의 모바일 브라우저 확인](live-browser-checks.json): 홈·암 증상 안내·외국어 비자검진 5개, 총 7개 화면의 HTTP 200, 언어, 제목, noindex, 이미지 로딩, 가로 넘침 없음과 실행 오류 없음을 확인했다.
+
+원장님 검토 요청은 사용자가 직접 진행하며, 자동 메시지나 이메일을 보내지 않았다. 검토할 구체적인 의료·운영 항목은 [구현 보고서](implementation.ko.md)의 확인 항목에 있다.
