@@ -40,6 +40,12 @@ export function resolvePages(input, clinic) {
     'clinic.address': clinic.address,
     'clinic.subway': clinic.subway,
     ...Object.fromEntries(
+      Object.entries(clinic.addressLabels ?? {}).map(([language, address]) => [
+        `clinic.addressLabels.${language}`,
+        address,
+      ]),
+    ),
+    ...Object.fromEntries(
       clinic.hours.filter((h) => h.id).map((h) => [`clinic.hours.${h.id}`, h.value]),
     ),
   };

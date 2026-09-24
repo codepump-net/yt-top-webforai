@@ -9,6 +9,8 @@ export const careOverviewIds = [
   'checkups',
   'conditions',
   'cancer-support',
+  'examinations',
+  'vaccinations',
 ];
 export const siteMapCategories = (pages) => [
   ...new Set([
@@ -101,7 +103,7 @@ export function createStructuredData({
     url: pageUrl,
     name: page.title,
     description: page.description,
-    inLanguage: 'ko-KR',
+    inLanguage: page.language ?? 'ko',
     isPartOf: ref(siteId),
     publisher: ref(clinicId),
     breadcrumb: ref(pageUrl + '#breadcrumb'),
@@ -177,7 +179,7 @@ export function createStructuredData({
       '@id': siteId,
       name: '영통탑내과 진료·검사 안내',
       url: absolute('/'),
-      inLanguage: 'ko-KR',
+      inLanguage: [...new Set(pages.map((p) => p.language ?? 'ko'))],
       publisher: ref(clinicId),
       potentialAction: {
         '@type': 'SearchAction',
@@ -301,7 +303,7 @@ export function createStructuredData({
       description: page.description,
       abstract: page.intro,
       articleSection: page.category,
-      inLanguage: 'ko-KR',
+      inLanguage: page.language ?? 'ko',
       url: pageUrl,
       mainEntityOfPage: ref(pageId),
       publisher: ref(clinicId),
@@ -318,7 +320,7 @@ export function createStructuredData({
       '@id': faqId,
       url: faqId,
       name: `${page.title} · 궁금한 점`,
-      inLanguage: 'ko-KR',
+      inLanguage: page.language ?? 'ko',
       isPartOf: ref(pageId),
       mainEntity: page.questions.map((q, i) => ({
         '@type': 'Question',

@@ -22,6 +22,14 @@ export async function loadContent() {
     'src/lib/site.ts',
     'src/lib/content-model.mjs',
     'src/lib/structured-data.mjs',
+    'src/lib/languages.ts',
+    'src/app/(ko)/layout.tsx',
+    'src/app/global-not-found.tsx',
+    'src/app/(ko)/page.tsx',
+    'src/app/(ko)/not-found.tsx',
+    'src/app/(ko)/[...segments]/page.tsx',
+    'src/app/[locale]/layout.tsx',
+    'src/app/[locale]/checkups/visa/page.tsx',
     '../content/case-links.json',
   ];
   const rendererDigest = sha256(

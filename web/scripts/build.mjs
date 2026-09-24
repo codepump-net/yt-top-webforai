@@ -86,6 +86,8 @@ for (const page of data.pages) {
   const html = await fs.readFile('out/' + file);
   routes.push({
     id: page.id,
+    language: page.language ?? 'ko',
+    translationOf: page.translationOf,
     path: page.path,
     file,
     sha256: sha256(html),

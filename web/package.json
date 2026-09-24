@@ -21,7 +21,8 @@
     "serve": "node scripts/serve.mjs",
     "verify:live": "node scripts/verify-live.mjs",
     "verify:live:seo": "node scripts/verify-live-seo.mjs",
-    "measure": "node scripts/measure.mjs"
+    "measure": "node scripts/measure.mjs",
+    "measure:conversations": "node scripts/measure-conversations.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

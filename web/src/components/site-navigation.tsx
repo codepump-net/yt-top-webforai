@@ -96,8 +96,8 @@ export function SiteNavigation({
   }, []);
 
   useEffect(() => {
-    if (!open) return;
     const close = (event: KeyboardEvent | PointerEvent | FocusEvent) => {
+      if (!menu.current?.open) return;
       if (event instanceof KeyboardEvent && event.key !== 'Escape') return;
       if (!(event instanceof KeyboardEvent) && menu.current?.contains(event.target as Node)) return;
       if (menu.current) menu.current.open = false;
@@ -111,7 +111,7 @@ export function SiteNavigation({
       document.removeEventListener('pointerdown', close);
       document.removeEventListener('focusin', close);
     };
-  }, [open]);
+  }, []);
 
   const link = ({ href, label }: NavItem) => (
     <a key={href} href={href} aria-current={currentState(href)}>

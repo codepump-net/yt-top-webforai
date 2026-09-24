@@ -19,14 +19,22 @@ const chrome = await launch({
 const manifest = JSON.parse(await fs.readFile('reports/build-manifest.json', 'utf8'));
 const reports = [];
 const errors = [];
+const requestedRoutes = process.argv.slice(2);
+const routes = requestedRoutes.length
+  ? requestedRoutes.map((route) => route.replace(/^\//, ''))
+  : [
+      '',
+      'services/heart/echocardiography/',
+      'search/',
+      'health/colonoscopy-preparation-questions/',
+      'health/cancer-treatment-symptoms/',
+      'ne/checkups/visa/',
+    ];
 try {
   await fs.mkdir('reports/lighthouse', { recursive: true });
-  for (const route of [
-    '',
-    'services/heart/echocardiography/',
-    'search/',
-    'health/colonoscopy-preparation-questions/',
-  ]) {
+  for (const route of routes) {
+    if (!manifest.routes.some((r) => r.path === '/' + route))
+      throw new Error(`Unknown performance route: ${route}`);
     const result = await lighthouse(url + route, {
       port: chrome.port,
       output: ['json', 'html'],
@@ -76,7 +84,7 @@ try {
   server.close();
 }
 await fs.writeFile(
-  'reports/performance.json',
+  requestedRoutes.length ? 'reports/performance-selected.json' : 'reports/performance.json',
   JSON.stringify(
     {
       mode: manifest.mode,

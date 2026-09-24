@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Header, Footer } from '@/components/chrome';
 import { href } from '@/lib/site';
 import { PrintQuestions } from '@/components/print-questions';
-import './globals.css';
+import '../globals.css';
 
 export const metadata: Metadata = {
   applicationName: '영통탑내과',

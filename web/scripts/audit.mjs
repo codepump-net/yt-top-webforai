@@ -43,7 +43,25 @@ for (const route of manifest.routes) {
   const title = $('title').text();
   if (!title || titles.has(title)) errors.push(`${route.path}: missing/duplicate title`);
   titles.add(title);
-  if ($('html').attr('lang') !== 'ko') errors.push(`${route.path}: lang`);
+  if ($('html').attr('lang') !== (route.language ?? 'ko')) errors.push(`${route.path}: lang`);
+  const originalId = route.translationOf ?? route.id;
+  const versions = manifest.routes.filter(
+    (r) => r.id === originalId || r.translationOf === originalId,
+  );
+  if (versions.length > 1) {
+    for (const version of versions) {
+      const language = version.language ?? 'ko';
+      const expected = manifest.origin + manifest.basePath + version.path;
+      if ($(`link[rel="alternate"][hreflang="${language}"]`).attr('href') !== expected)
+        errors.push(`${route.path}: missing reciprocal language ${language}`);
+    }
+    const original = versions.find((r) => r.id === originalId);
+    if (
+      $('link[rel="alternate"][hreflang="x-default"]').attr('href') !==
+      manifest.origin + manifest.basePath + original.path
+    )
+      errors.push(`${route.path}: invalid default language`);
+  }
   if ($('main h1').length !== 1) errors.push(`${route.path}: expected one h1`);
   if (!$('meta[name=description]').attr('content')) errors.push(`${route.path}: description`);
   if ($('link[rel=canonical]').attr('href') !== manifest.origin + manifest.basePath + route.path)
@@ -67,6 +85,11 @@ for (const route of manifest.routes) {
       )
         errors.push(`${route.path}: incomplete schema`);
       const clinic = graph?.find((n) => n['@type'] === 'MedicalClinic');
+      const pageNode = graph.find(
+        (n) => n['@id'] === manifest.origin + manifest.basePath + route.path + '#webpage',
+      );
+      if (pageNode?.inLanguage !== (route.language ?? 'ko'))
+        errors.push(`${route.path}: schema language`);
       if (
         clinic?.['@id'] !== 'https://yttop.co.kr/#clinic' ||
         clinic?.url !== 'https://yttop.co.kr/'

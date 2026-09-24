@@ -8,6 +8,8 @@ export type SearchItem = {
   category: string;
   url: string;
   text: string;
+  headings?: string;
+  detail?: boolean;
   external?: boolean;
 };
 const subscribeToUrl = (callback: () => void) => {
@@ -43,6 +45,7 @@ export function Search({
         const title = normalize(item.title),
           description = normalize(item.description);
         const text = normalize(item.text);
+        const headings = normalize(item.headings ?? '');
         if (!words.every((word) => `${title} ${description} ${text}`.includes(word))) return null;
         let score = 0;
         if (phrase) {
@@ -56,9 +59,18 @@ export function Search({
                   : 0;
           score += words.reduce(
             (total, word) =>
-              total + (title.includes(word) ? 500 : description.includes(word) ? 40 : 1),
+              total +
+              (title.includes(word)
+                ? 500
+                : headings.includes(word)
+                  ? 80
+                  : description.includes(word)
+                    ? 40
+                    : 1),
             0,
           );
+          // For equally relevant body matches, prefer the dedicated patient guide.
+          if (item.detail) score += 4;
         }
         return { item, score };
       })

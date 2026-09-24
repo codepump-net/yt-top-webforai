@@ -2263,3 +2263,24 @@ body:has(.mobile-nav[open]) .mobile-contact {
     display: block;
   }
 }
+
+/* Structured patient explanations and multilingual visa guidance. */
+.content-list, .content-steps { padding-left: 1.5rem; margin: 1rem 0; line-height: 1.85; }
+.content-list li, .content-steps li { margin-block: .45rem; padding-left: .25rem; }
+.language-switcher { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
+.language-switcher a { border: 1px solid var(--line, #cddbd7); border-radius: 2rem; padding: .5rem .9rem; background: white; }
+.language-switcher a[aria-current="page"] { background: #125b51; color: white; border-color: #125b51; }
+.language-header { display: flex; gap: 1rem; align-items: center; justify-content: space-between; padding-block: 1rem; flex-wrap: wrap; }
+.translated-site .site-header { position: relative; }
+.translated-site .article-sidebar { top: 1rem; }
+.translated-site .main-article { overflow-wrap: anywhere; }
+.article-sidebar nav { max-height: calc(100dvh - 280px); overflow-y: auto; overscroll-behavior: contain; }
+@media (max-width: 700px) {
+  .language-header .brand { width: 180px; }
+  .language-header > a:last-child { font-size: .875rem; }
+  .translated-site .page-heading h1 { font-size: clamp(1.6rem, 6vw, 2.4rem); overflow-wrap: anywhere; }
+}
+@media print {
+  .language-switcher, .language-header { display: none; }
+  .content-list li, .content-steps li { break-inside: avoid; }
+}

@@ -23,6 +23,9 @@ export type Block = {
   id?: string;
   heading: string;
   text: string;
+  paragraphs?: string[];
+  items?: string[];
+  steps?: string[];
   sourceIds?: string[];
   links?: ContentLink[];
   table?: ContentTable;
@@ -35,6 +38,9 @@ export type Question = {
   links?: ContentLink[];
 };
 export type Page = Omit<(typeof rawPages)[number], 'blocks' | 'questions' | 'sources'> & {
+  language?: string;
+  translationOf?: string;
+  urgentNotice?: string;
   blocks: Block[];
   questions: Question[];
   sources: Source[];
@@ -80,14 +86,31 @@ export const nav = [
 
 export function pageMetadata(page: Page): Metadata {
   const url = absolute(page.path);
+  const versions = languageVersions(page);
   return {
     title: page.metaTitle,
     description: page.description,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      ...(versions.length > 1
+        ? {
+            languages: Object.fromEntries([
+              ...versions.map((p) => [p.language ?? 'ko', absolute(p.path)]),
+              ['x-default', absolute(versions.find((p) => !p.translationOf)!.path)],
+            ]),
+          }
+        : {}),
+    },
     robots: { index: !reviewMode && page.indexable, follow: true },
     openGraph: {
       type: 'website',
-      locale: 'ko_KR',
+      locale:
+        (
+          { en: 'en_US', 'zh-Hans': 'zh_CN', th: 'th_TH', ru: 'ru_RU', ne: 'ne_NP' } as Record<
+            string,
+            string
+          >
+        )[page.language ?? 'ko'] ?? 'ko_KR',
       siteName: clinic.name,
       title: page.metaTitle,
       description: page.description,
@@ -108,6 +131,11 @@ export function pageMetadata(page: Page): Metadata {
       images: [absolute('/assets/clinic-1600.webp')],
     },
   };
+}
+
+export function languageVersions(page: Page): Page[] {
+  const originalId = page.translationOf ?? page.id;
+  return pages.filter((p) => p.id === originalId || p.translationOf === originalId);
 }
 
 export function breadcrumbs(page: Page) {

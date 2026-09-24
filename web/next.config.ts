@@ -3,6 +3,7 @@ import path from 'node:path';
 const config: NextConfig = {
   turbopack: { root: path.resolve(process.cwd(), '..') },
   output: 'export',
+  experimental: { globalNotFound: true },
   trailingSlash: true,
   basePath: process.env.SITE_BASE_PATH ?? '',
   images: { unoptimized: true },

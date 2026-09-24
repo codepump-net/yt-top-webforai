@@ -1,6 +1,6 @@
 {
   "site": "https://codepump-net.github.io/yt-top-webforai/",
-  "version": "2026-09-11-v2",
+  "version": "2026-09-25-v3",
   "originalSites": [
     "https://yttop.co.kr/",
     "http://yttop.co.kr/",
@@ -11,7 +11,7 @@
     "영통탑내과",
     "영통 탑내과"
   ],
-  "selection": "Editorial evaluation set: original 20 items plus 12 research-derived questions; Q03 maps to the existing palpitations item. Neither question frequency nor independent patient demand was measured.",
+  "selection": "Editorial evaluation set extended from the director manuscript; no search-frequency, independent demand or observed exposure claim.",
   "frequencyEvidence": null,
   "queries": [
     {
@@ -223,6 +223,111 @@
       "researchQuestionId": "Q13",
       "sourceId": "C0000984716",
       "frequencyEvidence": null
+    },
+    {
+      "id": "director-examinations",
+      "query": "수원 영통에서 심장검사와 내시경을 같이 상담할 수 있는 내과의 검사 범위는?",
+      "target": "/services/examinations/"
+    },
+    {
+      "id": "director-fever-during-cancer-treatment",
+      "query": "항암치료 중 38도 열이 나면 가까운 내과 예약을 기다려도 되나요?",
+      "target": "/health/fever-during-cancer-treatment/"
+    },
+    {
+      "id": "director-cancer-treatment-symptoms",
+      "query": "항암치료 중 구토나 설사가 나면 가까운 내과에서 어떤 도움을 받을 수 있나요?",
+      "target": "/health/cancer-treatment-symptoms/"
+    },
+    {
+      "id": "director-abdominal-pain",
+      "query": "갑자기 배가 아픈데 초음파와 CT 중 어떤 검사가 필요한가요?",
+      "target": "/conditions/abdominal-pain/"
+    },
+    {
+      "id": "director-respiratory-infections",
+      "query": "망포역 근처에서 만성기침과 폐기능검사를 상담할 수 있나요?",
+      "target": "/conditions/respiratory-infections/"
+    },
+    {
+      "id": "director-vaccinations",
+      "query": "수원 영통에서 성인 폐렴구균과 대상포진 접종을 상담하려면?",
+      "target": "/services/vaccinations/"
+    },
+    {
+      "id": "director-influenza",
+      "query": "독감 신속검사가 음성이어도 독감일 수 있나요?",
+      "target": "/conditions/influenza/"
+    },
+    {
+      "id": "director-covid-19",
+      "query": "팍스로비드를 처방받으려면 복용약과 어떤 검사 결과를 준비해야 하나요?",
+      "target": "/conditions/covid-19/"
+    },
+    {
+      "id": "director-orafang-preparation",
+      "query": "오라팡은 몇 정씩 먹고 물은 얼마나 마시나요?",
+      "target": "/health/orafang-preparation/"
+    },
+    {
+      "id": "director-plenvu-preparation",
+      "query": "플렌뷰 Dose 2의 A제와 B제는 어떻게 섞나요?",
+      "target": "/health/plenvu-preparation/"
+    },
+    {
+      "id": "director-after-endoscopy",
+      "query": "대장용종을 제거한 뒤 식사와 운동은 언제 시작하나요?",
+      "target": "/health/after-endoscopy/"
+    },
+    {
+      "id": "director-civil-service",
+      "query": "2026년 공무원 채용신체검사 마약류 6종과 유효기간은?",
+      "target": "/checkups/civil-service/"
+    },
+    {
+      "id": "director-heart-valve-regurgitation",
+      "query": "심장판막 역류가 있으면 무조건 수술해야 하나요?",
+      "target": "/health/heart-valve-regurgitation/"
+    },
+    {
+      "id": "director-angina-treatment",
+      "query": "협심증이면 모든 환자가 스텐트를 넣나요?",
+      "target": "/health/angina-treatment/"
+    },
+    {
+      "id": "director-chronic-disease",
+      "query": "운동을 시작하면 혈압약이나 당뇨약을 끊어도 되나요?",
+      "target": "/conditions/chronic-disease/"
+    },
+    {
+      "id": "director-gallstones",
+      "query": "증상이 없는 담석도 수술해야 하나요?",
+      "target": "/health/gallstones/"
+    },
+    {
+      "id": "director-cancer-family-history",
+      "query": "부모님이 암이면 어떤 가족력 자료를 가져가야 하나요?",
+      "target": "/health/cancer-family-history/"
+    },
+    {
+      "id": "director-liver-disease",
+      "query": "간수치가 계속 높으면 어떤 검사를 상담하나요?",
+      "target": "/conditions/liver-disease/"
+    },
+    {
+      "id": "director-colon-polyp-followup",
+      "query": "대장용종을 제거한 뒤 다음 내시경 시점은 어떻게 정하나요?",
+      "target": "/health/colon-polyp-followup/"
+    },
+    {
+      "id": "director-thyroid-cancer-surveillance",
+      "query": "저위험 갑상선암 적극적 관찰은 방치와 어떻게 다른가요?",
+      "target": "/health/thyroid-cancer-surveillance/"
+    },
+    {
+      "id": "director-obesity-medication",
+      "query": "정상체중인데 미용 목적으로 비만치료 주사를 써도 되나요?",
+      "target": "/health/obesity-medication/"
     }
   ]
 }

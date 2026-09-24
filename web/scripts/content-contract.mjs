@@ -48,17 +48,27 @@ export const pageSchema = z
     template: z.string().min(3),
     category: z.string().min(2),
     intro: z.string().min(20),
+    language: z.enum(['ko', 'en', 'zh-Hans', 'th', 'ru', 'ne']).optional(),
+    translationOf: z.string().optional(),
+    urgentNotice: z.string().min(20).optional(),
     blocks: z.array(
       z
         .object({
           id: anchor.optional(),
           heading: z.string().min(2),
-          text: z.string().min(20),
+          text: z.string().refine((t) => t.length === 0 || t.length >= 20, 'Paragraph too short'),
+          paragraphs: z.array(z.string().min(10)).optional(),
+          items: z.array(z.string().min(1)).min(1).optional(),
+          steps: z.array(z.string().min(1)).min(1).optional(),
           sourceIds: refs,
           links,
           table: table.optional(),
         })
-        .strict(),
+        .strict()
+        .refine(
+          (b) => b.text || b.items?.length || b.steps?.length || b.paragraphs?.length,
+          'Empty block',
+        ),
     ),
     questions: z
       .array(
@@ -179,6 +189,17 @@ export function validateContent(
   }
   const ids = new Set(pages.map((p) => p.id));
   for (const page of pages) {
+    if (page.translationOf) {
+      const original = pages.find((p) => p.id === page.translationOf);
+      if (
+        !original ||
+        original.translationOf ||
+        (original.language ?? 'ko') === (page.language ?? 'ko')
+      )
+        errors.push(`${page.id}: invalid translation source`);
+      if (!page.path.startsWith(`/${page.language?.toLowerCase()}/`))
+        errors.push(`${page.id}: language and route differ`);
+    }
     const sourceIds = page.sources.map((s) => s.id).filter(Boolean);
     if (new Set(sourceIds).size !== sourceIds.length)
       errors.push(`${page.id}: duplicate source ID`);

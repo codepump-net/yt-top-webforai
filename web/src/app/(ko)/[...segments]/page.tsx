@@ -4,7 +4,7 @@ import { pages, pageByPath, pageMetadata } from '@/lib/site';
 export const dynamicParams = false;
 export function generateStaticParams() {
   return pages
-    .filter((p) => p.id !== 'home' && p.id !== 'not-found')
+    .filter((p) => p.id !== 'home' && p.id !== 'not-found' && !p.translationOf)
     .map((p) => ({ segments: p.path.split('/').filter(Boolean) }));
 }
 type Props = { params: Promise<{ segments: string[] }> };

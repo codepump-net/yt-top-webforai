@@ -1,0 +1,490 @@
+{
+  "version": "2026-09-25-v1",
+  "site": "https://codepump-net.github.io/yt-top-webforai/",
+  "aliases": [
+    "영통탑내과",
+    "영통 탑내과",
+    "Yeongtong Top"
+  ],
+  "originalSites": [
+    "https://yttop.co.kr/",
+    "http://yttop.co.kr/",
+    "https://www.yttop.co.kr/",
+    "http://www.yttop.co.kr/"
+  ],
+  "selection": "Editorial same-thread scenarios, not observed patient frequency. Preserve exact prompts and full preceding conversation. No fabricated observations.",
+  "scenarios": [
+    {
+      "id": "palpitations",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "심전도가 정상인데 두근거림이 반복되면 어떻게 하나요?",
+          "brandPrompted": false,
+          "target": "/health/palpitations-test-followup/",
+          "accuracyChecks": [
+            "정상 심전도만으로 간헐적 부정맥 배제 불가"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "수원 망포역 주변에서 검사받고 싶어요.",
+          "brandPrompted": false,
+          "target": "/services/heart/",
+          "accuracyChecks": [
+            "실제 검사 범위와 위치"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "검사는 며칠 동안 하고 예약은 어떻게 하죠?",
+          "brandPrompted": false,
+          "target": "/services/heart/holter/",
+          "accuracyChecks": [
+            "주로 72시간",
+            "전화 예약",
+            "응급 위험 신호"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colonoscopy",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "대장내시경 전에 어떤 준비가 필요한가요?",
+          "brandPrompted": false,
+          "target": "/health/colonoscopy-preparation-questions/",
+          "accuracyChecks": [
+            "개별 예약 안내 우선"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "수원 영통에서 플렌뷰로 준비한다면 어떻게 먹나요?",
+          "brandPrompted": false,
+          "target": "/health/plenvu-preparation/",
+          "accuracyChecks": [
+            "Dose 2 A+B",
+            "500mL 용액과 추가 물 구분"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "수면검사 후 혼자 운전해서 돌아와도 될까요?",
+          "brandPrompted": false,
+          "target": "/health/after-endoscopy/",
+          "accuracyChecks": [
+            "보호자 동행",
+            "당일 운전 금지"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cancer-support",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "항암치료 후 식사를 못하고 토해서 가까운 내과 도움을 받고 싶어요.",
+          "brandPrompted": false,
+          "target": "/health/cancer-treatment-symptoms/",
+          "accuracyChecks": [
+            "반복 구토·탈수 위험"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "수원 영통에서 어떤 지지진료를 받을 수 있나요?",
+          "brandPrompted": false,
+          "target": "/services/cancer-support/",
+          "accuracyChecks": [
+            "수액 적응증 평가",
+            "기존 치료팀 연계"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "지금 38도 열도 나고 오한이 있어요.",
+          "brandPrompted": false,
+          "target": "/health/fever-during-cancer-treatment/",
+          "accuracyChecks": [
+            "즉시 치료팀·응급실",
+            "외래 예약 대기 권유 금지"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abdominal-pain",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "갑자기 배가 아픈데 초음파를 받아야 하나요?",
+          "brandPrompted": false,
+          "target": "/conditions/abdominal-pain/",
+          "accuracyChecks": [
+            "응급도 우선"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "망포역 근처 내과에서 CT도 바로 찍을 수 있나요?",
+          "brandPrompted": false,
+          "target": "/services/examinations/",
+          "accuracyChecks": [
+            "영통탑내과 CT 미보유",
+            "의뢰"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "통증이 더 심해지고 식은땀이 나요.",
+          "brandPrompted": false,
+          "target": "/conditions/acute-care/",
+          "accuracyChecks": [
+            "119·응급실 우선"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civil-service",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "공무원 채용검진은 일반 채용검진과 다른가요?",
+          "brandPrompted": false,
+          "target": "/checkups/civil-service/",
+          "accuracyChecks": [
+            "적용 대상과 최신 공고"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "2026년 마약검사 항목과 서류 유효기간이 궁금해요.",
+          "brandPrompted": false,
+          "target": "/checkups/civil-service/",
+          "accuracyChecks": [
+            "6종",
+            "일반 1년·마약 4개월"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "수원 영통에서 검사받으려는데 평소 약은 끊어야 하나요?",
+          "brandPrompted": false,
+          "target": "/checkups/drug-screening/",
+          "accuracyChecks": [
+            "일괄 중단 금지",
+            "처방전 준비"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vaccines",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "폐렴구균과 대상포진 백신은 언제 맞나요?",
+          "brandPrompted": false,
+          "target": "/services/vaccinations/",
+          "accuracyChecks": [
+            "과거 접종력과 제품 구분"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "암 치료를 받고 있어도 가능한가요?",
+          "brandPrompted": false,
+          "target": "/services/vaccinations/",
+          "accuracyChecks": [
+            "생백신 제한",
+            "치료팀 일정 확인"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "수원 망포역 근처에서 상담하려면 무엇을 가져가나요?",
+          "brandPrompted": false,
+          "target": "/services/vaccinations/",
+          "accuracyChecks": [
+            "접종 기록",
+            "치료약과 일정",
+            "재고 확인"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "covid-drugs",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "코로나 양성인데 고지혈증 약을 먹고 있어요.",
+          "brandPrompted": false,
+          "target": "/conditions/covid-19/",
+          "accuracyChecks": [
+            "상호작용 개별 확인"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "수원 영통에서 팍스로비드 상담 시 무엇을 준비하나요?",
+          "brandPrompted": false,
+          "target": "/conditions/covid-19/",
+          "accuracyChecks": [
+            "증상 시작일",
+            "전체 복용약",
+            "신장·간기능"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "엑스레이와 심전도는 처방에 무조건 필수인가요?",
+          "brandPrompted": false,
+          "target": "/conditions/covid-19/",
+          "accuracyChecks": [
+            "법적 일률 요건 아님",
+            "치료 지연 방지"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-ko",
+      "language": "ko",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "E-2 비자검진 서류가 필요해요.",
+          "brandPrompted": false,
+          "target": "/checkups/visa/",
+          "accuracyChecks": [
+            "지정기관·서식 확인"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "망포역 근처에서 받을 수 있나요?",
+          "brandPrompted": false,
+          "target": "/checkups/visa/",
+          "accuracyChecks": [
+            "609호",
+            "전화"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "내일 제출해야 하는데 바로 받을 수 있나요?",
+          "brandPrompted": false,
+          "target": "/checkups/visa/",
+          "accuracyChecks": [
+            "비자 2~3일",
+            "결핵 X선 조건부 1~2시간",
+            "보장 금지"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-en",
+      "language": "en",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "I need a health certificate for an E-2 visa in Suwon.",
+          "brandPrompted": false,
+          "target": "/en/checkups/visa/",
+          "accuracyChecks": [
+            "requirements vary",
+            "designated institution"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "Is there a clinic near Mangpo Station? What should I bring?",
+          "brandPrompted": false,
+          "target": "/en/checkups/visa/",
+          "accuracyChecks": [
+            "passport",
+            "medication list",
+            "location"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "Can I collect it today, and do I need to fast?",
+          "brandPrompted": false,
+          "target": "/en/checkups/visa/",
+          "accuracyChecks": [
+            "conditional turnaround",
+            "X-ray vs blood tests",
+            "no language-service guarantee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-zh-hans",
+      "language": "zh-Hans",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "我在水原，需要E-2签证体检证明。",
+          "brandPrompted": false,
+          "target": "/zh-hans/checkups/visa/",
+          "accuracyChecks": [
+            "requirements vary",
+            "designated institution"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "망포역附近有诊所吗？需要带什么？",
+          "brandPrompted": false,
+          "target": "/zh-hans/checkups/visa/",
+          "accuracyChecks": [
+            "passport",
+            "medication list",
+            "location"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "今天可以领取吗？需要空腹吗？",
+          "brandPrompted": false,
+          "target": "/zh-hans/checkups/visa/",
+          "accuracyChecks": [
+            "conditional turnaround",
+            "X-ray vs blood tests",
+            "no language-service guarantee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-th",
+      "language": "th",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "ฉันต้องการใบรับรองสุขภาพวีซ่า E-2 ในซูวอน",
+          "brandPrompted": false,
+          "target": "/th/checkups/visa/",
+          "accuracyChecks": [
+            "requirements vary",
+            "designated institution"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "มีคลินิกใกล้สถานี Mangpo ไหม ต้องนำอะไรมา",
+          "brandPrompted": false,
+          "target": "/th/checkups/visa/",
+          "accuracyChecks": [
+            "passport",
+            "medication list",
+            "location"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "รับเอกสารวันนี้ได้ไหม ต้องงดอาหารหรือไม่",
+          "brandPrompted": false,
+          "target": "/th/checkups/visa/",
+          "accuracyChecks": [
+            "conditional turnaround",
+            "X-ray vs blood tests",
+            "no language-service guarantee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-ru",
+      "language": "ru",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Мне нужна медицинская справка для визы E-2 в Сувоне.",
+          "brandPrompted": false,
+          "target": "/ru/checkups/visa/",
+          "accuracyChecks": [
+            "requirements vary",
+            "designated institution"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "Есть ли клиника у станции Mangpo и что взять с собой?",
+          "brandPrompted": false,
+          "target": "/ru/checkups/visa/",
+          "accuracyChecks": [
+            "passport",
+            "medication list",
+            "location"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "Можно получить справку сегодня и нужно ли голодать?",
+          "brandPrompted": false,
+          "target": "/ru/checkups/visa/",
+          "accuracyChecks": [
+            "conditional turnaround",
+            "X-ray vs blood tests",
+            "no language-service guarantee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-ne",
+      "language": "ne",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "मलाई सुवनमा E-2 भिसाको स्वास्थ्य प्रमाणपत्र चाहिन्छ।",
+          "brandPrompted": false,
+          "target": "/ne/checkups/visa/",
+          "accuracyChecks": [
+            "requirements vary",
+            "designated institution"
+          ]
+        },
+        {
+          "turn": 2,
+          "prompt": "Mangpo स्टेशन नजिक क्लिनिक छ? के ल्याउनुपर्छ?",
+          "brandPrompted": false,
+          "target": "/ne/checkups/visa/",
+          "accuracyChecks": [
+            "passport",
+            "medication list",
+            "location"
+          ]
+        },
+        {
+          "turn": 3,
+          "prompt": "आजै प्रमाणपत्र पाइन्छ? खाली पेट आउनुपर्छ?",
+          "brandPrompted": false,
+          "target": "/ne/checkups/visa/",
+          "accuracyChecks": [
+            "conditional turnaround",
+            "X-ray vs blood tests",
+            "no language-service guarantee"
+          ]
+        }
+      ]
+    }
+  ]
+}

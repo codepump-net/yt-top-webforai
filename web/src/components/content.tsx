@@ -26,7 +26,9 @@ import {
   careOverviewIds,
   questionAnchor,
   siteMapCategories,
+  languageVersions,
 } from '@/lib/site';
+import { languageNames, pageLabels } from '@/lib/languages';
 import caseLinks from '../../../content/case-links.json';
 import { VisitInfo } from './chrome';
 import { Search, type SearchItem } from './search';
@@ -141,9 +143,9 @@ function Home() {
               <em>건강한 일상</em>의 시작.
             </h1>
             <p>
-              일상의 불편함부터 건강을 위한 검진까지.
+              심장·소화기·호흡기 증상부터 암 치료 중 지지진료까지.
               <br />
-              나에게 필요한 진료와 검사를 차근차근 확인하세요.
+              필요한 검사와 치료, 다음 진료 계획을 함께 살핍니다.
             </p>
             <div className="button-row">
               <a className="button" href={href('/services/')}>
@@ -167,7 +169,7 @@ function Home() {
             <div className="location-chip">
               <MapPin size={18} />
               <span>
-                포레스퀘어 <b>6층</b>
+                망포역포레스퀘어 <b>6층 609호</b>
               </span>
             </div>
           </div>
@@ -209,7 +211,7 @@ function Home() {
           items={select([
             'heart-test-differences',
             'colonoscopy-preparation',
-            'checkup-preparation',
+            'cancer-treatment-symptoms',
           ])}
         />
       </section>
@@ -262,11 +264,13 @@ function searchItems(items: Page[]): SearchItem[] {
     description: p.description,
     category: p.category,
     url: href(p.path),
+    headings: [...p.blocks.map((b) => b.heading), ...p.questions.map((q) => q.question)].join(' '),
+    detail: /detail$/.test(p.template),
     text:
       p.blocks
         .map(
           (b) =>
-            `${b.heading} ${b.text} ${b.table ? [b.table.caption, ...b.table.columns, ...b.table.rows.flat()].join(' ') : ''}`,
+            `${b.heading} ${b.text} ${[...(b.paragraphs ?? []), ...(b.items ?? []), ...(b.steps ?? [])].join(' ')} ${b.table ? [b.table.caption, ...b.table.columns, ...b.table.rows.flat()].join(' ') : ''}`,
         )
         .join(' ') +
       ' ' +
@@ -287,9 +291,10 @@ function OriginalNoticesLink() {
   );
 }
 function Sources({ page }: { page: Page }) {
+  const t = pageLabels(page.language);
   return (
-    <aside className="provenance" aria-label="참고 자료">
-      <h2>참고 자료</h2>
+    <aside className="provenance" aria-label={t.sources}>
+      <h2>{t.sources}</h2>
       <ul>
         {page.sources.map((s, i) => (
           <li key={s.url}>
@@ -297,7 +302,7 @@ function Sources({ page }: { page: Page }) {
               {s.title}
               {page.sources.filter((t) => t.title === s.title).length > 1 ? ` · 자료 ${i + 1}` : ''}
               <ArrowUpRight size={13} />
-              <span className="sr-only"> (새 창)</span>
+              <span className="sr-only"> ({t.newWindow})</span>
             </a>
           </li>
         ))}
@@ -311,7 +316,24 @@ function BodyBlocks({ page }: { page: Page }) {
       {page.blocks.map((b, i) => (
         <section className="article-section" id={b.id ?? `section-${i + 1}`} key={b.heading}>
           <h2>{b.heading}</h2>
-          <p>{b.text}</p>
+          {b.text && <p>{b.text}</p>}
+          {b.paragraphs?.map((text, n) => (
+            <p key={n}>{text}</p>
+          ))}
+          {b.items && (
+            <ul className="content-list">
+              {b.items.map((text, n) => (
+                <li key={n}>{text}</li>
+              ))}
+            </ul>
+          )}
+          {b.steps && (
+            <ol className="content-steps">
+              {b.steps.map((text, n) => (
+                <li key={n}>{text}</li>
+              ))}
+            </ol>
+          )}
           {b.table && (
             <div
               className="answer-table-wrap"
@@ -355,7 +377,7 @@ function BodyBlocks({ page }: { page: Page }) {
       {page.questions.length > 0 && (
         <section className="article-section qa-section" id="questions">
           <span className="eyebrow">QUESTIONS & ANSWERS</span>
-          <h2>궁금한 점을 확인하세요</h2>
+          <h2>{pageLabels(page.language).questions}</h2>
           <div className="qa-list">
             {page.questions.map((q, i) => (
               <details id={questionAnchor(q, i)} key={q.question} open={i === 0}>
@@ -548,6 +570,8 @@ function SiteMap() {
 }
 
 export function PageContent({ page }: { page: Page }) {
+  const t = pageLabels(page.language);
+  const versions = languageVersions(page);
   const isWide =
     /index|hub/.test(page.template) || ['visit', 'about', 'sitemap', 'search'].includes(page.id);
   return (
@@ -562,14 +586,14 @@ export function PageContent({ page }: { page: Page }) {
         <>
           <div className="page-heading">
             <div className="container">
-              <nav className="breadcrumbs" aria-label="현재 위치">
+              <nav className="breadcrumbs" aria-label={t.home}>
                 <ol>
                   {breadcrumbs(page).map((p, i, a) => (
                     <li key={p.id}>
                       {i === a.length - 1 ? (
                         <span aria-current="page">{p.title}</span>
                       ) : (
-                        <a href={href(p.path)}>{p.id === 'home' ? '홈' : p.title}</a>
+                        <a href={href(p.path)}>{p.id === 'home' ? t.home : p.title}</a>
                       )}
                     </li>
                   ))}
@@ -578,6 +602,21 @@ export function PageContent({ page }: { page: Page }) {
               <span className="eyebrow">{page.category}</span>
               <h1>{page.title}</h1>
               <p className="page-intro">{page.intro}</p>
+              {versions.length > 1 && (
+                <nav className="language-switcher" aria-label="Language">
+                  {versions.map((p) => (
+                    <a
+                      key={p.id}
+                      href={href(p.path)}
+                      hrefLang={p.language ?? 'ko'}
+                      lang={p.language ?? 'ko'}
+                      aria-current={p.id === page.id ? 'page' : undefined}
+                    >
+                      {languageNames[p.language ?? 'ko']}
+                    </a>
+                  ))}
+                </nav>
+              )}
             </div>
           </div>
           <div className={`container page-content ${isWide ? '' : 'article-layout'}`}>
@@ -641,10 +680,10 @@ export function PageContent({ page }: { page: Page }) {
                   </div>
                 </div>
               )}
-              {page.risk === 'urgent_context_review' && (
+              {(page.urgentNotice || page.risk === 'urgent_context_review') && (
                 <p className="urgent-note">
-                  심한 흉통·호흡곤란 또는 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을
-                  요청하세요.
+                  {page.urgentNotice ??
+                    '심한 흉통·호흡곤란 또는 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을 요청하세요.'}
                 </p>
               )}
               {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}
@@ -676,17 +715,17 @@ export function PageContent({ page }: { page: Page }) {
             {!isWide && (
               <aside className="article-sidebar">
                 <div className="sidebar-box">
-                  <span className="eyebrow">이 페이지에서</span>
-                  <nav aria-label="본문 목차">
+                  <span className="eyebrow">{t.contents}</span>
+                  <nav aria-label={t.contents}>
                     {page.blocks.map((b, i) => (
                       <a href={`#${b.id ?? `section-${i + 1}`}`} key={b.heading}>
                         {b.heading}
                       </a>
                     ))}
-                    {page.questions.length > 0 && <a href="#questions">궁금한 점</a>}
-                    <a href="#related">함께 보면 좋은 안내</a>
+                    {page.questions.length > 0 && <a href="#questions">{t.questions}</a>}
+                    {page.related.length > 0 && <a href="#related">{t.related}</a>}
                   </nav>
-                  <SidebarCta page={page} />
+                  {!page.translationOf && <SidebarCta page={page} />}
                 </div>
               </aside>
             )}

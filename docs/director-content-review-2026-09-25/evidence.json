@@ -1,0 +1,1213 @@
+{
+  "checkedAt": "2026-09-24T15:35:34.554455+00:00",
+  "repositoryHead": "45403c2c6b28f084c0250298b4f3c1ee9277d92b",
+  "method": "Read-only Python urllib requests; HTML metadata and JSON-LD parsing. No browser rendering, Search Console access, index inspection, AI answer measurement, or fresh Lighthouse run.",
+  "sourceFile": "plan/new_20260925.md",
+  "sourceSha256": "bfeada4e693ded80014d6f948ff129dffc55e621e6810f8984db991bd58bac90",
+  "inventory": {
+    "routes": 45,
+    "indexable": 43,
+    "questionPages": 27,
+    "questions": 82,
+    "articles": 46
+  },
+  "livePages": [
+    {
+      "path": "/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/",
+      "sha256": "82986c7d7892c69f3ee30081e470ce55acbda586ef677f347a31eeaf934cd8e4",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "Person",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/404.html",
+      "url": "https://codepump-net.github.io/yt-top-webforai/404.html",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/404.html",
+      "robots": "noindex, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/404.html",
+      "sha256": "7e0c72dfcdadf8691d474943a0e042f1c5e8cc3c7f2a3475261c0d3a6ccf489c",
+      "questionCount": 0,
+      "types": []
+    },
+    {
+      "path": "/about/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/about/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/about/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/about/",
+      "sha256": "50266a075773210e5e864baba2b7ed73e40451d7aa78df515164980791b7883c",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "ImageObject",
+        "MedicalClinic",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/cases/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/cases/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/cases/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/cases/",
+      "sha256": "56a3d2fa573ff8cd8d12db7798e5525fb64c975074ac7f8204bc5a4ee5aaad83",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/checkups/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/checkups/",
+      "sha256": "18fc7449c14a4d8182b570e2238ad3d8242759b4081fc8b81e4be707a6feeaee",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/cancer-screening/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/cancer-screening/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/checkups/cancer-screening/",
+      "sha256": "bce8bffd54590a337e72247bd0fb139dca37df27a0322c65483b5c5c809b67e3",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/drug-screening/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/drug-screening/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/checkups/drug-screening/",
+      "sha256": "f1afcead149788645b645842871bd900ef707b3042abde363815849cae8a3f76",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/checkups/employment/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/employment/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/employment/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/checkups/employment/",
+      "sha256": "404c4b3bdb5f4bad86346f6250bddecaa10eda3f9d693e901b9f3730cd6700d2",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/checkups/national/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/national/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/national/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/checkups/national/",
+      "sha256": "26515e0a91075b8f2cc00414b20434ca717120085bc255421e60268f3bb019d8",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/tuberculosis/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/tuberculosis/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/checkups/tuberculosis/",
+      "sha256": "c47314b607c7eb4fcb37e1e7db081788f0d1420c947448e340ac20a73121c74a",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/checkups/visa/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/checkups/visa/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/checkups/visa/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/checkups/visa/",
+      "sha256": "be46f4c4975a33e00259e7a32b80d52aa2ccab7225cdd70910f1511ebf1c8fed",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/conditions/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/conditions/",
+      "sha256": "d604e2cd7ee8fec47777ea5be08726a72de62639ad6190f78afc70a5fc4f4cdb",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/acute-care/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/acute-care/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/conditions/acute-care/",
+      "sha256": "15a5dfabc9920d07c2caff7dff0147f59a279daa6fd8e429e27556f23da66ced",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/chronic-cough/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/chronic-cough/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/conditions/chronic-cough/",
+      "sha256": "8c96e8ee17a7d27684ee8ad052eaff8ad1ccb11b5326566d3aa745708e73f26d",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/conditions/heart-disease/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/conditions/heart-disease/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/conditions/heart-disease/",
+      "sha256": "0666d8fb303b009e3566c21789fd67bacfccd3115ec76cd213be66a899d74dc3",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/doctors/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/doctors/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/doctors/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/doctors/",
+      "sha256": "dbee4015485b8a91524ce14837bb77aff5cc034a6f52e0df90820701ec7bbc03",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "Person",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/doctors/park-jongseol/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/doctors/park-jongseol/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/doctors/park-jongseol/",
+      "sha256": "831ebb9e4895f36bec0b3d2f4b717343d3951667dbc50649969d61d96f29af7c",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "ImageObject",
+        "MedicalClinic",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/doctors/park-rayoung/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/doctors/park-rayoung/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/doctors/park-rayoung/",
+      "sha256": "29005cbc4b60eb8fdd65d0739483c3ed9206b5f32689a09ac313f5c2b383a42d",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "ImageObject",
+        "MedicalClinic",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/fees/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/fees/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/fees/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/fees/",
+      "sha256": "04305a142c9f2665343267c5f14cd7f4d87dcf3c7d54bf3a524875ee6051ad4a",
+      "questionCount": 2,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/health/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/health/",
+      "sha256": "b9c3dc6c0135da15af1f7f52adf2b22cff203f11632821509af3554d0e51239c",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/checkup-preparation-checklist/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/checkup-preparation-checklist/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/health/checkup-preparation-checklist/",
+      "sha256": "b7204151ebe4b996c44b72ccf1f68c1a1648e4eb1aa49f5e78c58b1453dffd93",
+      "questionCount": 3,
+      "types": [
+        "Article",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/colonoscopy-preparation-questions/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/colonoscopy-preparation-questions/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/health/colonoscopy-preparation-questions/",
+      "sha256": "06f76fffec215b09fa7494785790c2b0e49cf35f78a94facde0ce85c93e06fe4",
+      "questionCount": 5,
+      "types": [
+        "Article",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/heart-test-differences/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/heart-test-differences/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/health/heart-test-differences/",
+      "sha256": "7111247eccf366d28d991cf3a1e6ede0a14f38ba990bf7b1bbbf35d12f4d25d2",
+      "questionCount": 3,
+      "types": [
+        "Article",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/health/palpitations-test-followup/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/health/palpitations-test-followup/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/health/palpitations-test-followup/",
+      "sha256": "0b7a5523ece3e14860d2f7231560589143747bcbf6232ccaf0badb39dbab5dff",
+      "questionCount": 3,
+      "types": [
+        "Article",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/notices/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/notices/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/notices/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/notices/",
+      "sha256": "17bb3897999b97d5ff8d8d3c913379281ae6c42e4d179385779d3f7d897b84e4",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/privacy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/privacy/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/privacy/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/privacy/",
+      "sha256": "fda3b66ecc0edd3da15e410a1fe13dcd4925766cbc27584b6fe4a46500c37497",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "ImageObject",
+        "MedicalClinic",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/search/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/search/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/search/",
+      "robots": "noindex, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/search/",
+      "sha256": "e673cc460d445708285e6647bcdc43fb7b5cd14d4f12762f1ba6891ea00e8680",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "ImageObject",
+        "MedicalClinic",
+        "SearchResultsPage",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/",
+      "sha256": "e3f532fd09472b54f2a0c83b754ed14057e235e12b4b6795642ba619ff55fdb0",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/cancer-support/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/cancer-support/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/cancer-support/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/cancer-support/",
+      "sha256": "acbb5d2835b7df272fefd142c2182db74076a8fa9ff94727925ce7ac7642ab2e",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/endoscopy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/",
+      "sha256": "e51a6b882834af91c6ceaf6a49694bfd420a4b474d126aebf0375ee2278bbffb",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/colonoscopy/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/colonoscopy/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/colonoscopy/",
+      "sha256": "752010cab4c3a503847bb54af225654735a5bbe4792aff302bf194396a47e731",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalProcedure",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/gastroscopy/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/gastroscopy/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/endoscopy/gastroscopy/",
+      "sha256": "04c69baf2f0874e677cd0eb17fef5d718b06a777123b737315c1357dee7333aa",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalProcedure",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/heart/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/heart/",
+      "sha256": "375f0f35b63a0eb36ac2589a6bd206ecd15563d70a23a93404927bb9580df250",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/arterial-assessment/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/arterial-assessment/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/heart/arterial-assessment/",
+      "sha256": "5fa4a8c594cf95b720c95297a668011bd098282b387c2fb9ac618629ff8e1865",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalTest",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/cardiac-markers/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/cardiac-markers/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/heart/cardiac-markers/",
+      "sha256": "99044531c526ab349d60fdde5e3c6c9e7115cb3ba06d78f97f5d7cb76349612c",
+      "questionCount": 3,
+      "types": [
+        "BloodTest",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/carotid-ultrasound/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/carotid-ultrasound/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/heart/carotid-ultrasound/",
+      "sha256": "3c5a8a087b6707dbe9c41987da58293fa6f06a8bdb2938df28a118259dbb7448",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ImagingTest",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/echocardiography/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/echocardiography/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/heart/echocardiography/",
+      "sha256": "a056d089adf285093c5146a7a23241a24489ccd1875b921abd4b19c60e4bebba",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ImagingTest",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/heart-rate-variability/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/heart-rate-variability/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/heart/heart-rate-variability/",
+      "sha256": "54ad51ad8303a398f4c72e226c5df7fde00afefc33636a1f0c04c61e87245eb6",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalTest",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/heart/holter/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/holter/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/heart/holter/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/heart/holter/",
+      "sha256": "a311eba45d9b8fab3691349ac2d069f94ee1400ec0a2cf8171c5a0c89c54b7fe",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "MedicalTest",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/ultrasound/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/",
+      "sha256": "ea16976fb388b4aa5b0345826bbd77a9f9256153b280791772822a076f23c4b7",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/abdomen/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/abdomen/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/abdomen/",
+      "sha256": "f5a30197d11108b72e92069730cf1943d2758b1aef03cf379b7f4f6fc33ad77a",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ImagingTest",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/bowel/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/bowel/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/bowel/",
+      "sha256": "94cf67d14aaf6131951b1f6459bec23146e99bd17f721ce231c383bef6519452",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ImagingTest",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/thyroid/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/thyroid/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/services/ultrasound/thyroid/",
+      "sha256": "dadb2a9c624b2f3518fc5a2b1ab7513c6a4c88c9e20395326455ab92f97451f2",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ImagingTest",
+        "MedicalClinic",
+        "MedicalWebPage",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/sitemap/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/sitemap/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/sitemap/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/sitemap/",
+      "sha256": "721c1109882d5f4fde8a8e3d41c4c2e7202ccb4e1ea6cd9684a64cca1620c569",
+      "questionCount": 0,
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ContactPoint",
+        "ImageObject",
+        "ItemList",
+        "MedicalClinic",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/visit/",
+      "url": "https://codepump-net.github.io/yt-top-webforai/visit/",
+      "status": 200,
+      "finalUrl": "https://codepump-net.github.io/yt-top-webforai/visit/",
+      "robots": "index, follow",
+      "canonical": "https://codepump-net.github.io/yt-top-webforai/visit/",
+      "sha256": "1e1841584386454a6b63c0bb16c8f23f517b542b5e4cb32445153f7f98f7b08c",
+      "questionCount": 3,
+      "types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "MedicalClinic",
+        "WebPage",
+        "WebSite"
+      ]
+    }
+  ],
+  "otherRequests": [
+    {
+      "url": "https://codepump-net.github.io/yt-top-webforai/sitemap.xml",
+      "status": 200,
+      "locCount": 43,
+      "body": null
+    },
+    {
+      "url": "https://codepump-net.github.io/yt-top-webforai/robots.txt",
+      "status": 200,
+      "locCount": 0,
+      "body": "User-agent: *\nAllow: /\nSitemap: https://codepump-net.github.io/yt-top-webforai/sitemap.xml\n"
+    },
+    {
+      "url": "https://codepump-net.github.io/robots.txt",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://yttop.co.kr/",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "sourceArticles": [
+    {
+      "number": 1,
+      "title": "영통탑내과의원 소개｜정확한 진단과 환자 안전을 우선하는 수원 영통 내과",
+      "line": 23,
+      "characters": 1992
+    },
+    {
+      "number": 2,
+      "title": "박종설 원장 소개｜심장·초음파·내시경과 급성 내과질환을 함께 보는 내과 전문의",
+      "line": 72,
+      "characters": 1516
+    },
+    {
+      "number": 3,
+      "title": "영통탑내과 진료 분야 전체 안내｜심장·소화기·호흡기·암 지지진료부터 검진까지",
+      "line": 119,
+      "characters": 2608
+    },
+    {
+      "number": 4,
+      "title": "영통탑내과 검사와 장비 안내｜가능한 검사와 협력병원으로 의뢰하는 검사",
+      "line": 168,
+      "characters": 1683
+    },
+    {
+      "number": 5,
+      "title": "응급환자 평가와 상급병원 전원 원칙｜의원에서 기다리면 안 되는 상황",
+      "line": 245,
+      "characters": 1708
+    },
+    {
+      "number": 6,
+      "title": "영통탑내과 심장검사 순서｜심전도·Troponin I·심장초음파·72시간 홀터는 어떻게 선택하나요?",
+      "line": 311,
+      "characters": 2076
+    },
+    {
+      "number": 7,
+      "title": "심전도·72시간 홀터·심장초음파의 차이｜어떤 검사가 무엇을 보나요?",
+      "line": 374,
+      "characters": 1536
+    },
+    {
+      "number": 8,
+      "title": "국가건강검진은 어떤 순서로 진행되나요?｜영통탑내과 검진 과정과 준비사항",
+      "line": 413,
+      "characters": 2739
+    },
+    {
+      "number": 9,
+      "title": "영통탑내과 국가암검진 안내｜위암·대장암·간암·유방암·자궁경부암",
+      "line": 497,
+      "characters": 1362
+    },
+    {
+      "number": 10,
+      "title": "채용검진·공무원 채용신체검사·외국인 비자 검진 과정",
+      "line": 541,
+      "characters": 2692
+    },
+    {
+      "number": 11,
+      "title": "초음파검사 전 준비사항｜심장·복부·갑상선·경동맥초음파는 금식해야 하나요?",
+      "line": 618,
+      "characters": 1716
+    },
+    {
+      "number": 12,
+      "title": "위내시경 전 준비사항｜금식, 복용약, 수면내시경 보호자와 검사 후 주의점",
+      "line": 668,
+      "characters": 2412
+    },
+    {
+      "number": 13,
+      "title": "대장내시경 전 준비와 오라팡·플렌뷰 복용법, 용종절제 후 주의사항",
+      "line": 756,
+      "characters": 3620
+    },
+    {
+      "number": 14,
+      "title": "가슴통증이 있을 때 어떤 검사를 하나요?｜심전도와 Troponin I, 심장초음파의 역할",
+      "line": 889,
+      "characters": 1783
+    },
+    {
+      "number": 15,
+      "title": "심전도가 정상인데도 부정맥일 수 있나요?｜72시간 홀터가 필요한 경우",
+      "line": 943,
+      "characters": 1565
+    },
+    {
+      "number": 16,
+      "title": "심장판막 역류가 있으면 반드시 수술해야 하나요?",
+      "line": 992,
+      "characters": 1351
+    },
+    {
+      "number": 17,
+      "title": "협심증이면 모든 환자가 스텐트를 넣나요?",
+      "line": 1038,
+      "characters": 1262
+    },
+    {
+      "number": 18,
+      "title": "암 치료 중 가까운 내과에서 받을 수 있는 지지진료는 무엇인가요?",
+      "line": 1073,
+      "characters": 1579
+    },
+    {
+      "number": 19,
+      "title": "항암치료 중 38도 열이 나면 어떻게 해야 하나요?",
+      "line": 1131,
+      "characters": 1292
+    },
+    {
+      "number": 20,
+      "title": "갑자기 배가 아플 때 내과에서는 무엇을 확인하나요?｜급성 복통과 복부초음파",
+      "line": 1179,
+      "characters": 1380
+    },
+    {
+      "number": 21,
+      "title": "호흡기·감염·결핵·예방접종 진료 안내",
+      "line": 1238,
+      "characters": 1588
+    },
+    {
+      "number": 22,
+      "title": "고지혈증 약은 꼭 먹어야 하나요? 평생 먹어야 하나요?",
+      "line": 1293,
+      "characters": 1200
+    },
+    {
+      "number": 23,
+      "title": "운동과 식단으로 혈압·당뇨·고지혈증 약을 안 먹을 수 있나요?",
+      "line": 1330,
+      "characters": 1191
+    },
+    {
+      "number": 24,
+      "title": "담석이 있으면 꼭 담낭을 제거해야 하나요?",
+      "line": 1372,
+      "characters": 1171
+    },
+    {
+      "number": 25,
+      "title": "부모님이 심장병이면 저도 생기나요? 부정맥 약과 심장검사 추적간격 FAQ",
+      "line": 1415,
+      "characters": 1168
+    },
+    {
+      "number": 26,
+      "title": "폐렴구균·대상포진 예방접종은 언제 받나요?",
+      "line": 1451,
+      "characters": 1210
+    },
+    {
+      "number": 27,
+      "title": "부모님이 암이면 자녀는 어떤 검사를 받아야 하나요?",
+      "line": 1486,
+      "characters": 1152
+    },
+    {
+      "number": 28,
+      "title": "간수치가 계속 높은데 어떻게 해야 하나요?",
+      "line": 1526,
+      "characters": 1144
+    },
+    {
+      "number": 29,
+      "title": "대장용종이 자주 생기면 대장내시경을 얼마나 자주 해야 하나요?",
+      "line": 1575,
+      "characters": 1114
+    },
+    {
+      "number": 30,
+      "title": "갑상선암을 수술하지 않고 지켜봐도 괜찮나요?",
+      "line": 1617,
+      "characters": 1227
+    },
+    {
+      "number": 31,
+      "title": "살이 많이 찌지 않았는데 위고비나 마운자로를 미용 목적으로 써도 되나요?",
+      "line": 1662,
+      "characters": 1496
+    },
+    {
+      "number": 32,
+      "title": "오라팡 복용법｜28정 복용 순서와 물의 양, 대장내시경 준비에 실패하지 않는 법",
+      "line": 1711,
+      "characters": 1586
+    },
+    {
+      "number": 33,
+      "title": "플렌뷰 복용법｜1차·2차 복용과 추가 물, 맑은 유동식 안내",
+      "line": 1770,
+      "characters": 1559
+    },
+    {
+      "number": 34,
+      "title": "수면내시경은 보호자가 꼭 동행해야 하나요?｜검사 당일 운전과 귀가 안내",
+      "line": 1837,
+      "characters": 1083
+    },
+    {
+      "number": 35,
+      "title": "건강검진 전 약은 어떻게 먹나요?｜당뇨약·인슐린·혈압약과 피해야 할 음식",
+      "line": 1886,
+      "characters": 1993
+    },
+    {
+      "number": 36,
+      "title": "위·대장 조직검사와 용종절제 후 무엇을 먹고 언제 운동할 수 있나요?",
+      "line": 1955,
+      "characters": 1867
+    },
+    {
+      "number": 37,
+      "title": "수원 E-2·F-2·H-2 비자 건강검진 안내｜준비물과 발급기간",
+      "line": 2025,
+      "characters": 1318
+    },
+    {
+      "number": 38,
+      "title": "비자 발급·갱신용 결핵진단서는 어떻게 받나요?｜당일 1~2시간 발급 안내",
+      "line": 2087,
+      "characters": 1168
+    },
+    {
+      "number": 39,
+      "title": "수원 일반채용검진 안내｜회사마다 검사 항목이 다른 이유와 발급기간",
+      "line": 2135,
+      "characters": 1305
+    },
+    {
+      "number": 40,
+      "title": "2026 공무원 채용신체검사 안내｜마약류 6종 검사와 검사 전 주의사항",
+      "line": 2197,
+      "characters": 2425
+    },
+    {
+      "number": 41,
+      "title": "E-2·F-2·H-2 비자검진과 결핵진단서 6개 언어 안내문",
+      "line": 2289,
+      "characters": 5841
+    },
+    {
+      "number": 42,
+      "title": "암환자가 치료 중 아플 때 어떻게 대처해야 하나요?｜열·구토·설사·숨참의 위험 신호와 가까운 내과의 역할",
+      "line": 2411,
+      "characters": 7198
+    },
+    {
+      "number": 43,
+      "title": "독감 예방접종은 왜 매년 해야 하나요?｜작년에 맞았거나 독감에 걸렸어도 필요한 이유",
+      "line": 2643,
+      "characters": 3026
+    },
+    {
+      "number": 44,
+      "title": "독감은 어떻게 진단하고 치료하나요?｜신속검사와 오셀타미비르·페라미비르 치료",
+      "line": 2735,
+      "characters": 3473
+    },
+    {
+      "number": 45,
+      "title": "코로나19는 어떻게 진단하고 치료하나요?｜고위험군 팍스로비드 처방 전 확인할 검사",
+      "line": 2848,
+      "characters": 4162
+    },
+    {
+      "number": 46,
+      "title": "성인 예방접종은 무엇을 언제 맞아야 하나요?｜연령·기저질환·암 치료에 따른 접종 일정",
+      "line": 2998,
+      "characters": 5145
+    }
+  ],
+  "artifactChecks": {
+    "checkedAt": "2026-09-24T15:44:40.234112+00:00",
+    "sourceArticleNumbersComplete": true,
+    "mappingArticleNumbersComplete": true,
+    "mappingArticleCount": 46,
+    "existingMappedPaths": 34,
+    "coreNewPaths": 12,
+    "laterNewPaths": 9,
+    "foreignLanguagePaths": 5,
+    "newPathsUniqueAndNotExisting": true,
+    "allProposedNewPathsMapped": true,
+    "relativeDocumentLinksExist": true,
+    "liveCanonicalMatches": 45,
+    "siteSourceFilesModified": false,
+    "freshBuildOrBrowserTestsPerformed": false
+  }
+}

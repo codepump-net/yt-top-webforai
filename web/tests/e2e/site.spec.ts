@@ -6,7 +6,9 @@ const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8
   routes: { path: string; id: string; indexable: boolean }[];
 };
 const url = (path: string) => `http://127.0.0.1:3000${manifest.basePath}${path}`;
-test('all patient routes return HTML with one heading and correct indexing', async ({ request }) => {
+test('all patient routes return HTML with one heading and correct indexing', async ({
+  request,
+}) => {
   for (const route of manifest.routes) {
     const response = await request.get(url(route.path));
     expect(response.status(), route.path).toBe(200);
@@ -100,7 +102,10 @@ test('local search, empty state, category and reset', async ({ page }) => {
   await expect(page.getByRole('heading', { name: '검색 결과가 없습니다.' })).toBeVisible();
   await page.getByRole('button', { name: '전체 목록 보기' }).click();
   await page.getByRole('button', { name: '건강정보', exact: true }).click();
-  await expect(page.locator('.result-card')).toHaveCount(5); // Four articles and their overview.
+  const healthCount = JSON.parse(fs.readFileSync('../content/pages.json', 'utf8')).filter(
+    (p: { category: string; indexable: boolean }) => p.category === '건강정보' && p.indexable,
+  ).length;
+  await expect(page.locator('.result-card')).toHaveCount(healthCount);
   expect(externalRequests).toEqual([]);
 });
 test('mobile navigation works without client scripting', async ({ browser }) => {

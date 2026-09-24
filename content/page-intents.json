@@ -2,17 +2,17 @@
   {
     "id": "home",
     "path": "/",
-    "patientNeed": "병원의 진료 분야와 위치를 파악하고 필요한 안내로 이동한다."
+    "patientNeed": "{{clinic.subway}}, {{clinic.name}}의 진료·검사와 의료진, 검진 준비를 확인하세요. 주소 {{clinic.address}}. 전화 {{clinic.phone}}."
   },
   {
     "id": "not-found",
     "path": "/404.html",
-    "patientNeed": "없는 주소에서 홈페이지나 검색으로 돌아가 필요한 안내를 찾는다."
+    "patientNeed": "요청한 페이지를 찾을 수 없습니다. 홈페이지나 검색에서 필요한 진료·검사 안내를 찾아보세요."
   },
   {
     "id": "about",
     "path": "/about/",
-    "patientNeed": "병원 소개의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+    "patientNeed": "한 분의 건강을, 더 가까이 살피겠습니다."
   },
   {
     "id": "cases",
@@ -22,57 +22,57 @@
   {
     "id": "checkups",
     "path": "/checkups/",
-    "patientNeed": "건강검진 안내에서 검진 목적에 맞는 안내 찾기 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "국가·암검진의 대상과 항목, 채용·기숙사·비자 등의 제출 목적을 구분해 필요한 안내를 확인하세요. 검사 목록과 양식, 제출 기한이 있다면 예약할 때 함께 알려주세요."
   },
   {
     "id": "cancer-screening",
     "path": "/checkups/cancer-screening/",
-    "patientNeed": "암검진 안내에서 검진 대상과 실제 검사 구분 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "암검진은 본인에게 해당하는 대상·항목을 먼저 확인해야 합니다. 영통탑내과의 검진 범위와 준비 방법, 결과에 따른 상담을 확인하는 순서를 안내합니다."
   },
   {
     "id": "drug-screening",
     "path": "/checkups/drug-screening/",
-    "patientNeed": "마약검사·영문서류에서 제출처 요구를 먼저 준비하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "마약검사·영문서류는 제출처가 요구하는 검사 항목과 양식, 언어와 기한을 먼저 확인해 문의하세요. 영통탑내과에서 가능한 검사와 발급 조건을 대조하는 방법을 안내합니다."
   },
   {
     "id": "employment-checkup",
     "path": "/checkups/employment/",
-    "patientNeed": "채용검진·제출 서류에서 제출처 안내문 준비 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "채용검진은 제출기관의 양식과 요구 항목을 확인한 뒤 예약하세요. 준비물, 검사 일정과 결과지 수령을 미리 문의하는 방법을 안내합니다."
   },
   {
     "id": "national-checkup",
     "path": "/checkups/national/",
-    "patientNeed": "국가건강검진에서 대상과 검사 항목 확인 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "국가건강검진은 본인의 대상 여부와 해당 항목을 먼저 확인한 뒤 예약하세요. 영통탑내과의 검사 가능 항목, 준비물과 결과 상담을 확인하는 순서를 안내합니다."
   },
   {
     "id": "tuberculosis-screening",
     "path": "/checkups/tuberculosis/",
-    "patientNeed": "기숙사 결핵검진에서 제출처 안내문 준비 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "기숙사 결핵검진은 요구하는 검사와 서류, 제출 기한을 확인해 문의하세요. 방문 전 준비와 결과지 수령 때 확인할 내용을 안내합니다."
   },
   {
     "id": "visa-checkup",
     "path": "/checkups/visa/",
-    "patientNeed": "외국인 비자검진에서 제출처 안내문 준비 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "영통탑내과의 E-2·F-2·H-2 비자 건강검진과 결핵진단서 준비물, 예상 발급기간, 금식과 지정기관 확인 방법을 안내합니다. 영어·중국어·태국어·러시아어·네팔어로도 읽을 수 있습니다."
   },
   {
     "id": "conditions",
     "path": "/conditions/",
-    "patientNeed": "내과 진료 안내에서 진료 전에 증상의 경과를 정리하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "증상이 언제 시작하고 어떻게 변했는지, 어떤 약을 복용했는지 알려주세요. 이전 진료·검사 결과가 있으면 함께 준비하고, 심한 흉통·호흡곤란·의식 저하 같은 급한 상태는 일반 예약을 기다리지 말고 긴급 도움을 요청하세요."
   },
   {
     "id": "acute-care",
     "path": "/conditions/acute-care/",
-    "patientNeed": "급성기질환 진료에서 가장 불편한 증상부터 전달 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "갑자기 생긴 발열·기침·복통 등으로 진료를 준비할 때는 증상 시작과 변화, 복용약을 알려주세요. 영통탑내과의 진료 가능 시간과 긴급 도움을 구분해 안내합니다."
   },
   {
     "id": "chronic-cough",
     "path": "/conditions/chronic-cough/",
-    "patientNeed": "만성기침 진료에서 기침이 언제 어떻게 나타나는지 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "기침이 계속된다면 시작 시점과 양상, 동반 증상과 복용약을 정리해 진료 때 알려주세요. 영통탑내과 기침 상담에서 준비할 정보와 신속한 진료가 필요한 상황을 안내합니다."
   },
   {
     "id": "heart-disease",
     "path": "/conditions/heart-disease/",
-    "patientNeed": "심장질환 진료에서 증상 이름보다 발생 상황이 중요합니다 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "흉부 불편·두근거림 등 심장 관련 증상은 발생 상황과 이전 검사 결과를 함께 상담해야 합니다. 영통탑내과 진료와 검사 선택을 준비하는 방법을 안내합니다."
   },
   {
     "id": "doctors",
@@ -82,7 +82,7 @@
   {
     "id": "doctor-park-jongseol",
     "path": "/doctors/park-jongseol/",
-    "patientNeed": "박종설 대표원장의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+    "patientNeed": "내과 전문의 박종설 대표원장의 주요 진료 이력과 학회 활동을 소개합니다."
   },
   {
     "id": "doctor-park-rayoung",
@@ -97,27 +97,27 @@
   {
     "id": "health",
     "path": "/health/",
-    "patientNeed": "검사·진료 이해하기에서 지금 필요한 검사 안내부터 읽어보세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "검사를 선택하기 전에는 차이를, 이미 예약했다면 준비 방법을, 검사 뒤 증상이 계속된다면 상담 때 가져갈 정보를 확인하세요. 개인별 준비 지침은 예약한 검사의 안내를 함께 확인해야 합니다."
   },
   {
     "id": "checkup-preparation",
     "path": "/health/checkup-preparation-checklist/",
-    "patientNeed": "건강검진 전 준비 확인표에서 검진 항목부터 확인하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "건강검진 전에는 예약한 검사 목록부터 확인하세요. 음식·음료와 복약, 신분 확인·서류, 진정 검사 후 귀가 계획을 나누어 준비할 수 있습니다."
   },
   {
     "id": "colonoscopy-preparation",
     "path": "/health/colonoscopy-preparation-questions/",
-    "patientNeed": "대장내시경 준비 시 확인할 질문에서 식사 조절과 금식은 같은 안내가 아닙니다 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "대장내시경 준비는 음식 조절, 장 정결제, 물·음료 섭취와 검사 시각을 함께 확인해야 합니다. 예약 안내서를 기준으로 준비하고, 지키지 못한 부분은 병원에 알려주세요."
   },
   {
     "id": "heart-test-differences",
     "path": "/health/heart-test-differences/",
-    "patientNeed": "심전도·심장초음파·홀터검사의 차이에서 심장검사는 관찰하는 정보가 다릅니다 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "심전도는 전기 신호, 심장초음파는 구조와 움직임, 홀터는 생활 중 리듬을 살펴봅니다. 검사 결과가 다를 때 확인할 점과 진료에서 전달할 정보를 비교해 보세요."
   },
   {
     "id": "palpitations-followup",
     "path": "/health/palpitations-test-followup/",
-    "patientNeed": "검사 후에도 두근거림이 계속될 때 확인할 점에서 검사 중 평소 증상이 있었는지 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "검사 후 두근거림이 계속된다면 검사 중 증상이 있었는지, 언제 어떤 상황에서 반복되는지 기록해 진료 때 알려주세요. 검사 결과를 이해하는 데 필요한 정보와 긴급 도움 안내입니다."
   },
   {
     "id": "notices",
@@ -132,17 +132,17 @@
   {
     "id": "search",
     "path": "/search/",
-    "patientNeed": "검사 이름이나 방문 목적에 맞는 병원 안내 페이지를 찾는다."
+    "patientNeed": "진료·검사 이름, 의료진, 방문 안내와 건강정보를 찾아보세요. 여러 단어를 띄어 쓰면 해당 단어가 모두 포함된 자료를 찾습니다."
   },
   {
     "id": "services",
     "path": "/services/",
-    "patientNeed": "진료·검사 안내에서 진료 목적과 검사 안내 연결 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "불편한 증상으로 진료를 준비하는지, 이미 예약한 검사를 이해하려는지에 따라 필요한 안내가 다릅니다. 검사 목적과 준비를 살펴보고 실제 예약 가능 여부는 병원에 문의하세요."
   },
   {
     "id": "cancer-support",
     "path": "/services/cancer-support/",
-    "patientNeed": "암환자 진료·케어 안내에서 현재 치료와 상담 목적 공유 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "암 치료 중이거나 치료 이후 진료를 준비한다면 치료기관의 계획과 현재 복용약을 함께 알려주세요. 영통탑내과에서 상담할 범위와 기존 치료를 연결하는 데 필요한 안내입니다."
   },
   {
     "id": "endoscopy",
@@ -152,17 +152,17 @@
   {
     "id": "colonoscopy",
     "path": "/services/endoscopy/colonoscopy/",
-    "patientNeed": "대장내시경에서 대장 안쪽을 관찰하는 검사 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "대장내시경은 대장 안쪽을 관찰하는 검사입니다. 검사 목적과 결과 상담, 준비 안내서를 확인하는 방법, 비용에 포함되는 항목을 예약 전에 살펴보세요."
   },
   {
     "id": "gastroscopy",
     "path": "/services/endoscopy/gastroscopy/",
-    "patientNeed": "위내시경에서 위내시경이 살펴보는 범위 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "위내시경은 식도·위·십이지장 안쪽을 살펴보는 검사입니다. 진정 여부, 함께 받는 검사, 복용약과 귀가 준비를 예약 전에 확인하세요."
   },
   {
     "id": "heart-index",
     "path": "/services/heart/",
-    "patientNeed": "심장검사 안내에서 어떤 심장검사 안내가 필요한가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "검사 간 차이를 먼저 확인하고 개별 검사 안내로 이동하세요. 증상 때문에 진료를 준비한다면 발생 상황과 이전 결과를 정리해 상담하는 것이 좋습니다."
   },
   {
     "id": "abi",
@@ -172,17 +172,17 @@
   {
     "id": "cardiac-markers",
     "path": "/services/heart/cardiac-markers/",
-    "patientNeed": "심장 표지자 검사에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "심장 표지자 검사의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
   },
   {
     "id": "carotid",
     "path": "/services/heart/carotid-ultrasound/",
-    "patientNeed": "경동맥 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "경동맥 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
   },
   {
     "id": "echocardiography",
     "path": "/services/heart/echocardiography/",
-    "patientNeed": "심장초음파 검사에서 심장초음파에서 살펴보는 것 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "심장초음파는 심장 근육과 판막의 움직임, 혈액 흐름을 영상으로 살펴보는 검사입니다. 심전도와의 차이, 결과의 한계와 영통탑내과 예약 전 확인할 내용을 안내합니다."
   },
   {
     "id": "hrv",
@@ -192,27 +192,27 @@
   {
     "id": "holter",
     "path": "/services/heart/holter/",
-    "patientNeed": "홀터검사에서 간헐적인 증상과 기록 검사 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "홀터검사는 일상생활 중 심장의 전기 신호를 연속 기록하는 검사입니다. 증상 일지, 착용·반납 시 확인할 사항과 결과 상담을 준비하는 방법을 알아보세요."
   },
   {
     "id": "ultrasound-index",
     "path": "/services/ultrasound/",
-    "patientNeed": "초음파 검사 안내에서 초음파는 검사 부위부터 확인하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "심장·복부·갑상선 등 살펴보는 부위에 따라 확인할 정보와 준비가 다릅니다. 예약한 정확한 검사명을 확인하고 다른 검진과 함께 받는다면 준비 조건을 함께 문의하세요."
   },
   {
     "id": "abdominal-ultrasound",
     "path": "/services/ultrasound/abdomen/",
-    "patientNeed": "상·하복부 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "상·하복부 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
   },
   {
     "id": "bowel-ultrasound",
     "path": "/services/ultrasound/bowel/",
-    "patientNeed": "소장·대장·맹장 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "소장·대장·맹장 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
   },
   {
     "id": "thyroid-ultrasound",
     "path": "/services/ultrasound/thyroid/",
-    "patientNeed": "갑상선 초음파에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "갑상선 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
   },
   {
     "id": "sitemap",
@@ -222,6 +222,136 @@
   {
     "id": "visit",
     "path": "/visit/",
-    "patientNeed": "진료시간·오시는 길의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+    "patientNeed": "{{clinic.subway}}. {{clinic.address}}에 있습니다. 평일 {{clinic.hours.weekdays}}, 토요일 {{clinic.hours.saturday}} 진료를 안내하며 점심·검사 접수는 방문 전에 확인해 주세요."
+  },
+  {
+    "id": "examinations",
+    "path": "/services/examinations/",
+    "patientNeed": "심전도, 72시간 홀터, 심장·복부·갑상선·경동맥초음파, 내시경, X선, 유방촬영, 골밀도와 원내 신속검사를 안내합니다."
+  },
+  {
+    "id": "civil-service",
+    "path": "/checkups/civil-service/",
+    "patientNeed": "2026년 개정 공무원 채용신체검사서의 마약류 6종, 준비물, 약물복용 주의, 예상치 못한 양성 결과와 발급기간을 안내합니다."
+  },
+  {
+    "id": "fever-during-cancer-treatment",
+    "path": "/health/fever-during-cancer-treatment/",
+    "patientNeed": "항암치료 중 38℃ 이상 발열이 있을 때 해열제로 기다리면 안 되는 이유, 준비할 정보와 응급실 기준을 설명합니다."
+  },
+  {
+    "id": "cancer-treatment-symptoms",
+    "path": "/health/cancer-treatment-symptoms/",
+    "patientNeed": "항암치료·표적치료·면역항암치료 중 열, 구토, 설사, 기침, 호흡곤란, 통증과 검사 이상이 생겼을 때 가까운 내과에서 가능한 진료와 즉시 대학병원으로 가야 하는 위험 신호를 설명합니다."
+  },
+  {
+    "id": "abdominal-pain",
+    "path": "/conditions/abdominal-pain/",
+    "patientNeed": "급성 복통에서 내과 진찰과 복부초음파로 확인하는 소견, CT 의뢰와 응급실 기준을 설명합니다."
+  },
+  {
+    "id": "respiratory-infections",
+    "path": "/conditions/respiratory-infections/",
+    "patientNeed": "천식, COPD, 폐렴, 만성기침, 기흉, 독감·코로나·백일해, 잠복결핵과 결핵검사, 예방접종 범위를 안내합니다."
+  },
+  {
+    "id": "vaccinations",
+    "path": "/services/vaccinations/",
+    "patientNeed": "독감, 폐렴구균, 대상포진, Tdap, A·B형간염, MMR, 수두와 수막구균 등 성인 예방접종의 필요성과 연령·기저질환별 기본 일정을 설명합니다."
+  },
+  {
+    "id": "influenza",
+    "path": "/conditions/influenza/",
+    "patientNeed": "독감의 증상, 신속항원검사와 PCR의 차이, 경구 오셀타미비르와 주사 페라미비르 치료, 폐렴을 의심해야 하는 위험 신호를 설명합니다."
+  },
+  {
+    "id": "covid-19",
+    "path": "/conditions/covid-19/",
+    "patientNeed": "코로나19 신속항원검사와 PCR의 차이, 60세 이상과 기저질환 고위험군의 팍스로비드 치료, 신장·간기능과 약물상호작용, 영통탑내과의 처방 전 검사 원칙을 설명합니다."
+  },
+  {
+    "id": "orafang-preparation",
+    "path": "/health/orafang-preparation/",
+    "patientNeed": "오라팡 28정을 14정씩 두 번 나누어 복용하는 방법, 필요한 물의 양과 식이조절, 복용 중 연락해야 할 증상을 안내합니다."
+  },
+  {
+    "id": "plenvu-preparation",
+    "path": "/health/plenvu-preparation/",
+    "patientNeed": "플렌뷰 1차·2차 용액을 만드는 법, 추가로 마실 물의 양, 허용되는 맑은 유동식과 주의사항을 안내합니다."
+  },
+  {
+    "id": "after-endoscopy",
+    "path": "/health/after-endoscopy/",
+    "patientNeed": "위·대장 조직검사 또는 용종절제 후 물·죽·일반식 시작시간, 술·흡연, 운동·사우나·여행 제한과 응급 증상을 안내합니다."
+  },
+  {
+    "id": "heart-valve-regurgitation",
+    "path": "/health/heart-valve-regurgitation/",
+    "patientNeed": "승모판·대동맥판·삼첨판 역류의 중증도, 증상, 심장기능에 따른 추적과 수술 필요성을 설명합니다."
+  },
+  {
+    "id": "angina-treatment",
+    "path": "/health/angina-treatment/",
+    "patientNeed": "협심증 진단 후 약물치료, 생활관리, 관상동맥조영술과 스텐트가 필요한 경우를 설명합니다."
+  },
+  {
+    "id": "chronic-disease",
+    "path": "/conditions/chronic-disease/",
+    "patientNeed": "생활습관만으로 혈압, 혈당, 콜레스테롤을 조절할 수 있는 경우와 약을 미루면 위험한 경우를 설명합니다."
+  },
+  {
+    "id": "gallstones",
+    "path": "/health/gallstones/",
+    "patientNeed": "증상 없는 담석의 경과관찰, 담낭염과 담도폐색에서 수술이 필요한 경우, 복부초음파와 전원 기준을 설명합니다."
+  },
+  {
+    "id": "cancer-family-history",
+    "path": "/health/cancer-family-history/",
+    "patientNeed": "암 가족력이 있을 때 필요한 검진을 암 종류, 발병연령, 가족 수와 유전성 암 의심 기준에 따라 설명합니다."
+  },
+  {
+    "id": "liver-disease",
+    "path": "/conditions/liver-disease/",
+    "patientNeed": "AST, ALT, 감마GTP 등 간수치가 반복 상승할 때 지방간, 음주, 바이러스간염, 약물과 담도질환 평가과정을 설명합니다."
+  },
+  {
+    "id": "colon-polyp-followup",
+    "path": "/health/colon-polyp-followup/",
+    "patientNeed": "대장용종 제거 후 추적내시경 간격을 결정하는 개수, 크기, 조직형, 절제상태와 가족력을 설명합니다."
+  },
+  {
+    "id": "thyroid-cancer-surveillance",
+    "path": "/health/thyroid-cancer-surveillance/",
+    "patientNeed": "저위험 미세갑상선유두암의 적극적 관찰 대상과 추적조건, 수술이 필요한 위험 소견을 설명합니다."
+  },
+  {
+    "id": "obesity-medication",
+    "path": "/health/obesity-medication/",
+    "patientNeed": "정상체중 또는 경도 과체중에서 위고비·마운자로 사용을 원하는 경우 허가 적응증, 부작용과 진료 필요성을 설명합니다."
+  },
+  {
+    "id": "visa-en",
+    "path": "/en/checkups/visa/",
+    "patientNeed": "Yeongtong Top Internal Medicine Clinic provides health examinations for E-2, F-2 and H-2 visa documents. Tests and forms vary by visa type, nationality, application stage and receiving organization. Confirm the latest form and any designated-clinic r"
+  },
+  {
+    "id": "visa-zh-hans",
+    "path": "/zh-hans/checkups/visa/",
+    "patientNeed": "영통탑내과의원（Yeongtong Top Internal Medicine Clinic）提供E-2、F-2、H-2签证相关健康检查。检查项目和所需文件因签证种类、国籍、申请阶段及接收机构而异。来院前请确认最新表格及是否要求指定医疗机构。"
+  },
+  {
+    "id": "visa-th",
+    "path": "/th/checkups/visa/",
+    "patientNeed": "คลินิกอายุรกรรมยองทงท็อปให้บริการตรวจสุขภาพสำหรับเอกสารวีซ่า E-2, F-2 และ H-2 รายการตรวจและเอกสารแตกต่างกันตามประเภทวีซ่า สัญชาติ ขั้นตอนการสมัคร และหน่วยงานรับเอกสาร โปรดตรวจสอบแบบฟอร์มล่าสุดและข้อกำหนดสถานพยาบาลที่กำหนดก่อนมา"
+  },
+  {
+    "id": "visa-ru",
+    "path": "/ru/checkups/visa/",
+    "patientNeed": "Клиника Yeongtong Top Internal Medicine проводит обследования для документов по визам E-2, F-2 и H-2. Анализы и документы зависят от типа визы, гражданства, этапа подачи и принимающей организации. До визита уточните актуальный бланк и необходимость н"
+  },
+  {
+    "id": "visa-ne",
+    "path": "/ne/checkups/visa/",
+    "patientNeed": "Yeongtong Top Internal Medicine Clinic मा E-2, F-2 र H-2 भिसाका कागजातका लागि स्वास्थ्य परीक्षण गरिन्छ। परीक्षण र कागजात भिसाको प्रकार, राष्ट्रियता, आवेदनको चरण र बुझाउने निकायअनुसार फरक हुन्छन्। आउनुअघि नवीनतम फाराम र तोकिएको स्वास्थ्य संस्था आवश्यक"
   }
 ]

@@ -30,8 +30,18 @@ export function validatePatientScope(pages, { pageIntents, caseLinks, clinic, ph
       errors.push(`${page.id}: documented patient need required`);
     if (['case-detail', 'notice-detail'].includes(page.template) || page.id === 'content-policy')
       errors.push(`${page.id}: retired public page; use the original hospital channel`);
-    const { title, metaTitle, description, intro, blocks, questions, sources, path, category } =
-      page;
+    const {
+      title,
+      metaTitle,
+      description,
+      intro,
+      urgentNotice,
+      blocks,
+      questions,
+      sources,
+      path,
+      category,
+    } = page;
     errors.push(
       ...publicTextErrors(
         JSON.stringify({
@@ -39,6 +49,7 @@ export function validatePatientScope(pages, { pageIntents, caseLinks, clinic, ph
           metaTitle,
           description,
           intro,
+          urgentNotice,
           blocks,
           questions,
           sources,

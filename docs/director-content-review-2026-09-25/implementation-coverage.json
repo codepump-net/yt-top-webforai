@@ -1,0 +1,444 @@
+{
+  "manuscriptSha256": "bfeada4e693ded80014d6f948ff129dffc55e621e6810f8984db991bd58bac90",
+  "routes": [
+    {
+      "pageId": "about",
+      "articles": [
+        1
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "doctor-park-jongseol",
+      "articles": [
+        2
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "visit",
+      "articles": [
+        1
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "services",
+      "articles": [
+        3
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "conditions",
+      "articles": [
+        3
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "examinations",
+      "articles": [
+        4
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "acute-care",
+      "articles": [
+        5
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "heart-index",
+      "articles": [
+        6
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "heart-disease",
+      "articles": [
+        14
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "heart-disease",
+      "articles": [
+        25
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "palpitations-followup",
+      "articles": [
+        15
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "heart-test-differences",
+      "articles": [
+        7
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "holter",
+      "articles": [
+        6
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "cardiac-markers",
+      "articles": [
+        14
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "echocardiography",
+      "articles": [
+        11
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "carotid",
+      "articles": [
+        11
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "abdominal-ultrasound",
+      "articles": [
+        11
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "bowel-ultrasound",
+      "articles": [
+        11
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "thyroid-ultrasound",
+      "articles": [
+        11
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "ultrasound-index",
+      "articles": [
+        11
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "national-checkup",
+      "articles": [
+        8
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "cancer-screening",
+      "articles": [
+        9
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "employment-checkup",
+      "articles": [
+        39
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "tuberculosis-screening",
+      "articles": [
+        38
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "civil-service",
+      "articles": [
+        40
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "drug-screening",
+      "articles": [
+        40
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "checkups",
+      "articles": [
+        10
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "checkup-preparation",
+      "articles": [
+        35
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "gastroscopy",
+      "articles": [
+        12
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "colonoscopy",
+      "articles": [
+        13
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "colonoscopy-preparation",
+      "articles": [
+        34
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "cancer-support",
+      "articles": [
+        18
+      ],
+      "action": "rewrite"
+    },
+    {
+      "pageId": "fever-during-cancer-treatment",
+      "articles": [
+        19
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "cancer-treatment-symptoms",
+      "articles": [
+        42
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "abdominal-pain",
+      "articles": [
+        20
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "respiratory-infections",
+      "articles": [
+        21
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "chronic-cough",
+      "articles": [
+        21
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "vaccinations",
+      "articles": [
+        46
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "vaccinations",
+      "articles": [
+        26
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "vaccinations",
+      "articles": [
+        43
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "influenza",
+      "articles": [
+        44
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "covid-19",
+      "articles": [
+        45
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "orafang-preparation",
+      "articles": [
+        32
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "plenvu-preparation",
+      "articles": [
+        33
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "after-endoscopy",
+      "articles": [
+        36
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "heart-valve-regurgitation",
+      "articles": [
+        16
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "angina-treatment",
+      "articles": [
+        17
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "chronic-disease",
+      "articles": [
+        23
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "chronic-disease",
+      "articles": [
+        22
+      ],
+      "action": "append"
+    },
+    {
+      "pageId": "gallstones",
+      "articles": [
+        24
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "cancer-family-history",
+      "articles": [
+        27
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "liver-disease",
+      "articles": [
+        28
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "colon-polyp-followup",
+      "articles": [
+        29
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "thyroid-cancer-surveillance",
+      "articles": [
+        30
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "obesity-medication",
+      "articles": [
+        31
+      ],
+      "action": "new"
+    },
+    {
+      "pageId": "visa-en",
+      "articles": [
+        37,
+        38,
+        41
+      ],
+      "action": "translation"
+    },
+    {
+      "pageId": "visa-zh-hans",
+      "articles": [
+        37,
+        38,
+        41
+      ],
+      "action": "translation"
+    },
+    {
+      "pageId": "visa-th",
+      "articles": [
+        37,
+        38,
+        41
+      ],
+      "action": "translation"
+    },
+    {
+      "pageId": "visa-ru",
+      "articles": [
+        37,
+        38,
+        41
+      ],
+      "action": "translation"
+    },
+    {
+      "pageId": "visa-ne",
+      "articles": [
+        37,
+        38,
+        41
+      ],
+      "action": "translation"
+    },
+    {
+      "pageId": "visa-checkup",
+      "articles": [
+        37,
+        38,
+        41
+      ],
+      "action": "rewrite"
+    }
+  ]
+}

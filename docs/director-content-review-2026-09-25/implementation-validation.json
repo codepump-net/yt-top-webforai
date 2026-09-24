@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-09-24T16:29:23.894Z",
+  "mode": "review",
+  "origin": "https://codepump-net.github.io",
+  "basePath": "/yt-top-webforai",
+  "sourceSha256": "bfeada4e693ded80014d6f948ff129dffc55e621e6810f8984db991bd58bac90",
+  "contentDigest": "d8a5911002e6e7f303426ee3bde69b8f1bda8bc12f07bb9217820059fad3192a",
+  "rendererDigest": "5c6426fea8f38cc2a823b1c30b7285bed4225bfad005bb7b33cbd6baf7d59b16",
+  "routes": 71,
+  "indexCandidates": 69,
+  "blocks": 408,
+  "questions": 92,
+  "mappedArticles": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "checks": {
+    "content": [],
+    "lint": "passed",
+    "typecheck": "passed",
+    "unit": {
+      "files": 8,
+      "tests": 59,
+      "failed": 0
+    },
+    "harness": {
+      "tests": 17,
+      "failed": 0
+    },
+    "e2e": {
+      "startTime": "2026-09-24T16:18:36.572Z",
+      "duration": 27162.607,
+      "expected": 34,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "finalMetadataAndStructuredDataE2e": {
+      "startTime": "2026-09-24T16:25:34.365Z",
+      "duration": 5344.009999999999,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "staticAudit": {
+      "mode": "review",
+      "routeCount": 71,
+      "publicFilesChecked": 425,
+      "maxJsGzip": 177551,
+      "maxCssGzip": 8738,
+      "errors": []
+    },
+    "rootStaticAudit": {
+      "mode": "review",
+      "routeCount": 71,
+      "publicFilesChecked": 425,
+      "maxJsGzip": 177487,
+      "maxCssGzip": 8738,
+      "errors": []
+    },
+    "productionReleaseGate": [
+      "Publication confirmation scope differs from indexable pages",
+      "Publication confirmation requires approved content status",
+      "Stale publication confirmation: content, facts, or renderer changed"
+    ]
+  },
+  "performanceInitial": {
+    "mode": "review",
+    "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+    "errors": [
+      "/: score budget {\"performance\":88,\"accessibility\":100,\"best-practices\":100,\"seo\":66}"
+    ],
+    "reports": [
+      {
+        "route": "/",
+        "scores": {
+          "performance": 88,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2344.5515,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 34.28969999999981,
+          "first-contentful-paint": 906.8412000000001
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/services/heart/echocardiography/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2047.2084,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 43,
+          "first-contentful-paint": 754.2084
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/search/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2051.9764,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 47.99999999999977,
+          "first-contentful-paint": 1246.4882
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/health/colonoscopy-preparation-questions/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 1880.0106,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 34,
+          "first-contentful-paint": 905.0106000000001
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/health/cancer-treatment-symptoms/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 1731.3692999999998,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 40,
+          "first-contentful-paint": 906.3693000000001
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/ne/checkups/visa/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2034.4784,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 31,
+          "first-contentful-paint": 753.4784
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      }
+    ]
+  },
+  "performanceHomeRecheck": {
+    "mode": "review",
+    "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+    "errors": [],
+    "reports": [
+      {
+        "route": "/",
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2341.8077,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 32.048074999999926,
+          "first-contentful-paint": 907.8077000000001
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      }
+    ]
+  },
+  "performanceInterpretation": "Initial home score 88 failed the score gate (Speed Index 12.6 s); other five routes passed. Targeted home recheck scored 98 with LCP 2342 ms and CLS 0. No causal reason for the initial variation is claimed. Review noindex is the intentional SEO audit failure. Lab data, not field INP.",
+  "actualAiObservationsCollected": false,
+  "productionDeploymentPerformed": false
+}

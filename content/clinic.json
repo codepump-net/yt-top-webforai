@@ -2,7 +2,12 @@
   "name": "영통탑내과의원",
   "shortName": "영통탑내과",
   "phone": "031-202-7555",
-  "addressParts": { "region": "경기도", "locality": "수원시 영통구", "street": "덕영대로 1478, 포레스퀘어 6층", "country": "KR" },
+  "addressParts": {
+    "region": "경기도",
+    "locality": "수원시 영통구",
+    "street": "덕영대로 1478, 망포역포레스퀘어 6층 609호",
+    "country": "KR"
+  },
   "subway": "망포역 3번 출구에서 도보 약 2분",
   "mapUrl": "https://naver.me/5WOQWq7m",
   "originalUrl": "https://yttop.co.kr/",
@@ -10,25 +15,47 @@
   "registration": "498-91-01432",
   "hours": [
     {
-      "id": "weekdays", "label": "평일",
-      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "08:30", "closes": "18:30", "breakId": "lunch"
+      "id": "weekdays",
+      "label": "평일",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:30",
+      "closes": "18:30",
+      "breakId": "lunch"
     },
     {
-      "id": "saturday", "label": "토요일", "days": ["Saturday"],
-      "opens": "08:30", "closes": "13:30", "breakUnconfirmed": true
+      "id": "saturday",
+      "label": "토요일",
+      "days": [
+        "Saturday"
+      ],
+      "opens": "08:30",
+      "closes": "13:30"
     },
     {
-      "id": "lunch", "label": "점심시간", "opens": "13:00", "closes": "14:00"
+      "id": "lunch",
+      "label": "평일 점심",
+      "opens": "13:00",
+      "closes": "14:00"
     },
     {
-      "id": "closed", "label": "일요일·공휴일",
+      "id": "closed",
+      "label": "일요일·공휴일",
       "value": "휴진"
     }
   ],
-  "hoursNote": "토요일 점심 적용과 검사별 접수는 내원 전 확인해 주세요.",
-  "bookingNote": "심장초음파는 내원 전 전화 문의·예약을 안내합니다. 오후 5시 이후 내원은 미리 문의해 주세요.",
-  "parkingNote": "주차 위치와 지원 조건은 병원으로 문의해 주세요.",
-  "sourceCheckedAt": "2026-09-11",
-  "operationsReview": null
+  "hoursNote": "평일 점심시간에는 접수만 가능하며 진료·채혈·검사·처치는 하지 않습니다. 토요일은 점심시간 없이 진료합니다. 진료 상황에 따라 접수가 일찍 마감될 수 있습니다.",
+  "bookingNote": "심장초음파·홀터검사는 전화로 예약합니다. 평일 오후 5시 이후 방문은 미리 전화해 주세요.",
+  "parkingNote": "건물 지하주차장을 이용할 수 있습니다. 주차 지원 조건은 접수 시 확인해 주세요.",
+  "sourceCheckedAt": "2026-09-25",
+  "operationsReview": null,
+  "addressLabels": {
+    "en": "Room 609, 6th floor, Mangpo Station Forest Square, 1478 Deogyeong-daero, Yeongtong-gu, Suwon",
+    "zh-Hans": "京畿道水原市灵通区德灵大路1478号 Mangpo Station Forest Square 6层609室"
+  }
 }

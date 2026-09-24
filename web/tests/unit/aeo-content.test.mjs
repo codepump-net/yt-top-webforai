@@ -17,23 +17,33 @@ it('propagates changed contact and address through prose and schema without sour
   const copy = structuredClone(raw);
   copy.phone = '031-000-0000';
   copy.addressParts.street = 'Unit-test address';
+  copy.addressLabels.en = 'Unit-test international address';
   copy.hours.find((h) => h.id === 'weekdays').closes = '19:00';
   const clinic = resolveClinic(copy);
   const pages = resolvePages(manuscripts, clinic);
   expect(pages.find((p) => p.id === 'home').description).toContain(copy.phone);
   expect(pages.find((p) => p.id === 'home').description).toContain(copy.addressParts.street);
+  for (const id of ['visa-en', 'visa-th', 'visa-ru', 'visa-ne'])
+    expect(JSON.stringify(pages.find((p) => p.id === id))).toContain(copy.addressLabels.en);
   expect(pages.find((p) => p.id === 'visit').description).toContain('19:00');
   expect(clinicAddressSchema(clinic).streetAddress).toBe(copy.addressParts.street);
-  expect(clinicHoursSchema(clinic).at(-1).closes).toBe('19:00');
+  expect(
+    clinicHoursSchema(clinic)
+      .filter((h) => h.dayOfWeek.includes('Monday'))
+      .at(-1).closes,
+  ).toBe('19:00');
   expect(JSON.stringify(pages)).not.toContain(raw.phone);
   expect(() => resolvePages([{ intro: '{{clinic.missing}}' }], clinic)).toThrow(
     'Unknown clinic reference',
   );
 });
-it('does not invent Saturday break intervals and rejects a break outside clinic hours', () => {
+it('includes the confirmed Saturday hours without a break and rejects a break outside clinic hours', () => {
   const hours = clinicHoursSchema(resolveClinic(raw));
-  expect(hours).toHaveLength(2);
-  expect(hours.flatMap((h) => h.dayOfWeek)).not.toContain('Saturday');
+  expect(hours).toHaveLength(3);
+  expect(hours.find((h) => h.dayOfWeek.includes('Saturday'))).toMatchObject({
+    opens: '08:30',
+    closes: '13:30',
+  });
   expect(hours[0].closes).toBe('13:00');
   expect(hours[1].opens).toBe('14:00');
   const bad = structuredClone(raw);
