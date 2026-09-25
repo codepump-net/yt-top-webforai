@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Menu, Phone, Search } from 'lucide-react';
 
-type NavItem = { href: string; label: string };
+type NavItem = { href: string; label: string; paths?: string[] };
 
 export function SiteNavigation({
   items,
@@ -34,9 +34,13 @@ export function SiteNavigation({
     return route.replace(/\/$/, '') || '/';
   };
   const current = normalize(pathname);
-  const currentState = (url: string) => {
+  const currentState = (url: string, paths?: string[]) => {
     const route = normalize(url);
-    return current === route ? 'page' : current.startsWith(route + '/') ? 'location' : undefined;
+    return current === route
+      ? 'page'
+      : (paths ? paths.some((p) => normalize(p) === current) : current.startsWith(route + '/'))
+        ? 'location'
+        : undefined;
   };
 
   useEffect(() => {
@@ -113,8 +117,8 @@ export function SiteNavigation({
     };
   }, []);
 
-  const link = ({ href, label }: NavItem) => (
-    <a key={href} href={href} aria-current={currentState(href)}>
+  const link = ({ href, label, paths }: NavItem) => (
+    <a key={href} href={href} aria-current={currentState(href, paths)}>
       {label}
     </a>
   );

@@ -171,11 +171,11 @@ test('tablet contact action and current section are available at breakpoint edge
     await expect(
       page.locator(width <= 600 ? '.mobile-contact a' : '.header-phone').first(),
     ).toBeVisible();
-    if (width > 850)
-      await expect(page.locator('.desktop-nav a[aria-current="location"]')).toHaveText('진료·검사');
+    if (width > 1100)
+      await expect(page.locator('.desktop-nav a[aria-current="location"]')).toHaveText('검사·시술');
     else {
       await page.locator('.mobile-nav summary').click();
-      await expect(page.locator('.mobile-nav a[aria-current="location"]')).toHaveText('진료·검사');
+      await expect(page.locator('.mobile-nav a[aria-current="location"]')).toHaveText('검사·시술');
     }
   }
 });
@@ -205,5 +205,5 @@ test('notices lead patients to the original hospital announcement channel', asyn
     'https://yttop.co.kr/44',
   );
   await expect(page.locator('main')).not.toContainText('2025년 6월 24일');
-  await expect(page.locator('.related-section a[href$="/visit/"]')).toHaveCount(1);
+  await expect(page.locator('.sidebar-box .article-connections a[href$="/visit/"]')).toHaveCount(1);
 });

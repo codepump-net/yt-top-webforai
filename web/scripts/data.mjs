@@ -19,6 +19,8 @@ export async function loadContent() {
     'src/components/chrome.tsx',
     'src/components/search.tsx',
     'src/components/site-navigation.tsx',
+    'src/components/article-navigation.tsx',
+    'src/lib/information-architecture.mjs',
     'src/lib/site.ts',
     'src/lib/content-model.mjs',
     'src/lib/structured-data.mjs',

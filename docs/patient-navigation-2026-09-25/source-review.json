@@ -1,0 +1,2457 @@
+{
+  "checkedAt": "2026-09-25T14:26:48.216Z",
+  "scope": {
+    "routes": 74,
+    "uniqueReferences": 90,
+    "clinicReferenceUrls": 31,
+    "http200References": 80,
+    "alternateRetrievalReferences": 10,
+    "originalCaseLinks": 25
+  },
+  "method": "GET, redirects and page titles/text; official web retrieval for local 403/TLS failures; topic/editorial comparison and targeted primary-source checks. Not a clinical sign-off, native-language certification, or AI ranking measurement. Raw external bodies kept in ignored local reports, not copied into this record.",
+  "references": [
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "uses": [
+        {
+          "pageId": "privacy",
+          "sourceId": null,
+          "title": "GitHub 개인정보 처리방침",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+        "title": "GitHub General Privacy Statement - GitHub Docs"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "65ecdd17d7e9b1f604bb5ee7dfc5c2cf4d20cca0a4b60dec8abcf08b778c5f88",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://doi.org/10.11106/ijt.2025.18.1.30",
+      "uses": [
+        {
+          "pageId": "thyroid-cancer-surveillance",
+          "sourceId": "thyroid",
+          "title": "대한갑상선학회 · 저위험 미세갑상선유두암 적극적 관찰 권고",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.ijthyroid.org/journal/view.html?doi=10.11106/ijt.2025.18.1.30",
+        "title": "2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "67776800128e248a8acd86d64e99a33c2fe1df0b6f1fdf34b058045397da7a7a",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://dportal.kdca.go.kr/pot/www/CVID19/TRTMNT/MEDCN.jsp",
+      "uses": [
+        {
+          "pageId": "covid-19",
+          "sourceId": "covid",
+          "title": "질병관리청 · 코로나19 치료제 안내",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://dportal.kdca.go.kr/pot/www/CVID19/TRTMNT/MEDCN.jsp",
+        "title": "치료제 : HOME > 코로나19 > 치료 > 치료제 치료제"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "0934cd88bc80673adbcab2cfe5060d36ce1ecd25cf4bfa2e29e400399326a780",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=21",
+      "uses": [
+        {
+          "pageId": "thyroid-ultrasound",
+          "sourceId": "thyroid",
+          "title": "서울아산병원 · 갑상선 초음파",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=21",
+        "title": "서울아산병원 건강증진센터 | 개인 건강검진 | 검사안내 | 검사정보"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "4b583bdc05be752eb8485b52d510b3938a58aac56ec14cf26dd14cdfd7bf7547",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=24",
+      "uses": [
+        {
+          "pageId": "abdominal-ultrasound",
+          "sourceId": "abdomen",
+          "title": "서울아산병원 · 복부 초음파",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://health.amc.seoul.kr/health/personal/checkInformation.do?checkno=24",
+        "title": "서울아산병원 건강증진센터 | 개인 건강검진 | 검사안내 | 검사정보"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "9e5b63a0ab8d83139455d0d6ef351fa562c74392c8c69d10cf69cce80926bcab",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a620006.html",
+      "uses": [
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "adc-lung",
+          "title": "미국 국립의학도서관 · 트라스투주맙 데룩스테칸의 폐 손상 경고",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://medlineplus.gov/druginfo/meds/a620006.html",
+        "title": "Fam-trastuzumab deruxtecan-nxki Injection: MedlinePlus Drug InformationLock"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "2d0484cd4b39329e2376300d0c7791893892332d0eaf907ba87c97f24620486b",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/003120.htm",
+      "uses": [
+        {
+          "pageId": "acute-care",
+          "sourceId": "abdominal-pain",
+          "title": "미국 국립의학도서관 · 복통과 응급 증상",
+          "kind": "medical"
+        },
+        {
+          "pageId": "abdominal-pain",
+          "sourceId": "abdominal-pain",
+          "title": "미국 국립의학도서관 · 복통과 응급 증상",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://medlineplus.gov/ency/article/003120.htm",
+        "title": "Abdominal pain: MedlinePlus Medical EncyclopediaLock"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "2a05240676662fad87be1b91e89c7001897e36d32c28ac81976b1ad36159f6ae",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/fasting-for-a-blood-test/",
+      "uses": [
+        {
+          "pageId": "employment-checkup",
+          "sourceId": "lab-fasting",
+          "title": "미국 국립의학도서관 · 혈액검사 전 금식",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://medlineplus.gov/lab-tests/fasting-for-a-blood-test/",
+        "title": "Fasting for a Blood Test: MedlinePlus Medical Test"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "8fe980123d0c1150d86b7f974852b78b11fcdcdb0ca9eed9b17ecf97e2577d9b",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/",
+      "uses": [
+        {
+          "pageId": "cancer-screening",
+          "sourceId": "lab-prep",
+          "title": "미국 국립의학도서관 · 검사 준비와 복약 확인",
+          "kind": "medical"
+        },
+        {
+          "pageId": "employment-checkup",
+          "sourceId": "lab-prep",
+          "title": "미국 국립의학도서관 · 검사 준비와 복약 확인",
+          "kind": "medical"
+        },
+        {
+          "pageId": "tuberculosis-screening",
+          "sourceId": "lab-prep",
+          "title": "미국 국립의학도서관 · 검사 준비와 복약 확인",
+          "kind": "medical"
+        },
+        {
+          "pageId": "visa-checkup",
+          "sourceId": "lab-prep",
+          "title": "미국 국립의학도서관 · 검사 준비와 복약 확인",
+          "kind": "medical"
+        },
+        {
+          "pageId": "checkup-preparation",
+          "sourceId": "lab-prep",
+          "title": "미국 국립의학도서관 · 검사 준비와 복약 확인",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/",
+        "title": "How to Prepare for a Lab Test: MedlinePlus Medical Test"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "5932e6b662e4842fc063b7f8567c872f1d516fdad9a396921bfa6ab65061db13",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+      "uses": [
+        {
+          "pageId": "cancer-screening",
+          "sourceId": "lab-results",
+          "title": "미국 국립의학도서관 · 검사 결과 이해하기",
+          "kind": "medical"
+        },
+        {
+          "pageId": "national-checkup",
+          "sourceId": "lab-results",
+          "title": "미국 국립의학도서관 · 검사 결과 이해하기",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+        "title": "How to Understand Your Lab Results: MedlinePlus Medical Test"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "7a7e04d8e0c113e53cb1b17714e7f1dce30b64076676cd62ac440894935a1574",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+      "uses": [
+        {
+          "pageId": "liver-disease",
+          "sourceId": "liver-tests",
+          "title": "미국 국립의학도서관 · 간기능 검사와 결과의 한계",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+        "title": "Liver Function Tests: MedlinePlus Medical TestLock"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "827f358cedc8a392ae9c775f5e4202d31172ac6e784d02aa944679b30dc31ed5",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/troponin-test/",
+      "uses": [
+        {
+          "pageId": "cardiac-markers",
+          "sourceId": "troponin",
+          "title": "미국 국립의학도서관 · 트로포닌 검사",
+          "kind": "medical"
+        },
+        {
+          "pageId": "examinations",
+          "sourceId": "troponin",
+          "title": "미국 국립의학도서관 · 트로포닌 검사의 의미와 한계",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://medlineplus.gov/lab-tests/troponin-test/",
+        "title": "Troponin Test: MedlinePlus Medical Test"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "3686e0850b64b6910ee78ab060b4dde8ebf59aec88fd7a325c21d5e45eeb6693",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv",
+      "uses": [
+        {
+          "pageId": "hrv",
+          "sourceId": "hrv",
+          "title": "클리블랜드 클리닉 · 심박변이도의 의미",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv",
+        "title": "Heart Rate Variability: What Is It?"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "cf4e008bbe85a7ea25c8143dbbae5ee6c896eaca4adfcfc59dc6edf21f8850d2",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetailCache?cacheSeq=202301388aupdateTs2025-03-04%2014:49:09.26307b",
+      "uses": [
+        {
+          "pageId": "obesity-medication",
+          "sourceId": "wegovy-label",
+          "title": "식품의약품안전처 · 위고비 국내 허가사항",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetailCache?cacheSeq=202301388aupdateTs2025-03-04%2014:49:09.26307b",
+        "title": "식품의약품안전처 의약품통합정보시스템 의약품제품정보 상세보기-위고비프리필드펜0.25(세마글루티드), 위고비프리필드펜0.5(0.68mg/mL, 3mL)(세마글루티드)"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "199e44cf32e05a9b021ee50e112350701b877e91c59a21d8deddafa1e81ad945",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1102&menuLv=1",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "hepatitis-b-vaccine",
+          "title": "질병관리청 · B형간염 예방접종",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "error": "fetch failed"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": null,
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1107&menuLv=1",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "mmr",
+          "title": "질병관리청 · 홍역과 MMR 예방접종",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "error": "fetch failed"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": null,
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1108&menuLv=1",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "varicella",
+          "title": "질병관리청 · 수두 예방접종",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "error": "fetch failed"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": null,
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1109&menuLv=1",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "hepatitis-a-vaccine",
+          "title": "질병관리청 · A형간염 예방접종",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "error": "fetch failed"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": null,
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1117&menuLv=1",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "zoster",
+          "title": "질병관리청 · 대상포진 예방접종",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "error": "fetch failed"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": null,
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1120&menuLv=1",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "tdap",
+          "title": "질병관리청 · 백일해 예방접종",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "error": "fetch failed"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": null,
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://tbzero.kdca.go.kr/tbzero/contents.do?leftMenuId=6&paramMenuId=56",
+      "uses": [
+        {
+          "pageId": "tuberculosis-screening",
+          "sourceId": "tb",
+          "title": "질병관리청 · 잠복결핵감염 검진과 검사 방법",
+          "kind": "medical"
+        },
+        {
+          "pageId": "respiratory-infections",
+          "sourceId": "tb",
+          "title": "질병관리청 · 잠복결핵감염 검진과 검사 방법",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://tbzero.kdca.go.kr/tbzero/contents.do?leftMenuId=6&paramMenuId=56",
+        "title": "결핵ZERO - 잠복결핵감염 검진사업"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "dbef71e60667d653634fccddc1481e62fffe9ef55697abe3733784315770920b",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.amc.seoul.kr/asan/examination/examView.do?examId=32869",
+      "uses": [
+        {
+          "pageId": "carotid",
+          "sourceId": "carotid",
+          "title": "서울아산병원 · 경동맥 초음파 검사 안내",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.amc.seoul.kr/asan/examination/examView.do?examId=32869",
+        "title": "검사안내문"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "213e5c8c2348bceec2448ded2845f13df7c0f16d7871918903b9916711c4c12b",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=320",
+      "uses": [
+        {
+          "pageId": "after-endoscopy",
+          "sourceId": "polyp",
+          "title": "서울아산병원 · 대장폴립절제술",
+          "kind": "medical"
+        },
+        {
+          "pageId": "colon-polyp-followup",
+          "sourceId": "polyp",
+          "title": "서울아산병원 · 대장폴립절제술",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=320",
+        "title": "대장폴립절제술(Colonic polypectomy) | 검사/시술/수술정보 | 의료정보 | 건강정보 | 서울아산병원"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "f38a83497e936d52be3b160cb749e03469b0f804ae3e4bb8aeb0b150f5f8be25",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=516",
+      "uses": [
+        {
+          "pageId": "heart-disease",
+          "sourceId": "echo",
+          "title": "서울아산병원 · 심장초음파의 목적과 검사 방법",
+          "kind": "medical"
+        },
+        {
+          "pageId": "heart-test-differences",
+          "sourceId": "echo",
+          "title": "서울아산병원 · 심장초음파의 목적과 검사 방법",
+          "kind": "medical"
+        },
+        {
+          "pageId": "echocardiography",
+          "sourceId": "echo",
+          "title": "서울아산병원 · 심장초음파의 목적과 검사 방법",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=516",
+        "title": "심장초음파검사(Echocardiography) | 검사/시술/수술정보 | 의료정보 | 건강정보 | 서울아산병원"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "5e377904b99471c51e458e60641427f45c21347f2b4f902e90c3fa99d6af5564",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.go.kr/lay1/S1T261C262/contents.do",
+      "uses": [
+        {
+          "pageId": "cancer-screening",
+          "sourceId": "national-screening",
+          "title": "국가암정보센터 · 국가암검진 대상과 주기",
+          "kind": "medical"
+        },
+        {
+          "pageId": "cancer-family-history",
+          "sourceId": "national-screening",
+          "title": "국가암정보센터 · 국가암검진 대상과 주기",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.go.kr/lay1/S1T261C262/contents.do",
+        "title": "홈 >암예방과 검진>검진>국가암검진 사업"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "b31d93330fb14e25e55565e49ed076d6320974efe1605520fc4370b9951603e3",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+      "uses": [
+        {
+          "pageId": "cancer-family-history",
+          "sourceId": "hereditary-cancer",
+          "title": "미국 국립암연구소 · 유전성 암과 유전자검사",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+        "title": "Genetic Testing Fact Sheet - NCIFacebookFollow on XInstagramYoutubeLinkedin"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "62988eb56b7aee2903ca931cabc3f8a2729df9e8463e7a0a145d923635ce39ac",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
+      "uses": [
+        {
+          "pageId": "cancer-family-history",
+          "sourceId": "tumor-markers",
+          "title": "미국 국립암연구소 · 종양표지자의 용도와 한계",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
+        "title": "Tumor Markers - NCIFacebookFollow on XInstagramYoutubeLinkedin"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "6a3cb56f638c6de4a4615e0f55a83a91338fea6d932c856cedc438f6fd201ef5",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/cam",
+      "uses": [
+        {
+          "pageId": "cancer-support",
+          "sourceId": "cancer",
+          "title": "미국 국립암연구소 · 암 치료 중 보완요법과 상담",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/treatment/cam",
+        "title": "Complementary and Alternative Medicine (CAM) - NCI"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "e3091624e34ce18c7605c9ac53002fb0cbcd1b7cbe2326cba08d6ca8854b7dbb",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects",
+      "uses": [
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "side-effects",
+          "title": "미국 국립암연구소 · 암 치료 부작용",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/treatment/side-effects",
+        "title": "Side Effects of Cancer Treatment - NCI"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "e32cecd7fbf503e8171b3d0633e72dc6e43dddcd0a7c41ffd98d2cbd28109f14",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/constipation",
+      "uses": [
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "constipation",
+          "title": "미국 국립암연구소 · 암 치료 중 변비",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/treatment/side-effects/constipation",
+        "title": "Constipation and Cancer - Side Effects - NCIFacebookFollow on XInstagramYoutubeLinkedin"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "3e812777472f09a082c3c61874c8bc8c5d469467a86d8737e417335bb2b2ef92",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection",
+      "uses": [
+        {
+          "pageId": "acute-care",
+          "sourceId": "infection",
+          "title": "미국 국립암연구소 · 항암치료 중 감염과 호중구감소",
+          "kind": "medical"
+        },
+        {
+          "pageId": "cancer-support",
+          "sourceId": "infection",
+          "title": "미국 국립암연구소 · 치료 중 감염과 호중구감소",
+          "kind": "medical"
+        },
+        {
+          "pageId": "fever-during-cancer-treatment",
+          "sourceId": "infection",
+          "title": "미국 국립암연구소 · 치료 중 감염과 호중구감소",
+          "kind": "medical"
+        },
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "infection",
+          "title": "미국 국립암연구소 · 치료 중 감염과 호중구감소",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection",
+        "title": "Infection and Neutropenia and Cancer Treatment - Side Effects - NCI"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "54d695fd43cc029ae736024535738a88ee64086509f2c52b47db5c971b5bac12",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nerve-problems",
+      "uses": [
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "neuropathy",
+          "title": "미국 국립암연구소 · 암 치료 중 말초신경병증",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/treatment/side-effects/nerve-problems",
+        "title": "Nerve Problems (Peripheral Neuropathy) and Cancer Treatment - Side Effects - NCIFacebookFollow on XInstagramYoutubeLinkedin"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "e2cb63a5bfa857b7a1cb48c80b528f267852a12198d2ac8c33a04b66a30d58e1",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nutrition",
+      "uses": [
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "nutrition",
+          "title": "미국 국립암연구소 · 암 치료 중 영양 관리",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/treatment/side-effects/nutrition",
+        "title": "Nutrition During Cancer - NCIFacebookFollow on XInstagramYoutubeLinkedin"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "ff9137cfbe890ff4f3043fce3a259d6a03f16a11d4b519fe5c9c921fc9cf3523",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/side-effects",
+      "uses": [
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "immunotherapy",
+          "title": "미국 국립암연구소 · 면역치료의 부작용",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/side-effects",
+        "title": "Side Effects of Immunotherapy - NCIFacebookFollow on XInstagramYoutubeLinkedin"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "0635bec1c8431971de3da2f4128e98653643043bf7eca56b20f2f6e815991845",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+      "uses": [
+        {
+          "pageId": "influenza",
+          "sourceId": "flu",
+          "title": "미국 질병통제예방센터 · 인플루엔자 항바이러스 치료",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+        "title": "Influenza Antiviral Medications: Summary for Clinicians | Influenza (Flu) | CDC"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "a0dfeea47466c82e17b0900c627f97e5c650d6bef213f1ef06a00193c2ad4669",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.dkpharm.co.kr/product/view.php?idx=245",
+      "uses": [
+        {
+          "pageId": "orafang-preparation",
+          "sourceId": "orafang-label",
+          "title": "오라팡정 제품 설명서 · 동국제약",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.dkpharm.co.kr/product/view.php?idx=245",
+        "title": "동국제약㈜"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "ac5265b670bb8d7ccbc92c7691e25e26f02d486670567a8ac051dc09058db8bf",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/heart-attack/angina-chest-pain/angina-pectoris-stable-angina",
+      "uses": [
+        {
+          "pageId": "angina-treatment",
+          "sourceId": "heart",
+          "title": "미국심장협회 · 안정형 협심증",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 403,
+        "finalUrl": "https://www.heart.org/en/health-topics/heart-attack/angina-chest-pain/angina-pectoris-stable-angina",
+        "title": "Attention Required! | Cloudflare"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": "ac18d30414d8f8a27268e735d61dea55a697ab7c31531bc60bd108aeb7dfdbac",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/echocardiogram",
+      "uses": [
+        {
+          "pageId": "heart-valve-regurgitation",
+          "sourceId": "echo",
+          "title": "미국심장협회 · 심장초음파",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 403,
+        "finalUrl": "https://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/echocardiogram",
+        "title": "Attention Required! | Cloudflare"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": "f6e99ab43b9be5a8ec37f65b002aa0a4e38f45f14c3b944980c41af7d81b3f33",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/heart-valve-problems-and-disease/heart-valve-problems-and-causes/problem-heart-valve-regurgitation",
+      "uses": [
+        {
+          "pageId": "heart-valve-regurgitation",
+          "sourceId": "valve",
+          "title": "미국심장협회 · 심장판막 역류",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 403,
+        "finalUrl": "https://www.heart.org/en/health-topics/heart-valve-problems-and-disease/heart-valve-problems-and-causes/problem-heart-valve-regurgitation",
+        "title": "Attention Required! | Cloudflare"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": "ec61e54050d90726d17d3a00788a5d433f9f688c2d487c2643c4125738c6f567",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/heart-valve-problems-and-disease/understanding-your-heart-valve-treatment-options",
+      "uses": [
+        {
+          "pageId": "heart-valve-regurgitation",
+          "sourceId": "valve-treatment",
+          "title": "미국심장협회 · 심장판막질환 치료",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 403,
+        "finalUrl": "https://www.heart.org/en/health-topics/heart-valve-problems-and-disease/understanding-your-heart-valve-treatment-options",
+        "title": "Attention Required! | Cloudflare"
+      },
+      "alternateContentCheck": "web retrieval: official page body read",
+      "bodyDigest": "a4b342a79c59c91c2457c8a666332e8142ad67bb26c558027e1165dc6912e3cf",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.immigration.go.kr/immigration/1530/subview.do",
+      "uses": [
+        {
+          "pageId": "visa-checkup",
+          "sourceId": "immigration",
+          "title": "법무부 · 외국인종합안내센터 1345",
+          "kind": "medical"
+        },
+        {
+          "pageId": "visa-en",
+          "sourceId": "immigration",
+          "title": "Korea Immigration Contact Center 1345",
+          "kind": "medical"
+        },
+        {
+          "pageId": "visa-zh-hans",
+          "sourceId": "immigration",
+          "title": "Korea Immigration Contact Center 1345",
+          "kind": "medical"
+        },
+        {
+          "pageId": "visa-th",
+          "sourceId": "immigration",
+          "title": "Korea Immigration Contact Center 1345",
+          "kind": "medical"
+        },
+        {
+          "pageId": "visa-ru",
+          "sourceId": "immigration",
+          "title": "Korea Immigration Contact Center 1345",
+          "kind": "medical"
+        },
+        {
+          "pageId": "visa-ne",
+          "sourceId": "immigration",
+          "title": "Korea Immigration Contact Center 1345",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.immigration.go.kr/immigration/1530/subview.do",
+        "title": "외국인종합안내센터(1345)"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "582643ec58aa6d0199d3c49e4648cc268195200fcb4f4f7682e35a26d17e5849",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.koreapharma.co.kr/sub_product/info_view.php?p_idx=565",
+      "uses": [
+        {
+          "pageId": "plenvu-preparation",
+          "sourceId": "plenvu-label",
+          "title": "한국파마 · 플렌뷰산 제품정보",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.koreapharma.co.kr/sub_product/info_view.php?p_idx=565",
+        "title": "한국파마 :"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "09b1be7c81b38bf6b68517be28abd9bc8227f4b56749a68f77a9a8b1c4c85d3f",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.ksid.or.kr/content/info/vaccine_rule_2025.php",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "vaccine",
+          "title": "대한감염학회 · 성인예방접종 개정안",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.ksid.or.kr/content/info/vaccine_rule_2025.php",
+        "title": "���Ѱ�����ȸ"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "5f55391c1f99736bf33faddaeec31f4c82a8a262653e6d3f19816e304db716f3",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.ksid.or.kr/introduce/file/vaccine_rule_2025_02(%EC%88%98%EC%A0%95).pdf",
+      "uses": [
+        {
+          "pageId": "vaccinations",
+          "sourceId": "pneumococcal",
+          "title": "대한감염학회 · 2025 성인 폐렴알균백신 접종 권고안 (PDF)",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.ksid.or.kr/introduce/file/vaccine_rule_2025_02(%EC%88%98%EC%A0%95).pdf"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": null,
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.mpm.go.kr/mpm/info/infoJobs/jobsBoard/?boardId=bbs_0000000000000118&cntId=93&mode=view",
+      "uses": [
+        {
+          "pageId": "drug-screening",
+          "sourceId": "mpm",
+          "title": "인사혁신처 · 신규 채용자 마약류검사 시행 안내",
+          "kind": "medical"
+        },
+        {
+          "pageId": "civil-service",
+          "sourceId": "mpm",
+          "title": "인사혁신처 · 신규 채용자 마약류검사 시행 안내",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.mpm.go.kr/mpm/info/infoJobs/jobsBoard/?boardId=bbs_0000000000000118&cntId=93&mode=view",
+        "title": "채용제도 게시판< 채용제도< 공무원 인사제도< 인사혁신처"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "42f9a475f5777a60c9e1faedcf3299e62903ace59ea6e673e756ae9bbe0a04ba",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis",
+      "uses": [
+        {
+          "pageId": "heart-disease",
+          "sourceId": "rhythm",
+          "title": "미국 국립심폐혈액연구소 · 부정맥의 진단",
+          "kind": "medical"
+        },
+        {
+          "pageId": "heart-test-differences",
+          "sourceId": "rhythm",
+          "title": "미국 국립심폐혈액연구소 · 부정맥의 진단",
+          "kind": "medical"
+        },
+        {
+          "pageId": "palpitations-followup",
+          "sourceId": "rhythm",
+          "title": "미국 국립심폐혈액연구소 · 부정맥의 진단",
+          "kind": "medical"
+        },
+        {
+          "pageId": "echocardiography",
+          "sourceId": "rhythm",
+          "title": "미국 국립심폐혈액연구소 · 부정맥의 진단",
+          "kind": "medical"
+        },
+        {
+          "pageId": "holter",
+          "sourceId": "rhythm",
+          "title": "미국 국립심폐혈액연구소 · 부정맥의 진단",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis",
+        "title": "Arrhythmias - Diagnosis | NHLBI, NIH"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "91b7458a28f75fd2cab83fac9698de78fde936e3b4514c13d4a27adc3bb1950f",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/treatment",
+      "uses": [
+        {
+          "pageId": "chronic-disease",
+          "sourceId": "cholesterol",
+          "title": "미국 국립심장·폐·혈액연구소 · 이상지질혈증 치료",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.nhlbi.nih.gov/health/blood-cholesterol/treatment",
+        "title": "Blood Cholesterol - Treatment | NHLBI, NIH"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "b8a28ea9bcc033c558940e248acbc6834c65e57c4cb01cf00ec5dea8a090cfd4",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms",
+      "uses": [
+        {
+          "pageId": "acute-care",
+          "sourceId": "urgent",
+          "title": "미국 국립심폐혈액연구소 · 심근경색 증상과 긴급 도움",
+          "kind": "medical"
+        },
+        {
+          "pageId": "heart-disease",
+          "sourceId": "urgent",
+          "title": "미국 국립심폐혈액연구소 · 심근경색 증상과 긴급 도움",
+          "kind": "medical"
+        },
+        {
+          "pageId": "palpitations-followup",
+          "sourceId": "urgent",
+          "title": "미국 국립심폐혈액연구소 · 심근경색 증상과 긴급 도움",
+          "kind": "medical"
+        },
+        {
+          "pageId": "cardiac-markers",
+          "sourceId": "urgent",
+          "title": "미국 국립심폐혈액연구소 · 심근경색 증상과 긴급 도움",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms",
+        "title": "Heart Attack - Symptoms | NHLBI, NIH"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "e37762f5fae420e4fd08a8be64d3c7486bd9c3316b593c6ac7f5467831a574b0",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/heart-tests",
+      "uses": [
+        {
+          "pageId": "heart-test-differences",
+          "sourceId": "heart",
+          "title": "미국 국립심폐혈액연구소 · 심장검사 안내",
+          "kind": "medical"
+        },
+        {
+          "pageId": "palpitations-followup",
+          "sourceId": "heart",
+          "title": "미국 국립심폐혈액연구소 · 심장검사 안내",
+          "kind": "medical"
+        },
+        {
+          "pageId": "echocardiography",
+          "sourceId": "heart",
+          "title": "미국 국립심폐혈액연구소 · 심장검사 안내",
+          "kind": "medical"
+        },
+        {
+          "pageId": "holter",
+          "sourceId": "heart",
+          "title": "미국 국립심폐혈액연구소 · 심장검사 안내",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.nhlbi.nih.gov/health/heart-tests",
+        "title": "Heart Tests - Heart Tests | NHLBI, NIH"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "5dcd3b4b23f8ce75b1e92773fbd6f96c40a09ff1f61d632b7905c171ac0dd19f",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/high-blood-pressure/treatment",
+      "uses": [
+        {
+          "pageId": "chronic-disease",
+          "sourceId": "blood-pressure",
+          "title": "미국 국립심장·폐·혈액연구소 · 고혈압 치료",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.nhlbi.nih.gov/health/high-blood-pressure/treatment",
+        "title": "High Blood Pressure - Treatment | NHLBI, NIH"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "eebe588b87721ff131d9a519b14320dae8d2c0db64e2aed4b0c7cbfe5c12304a",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/peripheral-artery-disease/diagnosis",
+      "uses": [
+        {
+          "pageId": "abi",
+          "sourceId": "abi",
+          "title": "미국 국립심폐혈액연구소 · 말초동맥질환 진단과 ABI",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.nhlbi.nih.gov/health/peripheral-artery-disease/diagnosis",
+        "title": "Peripheral Artery Disease - Diagnosis | NHLBI, NIH"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "76c3c5de89834a1093d107f92725edcaf2a94ac43a71a81cb967abce7b954d9a",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.nhs.uk/symptoms/cough/",
+      "uses": [
+        {
+          "pageId": "chronic-cough",
+          "sourceId": "cough",
+          "title": "영국 국민보건서비스 · 기침과 진료가 필요한 증상",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.nhs.uk/symptoms/cough/",
+        "title": "Cough\n - NHS"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "5f2a48c9e417ce32a0d0baabdeefe8a1dc611c480a2484a9a8e0a3c82bf4936f",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+      "uses": [
+        {
+          "pageId": "chronic-disease",
+          "sourceId": "diabetes",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 당뇨병 관리",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+        "title": "Managing Diabetes - NIDDKOfficial government website iconicon-httpsLock"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "a80111b1e5b1bf630828eaeac22cfa1a1a88670b57af0635a2ddc8f5949682e8",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/colonoscopy",
+      "uses": [
+        {
+          "pageId": "checkup-preparation",
+          "sourceId": "colon",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 대장내시경",
+          "kind": "medical"
+        },
+        {
+          "pageId": "colonoscopy-preparation",
+          "sourceId": "colon",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 대장내시경",
+          "kind": "medical"
+        },
+        {
+          "pageId": "colonoscopy",
+          "sourceId": "colon",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 대장내시경",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.niddk.nih.gov/health-information/diagnostic-tests/colonoscopy",
+        "title": "Colonoscopy - NIDDK"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "20a7c02fb15d2d3dada88277dbd1f5bea2e52236eadade3e79eef1611b7058a6",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-endoscopy",
+      "uses": [
+        {
+          "pageId": "checkup-preparation",
+          "sourceId": "upper",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 상부위장관 내시경",
+          "kind": "medical"
+        },
+        {
+          "pageId": "gastroscopy",
+          "sourceId": "upper",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 상부위장관 내시경",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-endoscopy",
+        "title": "Upper GI Endoscopy - NIDDK"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "3c5231c0ff1d6cda9ecc4e9a2abc20809b920b9c6b74b03a5b4e73f26467a3d3",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/appendicitis/diagnosis",
+      "uses": [
+        {
+          "pageId": "bowel-ultrasound",
+          "sourceId": "appendix",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 충수염 진단",
+          "kind": "medical"
+        },
+        {
+          "pageId": "abdominal-pain",
+          "sourceId": "appendicitis",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 충수염 진단",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/appendicitis/diagnosis",
+        "title": "Diagnosis of Appendicitis - NIDDK"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "bd7e5f1105f1bef5e0117f7c07a22edfd2e5f281d3fe409e85e74ba2e0f1b415",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/treatment",
+      "uses": [
+        {
+          "pageId": "gallstones",
+          "sourceId": "gallstones",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · 담석 치료",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/treatment",
+        "title": "Treatment for Gallstones - NIDDK"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "4c1f1270914238f273f2170fb6d49d3a59ba1108eb335a0cbf2435d2f1e1f716",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/liver-disease/viral-hepatitis/hepatitis-b",
+      "uses": [
+        {
+          "pageId": "liver-disease",
+          "sourceId": "hepatitis-b",
+          "title": "미국 국립당뇨병·소화기·신장질환연구소 · B형간염",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.niddk.nih.gov/health-information/liver-disease/viral-hepatitis/hepatitis-b",
+        "title": "Hepatitis B - NIDDKOfficial government website iconicon-httpsLock"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "13a18c72691e711e7ab177d4650b8a579a76fc5397f408e8c070ffaa600cede5",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://www.novonordisk.co.kr/patient/list-of-products.html",
+      "uses": [
+        {
+          "pageId": "obesity-medication",
+          "sourceId": "wegovy",
+          "title": "노보 노디스크 · 국내 제품정보와 허가사항",
+          "kind": "medical"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://www.novonordisk.co.kr/patient/list-of-products.html",
+        "title": "제품정보"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "d1ff5bda8fd635d773220f0c4dba8950c88275f833d8f4d01d47523cc1f4b2ea",
+      "scopeNote": "Topic reference; URL accessibility is not sentence-level medical approval."
+    },
+    {
+      "url": "https://yttop.co.kr/",
+      "uses": [
+        {
+          "pageId": "home",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        },
+        {
+          "pageId": "fees",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        },
+        {
+          "pageId": "search",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        },
+        {
+          "pageId": "endoscopy",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        },
+        {
+          "pageId": "sitemap",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        },
+        {
+          "pageId": "examinations",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "civil-service",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "fever-during-cancer-treatment",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "cancer-treatment-symptoms",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "abdominal-pain",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "respiratory-infections",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "vaccinations",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "influenza",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "covid-19",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "orafang-preparation",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "plenvu-preparation",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "after-endoscopy",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "heart-valve-regurgitation",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "angina-treatment",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "chronic-disease",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "gallstones",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "cancer-family-history",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "liver-disease",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "colon-polyp-followup",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "thyroid-cancer-surveillance",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "obesity-medication",
+          "sourceId": "clinic",
+          "title": "영통탑내과 병원 안내",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "visa-en",
+          "sourceId": "clinic",
+          "title": "Yeongtong Top Internal Medicine Clinic",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "visa-zh-hans",
+          "sourceId": "clinic",
+          "title": "Yeongtong Top Internal Medicine Clinic",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "visa-th",
+          "sourceId": "clinic",
+          "title": "Yeongtong Top Internal Medicine Clinic",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "visa-ru",
+          "sourceId": "clinic",
+          "title": "Yeongtong Top Internal Medicine Clinic",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "visa-ne",
+          "sourceId": "clinic",
+          "title": "Yeongtong Top Internal Medicine Clinic",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "symptoms",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        },
+        {
+          "pageId": "diseases",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        },
+        {
+          "pageId": "preparation",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 홈페이지",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/",
+        "title": "수원건강검진, 영통탑내과"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "c9eb266a3e39b0620052576c9cee2aa2b1277d8c350bcda369e9e0ab21e2ab07",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/16",
+      "uses": [
+        {
+          "pageId": "home",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 소개",
+          "kind": null
+        },
+        {
+          "pageId": "about",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 소개",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/41",
+        "title": "영통탑내과 병원소개"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "ae453c966ea0dfb6827b43b7e614b49a01f78cee91064227d9cbb116b0e39c1c",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/17",
+      "uses": [
+        {
+          "pageId": "checkups",
+          "sourceId": null,
+          "title": "영통탑내과 · 건강검진",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/31",
+        "title": "국가검진"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "65ea00e1084c2fa65b02f449f407d8141ca3a247b43fa4b354994c55c4eac6e4",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/18",
+      "uses": [
+        {
+          "pageId": "conditions",
+          "sourceId": null,
+          "title": "영통탑내과 · 심장검사",
+          "kind": null
+        },
+        {
+          "pageId": "services",
+          "sourceId": null,
+          "title": "영통탑내과 · 심장검사",
+          "kind": null
+        },
+        {
+          "pageId": "heart-index",
+          "sourceId": null,
+          "title": "영통탑내과 · 심장검사",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/23",
+        "title": "심장초음파검사"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "fe9f5f7e980e83e66712edf95bed8027866185f70db02369d79cff2f1fa43ed3",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/20",
+      "uses": [
+        {
+          "pageId": "conditions",
+          "sourceId": null,
+          "title": "영통탑내과 · 내과 진료",
+          "kind": null
+        },
+        {
+          "pageId": "services",
+          "sourceId": null,
+          "title": "영통탑내과 · 내과 진료",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/28",
+        "title": "만성기침"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "1e38fb9961ebff33e597cb4f19d84a87244635235c782c482825eaa5d5780e63",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/21",
+      "uses": [
+        {
+          "pageId": "cases",
+          "sourceId": null,
+          "title": "영통탑내과 · 진단 사례",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/21",
+        "title": "영통탑내과 치료증례"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "0b5920e3ce4be022888eb9a807e257b831927511c08515d11124808ead3f64ee",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/23",
+      "uses": [
+        {
+          "pageId": "health",
+          "sourceId": null,
+          "title": "영통탑내과 · 심장초음파",
+          "kind": null
+        },
+        {
+          "pageId": "heart-test-differences",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 심장초음파",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "echocardiography",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 심장초음파",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/23",
+        "title": "심장초음파검사"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "fe9f5f7e980e83e66712edf95bed8027866185f70db02369d79cff2f1fa43ed3",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/24",
+      "uses": [
+        {
+          "pageId": "conditions",
+          "sourceId": null,
+          "title": "영통탑내과 · 초음파 검사",
+          "kind": null
+        },
+        {
+          "pageId": "services",
+          "sourceId": null,
+          "title": "영통탑내과 · 초음파 검사",
+          "kind": null
+        },
+        {
+          "pageId": "ultrasound-index",
+          "sourceId": null,
+          "title": "영통탑내과 · 초음파 검사",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/25",
+        "title": "상하복부초음파"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "b3aa37a32a502929a45d0d14636c19fe97ce8a645a606dbe4cfa3c741cac58d6",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/25",
+      "uses": [
+        {
+          "pageId": "abdominal-ultrasound",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 복부 초음파",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/25",
+        "title": "상하복부초음파"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "b3aa37a32a502929a45d0d14636c19fe97ce8a645a606dbe4cfa3c741cac58d6",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/26",
+      "uses": [
+        {
+          "pageId": "thyroid-ultrasound",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 갑상선 초음파",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/26",
+        "title": "갑상선초음파"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "06a9e99cda977623580043455eb66608f2ab3aae9dba226aa0f09f65f73a3e6b",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/27",
+      "uses": [
+        {
+          "pageId": "bowel-ultrasound",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 장 초음파",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/27",
+        "title": "소장초음파, 대장초음파, 맹장초음파"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "28089246471f1125f5d898c038acd7e763429aabff94268e5f447ceaf3bf2889",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/28",
+      "uses": [
+        {
+          "pageId": "chronic-cough",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 만성기침",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/28",
+        "title": "만성기침"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "1e38fb9961ebff33e597cb4f19d84a87244635235c782c482825eaa5d5780e63",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/29",
+      "uses": [
+        {
+          "pageId": "heart-disease",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 심장질환",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "palpitations-followup",
+          "sourceId": "clinic-1",
+          "title": "영통탑내과 · 심장질환",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/29",
+        "title": "심장질환"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "9233bb9bb46a03aa20b7f6de98cf5f0aa7961c7ba8345567db741ef579c70b28",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/30",
+      "uses": [
+        {
+          "pageId": "cancer-screening",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 암검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "colonoscopy-preparation",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 암검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "endoscopy",
+          "sourceId": null,
+          "title": "영통탑내과 · 암검진",
+          "kind": null
+        },
+        {
+          "pageId": "colonoscopy",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 암검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "gastroscopy",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 암검진",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/30",
+        "title": "5대암"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "ed39c734649037fc8aaed6b8a09a8a5f34e4d83108e23f8cc905bff10cc40f8b",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/31",
+      "uses": [
+        {
+          "pageId": "national-checkup",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 국가건강검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "health",
+          "sourceId": null,
+          "title": "영통탑내과 · 국가건강검진",
+          "kind": null
+        },
+        {
+          "pageId": "checkup-preparation",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 국가건강검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "colonoscopy-preparation",
+          "sourceId": "clinic-1",
+          "title": "영통탑내과 · 국가건강검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "endoscopy",
+          "sourceId": null,
+          "title": "영통탑내과 · 국가건강검진",
+          "kind": null
+        },
+        {
+          "pageId": "colonoscopy",
+          "sourceId": "clinic-1",
+          "title": "영통탑내과 · 국가건강검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "gastroscopy",
+          "sourceId": "clinic-1",
+          "title": "영통탑내과 · 국가건강검진",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/31",
+        "title": "국가검진"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "65ea00e1084c2fa65b02f449f407d8141ca3a247b43fa4b354994c55c4eac6e4",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/32",
+      "uses": [
+        {
+          "pageId": "employment-checkup",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 채용검진",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "checkup-preparation",
+          "sourceId": "clinic-1",
+          "title": "영통탑내과 · 채용검진",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/32",
+        "title": "채용검진"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "ce61769915723745aa6af1a65d7704483d57212d758af1f1a705f6adc2af5ae6",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/33",
+      "uses": [
+        {
+          "pageId": "drug-screening",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 마약검사",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/33",
+        "title": "마약검사"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "4542fa34a185474a03d6fb7ac6e44808b9b46612cf566932829bafd0e33eae70",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/34",
+      "uses": [
+        {
+          "pageId": "tuberculosis-screening",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 기숙사 결핵검진",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/34",
+        "title": "기숙사혈액검진"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "2615aa6f8de3b74246920b54e870c6d1898de20b347b35cd27b4da59026044af",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/35",
+      "uses": [
+        {
+          "pageId": "visa-checkup",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 외국인 비자검진",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/35",
+        "title": "외국인비자검진"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "44efe6b3924fdb8c9177c837ca8cf696451544a1ed2607840affa29ced093e8a",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/36",
+      "uses": [
+        {
+          "pageId": "health",
+          "sourceId": null,
+          "title": "영통탑내과 · 홀터검사",
+          "kind": null
+        },
+        {
+          "pageId": "heart-test-differences",
+          "sourceId": "clinic-1",
+          "title": "영통탑내과 · 홀터검사",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "palpitations-followup",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 홀터검사",
+          "kind": "clinic"
+        },
+        {
+          "pageId": "holter",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 홀터검사",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/36",
+        "title": "홀터검사"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "b2167b49f0db004d752ae56db7cded841069d189474190ee710775cb322a2d16",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/37",
+      "uses": [
+        {
+          "pageId": "carotid",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 경동맥 초음파",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/37",
+        "title": "경동맥초음파"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "ed8905d9c5d84e0d79879bfee0d63b2856f5a23fd2a961dcee4984a90c735354",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/38",
+      "uses": [
+        {
+          "pageId": "hrv",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 심박변이도 검사",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/38",
+        "title": "심박변이도검사"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "357340e8e7aec8dd56030d21c96bedd0e1023833af3a07aaf8bf826f7de89ee7",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/39",
+      "uses": [
+        {
+          "pageId": "abi",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 동맥경화도 검사",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/39",
+        "title": "동맥경화도 검사"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "71ac3304ed7474858941ec5df2ec3a44912d7edff75114287a22eb4c12290ea3",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/40",
+      "uses": [
+        {
+          "pageId": "cardiac-markers",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 심장 표지자 검사",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/40",
+        "title": "심장마커검사"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "bbdc26aa06c5f9937cfa4d30ab3d35910e60e703e15e07cb5c85a656e1503b72",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/41",
+      "uses": [
+        {
+          "pageId": "about",
+          "sourceId": null,
+          "title": "영통탑내과 · 병원 둘러보기",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/41",
+        "title": "영통탑내과 병원소개"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "ae453c966ea0dfb6827b43b7e614b49a01f78cee91064227d9cbb116b0e39c1c",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/42",
+      "uses": [
+        {
+          "pageId": "home",
+          "sourceId": null,
+          "title": "영통탑내과 · 진료시간",
+          "kind": null
+        },
+        {
+          "pageId": "visit",
+          "sourceId": null,
+          "title": "영통탑내과 · 진료시간",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/42",
+        "title": "영통탑내과 진료안내"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "6949cbee2e5b91bf6e6f12008cce5af8dd0d62a1e52c2b5090357e7cabc47a3a",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/43",
+      "uses": [
+        {
+          "pageId": "home",
+          "sourceId": null,
+          "title": "영통탑내과 · 오시는 길",
+          "kind": null
+        },
+        {
+          "pageId": "visit",
+          "sourceId": null,
+          "title": "영통탑내과 · 오시는 길",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/43",
+        "title": "영통탑내과 오시는길"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "7d1c9c637e5ab22acad2adbb249fb38a171bf6894c897357b73faa1f617699b4",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/44",
+      "uses": [
+        {
+          "pageId": "notices",
+          "sourceId": null,
+          "title": "영통탑내과 · 공지사항",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/44",
+        "title": "영통탑내과 공지사항"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "f0560fbaab8cd27c80c8f90769844f842f798082e482d6b73df54c6fee2c608f",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/46",
+      "uses": [
+        {
+          "pageId": "acute-care",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 급성기질환",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/46",
+        "title": "급성기질환클리닉"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "5ce93b70c4c0c0ea066b150ec22dc21d81c672dca1690a286e04cca2f131d3a7",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/47",
+      "uses": [
+        {
+          "pageId": "conditions",
+          "sourceId": null,
+          "title": "영통탑내과 · 암환자 케어",
+          "kind": null
+        },
+        {
+          "pageId": "services",
+          "sourceId": null,
+          "title": "영통탑내과 · 암환자 케어",
+          "kind": null
+        },
+        {
+          "pageId": "cancer-support",
+          "sourceId": "clinic",
+          "title": "영통탑내과 · 암환자 케어",
+          "kind": "clinic"
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/47",
+        "title": "암환자케어"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "85db661dc974c90edc360774fc6146bb698fba1a5ca45b8c615a34e14737fabe",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    },
+    {
+      "url": "https://yttop.co.kr/48",
+      "uses": [
+        {
+          "pageId": "home",
+          "sourceId": null,
+          "title": "영통탑내과 · 의료진 소개",
+          "kind": null
+        },
+        {
+          "pageId": "about",
+          "sourceId": null,
+          "title": "영통탑내과 · 의료진 소개",
+          "kind": null
+        },
+        {
+          "pageId": "doctors",
+          "sourceId": null,
+          "title": "영통탑내과 · 의료진 소개",
+          "kind": null
+        },
+        {
+          "pageId": "doctor-park-jongseol",
+          "sourceId": null,
+          "title": "영통탑내과 · 의료진 소개",
+          "kind": null
+        },
+        {
+          "pageId": "doctor-park-rayoung",
+          "sourceId": null,
+          "title": "영통탑내과 · 의료진 소개",
+          "kind": null
+        }
+      ],
+      "transport": {
+        "status": 200,
+        "finalUrl": "https://yttop.co.kr/48",
+        "title": "영통탑내과 의료진소개"
+      },
+      "alternateContentCheck": null,
+      "bodyDigest": "c9c6e19ac1a659ff0a39b47572a4b21355f6a3ca154d098698a862e091ac89b7",
+      "scopeNote": "Hospital operations and self-description; not independent medical evidence."
+    }
+  ],
+  "caseLinks": [
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=164673116&t=board",
+      "siteTitle": "복수·단백뇨와 대장암 진단 사례",
+      "status": 200,
+      "originalTitle": "복수 단백뇨로 내원하여 진단된 대장암. : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=164673131&t=board",
+      "siteTitle": "속쓰림으로 내원한 위암 진단 사례",
+      "status": 200,
+      "originalTitle": "속쓰림을 내원한 위암환자 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=164673206&t=board",
+      "siteTitle": "갑상선암 증례 진단 사례",
+      "status": 200,
+      "originalTitle": "갑상선암 증례 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=164673218&t=board",
+      "siteTitle": "수신증 사례 진단 사례",
+      "status": 200,
+      "originalTitle": "수신증 사례 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=164673233&t=board",
+      "siteTitle": "하복부 통증으로 내원하여 시행한 초음파 진단 사례",
+      "status": 200,
+      "originalTitle": "하복부 통증으로 내원하여 시행한 초음파 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=164673242&t=board",
+      "siteTitle": "발열 복통으로 내원한 복막염 환자. 진단 사례",
+      "status": 200,
+      "originalTitle": "발열 복통으로 내원한 복막염 환자. : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165150420&t=board",
+      "siteTitle": "복강내 종괴 증례 진단 사례",
+      "status": 200,
+      "originalTitle": "복강내 종괴 증례 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165150549&t=board",
+      "siteTitle": "대장 베체트 증례 진단 사례",
+      "status": 200,
+      "originalTitle": "대장 베체트 증례 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165150795&t=board",
+      "siteTitle": "폐렴 증례 진단 사례",
+      "status": 200,
+      "originalTitle": "폐렴 증례 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165151140&t=board",
+      "siteTitle": "비후성 심근병증 증례 진단 사례",
+      "status": 200,
+      "originalTitle": "비후성 심근병증 증례 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165203625&t=board",
+      "siteTitle": "지속되는 두근거림으로 내원하여 진단된 심실빈맥 진단 사례",
+      "status": 200,
+      "originalTitle": "지속되는 두근거림으로 내원하여 진단된 심실빈맥 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165203941&t=board",
+      "siteTitle": "두근거림 호흡곤란으로 내원하여 진단된 심방세동 진단 사례",
+      "status": 200,
+      "originalTitle": "두근거림 호흡곤란으로 내원하여 진단된 심방세동 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165204038&t=board",
+      "siteTitle": "혈변과 대장내시경을 통한 대장암 진단 사례",
+      "status": 200,
+      "originalTitle": "대변에서 피가 묻어나서 시행한 대장내시경을 통해 진단 대장암 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165259713&t=board",
+      "siteTitle": "생리통으로 오인된 난소종양 진단 사례",
+      "status": 200,
+      "originalTitle": "생리통으로 오인된 난소종양 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165259783&t=board",
+      "siteTitle": "식도 점막하 종양 진단 사례",
+      "status": 200,
+      "originalTitle": "식도 점막하 종양 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165259921&t=board",
+      "siteTitle": "대동맥 판막협착 및 대동맥판막 역류. 진단 사례",
+      "status": 200,
+      "originalTitle": "대동맥 판막협착 및 대동맥판막 역류. : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165338662&t=board",
+      "siteTitle": "상,하복부 통증으로 내원한 맹장염 진단 사례",
+      "status": 200,
+      "originalTitle": "상,하복부 통증으로 내원한 맹장염  : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165338735&t=board",
+      "siteTitle": "목에 혹이 만져져요. 림프종 진단사례. 진단 사례",
+      "status": 200,
+      "originalTitle": "목에 혹이 만져져요. 림프종 진단사례. : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165396187&t=board",
+      "siteTitle": "재발하는 뇌경색으로 내원하여 진단된 심방세동. 진단 사례",
+      "status": 200,
+      "originalTitle": "재발하는 뇌경색으로 내원하여 진단된 심방세동. : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165396249&t=board",
+      "siteTitle": "식도궤양 진단 사례",
+      "status": 200,
+      "originalTitle": "식도궤양 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165396339&t=board",
+      "siteTitle": "대동맥판막협착 진단 사례",
+      "status": 200,
+      "originalTitle": "중증 대동맥판막협착 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165407798&t=board",
+      "siteTitle": "대동맥류를 동반한 이엽성 판막증 진단 사례",
+      "status": 200,
+      "originalTitle": "대동맥류를 동반한 이엽성 판막증 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165407885&t=board",
+      "siteTitle": "궤양성대장염 진단 사례",
+      "status": 200,
+      "originalTitle": "궤양성대장염 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=165407958&t=board",
+      "siteTitle": "대장용종 절제 사례 진단 사례",
+      "status": 200,
+      "originalTitle": "대장용종 절제 사례 : 영통탑내과 치료증례"
+    },
+    {
+      "url": "https://yttop.co.kr/21/?bmode=view&idx=167025586&t=board",
+      "siteTitle": "심근경색 진단과정 진단 사례",
+      "status": 200,
+      "originalTitle": "심근경색 \u000b진단과정 : 영통탑내과 치료증례"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-import { ArrowUpRight, Clock3, MapPin, Phone } from 'lucide-react';
-import { clinic, href, nav, pageById, phoneHref, basePath } from '@/lib/site';
+import { ArrowUpRight, Clock3, MapPin, Phone, ClipboardCheck } from 'lucide-react';
+import { clinic, href, nav, pageById, phoneHref, basePath, pages, sectionId } from '@/lib/site';
 import { SiteNavigation } from './site-navigation';
 
 export function Header() {
@@ -7,7 +7,13 @@ export function Header() {
     <>
       <header className="site-header">
         <SiteNavigation
-          items={nav.map(([id, label]) => ({ href: href(pageById(id)!.path), label }))}
+          items={nav.map(([id, label]) => ({
+            href: href(pageById(id)!.path),
+            label,
+            paths: pages
+              .filter((p) => p.id !== 'home' && sectionId(p) === id)
+              .map((p) => href(p.path)),
+          }))}
           homeUrl={href('/')}
           logoUrl={href('/assets/logo.webp')}
           searchUrl={href('/search/')}
@@ -107,7 +113,10 @@ export function Footer() {
           <Phone size={18} /> 전화 문의
         </a>
         <a href={href('/visit/')}>
-          <MapPin size={18} /> 진료시간·위치
+          <MapPin size={18} /> 길찾기·시간
+        </a>
+        <a href={href('/preparation/')}>
+          <ClipboardCheck size={18} /> 검사 준비
         </a>
       </div>
     </>

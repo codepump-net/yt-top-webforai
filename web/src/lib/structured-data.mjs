@@ -1,39 +1,20 @@
 // The graph describes the same patient content and links that the renderer uses.
 // Publication attestations never enter this module or the exported site.
+import { hubGroups, hubIds, patientEntrances, siteMapGroups } from './information-architecture.mjs';
 import { clinicAddressSchema, clinicHoursSchema } from './content-model.mjs';
 
-export const careOverviewIds = [
-  'heart-index',
-  'endoscopy',
-  'ultrasound-index',
-  'checkups',
-  'conditions',
-  'cancer-support',
-  'examinations',
-  'vaccinations',
-];
-export const siteMapCategories = (pages) => [
-  ...new Set([
-    '병원 안내',
-    '심장검사',
-    '내시경',
-    '초음파',
-    '건강검진',
-    '내과 진료',
-    '건강정보',
-    '진단 사례',
-    '공지사항',
-    ...pages.map((p) => p.category),
-  ]),
-];
 export function childPages(page, pages) {
-  if (page.id === 'home' || page.id === 'services')
-    return careOverviewIds.map((id) => pages.find((p) => p.id === id)).filter(Boolean);
-  if (page.id === 'health') return pages.filter((p) => p.template === 'article-detail');
-  if (page.id === 'sitemap')
-    return siteMapCategories(pages).flatMap((category) =>
-      pages.filter((p) => p.category === category && p.id !== 'not-found'),
-    );
+  if (page.id === 'home')
+    return patientEntrances.map(({ id }) => pages.find((p) => p.id === id)).filter(Boolean);
+  if (hubGroups[page.id]) {
+    const children = hubIds(page.id)
+      .map((id) => pages.find((p) => p.id === id))
+      .filter(Boolean);
+    return ['symptoms', 'diseases'].includes(page.id)
+      ? children.sort((a, b) => a.title.localeCompare(b.title, 'ko'))
+      : children;
+  }
+  if (page.id === 'sitemap') return siteMapGroups(pages).flatMap((group) => group.pages);
   return pages.filter(
     (p) =>
       p.path.startsWith(page.path) &&
@@ -253,7 +234,7 @@ export function createStructuredData({
     graph.push({
       '@type': 'ItemList',
       '@id': listId,
-      name: page.id === 'home' ? '진료·검사 안내' : page.title,
+      name: page.id === 'home' ? '방문 목적별 안내' : page.title,
       numberOfItems: entries.length,
       itemListElement: entries.map((p, i) => ({
         '@type': 'ListItem',

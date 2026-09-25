@@ -770,6 +770,12 @@ summary:focus-visible {
   margin: 0;
   padding: 0;
 }
+.breadcrumbs li,
+.breadcrumbs li > span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
 .breadcrumbs li + li:before {
   content: '/';
   margin-right: 7px;
@@ -832,13 +838,13 @@ summary:focus-visible {
 .sidebar-box .eyebrow {
   font-size: 11px;
 }
-.sidebar-box nav {
+.article-sidebar nav {
   display: flex;
   flex-direction: column;
   gap: 2px;
   font-size: 14px;
 }
-.sidebar-box nav a:hover {
+.article-sidebar nav a:hover {
   text-decoration: underline;
 }
 .sidebar-cta {
@@ -2149,7 +2155,7 @@ summary:focus-visible {
   border-radius: 4px;
   padding: 2px 8px;
 }
-.sidebar-box nav a,
+.article-sidebar nav a,
 .sidebar-cta a,
 .footer-links a,
 .footer-bottom a,
@@ -2160,7 +2166,7 @@ summary:focus-visible {
   min-height: 44px;
   min-width: 44px;
 }
-.sidebar-box nav a,
+.article-sidebar nav a,
 .footer-links a,
 .breadcrumbs a,
 .footer-bottom p a {
@@ -2265,22 +2271,467 @@ body:has(.mobile-nav[open]) .mobile-contact {
 }
 
 /* Structured patient explanations and multilingual visa guidance. */
-.content-list, .content-steps { padding-left: 1.5rem; margin: 1rem 0; line-height: 1.85; }
-.content-list li, .content-steps li { margin-block: .45rem; padding-left: .25rem; }
-.language-switcher { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
-.language-switcher a { border: 1px solid var(--line, #cddbd7); border-radius: 2rem; padding: .5rem .9rem; background: white; }
-.language-switcher a[aria-current="page"] { background: #125b51; color: white; border-color: #125b51; }
-.language-header { display: flex; gap: 1rem; align-items: center; justify-content: space-between; padding-block: 1rem; flex-wrap: wrap; }
-.translated-site .site-header { position: relative; }
-.translated-site .article-sidebar { top: 1rem; }
-.translated-site .main-article { overflow-wrap: anywhere; }
-.article-sidebar nav { max-height: calc(100dvh - 280px); overflow-y: auto; overscroll-behavior: contain; }
+.content-list,
+.content-steps {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+  line-height: 1.85;
+}
+.content-list li,
+.content-steps li {
+  margin-block: 0.45rem;
+  padding-left: 0.25rem;
+}
+.language-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.language-switcher a {
+  border: 1px solid var(--line, #cddbd7);
+  border-radius: 2rem;
+  padding: 0.5rem 0.9rem;
+  background: white;
+}
+.language-switcher a[aria-current='page'] {
+  background: #125b51;
+  color: white;
+  border-color: #125b51;
+}
+.language-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+  flex-wrap: wrap;
+}
+.translated-site .site-header {
+  position: relative;
+}
+.translated-site .article-sidebar {
+  top: 1rem;
+}
+.translated-site .main-article {
+  overflow-wrap: anywhere;
+}
+.article-sidebar nav {
+  max-height: calc(100dvh - 280px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
 @media (max-width: 700px) {
-  .language-header .brand { width: 180px; }
-  .language-header > a:last-child { font-size: .875rem; }
-  .translated-site .page-heading h1 { font-size: clamp(1.6rem, 6vw, 2.4rem); overflow-wrap: anywhere; }
+  .language-header .brand {
+    width: 180px;
+  }
+  .language-header > a:last-child {
+    font-size: 0.875rem;
+  }
+  .translated-site .page-heading h1 {
+    font-size: clamp(1.6rem, 6vw, 2.4rem);
+    overflow-wrap: anywhere;
+  }
 }
 @media print {
-  .language-switcher, .language-header { display: none; }
-  .content-list li, .content-steps li { break-inside: avoid; }
+  .language-switcher,
+  .language-header {
+    display: none;
+  }
+  .content-list li,
+  .content-steps li {
+    break-inside: avoid;
+  }
+}
+
+/* Patient-purpose navigation and reading layout. */
+.mobile-toc {
+  display: none;
+}
+.desktop-nav {
+  gap: 18px;
+}
+.desktop-nav a {
+  font-size: 14px;
+  white-space: nowrap;
+}
+.page-category {
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 650;
+  color: var(--brand);
+  margin: 12px 0 16px;
+}
+.article-layout {
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 54px;
+}
+.article-sidebar {
+  min-width: 0;
+}
+.article-sidebar .sidebar-box {
+  padding: 18px 16px;
+  border: 0;
+  border-left: 2px solid var(--line);
+  border-radius: 0;
+}
+.contents-label,
+.mobile-toc > summary {
+  font-weight: 650;
+  font-size: 14px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.article-sidebar nav a {
+  display: block;
+  padding: 8px 4px;
+  line-height: 1.6;
+}
+.toc-title {
+  display: block;
+  font-weight: 650;
+  margin: 14px 0;
+  font-size: 16px;
+}
+.article-sidebar nav .toc-subtitle {
+  font-size: 12px;
+  padding-left: 16px;
+  color: var(--muted);
+}
+.article-connections {
+  border-top: 1px solid var(--line);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.article-connections strong {
+  font-size: 12px;
+}
+.guide-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.guide-links li {
+  border-bottom: 1px solid var(--line);
+}
+.guide-links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 17px 0;
+  font-size: 16px;
+  line-height: 1.65;
+}
+.guide-links a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.guide-links svg {
+  flex-shrink: 0;
+}
+.hub-directory {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
+  margin-bottom: 48px;
+}
+.hub-directory h2 {
+  font-size: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--brand);
+}
+.plain-related {
+  margin-top: 40px;
+}
+.plain-related .guide-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+.plain-related .guide-links li {
+  border: 0;
+}
+.plain-related .guide-links a {
+  font-size: 14px;
+}
+.emergency-strip {
+  background: #fcf2eb;
+  border-block: 1px solid #ead3c3;
+}
+.emergency-strip > div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-block: 18px;
+}
+.emergency-strip strong {
+  white-space: nowrap;
+  color: #843f1b;
+  font-size: 14px;
+}
+.emergency-strip p {
+  font-size: 14px;
+  color: #603c2a;
+  margin: 0;
+}
+.emergency-strip a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.patient-entrances {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+.patient-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 26px 22px;
+  background: #fff;
+}
+.patient-entry:hover {
+  border-color: var(--brand);
+  background: #f6f8f3;
+}
+.entry-number {
+  color: var(--brand);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.patient-entry h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.patient-entry p {
+  font-size: 14px;
+  flex: 1;
+  margin-bottom: 24px;
+}
+.patient-entry > svg {
+  align-self: flex-end;
+}
+.discovery-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-top: 28px;
+}
+.discovery-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.home-care-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+}
+.home-care-grid .section-heading {
+  display: block;
+  margin-bottom: 24px;
+}
+.home-care-grid .section-heading > a {
+  margin-top: 18px;
+}
+.cancer-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.cancer-feature h2 {
+  font-size: 30px;
+  line-height: 1.6;
+  margin: 12px 0 18px;
+}
+.cancer-feature p {
+  margin-bottom: 22px;
+}
+.visit-channel {
+  border-top: 1px solid var(--line);
+  margin-top: 32px;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.visit-channel p {
+  font-size: 14px;
+}
+.visit-channel .button {
+  flex-shrink: 0;
+}
+.encyclopedia-search .result-card {
+  padding-block: 18px;
+}
+.encyclopedia-search .result-card h2 {
+  font-size: 19px;
+}
+@media (min-width: 851px) and (max-width: 1100px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .mobile-nav summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 44px;
+    height: 44px;
+  }
+  .mobile-nav summary::-webkit-details-marker {
+    display: none;
+  }
+  .mobile-nav nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 12px 20px #183b3710;
+    padding: 20px 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 16px;
+    max-height: calc(100dvh - var(--header-bottom, 150px) - 8px - env(safe-area-inset-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scroll-padding-block: 12px;
+  }
+  .mobile-nav nav a {
+    padding: 12px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1100px) {
+  .patient-entrances {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .emergency-strip > div {
+    flex-wrap: wrap;
+    gap: 8px 20px;
+  }
+  .emergency-strip p {
+    flex-basis: 75%;
+    flex-grow: 1;
+  }
+}
+@media (max-width: 850px) {
+  .article-layout {
+    display: block;
+  }
+  .article-sidebar {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .article-sidebar .sidebar-box {
+    display: none;
+  }
+  .mobile-toc {
+    display: block;
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  .mobile-toc .toc-content {
+    max-height: 50dvh;
+    overflow-y: auto;
+    scroll-padding-block: 12px;
+  }
+  .article-sidebar nav a {
+    min-height: 44px;
+  }
+  .home-care-grid,
+  .cancer-feature {
+    gap: 32px;
+  }
+  .hub-directory {
+    gap: 28px;
+  }
+}
+@media (max-width: 600px) {
+  .page-category {
+    font-size: 20px;
+  }
+  .patient-entrances {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .patient-entry {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 20px;
+    gap: 8px 12px;
+  }
+  .patient-entry .entry-number {
+    display: none;
+  }
+  .patient-entry h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  .patient-entry p {
+    grid-column: 1;
+    margin: 0;
+  }
+  .patient-entry > svg {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    align-self: center;
+  }
+  .home-care-grid,
+  .cancer-feature,
+  .hub-directory {
+    grid-template-columns: 1fr;
+  }
+  .emergency-strip p {
+    flex-basis: 100%;
+  }
+  .cancer-feature h2 {
+    font-size: 25px;
+  }
+  .visit-channel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .mobile-contact {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .mobile-contact a {
+    font-size: 12px;
+    gap: 6px;
+  }
+}
+@media print {
+  .article-layout {
+    display: block;
+  }
+  .article-sidebar,
+  .emergency-strip,
+  .mobile-contact {
+    display: none !important;
+  }
+  .hub-directory,
+  .home-care-grid {
+    display: block;
+  }
 }

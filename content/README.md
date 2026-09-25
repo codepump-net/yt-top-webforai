@@ -1,6 +1,6 @@
 # Clinic content
 
-`pages.json` contains 71 routes (70 patient/information/utility routes and a 404) with hospital information, questions, source links and related pages. `clinic.json` and `physicians.json` hold clinic identity and source-derived profiles. `assets.json` records hashes and provenance for the five optimized image files.
+`pages.json` contains 74 routes (73 patient/information/utility routes and a 404) with hospital information, questions, source links and related pages. `clinic.json` and `physicians.json` hold clinic identity and source-derived profiles. `assets.json` records hashes and provenance for the five optimized image files.
 
 `case-links.json` links to 25 case articles on the original hospital site. Notices link to the original announcement board. This site runs alongside `yttop.co.kr`; it does not replace it. `page-intents.json` records the patient need for each public route and is consumed only by the internal build checks. Do not publish these internal records as hospital pages. See [the patient-content policy](../docs/patient-content-policy.ko.md) and [the page-by-page cleanup](../docs/content-audit-2026-09-11/README.md).
 
@@ -19,3 +19,5 @@ Medical review records require `reviewerId` matching the actual reviewer's profi
 See [the Korean handoff guide](../docs/development-handoff.ko.md) for editing, publishing, the review record schema and deployment.
 
 The 2026-09-25 edited manuscript is a review candidate, not a newly approved release. See [implementation and validation](../docs/director-content-review-2026-09-25/implementation.ko.md). Blocks also support `paragraphs`, `items` and `steps`; a list-only block may have empty `text`, but a wholly empty block is rejected. `language`, `translationOf` and `urgentNotice` support translated counterparts and symptom-specific urgent guidance. Named medical approval is never inferred from a supplied manuscript heading.
+
+The patient-navigation revision adds three discovery hubs without changing the existing 71 URLs. The shared grouping is `web/src/lib/information-architecture.mjs`, included in the publication renderer digest. The separate 100 symptom / 120 disease manuscript collection has not yet been located in the provided workspace; current encyclopedias link only to existing articles. See [navigation implementation](../docs/patient-navigation-2026-09-25/README.ko.md).

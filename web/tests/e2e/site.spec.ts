@@ -118,7 +118,12 @@ test('mobile navigation works without client scripting', async ({ browser }) => 
   await page.getByLabel('전체 메뉴 열기').click();
   await page
     .getByRole('navigation', { name: '모바일 메뉴' })
-    .getByRole('link', { name: '의료진', exact: true })
+    .getByRole('link', { name: '병원안내', exact: true })
+    .click();
+  await expect(page.locator('h1')).toHaveText('병원안내');
+  await page
+    .locator('.hub-directory')
+    .getByRole('link', { name: '의료진 소개', exact: true })
     .click();
   await expect(page.locator('h1')).toHaveText('의료진 소개');
   await expect(page.locator('.mobile-contact a').first()).toHaveAttribute('href', 'tel:0312027555');

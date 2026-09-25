@@ -7,7 +7,6 @@ import {
   ClipboardCheck,
   Activity,
   Waves,
-  Check,
   MapPin,
 } from 'lucide-react';
 import {
@@ -23,13 +22,16 @@ import {
   reviewFor,
   phoneHref,
   childrenFor,
-  careOverviewIds,
+  hubGroups,
+  patientEntrances,
+  sectionFor,
   questionAnchor,
-  siteMapCategories,
+  siteMapGroups,
   languageVersions,
 } from '@/lib/site';
 import { languageNames, pageLabels } from '@/lib/languages';
 import caseLinks from '../../../content/case-links.json';
+import { ArticleNavigation } from './article-navigation';
 import { VisitInfo } from './chrome';
 import { Search, type SearchItem } from './search';
 
@@ -135,36 +137,36 @@ function Home() {
         <div className="container hero-layout">
           <div className="hero-copy">
             <span className="eyebrow">
-              <span className="status-dot" /> 망포역 3번 출구 · 영통탑내과
+              <span className="status-dot" />
+              {clinic.subway} · 영통탑내과
             </span>
             <h1>
-              내 몸을 이해하는 진료,
+              갑작스러운 내과 증상,
               <br />
-              <em>건강한 일상</em>의 시작.
+              <em>위험도부터</em> 살핍니다.
             </h1>
             <p>
-              심장·소화기·호흡기 증상부터 암 치료 중 지지진료까지.
-              <br />
-              필요한 검사와 치료, 다음 진료 계획을 함께 살핍니다.
+              심장·소화기·호흡기 증상과 암 치료 중 불편을 살피고, 필요한 검사와 응급실·상급병원 진료
+              여부를 함께 판단합니다.
             </p>
             <div className="button-row">
-              <a className="button" href={href('/services/')}>
-                진료·검사 알아보기 <ArrowUpRight size={19} />
+              <a className="button" href={href('/symptoms/')}>
+                증상으로 찾기 <ArrowRight size={18} />
               </a>
-              <a className="button secondary" href={href('/visit/')}>
-                처음 방문하시나요? <ArrowRight size={18} />
+              <a className="button secondary" href={href('/preparation/')}>
+                검사 준비 확인 <ArrowRight size={18} />
               </a>
             </div>
             <div className="hero-note">
               <span>내과 · 가정의학과</span>
-              <span>건강검진 · 내시경 · 심장검사</span>
+              <a href={href('/visit/')}>진료시간·오시는 길</a>
             </div>
           </div>
           <div className="hero-visual">
             <ClinicPhoto hero />
             <div className="photo-caption">
-              <span>YOUR HEALTH, OUR CARE</span>
-              <p>편안한 만남이 시작되는 곳</p>
+              <span>YEONGTONG TOP CLINIC</span>
+              <p>필요한 진료로 이어지는 첫 만남</p>
             </div>
             <div className="location-chip">
               <MapPin size={18} />
@@ -175,26 +177,91 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="quick-strip">
+      <div className="emergency-strip">
         <div className="container">
-          <VisitInfo compact />
+          <strong>응급 증상 안내</strong>
+          <p>
+            심한 흉통·호흡곤란 또는 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을
+            요청하세요.
+          </p>
+          <a href={href('/conditions/acute-care/')}>
+            위험 신호 확인 <ArrowRight size={16} />
+          </a>
+        </div>
+      </div>
+      <section className="section container patient-entry-section">
+        <SectionHeading
+          eyebrow="START HERE"
+          title="지금 무엇이 필요하신가요?"
+          text="방문 목적에 맞는 안내부터 차근차근 확인하세요."
+        />
+        <div className="patient-entrances">
+          {patientEntrances.map((entry, index) => (
+            <a className="patient-entry" href={href(pageById(entry.id)!.path)} key={entry.id}>
+              <span className="entry-number">0{index + 1}</span>
+              <h3>{entry.title}</h3>
+              <p>{entry.description}</p>
+              <ArrowUpRight size={22} />
+            </a>
+          ))}
+        </div>
+        <nav className="discovery-links" aria-label="증상과 질환 찾기">
+          <a href={href('/conditions/heart-disease/')}>가슴통증·두근거림</a>
+          <a href={href('/conditions/abdominal-pain/')}>갑작스러운 복통</a>
+          <a href={href('/conditions/chronic-cough/')}>오래가는 기침</a>
+          <a href={href('/health/fever-during-cancer-treatment/')}>항암치료 중 발열</a>
+          <a href={href('/diseases/')}>
+            질환 이름으로 찾기 <ArrowRight size={15} />
+          </a>
+        </nav>
+      </section>
+      <section className="section soft-section">
+        <div className="container home-care-grid">
+          <div>
+            <SectionHeading
+              eyebrow="CARE"
+              title="진료분야"
+              text="증상과 건강 상태에 맞춰 필요한 진료를 확인하세요."
+              link={['/conditions/', '진료분야 전체']}
+            />
+            <PageLinks
+              ids={['heart-disease', 'abdominal-pain', 'respiratory-infections', 'chronic-disease']}
+            />
+          </div>
+          <div>
+            <SectionHeading
+              eyebrow="EXAMINATIONS"
+              title="검사·시술"
+              text="검사 목적을 이해하고 예약한 검사의 준비를 확인하세요."
+              link={['/services/', '검사·시술 전체']}
+            />
+            <PageLinks ids={['heart-index', 'ultrasound-index', 'endoscopy', 'examinations']} />
+          </div>
         </div>
       </section>
-      <section className="section container">
-        <SectionHeading
-          eyebrow="CARE & EXAMINATION"
-          title="어떤 도움이 필요하신가요?"
-          text="궁금한 진료 분야를 선택하면 검사 과정과 방문 전 준비를 확인할 수 있습니다."
-          link={['/services/', '전체 진료·검사']}
-        />
-        <Cards icons items={select(careOverviewIds)} />
+      <section className="section container cancer-feature">
+        <div>
+          <span className="eyebrow">CANCER SUPPORT</span>
+          <h2>
+            암 치료 중 불편할 때,
+            <br />
+            어디에서 진료받아야 할까요?
+          </h2>
+          <p>
+            치료 중 증상과 최근 치료·검사 정보를 바탕으로 가까운 내과에서 가능한 지지진료와 기존
+            치료병원·응급실 진료가 필요한 상황을 확인하세요.
+          </p>
+          <a className="text-link" href={href('/services/cancer-support/')}>
+            암환자 지지진료 안내 <ArrowRight size={18} />
+          </a>
+        </div>
+        <PageLinks ids={['cancer-treatment-symptoms', 'fever-during-cancer-treatment']} />
       </section>
       <section className="section soft-section">
         <div className="container">
           <SectionHeading
             eyebrow="OUR DOCTORS"
             title="건강을 함께 살피는 의료진"
-            text="의료진의 전문 분야와 진료 이력을 확인하세요."
             link={['/doctors/', '의료진 소개']}
           />
           <DoctorCards />
@@ -202,60 +269,75 @@ function Home() {
       </section>
       <section className="section container">
         <SectionHeading
-          eyebrow="HEALTH GUIDE"
-          title="검사 전에, 먼저 이해하세요."
-          text="검사의 목적과 준비 사항을 쉬운 설명으로 확인하세요."
-          link={['/health/', '건강정보 모두 보기']}
+          eyebrow="VISIT"
+          title="진료시간·오시는 길"
+          link={['/visit/', '방문 안내']}
         />
-        <Cards
-          items={select([
-            'heart-test-differences',
-            'colonoscopy-preparation',
-            'cancer-treatment-symptoms',
-          ])}
-        />
-      </section>
-      <section className="visit-banner container">
-        <div>
-          <span className="eyebrow">YOUR FIRST VISIT</span>
-          <h2>
-            방문 전 확인하면
-            <br />
-            진료가 더 편안해집니다.
-          </h2>
-          <p>진료시간, 검사 예약, 준비할 서류를 살펴보세요.</p>
-          <a className="button light" href={href('/visit/')}>
-            방문 안내 보기 <ArrowUpRight size={18} />
-          </a>
+        <VisitInfo />
+        <div className="visit-channel">
+          <p>휴진 일정과 검사·서류 발급 소식은 병원 홈페이지의 공지사항에서 확인하세요.</p>
+          <OriginalNoticesLink />
         </div>
-        <div className="visit-checklist">
-          {[
-            '예약할 검사와 방문 목적 확인',
-            '복용 중인 약과 이전 검사 결과 준비',
-            '제출 기관의 서류와 검사 항목 확인',
-          ].map((s, i) => (
-            <p key={s}>
-              <span>0{i + 1}</span>
-              {s}
-              <Check size={18} />
-            </p>
-          ))}
-          <a href={href('/fees/')}>
-            검사 비용·서류 안내 <ArrowRight size={17} />
-          </a>
-        </div>
-      </section>
-      <section className="section container">
-        <SectionHeading
-          eyebrow="CLINIC NEWS"
-          title="병원 소식"
-          link={['/notices/', '공지사항 전체 보기']}
-        />
-        <p>휴진 일정과 검사·서류 발급 소식은 병원 홈페이지의 공지사항에서 확인하세요.</p>
-        <OriginalNoticesLink />
       </section>
     </>
   );
+}
+
+function PageLinks({ ids }: { ids: string[] }) {
+  return (
+    <ul className="guide-links">
+      {select(ids).map((p) => (
+        <li key={p.id}>
+          <a href={href(p.path)}>
+            {p.title}
+            <ArrowRight size={16} />
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
+function HubDirectory({ page }: { page: Page }) {
+  const groups = hubGroups[page.id];
+  if (['symptoms', 'diseases'].includes(page.id)) {
+    const items = searchItems(childrenFor(page)).map((item) => ({
+      ...item,
+      guideRole: [
+        'heart-disease',
+        'respiratory-infections',
+        'chronic-disease',
+        'liver-disease',
+        'cancer-treatment-symptoms',
+      ].some((id) => href(pageById(id)!.path) === item.url)
+        ? '분야 안내'
+        : '세부 안내',
+      category: groups.find((group: { ids: string[] }) =>
+        group.ids.some((id: string) => href(pageById(id)!.path) === item.url),
+      )!.title,
+    }));
+    return (
+      <Search
+        items={items}
+        filter
+        alphabetical
+        label={page.id === 'symptoms' ? '어떤 증상이 불편하신가요?' : '어떤 질환이 궁금하신가요?'}
+      />
+    );
+  }
+  if (groups)
+    return (
+      <div className="hub-directory">
+        {groups.map((group: { title: string; ids: string[] }, i: number) => (
+          <section key={group.title} id={`directory-${i + 1}`}>
+            <h2>{group.title}</h2>
+            <PageLinks ids={group.ids} />
+          </section>
+        ))}
+      </div>
+    );
+  return /index|hub/.test(page.template) && !['doctors', 'cases', 'notices'].includes(page.id) ? (
+    <PageLinks ids={childrenFor(page).map((p) => p.id)} />
+  ) : null;
 }
 
 function searchItems(items: Page[]): SearchItem[] {
@@ -292,21 +374,41 @@ function OriginalNoticesLink() {
 }
 function Sources({ page }: { page: Page }) {
   const t = pageLabels(page.language);
+  const groups =
+    !page.language || page.language === 'ko'
+      ? [
+          { label: '병원 안내', sources: page.sources.filter((s) => s.kind === 'clinic') },
+          {
+            label: '의학·제도 참고 자료',
+            sources: page.sources.filter((s) => s.kind === 'medical'),
+          },
+          { label: '', sources: page.sources.filter((s) => !s.kind) },
+        ]
+      : [{ label: '', sources: page.sources }];
   return (
-    <aside className="provenance" aria-label={t.sources}>
+    <aside className="provenance" id="sources" aria-label={t.sources}>
       <h2>{t.sources}</h2>
-      <ul>
-        {page.sources.map((s, i) => (
-          <li key={s.url}>
-            <a href={s.url} target="_blank" rel="noopener noreferrer">
-              {s.title}
-              {page.sources.filter((t) => t.title === s.title).length > 1 ? ` · 자료 ${i + 1}` : ''}
-              <ArrowUpRight size={13} />
-              <span className="sr-only"> ({t.newWindow})</span>
-            </a>
-          </li>
+      {groups
+        .filter((group) => group.sources.length > 0)
+        .map((group) => (
+          <div key={group.label}>
+            {group.label && <h3>{group.label}</h3>}
+            <ul>
+              {group.sources.map((s, i) => (
+                <li key={s.url}>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer">
+                    {s.title}
+                    {page.sources.filter((t) => t.title === s.title).length > 1
+                      ? ` · 자료 ${i + 1}`
+                      : ''}
+                    <ArrowUpRight size={13} />
+                    <span className="sr-only"> ({t.newWindow})</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
     </aside>
   );
 }
@@ -443,18 +545,6 @@ function ReviewAttribution({ page }: { page: Page }) {
     </p>
   ) : null;
 }
-function SidebarCta({ page }: { page: Page }) {
-  if (page.risk === 'urgent_context_review') return null;
-  return (
-    <div className="sidebar-cta">
-      <p>방문·검사 문의</p>
-      <a href={phoneHref}>{clinic.phone}</a>
-      <a className="text-link" href={href('/visit/')}>
-        진료시간·오시는 길 <ArrowRight size={15} />
-      </a>
-    </div>
-  );
-}
 function VisitPage() {
   return (
     <>
@@ -503,6 +593,28 @@ function VisitPage() {
     </>
   );
 }
+function doctorSections(page: Page) {
+  const doctor = physicians.find((d) => page.id === `doctor-${d.id}`)!;
+  return [
+    { id: 'doctor-careers', title: '주요 이력', entries: doctor.careers },
+    { id: 'doctor-credentials', title: '인정 자격', entries: doctor.credentials },
+    { id: 'doctor-memberships', title: '학회 활동', entries: doctor.memberships },
+  ].filter((section) => section.entries.length > 0);
+}
+const clinicValues = [
+  {
+    title: '진료를 이해하는 설명',
+    text: '검사의 목적과 준비, 결과를 살펴볼 때 필요한 정보를 함께 안내합니다.',
+  },
+  {
+    title: '일상 가까이의 건강관리',
+    text: '내과 진료와 건강검진부터 심장·초음파·내시경 검사까지 확인할 수 있습니다.',
+  },
+  {
+    title: '방문 전부터 편안하게',
+    text: '진료시간과 위치, 검사 예약·서류 준비를 미리 살펴보세요.',
+  },
+];
 function DoctorDetail({ page }: { page: Page }) {
   const doctor = physicians.find((d) => page.id === `doctor-${d.id}`)!;
   return (
@@ -520,51 +632,44 @@ function DoctorDetail({ page }: { page: Page }) {
         <h2>
           {doctor.name} <small>{doctor.role}</small>
         </h2>
-        {[
-          ['주요 이력', doctor.careers],
-          ['인정 자격', doctor.credentials],
-          ['학회 활동', doctor.memberships],
-        ].map(
-          ([title, entries]) =>
-            (entries as string[]).length > 0 && (
-              <section key={title as string}>
-                <h3>{title as string}</h3>
-                <ul>
-                  {(entries as string[]).map((c) => (
-                    <li key={c}>{c}</li>
-                  ))}
-                </ul>
-              </section>
-            ),
-        )}
+        {doctorSections(page).map(({ id, title, entries }) => (
+          <section key={id} id={id}>
+            <h3>{title}</h3>
+            <ul>
+              {entries.map((c) => (
+                <li key={c}>{c}</li>
+              ))}
+            </ul>
+          </section>
+        ))}
       </div>
     </div>
   );
 }
 function SiteMap() {
-  const categories = siteMapCategories(pages);
   return (
     <div className="sitemap-grid">
-      {categories.map((category) => {
-        const list = pages.filter((p) => p.category === category && p.id !== 'not-found');
-        return (
-          list.length > 0 && (
-            <section key={category}>
-              <h2>{category}</h2>
-              <ul>
-                {list.map((p) => (
-                  <li key={p.id}>
-                    <a href={href(p.path)}>
-                      {p.title}
-                      <ArrowUpRight size={14} />
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )
-        );
-      })}
+      {siteMapGroups(pages).map(
+        ({ title: category, pages: list }: { title: string; pages: Page[] }) => {
+          return (
+            list.length > 0 && (
+              <section key={category}>
+                <h2>{category}</h2>
+                <ul>
+                  {list.map((p) => (
+                    <li key={p.id}>
+                      <a href={href(p.path)}>
+                        {p.title}
+                        <ArrowUpRight size={14} />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )
+          );
+        },
+      )}
     </div>
   );
 }
@@ -572,8 +677,13 @@ function SiteMap() {
 export function PageContent({ page }: { page: Page }) {
   const t = pageLabels(page.language);
   const versions = languageVersions(page);
-  const isWide =
-    /index|hub/.test(page.template) || ['visit', 'about', 'sitemap', 'search'].includes(page.id);
+  const hasToc =
+    (page.blocks.length > 0 ||
+      page.questions.length > 0 ||
+      !!hubGroups[page.id] ||
+      page.template === 'physician-detail') &&
+    !['visit', 'doctors', 'sitemap', 'search', 'cases'].includes(page.id);
+  const section = sectionFor(page);
   return (
     <>
       <script
@@ -599,8 +709,12 @@ export function PageContent({ page }: { page: Page }) {
                   ))}
                 </ol>
               </nav>
-              <span className="eyebrow">{page.category}</span>
-              <h1>{page.title}</h1>
+              {section.id !== page.id && (
+                <a className="page-category" href={href(section.path)}>
+                  {section.title}
+                </a>
+              )}
+              <h1 id="article-title">{page.title}</h1>
               <p className="page-intro">{page.intro}</p>
               {versions.length > 1 && (
                 <nav className="language-switcher" aria-label="Language">
@@ -619,7 +733,49 @@ export function PageContent({ page }: { page: Page }) {
               )}
             </div>
           </div>
-          <div className={`container page-content ${isWide ? '' : 'article-layout'}`}>
+          <div className={`container page-content ${hasToc ? 'article-layout' : ''}`}>
+            {hasToc && (
+              <ArticleNavigation
+                title={page.title}
+                label={t.contents}
+                relatedLabel={t.related}
+                entries={[
+                  ...(page.template === 'physician-detail'
+                    ? doctorSections(page).map((s) => ({ id: s.id, label: s.title }))
+                    : []),
+                  ...(page.id === 'about'
+                    ? clinicValues.map((v, i) => ({ id: `value-${i + 1}`, label: v.title }))
+                    : []),
+                  ...(!['symptoms', 'diseases'].includes(page.id)
+                    ? (hubGroups[page.id] ?? []).map((g: { title: string }, i: number) => ({
+                        id: `directory-${i + 1}`,
+                        label: g.title,
+                      }))
+                    : []),
+                  ...page.blocks.map((b, i) => ({
+                    id: b.id ?? `section-${i + 1}`,
+                    label: b.heading,
+                  })),
+                  ...(page.questions.length
+                    ? [
+                        { id: 'questions', label: t.questions },
+                        ...page.questions.map((q, i) => ({
+                          id: questionAnchor(q, i),
+                          label: q.question,
+                          nested: true,
+                        })),
+                      ]
+                    : []),
+                  ...(page.id === 'fees'
+                    ? [{ id: 'fee-enquiry', label: '전화 문의 시 함께 확인할 항목' }]
+                    : []),
+                  ...(!['cases', 'notices'].includes(page.id) && page.sources.length
+                    ? [{ id: 'sources', label: t.sources }]
+                    : []),
+                ]}
+                related={select(page.related).map((p) => ({ url: href(p.path), title: p.title }))}
+              />
+            )}
             <article className="main-article">
               {page.id === 'visit' ? (
                 <VisitPage />
@@ -660,23 +816,13 @@ export function PageContent({ page }: { page: Page }) {
                 <div className="about-intro">
                   <ClinicPhoto />
                   <div className="values">
-                    <div>
-                      <span>01</span>
-                      <h2>진료를 이해하는 설명</h2>
-                      <p>검사의 목적과 준비, 결과를 살펴볼 때 필요한 정보를 함께 안내합니다.</p>
-                    </div>
-                    <div>
-                      <span>02</span>
-                      <h2>일상 가까이의 건강관리</h2>
-                      <p>
-                        내과 진료와 건강검진부터 심장·초음파·내시경 검사까지 확인할 수 있습니다.
-                      </p>
-                    </div>
-                    <div>
-                      <span>03</span>
-                      <h2>방문 전부터 편안하게</h2>
-                      <p>진료시간과 위치, 검사 예약·서류 준비를 미리 살펴보세요.</p>
-                    </div>
+                    {clinicValues.map((value, i) => (
+                      <div id={`value-${i + 1}`} key={value.title}>
+                        <span>{String(i + 1).padStart(2, '0')}</span>
+                        <h2>{value.title}</h2>
+                        <p>{value.text}</p>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
@@ -686,13 +832,10 @@ export function PageContent({ page }: { page: Page }) {
                     '심한 흉통·호흡곤란 또는 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을 요청하세요.'}
                 </p>
               )}
+              <HubDirectory page={page} />
               {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}
-              {/index|hub/.test(page.template) &&
-                !['doctors', 'cases', 'notices'].includes(page.id) && (
-                  <Cards icons={page.id !== 'health'} items={childrenFor(page)} />
-                )}
               {page.id === 'fees' && (
-                <div className="article-section">
+                <div className="article-section" id="fee-enquiry">
                   <h2>전화 문의 시 함께 확인할 항목</h2>
                   <ul className="check-list">
                     <li>검사 종류와 건강보험·검진 적용 여부</li>
@@ -705,6 +848,12 @@ export function PageContent({ page }: { page: Page }) {
                   </a>
                 </div>
               )}
+              {!hasToc && page.related.length > 0 && (
+                <nav className="plain-related" aria-label={t.related}>
+                  <strong>{t.related}</strong>
+                  <PageLinks ids={page.related} />
+                </nav>
+              )}
               {page.id !== 'search' && page.id !== 'sitemap' && (
                 <>
                   <ReviewAttribution page={page} />
@@ -712,32 +861,7 @@ export function PageContent({ page }: { page: Page }) {
                 </>
               )}
             </article>
-            {!isWide && (
-              <aside className="article-sidebar">
-                <div className="sidebar-box">
-                  <span className="eyebrow">{t.contents}</span>
-                  <nav aria-label={t.contents}>
-                    {page.blocks.map((b, i) => (
-                      <a href={`#${b.id ?? `section-${i + 1}`}`} key={b.heading}>
-                        {b.heading}
-                      </a>
-                    ))}
-                    {page.questions.length > 0 && <a href="#questions">{t.questions}</a>}
-                    {page.related.length > 0 && <a href="#related">{t.related}</a>}
-                  </nav>
-                  {!page.translationOf && <SidebarCta page={page} />}
-                </div>
-              </aside>
-            )}
           </div>
-          {page.related.length > 0 && (
-            <section className="section related-section" id="related">
-              <div className="container">
-                <SectionHeading eyebrow="RELATED INFORMATION" title="함께 보면 좋은 안내" />
-                <Cards items={select(page.related).slice(0, 6)} />
-              </div>
-            </section>
-          )}
         </>
       )}
     </>

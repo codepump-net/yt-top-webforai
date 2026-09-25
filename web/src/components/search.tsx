@@ -10,6 +10,7 @@ export type SearchItem = {
   text: string;
   headings?: string;
   detail?: boolean;
+  guideRole?: string;
   external?: boolean;
 };
 const subscribeToUrl = (callback: () => void) => {
@@ -23,10 +24,12 @@ export function Search({
   items,
   label = '궁금한 검사나 진료를 찾아보세요',
   filter = false,
+  alphabetical = false,
 }: {
   items: SearchItem[];
   label?: string;
   filter?: boolean;
+  alphabetical?: boolean;
 }) {
   const initialQuery = useSyncExternalStore(subscribeToUrl, queryFromUrl, emptyQuery);
   const [editedQuery, setQuery] = useState<string | null>(null);
@@ -75,11 +78,14 @@ export function Search({
         return { item, score };
       })
       .filter((result) => result !== null)
-      .sort((a, b) => b.score - a.score)
+      .sort(
+        (a, b) =>
+          b.score - a.score || (alphabetical ? a.item.title.localeCompare(b.item.title, 'ko') : 0),
+      )
       .map(({ item }) => item);
-  }, [items, query, category]);
+  }, [items, query, category, alphabetical]);
   return (
-    <div className="search-widget">
+    <div className={`search-widget ${alphabetical ? 'encyclopedia-search' : ''}`}>
       <label className="search-label" htmlFor="site-query">
         {label}
       </label>
@@ -91,7 +97,9 @@ export function Search({
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="예: 심장초음파, 내시경, 진료시간"
+          placeholder={
+            alphabetical ? '증상이나 질환 이름을 입력하세요' : '예: 심장초음파, 내시경, 진료시간'
+          }
           autoComplete="off"
           maxLength={120}
         />
@@ -113,6 +121,11 @@ export function Search({
       <noscript>
         <p className="notice-box">아래 전체 목록에서 필요한 안내를 선택할 수 있습니다.</p>
       </noscript>
+      {alphabetical && (
+        <p className="small">
+          전체 목록은 가나다순입니다. 검색하면 관련도가 높은 안내부터 보여드립니다.
+        </p>
+      )}
       <p className="result-count" role="status" aria-live="polite">
         {query ? `“${query}” 검색 결과 ` : '전체 '}
         {results.length}개
@@ -127,7 +140,10 @@ export function Search({
             rel={p.external ? 'noopener noreferrer' : undefined}
           >
             <div>
-              <span className="eyebrow">{p.category}</span>
+              <span className="eyebrow">
+                {p.category}
+                {p.guideRole ? ` · ${p.guideRole}` : ''}
+              </span>
               <h2>{p.title}</h2>
               <p>{p.description}</p>
               {p.external && (

@@ -5,10 +5,18 @@ import physicianData from '../../../content/physicians.json';
 import reviewData from '../../../content/reviews.json';
 import assetData from '../../../content/assets.json';
 import caseLinks from '../../../content/case-links.json';
+import { navigation, sectionId } from './information-architecture.mjs';
+export {
+  hubGroups,
+  hubIds,
+  patientEntrances,
+  sectionId,
+  siteMapGroups,
+} from './information-architecture.mjs';
 import { assetPath, absoluteUrl, jsonSafe } from './urls.mjs';
 import { resolveClinic, resolvePages } from './content-model.mjs';
 import { createStructuredData, childPages } from './structured-data.mjs';
-export { careOverviewIds, questionAnchor, siteMapCategories } from './structured-data.mjs';
+export { questionAnchor } from './structured-data.mjs';
 
 export type Source = {
   id?: string;
@@ -75,14 +83,8 @@ export const reviewFor = (page: Page) =>
   reviewMode
     ? undefined
     : (reviewData as ReviewRecord[]).find((r) => r.pageId === page.id && r.status === 'approved');
-export const nav = [
-  ['about', '병원 소개'],
-  ['doctors', '의료진'],
-  ['services', '진료·검사'],
-  ['checkups', '건강검진'],
-  ['health', '건강정보'],
-  ['visit', '오시는 길'],
-];
+export const nav = navigation;
+export const sectionFor = (page: Page) => pageById(sectionId(page))!;
 
 export function pageMetadata(page: Page): Metadata {
   const url = absolute(page.path);
@@ -145,7 +147,11 @@ export function breadcrumbs(page: Page) {
     const parent = pageByPath('/' + parts.slice(0, i).join('/') + '/');
     if (parent) ancestors.push(parent);
   }
-  return [pages[0], ...ancestors, ...(page.id === 'home' ? [] : [page])];
+  const section = sectionFor(page);
+  const parents = ancestors.filter((p) => !['health', section.id].includes(p.id));
+  return page.id === 'home'
+    ? [page]
+    : [pages[0], ...(section.id !== page.id ? [section] : []), ...parents, page];
 }
 
 export function structuredData(page: Page) {

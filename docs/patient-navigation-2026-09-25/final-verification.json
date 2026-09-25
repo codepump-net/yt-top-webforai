@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-09-25T14:35:02.641982+00:00",
+  "scope": "Final local editorial and trust review; no deployment, clinical sign-off, native-language sign-off or AI citation measurement.",
+  "checks": {
+    "contentValidation": "passed, 74 routes",
+    "lint": "passed",
+    "typecheck": "passed during both builds",
+    "unitTests": {
+      "passed": 59,
+      "failed": 0
+    },
+    "gitDiffCheck": "passed",
+    "rootAndProject": {
+      "root": {
+        "basePath": "",
+        "origin": "http://localhost:3000",
+        "mode": "review",
+        "builtAt": "2026-09-25T14:30:16.619Z",
+        "contentDigest": "3beec31baacbfceead3fb7478f77f7c1f8e94a3a7137c43f7d9f2a3a5e43cf37",
+        "routes": 74,
+        "staticAuditErrors": [],
+        "e2e": {
+          "startTime": "2026-09-25T14:30:36.242Z",
+          "duration": 39151.112,
+          "expected": 39,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      },
+      "project": {
+        "basePath": "/yt-top-webforai",
+        "origin": "https://codepump-net.github.io",
+        "mode": "review",
+        "builtAt": "2026-09-25T14:33:31.413Z",
+        "contentDigest": "3beec31baacbfceead3fb7478f77f7c1f8e94a3a7137c43f7d9f2a3a5e43cf37",
+        "routes": 74,
+        "staticAuditErrors": [],
+        "e2e": {
+          "startTime": "2026-09-25T14:33:54.851Z",
+          "duration": 38485.612,
+          "expected": 39,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      }
+    },
+    "productionGate": {
+      "expectedFailure": true,
+      "errors": [
+        "Publication confirmation scope differs from indexable pages",
+        "Publication confirmation requires approved content status",
+        "Stale publication confirmation: content, facts, or renderer changed"
+      ]
+    }
+  },
+  "sources": {
+    "routes": 74,
+    "uniqueReferences": 90,
+    "clinicReferenceUrls": 31,
+    "http200References": 80,
+    "alternateRetrievalReferences": 10,
+    "originalCaseLinks": 25
+  },
+  "screenshotsReviewed": [
+    "web/reports/final-review/doctor.png",
+    "web/reports/final-review/cancer.png",
+    "/tmp/yttop-review-pdfs/ksid-page1.png"
+  ],
+  "performance": "Not remeasured in this final editorial review; prior measurements remain in verification.json and are not claimed as fresh.",
+  "remaining": [
+    "220 manuscript set not located in supplied working tree",
+    "Clinic operational facts and current clinician credentials need owner confirmation; original clinic profile and supplied-manuscript implementation record differ",
+    "Edited medical guidance and five translations have no new clinician/native-language approval record"
+  ],
+  "contentSha256": "de1c390998f025724b9620210119f832b2040ec11dc92dc1ffa159db842e4d4a"
+}

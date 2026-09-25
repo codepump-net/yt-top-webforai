@@ -4,8 +4,8 @@ import { validateContent, pageDigest, sha256 } from '../../scripts/content-contr
 import { assetPath, absoluteUrl, normalizeBase, jsonSafe } from '../../src/lib/urls.mjs';
 const data = await loadContent();
 describe('Content and release contract', () => {
-  it('validates all 71 patient-purpose pages', () => {
-    expect(data.pages).toHaveLength(71);
+  it('validates all 74 patient-purpose pages', () => {
+    expect(data.pages).toHaveLength(74);
     expect(validateContent(data.pages, data)).toEqual([]);
   });
   it('blocks production without real reviews', () => {

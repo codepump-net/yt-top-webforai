@@ -6,6 +6,7 @@ const normalize = (s: string) => s.replace(/\s+/g, ' ').trim();
 test('every FAQ answer and collection URL in JSON-LD is available in patient HTML', async ({
   request,
 }) => {
+  const navigation = new Map<string, string[]>();
   for (const route of manifest.routes.filter((r: { id: string }) => r.id !== 'not-found')) {
     const response = await request.get(`http://127.0.0.1:3000${manifest.basePath}${route.path}`);
     const $ = load(await response.text());
@@ -27,6 +28,15 @@ test('every FAQ answer and collection URL in JSON-LD is available in patient HTM
         )
         .get(),
     );
+    navigation.set(
+      manifest.origin + manifest.basePath + route.path,
+      [...links].map((href) => {
+        const parsed = new URL(href);
+        parsed.hash = '';
+        parsed.search = '';
+        return parsed.href;
+      }),
+    );
     for (const list of graph.filter((n: { '@type': string }) => n['@type'] === 'ItemList'))
       for (const entry of list.itemListElement)
         expect(links.has(entry.item.url), `${route.path}: ${entry.item.url}`).toBe(true);
@@ -35,6 +45,23 @@ test('every FAQ answer and collection URL in JSON-LD is available in patient HTM
     expect(JSON.stringify(graph)).not.toMatch(
       /user-confirmed-publication|medicalReviewCompleted|publicationAuthorized/,
     );
+  }
+  // A patient guide must remain reachable through page links, even without search or a sitemap.
+  const reached = new Set<string>();
+  const queue = [manifest.origin + manifest.basePath + '/'];
+  while (queue.length) {
+    const current = queue.shift()!;
+    if (reached.has(current) || /\/(search|sitemap)\/$/.test(current)) continue;
+    reached.add(current);
+    queue.push(...(navigation.get(current) ?? []));
+  }
+  for (const route of manifest.routes.filter(
+    (r: { id: string }) => !['search', 'sitemap', 'not-found', 'privacy'].includes(r.id),
+  )) {
+    expect(
+      reached.has(manifest.origin + manifest.basePath + route.path),
+      `Guide unreachable without search: ${route.path}`,
+    ).toBe(true);
   }
 });
 test('SearchAction URL opens the requested search and remains editable', async ({ page }) => {
