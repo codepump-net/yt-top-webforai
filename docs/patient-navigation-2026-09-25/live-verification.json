@@ -1,0 +1,454 @@
+{
+  "checkedAt": "2026-09-25T14:45:31.902Z",
+  "site": "https://codepump-net.github.io/yt-top-webforai/",
+  "commit": "9fb460c85a41359ca79d36d0787e837636b346e8",
+  "mode": "review",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/404.html",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/cases/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/employment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/national/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/doctors/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/fees/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/cancer-support/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/endoscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/holter/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/sitemap/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/visit/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/examinations/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/civil-service/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/fever-during-cancer-treatment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/cancer-treatment-symptoms/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/abdominal-pain/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/respiratory-infections/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/vaccinations/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/influenza/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/covid-19/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/orafang-preparation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/plenvu-preparation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/after-endoscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/heart-valve-regurgitation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/angina-treatment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/chronic-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/gallstones/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/cancer-family-history/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/liver-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/colon-polyp-followup/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/thyroid-cancer-surveillance/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/obesity-medication/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/en/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/zh-hans/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/th/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/ru/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/ne/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/preparation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    }
+  ],
+  "failures": [],
+  "sitemapUrls": []
+}

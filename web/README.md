@@ -20,7 +20,7 @@ No API server or secret is needed. Images are already optimized and committed; r
 
 The app is a patient-facing hospital website operated alongside `yttop.co.kr`. Follow [the patient-content policy](../docs/patient-content-policy.ko.md) before adding pages or public copy. Current development scope: 74 routes (including five visa translations and three new navigation pages); 25 case links lead to the original hospital articles, and announcements use the existing board. See the [patient navigation implementation and final review](../docs/patient-navigation-2026-09-25/README.ko.md).
 
-Only `out/` is deployed. `reports/build-manifest.json` and `reports/planned-sitemap.xml` are internal build evidence. The preview server reads the manifest from `reports/`; `verify:live` also needs the matching CI build manifest there. Internal documentation, review records and planned output must never be copied into `out/`.
+Only `out/` is deployed. `reports/build-manifest.json` and `reports/planned-sitemap.xml` are internal build evidence. The preview server reads the manifest from `reports/`; `verify:live` also needs the matching CI build manifest there. Internal documentation, review records and planned output must never be copied into `out/`. The latest 74-route review deployment and live checks are recorded in the [2026-09-25 session summary](../docs/patient-navigation-2026-09-25/session-summary.ko.md).
 
 [전체 개발·운영 인수 문서](../docs/development-handoff.ko.md)
 

@@ -1,0 +1,297 @@
+{
+  "runId": 36149205568,
+  "runUrl": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36149205568",
+  "commit": "9fb460c85a41359ca79d36d0787e837636b346e8",
+  "mode": "review",
+  "unitTests": 59,
+  "harnessTests": 17,
+  "dependencyVulnerabilities": 0,
+  "layouts": {
+    "root": {
+      "basePath": "",
+      "origin": "https://codepump-net.github.io",
+      "builtAt": "2026-09-25T14:42:19.870Z",
+      "contentDigest": "3beec31baacbfceead3fb7478f77f7c1f8e94a3a7137c43f7d9f2a3a5e43cf37",
+      "content": {
+        "mode": "review",
+        "pages": 74,
+        "assets": 5,
+        "errors": []
+      },
+      "staticAudit": {
+        "mode": "review",
+        "routeCount": 74,
+        "publicFilesChecked": 443,
+        "maxJsGzip": 177702,
+        "maxCssGzip": 9662,
+        "errors": []
+      },
+      "e2e": {
+        "startTime": "2026-09-25T14:42:47.185Z",
+        "duration": 45223.616,
+        "expected": 39,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "performance": {
+        "mode": "review",
+        "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+        "errors": [],
+        "reports": [
+          {
+            "route": "/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2317.70275,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 27.5,
+              "first-contentful-paint": 912.9621999999999
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/services/heart/echocardiography/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2076.4754,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 61,
+              "first-contentful-paint": 765.4754
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/search/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2040.4877000000001,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 50,
+              "first-contentful-paint": 1215.4877
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/colonoscopy-preparation-questions/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2223.4005,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 61,
+              "first-contentful-paint": 912.4005
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/cancer-treatment-symptoms/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2218.2311999999997,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 57,
+              "first-contentful-paint": 911.2312
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/ne/checkups/visa/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2066.6956999999998,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 56,
+              "first-contentful-paint": 760.6957
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          }
+        ]
+      }
+    },
+    "project": {
+      "basePath": "/yt-top-webforai",
+      "origin": "https://codepump-net.github.io",
+      "builtAt": "2026-09-25T14:42:26.308Z",
+      "contentDigest": "3beec31baacbfceead3fb7478f77f7c1f8e94a3a7137c43f7d9f2a3a5e43cf37",
+      "content": {
+        "mode": "review",
+        "pages": 74,
+        "assets": 5,
+        "errors": []
+      },
+      "staticAudit": {
+        "mode": "review",
+        "routeCount": 74,
+        "publicFilesChecked": 443,
+        "maxJsGzip": 177766,
+        "maxCssGzip": 9662,
+        "errors": []
+      },
+      "e2e": {
+        "startTime": "2026-09-25T14:43:04.608Z",
+        "duration": 53489.296,
+        "expected": 39,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "performance": {
+        "mode": "review",
+        "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+        "errors": [],
+        "reports": [
+          {
+            "route": "/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2336.701125,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 36.5,
+              "first-contentful-paint": 912.1609000000001
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/services/heart/echocardiography/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2091.472,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 75,
+              "first-contentful-paint": 766.472
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/search/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2162.5661,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 74,
+              "first-contentful-paint": 1220.28305
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/colonoscopy-preparation-questions/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2236.4006,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 72,
+              "first-contentful-paint": 914.4005999999999
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/cancer-treatment-symptoms/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2252.4019,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 89,
+              "first-contentful-paint": 913.4019000000001
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/ne/checkups/visa/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2098.8900000000003,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 91.00000000000023,
+              "first-contentful-paint": 757.8900000000001
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-09-25T14:46:01.106Z",
+  "site": "https://codepump-net.github.io/yt-top-webforai",
+  "method": "Chromium against the deployed Pages URL; desktop 1440x900 and mobile 390x844; navigation interactions, noindex, image decoding, layout overflow and runtime errors.",
+  "checks": [
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "heading": "갑작스러운 내과 증상,위험도부터 살핍니다.",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "width": 1440,
+      "status": 200,
+      "heading": "심장초음파 검사",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": [],
+      "navigation": {
+        "leftContents": true,
+        "stickyTop": 110,
+        "anchorWorks": true,
+        "category": "검사·시술",
+        "repeatedRelatedCards": 0
+      }
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "width": 390,
+      "status": 200,
+      "heading": "심장초음파 검사",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": [],
+      "navigation": {
+        "collapsibleContents": true,
+        "preparationLinkWorks": true
+      }
+    },
+    {
+      "path": "/symptoms/",
+      "width": 390,
+      "status": 200,
+      "heading": "증상백과",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/diseases/",
+      "width": 390,
+      "status": 200,
+      "heading": "질환백과",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": [],
+      "navigation": {
+        "filterWorks": true,
+        "searchWorks": true,
+        "resultLinkWorks": true
+      }
+    },
+    {
+      "path": "/preparation/",
+      "width": 390,
+      "status": 200,
+      "heading": "검사 준비와 검사 후 관리",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/health/cancer-treatment-symptoms/",
+      "width": 390,
+      "status": 200,
+      "heading": "암 치료 중 증상별 대처와 위험 신호",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    },
+    {
+      "path": "/ne/checkups/visa/",
+      "width": 390,
+      "status": 200,
+      "heading": "E-2, F-2, H-2 भिसा स्वास्थ्य परीक्षण र क्षयरोग प्रमाणपत्र",
+      "robots": "noindex, follow",
+      "overflow": false,
+      "failedImages": [],
+      "errors": []
+    }
+  ]
+}
