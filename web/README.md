@@ -20,7 +20,7 @@ No API server or secret is needed. Images are already optimized and committed; r
 
 The app is a patient-facing hospital website operated alongside `yttop.co.kr`. Follow [the patient-content policy](../docs/patient-content-policy.ko.md) before adding pages or public copy. Current development scope: 94 routes (including five visa translations, three navigation pages and 20 cardiovascular disease articles); 25 case links lead to the original hospital articles, and announcements use the existing board. See the [patient navigation implementation and final review](../docs/patient-navigation-2026-09-25/README.ko.md).
 
-Only `out/` is deployed. `reports/build-manifest.json` and `reports/planned-sitemap.xml` are internal build evidence. The preview server reads the manifest from `reports/`; `verify:live` also needs the matching CI build manifest there. Internal documentation, review records and planned output must never be copied into `out/`. The latest 74-route review deployment and live checks are recorded in the [2026-09-25 session summary](../docs/patient-navigation-2026-09-25/session-summary.ko.md).
+Only `out/` is deployed. `reports/build-manifest.json` and `reports/planned-sitemap.xml` are internal build evidence. The preview server reads the manifest from `reports/`; `verify:live` also needs the matching CI build manifest there. Internal documentation, review records and planned output must never be copied into `out/`. The latest 94-route review deployment and live checks are recorded in the [2026-09-27 deployment record](../docs/director-content-review-2026-09-26/deployment.ko.md).
 
 [전체 개발·운영 인수 문서](../docs/development-handoff.ko.md)
 
@@ -30,4 +30,4 @@ Only `out/` is deployed. `reports/build-manifest.json` and `reports/planned-site
 
 [2026-09-25 원장님 원고 기반 개편](../docs/director-content-review-2026-09-25/implementation.ko.md): 21 new Korean guides, five visa translations, six-language static metadata and reciprocal hreflang. The previous production approval does not cover this edited content. `measure:conversations` evaluates recorded multi-turn observations; no real exposure result is claimed. Performance checks include the long cancer guide and Nepali visa page; pass a route such as `/` to recheck only that route.
 
-[2026-09-26 콘텐츠 업데이트](../docs/director-content-review-2026-09-26/implementation.ko.md): 20편·FAQ 60개 추가, 영문 URL 유지, 검사 정보·공통 안내·백과 분류 개선. 로컬 review 빌드이며 현재 배포 사이트를 변경한 기록은 아닙니다.
+[2026-09-26 콘텐츠 업데이트](../docs/director-content-review-2026-09-26/implementation.ko.md): 20편·FAQ 60개 추가, 영문 URL 유지, 검사 정보·공통 안내·백과 분류 개선. 2026-09-27 기존 Pages에 review 모드로 배포하고 94개 경로를 검증했습니다.
