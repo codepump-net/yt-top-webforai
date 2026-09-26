@@ -1,0 +1,117 @@
+{
+  "node": "24.21.0",
+  "content": {
+    "pages": 94,
+    "assets": 5,
+    "errors": []
+  },
+  "unitTests": {
+    "passed": 64,
+    "failed": 0
+  },
+  "harness": {
+    "passed": 17,
+    "failed": 0,
+    "python": "python3"
+  },
+  "lint": "passed",
+  "typecheck": "passed",
+  "root": {
+    "staticRoutes": 94,
+    "staticErrors": [],
+    "browser": {
+      "startTime": "2026-09-26T14:51:39.519Z",
+      "duration": 44543.546,
+      "expected": 44,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "deployed": false,
+  "projectPath": {
+    "basePath": "/yt-top-webforai",
+    "origin": "https://codepump-net.github.io",
+    "staticRoutes": 94,
+    "staticErrors": [],
+    "browser": {
+      "startTime": "2026-09-26T14:52:57.414Z",
+      "duration": 44169.509,
+      "expected": 44,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "output": {
+    "mode": "review",
+    "routes": 94,
+    "publicXmlUrls": 0,
+    "noindex": true
+  },
+  "visualReview": [
+    "Mobile article heading and contents",
+    "Expanded article footer",
+    "Desktop disease directory and counts",
+    "Desktop directory with accessible category counts",
+    "Mobile empty category and result count",
+    "Mobile visa visit information"
+  ],
+  "performance": {
+    "mode": "review",
+    "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+    "errors": [],
+    "reports": [
+      {
+        "route": "/diseases/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 2015.5720000000001,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 54,
+          "first-contentful-paint": 1060.572
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/diseases/cardio/heart-failure/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 66
+        },
+        "metrics": {
+          "largest-contentful-paint": 1879.5423999999998,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 46,
+          "first-contentful-paint": 904.5424
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      }
+    ]
+  },
+  "completedAt": "2026-09-26T14:54:39.542147+00:00",
+  "manuscriptComparison": {
+    "articles": 20,
+    "faqQuestionsAndAnswersMatched": 60,
+    "missingFaq": 0
+  },
+  "reviewCorrections": [
+    "Category visible and accessible labels match, including counts",
+    "Selected category and empty category messages are accurate",
+    "Introductory definitions included in search",
+    "Six visa visit guides include complete operational notices",
+    "Closed clinic disclosures print and restore their original state",
+    "Myocarditis sentence particle corrected"
+  ]
+}

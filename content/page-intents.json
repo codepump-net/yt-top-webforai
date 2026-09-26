@@ -368,5 +368,105 @@
     "id": "preparation",
     "path": "/preparation/",
     "patientNeed": "예약한 검사와 준비약 이름을 확인하고 해당 안내를 선택하세요. 복용약 조절과 금식은 병원에서 받은 개인별 지침을 우선합니다."
+  },
+  {
+    "id": "cardio-hypertension",
+    "path": "/diseases/cardio/hypertension/",
+    "patientNeed": "고혈압의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-dyslipidemia",
+    "path": "/diseases/cardio/dyslipidemia/",
+    "patientNeed": "이상지질혈증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-atherosclerosis",
+    "path": "/diseases/cardio/atherosclerosis/",
+    "patientNeed": "죽상경화증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-stable-angina",
+    "path": "/diseases/cardio/stable-angina/",
+    "patientNeed": "안정형 협심증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-acute-myocardial-infarction",
+    "path": "/diseases/cardio/acute-myocardial-infarction/",
+    "patientNeed": "급성 심근경색의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-heart-failure",
+    "path": "/diseases/cardio/heart-failure/",
+    "patientNeed": "심부전의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-atrial-fibrillation",
+    "path": "/diseases/cardio/atrial-fibrillation/",
+    "patientNeed": "심방세동의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-supraventricular-tachycardia",
+    "path": "/diseases/cardio/supraventricular-tachycardia/",
+    "patientNeed": "발작성 상심실성 빈맥의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-premature-ventricular-contractions",
+    "path": "/diseases/cardio/premature-ventricular-contractions/",
+    "patientNeed": "심실조기수축의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-bradyarrhythmia",
+    "path": "/diseases/cardio/bradyarrhythmia/",
+    "patientNeed": "서맥성 부정맥의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-mitral-regurgitation",
+    "path": "/diseases/cardio/mitral-regurgitation/",
+    "patientNeed": "승모판 역류의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-aortic-stenosis",
+    "path": "/diseases/cardio/aortic-stenosis/",
+    "patientNeed": "대동맥판 협착의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-myocarditis",
+    "path": "/diseases/cardio/myocarditis/",
+    "patientNeed": "심근염의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-pericarditis",
+    "path": "/diseases/cardio/pericarditis/",
+    "patientNeed": "심낭염의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-dilated-cardiomyopathy",
+    "path": "/diseases/cardio/dilated-cardiomyopathy/",
+    "patientNeed": "확장성 심근병증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-carotid-stenosis",
+    "path": "/diseases/cardio/carotid-stenosis/",
+    "patientNeed": "경동맥 협착증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-peripheral-artery-disease",
+    "path": "/diseases/cardio/peripheral-artery-disease/",
+    "patientNeed": "말초동맥질환의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-deep-vein-thrombosis",
+    "path": "/diseases/cardio/deep-vein-thrombosis/",
+    "patientNeed": "심부정맥혈전증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-aortic-aneurysm-dissection",
+    "path": "/diseases/cardio/aortic-aneurysm-dissection/",
+    "patientNeed": "대동맥류·대동맥박리의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "cardio-orthostatic-hypotension",
+    "path": "/diseases/cardio/orthostatic-hypotension/",
+    "patientNeed": "기립성 저혈압의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
   }
 ]

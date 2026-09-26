@@ -101,10 +101,10 @@ test('local search, empty state, category and reset', async ({ page }) => {
   await page.getByLabel('궁금한 검사나 진료를 찾아보세요').fill('없는검색어xxxxxxxx');
   await expect(page.getByRole('heading', { name: '검색 결과가 없습니다.' })).toBeVisible();
   await page.getByRole('button', { name: '전체 목록 보기' }).click();
-  await page.getByRole('button', { name: '건강정보', exact: true }).click();
   const healthCount = JSON.parse(fs.readFileSync('../content/pages.json', 'utf8')).filter(
     (p: { category: string; indexable: boolean }) => p.category === '건강정보' && p.indexable,
   ).length;
+  await page.getByRole('button', { name: `건강정보 ${healthCount}개`, exact: true }).click();
   await expect(page.locator('.result-card')).toHaveCount(healthCount);
   expect(externalRequests).toEqual([]);
 });

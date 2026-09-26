@@ -1,4 +1,47 @@
 // Shared navigation, visible hub lists and JSON-LD use the same editorial grouping.
+import categories from '../../../content/encyclopedia-categories.json' with { type: 'json' };
+export const cardiovascularIds = [
+  'hypertension',
+  'dyslipidemia',
+  'atherosclerosis',
+  'stable-angina',
+  'acute-myocardial-infarction',
+  'heart-failure',
+  'atrial-fibrillation',
+  'supraventricular-tachycardia',
+  'premature-ventricular-contractions',
+  'bradyarrhythmia',
+  'mitral-regurgitation',
+  'aortic-stenosis',
+  'myocarditis',
+  'pericarditis',
+  'dilated-cardiomyopathy',
+  'carotid-stenosis',
+  'peripheral-artery-disease',
+  'deep-vein-thrombosis',
+  'aortic-aneurysm-dissection',
+  'orthostatic-hypotension',
+].map((slug) => `cardio-${slug}`);
+const symptomMembers = {
+  cardiovascular: ['palpitations-followup'],
+  'upper-gi-abdominal-pain': ['abdominal-pain'],
+  'respiratory-infection': ['chronic-cough'],
+  'cancer-treatment': ['cancer-treatment-symptoms', 'fever-during-cancer-treatment'],
+};
+const diseaseMembers = {
+  digestive: ['gallstones', 'liver-disease', 'colon-polyp-followup'],
+  'respiratory-infection': ['influenza', 'covid-19'],
+  cardiovascular: cardiovascularIds,
+  'cancer-family-history': ['cancer-family-history'],
+  'endocrine-metabolic-thyroid': ['obesity-medication', 'thyroid-cancer-surveillance'],
+};
+const directoryGroups = (list, members) =>
+  list.map((c) => ({
+    id: c.id,
+    title: c.label,
+    aliases: c.aliases,
+    ids: members[c.id] ?? [],
+  }));
 export const navigation = [
   ['symptoms', '증상백과'],
   ['diseases', '질환백과'],
@@ -32,29 +75,8 @@ export const patientEntrances = [
 ];
 /** @type {Record<string, {title: string, ids: string[]}[]>} */
 export const hubGroups = {
-  symptoms: [
-    { title: '심장·혈관', ids: ['acute-care', 'heart-disease', 'palpitations-followup'] },
-    { title: '소화기·급성 복통', ids: ['abdominal-pain'] },
-    { title: '호흡기·감염', ids: ['chronic-cough', 'respiratory-infections'] },
-    {
-      title: '암 치료 중 증상',
-      ids: ['cancer-treatment-symptoms', 'fever-during-cancer-treatment'],
-    },
-    { title: '간·대사', ids: ['liver-disease', 'chronic-disease'] },
-  ],
-  diseases: [
-    { title: '심장·혈관', ids: ['heart-disease', 'angina-treatment', 'heart-valve-regurgitation'] },
-    { title: '소화기·간', ids: ['gallstones', 'liver-disease', 'colon-polyp-followup'] },
-    {
-      title: '호흡기·감염',
-      ids: ['respiratory-infections', 'influenza', 'covid-19', 'chronic-cough'],
-    },
-    {
-      title: '내분비·대사·갑상선',
-      ids: ['chronic-disease', 'obesity-medication', 'thyroid-cancer-surveillance'],
-    },
-    { title: '암과 가족력', ids: ['cancer-family-history', 'cancer-treatment-symptoms'] },
-  ],
+  symptoms: directoryGroups(categories.symptomCategories, symptomMembers),
+  diseases: directoryGroups(categories.diseaseCategories, diseaseMembers),
   conditions: [
     { title: '심장·부정맥', ids: ['heart-disease', 'acute-care'] },
     { title: '소화기·간', ids: ['abdominal-pain', 'liver-disease'] },
@@ -132,10 +154,34 @@ export const hubGroups = {
 export function hubIds(id) {
   return [...new Set((hubGroups[id] ?? []).flatMap((group) => group.ids))];
 }
+export function directoryTerms(id) {
+  return ['symptoms', 'diseases'].flatMap((hub) =>
+    hubGroups[hub]
+      .filter((g) => g.ids.includes(id))
+      .flatMap((g) => [g.title, ...(g.aliases ?? [])]),
+  );
+}
+export function guideRole(id) {
+  if (cardiovascularIds.includes(id)) return '질환 설명';
+  if (
+    [
+      'liver-disease',
+      'colon-polyp-followup',
+      'obesity-medication',
+      'cancer-family-history',
+    ].includes(id)
+  )
+    return '관련 해설';
+  if (hubIds('symptoms').includes(id)) return '증상 안내';
+  if (hubIds('diseases').includes(id)) return '질환 안내';
+  return undefined;
+}
 export function sectionId(page) {
   if (navigation.some(([id]) => id === page.id)) return page.id;
   if (['cancer-treatment-symptoms', 'fever-during-cancer-treatment'].includes(page.id))
     return 'cancer-support';
+  if (page.path.startsWith('/diseases/')) return 'diseases';
+  if (hubIds('symptoms').includes(page.id)) return 'symptoms';
   if (
     ['health', 'preparation', 'heart-test-differences'].includes(page.id) ||
     (hubIds('preparation').includes(page.id) && page.path.startsWith('/health/'))

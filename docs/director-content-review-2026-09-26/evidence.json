@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-26",
+  "scope": "Read-only source/content comparison and internal planning documents; no public content or deployment changes",
+  "sources": [
+    {
+      "path": "plan/01_공통_하단_안내문_및_적용규칙.md",
+      "bytes": 2654,
+      "sha256": "7392c84b8a2414958cdabb6b5e971bc50b4b801fffe0af173eb6c38bb0656362"
+    },
+    {
+      "path": "plan/02_백과_카테고리_설정.json",
+      "bytes": 2178,
+      "sha256": "8395a6f756ac29c2ecdc85ccf02092c16d0fdd328aed53e6c737219e52f39718"
+    },
+    {
+      "path": "plan/03_작업7-10_블로그_통합반영안.md",
+      "bytes": 3951,
+      "sha256": "3a1d73017c8587fa8f2d0ebb006ce8d098f8f63f389a9bf7270a7facd26e8cc8"
+    },
+    {
+      "path": "plan/04_심장혈관_20편_게시목록.md",
+      "bytes": 4582,
+      "sha256": "1dd0485ae17ac4f10994ea95177f18438e50dc94ee08e6b2e25a3ac47142d994"
+    },
+    {
+      "path": "plan/영통탑내과_독립질환백과_심장_혈관_20편.docx",
+      "bytes": 65686,
+      "sha256": "a88b2bec37c3b8d73d385704aa5d31201b3d76f83917d367bbeaa3571285be18"
+    }
+  ],
+  "current": {
+    "routeCount": 74,
+    "symptomDirectoryEntries": 10,
+    "diseaseDirectoryEntries": 15,
+    "symptomCategories": [
+      "심장·혈관",
+      "소화기·급성 복통",
+      "호흡기·감염",
+      "암 치료 중 증상",
+      "간·대사"
+    ],
+    "diseaseCategories": [
+      "심장·혈관",
+      "소화기·간",
+      "호흡기·감염",
+      "내분비·대사·갑상선",
+      "암과 가족력"
+    ],
+    "namedReviewRecords": 0,
+    "contentFiles": [
+      {
+        "path": "content/pages.json",
+        "sha256": "de1c390998f025724b9620210119f832b2040ec11dc92dc1ffa159db842e4d4a"
+      },
+      {
+        "path": "content/clinic.json",
+        "sha256": "4576ff2e617b46785b8f6af7914a2de37a38277d63ba44cbadfb0714d5755f0b"
+      },
+      {
+        "path": "content/page-intents.json",
+        "sha256": "f326fb507a724cb9214662782328fef2e5c4b42f7c4015eff7de26c722e589c5"
+      },
+      {
+        "path": "content/reviews.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      }
+    ]
+  },
+  "manuscript": {
+    "extraction": "macOS textutil, read-only full-text review; no DOCX layout/render QA performed",
+    "articleCount": 20,
+    "faqCount": 60,
+    "internalProcessParagraphCount": 20,
+    "manuscriptReviewDate": "2026-09-25",
+    "integrationRequestedReviewDate": "2026-09-26",
+    "reviewAttributionInManuscript": "박종설 원장, 내과 전문의",
+    "namedFinalWebReviewRecorded": false,
+    "postingListMatchesDocxUrls": true,
+    "allProposedUrlsAbsentFromCurrentPages": true,
+    "urls": [
+      "/diseases/cardio/고혈압/",
+      "/diseases/cardio/이상지질혈증/",
+      "/diseases/cardio/죽상경화증/",
+      "/diseases/cardio/안정형-협심증/",
+      "/diseases/cardio/급성-심근경색/",
+      "/diseases/cardio/심부전/",
+      "/diseases/cardio/심방세동/",
+      "/diseases/cardio/발작성-상심실성-빈맥/",
+      "/diseases/cardio/심실조기수축/",
+      "/diseases/cardio/서맥성-부정맥/",
+      "/diseases/cardio/승모판-역류/",
+      "/diseases/cardio/대동맥판-협착/",
+      "/diseases/cardio/심근염/",
+      "/diseases/cardio/심낭염/",
+      "/diseases/cardio/확장성-심근병증/",
+      "/diseases/cardio/경동맥-협착증/",
+      "/diseases/cardio/말초동맥질환/",
+      "/diseases/cardio/심부정맥혈전증/",
+      "/diseases/cardio/대동맥류-대동맥박리/",
+      "/diseases/cardio/기립성-저혈압/"
+    ]
+  },
+  "liveSamples": [
+    {
+      "url": "https://codepump-net.github.io/yt-top-webforai/diseases/",
+      "retrieval": "curl HTTP success",
+      "sha256": "3e8ca15b361f89b3fc3e6f47de35bce8dfe1efc50e023d5a4384aaeeeced1f64",
+      "observations": [
+        "15 listed entries",
+        "noindex, follow",
+        "no /diseases/cardio/ links"
+      ]
+    },
+    {
+      "url": "https://codepump-net.github.io/yt-top-webforai/services/heart/cardiac-markers/",
+      "retrieval": "curl HTTP success",
+      "sha256": "7f86cde24ef715ed290f98fa5653d7b5e49f13e436e32043753250a1e418d743",
+      "observations": [
+        "Existing CK-MB/BNP/NT-proBNP not immediate in-house test wording present",
+        "Troponin I approximately 20 minutes present",
+        "Troponin T, CPK, D-dimer, CART BP Pro absent"
+      ]
+    }
+  ],
+  "validation": {
+    "command": "npm run content:validate",
+    "cwd": "web",
+    "mode": "review",
+    "result": "passed",
+    "pages": 74,
+    "assets": 5,
+    "node": "v26.8.2",
+    "requiredImplementationNode": "24.x",
+    "proposedRouteCount": 94,
+    "mappingHasAll20Urls": true,
+    "mappedExistingRoutesResolve": true,
+    "buildRun": false,
+    "fullBrowserSuiteRun": false,
+    "deployed": false
+  },
+  "medicalReferenceSpotChecks": [
+    {
+      "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack",
+      "purpose": "Emergency wording planning only"
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/troponin-test/",
+      "purpose": "Preserve initial-result limitations; not approval of all manuscripts"
+    }
+  ]
+}

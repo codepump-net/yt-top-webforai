@@ -12,10 +12,12 @@ export function PrintQuestions() {
       original.clear();
     };
     const expand = () => {
-      document.querySelectorAll<HTMLDetailsElement>('.qa-list details').forEach((element) => {
-        if (!original.has(element)) original.set(element, element.open);
-        element.open = true;
-      });
+      document
+        .querySelectorAll<HTMLDetailsElement>('.qa-list details, .article-clinic')
+        .forEach((element) => {
+          if (!original.has(element)) original.set(element, element.open);
+          element.open = true;
+        });
     };
     window.addEventListener('beforeprint', expand);
     window.addEventListener('afterprint', restore);

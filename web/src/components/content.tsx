@@ -28,12 +28,16 @@ import {
   questionAnchor,
   siteMapGroups,
   languageVersions,
+  directoryTerms,
+  guideRole,
 } from '@/lib/site';
 import { languageNames, pageLabels } from '@/lib/languages';
 import caseLinks from '../../../content/case-links.json';
 import { ArticleNavigation } from './article-navigation';
 import { VisitInfo } from './chrome';
 import { Search, type SearchItem } from './search';
+import { ArticleFooter } from './article-footer';
+import { articleGuidance, guidanceLabels } from '@/lib/article-guidance.mjs';
 
 const iconSet = [HeartPulse, ScanLine, Waves, ClipboardCheck, Stethoscope, Activity];
 export function Cards({ items, icons = false }: { items: Page[]; icons?: boolean }) {
@@ -302,15 +306,6 @@ function HubDirectory({ page }: { page: Page }) {
   if (['symptoms', 'diseases'].includes(page.id)) {
     const items = searchItems(childrenFor(page)).map((item) => ({
       ...item,
-      guideRole: [
-        'heart-disease',
-        'respiratory-infections',
-        'chronic-disease',
-        'liver-disease',
-        'cancer-treatment-symptoms',
-      ].some((id) => href(pageById(id)!.path) === item.url)
-        ? '분야 안내'
-        : '세부 안내',
       category: groups.find((group: { ids: string[] }) =>
         group.ids.some((id: string) => href(pageById(id)!.path) === item.url),
       )!.title,
@@ -320,6 +315,7 @@ function HubDirectory({ page }: { page: Page }) {
         items={items}
         filter
         alphabetical
+        categories={groups.map((g: { title: string }) => g.title)}
         label={page.id === 'symptoms' ? '어떤 증상이 불편하신가요?' : '어떤 질환이 궁금하신가요?'}
       />
     );
@@ -345,10 +341,14 @@ function searchItems(items: Page[]): SearchItem[] {
     title: p.title,
     description: p.description,
     category: p.category,
+    aliases: directoryTerms(p.id).join(' '),
+    guideRole: guideRole(p.id),
     url: href(p.path),
     headings: [...p.blocks.map((b) => b.heading), ...p.questions.map((q) => q.question)].join(' '),
     detail: /detail$/.test(p.template),
     text:
+      p.intro +
+      ' ' +
       p.blocks
         .map(
           (b) =>
@@ -769,6 +769,16 @@ export function PageContent({ page }: { page: Page }) {
                   ...(page.id === 'fees'
                     ? [{ id: 'fee-enquiry', label: '전화 문의 시 함께 확인할 항목' }]
                     : []),
+                  ...(articleGuidance(page).enabled
+                    ? [
+                        {
+                          id: 'article-guidance-title',
+                          label:
+                            guidanceLabels[(page.language ?? 'ko') as keyof typeof guidanceLabels]
+                              .title,
+                        },
+                      ]
+                    : []),
                   ...(!['cases', 'notices'].includes(page.id) && page.sources.length
                     ? [{ id: 'sources', label: t.sources }]
                     : []),
@@ -856,6 +866,7 @@ export function PageContent({ page }: { page: Page }) {
               )}
               {page.id !== 'search' && page.id !== 'sitemap' && (
                 <>
+                  <ArticleFooter page={page} />
                   <ReviewAttribution page={page} />
                   {!['cases', 'notices'].includes(page.id) && <Sources page={page} />}
                 </>

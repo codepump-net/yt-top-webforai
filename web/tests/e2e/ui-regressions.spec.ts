@@ -133,7 +133,7 @@ test('printing includes closed answers and restores the original disclosure stat
   browser,
 }) => {
   await page.goto(url('/health/colonoscopy-preparation-questions/'));
-  const details = page.locator('.qa-list details');
+  const details = page.locator('.qa-list details, .article-clinic');
   const original = await details.evaluateAll((els) =>
     els.map((el) => (el as HTMLDetailsElement).open),
   );
@@ -156,7 +156,7 @@ test('printing includes closed answers and restores the original disclosure stat
   await noJs.emulateMedia({ media: 'print' });
   expect(
     await noJs
-      .locator('.qa-list details > p')
+      .locator('.qa-list details > p, .article-clinic > p')
       .evaluateAll((els) => els.every((el) => el.checkVisibility())),
   ).toBe(true);
   await context.close();

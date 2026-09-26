@@ -49,10 +49,10 @@
       "value": "휴진"
     }
   ],
-  "hoursNote": "평일 점심시간에는 접수만 가능하며 진료·채혈·검사·처치는 하지 않습니다. 토요일은 점심시간 없이 진료합니다. 진료 상황에 따라 접수가 일찍 마감될 수 있습니다.",
+  "hoursNote": "평일 점심시간에는 접수만 가능하며 진료·채혈·검사·처치는 하지 않습니다. 토요일은 점심시간 없이 진료합니다. 중증·응급환자 진료 상황에 따라 접수가 조기에 마감될 수 있습니다.",
   "bookingNote": "심장초음파·홀터검사는 전화로 예약합니다. 평일 오후 5시 이후 방문은 미리 전화해 주세요.",
   "parkingNote": "건물 지하주차장을 이용할 수 있습니다. 주차 지원 조건은 접수 시 확인해 주세요.",
-  "sourceCheckedAt": "2026-09-25",
+  "sourceCheckedAt": "2026-09-26",
   "operationsReview": null,
   "addressLabels": {
     "en": "Room 609, 6th floor, Mangpo Station Forest Square, 1478 Deogyeong-daero, Yeongtong-gu, Suwon",

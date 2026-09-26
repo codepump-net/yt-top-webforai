@@ -108,7 +108,7 @@ export function Footer() {
           </div>
         </div>
       </footer>
-      <div className="mobile-contact">
+      <nav className="mobile-contact" aria-label="빠른 진료·방문 안내">
         <a href={phoneHref}>
           <Phone size={18} /> 전화 문의
         </a>
@@ -118,7 +118,7 @@ export function Footer() {
         <a href={href('/preparation/')}>
           <ClipboardCheck size={18} /> 검사 준비
         </a>
-      </div>
+      </nav>
     </>
   );
 }

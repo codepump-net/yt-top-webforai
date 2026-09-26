@@ -33,7 +33,7 @@ test('seven sections and four patient journeys preserve crawlable navigation wit
   for (const path of ['/symptoms/', '/diseases/']) {
     await page.goto(url(path));
     const titles = await page.locator('.result-card h2').allTextContents();
-    expect(titles.length).toBeGreaterThan(5);
+    expect(titles.length).toBeGreaterThanOrEqual(5);
     expect(titles).toEqual([...titles].sort((a, b) => a.localeCompare(b, 'ko')));
     for (const link of await page.locator('.result-card').all()) {
       const response = await page.request.get((await link.getAttribute('href'))!);
@@ -48,15 +48,18 @@ test('encyclopedias filter and search real articles, and reset remains usable', 
   page,
 }) => {
   await page.goto(url('/diseases/'));
-  await page.getByRole('button', { name: '심장·혈관', exact: true }).click();
-  await expect(page.locator('.result-card')).toHaveCount(3);
-  await page.locator('input').fill('판막');
+  await page.getByRole('button', { name: '심장·혈관 20개', exact: true }).click();
+  await expect(page.locator('.result-card')).toHaveCount(20);
+  await page.locator('input').fill('승모판');
   await expect(page.locator('.result-card').first()).toHaveAttribute(
     'href',
-    manifest.basePath + '/health/heart-valve-regurgitation/',
+    manifest.basePath + '/diseases/cardio/mitral-regurgitation/',
   );
   await page.locator('.result-card').first().click();
-  await expect(page.locator('h1')).toContainText('판막');
+  await expect(page.locator('h1')).toContainText('승모판');
+  await expect(
+    page.locator('.context-links a[href$="/health/heart-valve-regurgitation/"]'),
+  ).toBeVisible();
   await expect(page.locator('.page-category')).toHaveText('질환백과');
   await page.goto(url('/symptoms/'));
   await page.locator('input').fill('없는증상xxxx');

@@ -4,8 +4,8 @@ import { validateContent, pageDigest, sha256 } from '../../scripts/content-contr
 import { assetPath, absoluteUrl, normalizeBase, jsonSafe } from '../../src/lib/urls.mjs';
 const data = await loadContent();
 describe('Content and release contract', () => {
-  it('validates all 74 patient-purpose pages', () => {
-    expect(data.pages).toHaveLength(74);
+  it('validates all 94 patient-purpose pages', () => {
+    expect(data.pages).toHaveLength(94);
     expect(validateContent(data.pages, data)).toEqual([]);
   });
   it('blocks production without real reviews', () => {
@@ -31,8 +31,10 @@ describe('Content and release contract', () => {
     expect(validateContent(pages, data).some((e) => e.includes('future publication'))).toBe(true);
   });
   it('compares calendar dates in Korean time at the UTC day boundary', () => {
-    expect(validateContent(data.pages, { ...data, now: new Date('2026-09-24T16:00:00Z') })).toEqual(
-      [],
+    const pages = data.pages.map((p) => ({ ...p, updatedAt: '2026-09-25' }));
+    expect(validateContent(pages, { ...data, now: new Date('2026-09-24T16:00:00Z') })).toEqual([]);
+    expect(validateContent(pages, { ...data, now: new Date('2026-09-24T14:59:00Z') })).toContain(
+      'home: future modified date',
     );
   });
   it('rejects missing image references', () => {
@@ -80,6 +82,7 @@ describe('Content and release contract', () => {
       ...structuredClone(data.pages.find((p) => p.id === 'echocardiography')),
       related: [],
       reviewStatus: 'approved',
+      updatedAt: '2026-09-11',
     };
     for (const item of [...p.blocks, ...p.questions]) item.links = [];
     const { operationsReview: ignored, ...facts } = data.clinic;

@@ -12,6 +12,7 @@ export type SearchItem = {
   detail?: boolean;
   guideRole?: string;
   external?: boolean;
+  aliases?: string;
 };
 const subscribeToUrl = (callback: () => void) => {
   window.addEventListener('popstate', callback);
@@ -25,18 +26,20 @@ export function Search({
   label = '궁금한 검사나 진료를 찾아보세요',
   filter = false,
   alphabetical = false,
+  categories: orderedCategories,
 }: {
   items: SearchItem[];
   label?: string;
   filter?: boolean;
   alphabetical?: boolean;
+  categories?: string[];
 }) {
   const initialQuery = useSyncExternalStore(subscribeToUrl, queryFromUrl, emptyQuery);
   const [editedQuery, setQuery] = useState<string | null>(null);
   const query = editedQuery ?? initialQuery;
   const [category, setCategory] = useState('전체');
   const input = useRef<HTMLInputElement>(null);
-  const categories = ['전체', ...new Set(items.map((p) => p.category))];
+  const categories = ['전체', ...(orderedCategories ?? [...new Set(items.map((p) => p.category))])];
   const results = useMemo(() => {
     const normalize = (value: string) =>
       value.normalize('NFKC').toLocaleLowerCase('ko').trim().replace(/\s+/g, ' ');
@@ -49,7 +52,9 @@ export function Search({
           description = normalize(item.description);
         const text = normalize(item.text);
         const headings = normalize(item.headings ?? '');
-        if (!words.every((word) => `${title} ${description} ${text}`.includes(word))) return null;
+        const terms = normalize(`${item.category} ${item.aliases ?? ''}`);
+        if (!words.every((word) => `${title} ${description} ${text} ${terms}`.includes(word)))
+          return null;
         let score = 0;
         if (phrase) {
           score =
@@ -113,7 +118,10 @@ export function Search({
               aria-pressed={category === c}
               onClick={() => setCategory(c)}
             >
-              {c}
+              {c}{' '}
+              <span className="filter-count">
+                {c === '전체' ? items.length : items.filter((p) => p.category === c).length}개
+              </span>
             </button>
           ))}
         </div>
@@ -127,7 +135,8 @@ export function Search({
         </p>
       )}
       <p className="result-count" role="status" aria-live="polite">
-        {query ? `“${query}” 검색 결과 ` : '전체 '}
+        {category !== '전체' ? `${category} · ` : ''}
+        {query.trim() ? `“${query.trim()}” 검색 결과 ` : category === '전체' ? '전체 ' : ''}
         {results.length}개
       </p>
       <div className="search-results">
@@ -158,8 +167,12 @@ export function Search({
       </div>
       {results.length === 0 && (
         <div className="empty-state">
-          <h2>검색 결과가 없습니다.</h2>
-          <p>다른 검사 이름이나 짧은 단어로 검색해 주세요.</p>
+          <h2>{query.trim() ? '검색 결과가 없습니다.' : '이 분야에 등록된 안내가 없습니다.'}</h2>
+          <p>
+            {query.trim()
+              ? '다른 검사 이름이나 짧은 단어로 검색해 주세요.'
+              : '전체 목록에서 다른 증상·질환 안내를 살펴보세요.'}
+          </p>
           <button
             className="button secondary"
             type="button"

@@ -2735,3 +2735,59 @@ body:has(.mobile-nav[open]) .mobile-contact {
     display: block;
   }
 }
+/* Shared article notices stay readable without repeating full clinic details in the body. */
+.article-footer {
+  margin-top: 48px;
+  padding: 28px;
+  border: 1px solid var(--line, #d7dedb);
+  border-radius: 12px;
+  background: var(--soft, #f4f7f5);
+}
+.article-footer h2 {
+  font-size: 1.2rem;
+  margin: 0 0 16px;
+}
+.article-footer h3 {
+  font-size: 1rem;
+  margin: 24px 0 8px;
+}
+.article-footer p {
+  font-size: 0.95rem;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+.article-clinic {
+  margin-top: 24px;
+  border-top: 1px solid var(--line, #d7dedb);
+  padding-top: 16px;
+}
+.article-clinic summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.article-clinic .hours {
+  max-width: 380px;
+}
+.filter-count {
+  margin-left: 0.45em;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+}
+@media (max-width: 700px) {
+  .article-footer {
+    padding: 20px;
+  }
+}
+@media print {
+  .article-footer {
+    break-inside: auto;
+    border: 0;
+    padding: 0;
+  }
+  .article-clinic > :not(summary) {
+    display: block;
+  }
+  .article-clinic::details-content {
+    content-visibility: visible;
+  }
+}

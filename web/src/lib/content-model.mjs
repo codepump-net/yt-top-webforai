@@ -39,6 +39,8 @@ export function resolvePages(input, clinic) {
     'clinic.phone': clinic.phone,
     'clinic.address': clinic.address,
     'clinic.subway': clinic.subway,
+    'clinic.hoursNote': clinic.hoursNote,
+    'clinic.parkingNote': clinic.parkingNote,
     ...Object.fromEntries(
       Object.entries(clinic.addressLabels ?? {}).map(([language, address]) => [
         `clinic.addressLabels.${language}`,

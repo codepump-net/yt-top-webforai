@@ -12,6 +12,8 @@ export {
   patientEntrances,
   sectionId,
   siteMapGroups,
+  directoryTerms,
+  guideRole,
 } from './information-architecture.mjs';
 import { assetPath, absoluteUrl, jsonSafe } from './urls.mjs';
 import { resolveClinic, resolvePages } from './content-model.mjs';
