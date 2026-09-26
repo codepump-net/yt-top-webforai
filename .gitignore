@@ -16,3 +16,4 @@ __pycache__/
 *.pyc
 .env*
 !.env.example
+.DS_Store

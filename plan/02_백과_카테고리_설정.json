@@ -1,0 +1,110 @@
+{
+  "symptomCategories": [
+    {
+      "id": "cardiovascular",
+      "label": "심장·혈관",
+      "aliases": [
+        "심장혈관",
+        "심장",
+        "혈관"
+      ]
+    },
+    {
+      "id": "upper-gi-abdominal-pain",
+      "label": "속쓰림·소화불량·급·만성 복통",
+      "aliases": [
+        "소화기·급성 복통",
+        "속쓰림",
+        "소화불량",
+        "복통"
+      ]
+    },
+    {
+      "id": "hepatobiliary-pancreas",
+      "label": "간·췌장·담도·쓸개",
+      "aliases": [
+        "간·대사",
+        "간",
+        "췌장",
+        "담도",
+        "담낭",
+        "쓸개"
+      ]
+    },
+    {
+      "id": "diabetes-thyroid-lipid",
+      "label": "당뇨·갑상선·고지혈증",
+      "aliases": [
+        "대사",
+        "당뇨",
+        "갑상선",
+        "고지혈증",
+        "이상지질혈증"
+      ]
+    },
+    {
+      "id": "respiratory-infection",
+      "label": "호흡기·감염",
+      "aliases": [
+        "호흡기 감염"
+      ]
+    },
+    {
+      "id": "kidney-urinary",
+      "label": "신장",
+      "aliases": [
+        "신장·요로",
+        "콩팥",
+        "요로"
+      ]
+    },
+    {
+      "id": "cancer-treatment",
+      "label": "암 치료 중 증상",
+      "aliases": [
+        "암환자 증상",
+        "항암 부작용"
+      ]
+    }
+  ],
+  "diseaseCategories": [
+    {
+      "id": "digestive",
+      "label": "소화기(위·대장·간·담도·췌장)",
+      "aliases": [
+        "소화기·간",
+        "소화기",
+        "위대장",
+        "담낭"
+      ]
+    },
+    {
+      "id": "respiratory-infection",
+      "label": "호흡기·감염",
+      "aliases": [
+        "호흡기 감염"
+      ]
+    },
+    {
+      "id": "cardiovascular",
+      "label": "심장·혈관",
+      "aliases": [
+        "심장혈관"
+      ]
+    },
+    {
+      "id": "cancer-family-history",
+      "label": "암과 가족력",
+      "aliases": [
+        "암 가족력"
+      ]
+    },
+    {
+      "id": "endocrine-metabolic-thyroid",
+      "label": "내분비·대사·갑상선",
+      "aliases": [
+        "내분비, 대사, 갑상선"
+      ]
+    }
+  ]
+}
