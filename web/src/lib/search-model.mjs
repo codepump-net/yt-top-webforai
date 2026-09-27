@@ -17,6 +17,14 @@ export const searchablePages = (pages) =>
     (page) => discoverable(page) && page.indexable && !['search', 'sitemap'].includes(page.id),
   );
 
+// Matching uses individual query words, so repeated body words need only one copy.
+const searchWords = (parts) =>
+  [
+    ...new Set(
+      parts.join(' ').normalize('NFKC').toLocaleLowerCase('ko').split(/\s+/).filter(Boolean),
+    ),
+  ].join(' ');
+
 export function searchItems(pages, href = (path) => path) {
   return pages.filter(discoverable).map((page) => ({
     title: page.title,
@@ -29,7 +37,7 @@ export function searchItems(pages, href = (path) => path) {
       ' ',
     ),
     detail: /detail$/.test(page.template),
-    text: [
+    text: searchWords([
       page.intro,
       ...page.blocks.map((b) =>
         [
@@ -42,6 +50,6 @@ export function searchItems(pages, href = (path) => path) {
         ].join(' '),
       ),
       ...page.questions.map((q) => q.question + ' ' + q.answer),
-    ].join(' '),
+    ]),
   }));
 }

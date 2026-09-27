@@ -55,12 +55,17 @@ export function Search({
   const input = useRef<HTMLInputElement>(null);
   const categories = ['전체', ...(orderedCategories ?? [...new Set(items.map((p) => p.category))])];
   const results = useMemo(() => {
+    if (waiting) return [];
     const normalize = (value: string) =>
       value.normalize('NFKC').toLocaleLowerCase('ko').trim().replace(/\s+/g, ' ');
     const phrase = normalize(query);
     const words = phrase.split(' ').filter(Boolean);
-    return items
-      .filter((p) => category === '전체' || p.category === category)
+    const candidates = items.filter((p) => category === '전체' || p.category === category);
+    if (!words.length)
+      return alphabetical
+        ? candidates.sort((a, b) => a.title.localeCompare(b.title, 'ko'))
+        : candidates;
+    return candidates
       .map((item) => {
         const title = normalize(item.title),
           description = normalize(item.description);
@@ -102,7 +107,7 @@ export function Search({
           b.score - a.score || (alphabetical ? a.item.title.localeCompare(b.item.title, 'ko') : 0),
       )
       .map(({ item }) => item);
-  }, [items, query, category, alphabetical]);
+  }, [items, query, category, alphabetical, waiting]);
   return (
     <div className={`search-widget ${alphabetical ? 'encyclopedia-search' : ''}`}>
       <label className="search-label" htmlFor="site-query">
