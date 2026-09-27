@@ -8,14 +8,17 @@ export function PatientBanner({ pageId }: { pageId: string }) {
   if (!visual) return null;
   const asset = assets.find((a) => a.id === visual.assetId)!;
   return (
-    <ZoomImage
-      className="patient-banner"
-      src={href(asset.file)}
-      width={asset.width}
-      height={asset.height}
-      alt={visual.alt}
-      caption={visual.caption}
-    />
+    <figure className="patient-banner">
+      <img
+        src={href(asset.file)}
+        width={asset.width}
+        height={asset.height}
+        alt={visual.alt}
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>{visual.caption}</figcaption>
+    </figure>
   );
 }
 

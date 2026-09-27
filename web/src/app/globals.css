@@ -2930,10 +2930,13 @@ body:has(.mobile-nav[open]) .mobile-contact {
 .patient-banner {
   margin: 0 0 2.5rem;
 }
-.patient-banner .image-enlarge > img {
+.patient-banner > img {
   display: block;
   width: 100%;
+  height: auto;
+  max-width: 680px;
   max-height: 350px;
+  margin: 0 auto;
   object-fit: contain;
   background: #f6fafb;
   border-radius: 16px;
@@ -3155,7 +3158,7 @@ body:has(.mobile-nav[open]) .mobile-contact {
   .notice-card {
     padding: 20px 16px;
   }
-  .patient-banner .image-enlarge > img {
+  .patient-banner > img {
     max-height: 260px;
   }
   .image-dialog {
