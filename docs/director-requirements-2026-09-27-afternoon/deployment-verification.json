@@ -1,0 +1,492 @@
+{
+  "run": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36330743064",
+  "commit": "065db4a2b03d1263ce6498d8d3fcbeee6b1e4bdb",
+  "mode": "review",
+  "ci": {
+    "root": {
+      "contentDigest": "533b237f5fafe238e19109b00db9a82f20d92909e74926ed37d5e769a10a2b98",
+      "routes": 129,
+      "staticErrors": [],
+      "unitTestsPassed": 71,
+      "harnessTestsPassed": 17,
+      "dependencyVulnerabilities": 0,
+      "browser": {
+        "startTime": "2026-09-27T15:46:57.527Z",
+        "duration": 103774.38100000001,
+        "expected": 55,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "performance": {
+        "mode": "review",
+        "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+        "errors": [],
+        "reports": [
+          {
+            "route": "/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2332.1340999999998,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 60.466474999999946,
+              "first-contentful-paint": 965.06705
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/services/heart/echocardiography/",
+            "scores": {
+              "performance": 97,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2313.2805000000003,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 111,
+              "first-contentful-paint": 911.2805000000001
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/search/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2190.3755,
+              "cumulative-layout-shift": 0.002294951040342114,
+              "total-blocking-time": 116,
+              "first-contentful-paint": 783.3755000000001
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/colonoscopy-preparation-questions/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2315.4265,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 105,
+              "first-contentful-paint": 924.21325
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/cancer-treatment-symptoms/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2317.0602,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 108,
+              "first-contentful-paint": 953.5301
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/ne/checkups/visa/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2012.3597,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 113,
+              "first-contentful-paint": 758.3597
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          }
+        ]
+      }
+    },
+    "project": {
+      "contentDigest": "533b237f5fafe238e19109b00db9a82f20d92909e74926ed37d5e769a10a2b98",
+      "routes": 129,
+      "staticErrors": [],
+      "unitTestsPassed": 71,
+      "harnessTestsPassed": 17,
+      "dependencyVulnerabilities": 0,
+      "browser": {
+        "startTime": "2026-09-27T15:46:56.084Z",
+        "duration": 102756.326,
+        "expected": 55,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "performance": {
+        "mode": "review",
+        "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+        "errors": [],
+        "reports": [
+          {
+            "route": "/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2317.6648,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 50,
+              "first-contentful-paint": 962.3324
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/services/heart/echocardiography/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2307.6558,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 94,
+              "first-contentful-paint": 923.6558
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/search/",
+            "scores": {
+              "performance": 96,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2272.6417,
+              "cumulative-layout-shift": 0.002294951040342114,
+              "total-blocking-time": 161,
+              "first-contentful-paint": 771.6416999999999
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/colonoscopy-preparation-questions/",
+            "scores": {
+              "performance": 97,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2329.0616999999997,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 121,
+              "first-contentful-paint": 916.0617
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/cancer-treatment-symptoms/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2320.6187999999997,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 107,
+              "first-contentful-paint": 957.8094
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/ne/checkups/visa/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2000.0142,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 102,
+              "first-contentful-paint": 758.0142000000001
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "live": {
+    "checkedAt": "2026-09-27T15:50:18.893Z",
+    "site": "https://codepump-net.github.io/yt-top-webforai/",
+    "commit": "065db4a2b03d1263ce6498d8d3fcbeee6b1e4bdb",
+    "mode": "review",
+    "failures": [],
+    "sitemapUrls": [],
+    "verifiedHtmlRoutes": 129,
+    "allNoindex": true,
+    "real404": "passed by verify-live.mjs"
+  },
+  "browser": {
+    "checkedAt": "2026-09-27T15:50:48.541Z",
+    "site": "https://codepump-net.github.io/yt-top-webforai",
+    "assets": [
+      {
+        "path": "/assets/logo.webp",
+        "bytes": 5314,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/clinic-800.webp",
+        "bytes": 22478,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/clinic-1600.webp",
+        "bytes": 62050,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/jongseol-640.webp",
+        "bytes": 15718,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/rayoung-640.webp",
+        "bytes": 9696,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/vaccination-schedule-2026.webp",
+        "bytes": 178268,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-heart.webp",
+        "bytes": 40984,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-digestive.webp",
+        "bytes": 40732,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-respiratory.webp",
+        "bytes": 43540,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-vaccinations.webp",
+        "bytes": 42468,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-chronic.webp",
+        "bytes": 55960,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-neck.webp",
+        "bytes": 45288,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-kidney.webp",
+        "bytes": 43258,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-cancer-support.webp",
+        "bytes": 40230,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-services.webp",
+        "bytes": 44944,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-checkups.webp",
+        "bytes": 41284,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-symptoms.webp",
+        "bytes": 34398,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/banner-diseases.webp",
+        "bytes": 43460,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/diagram-heart-flow.webp",
+        "bytes": 59158,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/diagram-endoscopy-preparation.webp",
+        "bytes": 61666,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/diagram-after-endoscopy.webp",
+        "bytes": 62948,
+        "sha256Matches": true
+      },
+      {
+        "path": "/assets/diagram-checkup-flow.webp",
+        "bytes": 58868,
+        "sha256Matches": true
+      }
+    ],
+    "screens": [
+      {
+        "width": 390,
+        "route": "/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 390,
+        "route": "/notices/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 390,
+        "route": "/symptoms/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 390,
+        "route": "/services/heart/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 390,
+        "route": "/conditions/kidney/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 390,
+        "route": "/copyright/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 390,
+        "route": "/search/#q=식은땀",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 1440,
+        "route": "/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 1440,
+        "route": "/notices/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 1440,
+        "route": "/symptoms/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 1440,
+        "route": "/services/heart/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 1440,
+        "route": "/conditions/kidney/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 1440,
+        "route": "/copyright/",
+        "status": 200,
+        "fitsViewport": true
+      },
+      {
+        "width": 1440,
+        "route": "/search/#q=식은땀",
+        "status": 200,
+        "fitsViewport": true
+      }
+    ],
+    "browserErrors": [],
+    "searchEntries": 125,
+    "newIllustrationsZoomed": 16,
+    "noJavaScript": "passed"
+  },
+  "preserved": {
+    "publicationMode": "review",
+    "publicationEvidenceModified": false,
+    "regionalVaccinationAvailability": "both pending clinic confirmation",
+    "sourcePlanChangesCommitted": false
+  }
+}
