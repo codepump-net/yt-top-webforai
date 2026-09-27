@@ -2,7 +2,7 @@
 export function articleGuidance(page) {
   const medical =
     /^\/(?:conditions|services|health|diseases|checkups)\//.test(page.path) ||
-    ['symptoms', 'diseases', 'preparation'].includes(page.id) ||
+    ['symptoms', 'diseases', 'preparation', 'fees'].includes(page.id) ||
     !!page.translationOf;
   const documents = page.path.includes('/checkups/') || page.id === 'fees';
   const heart =

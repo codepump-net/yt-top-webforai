@@ -1,27 +1,10 @@
 // Shared navigation, visible hub lists and JSON-LD use the same editorial grouping.
 import categories from '../../../content/encyclopedia-categories.json' with { type: 'json' };
-export const cardiovascularIds = [
-  'hypertension',
-  'dyslipidemia',
-  'atherosclerosis',
-  'stable-angina',
-  'acute-myocardial-infarction',
-  'heart-failure',
-  'atrial-fibrillation',
-  'supraventricular-tachycardia',
-  'premature-ventricular-contractions',
-  'bradyarrhythmia',
-  'mitral-regurgitation',
-  'aortic-stenosis',
-  'myocarditis',
-  'pericarditis',
-  'dilated-cardiomyopathy',
-  'carotid-stenosis',
-  'peripheral-artery-disease',
-  'deep-vein-thrombosis',
-  'aortic-aneurysm-dissection',
-  'orthostatic-hypotension',
-].map((slug) => `cardio-${slug}`);
+import pages from '../../../content/pages.json' with { type: 'json' };
+export const cardiovascularIds = pages
+  .filter((page) => page.path.startsWith('/diseases/cardio/'))
+  .map((page) => page.id);
+export const discoverable = (page) => !['cases', 'not-found'].includes(page.id);
 const symptomMembers = {
   cardiovascular: ['palpitations-followup'],
   'upper-gi-abdominal-pain': ['abdominal-pain'],
@@ -78,13 +61,31 @@ export const hubGroups = {
   symptoms: directoryGroups(categories.symptomCategories, symptomMembers),
   diseases: directoryGroups(categories.diseaseCategories, diseaseMembers),
   conditions: [
-    { title: '심장·부정맥', ids: ['heart-disease', 'acute-care'] },
-    { title: '소화기·간', ids: ['abdominal-pain', 'liver-disease'] },
-    {
-      title: '호흡기·감염·예방접종',
-      ids: ['respiratory-infections', 'chronic-cough', 'influenza', 'covid-19', 'vaccinations'],
-    },
-    { title: '혈압·당뇨·고지혈증과 체중 관리', ids: ['chronic-disease', 'obesity-medication'] },
+    { title: '심장질환', ids: ['heart-disease'] },
+    { title: '소화기질환', ids: ['digestive-disease'] },
+    { title: '호흡기·감염질환', ids: ['respiratory-infections'] },
+    { title: '성인 예방접종', ids: ['vaccinations'] },
+    { title: '고혈압·당뇨·고지혈증 치료, 금연치료, 체중관리', ids: ['chronic-disease'] },
+    { title: '갑상선·경동맥·경부 멍울', ids: ['neck-disease'] },
+    { title: '신장질환', ids: ['kidney-disease'] },
+    { title: '암 의심 소견 및 암 치료 중 지지진료', ids: ['cancer-support'] },
+  ],
+  'digestive-disease': [
+    { title: '식도·위질환', ids: ['esophagus-stomach'] },
+    { title: '소장·대장·충수질환', ids: ['bowel-appendix'] },
+    { title: '담낭·담도질환', ids: ['biliary-disease'] },
+    { title: '췌장질환', ids: ['pancreatic-disease'] },
+    { title: '간질환', ids: ['liver-disease'] },
+  ],
+  'neck-disease': [
+    { title: '갑상선질환', ids: ['thyroid-disease'] },
+    { title: '경동맥질환', ids: ['carotid-disease'] },
+    { title: '목에 멍울이 만져질 때', ids: ['neck-lump'] },
+  ],
+  'kidney-disease': [
+    { title: '신부전 예방과 신장기능 모니터링', ids: ['kidney-function'] },
+    { title: '신우신염의 진단과 치료', ids: ['pyelonephritis'] },
+    { title: '수신증의 진단과 대학병원 연계 추적관리', ids: ['hydronephrosis'] },
   ],
   services: [
     { title: '심장검사', ids: ['heart-index', 'heart-test-differences'] },
@@ -111,6 +112,7 @@ export const hubGroups = {
         'abdominal-ultrasound',
         'bowel-ultrasound',
         'thyroid-ultrasound',
+        'ambulatory-blood-pressure',
       ],
     },
     {
@@ -142,7 +144,7 @@ export const hubGroups = {
   ],
   about: [
     { title: '병원과 의료진', ids: ['doctors', 'doctor-park-jongseol', 'doctor-park-rayoung'] },
-    { title: '방문·이용 안내', ids: ['visit', 'fees', 'notices', 'cases', 'health'] },
+    { title: '방문·이용 안내', ids: ['visit', 'fees', 'notices', 'health'] },
   ],
   'cancer-support': [
     {
@@ -200,7 +202,7 @@ export function siteMapGroups(pages) {
     title,
     pages: pages.filter(
       (page) =>
-        page.id !== 'not-found' &&
+        discoverable(page) &&
         (id === 'utilities'
           ? utilityIds.includes(page.id)
           : !utilityIds.includes(page.id) && sectionId(page) === id),

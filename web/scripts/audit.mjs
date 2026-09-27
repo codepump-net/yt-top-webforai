@@ -75,6 +75,13 @@ for (const route of manifest.routes) {
     (route.indexable && robots.includes('noindex'))
   )
     errors.push(`${route.path}: indexing policy`);
+  if (
+    route.id === 'cases' &&
+    ['noindex', 'nofollow', 'nosnippet', 'noimageindex'].some(
+      (value) => !robots.split(/,\s*/).includes(value),
+    )
+  )
+    errors.push('Case directory must exclude indexing, following, snippets and image indexing');
   if (route.id !== 'not-found') {
     const json = $('script[type="application/ld+json"]').first().text();
     try {

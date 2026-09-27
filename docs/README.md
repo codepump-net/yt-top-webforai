@@ -1,5 +1,7 @@
 # 홈페이지 개발 문서
 
+- **[2026-09-27 통합반영안 적용](integrated-update-2026-09-27/README.ko.md)** — 108개 로컬 경로, 검색·진료분야·예방접종·단일 목차·사례 제외. 이식 패키지 제외, 이번 변경은 미배포. [간단 작업 결과 보고서](integrated-update-2026-09-27/work-report.ko.md)
+- **[2026-09-27 plan 문서 검토](plan-review-2026-09-27/README.ko.md)** — 적용 전 구현 상태와 원고 차이 검토 기록. 이후 작업 범위는 위 통합반영안 적용 기록을 우선
 - **[2026-09-26 콘텐츠 업데이트](director-content-review-2026-09-26/implementation.ko.md)** — 심장·혈관 20편, 검사 정보·공통 안내·백과 분류. 검토 모드 94개 경로, [9월 27일 배포 완료](director-content-review-2026-09-26/deployment.ko.md)
 - **[2026-09-26 세션 요약](director-content-review-2026-09-26/session-summary.ko.md)** — 요구사항 반영 대조, 재검토 수정 사항과 검증 결과
 - **[검색 공개 전환 기록](production-release-2026-09-11/README.ko.md)** — 사용자 의료·운영 검토 완료 확인, production 설정과 구조화 데이터 확장

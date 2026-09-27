@@ -2773,6 +2773,141 @@ body:has(.mobile-nav[open]) .mobile-contact {
   font-variant-numeric: tabular-nums;
   opacity: 0.8;
 }
+.home-search {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid var(--line);
+}
+.home-search h2 {
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+.home-search label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.home-search-field {
+  display: flex;
+  gap: 10px;
+  max-width: 760px;
+}
+.home-search-field input {
+  min-width: 0;
+  flex: 1;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 16px;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+}
+.home-search-field .button {
+  flex: 0 0 auto;
+}
+.home-search .small,
+.search-privacy {
+  margin: 12px 0;
+}
+.header-actions .header-search {
+  width: auto;
+  gap: 6px;
+  padding: 0 8px;
+  font-size: 14px;
+}
+.care-directory {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.care-directory h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.digestive-symptom-entry {
+  display: grid;
+  gap: 12px;
+  padding: 24px;
+  background: var(--soft, #f1f6f4);
+  border-left: 3px solid var(--brand);
+}
+.digestive-symptom-entry strong {
+  font-size: 22px;
+}
+.digestive-symptom-entry span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.article-toc summary {
+  font-weight: 650;
+  font-size: 14px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.article-toc .toc-content {
+  margin-top: 10px;
+}
+.article-connections {
+  margin-top: 36px;
+}
+.vaccination-figure {
+  margin: 24px 0;
+}
+.vaccination-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.vaccination-figure figcaption {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 12px;
+}
+.case-originals {
+  display: grid;
+  gap: 16px;
+}
+.footer-brand span {
+  max-width: 310px;
+  line-height: 1.6;
+}
+@media (min-width: 851px) {
+  .article-toc::details-content {
+    content-visibility: visible;
+  }
+  .article-toc:not([open]) > .toc-content {
+    display: flex;
+  }
+}
+@media (max-width: 850px) {
+  .article-sidebar .article-toc.sidebar-box {
+    display: block;
+    position: static;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .article-toc .toc-content {
+    max-height: 50dvh;
+    overflow-y: auto;
+  }
+}
+@media (max-width: 600px) {
+  .care-directory {
+    grid-template-columns: 1fr;
+  }
+  .care-directory h2 {
+    font-size: 21px;
+  }
+  .home-search-field input {
+    padding: 12px;
+  }
+  .home-search-field .button {
+    padding: 12px 14px;
+  }
+}
 @media (max-width: 700px) {
   .article-footer {
     padding: 20px;

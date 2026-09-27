@@ -25,6 +25,15 @@ export function validatePatientScope(pages, { pageIntents, caseLinks, clinic, ph
   if (new Set(intents.map((p) => p.id)).size !== intents.length)
     errors.push('Duplicate patient page intent');
   for (const page of pages) {
+    if (page.id === 'cases' && page.indexable)
+      errors.push('cases: original-link directory must stay excluded from indexing');
+    if (
+      page.related.includes('cases') ||
+      [...page.blocks, ...page.questions].some((item) =>
+        (item.links ?? []).some((link) => link.pageId === 'cases'),
+      )
+    )
+      errors.push(`${page.id}: case directory must not be promoted as related content`);
     const intent = intents.find((p) => p.id === page.id && p.path === page.path);
     if (!intent || typeof intent.patientNeed !== 'string' || intent.patientNeed.trim().length < 20)
       errors.push(`${page.id}: documented patient need required`);

@@ -115,7 +115,7 @@ test('search ranks direct examination pages first and restores input focus after
       manifest.basePath + path,
     );
   }
-  for (const route of ['/search/', '/cases/']) {
+  for (const route of ['/search/']) {
     await page.goto(url(route));
     await page.locator('input').fill('없는검색어xxxx');
     const reset = page.getByRole('button', { name: '전체 목록 보기' });
@@ -205,5 +205,7 @@ test('notices lead patients to the original hospital announcement channel', asyn
     'https://yttop.co.kr/44',
   );
   await expect(page.locator('main')).not.toContainText('2025년 6월 24일');
-  await expect(page.locator('.sidebar-box .article-connections a[href$="/visit/"]')).toHaveCount(1);
+  await expect(page.locator('.main-article .article-connections a[href$="/visit/"]')).toHaveCount(
+    1,
+  );
 });

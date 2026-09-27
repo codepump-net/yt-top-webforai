@@ -1,0 +1,224 @@
+{
+  "date": "2026-09-27",
+  "scope": "Integrated MD and DOCX only; transplant package and its execution procedures excluded",
+  "branch": "main",
+  "baseCommit": "6d692968bf32b3f5fdfb5818e75a14dc80792cb7",
+  "gitMutationsPerformed": false,
+  "deployed": false,
+  "content": {
+    "routeCount": 108,
+    "existingRoutesRetained": true,
+    "addedRoutes": [
+      {
+        "id": "digestive-disease",
+        "path": "/conditions/digestive/"
+      },
+      {
+        "id": "esophagus-stomach",
+        "path": "/conditions/digestive/esophagus-stomach/"
+      },
+      {
+        "id": "bowel-appendix",
+        "path": "/conditions/digestive/bowel-appendix/"
+      },
+      {
+        "id": "biliary-disease",
+        "path": "/conditions/digestive/gallbladder-bile-duct/"
+      },
+      {
+        "id": "pancreatic-disease",
+        "path": "/conditions/digestive/pancreas/"
+      },
+      {
+        "id": "neck-disease",
+        "path": "/conditions/thyroid-carotid-neck/"
+      },
+      {
+        "id": "thyroid-disease",
+        "path": "/conditions/thyroid-carotid-neck/thyroid/"
+      },
+      {
+        "id": "carotid-disease",
+        "path": "/conditions/thyroid-carotid-neck/carotid/"
+      },
+      {
+        "id": "neck-lump",
+        "path": "/conditions/thyroid-carotid-neck/neck-lump/"
+      },
+      {
+        "id": "kidney-disease",
+        "path": "/conditions/kidney/"
+      },
+      {
+        "id": "kidney-function",
+        "path": "/conditions/kidney/function/"
+      },
+      {
+        "id": "pyelonephritis",
+        "path": "/conditions/kidney/pyelonephritis/"
+      },
+      {
+        "id": "hydronephrosis",
+        "path": "/conditions/kidney/hydronephrosis/"
+      },
+      {
+        "id": "ambulatory-blood-pressure",
+        "path": "/services/heart/ambulatory-blood-pressure/"
+      }
+    ],
+    "modifiedExistingIds": [
+      "cases",
+      "conditions",
+      "heart-disease",
+      "privacy",
+      "cancer-support",
+      "heart-index",
+      "cardiac-markers",
+      "carotid",
+      "holter",
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "thyroid-ultrasound",
+      "sitemap",
+      "examinations",
+      "vaccinations",
+      "chronic-disease",
+      "liver-disease",
+      "cardio-stable-angina",
+      "cardio-acute-myocardial-infarction",
+      "cardio-heart-failure",
+      "cardio-myocarditis",
+      "cardio-pericarditis",
+      "cardio-deep-vein-thrombosis"
+    ],
+    "questionCount": 152,
+    "caseOriginalLinkCount": 25,
+    "assetCount": 6
+  },
+  "checks": {
+    "node": "24.21.0",
+    "lint": "passed",
+    "typecheck": "passed",
+    "unitTests": {
+      "passed": 68,
+      "files": 10
+    },
+    "harnessTests": {
+      "passed": 17,
+      "python": "python3"
+    },
+    "builds": {
+      "root": {
+        "basePath": "",
+        "mode": "review",
+        "contentDigest": "25c39e30b9ee8b462737255d812866806341703505861ed685da1a0505faa433",
+        "routeCount": 108,
+        "allNoindex": true,
+        "staticAudit": {
+          "publicFilesChecked": 647,
+          "maxJsGzip": 178526,
+          "maxCssGzip": 10172,
+          "errors": []
+        },
+        "e2e": {
+          "startTime": "2026-09-27T01:50:54.821Z",
+          "duration": 44693.769,
+          "expected": 48,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      },
+      "subpath": {
+        "basePath": "/yt-top-webforai",
+        "mode": "review",
+        "contentDigest": "25c39e30b9ee8b462737255d812866806341703505861ed685da1a0505faa433",
+        "routeCount": 108,
+        "allNoindex": true,
+        "staticAudit": {
+          "publicFilesChecked": 647,
+          "maxJsGzip": 178590,
+          "maxCssGzip": 10172,
+          "errors": []
+        },
+        "e2e": {
+          "startTime": "2026-09-27T01:52:09.448Z",
+          "duration": 44908.979,
+          "expected": 48,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      }
+    },
+    "productionGuard": {
+      "productionRejected": true,
+      "reasons": [
+        "Publication confirmation scope differs from indexable pages",
+        "Publication confirmation requires approved content status",
+        "Stale publication confirmation: content, facts, or renderer changed"
+      ],
+      "articleGuidance": {
+        "enabled": 96,
+        "medical": 96,
+        "heart": 33,
+        "documents": 14
+      }
+    },
+    "publicationEvidenceFilesUnchanged": true,
+    "mobilePerformance": {
+      "mode": "review",
+      "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+      "errors": [],
+      "reports": [
+        {
+          "route": "/",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 1956.7113,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 18.5,
+            "first-contentful-paint": 906.7112999999999
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/services/vaccinations/",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 2349.0756739070684,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 19.5,
+            "first-contentful-paint": 910.0756739070682
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        }
+      ]
+    }
+  },
+  "visualReview": {
+    "screenshots": "web/reports/integrated/ and web/reports/navigation/",
+    "reviewed": [
+      "conditions desktop/mobile",
+      "home desktop/mobile",
+      "kidney mobile",
+      "article desktop",
+      "vaccination figure desktop/mobile"
+    ],
+    "scope": "Local Chromium previews; no remote deployment or real-user performance measurement"
+  }
+}

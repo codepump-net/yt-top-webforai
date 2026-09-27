@@ -4,7 +4,6 @@ import clinicData from '../../../content/clinic.json';
 import physicianData from '../../../content/physicians.json';
 import reviewData from '../../../content/reviews.json';
 import assetData from '../../../content/assets.json';
-import caseLinks from '../../../content/case-links.json';
 import { navigation, sectionId } from './information-architecture.mjs';
 export {
   hubGroups,
@@ -14,6 +13,7 @@ export {
   siteMapGroups,
   directoryTerms,
   guideRole,
+  discoverable,
 } from './information-architecture.mjs';
 import { assetPath, absoluteUrl, jsonSafe } from './urls.mjs';
 import { resolveClinic, resolvePages } from './content-model.mjs';
@@ -105,7 +105,10 @@ export function pageMetadata(page: Page): Metadata {
           }
         : {}),
     },
-    robots: { index: !reviewMode && page.indexable, follow: true },
+    robots:
+      page.id === 'cases'
+        ? { index: false, follow: false, nosnippet: true, noimageindex: true }
+        : { index: !reviewMode && page.indexable, follow: true },
     openGraph: {
       type: 'website',
       locale:
@@ -164,7 +167,6 @@ export function structuredData(page: Page) {
       clinic,
       physicians,
       assets: assetData,
-      caseLinks,
       absolute,
       breadcrumbs: breadcrumbs(page),
       review: reviewFor(page),

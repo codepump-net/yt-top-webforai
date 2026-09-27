@@ -10,6 +10,24 @@ test('every FAQ answer and collection URL in JSON-LD is available in patient HTM
   for (const route of manifest.routes.filter((r: { id: string }) => r.id !== 'not-found')) {
     const response = await request.get(`http://127.0.0.1:3000${manifest.basePath}${route.path}`);
     const $ = load(await response.text());
+    const contents = $('.article-toc');
+    expect(contents.length, route.path).toBeLessThanOrEqual(1);
+    if (contents.length) {
+      const anchors = contents.find('nav a');
+      expect(anchors.length, route.path).toBeGreaterThan(0);
+      expect(anchors.length, route.path).toBeLessThanOrEqual(8);
+      for (const anchor of anchors.toArray()) {
+        const target = $(anchor).attr('href')!;
+        expect($(target).length, `${route.path}: ${target}`).toBe(1);
+        expect([
+          '#questions',
+          '#sources',
+          '#related-diseases',
+          '#article-guidance-title',
+          '#visit',
+        ]).not.toContain(target);
+      }
+    }
     const graph = JSON.parse($('script[type="application/ld+json"]').first().text())['@graph'];
     for (const faq of graph.filter((n: { '@type': string }) => n['@type'] === 'FAQPage')) {
       for (const q of faq.mainEntity) {
@@ -56,7 +74,7 @@ test('every FAQ answer and collection URL in JSON-LD is available in patient HTM
     queue.push(...(navigation.get(current) ?? []));
   }
   for (const route of manifest.routes.filter(
-    (r: { id: string }) => !['search', 'sitemap', 'not-found', 'privacy'].includes(r.id),
+    (r: { id: string }) => !['search', 'sitemap', 'not-found', 'privacy', 'cases'].includes(r.id),
   )) {
     expect(
       reached.has(manifest.origin + manifest.basePath + route.path),

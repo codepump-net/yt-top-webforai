@@ -41,11 +41,12 @@ it('never turns a silhouette into a physician portrait or invents credentials', 
   expect(doctor.worksFor['@id']).toBe('https://yttop.co.kr/#clinic');
 });
 it.each(['', '/hospital'])(
-  'retains external case originals and functional search URLs under %s',
+  'excludes external case originals from the graph and preserves functional search URLs under %s',
   (base) => {
     const graph = graphFor('cases', base);
     const list = graph.find((n) => n['@type'] === 'ItemList');
-    expect(list.itemListElement.map((n) => n.item.url)).toEqual(data.caseLinks.map((p) => p.url));
+    expect(list).toBeUndefined();
+    for (const item of data.caseLinks) expect(JSON.stringify(graph)).not.toContain(item.url);
     expect(graph.find((n) => n['@type'] === 'WebSite').potentialAction.target.urlTemplate).toBe(
       `https://example.org${base}/search/?q={search_term_string}`,
     );

@@ -73,5 +73,18 @@
     "provenance": "Existing clinic website; user-directed reuse for the clinic redevelopment.",
     "imageKind": "silhouette",
     "checkedAt": "2026-09-11"
+  },
+  {
+    "id": "vaccination-schedule-2026",
+    "file": "/assets/vaccination-schedule-2026.webp",
+    "width": 1055,
+    "height": 1491,
+    "bytes": 178268,
+    "sha256": "d8f64977c438c71039a372c6fcc050839824cfe895374b3c01f9328045c1cdac",
+    "sourceFile": "영통탑내과_블로그_미반영사항_통합반영안_2026-09-27.docx#word/media/image1.png",
+    "provenance": "Director-supplied integrated manuscript; embedded clinic vaccination schedule converted to WebP without changing text, layout or dimensions.",
+    "imageKind": "patient-information",
+    "checkedAt": "2026-09-27",
+    "sourceSha256": "46b456913ac9fde03a7cb77a774ad6ee62a2c0da63da855f9d3b30ec5ffeb016"
   }
 ]

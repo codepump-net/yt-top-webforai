@@ -17,7 +17,7 @@
   {
     "id": "cases",
     "path": "/cases/",
-    "patientNeed": "병원이 게시한 실제 진단 사례를 주제별로 찾아 원문으로 이동한다."
+    "patientNeed": "영통탑내과 홈페이지에 게시된 진단 사례의 원문 링크를 안내합니다. 개인별 진료 경과는 서로 다르므로 본인의 증상과 검사 필요성은 의료진과 상담하세요."
   },
   {
     "id": "checkups",
@@ -57,7 +57,7 @@
   {
     "id": "conditions",
     "path": "/conditions/",
-    "patientNeed": "심장·소화기·호흡기 증상과 만성질환의 진료를 안내합니다. 불편한 증상과 복용약, 이전 검사 결과를 준비하고 필요한 검사와 다음 진료 계획을 확인하세요."
+    "patientNeed": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지진료까지 방문 목적에 맞는 안내를 선택하세요."
   },
   {
     "id": "acute-care",
@@ -127,7 +127,7 @@
   {
     "id": "privacy",
     "path": "/privacy/",
-    "patientNeed": "상담 정보 입력과 검색어 전송 여부, 외부 서비스의 개인정보 처리를 이해한다."
+    "patientNeed": "이 사이트에서는 환자 정보를 입력받는 상담·예약 폼을 운영하지 않습니다."
   },
   {
     "id": "search",
@@ -142,7 +142,7 @@
   {
     "id": "cancer-support",
     "path": "/services/cancer-support/",
-    "patientNeed": "암 치료 중이거나 치료 이후 진료를 준비한다면 치료기관의 계획과 현재 복용약을 함께 알려주세요. 영통탑내과에서 상담할 범위와 기존 치료를 연결하는 데 필요한 안내입니다."
+    "patientNeed": "영통탑내과의 암 치료 중 구역·구토·탈수·설사·변비 평가와 지지진료, 조건에 따른 호중구 증가 주사, 케모포트 후버바늘 제거와 치료병원 연계를 안내합니다."
   },
   {
     "id": "endoscopy",
@@ -162,7 +162,7 @@
   {
     "id": "heart-index",
     "path": "/services/heart/",
-    "patientNeed": "검사 간 차이를 먼저 확인하고 개별 검사 안내로 이동하세요. 증상 때문에 진료를 준비한다면 발생 상황과 이전 결과를 정리해 상담하는 것이 좋습니다."
+    "patientNeed": "심전도·심장초음파·홀터·활동혈압검사와 심장 관련 혈액검사의 목적, 예약·준비와 예상 결과시간을 확인하세요. 응급 증상이 있으면 외래 검사보다 응급실 평가가 우선입니다."
   },
   {
     "id": "abi",
@@ -172,7 +172,7 @@
   {
     "id": "cardiac-markers",
     "path": "/services/heart/cardiac-markers/",
-    "patientNeed": "심장 표지자 검사의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
+    "patientNeed": "영통탑내과의 Troponin I·CK-MB·Troponin T·CPK·D-dimer·NT-proBNP 검사 목적과 결과시간을 안내합니다. Troponin I는 원내 약 20분, 나머지는 일반적으로 다음 날 확인합니다."
   },
   {
     "id": "carotid",
@@ -192,7 +192,7 @@
   {
     "id": "holter",
     "path": "/services/heart/holter/",
-    "patientNeed": "홀터검사는 일상생활 중 심장의 전기 신호를 연속 기록하는 검사입니다. 증상 일지, 착용·반납 시 확인할 사항과 결과 상담을 준비하는 방법을 알아보세요."
+    "patientNeed": "영통탑내과는 주로 72시간 홀터검사로 일상생활의 심전도를 기록합니다. 간헐적인 두근거림의 증상 기록, 착용 중 생활, 반납과 결과 상담, 전화 예약을 안내합니다."
   },
   {
     "id": "ultrasound-index",
@@ -207,7 +207,7 @@
   {
     "id": "bowel-ultrasound",
     "path": "/services/ultrasound/bowel/",
-    "patientNeed": "소장·대장·맹장 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
+    "patientNeed": "소장·대장·충수의 초음파 검사로 장관의 부종·비후, 충수염(흔히 맹장염), 장폐색 등 의심 소견을 평가합니다. 검사 범위와 한계, 추가 검사가 필요한 상황을 확인하세요."
   },
   {
     "id": "thyroid-ultrasound",
@@ -217,7 +217,7 @@
   {
     "id": "sitemap",
     "path": "/sitemap/",
-    "patientNeed": "병원의 전체 안내를 분야별 목록에서 찾아 이동한다."
+    "patientNeed": "병원 소개부터 진료·검사·건강검진·건강정보까지, 영통탑내과 홈페이지의 전체 페이지를 분야별로 안내합니다."
   },
   {
     "id": "visit",
@@ -297,7 +297,7 @@
   {
     "id": "chronic-disease",
     "path": "/conditions/chronic-disease/",
-    "patientNeed": "생활습관만으로 혈압, 혈당, 콜레스테롤을 조절할 수 있는 경우와 약을 미루면 위험한 경우를 설명합니다."
+    "patientNeed": "혈압·혈당·지질과 흡연·체중을 함께 관리해 심근경색·뇌졸중·신장질환 위험을 줄이는 진료를 안내합니다. 금연치료와 개인별 목표·추적 계획을 상담하세요."
   },
   {
     "id": "gallstones",
@@ -387,17 +387,17 @@
   {
     "id": "cardio-stable-angina",
     "path": "/diseases/cardio/stable-angina/",
-    "patientNeed": "안정형 협심증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "안정형 협심증의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
   },
   {
     "id": "cardio-acute-myocardial-infarction",
     "path": "/diseases/cardio/acute-myocardial-infarction/",
-    "patientNeed": "급성 심근경색의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "급성 심근경색의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
   },
   {
     "id": "cardio-heart-failure",
     "path": "/diseases/cardio/heart-failure/",
-    "patientNeed": "심부전의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "심부전의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
   },
   {
     "id": "cardio-atrial-fibrillation",
@@ -432,12 +432,12 @@
   {
     "id": "cardio-myocarditis",
     "path": "/diseases/cardio/myocarditis/",
-    "patientNeed": "심근염의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "심근염의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
   },
   {
     "id": "cardio-pericarditis",
     "path": "/diseases/cardio/pericarditis/",
-    "patientNeed": "심낭염의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "심낭염의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
   },
   {
     "id": "cardio-dilated-cardiomyopathy",
@@ -457,7 +457,7 @@
   {
     "id": "cardio-deep-vein-thrombosis",
     "path": "/diseases/cardio/deep-vein-thrombosis/",
-    "patientNeed": "심부정맥혈전증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "심부정맥혈전증의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
   },
   {
     "id": "cardio-aortic-aneurysm-dissection",
@@ -468,5 +468,75 @@
     "id": "cardio-orthostatic-hypotension",
     "path": "/diseases/cardio/orthostatic-hypotension/",
     "patientNeed": "기립성 저혈압의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+  },
+  {
+    "id": "digestive-disease",
+    "path": "/conditions/digestive/",
+    "patientNeed": "식도·위, 소장·대장·충수, 담낭·담도, 췌장, 간의 증상과 검사·진료를 안내합니다. 갑작스러운 복통이 있다면 먼저 위험 신호를 확인하세요."
+  },
+  {
+    "id": "esophagus-stomach",
+    "path": "/conditions/digestive/esophagus-stomach/",
+    "patientNeed": "속쓰림, 위산 역류, 소화불량과 삼킴 불편을 평가합니다. 증상 경과와 복용약을 확인하고 필요한 위내시경·조직검사와 치료를 상담하세요."
+  },
+  {
+    "id": "bowel-appendix",
+    "path": "/conditions/digestive/bowel-appendix/",
+    "patientNeed": "설사·변비·혈변과 복통의 경과를 확인하고 장염, 염증성 장질환, 용종과 충수염 가능성을 평가합니다. 응급 수술이 필요한 복통은 신속히 의뢰합니다."
+  },
+  {
+    "id": "biliary-disease",
+    "path": "/conditions/digestive/gallbladder-bile-duct/",
+    "patientNeed": "담낭(쓸개)과 담도의 담석·염증·폐쇄 가능성을 확인합니다. 초음파와 혈액검사 결과, 통증·발열·황달 여부에 따라 추적 또는 상급병원 진료를 정합니다."
+  },
+  {
+    "id": "pancreatic-disease",
+    "path": "/conditions/digestive/pancreas/",
+    "patientNeed": "췌장염이나 췌장 이상이 의심될 때 증상과 검사 결과를 함께 확인합니다. 심한 상복부 통증·구토는 응급 평가를 우선하고 정밀 영상검사가 필요하면 의뢰합니다."
+  },
+  {
+    "id": "neck-disease",
+    "path": "/conditions/thyroid-carotid-neck/",
+    "patientNeed": "갑상선의 기능과 결절, 경동맥의 플라크·협착, 목에 만져지는 멍울을 구분해 안내합니다. 증상과 기존 결과에 맞춰 검사·치료·의뢰 계획을 확인하세요."
+  },
+  {
+    "id": "thyroid-disease",
+    "path": "/conditions/thyroid-carotid-neck/thyroid/",
+    "patientNeed": "갑상선기능 이상과 갑상선 결절은 확인하는 검사가 다릅니다. 혈액검사와 초음파를 바탕으로 약물치료, 추적검사 또는 조직검사 의뢰를 상담하세요."
+  },
+  {
+    "id": "carotid-disease",
+    "path": "/conditions/thyroid-carotid-neck/carotid/",
+    "patientNeed": "경동맥초음파에서 확인한 내중막 두께·플라크·협착과 혈류를 이해하고, 혈압·당뇨·흡연 등 위험요인의 관리와 전문 진료 필요성을 상담하세요."
+  },
+  {
+    "id": "neck-lump",
+    "path": "/conditions/thyroid-carotid-neck/neck-lump/",
+    "patientNeed": "목의 멍울은 위치와 지속 기간, 크기 변화와 동반 증상에 따라 평가합니다. 갑상선·림프절 등의 원인을 구분하고 필요한 검사와 의뢰를 안내합니다."
+  },
+  {
+    "id": "kidney-disease",
+    "path": "/conditions/kidney/",
+    "patientNeed": "신장기능 저하, 단백뇨·혈뇨, 신우신염과 수신증을 평가합니다. 혈압·혈액·소변검사와 필요한 초음파를 바탕으로 치료와 상급병원 연계를 안내합니다."
+  },
+  {
+    "id": "kidney-function",
+    "path": "/conditions/kidney/function/",
+    "patientNeed": "고혈압·당뇨가 있거나 단백뇨·신장기능 이상을 들었다면 혈액·소변검사의 변화를 함께 확인하세요. 위험요인 관리와 추적검사의 목적을 안내합니다."
+  },
+  {
+    "id": "pyelonephritis",
+    "path": "/conditions/kidney/pyelonephritis/",
+    "patientNeed": "발열·오한과 옆구리 통증, 배뇨통이 있으면 신장까지 번진 요로감염을 확인해야 합니다. 검사와 항생제 치료, 입원이 필요한 상황을 안내합니다."
+  },
+  {
+    "id": "hydronephrosis",
+    "path": "/conditions/kidney/hydronephrosis/",
+    "patientNeed": "수신증은 소변이 잘 배출되지 않아 신장 안에 고이는 소견입니다. 원인과 신장기능, 감염 여부를 확인하고 필요한 전문 치료와 이후 추적관리를 연결합니다."
+  },
+  {
+    "id": "ambulatory-blood-pressure",
+    "path": "/services/heart/ambulatory-blood-pressure/",
+    "patientNeed": "반지형 CART BP Pro를 약 24시간 착용해 일상생활과 수면 중 혈압을 기록합니다. 진료실과 생활 속 혈압 차이, 결과 확인과 홀터검사와의 차이를 안내합니다."
   }
 ]

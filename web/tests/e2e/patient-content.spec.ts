@@ -31,7 +31,7 @@ test('case links remain readable without JavaScript and lead to hospital origina
       /^https:\/\/yttop\.co\.kr\/21\/\?bmode=view&idx=\d+&t=board$/,
     );
     await expect(card).toContainText('병원 홈페이지에서 보기');
-    await expect(card).toHaveAttribute('rel', 'noopener noreferrer');
+    await expect(card).toHaveAttribute('rel', 'nofollow noopener noreferrer');
   }
   await context.close();
 });
@@ -42,9 +42,7 @@ test('patient search and sitemap exclude the retired policy and local article co
   for (const route of ['/search/', '/sitemap/']) {
     await page.goto(url(route));
     await expect(page.locator('a[href*="content-policy"]')).toHaveCount(0);
-    await expect(
-      page.locator('a[href*="/cases/"]').filter({ hasNotText: '진단 사례' }),
-    ).toHaveCount(0);
+    await expect(page.locator('main a[href*="/cases/"]')).toHaveCount(0);
     await expect(page.locator('.review-bar')).toHaveCount(0);
     await expect(page.locator('footer')).toContainText(
       '영통탑내과의 진료·검사와 방문을 안내합니다.',

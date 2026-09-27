@@ -131,8 +131,9 @@ export function SiteNavigation({
         {items.map(link)}
       </nav>
       <div className="header-actions">
-        <a className="icon-button" href={searchUrl} aria-label="사이트 검색">
+        <a className="icon-button header-search" href={searchUrl} aria-label="사이트 검색">
           <Search size={21} />
+          <span>검색</span>
         </a>
         <a className="header-phone" href={phoneUrl} aria-label="전화 문의">
           <Phone size={18} />

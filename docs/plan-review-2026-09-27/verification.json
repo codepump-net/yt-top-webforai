@@ -1,0 +1,254 @@
+{
+  "reviewedAt": "2026-09-27T01:12:07.188Z",
+  "repositoryHead": "6d692968bf32b3f5fdfb5818e75a14dc80792cb7",
+  "runtime": "v24.21.0",
+  "planFiles": [
+    {
+      "path": "plan/영통탑내과_블로그_미반영사항_통합반영안_2026-09-27.docx",
+      "sha256": "11771cc6d3c9c18457b133e7a7c46fd0e842c08d19fa554d378fe9373679084b"
+    },
+    {
+      "path": "plan/영통탑내과_블로그_미반영사항_통합반영안_2026-09-27.md",
+      "sha256": "39dcc59ce53a7ac68ce2d266aabecf0a4d510c5e59e7fab35ca4a9cf5f1c201e"
+    },
+    {
+      "path": "plan/영통탑내과_블로그_이식패키지_README_2026-09-27.md",
+      "sha256": "4f207ec97a91c73e8ebab7493cb7fe02af3f28457828c1cd859289f718eaa323"
+    }
+  ],
+  "checks": {
+    "contentValidation": {
+      "status": "passed",
+      "pages": 94,
+      "assets": 5,
+      "mode": "review",
+      "command": "node scripts/validate.mjs review"
+    },
+    "unitTests": {
+      "status": "passed",
+      "files": 9,
+      "tests": 64,
+      "command": "node node_modules/vitest/vitest.mjs run"
+    },
+    "staticAudit": {
+      "status": "passed",
+      "routes": 94,
+      "command": "node scripts/audit.mjs",
+      "newBuildRun": false
+    },
+    "browserCheck": {
+      "status": "completed",
+      "scope": "Local existing static export: cardiovascular filter, eight search terms, heart-failure desktop/mobile TOC"
+    }
+  },
+  "implementation": {
+    "commit": "42bb362ff4e97daa697689d36f88ec75d5776994",
+    "builtAt": "2026-09-26T14:52:42.057Z",
+    "mode": "review",
+    "basePath": "/yt-top-webforai",
+    "contentDigestMatches": true,
+    "routes": 94,
+    "faq": 152,
+    "cardioCount": 20,
+    "diseases": {
+      "visibleCards": 28,
+      "missingCardio": []
+    },
+    "search": {
+      "visibleCards": 91,
+      "missingCardio": []
+    },
+    "sitemap": {
+      "visibleCards": 93,
+      "missingCardio": []
+    },
+    "vaccinations": {
+      "tables": 0,
+      "images": 0
+    },
+    "toc": {
+      "contentCopies": 2,
+      "entriesPerToc": 17
+    },
+    "homeSearch": 0,
+    "cases": {
+      "robots": "noindex, follow",
+      "externalCards": 25,
+      "inHtmlSitemap": true,
+      "indexable": true
+    },
+    "guidance": {
+      "enabled": 82,
+      "medical": 81,
+      "heart": 32,
+      "documents": 14
+    },
+    "categories": {
+      "symptoms": [
+        {
+          "title": "심장·혈관",
+          "count": 1
+        },
+        {
+          "title": "속쓰림·소화불량·급·만성 복통",
+          "count": 1
+        },
+        {
+          "title": "간·췌장·담도·쓸개",
+          "count": 0
+        },
+        {
+          "title": "당뇨·갑상선·고지혈증",
+          "count": 0
+        },
+        {
+          "title": "호흡기·감염",
+          "count": 1
+        },
+        {
+          "title": "신장",
+          "count": 0
+        },
+        {
+          "title": "암 치료 중 증상",
+          "count": 2
+        }
+      ],
+      "diseases": [
+        {
+          "title": "소화기(위·대장·간·담도·췌장)",
+          "count": 3
+        },
+        {
+          "title": "호흡기·감염",
+          "count": 2
+        },
+        {
+          "title": "심장·혈관",
+          "count": 20
+        },
+        {
+          "title": "암과 가족력",
+          "count": 1
+        },
+        {
+          "title": "내분비·대사·갑상선",
+          "count": 2
+        }
+      ],
+      "conditions": 4
+    },
+    "schemaAcceptsFooterVariant": false,
+    "publicXmlCount": 0
+  },
+  "browser": {
+    "cardioFilter": {
+      "count": 20,
+      "message": "심장·혈관 · 20개"
+    },
+    "siteSearch": {
+      "initialCount": 91,
+      "filters": [
+        "전체 91개",
+        "병원 안내 10개",
+        "진단 사례 1개",
+        "건강검진 8개",
+        "내과 진료 10개",
+        "건강정보 17개",
+        "공지사항 1개",
+        "내시경 3개",
+        "심장검사 7개",
+        "초음파검사 4개",
+        "진료·검사 1개",
+        "예방접종 1개",
+        "Visa examination 1개",
+        "签证体检 1개",
+        "ตรวจสุขภาพวีซ่า 1개",
+        "Визовое обследование 1개",
+        "भिसा परीक्षण 1개",
+        "증상백과 1개",
+        "질환백과 1개",
+        "검사·시술 1개",
+        "심장·혈관 20개"
+      ],
+      "terms": {
+        "맹장": {
+          "count": 2,
+          "firstTitles": [
+            "소장·대장·맹장 초음파",
+            "대장용종 결과와 추적 내시경"
+          ]
+        },
+        "고지혈증": {
+          "count": 3,
+          "firstTitles": [
+            "혈압·당뇨·고지혈증과 생활관리",
+            "이상지질혈증이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+            "코로나19 검사와 팍스로비드 상담"
+          ]
+        },
+        "홀터": {
+          "count": 15,
+          "firstTitles": [
+            "홀터검사",
+            "심전도·심장초음파·홀터검사의 차이",
+            "검사 후에도 두근거림이 계속될 때 확인할 점"
+          ]
+        },
+        "케모포트": {
+          "count": 4,
+          "firstTitles": [
+            "암환자 진료·케어 안내",
+            "암 치료 중 증상별 대처와 위험 신호",
+            "항암치료 중 38도 열이 날 때"
+          ]
+        },
+        "E-2": {
+          "count": 6,
+          "firstTitles": [
+            "E-2·F-2·H-2 비자검진과 결핵진단서",
+            "E-2, F-2 and H-2 visa examinations and TB certificates",
+            "E-2、F-2、H-2签证体检及结核病证明"
+          ]
+        },
+        "CART BP Pro": {
+          "count": 6,
+          "firstTitles": [
+            "검사·장비와 결과 확인 시간",
+            "심장질환 진료",
+            "혈압·당뇨·고지혈증과 생활관리"
+          ]
+        },
+        "CARTBP": {
+          "count": 0,
+          "firstTitles": []
+        },
+        "심장혈관": {
+          "count": 22,
+          "firstTitles": [
+            "죽상경화증이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+            "검사 후에도 두근거림이 계속될 때 확인할 점",
+            "심장판막 역류와 치료·추적검사"
+          ]
+        }
+      }
+    },
+    "toc": {
+      "desktopContainers": 2,
+      "desktopNavs": 4,
+      "desktopVisible": true,
+      "mobileVisibleOnDesktop": false,
+      "desktopVisibleOnMobile": false,
+      "mobileVisible": true,
+      "mobileContentsVisible": true,
+      "horizontalOverflow": false
+    }
+  },
+  "limitations": [
+    "No live-site revalidation",
+    "No new medical or operational approval",
+    "No verification of external package scripts because absent from supplied files",
+    "DOCX text and embedded image inspected; complete DOCX rendering not performed",
+    "No full browser regression suite rerun; existing unit suite and static audit rerun"
+  ]
+}

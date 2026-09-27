@@ -28,16 +28,21 @@ import {
   questionAnchor,
   siteMapGroups,
   languageVersions,
-  directoryTerms,
-  guideRole,
+  discoverable,
 } from '@/lib/site';
 import { languageNames, pageLabels } from '@/lib/languages';
 import caseLinks from '../../../content/case-links.json';
 import { ArticleNavigation } from './article-navigation';
 import { VisitInfo } from './chrome';
 import { Search, type SearchItem } from './search';
+import { HomeSearch } from './home-search';
+import {
+  searchItems as makeSearchItems,
+  searchCategories,
+  searchablePages,
+} from '@/lib/search-model.mjs';
 import { ArticleFooter } from './article-footer';
-import { articleGuidance, guidanceLabels } from '@/lib/article-guidance.mjs';
+import assets from '../../../content/assets.json';
 
 const iconSet = [HeartPulse, ScanLine, Waves, ClipboardCheck, Stethoscope, Activity];
 export function Cards({ items, icons = false }: { items: Page[]; icons?: boolean }) {
@@ -64,7 +69,9 @@ export function Cards({ items, icons = false }: { items: Page[]; icons?: boolean
     </div>
   );
 }
-const select = (ids: string[]) => ids.map(pageById).filter((p): p is Page => !!p);
+const select = (ids: string[]) =>
+  ids.map(pageById).filter((p): p is Page => !!p && discoverable(p));
+const searchItems = (items: Page[]): SearchItem[] => makeSearchItems(items, href);
 function SectionHeading({
   eyebrow,
   title,
@@ -169,7 +176,7 @@ function Home() {
           <div className="hero-visual">
             <ClinicPhoto hero />
             <div className="photo-caption">
-              <span>YEONGTONG TOP CLINIC</span>
+              <span>{clinic.englishName}</span>
               <p>필요한 진료로 이어지는 첫 만남</p>
             </div>
             <div className="location-chip">
@@ -193,6 +200,7 @@ function Home() {
           </a>
         </div>
       </div>
+      <HomeSearch searchUrl={href('/search/')} sitemapUrl={href('/sitemap/')} />
       <section className="section container patient-entry-section">
         <SectionHeading
           eyebrow="START HERE"
@@ -229,7 +237,7 @@ function Home() {
               link={['/conditions/', '진료분야 전체']}
             />
             <PageLinks
-              ids={['heart-disease', 'abdominal-pain', 'respiratory-infections', 'chronic-disease']}
+              ids={hubGroups.conditions.flatMap((group: { ids: string[] }) => group.ids)}
             />
           </div>
           <div>
@@ -303,6 +311,24 @@ function PageLinks({ ids }: { ids: string[] }) {
 }
 function HubDirectory({ page }: { page: Page }) {
   const groups = hubGroups[page.id];
+  if (page.id === 'conditions')
+    return (
+      <div className="care-directory">
+        {groups.map((group: { title: string; ids: string[] }, i: number) => {
+          const target = pageById(group.ids[0])!;
+          return (
+            <a className="topic-card" href={href(target.path)} key={target.id}>
+              <span className="eyebrow">{String(i + 1).padStart(2, '0')}</span>
+              <h2>{group.title}</h2>
+              <p>{target.description}</p>
+              <span className="card-link">
+                진료 안내 <ArrowUpRight size={18} />
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    );
   if (['symptoms', 'diseases'].includes(page.id)) {
     const items = searchItems(childrenFor(page)).map((item) => ({
       ...item,
@@ -323,6 +349,14 @@ function HubDirectory({ page }: { page: Page }) {
   if (groups)
     return (
       <div className="hub-directory">
+        {page.id === 'digestive-disease' && (
+          <a className="digestive-symptom-entry" href={href(pageById('abdominal-pain')!.path)}>
+            <strong>갑자기 배가 아플 때</strong>
+            <span>
+              급성 복통의 위험 신호와 진료 안내 <ArrowRight size={18} />
+            </span>
+          </a>
+        )}
         {groups.map((group: { title: string; ids: string[] }, i: number) => (
           <section key={group.title} id={`directory-${i + 1}`}>
             <h2>{group.title}</h2>
@@ -336,29 +370,6 @@ function HubDirectory({ page }: { page: Page }) {
   ) : null;
 }
 
-function searchItems(items: Page[]): SearchItem[] {
-  return items.map((p) => ({
-    title: p.title,
-    description: p.description,
-    category: p.category,
-    aliases: directoryTerms(p.id).join(' '),
-    guideRole: guideRole(p.id),
-    url: href(p.path),
-    headings: [...p.blocks.map((b) => b.heading), ...p.questions.map((q) => q.question)].join(' '),
-    detail: /detail$/.test(p.template),
-    text:
-      p.intro +
-      ' ' +
-      p.blocks
-        .map(
-          (b) =>
-            `${b.heading} ${b.text} ${[...(b.paragraphs ?? []), ...(b.items ?? []), ...(b.steps ?? [])].join(' ')} ${b.table ? [b.table.caption, ...b.table.columns, ...b.table.rows.flat()].join(' ') : ''}`,
-        )
-        .join(' ') +
-      ' ' +
-      p.questions.map((q) => q.question + ' ' + q.answer).join(' '),
-  }));
-}
 function OriginalNoticesLink() {
   return (
     <a
@@ -436,6 +447,26 @@ function BodyBlocks({ page }: { page: Page }) {
               ))}
             </ol>
           )}
+          {page.id === 'vaccinations' &&
+            b.id === 'vaccination-schedule' &&
+            (() => {
+              const asset = assets.find((item) => item.id === 'vaccination-schedule-2026')!;
+              return (
+                <figure className="vaccination-figure">
+                  <a href={href(asset.file)}>
+                    <img
+                      src={href(asset.file)}
+                      width={asset.width}
+                      height={asset.height}
+                      alt="영통탑내과 2026 성인 예방접종 일정표. 백신별 대상·기본 일정·메모는 바로 아래 표에서 확인할 수 있습니다."
+                    />
+                  </a>
+                  <figcaption>
+                    영통탑내과 자체 제작 성인 예방접종 요약표 · 이미지를 누르면 크게 볼 수 있습니다.
+                  </figcaption>
+                </figure>
+              );
+            })()}
           {b.table && (
             <div
               className="answer-table-wrap"
@@ -677,12 +708,27 @@ function SiteMap() {
 export function PageContent({ page }: { page: Page }) {
   const t = pageLabels(page.language);
   const versions = languageVersions(page);
+  const tocEntries = [
+    ...(page.template === 'physician-detail'
+      ? doctorSections(page).map((s) => ({ id: s.id, label: s.title }))
+      : []),
+    ...(page.id === 'about'
+      ? clinicValues.map((v, i) => ({ id: `value-${i + 1}`, label: v.title }))
+      : []),
+    ...(!['symptoms', 'diseases'].includes(page.id)
+      ? (hubGroups[page.id] ?? []).map((g: { title: string }, i: number) => ({
+          id: `directory-${i + 1}`,
+          label: g.title,
+        }))
+      : []),
+    ...page.blocks
+      .map((b, i) => ({ id: b.id ?? `section-${i + 1}`, label: b.heading }))
+      .filter((entry) => !['visit', 'related-diseases'].includes(entry.id)),
+    ...(page.id === 'fees' ? [{ id: 'fee-enquiry', label: '전화 문의 시 함께 확인할 항목' }] : []),
+  ];
   const hasToc =
-    (page.blocks.length > 0 ||
-      page.questions.length > 0 ||
-      !!hubGroups[page.id] ||
-      page.template === 'physician-detail') &&
-    !['visit', 'doctors', 'sitemap', 'search', 'cases'].includes(page.id);
+    tocEntries.length > 0 &&
+    !['visit', 'doctors', 'sitemap', 'search', 'cases', 'conditions'].includes(page.id);
   const section = sectionFor(page);
   return (
     <>
@@ -734,58 +780,7 @@ export function PageContent({ page }: { page: Page }) {
             </div>
           </div>
           <div className={`container page-content ${hasToc ? 'article-layout' : ''}`}>
-            {hasToc && (
-              <ArticleNavigation
-                title={page.title}
-                label={t.contents}
-                relatedLabel={t.related}
-                entries={[
-                  ...(page.template === 'physician-detail'
-                    ? doctorSections(page).map((s) => ({ id: s.id, label: s.title }))
-                    : []),
-                  ...(page.id === 'about'
-                    ? clinicValues.map((v, i) => ({ id: `value-${i + 1}`, label: v.title }))
-                    : []),
-                  ...(!['symptoms', 'diseases'].includes(page.id)
-                    ? (hubGroups[page.id] ?? []).map((g: { title: string }, i: number) => ({
-                        id: `directory-${i + 1}`,
-                        label: g.title,
-                      }))
-                    : []),
-                  ...page.blocks.map((b, i) => ({
-                    id: b.id ?? `section-${i + 1}`,
-                    label: b.heading,
-                  })),
-                  ...(page.questions.length
-                    ? [
-                        { id: 'questions', label: t.questions },
-                        ...page.questions.map((q, i) => ({
-                          id: questionAnchor(q, i),
-                          label: q.question,
-                          nested: true,
-                        })),
-                      ]
-                    : []),
-                  ...(page.id === 'fees'
-                    ? [{ id: 'fee-enquiry', label: '전화 문의 시 함께 확인할 항목' }]
-                    : []),
-                  ...(articleGuidance(page).enabled
-                    ? [
-                        {
-                          id: 'article-guidance-title',
-                          label:
-                            guidanceLabels[(page.language ?? 'ko') as keyof typeof guidanceLabels]
-                              .title,
-                        },
-                      ]
-                    : []),
-                  ...(!['cases', 'notices'].includes(page.id) && page.sources.length
-                    ? [{ id: 'sources', label: t.sources }]
-                    : []),
-                ]}
-                related={select(page.related).map((p) => ({ url: href(p.path), title: p.title }))}
-              />
-            )}
+            {hasToc && <ArticleNavigation label={t.contents} entries={tocEntries} />}
             <article className="main-article">
               {page.id === 'visit' ? (
                 <VisitPage />
@@ -795,26 +790,38 @@ export function PageContent({ page }: { page: Page }) {
                 <DoctorDetail page={page} />
               ) : page.id === 'search' ? (
                 <Search
-                  items={searchItems(
-                    pages.filter(
-                      (p) => !['not-found', 'search', 'sitemap'].includes(p.id) && p.indexable,
-                    ),
-                  )}
+                  items={searchItems(searchablePages(pages))}
                   filter
+                  categories={searchCategories}
+                  idlePrompt
+                  sitemapUrl={href('/sitemap/')}
                 />
               ) : page.id === 'sitemap' ? (
                 <SiteMap />
               ) : page.id === 'cases' ? (
                 <>
                   <BodyBlocks page={page} />
-                  <Search
-                    items={caseLinks.map((item) => ({
-                      ...item,
-                      text: item.description,
-                      external: true,
-                    }))}
-                    label="진단 사례에서 궁금한 내용을 찾아보세요"
-                  />
+                  <div className="case-originals" data-nosnippet>
+                    {caseLinks.map((item) => (
+                      <a
+                        className="result-card"
+                        key={item.url}
+                        href={item.url}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                      >
+                        <div>
+                          <span className="eyebrow">{item.category}</span>
+                          <h2>{item.title}</h2>
+                          <p>{item.description}</p>
+                          <span className="card-link">
+                            병원 홈페이지에서 보기 <span className="sr-only">(새 창)</span>
+                          </span>
+                        </div>
+                        <ArrowUpRight size={22} />
+                      </a>
+                    ))}
+                  </div>
                 </>
               ) : page.id === 'notices' ? (
                 <>
@@ -858,8 +865,8 @@ export function PageContent({ page }: { page: Page }) {
                   </a>
                 </div>
               )}
-              {!hasToc && page.related.length > 0 && (
-                <nav className="plain-related" aria-label={t.related}>
+              {select(page.related).length > 0 && (
+                <nav className="plain-related article-connections" aria-label={t.related}>
                   <strong>{t.related}</strong>
                   <PageLinks ids={page.related} />
                 </nav>

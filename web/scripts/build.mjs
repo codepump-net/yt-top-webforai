@@ -5,6 +5,7 @@ import { spawnSync } from 'node:child_process';
 import { loadContent } from './data.mjs';
 import { sha256 } from './content-contract.mjs';
 import { absoluteUrl, normalizeBase } from '../src/lib/urls.mjs';
+import { discoverable } from '../src/lib/information-architecture.mjs';
 const mode = process.argv[2] ?? 'review';
 if (!['review', 'production'].includes(mode)) throw new Error('Unknown build mode');
 const origin = process.env.SITE_ORIGIN ?? 'http://localhost:3000';
@@ -40,10 +41,13 @@ const xml = (list) =>
   '\n</urlset>\n';
 await fs.writeFile(
   'out/sitemap.xml',
-  xml(mode === 'production' ? data.pages.filter((p) => p.indexable) : []),
+  xml(mode === 'production' ? data.pages.filter((p) => p.indexable && discoverable(p)) : []),
 );
 if (mode === 'review')
-  await fs.writeFile('reports/planned-sitemap.xml', xml(data.pages.filter((p) => p.indexable)));
+  await fs.writeFile(
+    'reports/planned-sitemap.xml',
+    xml(data.pages.filter((p) => p.indexable && discoverable(p))),
+  );
 await fs.writeFile(
   'out/robots.txt',
   `User-agent: *\nAllow: /\n${mode === 'production' ? `Sitemap: ${absolute('/sitemap.xml')}\n` : ''}`,
@@ -55,7 +59,7 @@ if (mode === 'production')
     'out/llms.txt',
     `# ${data.clinic.name}\n\n> ${data.pages[0].description}\n\n` +
       data.pages
-        .filter((p) => p.indexable && p.template !== 'case-detail')
+        .filter((p) => p.indexable && discoverable(p) && p.template !== 'case-detail')
         .map((p) => `- [${p.title}](${absolute(p.path)}): ${p.description}`)
         .join('\n') +
       '\n',

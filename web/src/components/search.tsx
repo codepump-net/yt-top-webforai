@@ -16,10 +16,18 @@ export type SearchItem = {
 };
 const subscribeToUrl = (callback: () => void) => {
   window.addEventListener('popstate', callback);
-  return () => window.removeEventListener('popstate', callback);
+  window.addEventListener('hashchange', callback);
+  return () => {
+    window.removeEventListener('popstate', callback);
+    window.removeEventListener('hashchange', callback);
+  };
 };
 const queryFromUrl = () =>
-  (new URLSearchParams(window.location.search).get('q') ?? '').slice(0, 120);
+  (
+    new URLSearchParams(window.location.hash.slice(1)).get('q') ??
+    new URLSearchParams(window.location.search).get('q') ??
+    ''
+  ).slice(0, 120);
 const emptyQuery = () => '';
 export function Search({
   items,
@@ -27,17 +35,23 @@ export function Search({
   filter = false,
   alphabetical = false,
   categories: orderedCategories,
+  idlePrompt = false,
+  sitemapUrl,
 }: {
   items: SearchItem[];
   label?: string;
   filter?: boolean;
   alphabetical?: boolean;
   categories?: string[];
+  idlePrompt?: boolean;
+  sitemapUrl?: string;
 }) {
   const initialQuery = useSyncExternalStore(subscribeToUrl, queryFromUrl, emptyQuery);
   const [editedQuery, setQuery] = useState<string | null>(null);
   const query = editedQuery ?? initialQuery;
   const [category, setCategory] = useState('전체');
+  const [showAll, setShowAll] = useState(false);
+  const waiting = idlePrompt && !query.trim() && category === '전체' && !showAll;
   const input = useRef<HTMLInputElement>(null);
   const categories = ['전체', ...(orderedCategories ?? [...new Set(items.map((p) => p.category))])];
   const results = useMemo(() => {
@@ -107,8 +121,12 @@ export function Search({
           }
           autoComplete="off"
           maxLength={120}
+          aria-describedby="search-privacy"
         />
       </div>
+      <p className="small search-privacy" id="search-privacy">
+        증상이나 검사 이름으로 검색하세요. 이름·연락처·주민등록번호 등 개인정보는 입력하지 마세요.
+      </p>
       {filter && (
         <div className="filter-row" role="group" aria-label="분야 선택">
           {categories.map((c) => (
@@ -127,7 +145,13 @@ export function Search({
         </div>
       )}
       <noscript>
-        <p className="notice-box">아래 전체 목록에서 필요한 안내를 선택할 수 있습니다.</p>
+        <p className="notice-box">
+          {idlePrompt && sitemapUrl ? (
+            <a href={sitemapUrl}>전체 페이지에서 필요한 안내를 선택하세요.</a>
+          ) : (
+            '아래 전체 목록에서 필요한 안내를 선택할 수 있습니다.'
+          )}
+        </p>
       </noscript>
       {alphabetical && (
         <p className="small">
@@ -135,37 +159,49 @@ export function Search({
         </p>
       )}
       <p className="result-count" role="status" aria-live="polite">
-        {category !== '전체' ? `${category} · ` : ''}
-        {query.trim() ? `“${query.trim()}” 검색 결과 ` : category === '전체' ? '전체 ' : ''}
-        {results.length}개
+        {waiting ? (
+          '검색어를 입력하거나 분야를 선택해 주세요.'
+        ) : (
+          <>
+            {category !== '전체' ? `${category} · ` : ''}
+            {query.trim() ? `“${query.trim()}” 검색 결과 ` : category === '전체' ? '전체 ' : ''}
+            {results.length}개
+          </>
+        )}
       </p>
+      {waiting && sitemapUrl && (
+        <a className="text-link" href={sitemapUrl}>
+          전체 페이지에서 찾기
+        </a>
+      )}
       <div className="search-results">
-        {results.map((p) => (
-          <a
-            href={p.url}
-            key={p.url}
-            className="result-card"
-            target={p.external ? '_blank' : undefined}
-            rel={p.external ? 'noopener noreferrer' : undefined}
-          >
-            <div>
-              <span className="eyebrow">
-                {p.category}
-                {p.guideRole ? ` · ${p.guideRole}` : ''}
-              </span>
-              <h2>{p.title}</h2>
-              <p>{p.description}</p>
-              {p.external && (
-                <span className="card-link">
-                  병원 홈페이지에서 보기 <span className="sr-only"> (새 창)</span>
+        {!waiting &&
+          results.map((p) => (
+            <a
+              href={p.url}
+              key={p.url}
+              className="result-card"
+              target={p.external ? '_blank' : undefined}
+              rel={p.external ? 'noopener noreferrer' : undefined}
+            >
+              <div>
+                <span className="eyebrow">
+                  {p.category}
+                  {p.guideRole ? ` · ${p.guideRole}` : ''}
                 </span>
-              )}
-            </div>
-            <ArrowUpRight size={22} />
-          </a>
-        ))}
+                <h2>{p.title}</h2>
+                <p>{p.description}</p>
+                {p.external && (
+                  <span className="card-link">
+                    병원 홈페이지에서 보기 <span className="sr-only"> (새 창)</span>
+                  </span>
+                )}
+              </div>
+              <ArrowUpRight size={22} />
+            </a>
+          ))}
       </div>
-      {results.length === 0 && (
+      {!waiting && results.length === 0 && (
         <div className="empty-state">
           <h2>{query.trim() ? '검색 결과가 없습니다.' : '이 분야에 등록된 안내가 없습니다.'}</h2>
           <p>
@@ -179,6 +215,7 @@ export function Search({
             onClick={() => {
               setQuery('');
               setCategory('전체');
+              setShowAll(true);
               input.current?.focus();
             }}
           >

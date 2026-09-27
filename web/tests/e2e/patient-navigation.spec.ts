@@ -87,9 +87,10 @@ test('left contents stays reachable and mobile offers contents and preparation w
   await expect(page.locator('.related-section')).toHaveCount(0);
   await expect(page.locator('.article-connections a')).not.toHaveCount(0);
   await page.setViewportSize({ width: 390, height: 844 });
-  await expect(page.locator('.mobile-toc')).not.toHaveAttribute('open');
-  await page.locator('.mobile-toc > summary').click();
-  await expect(page.locator('.mobile-toc nav a[href^="#"]').first()).toBeVisible();
+  await expect(page.locator('.article-toc')).toHaveCount(1);
+  await expect(page.locator('.article-toc')).not.toHaveAttribute('open');
+  await page.locator('.article-toc > summary').click();
+  await expect(page.locator('.article-toc nav a[href^="#"]').first()).toBeVisible();
   await page.locator('.mobile-contact a[href$="/preparation/"]').click();
   await expect(page.locator('h1')).toHaveText('검사 준비와 검사 후 관리');
 });
@@ -113,11 +114,16 @@ test('contents includes directory and physician sections, and test comparisons u
     await page.goto(url(route));
     const toc = page.locator('.sidebar-box');
     await expect(toc).toBeVisible();
-    for (const heading of await page
+    const headings = await page
       .locator(
-        '.hub-directory h2, .values h2, .doctor-profile h3, .article-section h2, .provenance h2',
+        '.hub-directory h2, .values h2, .doctor-profile h3, .article-section:not(#visit):not(#related-diseases):not(#questions) h2',
       )
-      .all()) {
+      .all();
+    await expect(toc.locator('nav a')).toHaveCount(Math.min(headings.length, 8));
+    await expect(
+      toc.locator('a[href="#questions"], a[href="#sources"], a[href="#article-guidance-title"]'),
+    ).toHaveCount(0);
+    for (const heading of headings.slice(0, 8)) {
       const title = (await heading.textContent())!.trim();
       const entry = toc.getByRole('link', { name: title, exact: true });
       await expect(entry, `${route}: ${title}`).toHaveCount(1);

@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
+import { searchablePages, searchCategory } from '../../src/lib/search-model.mjs';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8')) as {
   basePath: string;
   routes: { path: string; id: string; indexable: boolean }[];
@@ -101,11 +102,11 @@ test('local search, empty state, category and reset', async ({ page }) => {
   await page.getByLabel('궁금한 검사나 진료를 찾아보세요').fill('없는검색어xxxxxxxx');
   await expect(page.getByRole('heading', { name: '검색 결과가 없습니다.' })).toBeVisible();
   await page.getByRole('button', { name: '전체 목록 보기' }).click();
-  const healthCount = JSON.parse(fs.readFileSync('../content/pages.json', 'utf8')).filter(
-    (p: { category: string; indexable: boolean }) => p.category === '건강정보' && p.indexable,
-  ).length;
-  await page.getByRole('button', { name: `건강정보 ${healthCount}개`, exact: true }).click();
-  await expect(page.locator('.result-card')).toHaveCount(healthCount);
+  const examinationCount = searchablePages(
+    JSON.parse(fs.readFileSync('../content/pages.json', 'utf8')),
+  ).filter((p: { id: string; path: string }) => searchCategory(p) === '검사·시술').length;
+  await page.getByRole('button', { name: `검사·시술 ${examinationCount}개`, exact: true }).click();
+  await expect(page.locator('.result-card')).toHaveCount(examinationCount);
   expect(externalRequests).toEqual([]);
 });
 test('mobile navigation works without client scripting', async ({ browser }) => {

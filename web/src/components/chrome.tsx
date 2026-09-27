@@ -76,7 +76,7 @@ export function Footer() {
           <div className="footer-top">
             <div>
               <a className="footer-brand" href={href('/')}>
-                영통탑내과<span>YEONGTONG TOP CLINIC</span>
+                영통탑내과<span>{clinic.englishName}</span>
               </a>
               <p>건강을 이해하는 시간, 함께합니다.</p>
             </div>
@@ -84,6 +84,9 @@ export function Footer() {
               <a href={href('/visit/')}>진료시간·위치</a>
               <a href={href('/fees/')}>비용·서류</a>
               <a href={href('/notices/')}>공지사항</a>
+              <a href={href('/cases/')} rel="nofollow">
+                진단 사례 원문
+              </a>
               <a href={href('/sitemap/')}>전체 페이지</a>
               <a href={href('/privacy/')}>개인정보 처리 안내</a>
             </div>

@@ -1,6 +1,12 @@
 // The graph describes the same patient content and links that the renderer uses.
 // Publication attestations never enter this module or the exported site.
-import { hubGroups, hubIds, patientEntrances, siteMapGroups } from './information-architecture.mjs';
+import {
+  hubGroups,
+  hubIds,
+  patientEntrances,
+  siteMapGroups,
+  discoverable,
+} from './information-architecture.mjs';
 import { clinicAddressSchema, clinicHoursSchema } from './content-model.mjs';
 
 export function childPages(page, pages) {
@@ -9,7 +15,7 @@ export function childPages(page, pages) {
   if (hubGroups[page.id]) {
     const children = hubIds(page.id)
       .map((id) => pages.find((p) => p.id === id))
-      .filter(Boolean);
+      .filter((page) => page && discoverable(page));
     return ['symptoms', 'diseases'].includes(page.id)
       ? children.sort((a, b) => a.title.localeCompare(b.title, 'ko'))
       : children;
@@ -17,6 +23,7 @@ export function childPages(page, pages) {
   if (page.id === 'sitemap') return siteMapGroups(pages).flatMap((group) => group.pages);
   return pages.filter(
     (p) =>
+      discoverable(p) &&
       p.path.startsWith(page.path) &&
       p.path !== page.path &&
       p.path.slice(page.path.length).split('/').filter(Boolean).length === 1,
@@ -30,6 +37,7 @@ const testTypes = {
   echocardiography: 'ImagingTest',
   hrv: 'MedicalTest',
   holter: 'MedicalTest',
+  'ambulatory-blood-pressure': 'MedicalTest',
   'abdominal-ultrasound': 'ImagingTest',
   'bowel-ultrasound': 'ImagingTest',
   'thyroid-ultrasound': 'ImagingTest',
@@ -44,7 +52,6 @@ export function createStructuredData({
   clinic,
   physicians,
   assets,
-  caseLinks,
   absolute,
   breadcrumbs,
   review,
@@ -228,7 +235,6 @@ export function createStructuredData({
           url: absolute(p.path),
         }))
       : [];
-  if (page.id === 'cases') entries = caseLinks;
   if (entries.length) {
     const listId = pageUrl + '#items';
     graph.push({

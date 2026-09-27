@@ -2,7 +2,8 @@
 
 기존 `yttop.co.kr`과 함께 운영할 **환자용 영통탑내과 병원 홈페이지**의 React 정적 사이트 구현 저장소입니다. 병원 소개·진료·검사·방문 안내를 환자와 AI 모델이 이해하기 쉽게 구성하며, 조사·개발 보고서는 사이트에 게시하지 않습니다.
 
-- **[2026-09-26 심장·혈관 20편 및 홈페이지 업데이트](docs/director-content-review-2026-09-26/implementation.ko.md)** — 영문 URL로 총 94개 경로 구현. 검사 정보·공통 안내·백과 분류 개선, 2026-09-27 검토 모드 배포 완료.
+- **[2026-09-27 블로그 미반영사항 통합반영안 적용](docs/integrated-update-2026-09-27/README.ko.md)** — 진료분야 8개, 하위 안내 14개 추가, 홈 검색·단일 목차·예방접종 표·사례 제외. 총 108개 로컬 경로, 검토 모드이며 이번 변경은 미배포. 이식 패키지 및 브랜치 생성 절차는 제외.
+- **[2026-09-26 심장·혈관 20편 및 홈페이지 업데이트](docs/director-content-review-2026-09-26/implementation.ko.md)** — 당시 영문 URL로 총 94개 경로 구현. 검사 정보·공통 안내·백과 분류 개선, 2026-09-27 검토 모드 배포 완료.
 - **[2026-09-25 세션 작업 요약·배포 결과](docs/patient-navigation-2026-09-25/session-summary.ko.md)** — 74개 경로 배포와 실제 사이트 검증 완료. 메뉴·목차 개편, 출처·오타 교정 및 후속 확인 사항.
 - **[2026-09-25 환자 목적별 메뉴·화면 개편](docs/patient-navigation-2026-09-25/README.ko.md)** — 7개 메뉴, 4개 진입로, 좌측 목차와 두 백과 탐색. 별도 220편 원고 연결은 원고 위치 확인 후 진행합니다.
 - **[2026-09-25 원장님 원고 기반 개편](docs/director-content-review-2026-09-25/implementation.ko.md)** — 당시 개발 범위 71개 경로, 한국어 안내 21개·번역 5개 추가. 새 편집본은 검토용이며 기존 공개 승인과 분리합니다.
@@ -22,7 +23,7 @@
 - **[초기 개발·검증 이력](docs/development-completion.ko.md)** — 최초 76페이지 구현과 당시 CI·Pages 상태
 - **[개발·운영 인수 문서](docs/development-handoff.ko.md)** — 실행, 원고 수정, 실제 검수, 자동 배포, AI 인용 관측
 - **[웹 앱 실행](web/README.md)** — Next.js 16.3.4 · React 19.3.0 · TypeScript · Tailwind CSS 4.3.3
-- [콘텐츠 원장](content/README.md) — 94개 개발 경로, 의료진 2명, 진단 사례 원문 링크 25개
+- [콘텐츠 원장](content/README.md) — 108개 로컬 개발 경로, 의료진 2명, 진단 사례 원문 링크 25개
 - [자동 검사·배포 워크플로](.github/workflows/pages.yml)
 
 배포 주소: `https://codepump-net.github.io/yt-top-webforai/`. 2026-09-27 사용자의 커밋·푸시·배포 요청에 따라 심장·혈관 20편과 홈페이지 개선 사항을 배포하고 실제 94개 경로를 검증했습니다. 저장소 변수 `PUBLICATION_MODE=review`를 유지하여 방문은 가능하지만 모든 페이지는 검토 기간에 noindex이며 공개 사이트맵은 비어 있습니다. 기존 승인 digest와 의료 검토 기록은 갱신하지 않았습니다. 의료·운영 확인 후 현재 편집본에 대한 실제 승인 근거를 기록하고 production으로 전환합니다. [이번 세션 요약](docs/director-content-review-2026-09-26/session-summary.ko.md)·[최신 배포 결과](docs/director-content-review-2026-09-26/deployment.ko.md)와 [앞선 71개 경로 배포 기록](docs/director-content-review-2026-09-25/deployment.ko.md)을 참고하세요. 원장님 원본 자료는 로컬 `plan/`에, 원본 크롤링·OCR·환자 관련 이미지는 로컬 `research/`에 보관하므로 해당 조사 자료는 공유 작업 공간에서 확인할 수 있습니다.

@@ -35,7 +35,7 @@ it('keeps clinical hubs out of encyclopedias and discovers every new article und
   expect(hubIds('diseases')).not.toContain('cancer-treatment-symptoms');
   expect(hubGroups.symptoms.map((g) => g.title)).toEqual([
     '심장·혈관',
-    '속쓰림·소화불량·급·만성 복통',
+    '속쓰림·소화불량·급성·만성 복통',
     '간·췌장·담도·쓸개',
     '당뇨·갑상선·고지혈증',
     '호흡기·감염',
@@ -48,8 +48,9 @@ it('keeps clinical hubs out of encyclopedias and discovers every new article und
     expect(directoryTerms(p.id)).toContain('심장혈관');
   }
   const sitemap = siteMapGroups(data.pages).flatMap((g) => g.pages.map((p) => p.id));
-  expect(sitemap).toHaveLength(93);
-  expect(new Set(sitemap).size).toBe(93);
+  expect(sitemap).toHaveLength(data.pages.length - 2);
+  expect(new Set(sitemap).size).toBe(sitemap.length);
+  expect(sitemap).not.toContain('cases');
   for (const groups of Object.values(hubGroups))
     for (const g of groups) for (const id of g.ids) expect(page(id), id).toBeDefined();
 });
