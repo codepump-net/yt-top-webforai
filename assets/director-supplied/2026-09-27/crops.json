@@ -1,0 +1,213 @@
+{
+  "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+  "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+  "width": 1260,
+  "height": 2100,
+  "method": "Crop the supplied contact sheet; preserve decoded pixels in lossless WebP without resizing, redrawing, retyping, sharpening or correcting original text.",
+  "crops": [
+    {
+      "number": 1,
+      "assetId": "banner-heart",
+      "pageId": "heart-disease",
+      "path": "/conditions/heart-disease/",
+      "rectangle": {
+        "left": 10,
+        "top": 10,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 2,
+      "assetId": "banner-digestive",
+      "pageId": "digestive-disease",
+      "path": "/conditions/digestive/",
+      "rectangle": {
+        "left": 430,
+        "top": 10,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 3,
+      "assetId": "banner-respiratory",
+      "pageId": "respiratory-infections",
+      "path": "/conditions/respiratory-infections/",
+      "rectangle": {
+        "left": 850,
+        "top": 10,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 4,
+      "assetId": "banner-vaccinations",
+      "pageId": "vaccinations",
+      "path": "/services/vaccinations/",
+      "rectangle": {
+        "left": 10,
+        "top": 360,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 5,
+      "assetId": "banner-chronic",
+      "pageId": "chronic-disease",
+      "path": "/conditions/chronic-disease/",
+      "rectangle": {
+        "left": 430,
+        "top": 360,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 6,
+      "assetId": "banner-neck",
+      "pageId": "neck-disease",
+      "path": "/conditions/thyroid-carotid-neck/",
+      "rectangle": {
+        "left": 850,
+        "top": 360,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 7,
+      "assetId": "banner-kidney",
+      "pageId": "kidney-disease",
+      "path": "/conditions/kidney/",
+      "rectangle": {
+        "left": 10,
+        "top": 710,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 8,
+      "assetId": "banner-cancer-support",
+      "pageId": "cancer-support",
+      "path": "/services/cancer-support/",
+      "rectangle": {
+        "left": 430,
+        "top": 710,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 9,
+      "assetId": "banner-services",
+      "pageId": "services",
+      "path": "/services/",
+      "rectangle": {
+        "left": 850,
+        "top": 710,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 10,
+      "assetId": "banner-checkups",
+      "pageId": "checkups",
+      "path": "/checkups/",
+      "rectangle": {
+        "left": 10,
+        "top": 1060,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 11,
+      "assetId": "banner-symptoms",
+      "pageId": "symptoms",
+      "path": "/symptoms/",
+      "rectangle": {
+        "left": 430,
+        "top": 1060,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 12,
+      "assetId": "banner-diseases",
+      "pageId": "diseases",
+      "path": "/diseases/",
+      "rectangle": {
+        "left": 850,
+        "top": 1060,
+        "width": 400,
+        "height": 225
+      }
+    },
+    {
+      "number": 13,
+      "assetId": "vaccination-schedule-2026",
+      "pageId": "vaccinations",
+      "path": "/services/vaccinations/",
+      "rectangle": {
+        "left": 90,
+        "top": 1410,
+        "width": 240,
+        "height": 300
+      }
+    },
+    {
+      "number": 14,
+      "assetId": "diagram-heart-flow",
+      "pageId": "heart-index",
+      "path": "/services/heart/",
+      "rectangle": {
+        "left": 490,
+        "top": 1410,
+        "width": 280,
+        "height": 300
+      }
+    },
+    {
+      "number": 15,
+      "assetId": "diagram-endoscopy-preparation",
+      "pageId": "endoscopy",
+      "path": "/services/endoscopy/",
+      "rectangle": {
+        "left": 910,
+        "top": 1410,
+        "width": 280,
+        "height": 300
+      }
+    },
+    {
+      "number": 16,
+      "assetId": "diagram-after-endoscopy",
+      "pageId": "after-endoscopy",
+      "path": "/health/after-endoscopy/",
+      "rectangle": {
+        "left": 70,
+        "top": 1760,
+        "width": 280,
+        "height": 300
+      }
+    },
+    {
+      "number": 17,
+      "assetId": "diagram-checkup-flow",
+      "pageId": "checkups",
+      "path": "/checkups/",
+      "rectangle": {
+        "left": 490,
+        "top": 1760,
+        "width": 280,
+        "height": 300
+      }
+    }
+  ]
+}

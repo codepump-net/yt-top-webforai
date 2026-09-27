@@ -70,9 +70,10 @@ export function validatePatientAdditions({ pages, assets, visuals, notices }, no
     if (!asset) errors.push(`Visual asset missing: ${v.assetId}`);
     if (
       'steps' in v &&
-      asset?.sourceSha256 !== crypto.createHash('sha256').update(JSON.stringify(v)).digest('hex')
+      (asset?.sourceCrop ? asset.guidanceSha256 : asset?.sourceSha256) !==
+        crypto.createHash('sha256').update(JSON.stringify(v)).digest('hex')
     )
-      errors.push(`Diagram image is stale: ${v.id}`);
+      errors.push(`Diagram guidance is stale: ${v.id}`);
   }
   const today = new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Asia/Seoul',

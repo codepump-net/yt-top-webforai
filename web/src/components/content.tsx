@@ -485,7 +485,7 @@ function BodyBlocks({ page }: { page: Page }) {
                   width={asset.width}
                   height={asset.height}
                   alt="영통탑내과 2026 성인 예방접종 일정표. 백신별 대상·기본 일정·메모는 바로 아래 표에서 확인할 수 있습니다."
-                  caption="영통탑내과 자체 제작 성인 예방접종 요약표 · 이미지를 누르면 크게 볼 수 있습니다."
+                  caption="영통탑내과 2026 성인 예방접종 일정표"
                 />
               );
             })()}

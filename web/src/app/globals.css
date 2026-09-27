@@ -2935,11 +2935,8 @@ body:has(.mobile-nav[open]) .mobile-contact {
   width: 100%;
   height: auto;
   max-width: 680px;
-  max-height: 350px;
   margin: 0 auto;
   object-fit: contain;
-  background: #f6fafb;
-  border-radius: 16px;
 }
 .zoom-figure figcaption,
 .content-updated {

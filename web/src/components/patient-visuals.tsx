@@ -36,7 +36,7 @@ export function PatientDiagram({ pageId }: { pageId: string }) {
         caption={visual.caption}
       />
       <div className="diagram-text">
-        <h3>안내도 내용 읽기</h3>
+        <h3>관련 검사·준비 안내</h3>
         <ol>
           {visual.steps.map((step) => (
             <li key={step.title}>

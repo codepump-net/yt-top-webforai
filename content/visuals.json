@@ -3,62 +3,62 @@
     {
       "pageId": "heart-disease",
       "assetId": "banner-heart",
-      "alt": "심장 건강을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "심장질환: 협심증·심근경색·부정맥·판막질환"
     },
     {
       "pageId": "digestive-disease",
       "assetId": "banner-digestive",
-      "alt": "소화기 건강을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "소화기질환: 위·대장·소장·췌장·담도·담낭·간질환"
     },
     {
       "pageId": "respiratory-infections",
       "assetId": "banner-respiratory",
-      "alt": "호흡기 증상을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "호흡기·감염질환: 폐렴·독감·코로나19·만성기침"
     },
     {
       "pageId": "vaccinations",
       "assetId": "banner-vaccinations",
-      "alt": "예방접종을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "성인 예방접종: 독감·폐렴·대상포진·간염 예방"
     },
     {
       "pageId": "chronic-disease",
       "assetId": "banner-chronic",
-      "alt": "혈압과 생활습관을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "고혈압·당뇨·고지혈증 치료, 금연치료·체중관리"
     },
     {
       "pageId": "neck-disease",
       "assetId": "banner-neck",
-      "alt": "갑상선과 목 건강을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "갑상선·경동맥·경부 멍울: 초음파·혈액검사·추적관리"
     },
     {
       "pageId": "kidney-disease",
       "assetId": "banner-kidney",
-      "alt": "신장 건강을 상담하는 의료진과 환자, 콩팥을 나타낸 설명용 삽화"
+      "alt": "콩팥 그림과 신부전 예방·신우신염·수신증 안내"
     },
     {
       "pageId": "cancer-support",
       "assetId": "banner-cancer-support",
-      "alt": "암 치료 중 불편함을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "암 치료 중 지지진료: 발열·피로·구역·백혈구 감소 대응"
     },
     {
       "pageId": "services",
       "assetId": "banner-services",
-      "alt": "검사의 목적을 설명하는 의료진과 환자의 설명용 삽화"
+      "alt": "검사·시술 안내"
     },
     {
       "pageId": "checkups",
       "assetId": "banner-checkups",
-      "alt": "검진과 제출 서류를 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "건강검진·서류안내: 국가검진·채용검진·공무원검진·비자검진"
     },
     {
       "pageId": "symptoms",
       "assetId": "banner-symptoms",
-      "alt": "불편한 증상을 상담하는 의료진과 환자의 설명용 삽화"
+      "alt": "증상백과: 흉통·숨참·복통·기침·발열·어지럼"
     },
     {
       "pageId": "diseases",
       "assetId": "banner-diseases",
-      "alt": "질환에 관한 설명을 함께 읽는 의료진과 환자의 설명용 삽화"
+      "alt": "질환백과: 심장혈관·소화기·호흡기·내분비·신장"
     }
   ],
   "diagrams": [
@@ -66,9 +66,9 @@
       "id": "heart-flow",
       "pageId": "heart-index",
       "assetId": "diagram-heart-flow",
-      "title": "심장검사, 이렇게 상담합니다",
-      "alt": "심장검사, 이렇게 상담합니다. 같은 내용을 바로 아래 순서별 글로 읽을 수 있습니다.",
-      "caption": "심장검사, 이렇게 상담합니다 · 자세한 준비는 본문과 개별 진료 안내를 확인하세요.",
+      "title": "영통탑내과 심장검사 진행 순서",
+      "alt": "영통탑내과 심장검사 진행 순서",
+      "caption": "영통탑내과 심장검사 진행 순서",
       "steps": [
         {
           "title": "응급 증상 먼저 확인",
@@ -93,9 +93,9 @@
       "id": "endoscopy-preparation",
       "pageId": "endoscopy",
       "assetId": "diagram-endoscopy-preparation",
-      "title": "내시경 전, 네 가지를 확인하세요",
-      "alt": "내시경 전, 네 가지를 확인하세요. 같은 내용을 바로 아래 순서별 글로 읽을 수 있습니다.",
-      "caption": "내시경 전, 네 가지를 확인하세요 · 자세한 준비는 본문과 개별 진료 안내를 확인하세요.",
+      "title": "위·대장내시경 검사 전 준비",
+      "alt": "위·대장내시경 검사 전 준비",
+      "caption": "위·대장내시경 검사 전 준비",
       "steps": [
         {
           "title": "예약한 검사 확인",
@@ -120,9 +120,9 @@
       "id": "after-endoscopy",
       "pageId": "after-endoscopy",
       "assetId": "diagram-after-endoscopy",
-      "title": "조직검사·용종절제 후 확인할 일",
-      "alt": "조직검사·용종절제 후 확인할 일. 같은 내용을 바로 아래 순서별 글로 읽을 수 있습니다.",
-      "caption": "조직검사·용종절제 후 확인할 일 · 자세한 준비는 본문과 개별 진료 안내를 확인하세요.",
+      "title": "조직검사·용종절제 후 주의사항",
+      "alt": "조직검사·용종절제 후 주의사항",
+      "caption": "조직검사·용종절제 후 주의사항",
       "steps": [
         {
           "title": "어떤 시술을 받았나요?",
@@ -147,9 +147,9 @@
       "id": "checkup-flow",
       "pageId": "checkups",
       "assetId": "diagram-checkup-flow",
-      "title": "검진·서류 준비부터 수령까지",
-      "alt": "검진·서류 준비부터 수령까지. 같은 내용을 바로 아래 순서별 글로 읽을 수 있습니다.",
-      "caption": "검진·서류 준비부터 수령까지 · 자세한 준비는 본문과 개별 진료 안내를 확인하세요.",
+      "title": "국가검진·채용검진·비자검진 진행 순서",
+      "alt": "국가검진·채용검진·비자검진 진행 순서",
+      "caption": "국가검진·채용검진·비자검진 진행 순서",
       "steps": [
         {
           "title": "목적과 제출 양식 확인",

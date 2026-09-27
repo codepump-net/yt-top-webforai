@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
+import assets from '../../../content/assets.json';
 
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 const url = (path: string) => `http://127.0.0.1:3000${manifest.basePath}${path}`;
@@ -97,7 +98,10 @@ test('vaccination figure, table and unified contents remain readable on mobile a
     }
     const figure = page.locator('.vaccination-figure');
     await figure.scrollIntoViewIfNeeded();
-    await expect(figure.locator('img')).toHaveJSProperty('naturalWidth', 1055);
+    await expect(figure.locator('img')).toHaveJSProperty(
+      'naturalWidth',
+      assets.find((asset) => asset.id === 'vaccination-schedule-2026')!.width,
+    );
     await expect(page.locator('#vaccination-schedule tbody tr')).toHaveCount(9);
     await expect(page.locator('#vaccination-schedule')).toContainText('수막구균');
     await figure.screenshot({ path: `reports/integrated/vaccination-figure-${width}.png` });

@@ -1,17 +1,41 @@
 import fs from 'node:fs/promises';
+import sharp from 'sharp';
 import { loadContent } from './data.mjs';
 import { sha256, pageDigest, validateContent } from './content-contract.mjs';
 const data = await loadContent();
 const mode = process.argv[2] ?? 'review';
 const errors = validateContent(data.pages, { ...data, mode });
+const suppliedSources = new Map();
 for (const asset of data.assets) {
   try {
     const bytes = await fs.readFile(`public${asset.file}`);
     if (sha256(bytes) !== asset.sha256 || bytes.length !== asset.bytes)
       errors.push(`Asset integrity: ${asset.file}`);
     if (asset.bytes > 200_000) errors.push(`Image exceeds 200 kB: ${asset.file}`);
-  } catch {
-    errors.push(`Missing asset: ${asset.file}`);
+    if (asset.sourceCrop) {
+      if (!suppliedSources.has(asset.sourceFile))
+        suppliedSources.set(asset.sourceFile, await fs.readFile('../' + asset.sourceFile));
+      const source = suppliedSources.get(asset.sourceFile);
+      if (sha256(source) !== asset.sourceSha256)
+        errors.push(`Supplied image source changed: ${asset.file}`);
+      const cropPixels = await sharp(source)
+        .extract(asset.sourceCrop)
+        .removeAlpha()
+        .raw()
+        .toBuffer();
+      const imagePixels = await sharp(bytes).removeAlpha().raw().toBuffer();
+      const dimensions = await sharp(bytes).metadata();
+      if (
+        dimensions.width !== asset.sourceCrop.width ||
+        dimensions.height !== asset.sourceCrop.height ||
+        dimensions.width !== asset.width ||
+        dimensions.height !== asset.height ||
+        !cropPixels.equals(imagePixels)
+      )
+        errors.push(`Supplied image crop differs from source pixels: ${asset.file}`);
+    }
+  } catch (error) {
+    errors.push(`Asset verification failed: ${asset.file}: ${error.message}`);
   }
 }
 const { clinic, physicians, assets, rendererDigest } = data;

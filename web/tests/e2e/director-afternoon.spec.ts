@@ -3,6 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
 import { load } from 'cheerio';
 import pages from '../../../content/pages.json';
+import assets from '../../../content/assets.json';
 import { articleGuidance } from '../../src/lib/article-guidance.mjs';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 const url = (path: string) => `http://127.0.0.1:3000${manifest.basePath}${path}`;
@@ -132,7 +133,10 @@ test('figures work with keyboard, mobile layout and readable text equivalents', 
         await page.keyboard.press('Enter');
         const dialog = page.getByRole('dialog');
         await expect(dialog).toBeVisible();
-        await expect(dialog.locator('img')).toHaveJSProperty('naturalWidth', 1056);
+        await expect(dialog.locator('img')).toHaveJSProperty(
+          'naturalWidth',
+          assets.find((asset) => asset.id === 'diagram-heart-flow')!.width,
+        );
         await page.keyboard.press('Escape');
         await expect(dialog).not.toBeVisible();
         await expect(trigger).toBeFocused();

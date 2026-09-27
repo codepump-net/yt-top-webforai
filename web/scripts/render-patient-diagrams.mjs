@@ -1,4 +1,4 @@
-// The image and accessible HTML are derived from the same patient-facing data.
+// Rebuild generated diagrams only. Director-supplied crops must never be redrawn.
 import fs from 'node:fs/promises';
 import { chromium } from '@playwright/test';
 import sharp from 'sharp';
@@ -18,6 +18,10 @@ try {
     deviceScaleFactor: 1,
   });
   for (const diagram of visuals.diagrams) {
+    if (assets.find((asset) => asset.id === diagram.assetId)?.sourceCrop) {
+      console.log(`Preserving supplied original: ${diagram.assetId}`);
+      continue;
+    }
     await page.setContent(`<html lang="ko"><meta charset="utf-8"><style>
       *{box-sizing:border-box}body{margin:0;color:#173d4c;background:white;font-family:"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
       main{width:1056px;padding:52px;background:linear-gradient(150deg,#f0f8f7,#fff)}
