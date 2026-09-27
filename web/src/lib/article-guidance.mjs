@@ -1,12 +1,13 @@
 // Patient-facing shared notices. Application follows the article's subject, not its display label.
 export function articleGuidance(page) {
   const medical =
-    /^\/(?:conditions|services|health|diseases|checkups)\//.test(page.path) ||
+    /^\/(?:conditions|services|health|diseases|symptoms|checkups)\//.test(page.path) ||
     ['symptoms', 'diseases', 'preparation', 'fees'].includes(page.id) ||
     !!page.translationOf;
   const documents = page.path.includes('/checkups/') || page.id === 'fees';
   const heart =
     page.path.startsWith('/diseases/cardio/') ||
+    page.path.startsWith('/symptoms/cardio/') ||
     page.path.startsWith('/services/heart/') ||
     [
       'heart-disease',

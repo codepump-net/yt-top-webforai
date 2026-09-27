@@ -89,6 +89,7 @@ export function Footer() {
               </a>
               <a href={href('/sitemap/')}>전체 페이지</a>
               <a href={href('/privacy/')}>개인정보 처리 안내</a>
+              <a href={href('/copyright/')}>저작권·콘텐츠 이용 안내</a>
             </div>
           </div>
           <div className="footer-bottom">
@@ -102,6 +103,9 @@ export function Footer() {
               <p className="footer-note">
                 영통탑내과의 진료·검사와 방문을 안내합니다. 개인별 진단·치료와 검사 준비는 의료진의
                 안내를 확인해 주세요.
+              </p>
+              <p className="footer-note">
+                © 2026 영통탑내과 · 글과 이미지의 이용 조건은 자료별로 다를 수 있습니다.
               </p>
             </div>
             <a href="https://yttop.co.kr/" target="_blank" rel="noopener noreferrer">

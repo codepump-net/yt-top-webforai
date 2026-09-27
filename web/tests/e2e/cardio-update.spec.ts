@@ -24,7 +24,7 @@ test('category aliases, actual counts and an empty symptom category work', async
     page.getByRole('heading', { name: '이 분야에 등록된 안내가 없습니다.' }),
   ).toBeVisible();
   await page.getByRole('button', { name: '전체 목록 보기' }).click();
-  await expect(page.locator('.result-card')).toHaveCount(5);
+  await expect(page.locator('.result-card')).toHaveCount(25);
 });
 
 test('site search includes the introductory definition of a disease', async ({ page }) => {

@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import crypto from 'node:crypto';
 import { validatePatientScope } from './public-content-policy.mjs';
+import { validatePatientAdditions } from './patient-additions-contract.mjs';
 export const sha256 = (value) =>
   crypto
     .createHash('sha256')
@@ -175,6 +176,8 @@ export function validateContent(
     caseLinks,
     pageIntents,
     publicationApproval,
+    visuals,
+    notices,
     now = new Date(),
   },
 ) {
@@ -182,6 +185,7 @@ export function validateContent(
   const parsed = z.array(pageSchema).safeParse(pages);
   if (!parsed.success) return parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`);
   errors.push(...validatePatientScope(pages, { caseLinks, pageIntents, clinic, physicians }));
+  if (visuals || notices) errors.push(...validatePatientAdditions({ pages, assets, visuals, notices }, now));
   if (!['review', 'production'].includes(mode)) errors.push('Unknown build mode');
   for (const field of ['id', 'path', 'metaTitle', 'description']) {
     const all = pages.map((p) => p[field]);

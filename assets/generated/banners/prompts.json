@@ -1,0 +1,74 @@
+[
+  {
+    "id": "heart",
+    "prompt": "Use case: illustration-story. Create one production website banner illustration for Yeongtong Top Internal Medicine in Korea, subject: a calm consultation about HEART HEALTH. A friendly Korean adult clinician in a white coat and adult patient seated across a desk, tasteful stylized heart and ECG motif in the background. Soft editorial digital illustration, rounded natural anatomy, pale sky-blue and white with teal details, matching the supplied reference contact sheet's visual language but creating a fresh individual illustration. Wide landscape 3:2 composition, uncluttered, no panels, no collage. Keep all people and meaningful objects within generous margins. This is an illustration, not a real physician portrait. Do not include ANY text, letters, numbers, logo or watermark; exact Korean labels will be accessible HTML on the website. No diagnostic claims, no detailed clinical procedure. Save the image as a normal file and provide its local path.",
+    "original": "assets/generated/banners/heart.png",
+    "web": "/assets/banner-heart.webp"
+  },
+  {
+    "id": "digestive",
+    "prompt": "Use case: illustration-story. Asset: an individual banner illustration for a Korean internal medicine clinic. Subject: Digestive health: an adult patient discussing digestion with a clinician, simple stylized stomach, liver and bowel icons. Match the reference illustration's soft editorial digital art, friendly generic Korean adult people, pale blue and white room, teal accents, warm expressions and rounded natural anatomy. Fresh composition for this particular subject, landscape 3:2, generous margins, uncluttered. Do not include ANY text, letters, numbers, logo, watermark, collage or panels. Labels will be real HTML outside the image. This is illustrative and not a portrait of an actual clinician. Do not depict a diagnostic claim or emergency treatment.",
+    "original": "assets/generated/banners/digestive.png",
+    "web": "/assets/banner-digestive.webp"
+  },
+  {
+    "id": "respiratory",
+    "prompt": "Use case: illustration-story. Asset: an individual banner illustration for a Korean internal medicine clinic. Subject: Respiratory and infection care: a clinician discussing cough with a patient, soft stylized lung and protective shield icons. Match the reference illustration's soft editorial digital art, friendly generic Korean adult people, pale blue and white room, teal accents, warm expressions and rounded natural anatomy. Fresh composition for this particular subject, landscape 3:2, generous margins, uncluttered. Do not include ANY text, letters, numbers, logo, watermark, collage or panels. Labels will be real HTML outside the image. This is illustrative and not a portrait of an actual clinician. Do not depict a diagnostic claim or emergency treatment.",
+    "original": "assets/generated/banners/respiratory.png",
+    "web": "/assets/banner-respiratory.webp"
+  },
+  {
+    "id": "vaccinations",
+    "prompt": "Use case: illustration-story. Asset: an individual banner illustration for a Korean internal medicine clinic. Subject: Adult vaccination consultation: a clinician advising an adult patient, a protective shield and small syringe icon, no injection procedure. Match the reference illustration's soft editorial digital art, friendly generic Korean adult people, pale blue and white room, teal accents, warm expressions and rounded natural anatomy. Fresh composition for this particular subject, landscape 3:2, generous margins, uncluttered. Do not include ANY text, letters, numbers, logo, watermark, collage or panels. Labels will be real HTML outside the image. This is illustrative and not a portrait of an actual clinician. Do not depict a diagnostic claim or emergency treatment.",
+    "original": "assets/generated/banners/vaccinations.png",
+    "web": "/assets/banner-vaccinations.webp"
+  },
+  {
+    "id": "chronic",
+    "prompt": "Use case: illustration-story. Asset: individual Korean internal medicine clinic banner. Subject: Long-term health: blood pressure, diabetes and cholesterol counseling; an adult and clinician, blood pressure cuff and balanced meal, walking and no-smoking symbolic icons. Match reference soft editorial digital illustration, generic Korean adult people, pale blue-white clinic, teal accents, warm calm expressions, rounded natural anatomy. Fresh landscape 3:2 scene with generous margins, uncluttered. No text, letters, numbers, logo, watermark, collage or panels. Labels are HTML outside this illustration. Not an actual clinician portrait. No diagnostic claims.",
+    "original": "assets/generated/banners/chronic.png",
+    "web": "/assets/banner-chronic.webp"
+  },
+  {
+    "id": "neck",
+    "prompt": "Use case: illustration-story. Asset: individual Korean internal medicine clinic banner. Subject: Thyroid, carotid and neck lump consultation: clinician and adult patient, simple thyroid and neck anatomy silhouette, ultrasound monitor. Match reference soft editorial digital illustration, generic Korean adult people, pale blue-white clinic, teal accents, warm calm expressions, rounded natural anatomy. Fresh landscape 3:2 scene with generous margins, uncluttered. No text, letters, numbers, logo, watermark, collage or panels. Labels are HTML outside this illustration. Not an actual clinician portrait. No diagnostic claims.",
+    "original": "assets/generated/banners/neck.png",
+    "web": "/assets/banner-neck.webp"
+  },
+  {
+    "id": "kidney",
+    "prompt": "Use case: illustration-story. Asset: individual Korean internal medicine clinic banner. Subject: Kidney health consultation: clinician and adult, clearly recognizable pair of kidney icons and a water droplet. The kidneys are the only large organ symbols, no heart. Match reference soft editorial digital illustration, generic Korean adult people, pale blue-white clinic, teal accents, warm calm expressions, rounded natural anatomy. Fresh landscape 3:2 scene with generous margins, uncluttered. No text, letters, numbers, logo, watermark, collage or panels. Labels are HTML outside this illustration. Not an actual clinician portrait. No diagnostic claims.",
+    "original": "assets/generated/banners/kidney.png",
+    "web": "/assets/banner-kidney.webp"
+  },
+  {
+    "id": "cancer-support",
+    "prompt": "Use case: illustration-story. Individual patient website banner for a Korean internal medicine clinic. Subject: Supportive care during cancer treatment: clinician listening to an adult wearing a simple soft headscarf, comfortable consultation, compassionate reassuring tone, no infusion or treatment claims. Reference style: soft editorial digital illustration, generic Korean adult people, pale blue and white, teal accents, warm calm expressions, natural anatomy. Landscape 3:2, generous margins, uncluttered, fresh subject-specific scene. No text, letters, numbers, logo, watermark, collage or panels; all labels will be HTML. No actual physician likeness or treatment guarantees.",
+    "original": "assets/generated/banners/cancer-support.png",
+    "web": "/assets/banner-cancer-support.webp"
+  },
+  {
+    "id": "services",
+    "prompt": "Use case: illustration-story. Individual patient website banner for a Korean internal medicine clinic. Subject: Medical examinations: clinician explaining possible tests to an adult, tasteful ultrasound screen, ECG and sample-tube symbols. Reference style: soft editorial digital illustration, generic Korean adult people, pale blue and white, teal accents, warm calm expressions, natural anatomy. Landscape 3:2, generous margins, uncluttered, fresh subject-specific scene. No text, letters, numbers, logo, watermark, collage or panels; all labels will be HTML. No actual physician likeness or treatment guarantees.",
+    "original": "assets/generated/banners/services.png",
+    "web": "/assets/banner-services.webp"
+  },
+  {
+    "id": "checkups",
+    "prompt": "Use case: illustration-story. Individual patient website banner for a Korean internal medicine clinic. Subject: Health checkups and certificates: clinician and adult reviewing a blank clipboard, ID card outline, organized reception setting, no readable text. Reference style: soft editorial digital illustration, generic Korean adult people, pale blue and white, teal accents, warm calm expressions, natural anatomy. Landscape 3:2, generous margins, uncluttered, fresh subject-specific scene. No text, letters, numbers, logo, watermark, collage or panels; all labels will be HTML. No actual physician likeness or treatment guarantees.",
+    "original": "assets/generated/banners/checkups.png",
+    "web": "/assets/banner-checkups.webp"
+  },
+  {
+    "id": "symptoms",
+    "prompt": "Create a new standalone 3:2 landscape patient education website banner, using the attached image only as the visual style reference. Finding help by symptoms: clinician listening attentively to an adult describing discomfort, subtle abstract breathing, pulse and stomach symbols. Soft editorial illustration with Korean adult people, respectful clinician-patient conversation. Clean warm white background, muted teal, navy and light blue, rounded simple shapes, restrained medical symbols. Natural hands and anatomy. No text, lettering, logos or watermarks. No actual clinician likeness, no promise of cure, no graphic procedures. Generous whitespace; composition legible on mobile.",
+    "original": "assets/generated/banners/symptoms.png",
+    "web": "/assets/banner-symptoms.webp"
+  },
+  {
+    "id": "diseases",
+    "prompt": "Create a new standalone 3:2 landscape patient education website banner, using the attached image only as the visual style reference. Understanding medical conditions: clinician explaining a blank open health reference book to an adult, simple heart, lung and kidney symbols arranged neatly. Soft editorial illustration with Korean adult people, respectful clinician-patient conversation. Clean warm white background, muted teal, navy and light blue, rounded simple shapes, restrained medical symbols. Natural hands and anatomy. No text, lettering, logos or watermarks. No actual clinician likeness, no promise of cure, no graphic procedures. Generous whitespace; composition legible on mobile.",
+    "original": "assets/generated/banners/diseases.png",
+    "web": "/assets/banner-diseases.webp"
+  }
+]

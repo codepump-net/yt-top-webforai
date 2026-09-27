@@ -1,11 +1,48 @@
 {
-  "bowel-ultrasound": ["맹장", "맹장염", "충수", "장초음파"],
-  "bowel-appendix": ["맹장", "맹장염", "충수염"],
-  "cardio-dyslipidemia": ["고지혈증", "콜레스테롤", "이상지질혈증"],
-  "chronic-disease": ["고혈압", "고지혈증", "금연", "금연치료", "체중관리"],
-  "holter": ["홀터", "홀터검사", "활동심전도", "72시간 심전도"],
-  "cancer-support": ["케모포트", "케모 포트", "후버바늘", "후버 바늘", "항암"],
-  "visa-checkup": ["E-2", "E2", "이투", "F-2", "H-2", "비자"],
+  "bowel-ultrasound": [
+    "맹장",
+    "맹장염",
+    "충수",
+    "장초음파"
+  ],
+  "bowel-appendix": [
+    "맹장",
+    "맹장염",
+    "충수염"
+  ],
+  "cardio-dyslipidemia": [
+    "고지혈증",
+    "콜레스테롤",
+    "이상지질혈증"
+  ],
+  "chronic-disease": [
+    "고혈압",
+    "고지혈증",
+    "금연",
+    "금연치료",
+    "체중관리"
+  ],
+  "holter": [
+    "홀터",
+    "홀터검사",
+    "활동심전도",
+    "72시간 심전도"
+  ],
+  "cancer-support": [
+    "케모포트",
+    "케모 포트",
+    "후버바늘",
+    "후버 바늘",
+    "항암"
+  ],
+  "visa-checkup": [
+    "E-2",
+    "E2",
+    "이투",
+    "F-2",
+    "H-2",
+    "비자"
+  ],
   "ambulatory-blood-pressure": [
     "CART BP Pro",
     "CARTBP",
@@ -18,8 +55,17 @@
     "백의고혈압",
     "가면고혈압"
   ],
-  "cardiac-markers": ["심장 표지자", "트로포닌", "심장 혈액검사"],
-  "biliary-disease": ["쓸개", "담낭", "담도", "담석"],
+  "cardiac-markers": [
+    "심장 표지자",
+    "트로포닌",
+    "심장 혈액검사"
+  ],
+  "biliary-disease": [
+    "쓸개",
+    "담낭",
+    "담도",
+    "담석"
+  ],
   "kidney-function": [
     "신부전",
     "신장기능",
@@ -28,5 +74,110 @@
     "크레아티닌",
     "eGFR"
   ],
-  "neck-lump": ["목멍울", "목 멍울", "경부 멍울", "림프절"]
+  "neck-lump": [
+    "목멍울",
+    "목 멍울",
+    "경부 멍울",
+    "림프절"
+  ],
+  "symptom-cardio-chest-pressure-sweating": [
+    "가슴 조임",
+    "식은땀",
+    "가슴 압박"
+  ],
+  "symptom-cardio-chest-tightness-causes": [
+    "가슴 답답",
+    "숨 막힘",
+    "흉부 불편"
+  ],
+  "symptom-cardio-epigastric-pain-heart": [
+    "명치 아픔",
+    "체한 느낌",
+    "소화불량 심장"
+  ],
+  "symptom-cardio-exertional-chest-pain": [
+    "운동 흉통",
+    "계단 가슴통증",
+    "걸을 때 가슴"
+  ],
+  "symptom-cardio-recurrent-palpitations-normal-ecg": [
+    "심전도 정상 두근거림",
+    "정상 ECG",
+    "간헐적 두근거림"
+  ],
+  "symptom-cardio-irregular-skipped-heartbeat": [
+    "맥박 건너뜀",
+    "심장이 쿵",
+    "불규칙 맥박"
+  ],
+  "symptom-cardio-rapid-heart-rate": [
+    "심박수 빠름",
+    "빈맥",
+    "갑자기 심장 빨리"
+  ],
+  "symptom-cardio-slow-heart-rate-dizziness": [
+    "서맥 어지럼",
+    "느린 심박수",
+    "맥박 느림"
+  ],
+  "symptom-cardio-presyncope-cardiac-evaluation": [
+    "눈앞 캄캄",
+    "쓰러질 것 같음",
+    "실신 전조"
+  ],
+  "symptom-cardio-syncope-emergency": [
+    "기절",
+    "의식 잃음",
+    "쓰러짐 응급"
+  ],
+  "symptom-cardio-exertional-dyspnea": [
+    "조금만 걸어도 숨참",
+    "계단 숨참",
+    "운동 호흡곤란"
+  ],
+  "symptom-cardio-orthopnea-leg-edema": [
+    "누우면 숨참",
+    "밤에 숨 막힘",
+    "기좌호흡"
+  ],
+  "symptom-cardio-leg-edema-dyspnea": [
+    "다리 붓고 숨참",
+    "발목 부종",
+    "한쪽 다리 부음"
+  ],
+  "symptom-cardio-rapid-weight-gain-edema": [
+    "갑자기 살찜 붓기",
+    "체액 저류",
+    "급격한 체중 증가"
+  ],
+  "symptom-cardio-fatigue-exercise-intolerance": [
+    "쉽게 피곤",
+    "운동능력 저하",
+    "기운 없음"
+  ],
+  "symptom-cardio-blood-pressure-180": [
+    "혈압 180",
+    "혈압 200",
+    "고혈압 응급"
+  ],
+  "symptom-cardio-orthostatic-dizziness-low-bp": [
+    "일어서면 어지러움",
+    "기립성 어지럼",
+    "저혈압"
+  ],
+  "symptom-cardio-valve-regurgitation-follow-up": [
+    "판막 역류 발견",
+    "초음파 역류",
+    "판막 추적 간격"
+  ],
+  "symptom-cardio-family-history-heart-disease": [
+    "심장병 가족력",
+    "부모 심근경색",
+    "유전 심장병"
+  ],
+  "symptom-cardio-radiating-chest-pain-119": [
+    "왼팔 가슴통증",
+    "턱으로 퍼짐",
+    "등 가슴 통증"
+  ]
 }

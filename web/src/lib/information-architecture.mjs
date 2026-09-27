@@ -6,7 +6,10 @@ export const cardiovascularIds = pages
   .map((page) => page.id);
 export const discoverable = (page) => !['cases', 'not-found'].includes(page.id);
 const symptomMembers = {
-  cardiovascular: ['palpitations-followup'],
+  cardiovascular: [
+    ...pages.filter((page) => page.path.startsWith('/symptoms/cardio/')).map((page) => page.id),
+    'palpitations-followup',
+  ],
   'upper-gi-abdominal-pain': ['abdominal-pain'],
   'respiratory-infection': ['chronic-cough'],
   'cancer-treatment': ['cancer-treatment-symptoms', 'fever-during-cancer-treatment'],
@@ -197,7 +200,7 @@ export function sectionId(page) {
 }
 
 export function siteMapGroups(pages) {
-  const utilityIds = ['home', 'search', 'sitemap', 'privacy'];
+  const utilityIds = ['home', 'search', 'sitemap', 'privacy', 'copyright-policy'];
   return [...navigation, ['utilities', '사이트 이용']].map(([id, title]) => ({
     title,
     pages: pages.filter(

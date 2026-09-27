@@ -538,5 +538,110 @@
     "id": "ambulatory-blood-pressure",
     "path": "/services/heart/ambulatory-blood-pressure/",
     "patientNeed": "반지형 CART BP Pro를 약 24시간 착용해 일상생활과 수면 중 혈압을 기록합니다. 진료실과 생활 속 혈압 차이, 결과 확인과 홀터검사와의 차이를 안내합니다."
+  },
+  {
+    "id": "symptom-cardio-chest-pressure-sweating",
+    "path": "/symptoms/cardio/chest-pressure-sweating/",
+    "patientNeed": "가슴 압박감에 식은땀이 동반되면 심장 응급질환 가능성을 먼저 살펴야 합니다. 증상이 지속되거나 숨참·어지럼이 함께 있으면 내과 외래를 기다리지 말고 119에 연락하세요."
+  },
+  {
+    "id": "symptom-cardio-chest-tightness-causes",
+    "path": "/symptoms/cardio/chest-tightness-causes/",
+    "patientNeed": "가슴 답답함은 심장·폐·위식도 등 여러 원인에서 생깁니다. 식사나 호흡과의 관계는 진료의 단서이지만, 느낌만으로 원인을 확정할 수 없습니다."
+  },
+  {
+    "id": "symptom-cardio-epigastric-pain-heart",
+    "path": "/symptoms/cardio/epigastric-pain-heart/",
+    "patientNeed": "명치의 불편함이나 소화불량처럼 느껴지는 증상이 심장 문제와 동반될 수 있습니다. 식은땀·숨참·가슴 압박감이 함께 있다면 위장약의 효과를 기다리지 마세요."
+  },
+  {
+    "id": "symptom-cardio-exertional-chest-pain",
+    "path": "/symptoms/cardio/exertional-chest-pain/",
+    "patientNeed": "걷거나 계단을 오를 때 생기는 가슴통증은 진료가 필요합니다. 새로 생긴 통증, 쉬어도 지속되는 통증은 예정된 검사보다 긴급 평가를 우선합니다."
+  },
+  {
+    "id": "symptom-cardio-recurrent-palpitations-normal-ecg",
+    "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+    "patientNeed": "진료실 심전도가 정상이더라도 간헐적인 부정맥은 기록되지 않았을 수 있습니다. 처음 결과를 들었다면 검사 순간에 평소 두근거림이 있었는지부터 확인하세요."
+  },
+  {
+    "id": "symptom-cardio-irregular-skipped-heartbeat",
+    "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+    "patientNeed": "맥박이 빠지거나 불규칙한 느낌만으로 심방세동과 조기수축을 구분하기는 어렵습니다. 증상 당시의 심전도 기록과 진료를 통해 리듬을 확인합니다."
+  },
+  {
+    "id": "symptom-cardio-rapid-heart-rate",
+    "path": "/symptoms/cardio/rapid-heart-rate/",
+    "patientNeed": "맥박은 운동·긴장·발열 등으로 빨라질 수 있지만 안정 중에도 빠르게 뛰거나 반복되면 진료가 필요합니다. 위험성은 숫자 하나보다 동반 증상과 리듬으로 판단합니다."
+  },
+  {
+    "id": "symptom-cardio-slow-heart-rate-dizziness",
+    "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+    "patientNeed": "느린 맥박에 어지럼이나 기운 빠짐이 동반되면 약물 영향과 심장 전도 이상 등을 확인해야 합니다. 평소 운동량이 많다는 이유만으로 증상을 넘기지 마세요."
+  },
+  {
+    "id": "symptom-cardio-presyncope-cardiac-evaluation",
+    "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+    "patientNeed": "쓰러질 듯한 느낌은 실제 실신 전 단계일 수 있습니다. 자세 변화·탈수·약물 등과 심장 원인을 함께 살피며, 운동 중 발생하거나 흉통이 동반되면 긴급 평가가 필요합니다."
+  },
+  {
+    "id": "symptom-cardio-syncope-emergency",
+    "path": "/symptoms/cardio/syncope-emergency/",
+    "patientNeed": "실신 후 깨어났더라도 운동 중 발생, 흉통·두근거림 동반, 심한 부상 또는 회복 지연이 있으면 응급 평가가 필요합니다. 처음 원인 모를 실신을 했다면 진료를 받으세요."
+  },
+  {
+    "id": "symptom-cardio-exertional-dyspnea",
+    "path": "/symptoms/cardio/exertional-dyspnea/",
+    "patientNeed": "평소 가능하던 짧은 보행에도 숨이 차면 심장·폐 질환과 빈혈 등 여러 원인을 확인합니다. 갑자기 심해지거나 가만히 있어도 숨이 차면 긴급 도움을 요청하세요."
+  },
+  {
+    "id": "symptom-cardio-orthopnea-leg-edema",
+    "path": "/symptoms/cardio/orthopnea-leg-edema/",
+    "patientNeed": "누우면 숨이 차서 베개를 더 높이거나 밤중에 숨이 차 깨고 다리가 붓는다면 진료를 서두르세요. 심부전의 단서일 수 있지만 증상만으로 확진하지 않습니다."
+  },
+  {
+    "id": "symptom-cardio-leg-edema-dyspnea",
+    "path": "/symptoms/cardio/leg-edema-dyspnea/",
+    "patientNeed": "다리 부종과 숨참이 함께 생기면 전신 상태를 평가해야 합니다. 한쪽 다리가 갑자기 붓고 아프면서 숨이 차거나 흉통이 있으면 즉시 119에 연락하세요."
+  },
+  {
+    "id": "symptom-cardio-rapid-weight-gain-edema",
+    "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+    "patientNeed": "짧은 기간의 체중 증가에 부종이나 숨참이 동반되면 체액이 쌓이는지 확인해야 합니다. 식사량 변화만으로 설명하지 말고 최근 측정값과 증상을 진료 때 알려주세요."
+  },
+  {
+    "id": "symptom-cardio-fatigue-exercise-intolerance",
+    "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+    "patientNeed": "쉽게 지치고 평소 하던 활동이 어려워지면 수면·생활 변화와 빈혈·갑상선·심장 문제 등을 함께 살핍니다. 피로만으로 특정 질환이나 필요한 검사를 정하지 않습니다."
+  },
+  {
+    "id": "symptom-cardio-blood-pressure-180",
+    "path": "/symptoms/cardio/blood-pressure-180/",
+    "patientNeed": "수축기 혈압 180 mmHg 이상 또는 이완기 120 mmHg 이상이면 동반 증상을 먼저 확인하세요. 흉통·숨참·마비·말 어눌함·시야 변화가 있으면 재측정 때문에 지체하지 말고 119에 연락합니다."
+  },
+  {
+    "id": "symptom-cardio-orthostatic-dizziness-low-bp",
+    "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+    "patientNeed": "일어설 때 눈앞이 어두워지거나 어지러우면 자세에 따른 혈압 변화와 탈수·약물 등을 확인합니다. 평소 혈압이 낮다는 이유만으로 모든 어지럼을 설명할 수는 없습니다."
+  },
+  {
+    "id": "symptom-cardio-valve-regurgitation-follow-up",
+    "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+    "patientNeed": "심장초음파에서 판막 역류가 처음 발견되면 어느 판막인지, 역류 정도와 심장 기능이 어떤지 확인하세요. 다음 검사 날짜는 결과와 증상 변화를 함께 보고 정합니다."
+  },
+  {
+    "id": "symptom-cardio-family-history-heart-disease",
+    "path": "/symptoms/cardio/family-history-heart-disease/",
+    "patientNeed": "가족에게 심장병이 있다면 정확한 병명과 진단받은 나이를 먼저 확인하세요. 가족력만으로 모두 같은 검사를 받기보다 본인의 증상과 위험요인을 함께 평가합니다."
+  },
+  {
+    "id": "symptom-cardio-radiating-chest-pain-119",
+    "path": "/symptoms/cardio/radiating-chest-pain-119/",
+    "patientNeed": "가슴통증이 팔·턱·등으로 퍼지고 지속되거나 식은땀·숨참이 동반되면 즉시 119에 연락하세요. 집에서 통증의 원인을 구분하려다 진료가 늦어지지 않도록 합니다."
+  },
+  {
+    "id": "copyright-policy",
+    "path": "/copyright/",
+    "patientNeed": "환자가 홈페이지 글과 이미지의 공유·인용 및 재사용 조건과 문의 방법을 이해한다."
   }
 ]

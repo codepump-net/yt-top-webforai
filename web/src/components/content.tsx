@@ -35,14 +35,16 @@ import caseLinks from '../../../content/case-links.json';
 import { ArticleNavigation } from './article-navigation';
 import { VisitInfo } from './chrome';
 import { Search, type SearchItem } from './search';
+import { SiteSearch } from './site-search';
 import { HomeSearch } from './home-search';
-import {
-  searchItems as makeSearchItems,
-  searchCategories,
-  searchablePages,
-} from '@/lib/search-model.mjs';
+import { searchItems as makeSearchItems, searchCategories } from '@/lib/search-model.mjs';
 import { ArticleFooter } from './article-footer';
 import assets from '../../../content/assets.json';
+import notices from '../../../content/notices.json';
+import { NoticeBoard } from './notices';
+import { koreaDate, recentNotices } from '@/lib/notice-model.mjs';
+import { PatientBanner, PatientDiagram } from './patient-visuals';
+import { ZoomImage } from './zoom-image';
 
 const iconSet = [HeartPulse, ScanLine, Waves, ClipboardCheck, Stethoscope, Activity];
 export function Cards({ items, icons = false }: { items: Page[]; icons?: boolean }) {
@@ -279,6 +281,31 @@ function Home() {
           <DoctorCards />
         </div>
       </section>
+      <section className="section container home-notices" aria-labelledby="home-notices-title">
+        <span className="eyebrow">NEWS & HEALTH</span>
+        <h2 id="home-notices-title">공지·예방접종 안내</h2>
+        <p>지원 대상과 기간을 살펴보고 방문 전에 접종 가능 여부를 확인하세요.</p>
+        <div className="notice-preview-grid">
+          {recentNotices(notices)
+            .slice(0, 3)
+            .map((notice: (typeof notices)[number]) => (
+              <a className="notice-preview" href={href(`/notices/#${notice.id}`)} key={notice.id}>
+                <span className="small">
+                  {notice.sourcePublishedAt ? '공식 자료 발표' : '내용 확인'} ·{' '}
+                  {notice.sourcePublishedAt ?? notice.checkedAt}
+                </span>
+                <h3>{notice.title}</h3>
+                <p>{notice.summary}</p>
+                <span className="card-link">
+                  안내 보기 <ArrowRight size={16} />
+                </span>
+              </a>
+            ))}
+        </div>
+        <a className="text-link" href={href('/notices/')}>
+          공지·예방접종 안내 전체 <ArrowRight size={16} />
+        </a>
+      </section>
       <section className="section container">
         <SectionHeading
           eyebrow="VISIT"
@@ -452,19 +479,14 @@ function BodyBlocks({ page }: { page: Page }) {
             (() => {
               const asset = assets.find((item) => item.id === 'vaccination-schedule-2026')!;
               return (
-                <figure className="vaccination-figure">
-                  <a href={href(asset.file)}>
-                    <img
-                      src={href(asset.file)}
-                      width={asset.width}
-                      height={asset.height}
-                      alt="영통탑내과 2026 성인 예방접종 일정표. 백신별 대상·기본 일정·메모는 바로 아래 표에서 확인할 수 있습니다."
-                    />
-                  </a>
-                  <figcaption>
-                    영통탑내과 자체 제작 성인 예방접종 요약표 · 이미지를 누르면 크게 볼 수 있습니다.
-                  </figcaption>
-                </figure>
+                <ZoomImage
+                  className="vaccination-figure"
+                  src={href(asset.file)}
+                  width={asset.width}
+                  height={asset.height}
+                  alt="영통탑내과 2026 성인 예방접종 일정표. 백신별 대상·기본 일정·메모는 바로 아래 표에서 확인할 수 있습니다."
+                  caption="영통탑내과 자체 제작 성인 예방접종 요약표 · 이미지를 누르면 크게 볼 수 있습니다."
+                />
               );
             })()}
           {b.table && (
@@ -724,6 +746,9 @@ export function PageContent({ page }: { page: Page }) {
     ...page.blocks
       .map((b, i) => ({ id: b.id ?? `section-${i + 1}`, label: b.heading }))
       .filter((entry) => !['visit', 'related-diseases'].includes(entry.id)),
+    ...(page.id === 'notices'
+      ? notices.map((notice) => ({ id: notice.id, label: notice.title }))
+      : []),
     ...(page.id === 'fees' ? [{ id: 'fee-enquiry', label: '전화 문의 시 함께 확인할 항목' }] : []),
   ];
   const hasToc =
@@ -762,6 +787,11 @@ export function PageContent({ page }: { page: Page }) {
               )}
               <h1 id="article-title">{page.title}</h1>
               <p className="page-intro">{page.intro}</p>
+              {(page.path.startsWith('/symptoms/cardio/') || page.id === 'copyright-policy') && (
+                <p className="content-updated">
+                  내용 수정일 <time dateTime={page.updatedAt}>{page.updatedAt}</time>
+                </p>
+              )}
               {versions.length > 1 && (
                 <nav className="language-switcher" aria-label="Language">
                   {versions.map((p) => (
@@ -789,11 +819,9 @@ export function PageContent({ page }: { page: Page }) {
               ) : page.template === 'physician-detail' ? (
                 <DoctorDetail page={page} />
               ) : page.id === 'search' ? (
-                <Search
-                  items={searchItems(searchablePages(pages))}
-                  filter
+                <SiteSearch
+                  indexUrl={href('/search-index.json')}
                   categories={searchCategories}
-                  idlePrompt
                   sitemapUrl={href('/sitemap/')}
                 />
               ) : page.id === 'sitemap' ? (
@@ -827,6 +855,11 @@ export function PageContent({ page }: { page: Page }) {
                 <>
                   <BodyBlocks page={page} />
                   <OriginalNoticesLink />
+                  <NoticeBoard initialDay={koreaDate()} />
+                  <p className="article-copyright">
+                    페이지 링크를 공유할 수 있습니다. 글·이미지의 재사용은 자료별 이용 조건을 확인해
+                    주세요. <a href={href('/copyright/')}>저작권·콘텐츠 이용 안내</a>
+                  </p>
                 </>
               ) : null}
               {page.id === 'about' && (
@@ -849,7 +882,9 @@ export function PageContent({ page }: { page: Page }) {
                     '심한 흉통·호흡곤란 또는 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을 요청하세요.'}
                 </p>
               )}
+              <PatientBanner pageId={page.id} />
               <HubDirectory page={page} />
+              <PatientDiagram pageId={page.id} />
               {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}
               {page.id === 'fees' && (
                 <div className="article-section" id="fee-enquiry">

@@ -1,4 +1,5 @@
 import aliases from '../../../content/search-aliases.json' with { type: 'json' };
+import notices from '../../../content/notices.json' with { type: 'json' };
 import { directoryTerms, discoverable, guideRole, sectionId } from './information-architecture.mjs';
 
 const categories = {
@@ -39,6 +40,9 @@ export function searchItems(pages, href = (path) => path) {
     detail: /detail$/.test(page.template),
     text: searchWords([
       page.intro,
+      ...(page.id === 'notices'
+        ? notices.map((n) => [n.title, n.summary, ...n.paragraphs].join(' '))
+        : []),
       ...page.blocks.map((b) =>
         [
           b.heading,

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { clinic, href, phoneHref } from '@/lib/site';
 import { languageNames, pageLabels } from '@/lib/languages';
+import { contentUse } from '@/components/article-footer';
 import '../globals.css';
 export const metadata: Metadata = {
   applicationName: 'Yeongtong Top Internal Medicine Clinic',
@@ -61,7 +62,9 @@ export default async function LanguageLayout({
                 {t.map} ({t.newWindow})
               </a>
               <a href={href('/')}>{t.koreanSite}</a>
+              <a href={href('/copyright/')}>{contentUse[language as keyof typeof contentUse][1]}</a>
             </div>
+            <p className="footer-note">© 2026 Yeongtong Top Internal Medicine Clinic</p>
           </div>
         </footer>
       </body>
