@@ -3,74 +3,62 @@
     {
       "pageId": "heart-disease",
       "assetId": "banner-heart",
-      "alt": "심장 건강을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "심장 건강을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "digestive-disease",
       "assetId": "banner-digestive",
-      "alt": "소화기 건강을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "소화기 건강을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "respiratory-infections",
       "assetId": "banner-respiratory",
-      "alt": "호흡기 증상을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "호흡기 증상을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "vaccinations",
       "assetId": "banner-vaccinations",
-      "alt": "예방접종을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "예방접종을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "chronic-disease",
       "assetId": "banner-chronic",
-      "alt": "혈압과 생활습관을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "혈압과 생활습관을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "neck-disease",
       "assetId": "banner-neck",
-      "alt": "갑상선과 목 건강을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "갑상선과 목 건강을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "kidney-disease",
       "assetId": "banner-kidney",
-      "alt": "신장 건강을 상담하는 의료진과 환자, 콩팥을 나타낸 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "신장 건강을 상담하는 의료진과 환자, 콩팥을 나타낸 설명용 삽화"
     },
     {
       "pageId": "cancer-support",
       "assetId": "banner-cancer-support",
-      "alt": "암 치료 중 불편함을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "암 치료 중 불편함을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "services",
       "assetId": "banner-services",
-      "alt": "검사의 목적을 설명하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "검사의 목적을 설명하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "checkups",
       "assetId": "banner-checkups",
-      "alt": "검진과 제출 서류를 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "검진과 제출 서류를 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "symptoms",
       "assetId": "banner-symptoms",
-      "alt": "불편한 증상을 상담하는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "불편한 증상을 상담하는 의료진과 환자의 설명용 삽화"
     },
     {
       "pageId": "diseases",
       "assetId": "banner-diseases",
-      "alt": "질환에 관한 설명을 함께 읽는 의료진과 환자의 설명용 삽화",
-      "caption": "진료 상담을 표현한 설명용 삽화입니다."
+      "alt": "질환에 관한 설명을 함께 읽는 의료진과 환자의 설명용 삽화"
     }
   ],
   "diagrams": [

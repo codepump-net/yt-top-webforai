@@ -5,11 +5,12 @@ const date = z.iso.date();
 const id = z.string().regex(/^[a-z][a-z0-9-]*$/);
 const https = z.url().refine((value) => value.startsWith('https://'));
 const text = z.string().min(5);
-const visual = z.object({ pageId: id, assetId: id, alt: text, caption: text });
+const visual = z.object({ pageId: id, assetId: id, alt: text });
 const diagram = visual
   .extend({
     id,
     title: text,
+    caption: text,
     steps: z.array(z.object({ title: text, text }).strict()).min(2),
     note: text,
   })

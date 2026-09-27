@@ -2941,7 +2941,6 @@ body:has(.mobile-nav[open]) .mobile-contact {
   background: #f6fafb;
   border-radius: 16px;
 }
-.patient-banner figcaption,
 .zoom-figure figcaption,
 .content-updated {
   color: #506471;

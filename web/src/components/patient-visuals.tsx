@@ -17,7 +17,6 @@ export function PatientBanner({ pageId }: { pageId: string }) {
         loading="lazy"
         decoding="async"
       />
-      <figcaption>{visual.caption}</figcaption>
     </figure>
   );
 }
