@@ -52,4 +52,4 @@ Lighthouse 검색 점수69는 현재 noindex의 크롤링 제외 항목 때문�
 
 수정 전후의 상세 근거는 [139건 처리 CSV](finding-results.csv), [문장·블록별 변경 전후 JSON](finding-results.json), [변경된99개 페이지](changed-pages.json), [본원 확인·근거 기록](facts-and-sources.ko.md), [이미지와 HTML 대응](image-html-review.ko.md)에서 확인할 수 있습니다. 이 문서들은 홈페이지 출력에 포함되지 않습니다.
 
-이번 작업은 로컬 원고·구현·검증까지 진행했습니다. 커밋·푸시·배포는 실행하지 않았으며, 작업 전에 있던 `plan/` 파일 변경은 그대로 두었습니다.
+후속 요청에 따라 `7f7e575` 커밋의 푸시·배포와 실제129페이지 검증까지 완료했습니다. [배포 결과와 검증 기록](deployment.ko.md)을 확인할 수 있습니다. 작업 전에 있던 `plan/` 파일 변경은 그대로 두었습니다.

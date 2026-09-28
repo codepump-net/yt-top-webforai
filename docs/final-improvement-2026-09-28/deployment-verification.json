@@ -1,0 +1,1910 @@
+{
+  "recordedAt": "2026-09-28T10:22:13+09:00",
+  "commit": "7f7e575eee030ffce96c45843e5173fcb6b33a1c",
+  "site": "https://codepump-net.github.io/yt-top-webforai/",
+  "workflow": {
+    "conclusion": "success",
+    "createdAt": "2026-09-28T01:15:57Z",
+    "headSha": "7f7e575eee030ffce96c45843e5173fcb6b33a1c",
+    "jobs": [
+      {
+        "completedAt": "2026-09-28T01:19:55Z",
+        "conclusion": "success",
+        "databaseId": 108750436412,
+        "name": "Validate (root)",
+        "startedAt": "2026-09-28T01:16:00Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-09-28T01:16:02Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-09-28T01:16:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:04Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v7",
+            "number": 2,
+            "startedAt": "2026-09-28T01:16:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:09Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-09-28T01:16:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:09Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@v6",
+            "number": 4,
+            "startedAt": "2026-09-28T01:16:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:25Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-09-28T01:16:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:25Z",
+            "conclusion": "success",
+            "name": "Run npm audit --audit-level=moderate",
+            "number": 6,
+            "startedAt": "2026-09-28T01:16:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:29Z",
+            "conclusion": "success",
+            "name": "Run npm run lint",
+            "number": 7,
+            "startedAt": "2026-09-28T01:16:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:32Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 8,
+            "startedAt": "2026-09-28T01:16:29Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:32Z",
+            "conclusion": "success",
+            "name": "Run npm run harness-check",
+            "number": 9,
+            "startedAt": "2026-09-28T01:16:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:50Z",
+            "conclusion": "success",
+            "name": "Build static HTML and audit every page",
+            "number": 10,
+            "startedAt": "2026-09-28T01:16:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:54Z",
+            "conclusion": "success",
+            "name": "Run npm run typecheck",
+            "number": 11,
+            "startedAt": "2026-09-28T01:16:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:54Z",
+            "conclusion": "success",
+            "name": "Confirm unreviewed content cannot become a release",
+            "number": 12,
+            "startedAt": "2026-09-28T01:16:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:17:16Z",
+            "conclusion": "success",
+            "name": "Run npx playwright install --with-deps chromium",
+            "number": 13,
+            "startedAt": "2026-09-28T01:16:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:18:59Z",
+            "conclusion": "success",
+            "name": "Run npm run test:e2e",
+            "number": 14,
+            "startedAt": "2026-09-28T01:17:16Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:50Z",
+            "conclusion": "success",
+            "name": "Run npm run test:performance",
+            "number": 15,
+            "startedAt": "2026-09-28T01:18:59Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:52Z",
+            "conclusion": "success",
+            "name": "Retain audit evidence and browser reports",
+            "number": 16,
+            "startedAt": "2026-09-28T01:19:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:54Z",
+            "conclusion": "success",
+            "name": "Retain a downloadable complete site",
+            "number": 17,
+            "startedAt": "2026-09-28T01:19:52Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:54Z",
+            "conclusion": "skipped",
+            "name": "Prepare Pages artifact",
+            "number": 18,
+            "startedAt": "2026-09-28T01:19:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:54Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@v6",
+            "number": 34,
+            "startedAt": "2026-09-28T01:19:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:54Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 35,
+            "startedAt": "2026-09-28T01:19:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:54Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v7",
+            "number": 36,
+            "startedAt": "2026-09-28T01:19:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:54Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 37,
+            "startedAt": "2026-09-28T01:19:54Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36365325672/job/108750436412"
+      },
+      {
+        "completedAt": "2026-09-28T01:19:35Z",
+        "conclusion": "success",
+        "databaseId": 108750436589,
+        "name": "Validate (project)",
+        "startedAt": "2026-09-28T01:16:00Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-09-28T01:16:02Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-09-28T01:16:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:05Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v7",
+            "number": 2,
+            "startedAt": "2026-09-28T01:16:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:08Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 3,
+            "startedAt": "2026-09-28T01:16:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:08Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@v6",
+            "number": 4,
+            "startedAt": "2026-09-28T01:16:08Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:18Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-09-28T01:16:08Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:18Z",
+            "conclusion": "success",
+            "name": "Run npm audit --audit-level=moderate",
+            "number": 6,
+            "startedAt": "2026-09-28T01:16:18Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:22Z",
+            "conclusion": "success",
+            "name": "Run npm run lint",
+            "number": 7,
+            "startedAt": "2026-09-28T01:16:18Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:24Z",
+            "conclusion": "success",
+            "name": "Run npm test",
+            "number": 8,
+            "startedAt": "2026-09-28T01:16:22Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:24Z",
+            "conclusion": "success",
+            "name": "Run npm run harness-check",
+            "number": 9,
+            "startedAt": "2026-09-28T01:16:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:40Z",
+            "conclusion": "success",
+            "name": "Build static HTML and audit every page",
+            "number": 10,
+            "startedAt": "2026-09-28T01:16:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:43Z",
+            "conclusion": "success",
+            "name": "Run npm run typecheck",
+            "number": 11,
+            "startedAt": "2026-09-28T01:16:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:16:44Z",
+            "conclusion": "success",
+            "name": "Confirm unreviewed content cannot become a release",
+            "number": 12,
+            "startedAt": "2026-09-28T01:16:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:17:10Z",
+            "conclusion": "success",
+            "name": "Run npx playwright install --with-deps chromium",
+            "number": 13,
+            "startedAt": "2026-09-28T01:16:44Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:18:41Z",
+            "conclusion": "success",
+            "name": "Run npm run test:e2e",
+            "number": 14,
+            "startedAt": "2026-09-28T01:17:10Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:24Z",
+            "conclusion": "success",
+            "name": "Run npm run test:performance",
+            "number": 15,
+            "startedAt": "2026-09-28T01:18:41Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:27Z",
+            "conclusion": "success",
+            "name": "Retain audit evidence and browser reports",
+            "number": 16,
+            "startedAt": "2026-09-28T01:19:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:29Z",
+            "conclusion": "success",
+            "name": "Retain a downloadable complete site",
+            "number": 17,
+            "startedAt": "2026-09-28T01:19:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:31Z",
+            "conclusion": "success",
+            "name": "Prepare Pages artifact",
+            "number": 18,
+            "startedAt": "2026-09-28T01:19:29Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:32Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@v6",
+            "number": 34,
+            "startedAt": "2026-09-28T01:19:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:32Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 35,
+            "startedAt": "2026-09-28T01:19:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:32Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v7",
+            "number": 36,
+            "startedAt": "2026-09-28T01:19:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:19:32Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 37,
+            "startedAt": "2026-09-28T01:19:32Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36365325672/job/108750436589"
+      },
+      {
+        "completedAt": "2026-09-28T01:20:33Z",
+        "conclusion": "success",
+        "databaseId": 108751171342,
+        "name": "Deploy GitHub Pages",
+        "startedAt": "2026-09-28T01:19:59Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-09-28T01:20:00Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-09-28T01:19:59Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:01Z",
+            "conclusion": "success",
+            "name": "Refuse an obsolete deployment",
+            "number": 2,
+            "startedAt": "2026-09-28T01:20:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:02Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v6",
+            "number": 3,
+            "startedAt": "2026-09-28T01:20:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:09Z",
+            "conclusion": "success",
+            "name": "Deploy verified artifact",
+            "number": 4,
+            "startedAt": "2026-09-28T01:20:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:11Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v7",
+            "number": 5,
+            "startedAt": "2026-09-28T01:20:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:13Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v7",
+            "number": 6,
+            "startedAt": "2026-09-28T01:20:11Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:28Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 7,
+            "startedAt": "2026-09-28T01:20:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:28Z",
+            "conclusion": "success",
+            "name": "Load expected manifest from this run's build evidence",
+            "number": 8,
+            "startedAt": "2026-09-28T01:20:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:28Z",
+            "conclusion": "success",
+            "name": "Place expected manifest outside the public export",
+            "number": 9,
+            "startedAt": "2026-09-28T01:20:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:31Z",
+            "conclusion": "success",
+            "name": "Verify deployed commit and all pages",
+            "number": 10,
+            "startedAt": "2026-09-28T01:20:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:31Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-artifact@v7",
+            "number": 11,
+            "startedAt": "2026-09-28T01:20:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:31Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v7",
+            "number": 21,
+            "startedAt": "2026-09-28T01:20:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:32Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v7",
+            "number": 22,
+            "startedAt": "2026-09-28T01:20:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-28T01:20:32Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-09-28T01:20:32Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36365325672/job/108751171342"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-09-28T01:20:34Z",
+    "url": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36365325672"
+  },
+  "ci": {
+    "root": {
+      "mode": "review",
+      "origin": "https://codepump-net.github.io",
+      "basePath": "",
+      "routeCount": 129,
+      "buildManifestSha256": "964b3fc8056dba303aa8a7206fd24def1caf5360710223742b758b4f87bbc9fb",
+      "e2e": {
+        "startTime": "2026-09-28T01:17:17.240Z",
+        "duration": 101849.787,
+        "expected": 55,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "staticAudit": {
+        "routeCount": 129,
+        "publicFilesChecked": 774,
+        "maxJsGzip": 183434,
+        "maxCssGzip": 10952,
+        "errors": []
+      },
+      "performance": {
+        "mode": "review",
+        "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+        "errors": [],
+        "reports": [
+          {
+            "route": "/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2323.9537,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 53.5,
+              "first-contentful-paint": 967.97685
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/services/heart/echocardiography/",
+            "scores": {
+              "performance": 97,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2326.9737,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 119,
+              "first-contentful-paint": 916.9737
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/search/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2127.8635999999997,
+              "cumulative-layout-shift": 0.002294951040342114,
+              "total-blocking-time": 103.99999999999977,
+              "first-contentful-paint": 773.8635999999999
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/colonoscopy-preparation-questions/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2334.4979,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 105,
+              "first-contentful-paint": 939.24895
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/cancer-treatment-symptoms/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2306.2712,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 98,
+              "first-contentful-paint": 950.6355999999998
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/ne/checkups/visa/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 69
+            },
+            "metrics": {
+              "largest-contentful-paint": 2103.3784,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 94,
+              "first-contentful-paint": 759.3784
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          }
+        ]
+      }
+    },
+    "project": {
+      "mode": "review",
+      "origin": "https://codepump-net.github.io",
+      "basePath": "/yt-top-webforai",
+      "routeCount": 129,
+      "buildManifestSha256": "7a5014fc7eda234a10687dfee7c8498ba7767ca6413f86e2e1d1545ea1ad61e8",
+      "e2e": {
+        "startTime": "2026-09-28T01:17:11.248Z",
+        "duration": 89740.171,
+        "expected": 55,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "staticAudit": {
+        "routeCount": 129,
+        "publicFilesChecked": 774,
+        "maxJsGzip": 183498,
+        "maxCssGzip": 10952,
+        "errors": []
+      },
+      "performance": {
+        "mode": "review",
+        "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+        "errors": [],
+        "reports": [
+          {
+            "route": "/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2284.7127,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 39,
+              "first-contentful-paint": 930.85635
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/services/heart/echocardiography/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2284.3309,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 75,
+              "first-contentful-paint": 914.3308999999999
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/search/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2174.0339,
+              "cumulative-layout-shift": 0.002294951040342114,
+              "total-blocking-time": 109,
+              "first-contentful-paint": 773.0338999999999
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/colonoscopy-preparation-questions/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2250.7827,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 89,
+              "first-contentful-paint": 911.7827
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/health/cancer-treatment-symptoms/",
+            "scores": {
+              "performance": 98,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2294.108,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 90,
+              "first-contentful-paint": 927.054
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          },
+          {
+            "route": "/ne/checkups/visa/",
+            "scores": {
+              "performance": 99,
+              "accessibility": 100,
+              "best-practices": 100,
+              "seo": 66
+            },
+            "metrics": {
+              "largest-contentful-paint": 2089.9946,
+              "cumulative-layout-shift": 0,
+              "total-blocking-time": 81,
+              "first-contentful-paint": 758.9946
+            },
+            "failedAudits": [
+              "is-crawlable"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "live": {
+    "checkedAt": "2026-09-28T01:20:31.134Z",
+    "site": "https://codepump-net.github.io/yt-top-webforai/",
+    "commit": "7f7e575eee030ffce96c45843e5173fcb6b33a1c",
+    "mode": "review",
+    "results": [
+      {
+        "path": "/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/404.html",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/about/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/cases/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, nofollow, nosnippet, noimageindex,"
+      },
+      {
+        "path": "/checkups/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/checkups/cancer-screening/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/checkups/drug-screening/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/checkups/employment/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/checkups/national/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/checkups/tuberculosis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/checkups/visa/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/acute-care/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/chronic-cough/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/heart-disease/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/doctors/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/doctors/park-jongseol/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/doctors/park-rayoung/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/fees/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/checkup-preparation-checklist/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/colonoscopy-preparation-questions/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/heart-test-differences/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/palpitations-test-followup/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/notices/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/privacy/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/search/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/cancer-support/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/endoscopy/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/endoscopy/colonoscopy/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/endoscopy/gastroscopy/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/arterial-assessment/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/cardiac-markers/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/carotid-ultrasound/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/echocardiography/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/heart-rate-variability/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/holter/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/ultrasound/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/ultrasound/abdomen/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/ultrasound/bowel/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/ultrasound/thyroid/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/sitemap/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/visit/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/examinations/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/checkups/civil-service/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/fever-during-cancer-treatment/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/cancer-treatment-symptoms/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/abdominal-pain/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/respiratory-infections/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/vaccinations/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/influenza/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/covid-19/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/orafang-preparation/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/plenvu-preparation/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/after-endoscopy/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/heart-valve-regurgitation/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/angina-treatment/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/chronic-disease/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/gallstones/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/cancer-family-history/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/liver-disease/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/colon-polyp-followup/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/thyroid-cancer-surveillance/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/health/obesity-medication/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/en/checkups/visa/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/zh-hans/checkups/visa/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/th/checkups/visa/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/ru/checkups/visa/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/ne/checkups/visa/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/preparation/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/hypertension/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/dyslipidemia/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/atherosclerosis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/stable-angina/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/acute-myocardial-infarction/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/heart-failure/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/atrial-fibrillation/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/supraventricular-tachycardia/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/premature-ventricular-contractions/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/bradyarrhythmia/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/mitral-regurgitation/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/aortic-stenosis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/myocarditis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/pericarditis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/dilated-cardiomyopathy/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/carotid-stenosis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/peripheral-artery-disease/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/deep-vein-thrombosis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/aortic-aneurysm-dissection/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/diseases/cardio/orthostatic-hypotension/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/digestive/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/digestive/esophagus-stomach/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/digestive/bowel-appendix/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/digestive/gallbladder-bile-duct/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/digestive/pancreas/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/thyroid-carotid-neck/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/thyroid-carotid-neck/thyroid/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/thyroid-carotid-neck/carotid/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/thyroid-carotid-neck/neck-lump/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/kidney/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/kidney/function/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/kidney/pyelonephritis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/conditions/kidney/hydronephrosis/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/services/heart/ambulatory-blood-pressure/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/chest-pressure-sweating/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/chest-tightness-causes/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/epigastric-pain-heart/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/exertional-chest-pain/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/rapid-heart-rate/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/syncope-emergency/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/exertional-dyspnea/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/orthopnea-leg-edema/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/leg-edema-dyspnea/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/blood-pressure-180/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/family-history-heart-disease/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/symptoms/cardio/radiating-chest-pain-119/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      },
+      {
+        "path": "/copyright/",
+        "status": 200,
+        "indexable": false,
+        "robots": "noindex, follow,"
+      }
+    ],
+    "failures": [],
+    "sitemapUrls": []
+  },
+  "additionalLiveChecks": {
+    "checkedAt": "2026-09-28T01:20:46.022Z",
+    "site": "https://codepump-net.github.io/yt-top-webforai",
+    "assets": [
+      {
+        "id": "logo",
+        "file": "/assets/logo.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": false
+      },
+      {
+        "id": "clinic",
+        "file": "/assets/clinic-800.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": false
+      },
+      {
+        "id": "clinic",
+        "file": "/assets/clinic-1600.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": false
+      },
+      {
+        "id": "jongseol",
+        "file": "/assets/jongseol-640.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": false
+      },
+      {
+        "id": "rayoung",
+        "file": "/assets/rayoung-640.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": false
+      },
+      {
+        "id": "vaccination-schedule-2026",
+        "file": "/assets/vaccination-schedule-2026.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-heart",
+        "file": "/assets/banner-heart.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-digestive",
+        "file": "/assets/banner-digestive.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-respiratory",
+        "file": "/assets/banner-respiratory.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-vaccinations",
+        "file": "/assets/banner-vaccinations.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-chronic",
+        "file": "/assets/banner-chronic.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-neck",
+        "file": "/assets/banner-neck.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-kidney",
+        "file": "/assets/banner-kidney.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-cancer-support",
+        "file": "/assets/banner-cancer-support.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-services",
+        "file": "/assets/banner-services.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-checkups",
+        "file": "/assets/banner-checkups.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-symptoms",
+        "file": "/assets/banner-symptoms.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "banner-diseases",
+        "file": "/assets/banner-diseases.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "diagram-heart-flow",
+        "file": "/assets/diagram-heart-flow.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "diagram-endoscopy-preparation",
+        "file": "/assets/diagram-endoscopy-preparation.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "diagram-after-endoscopy",
+        "file": "/assets/diagram-after-endoscopy.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      },
+      {
+        "id": "diagram-checkup-flow",
+        "file": "/assets/diagram-checkup-flow.webp",
+        "status": 200,
+        "hashMatches": true,
+        "directorSourcePreserved": true
+      }
+    ],
+    "checks": [
+      {
+        "route": "/fees/",
+        "width": 390,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/services/heart/",
+        "width": 390,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/health/after-endoscopy/",
+        "width": 390,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/services/vaccinations/",
+        "width": 390,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/visit/",
+        "width": 390,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/notices/",
+        "width": 390,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/fees/",
+        "width": 1440,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/services/heart/",
+        "width": 1440,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/health/after-endoscopy/",
+        "width": 1440,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/services/vaccinations/",
+        "width": 1440,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/visit/",
+        "width": 1440,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/notices/",
+        "width": 1440,
+        "status": 200,
+        "noHorizontalOverflow": true,
+        "noindex": true
+      },
+      {
+        "route": "/search/",
+        "query": "심장초음파",
+        "directResultFirst": true
+      },
+      {
+        "route": "/services/endoscopy/",
+        "javascript": false,
+        "preparationReadable": true
+      }
+    ],
+    "banners": [
+      {
+        "pageId": "heart-disease",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "digestive-disease",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "respiratory-infections",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "vaccinations",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "chronic-disease",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "neck-disease",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "kidney-disease",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "cancer-support",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "services",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "checkups",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "symptoms",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      },
+      {
+        "pageId": "diseases",
+        "bannerUnchanged": true,
+        "noEnlargement": true,
+        "noCaption": true
+      }
+    ],
+    "pageErrors": []
+  },
+  "notes": [
+    "User explicitly requested commit, push and deploy after the final improvement report.",
+    "Existing PUBLICATION_MODE=review and release approval gate were preserved.",
+    "All 17 director-supplied images retain their original bytes; all 22 deployed assets matched the content catalog.",
+    "This documentation update is committed separately with skip ci; it does not change the deployed website.",
+    "Pre-existing plan source additions/deletions remain outside these commits."
+  ]
+}
