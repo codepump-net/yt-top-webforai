@@ -65,6 +65,13 @@ it('keeps date-specific programs separate from historical data and archives by K
   expect(noticeState(historical, '2027-05-01')).toBe('reference');
   expect(historical.attachment.publishedAt).toBe('2026-09-17');
   expect(historical.attachment.url).toMatch(/^https:\/\/www.phwr.org\//);
-  for (const id of ['notice-2026-suwon-shingles-support', 'notice-2026-gyeonggi-student-influenza'])
-    expect(data.notices.find((n) => n.id === id).availability).toContain('전화로 확인');
+  for (const id of [
+    'notice-2026-suwon-shingles-support',
+    'notice-2026-gyeonggi-student-influenza',
+  ]) {
+    const availability = data.notices.find((n) => n.id === id).availability;
+    expect(availability).toContain('참여 여부');
+    expect(availability).toContain(data.clinic.phone);
+    expect(availability).not.toMatch(/본원에서.*(?:가능합니다|받을 수 있습니다)/);
+  }
 });

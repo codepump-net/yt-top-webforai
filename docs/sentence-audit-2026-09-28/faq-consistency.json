@@ -1,0 +1,919 @@
+{
+  "pairs": 152,
+  "bodyAndStructuredDataMatch": true,
+  "meaning": "문구 일치는 답변 품질을 보증하지 않음",
+  "results": [
+    {
+      "pageId": "cancer-screening",
+      "question": "암검진으로 모든 암을 한 번에 확인하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cancer-screening",
+      "question": "국가검진과 암검진은 함께 예약할 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cancer-screening",
+      "question": "이전 암검진 결과도 가져가야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "drug-screening",
+      "question": "마약검사는 검사 이름만 같으면 제출처 요구를 충족하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "drug-screening",
+      "question": "영문 결과지 이름은 무엇을 기준으로 문의하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "drug-screening",
+      "question": "마약검사 영문서류를 당일 받을 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "employment-checkup",
+      "question": "채용검진은 회사의 지정 양식이 필요한가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "employment-checkup",
+      "question": "채용검진 서류 제출 기한이 가까우면 무엇을 문의하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "employment-checkup",
+      "question": "채용검진 전에 금식 시간을 어떻게 확인하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "national-checkup",
+      "question": "국가검진을 예약하면 내시경·초음파도 모두 포함되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "national-checkup",
+      "question": "국가검진 전 커피나 물을 마셨으면 검사를 못 받나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "national-checkup",
+      "question": "검진 결과에 이상 표시가 있으면 바로 진단된 것인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "tuberculosis-screening",
+      "question": "기숙사 결핵검진은 어떤 서류를 가져가서 문의하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "tuberculosis-screening",
+      "question": "기숙사에 제출할 결핵검진 결과지를 당일 받을 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "tuberculosis-screening",
+      "question": "예전에 받은 결핵 관련 검사 결과를 그대로 제출해도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "visa-checkup",
+      "question": "외국인 비자검진은 어느 병원에서 받아도 인정되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "visa-checkup",
+      "question": "비자검진 서류의 발급일은 어떻게 문의하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "visa-checkup",
+      "question": "비자검진 영문 이름과 준비물은 무엇을 확인하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "acute-care",
+      "question": "갑자기 아프면 당일 진료를 바로 받을 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "acute-care",
+      "question": "이미 약을 먹었으면 무엇을 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "acute-care",
+      "question": "이전 검사 결과가 없어도 증상 기록이 도움이 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "chronic-cough",
+      "question": "기침 진료 전에 어떤 기록을 준비하면 좋나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "chronic-cough",
+      "question": "기침이 오래가면 약을 스스로 바꿔도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "chronic-cough",
+      "question": "기침과 함께 피가 보이거나 숨이 차면 예약까지 기다리나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "heart-disease",
+      "question": "심장 증상이 있으면 초음파부터 예약하면 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "heart-disease",
+      "question": "검사가 정상이었는데 증상이 계속되면 어떻게 준비하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "heart-disease",
+      "question": "심한 흉통과 호흡곤란이 있어도 외래 예약을 기다리나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "fees",
+      "question": "내시경 총비용을 문의할 때 무엇을 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "fees",
+      "question": "검사받는 날짜와 서류 발급일은 같은가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "checkup-preparation",
+      "question": "검진 항목마다 금식과 준비 안내가 다른 이유는 무엇인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "checkup-preparation",
+      "question": "검진 전 커피나 물을 마셨다면 어떤 정보를 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "checkup-preparation",
+      "question": "검진 전 평소 먹던 약을 모두 끊어야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy-preparation",
+      "question": "대장내시경 전 식사 조절과 금식을 어떻게 구분하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy-preparation",
+      "question": "오전 대장내시경은 몇 시부터 준비해야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy-preparation",
+      "question": "대장내시경 준비 중 물을 마셔도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy-preparation",
+      "question": "대장내시경 전날 어떤 음식을 먹을 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy-preparation",
+      "question": "대장내시경 준비 중 커피를 마셨다면 어떻게 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "heart-test-differences",
+      "question": "심전도와 심장초음파 중 어느 결과를 먼저 믿어야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "heart-test-differences",
+      "question": "두근거림이 가끔 나타나면 홀터검사를 받으면 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "heart-test-differences",
+      "question": "세 가지 심장검사를 한 번에 모두 받아야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "palpitations-followup",
+      "question": "홀터검사 후에도 두근거림이 있으면 무엇을 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "palpitations-followup",
+      "question": "검사 결과를 보고 심장약을 스스로 바꿔도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "palpitations-followup",
+      "question": "스마트워치 기록도 진료 때 보여드려도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cancer-support",
+      "question": "영통탑내과 진료가 기존 항암치료를 대신하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cancer-support",
+      "question": "암 치료 중 보충제도 의료진에게 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cancer-support",
+      "question": "암환자 진료에는 어떤 자료를 준비하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cancer-support",
+      "question": "케모포트 자체를 제거하는 수술도 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy",
+      "question": "대장내시경 전 물·음식 안내는 어디서 확인하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy",
+      "question": "대장내시경 비용에 진정이나 조직검사가 모두 포함되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "colonoscopy",
+      "question": "대장내시경 결과를 검사 당일 모두 알 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "gastroscopy",
+      "question": "진정 내시경을 함께 받으면 검진 준비와 귀가 안내가 달라지나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "gastroscopy",
+      "question": "위내시경 전에 복용약 이름을 왜 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "gastroscopy",
+      "question": "위내시경 후 조직검사 결과도 바로 나오나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "abi",
+      "question": "ABI는 무엇을 비교하는 지표인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "abi",
+      "question": "걸을 때 다리가 아픈 것도 동맥경화도 검사 상담에 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "abi",
+      "question": "ABI 결과지에는 어떤 내용을 질문하면 좋나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardiac-markers",
+      "question": "심장 표지자 검사는 모두 트로포닌 검사인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardiac-markers",
+      "question": "심장 표지자가 정상이면 심한 흉통도 기다려도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardiac-markers",
+      "question": "심장 표지자 결과를 비교할 때 무엇을 준비하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "carotid",
+      "question": "경동맥 초음파는 심장 자체를 보는 검사인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "carotid",
+      "question": "경동맥 초음파 전에 이전 혈관 검사도 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "carotid",
+      "question": "경동맥 초음파 결과만으로 뇌혈관 전체를 판단하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "echocardiography",
+      "question": "심장초음파가 정상이면 모든 심장질환을 배제할 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "echocardiography",
+      "question": "심장초음파와 다른 검사를 함께 받으면 준비가 같나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "echocardiography",
+      "question": "이전 심장초음파 결과가 있으면 무엇을 가져가나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "hrv",
+      "question": "심박변이도와 분당 심박수는 같은 값인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "hrv",
+      "question": "HRV 수치 하나로 스트레스나 질환을 확정할 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "hrv",
+      "question": "심박변이도 검사를 받으면 홀터검사를 대신할 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "holter",
+      "question": "영통탑내과 홀터검사는 반드시 24시간 착용하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "holter",
+      "question": "홀터검사 결과는 어떤 자료와 함께 설명받나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "holter",
+      "question": "홀터 착용 중 두근거림이 없었다면 어떻게 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "abdominal-ultrasound",
+      "question": "상복부와 하복부 초음파는 준비가 같은가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "abdominal-ultrasound",
+      "question": "복부 초음파와 내시경은 같은 부위를 같은 방법으로 보나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "abdominal-ultrasound",
+      "question": "복통 때문에 초음파를 문의할 때 무엇을 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "bowel-ultrasound",
+      "question": "장 초음파에서 이상이 안 보이면 충수염을 배제하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "bowel-ultrasound",
+      "question": "장 초음파와 대장내시경은 어떻게 다른가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "bowel-ultrasound",
+      "question": "심한 복통이 있으면 장 초음파만 예약하고 기다려도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "thyroid-ultrasound",
+      "question": "갑상선 초음파에서 결절이 보이면 바로 암인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "thyroid-ultrasound",
+      "question": "갑상선 초음파 전에 혈액검사 결과도 준비하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "thyroid-ultrasound",
+      "question": "갑상선 결절의 이전 결과는 어떻게 비교하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "visit",
+      "question": "영통탑내과 토요일에는 점심시간에도 진료하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "visit",
+      "question": "영통탑내과 주차장 위치와 지원은 어떻게 확인하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "visit",
+      "question": "영통탑내과 검사 예약은 어디로 문의하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "examinations",
+      "question": "영통탑내과에서 CT 검사도 받을 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "examinations",
+      "question": "AI가 심전도나 X선을 단독으로 판독하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "civil-service",
+      "question": "마약류 선별검사 양성은 바로 최종 불합격인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "fever-during-cancer-treatment",
+      "question": "항암치료 중 38도 열이 나면 해열제를 먹고 기다려도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cancer-treatment-symptoms",
+      "question": "면역항암제가 끝난 뒤 새 증상이 생겨도 알려야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "abdominal-pain",
+      "question": "초음파가 정상이면 급성 복통은 안심해도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "vaccinations",
+      "question": "작년에 독감 접종을 했는데 올해도 필요한가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "influenza",
+      "question": "독감 신속검사가 음성이면 독감이 아닌가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "covid-19",
+      "question": "팍스로비드 상담 전에 어떤 약 정보를 준비하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-hypertension",
+      "question": "혈압약은 한 번 먹으면 평생 먹어야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-hypertension",
+      "question": "집에서는 정상인데 병원에서만 높으면 괜찮나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-hypertension",
+      "question": "두통이 없으면 혈압이 정상인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-dyslipidemia",
+      "question": "콜레스테롤 약은 평생 먹어야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-dyslipidemia",
+      "question": "살이 찌지 않았는데도 고지혈증이 생기나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-dyslipidemia",
+      "question": "약을 먹으면 간이 나빠지나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-atherosclerosis",
+      "question": "경동맥에 플라크가 있으면 심장혈관도 막혔다는 뜻인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-atherosclerosis",
+      "question": "플라크를 약으로 없앨 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-atherosclerosis",
+      "question": "아스피린을 미리 먹으면 예방되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-stable-angina",
+      "question": "협심증이면 모두 스텐트를 넣나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-stable-angina",
+      "question": "심전도가 정상이어도 협심증일 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-stable-angina",
+      "question": "가슴통증이 없고 숨만 차도 협심증일 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-acute-myocardial-infarction",
+      "question": "Troponin I가 정상이면 심근경색이 아닌가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-acute-myocardial-infarction",
+      "question": "통증이 사라졌으면 집에서 지켜봐도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-acute-myocardial-infarction",
+      "question": "아스피린을 집에서 먹어야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-heart-failure",
+      "question": "다리가 부으면 모두 심부전인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-heart-failure",
+      "question": "심장초음파가 정상이면 심부전이 아닌가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-heart-failure",
+      "question": "물을 많이 마시면 심장에 좋나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-atrial-fibrillation",
+      "question": "부정맥 약은 평생 먹어야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-atrial-fibrillation",
+      "question": "스마트워치에서 심방세동이라고 나오면 확진인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-atrial-fibrillation",
+      "question": "심방세동이면 모두 항응고제를 먹나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-supraventricular-tachycardia",
+      "question": "진료실에 오면 맥박이 정상인데도 진단할 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-supraventricular-tachycardia",
+      "question": "숨을 참거나 힘을 주면 멈출 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-supraventricular-tachycardia",
+      "question": "약만 먹으면 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-premature-ventricular-contractions",
+      "question": "조기수축이 있으면 심장이 멈출 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-premature-ventricular-contractions",
+      "question": "하루 몇 번이면 많은 건가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-premature-ventricular-contractions",
+      "question": "커피를 완전히 끊어야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-bradyarrhythmia",
+      "question": "맥박이 50이면 모두 위험한가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-bradyarrhythmia",
+      "question": "혈압약 때문에 맥박이 느릴 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-bradyarrhythmia",
+      "question": "심박동기는 언제 필요하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-mitral-regurgitation",
+      "question": "판막 역류가 있으면 반드시 수술하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-mitral-regurgitation",
+      "question": "초음파는 얼마나 자주 해야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-mitral-regurgitation",
+      "question": "운동해도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-aortic-stenosis",
+      "question": "증상이 없으면 수술하지 않아도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-aortic-stenosis",
+      "question": "약으로 판막을 넓힐 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-aortic-stenosis",
+      "question": "실신이 한 번 있었는데 기다려도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-myocarditis",
+      "question": "감기 후 가슴이 아프면 모두 심근염인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-myocarditis",
+      "question": "Troponin이 정상이어도 심근염일 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-myocarditis",
+      "question": "언제 운동을 다시 할 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-pericarditis",
+      "question": "심낭염과 심근경색은 어떻게 구분하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-pericarditis",
+      "question": "통증이 좋아지면 약을 바로 끊어도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-pericarditis",
+      "question": "심낭액이 있으면 모두 뽑아야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-dilated-cardiomyopathy",
+      "question": "심장이 커졌다는 말과 심근병증은 같은 뜻인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-dilated-cardiomyopathy",
+      "question": "가족도 검사해야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-dilated-cardiomyopathy",
+      "question": "심장기능이 좋아지면 약을 끊을 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-carotid-stenosis",
+      "question": "플라크가 조금 있으면 수술해야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-carotid-stenosis",
+      "question": "경동맥초음파로 뇌혈관 전체를 볼 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-carotid-stenosis",
+      "question": "어지럼이 있으면 경동맥 협착 때문인가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-peripheral-artery-disease",
+      "question": "허리디스크 통증과 어떻게 다르나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-peripheral-artery-disease",
+      "question": "걷다가 아픈데 운동을 계속해야 하나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-peripheral-artery-disease",
+      "question": "발목상완지수가 정상이라면 괜찮나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-deep-vein-thrombosis",
+      "question": "다리가 부으면 마사지해도 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-deep-vein-thrombosis",
+      "question": "D-dimer가 정상이면 혈전이 아닌가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-deep-vein-thrombosis",
+      "question": "항응고제는 얼마나 먹나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-aortic-aneurysm-dissection",
+      "question": "심전도가 정상이라면 대동맥박리가 아닌가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-aortic-aneurysm-dissection",
+      "question": "복부대동맥류는 초음파로 볼 수 있나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-aortic-aneurysm-dissection",
+      "question": "가족에게도 검사가 필요한가요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-orthostatic-hypotension",
+      "question": "혈압약을 끊으면 좋아지나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-orthostatic-hypotension",
+      "question": "물을 많이 마시면 되나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    },
+    {
+      "pageId": "cardio-orthostatic-hypotension",
+      "question": "빈혈도 기립성 어지럼을 일으키나요?",
+      "bodyMatch": true,
+      "structuredAnswerMatch": true
+    }
+  ]
+}

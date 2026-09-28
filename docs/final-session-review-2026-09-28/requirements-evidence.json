@@ -1,0 +1,684 @@
+{
+  "checkedAt": "2026-09-27T17:56:40.483Z",
+  "commit": "e27a4c4a4309e5e4fc2adb0f9ae3acf7fddc5fbf",
+  "hubCounts": {
+    "conditions": 8,
+    "digestive-disease": 5,
+    "neck-disease": 3,
+    "kidney-disease": 3
+  },
+  "images": [
+    {
+      "number": 1,
+      "pageId": "heart-disease",
+      "path": "/conditions/heart-disease/",
+      "assetId": "banner-heart",
+      "count": 1,
+      "alt": "심장질환: 협심증·심근경색·부정맥·판막질환",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 2,
+      "pageId": "digestive-disease",
+      "path": "/conditions/digestive/",
+      "assetId": "banner-digestive",
+      "count": 1,
+      "alt": "소화기질환: 위·대장·소장·췌장·담도·담낭·간질환",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 3,
+      "pageId": "respiratory-infections",
+      "path": "/conditions/respiratory-infections/",
+      "assetId": "banner-respiratory",
+      "count": 1,
+      "alt": "호흡기·감염질환: 폐렴·독감·코로나19·만성기침",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 4,
+      "pageId": "vaccinations",
+      "path": "/services/vaccinations/",
+      "assetId": "banner-vaccinations",
+      "count": 1,
+      "alt": "성인 예방접종: 독감·폐렴·대상포진·간염 예방",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 5,
+      "pageId": "chronic-disease",
+      "path": "/conditions/chronic-disease/",
+      "assetId": "banner-chronic",
+      "count": 1,
+      "alt": "고혈압·당뇨·고지혈증 치료, 금연치료·체중관리",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 6,
+      "pageId": "neck-disease",
+      "path": "/conditions/thyroid-carotid-neck/",
+      "assetId": "banner-neck",
+      "count": 1,
+      "alt": "갑상선·경동맥·경부 멍울: 초음파·혈액검사·추적관리",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 7,
+      "pageId": "kidney-disease",
+      "path": "/conditions/kidney/",
+      "assetId": "banner-kidney",
+      "count": 1,
+      "alt": "콩팥 그림과 신부전 예방·신우신염·수신증 안내",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 8,
+      "pageId": "cancer-support",
+      "path": "/services/cancer-support/",
+      "assetId": "banner-cancer-support",
+      "count": 1,
+      "alt": "암 치료 중 지지진료: 발열·피로·구역·백혈구 감소 대응",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 9,
+      "pageId": "services",
+      "path": "/services/",
+      "assetId": "banner-services",
+      "count": 1,
+      "alt": "검사·시술 안내",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 10,
+      "pageId": "checkups",
+      "path": "/checkups/",
+      "assetId": "banner-checkups",
+      "count": 1,
+      "alt": "건강검진·서류안내: 국가검진·채용검진·공무원검진·비자검진",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 11,
+      "pageId": "symptoms",
+      "path": "/symptoms/",
+      "assetId": "banner-symptoms",
+      "count": 1,
+      "alt": "증상백과: 흉통·숨참·복통·기침·발열·어지럼",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 12,
+      "pageId": "diseases",
+      "path": "/diseases/",
+      "assetId": "banner-diseases",
+      "count": 1,
+      "alt": "질환백과: 심장혈관·소화기·호흡기·내분비·신장",
+      "width": 400,
+      "height": 225,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 13,
+      "pageId": "vaccinations",
+      "path": "/services/vaccinations/",
+      "assetId": "vaccination-schedule-2026",
+      "count": 1,
+      "alt": "영통탑내과 2026 성인 예방접종 일정표. 백신별 대상·기본 일정·메모는 바로 아래 표에서 확인할 수 있습니다.",
+      "width": 240,
+      "height": 300,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 14,
+      "pageId": "heart-index",
+      "path": "/services/heart/",
+      "assetId": "diagram-heart-flow",
+      "count": 1,
+      "alt": "영통탑내과 심장검사 진행 순서",
+      "width": 280,
+      "height": 300,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 15,
+      "pageId": "endoscopy",
+      "path": "/services/endoscopy/",
+      "assetId": "diagram-endoscopy-preparation",
+      "count": 1,
+      "alt": "위·대장내시경 검사 전 준비",
+      "width": 280,
+      "height": 300,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 16,
+      "pageId": "after-endoscopy",
+      "path": "/health/after-endoscopy/",
+      "assetId": "diagram-after-endoscopy",
+      "count": 1,
+      "alt": "조직검사·용종절제 후 주의사항",
+      "width": 280,
+      "height": 300,
+      "bannerZoomControls": 0
+    },
+    {
+      "number": 17,
+      "pageId": "checkups",
+      "path": "/checkups/",
+      "assetId": "diagram-checkup-flow",
+      "count": 1,
+      "alt": "국가검진·채용검진·비자검진 진행 순서",
+      "width": 280,
+      "height": 300,
+      "bannerZoomControls": 0
+    }
+  ],
+  "originalPixelVerification": {
+    "checkedAt": "2026-09-27T17:30:56.356Z",
+    "commit": "e27a4c4a4309e5e4fc2adb0f9ae3acf7fddc5fbf",
+    "site": "https://codepump-net.github.io/yt-top-webforai/",
+    "results": [
+      {
+        "number": 1,
+        "assetId": "banner-heart",
+        "path": "/conditions/heart-disease/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-heart.webp",
+        "imageSha256": "744304b1479aff73fa72ac547b6a30494d646a96880b8e8dd6091b0ff3fa9ba2",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 2,
+        "assetId": "banner-digestive",
+        "path": "/conditions/digestive/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-digestive.webp",
+        "imageSha256": "5d2ff228814c426041870968d93a2a92dbef00f78c3be250586ca62d4d3e4411",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 3,
+        "assetId": "banner-respiratory",
+        "path": "/conditions/respiratory-infections/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-respiratory.webp",
+        "imageSha256": "df9a1080f7161449ecc172cb362014273260d63729d9dd03d38120b636a2e70f",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 4,
+        "assetId": "banner-vaccinations",
+        "path": "/services/vaccinations/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-vaccinations.webp",
+        "imageSha256": "a2b350c9a6d1bf2be7cdce014c9267a3e46d14c69589379ec171b11c08230ff7",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 5,
+        "assetId": "banner-chronic",
+        "path": "/conditions/chronic-disease/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-chronic.webp",
+        "imageSha256": "0974ba596143bbafbec6f576193a209eb63e32534357f99439487f57ed8a650a",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 6,
+        "assetId": "banner-neck",
+        "path": "/conditions/thyroid-carotid-neck/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-neck.webp",
+        "imageSha256": "c515c6b481898f78a1edcb0c442386aa8494de17831a87d3c47ef265d8bce8c3",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 7,
+        "assetId": "banner-kidney",
+        "path": "/conditions/kidney/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-kidney.webp",
+        "imageSha256": "38971e8fe1f8fb7452a19edee2e029cd68a1d2b1683ed6a5705f732a8778a4b0",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 8,
+        "assetId": "banner-cancer-support",
+        "path": "/services/cancer-support/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-cancer-support.webp",
+        "imageSha256": "87348435514c97debacf1f0cde5feab1830ca4f38ef014d8622f426b0335d5a0",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 9,
+        "assetId": "banner-services",
+        "path": "/services/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-services.webp",
+        "imageSha256": "ec7c318294399e4afa10f46a6cbc0e95ea2fa4d158117fe1e6f476494ab3d811",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 10,
+        "assetId": "banner-checkups",
+        "path": "/checkups/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-checkups.webp",
+        "imageSha256": "e53ce3e7c80479263851797e85caeadd3b13990a7283ffec3a3ec9d83826f571",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 11,
+        "assetId": "banner-symptoms",
+        "path": "/symptoms/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-symptoms.webp",
+        "imageSha256": "4557c7122dae335a4fb2d6253b30fef92451aa8169bee2773ac28fdb357ad460",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 12,
+        "assetId": "banner-diseases",
+        "path": "/diseases/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/banner-diseases.webp",
+        "imageSha256": "76fe2bb62b6d8d687fd7f83b92fe1507fdb5525d937820419e5bd73e0ad01711",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 13,
+        "assetId": "vaccination-schedule-2026",
+        "path": "/services/vaccinations/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/vaccination-schedule-2026.webp",
+        "imageSha256": "9f63764e081948d03dcf67b06371594e7a666944514beb6da70bc59a8a89420b",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 14,
+        "assetId": "diagram-heart-flow",
+        "path": "/services/heart/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/diagram-heart-flow.webp",
+        "imageSha256": "40ab95d1d563cebaa56838f5f5ce4800530ce8c492f8351e5d3c581ab45a80e0",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 15,
+        "assetId": "diagram-endoscopy-preparation",
+        "path": "/services/endoscopy/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/diagram-endoscopy-preparation.webp",
+        "imageSha256": "de986a1f64871166c1da4e8209e766dfce815d97f2635c1cc39019ef97c6ed3f",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 16,
+        "assetId": "diagram-after-endoscopy",
+        "path": "/health/after-endoscopy/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/diagram-after-endoscopy.webp",
+        "imageSha256": "2d93d75fe60bbc89550391f6aaabd7ea2d0627701e46ced3271615992ab71939",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      },
+      {
+        "number": 17,
+        "assetId": "diagram-checkup-flow",
+        "path": "/checkups/",
+        "imageUrl": "https://codepump-net.github.io/yt-top-webforai/assets/diagram-checkup-flow.webp",
+        "imageSha256": "13c0ba304197ba22c068523882bd3e017c4cd5f690bace7b0de3a6c9bd976e78",
+        "pixelsMatchOriginal": true,
+        "placedOnce": true,
+        "htmlMatchesCommit": true
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "id": "symptom-cardio-chest-pressure-sweating",
+      "path": "/symptoms/cardio/chest-pressure-sweating/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-chest-tightness-causes",
+      "path": "/symptoms/cardio/chest-tightness-causes/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-epigastric-pain-heart",
+      "path": "/symptoms/cardio/epigastric-pain-heart/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-exertional-chest-pain",
+      "path": "/symptoms/cardio/exertional-chest-pain/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-recurrent-palpitations-normal-ecg",
+      "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-irregular-skipped-heartbeat",
+      "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-rapid-heart-rate",
+      "path": "/symptoms/cardio/rapid-heart-rate/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-slow-heart-rate-dizziness",
+      "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-presyncope-cardiac-evaluation",
+      "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-syncope-emergency",
+      "path": "/symptoms/cardio/syncope-emergency/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-exertional-dyspnea",
+      "path": "/symptoms/cardio/exertional-dyspnea/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-orthopnea-leg-edema",
+      "path": "/symptoms/cardio/orthopnea-leg-edema/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-leg-edema-dyspnea",
+      "path": "/symptoms/cardio/leg-edema-dyspnea/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-rapid-weight-gain-edema",
+      "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-fatigue-exercise-intolerance",
+      "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-blood-pressure-180",
+      "path": "/symptoms/cardio/blood-pressure-180/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-orthostatic-dizziness-low-bp",
+      "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-valve-regurgitation-follow-up",
+      "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-family-history-heart-disease",
+      "path": "/symptoms/cardio/family-history-heart-disease/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    },
+    {
+      "id": "symptom-cardio-radiating-chest-pain-119",
+      "path": "/symptoms/cardio/radiating-chest-pain-119/",
+      "aliasCount": 3,
+      "inSearch": true,
+      "inSymptomHub": true,
+      "inHtmlSitemap": true
+    }
+  ],
+  "diseaseCardioCount": 20,
+  "noticeCards": 6,
+  "homeNoticePreviews": 3,
+  "originalNoticeChannel": true,
+  "casesInSearch": false,
+  "caseArticleLinks": 25,
+  "casesRobots": "noindex, nofollow, nosnippet, noimageindex",
+  "pdf": {
+    "status": 200,
+    "bytes": 3655819,
+    "sha256": "26940a084103777bdc5b73a0a611a19571a547aba657207065e98e4b50ef5bf7",
+    "matchesRecordedPdf": true
+  },
+  "ci": {
+    "url": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36336880896",
+    "conclusion": "success",
+    "content": {
+      "mode": "review",
+      "pages": 129,
+      "assets": 22,
+      "errors": []
+    },
+    "performance": {
+      "mode": "review",
+      "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+      "errors": [],
+      "reports": [
+        {
+          "route": "/",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 2334.7126,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 62.821850000000154,
+            "first-contentful-paint": 974.3563
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/services/heart/echocardiography/",
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 2332.8175,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 120,
+            "first-contentful-paint": 919.8175000000001
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/search/",
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 2193.8382,
+            "cumulative-layout-shift": 0.002294951040342114,
+            "total-blocking-time": 141.00000000000023,
+            "first-contentful-paint": 761.8381999999999
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/health/colonoscopy-preparation-questions/",
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 2317.6891,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 110,
+            "first-contentful-paint": 922.34455
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/health/cancer-treatment-symptoms/",
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 2345.5794000000005,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 130,
+            "first-contentful-paint": 963.7897
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/ne/checkups/visa/",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          },
+          "metrics": {
+            "largest-contentful-paint": 2019.1056000000003,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 115,
+            "first-contentful-paint": 761.1056000000001
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        }
+      ]
+    },
+    "e2eStats": {
+      "startTime": "2026-09-27T17:26:52.136Z",
+      "duration": 106527.609,
+      "expected": 55,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  }
+}

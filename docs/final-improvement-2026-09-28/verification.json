@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-28",
+  "baselineCommit": "e27a4c4a4309e5e4fc2adb0f9ae3acf7fddc5fbf",
+  "mode": "review",
+  "deployExecuted": false,
+  "clinicalApprovalCreated": false,
+  "content": {
+    "mode": "review",
+    "pages": 129,
+    "assets": 22,
+    "errors": []
+  },
+  "static": {
+    "routeCount": 129,
+    "publicFilesChecked": 774,
+    "maxJsGzip": 183434,
+    "maxCssGzip": 10952,
+    "errors": []
+  },
+  "tests": {
+    "unit": {
+      "passed": 71,
+      "failed": 0
+    },
+    "pythonHarness": {
+      "passed": 17,
+      "failed": 0,
+      "python": "python3"
+    },
+    "browserSuite": {
+      "passed": 55,
+      "failed": 0
+    },
+    "finalDiagramRegression": {
+      "passed": 2,
+      "failed": 0
+    },
+    "lint": "pass",
+    "typecheck": "pass",
+    "gitDiffCheck": "pass"
+  },
+  "performanceSample": {
+    "mode": "review",
+    "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+    "errors": [],
+    "reports": [
+      {
+        "route": "/fees/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 69
+        },
+        "metrics": {
+          "largest-contentful-paint": 1738.1471,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 35.00000000000023,
+          "first-contentful-paint": 763.1470999999999
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/services/heart/",
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 69
+        },
+        "metrics": {
+          "largest-contentful-paint": 2344.7598000000003,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 18,
+          "first-contentful-paint": 908.7598
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/health/colonoscopy-preparation-questions/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 69
+        },
+        "metrics": {
+          "largest-contentful-paint": 2112.1742999999997,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 14,
+          "first-contentful-paint": 912.1742999999999
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      }
+    ]
+  },
+  "mobileVisualChecks": [
+    {
+      "route": "fees/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "services/endoscopy/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "health/after-endoscopy/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "checkups/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "services/vaccinations/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "symptoms/cardio/chest-tightness-causes/",
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "mobileVaccineTable": {
+    "scrollLeft": 168,
+    "scrollWidth": 512,
+    "clientWidth": 344,
+    "role": "region",
+    "tabIndex": 0
+  },
+  "artwork": {
+    "files": 17,
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "evidence": "image-preservation.json"
+  },
+  "sourceFilesSha256": {
+    "content/assets.json": "16193cc51f59e1396acad31cc70b8f3dcd7e762f39a7e3ec4ce4bd2f8baf3fbf",
+    "content/case-links.json": "2eaf3a85a279f4b41d7d54f0f801967af67d0e5e30cff1995b380b41623c2d93",
+    "content/measurement-queries.json": "0da2cb6517de9c630bac0f9386e24af66e68cf31e0409b80b9ae3f95f9a79fd4",
+    "content/notices.json": "f00b6b0b8b1576e25bb25e5c2380361c0fbfb46f6d6d19e8115fdfd3c5bae13d",
+    "content/page-intents.json": "5b616572a9656b673d88f4ddec1dc835ecf6428b336748b564420481a9f01c4a",
+    "content/pages.json": "b15a332e8f698f8bf0001f2b7bbb2200a9c1b601e2a4c95c2acace715ddc9430",
+    "content/visuals.json": "c5575d8c18fdbced036eb5ad41d43fac43300221ed490b6b9329b8f0dd70a3ad",
+    "web/src/components/chrome.tsx": "60cb1231f309f05687c2b9aa4bdf9e1bad3490dee042e173a6e5117c098d8f71",
+    "web/src/components/content.tsx": "e292b251b639070deb9e8b78d5df1be21c890373cf0ed44da3fda149c6e19a6c",
+    "web/src/components/notices.tsx": "f02e5ee6b8cf5ea428bc8f729161744b632fece7f674a8c9a5fb2bcb1672a203",
+    "web/src/components/patient-visuals.tsx": "cd89fad6a006e25bf07a70d5d3c80b114d4ad5458877860d01e1789017d9ff0c",
+    "web/tests/e2e/aeo-content.spec.ts": "941b02a1c1a0ec4d21008a22ce96ae8e6bf44eda756a0f82ea380b3b636f9ca1",
+    "web/tests/e2e/director-afternoon.spec.ts": "5998636cd029e7079da3a2758770e8f2a2ab42e24ae590210737b087415c6cc8",
+    "web/tests/e2e/patient-content.spec.ts": "2298438e64065cf6a9ae7df62952f97f08a7a4085c343dfd5ce6d0e0e3014c65",
+    "web/tests/unit/director-afternoon.test.mjs": "00f479fda2fbb38948081ca89db2501ea0abef05e2b69510e24cadb40d47e6a2"
+  },
+  "logsSha256": {
+    ".local/final-improvement-2026-09-28/build.log": "770ed6961207e66f7dbf172bc5812261963e51bccbcbd2edcce09f8c31874e1d",
+    ".local/final-improvement-2026-09-28/unit.log": "e86f3cc51b6e2593c107d0add78ffdd79a2ce41dec526abb926d9593e509484b",
+    ".local/final-improvement-2026-09-28/e2e.log": "a889054e7f915b7101b0f33f6fee944ff72b8de8d58b3cbbe208f1960d256dcd",
+    ".local/final-improvement-2026-09-28/e2e-final-visuals.log": "12c431b083d7e9db269d0afe9bcf1d830019f5600938eb8c74ab88b09f162035",
+    ".local/final-improvement-2026-09-28/harness.log": "acc65a7e695a618cc6d31d4f7d9cc96d5e9f2264121b464ccf28361810a106a5",
+    ".local/final-improvement-2026-09-28/lint.log": "333cbb65afdd54dcba810c1ffa34a1c00d717e7e20dff07173f34571b64d2de4",
+    ".local/final-improvement-2026-09-28/typecheck.log": "2a7df8d3dd7b6da7ff15a8944a74c675b4ef25e473d27f3097c9f5c9ab35b61f",
+    ".local/final-improvement-2026-09-28/performance.log": "610c3b9b3d645d4afde69b7d43148df714c844d934a42a6612860ad7867ea168"
+  },
+  "scopeNotes": [
+    "Initial checks caught two too-short internal patient intents, stale copy assertions and the fees TOC label. These were corrected; final checks passed.",
+    "Full browser suite passed before the final diagram subheading wording update; the two related visual/no-JavaScript tests were rerun on the final build.",
+    "Performance sample precedes only the final diagram subheading wording update.",
+    "No clinical approval, production release, real search/indexing or AI citation observation is claimed.",
+    "Pre-existing plan file deletions/untracked files were left unchanged."
+  ],
+  "archivedLogs": {
+    "note": "Committed log copies normalize trailing whitespace; logsSha256 above identifies untouched local execution logs.",
+    "sha256": {
+      "build.log": "677c173b8d0e5750e04783e6409b05e3d4f16bedb018b2b91bfa43e674bb92dc",
+      "e2e-final-visuals.log": "12c431b083d7e9db269d0afe9bcf1d830019f5600938eb8c74ab88b09f162035",
+      "e2e.log": "a889054e7f915b7101b0f33f6fee944ff72b8de8d58b3cbbe208f1960d256dcd",
+      "harness.log": "acc65a7e695a618cc6d31d4f7d9cc96d5e9f2264121b464ccf28361810a106a5",
+      "lint.log": "67238275f94a7cf2acdd778308093bc34a27a978a8a66b4b8adc1ac7e1811cc5",
+      "performance.log": "610c3b9b3d645d4afde69b7d43148df714c844d934a42a6612860ad7867ea168",
+      "typecheck.log": "9b15bc1f5492864533c1a742f19ba049f67fadf9fbaaa6a756f44ca7b20b3687",
+      "unit.log": "2ac3c809a37aac91d246c3557ecb85dc7ca25e7479fa223e70f05f516d229f26"
+    }
+  }
+}

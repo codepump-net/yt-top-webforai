@@ -41,7 +41,9 @@ test('new comparison and preparation tables fit a small viewport and have readab
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(
       true,
     );
-    await expect(page.locator('table caption')).toBeVisible();
+    const captions = page.locator('table caption');
+    expect(await captions.count()).toBeGreaterThan(0);
+    for (const caption of await captions.all()) await expect(caption).toBeVisible();
     expect(await page.locator('table th[scope="col"]').count()).toBeGreaterThan(1);
     expect(await page.locator('table th[scope="row"]').count()).toBeGreaterThan(1);
   }

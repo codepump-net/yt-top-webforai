@@ -1,0 +1,156 @@
+[
+  {
+    "assetId": "logo",
+    "file": "web/public/assets/logo.webp",
+    "sha256": "f52b33213933cf714322ee4be36ae83f58f0e4fed196d23ff0e5feed3bc79acd",
+    "note": "로고·인물·시설 사진 시각 확인; 작은 배경 안내판은 공식 문구 목록에서 제외",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "clinic",
+    "file": "web/public/assets/clinic-800.webp",
+    "sha256": "86c83c4ba7b4b20b32e78640c59daf25ae1a533c42b35caf1f2aff466740cad6",
+    "note": "로고·인물·시설 사진 시각 확인; 작은 배경 안내판은 공식 문구 목록에서 제외",
+    "inspection": "1600px 원본으로 동일 사진 확인"
+  },
+  {
+    "assetId": "clinic",
+    "file": "web/public/assets/clinic-1600.webp",
+    "sha256": "4111731aac9bed33b49727fc6ab93ebe12f78976bc46a3226c073eadcde9b323",
+    "note": "로고·인물·시설 사진 시각 확인; 작은 배경 안내판은 공식 문구 목록에서 제외",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "jongseol",
+    "file": "web/public/assets/jongseol-640.webp",
+    "sha256": "5578a6e36edc3eb889f13b96a9918177f6b34842a1b38e5b761739f1332b85c8",
+    "note": "로고·인물·시설 사진 시각 확인; 작은 배경 안내판은 공식 문구 목록에서 제외",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "rayoung",
+    "file": "web/public/assets/rayoung-640.webp",
+    "sha256": "653e6d445b23496a06c98f63a397fef134da9ee7914c394933e3cce7305b2f65",
+    "note": "로고·인물·시설 사진 시각 확인; 작은 배경 안내판은 공식 문구 목록에서 제외",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "vaccination-schedule-2026",
+    "file": "web/public/assets/vaccination-schedule-2026.webp",
+    "sha256": "d8f64977c438c71039a372c6fcc050839824cfe895374b3c01f9328045c1cdac",
+    "note": "백신 표와 조건을 본문 표에 대조; 추가 이미지 문구 I00003~I00009",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-heart",
+    "file": "web/public/assets/banner-heart.webp",
+    "sha256": "1f44228d6520bf7fd461956da8936e37cd930cae693dfe6dcb2abfe7f4a97409",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-digestive",
+    "file": "web/public/assets/banner-digestive.webp",
+    "sha256": "959ac859458fdc9b1252240fad1884f904ed12714277bf49a3a708b384cd57ae",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-respiratory",
+    "file": "web/public/assets/banner-respiratory.webp",
+    "sha256": "805fa5ea28aca465c57734a9aede18dc1128a76f447d6a1fb83a5ffcc7fcd4dc",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-vaccinations",
+    "file": "web/public/assets/banner-vaccinations.webp",
+    "sha256": "d2e24e8dc9ffde2259e72086a98069a09d8d51544d9b27ab1812cb33306fbe54",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-chronic",
+    "file": "web/public/assets/banner-chronic.webp",
+    "sha256": "81a1afaeef6ee3a7643e0a71a6ea4154da6e876df2574d37f759dfb75ec232b5",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-neck",
+    "file": "web/public/assets/banner-neck.webp",
+    "sha256": "5bd33ecea9c952af565982542b78c3fd20b1810aefaaaeddb1558e8d5ee03cae",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-kidney",
+    "file": "web/public/assets/banner-kidney.webp",
+    "sha256": "2d9206b49683d7d008e5fbf74f20c24e4ab3d6c79f1deb6414963ace279e8a90",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-cancer-support",
+    "file": "web/public/assets/banner-cancer-support.webp",
+    "sha256": "c58b50db75a8aca526b44a4511ea46caee9a585cea4b8507e8d40c305856005c",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-services",
+    "file": "web/public/assets/banner-services.webp",
+    "sha256": "26fa2afb14dc93f9264901c53c7dda5b54f225082d17784c17c13cca6721346e",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-checkups",
+    "file": "web/public/assets/banner-checkups.webp",
+    "sha256": "afabbe51dad525cdda0c7a6f5ea993151b0fa5ca89702a79aeea29805be09102",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-symptoms",
+    "file": "web/public/assets/banner-symptoms.webp",
+    "sha256": "5390a19d82129673417f141b1739f4ab220332ca1cf0684fcc6bf7fd76501ce6",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "banner-diseases",
+    "file": "web/public/assets/banner-diseases.webp",
+    "sha256": "20bc48599399241d62c8f55ecd4e4899705e8960a686ade3ae22a539ef2ec1de",
+    "note": "삽화 자체에 읽을 설명 문구 없음; alt/caption 검토",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "diagram-heart-flow",
+    "file": "web/public/assets/diagram-heart-flow.webp",
+    "sha256": "6c28a1834ecf6c99580574365ba0e4ffc249a2658f5c4c8d1f3e84564e700c92",
+    "note": "안내도 제목·단계·주의는 visuals.json과 대조; 공통 이미지 문구 I00001/I00002 포함",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "diagram-endoscopy-preparation",
+    "file": "web/public/assets/diagram-endoscopy-preparation.webp",
+    "sha256": "5aa3f13fbc4492026b778018c7f8111f0927c837477d6d57333dfab50f0deac0",
+    "note": "안내도 제목·단계·주의는 visuals.json과 대조; 공통 이미지 문구 I00001/I00002 포함",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "diagram-after-endoscopy",
+    "file": "web/public/assets/diagram-after-endoscopy.webp",
+    "sha256": "c699162a20b266d26f2854506960c4ebe24f7f77bd92ef4ada411b59192dcb86",
+    "note": "안내도 제목·단계·주의는 visuals.json과 대조; 공통 이미지 문구 I00001/I00002 포함",
+    "inspection": "visual inspection"
+  },
+  {
+    "assetId": "diagram-checkup-flow",
+    "file": "web/public/assets/diagram-checkup-flow.webp",
+    "sha256": "61addf0665dbc64db5631b5d1fcf60fcf58a9b48d01e831de7262a4a61a2d0af",
+    "note": "안내도 제목·단계·주의는 visuals.json과 대조; 공통 이미지 문구 I00001/I00002 포함",
+    "inspection": "visual inspection"
+  }
+]

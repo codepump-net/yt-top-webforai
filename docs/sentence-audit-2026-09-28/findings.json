@@ -1,0 +1,3348 @@
+[
+  {
+    "id": "F001",
+    "units": [
+      "T00037",
+      "T00039",
+      "T00041"
+    ],
+    "kind": "중복",
+    "priority": "P2",
+    "reason": "사례의 개인차를 도입과 본문에서 연속 고지한다. 원문 연결과 개인차 안내 자체는 필요하다.",
+    "action": "원문으로 이동한다는 설명과 개인차 안내를 한 번으로 합친다.",
+    "pageIds": [
+      "cases"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cases"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F002",
+    "units": [
+      "T00045",
+      "T00047",
+      "T00049",
+      "T00052",
+      "T00053",
+      "T00059"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "건강검진과 제출 서류를 모두 다루는 허브인데 일반 진행 순서가 양식·봉인·사진 등 제출용 검진에 치우쳐 있다.",
+    "action": "진행 순서의 대상을 제출용 검진으로 명시하고 국가검진 동선과 구별한다.",
+    "pageIds": [
+      "checkups"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "checkups"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F003",
+    "units": [
+      "T00081"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "모든 암을 확인하느냐는 질문에 본원 5대 국가암검진 범위를 답하지 않고 항목 확인과 상담으로 끝난다. 같은 페이지에 범위가 있다.",
+    "action": "아니요라는 직접 답과 위·대장·간·유방·자궁경부 검진 범위, 검진의 한계를 먼저 설명한다.",
+    "pageIds": [
+      "cancer-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F004",
+    "units": [
+      "T00083"
+    ],
+    "kind": "정보확인필요",
+    "priority": "P2",
+    "reason": "동시 검진 가능 여부에 대한 운영 정보가 없어 문의 방법만 제공한다. 가능하다고 임의로 바꿀 수는 없다.",
+    "action": "동시 검진 가능 항목·예약 조건을 병원에 확인해 답변하고, 확인 전에는 불확실한 대상을 구체적으로 한정한다.",
+    "pageIds": [
+      "cancer-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F005",
+    "units": [
+      "T00095",
+      "T00097",
+      "T00099",
+      "T00112",
+      "T00115"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "검사·서류 안내가 아니라 환자가 무엇을 문의해야 하는지를 여러 문단으로 나열한다. 실제 시행하는 6종은 뒤에 묻혀 있다.",
+    "action": "시행 항목, 준비물, 결과·발급 예상 시간을 앞에 배치하고 제출기관별 차이만 뒤에 보완한다.",
+    "pageIds": [
+      "drug-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "drug-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F006",
+    "units": [
+      "T00112",
+      "T00115",
+      "T00139"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "가정하지 마세요·대신 확인할 수는 없습니다·임의 표기로 접수하지 않도록 주의하세요 등 독자의 오판을 훈계하지만 실제 기준이 부족하다.",
+    "action": "제출기한과 검사별 소요시간, 공식 신분서류의 영문명 등 확인 가능한 기준을 설명하고 예외만 안내한다.",
+    "pageIds": [
+      "drug-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "drug-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F007",
+    "units": [
+      "T00118"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "현재 공식 서식이라는 표현의 대상이 없다. 일반 마약검사 페이지에서 특정 공무원 서식을 모든 제출처에 적용하는 것으로 읽힐 수 있다.",
+    "action": "해당 서식의 기관·대상·시행일을 바로 밝혀 일반 검사 항목과 제도상 의무를 구별한다.",
+    "pageIds": [
+      "drug-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "drug-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F008",
+    "units": [
+      "T00138",
+      "T00139",
+      "T00140",
+      "T00141"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "영문 이름 기준과 당일 발급 질문의 답이 반복적으로 문의로 끝난다. 질문도 무엇을 기준으로 문의하나요처럼 문의 행위 중심이다.",
+    "action": "이름 표기 기준과 검사별 예상 발급일을 확인해 직접 답한다. 운영 정보가 없으면 확보 과제로 기록한다.",
+    "pageIds": [
+      "drug-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "drug-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F009",
+    "units": [
+      "T00148"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "채용검진의 준비와 발급기간이 아니라 미리 문의하는 방법을 안내한다는 소개문이다. 본문에는 준비물과 통상 발급기간이 있다.",
+    "action": "본문의 준비물·금식 조건·발급기간을 짧게 요약해 페이지의 실질적 답을 제시한다.",
+    "pageIds": [
+      "employment-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "employment-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F010",
+    "units": [
+      "T00177",
+      "T00179",
+      "T00181"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "FAQ가 본문에 있는 기본서식 가능 여부·통상 1일/2~3일·공복검사 금식 조건을 답하지 않고 재문의로 돌린다.",
+    "action": "동일 페이지의 조건부 사실을 답변에 반영하고 회사별 추가 요구만 예외로 설명한다.",
+    "pageIds": [
+      "employment-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "employment-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F011",
+    "units": [
+      "T00189",
+      "T00194",
+      "T00195"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "도입은 국가검진을 예약하라고 하지만 바로 아래에는 일반검진 당일 접수가 가능하다고 적혀 있다.",
+    "action": "일반검진의 당일 접수와 내시경 예약을 도입부터 구분하고 예약 전 확인이라는 소제목도 범위에 맞춘다.",
+    "pageIds": [
+      "national-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "national-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F012",
+    "units": [
+      "T00193",
+      "T00202",
+      "T00204",
+      "T00221"
+    ],
+    "kind": "중복",
+    "priority": "P1",
+    "reason": "대상 확인과 결과 상담이 각각 두 묶음으로 반복돼 기존 문단 위에 새 요구사항을 덧붙인 형태다.",
+    "action": "대상·본원 항목·준비·진행·결과의 흐름으로 묶고 구체 정보가 있는 문단을 중심으로 통합한다.",
+    "pageIds": [
+      "national-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "national-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F013",
+    "units": [
+      "T00193",
+      "T00224",
+      "T00227"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "판단하지 마세요·자동으로 시행한다고 생각하지 마세요·스스로 가능 또는 불가를 결정하지 마세요가 설명을 대신한다.",
+    "action": "포함·추가 항목의 차이와 섭취 후 연락이 필요한 이유를 말한다. 금식 위반 시 개별 진행 판단의 필요성은 유지한다.",
+    "pageIds": [
+      "national-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "national-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F014",
+    "units": [
+      "T00230"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "이상 표시가 확진인지 묻는데 직접 답 대신 권고 확인·상담을 먼저 요구한다.",
+    "action": "이상 표시와 확진의 차이를 먼저 답하고 재검·이전 결과 비교가 필요한 이유를 보완한다.",
+    "pageIds": [
+      "national-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "national-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F015",
+    "units": [
+      "T00218"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P2",
+    "reason": "국가검진의 여성 준비 문단에 마약류검사 양성 설명이 끼어 있어 해당 페이지 목적에서 벗어난다.",
+    "action": "생리와 소변검사·자궁경부검사 내용은 유지하고 마약류 검사 설명은 해당 검사 페이지에 둔다.",
+    "pageIds": [
+      "national-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "national-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F016",
+    "units": [
+      "T00238",
+      "T00242",
+      "T00244"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "기숙사·비자 결핵검진 페이지이지만 첫 질문과 준비물이 외국인 비자만 대상으로 한다.",
+    "action": "기숙사 제출과 비자 제출의 준비물·제출기관을 구분한다. 공통 검사 설명은 공유한다.",
+    "pageIds": [
+      "tuberculosis-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "tuberculosis-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F017",
+    "units": [
+      "T00263",
+      "T00264"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "본문의 흉부 X선 1~2시간, IGRA 3~4일 설명을 활용하지 않고 당일 수령 질문을 문의로 돌린다.",
+    "action": "검사 종류별 통상 소요시간과 추가검사 등 예외를 답변에 직접 제시한다.",
+    "pageIds": [
+      "tuberculosis-screening"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "tuberculosis-screening"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F018",
+    "units": [
+      "T00291",
+      "T00292",
+      "T00293",
+      "T00294"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "비자 페이지 본문은 2~3일·1~2시간·여권 영문명을 명시하지만 FAQ는 발급일을 어떻게 문의하는지로 질문을 바꾸고 실제 답을 생략한다.",
+    "action": "발급일·준비물·영문명 기준을 직접 묻고 본문의 조건부 답을 재사용한다.",
+    "pageIds": [
+      "visa-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "visa-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F019",
+    "units": [
+      "T00288"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "언어 안내 첫 문장이 번역 오류가 생겼을 때 독자가 한국어를 확인하라는 면책으로 시작한다. 통역 가능 여부를 따로 알리는 것은 유용하다.",
+    "action": "제공 언어와 문의 방법을 먼저 안내한다. 제도 기준은 제출기관 원문을 따르되 번역문 정확성은 제작 측 검토 대상으로 관리한다.",
+    "pageIds": [
+      "visa-checkup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "visa-checkup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F020",
+    "units": [
+      "T00310",
+      "T00312"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "급성 증상 페이지 첫 문장이 진료 준비와 알려줄 정보로 시작하며 가장 중요한 응급·외래 선택 답을 뒤로 미룬다.",
+    "action": "즉시 119가 필요한 대표 상황과 안정적일 때 외래에서 평가하는 범위를 먼저 제시한다.",
+    "pageIds": [
+      "acute-care"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "acute-care"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F021",
+    "units": [
+      "T00317",
+      "T00318",
+      "T00331",
+      "T00338"
+    ],
+    "kind": "정보위계",
+    "priority": "P1",
+    "reason": "일반 환자가 행동을 결정하는 위험 신호와 의료진의 검사 후 의뢰 기준이 같은 목록에 섞인다. 또 마지막에 응급 신호가 반복된다.",
+    "action": "환자가 알아볼 증상을 앞에, 진료 후 확인하는 소견을 별도 단락에 둔다. 핵심 119 안내는 유지한다.",
+    "pageIds": [
+      "acute-care"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "acute-care"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F022",
+    "units": [
+      "T00352"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "기록이 도움이 되느냐는 질문에 없는 결과를 추정하지 말라는 불필요한 경고가 붙는다.",
+    "action": "기억나는 증상과 확인 가능한 기록만 전달해도 된다고 긍정적으로 답한다.",
+    "pageIds": [
+      "acute-care"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "acute-care"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F023",
+    "units": [
+      "T00360",
+      "T00362",
+      "T00364",
+      "T00368"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "기침의 원인과 평가를 설명하기보다 무엇을 기록·상담하라는 요구가 앞부분을 차지한다. 구체적 폐기능·흉부 X선 설명은 뒤에 있다.",
+    "action": "지속 기간·동반 증상으로 무엇을 구분하는지와 기존 검사 설명을 앞에 배치하고 준비 목록은 한 번으로 묶는다.",
+    "pageIds": [
+      "chronic-cough"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "chronic-cough"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F024",
+    "units": [
+      "T00368"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "온라인 설명만으로 판단하지 말라는 금지문이 검사 선택의 이유를 대신한다.",
+    "action": "검사별로 확인하는 대상을 설명하고 어떤 상황에서 추가 평가가 필요한지 말한다.",
+    "pageIds": [
+      "chronic-cough"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "chronic-cough"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F025",
+    "units": [
+      "T00375",
+      "T00376",
+      "T00377",
+      "T00378"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "결핵 의심 증상에 대한 진료 문단 다음에 서류 당일 발급을 나열해 증상 평가와 행정 검진이 혼재한다.",
+    "action": "만성기침 문단은 진단 목적과 위험 신호에 집중하고 발급 일정은 결핵검진 페이지로 연결한다.",
+    "pageIds": [
+      "chronic-cough"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "chronic-cough"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F026",
+    "units": [
+      "T00389"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P2",
+    "reason": "본문 도입에는 실제 검사와 응급 기준이 있으나 검색 설명은 상담·준비 방법이라는 추상 문구다.",
+    "action": "메타 설명도 본원의 실제 평가 범위와 핵심 응급 기준을 요약한다.",
+    "pageIds": [
+      "heart-disease"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "heart-disease"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F027",
+    "units": [
+      "T00435",
+      "T00683",
+      "T00947",
+      "T01002",
+      "T01036",
+      "T01067",
+      "T01135",
+      "T01612",
+      "T02156",
+      "T02181"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "관련 링크 앞에 글의 성격과 스스로 진단하지 말라는 안내를 반복한다. 이미 도입·검사 한계·공통 하단에서 설명한다.",
+    "action": "해당 증상과 질환 설명을 연결하는 한 문장으로 바꾸고 공통 안전 고지와 중복을 줄인다.",
+    "pageIds": [
+      "abi",
+      "angina-treatment",
+      "cancer-treatment-symptoms",
+      "cardiac-markers",
+      "carotid",
+      "echocardiography",
+      "heart-disease",
+      "heart-valve-regurgitation",
+      "holter",
+      "palpitations-followup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abi",
+      "angina-treatment",
+      "cancer-treatment-symptoms",
+      "cardiac-markers",
+      "carotid",
+      "echocardiography",
+      "heart-disease",
+      "heart-valve-regurgitation",
+      "holter",
+      "palpitations-followup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F028",
+    "units": [
+      "T00443"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "정상 검사 뒤 지속 증상이라는 임상적 맥락이 있는데 확인한 점·추가 확인할 점을 질문하라는 추상적 표현으로 끝난다.",
+    "action": "검사 당시 증상 유무와 검사 종류가 왜 다음 평가에 중요한지 본문의 설명을 활용한다.",
+    "pageIds": [
+      "heart-disease"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "heart-disease"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F029",
+    "units": [
+      "T00478",
+      "T00480",
+      "T00482",
+      "T00493",
+      "T00499"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "비용·서류 안내라는 제목에 비해 가격·발급정보로 연결하지 않고 문의할 항목만 반복한다. 과거 가격을 믿지 말라는 지시도 불필요하다.",
+    "action": "검증된 비용표나 원 병원의 현행 고지 연결을 확보한다. 미확인 가격을 만들지 말고 비용 구성과 확인 경로를 명확히 표시한다. 서류별 기간은 기존 상세 페이지 정보를 요약한다.",
+    "pageIds": [
+      "fees"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "fees"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F030",
+    "units": [
+      "T00515",
+      "T00518",
+      "T00520",
+      "T00553"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "준비가 다른 이유를 설명하는 대신 다른 사람 지침을 적용하지 말라·단정하지 말라·강행하지 말라는 문장이 누적된다. 섭취 후 병원에 알릴 항목은 유용하다.",
+    "action": "금식·장정결·진정의 목적 차이를 구체적으로 설명하고 섭취 종류·양·시각 전달은 간결한 행동 안내로 유지한다.",
+    "pageIds": [
+      "checkup-preparation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "checkup-preparation"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F031",
+    "units": [
+      "T00518",
+      "T00551"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "검사에 따라 준비가 다른 이유라는 제목에 관찰·측정 대상이 다르다는 일반론만 있고 실제 예가 없다.",
+    "action": "이미 본문에 있는 혈액검사·내시경·복약의 서로 다른 준비 이유를 짧은 비교로 연결한다.",
+    "pageIds": [
+      "checkup-preparation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "checkup-preparation"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F032",
+    "units": [
+      "T00567",
+      "T00569",
+      "T00571",
+      "T00572",
+      "T00604",
+      "T00606",
+      "T00608",
+      "T00610"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "대장내시경 준비 페이지의 본문·표·FAQ가 모두 무엇을 확인할지만 나열하고 음식·물·약별 실제 준비 설명을 거의 제공하지 않는다. 질문이 약속한 답이 없다.",
+    "action": "기존 대장내시경·오라팡·플렌뷰 페이지의 검증된 준비 정보를 가져와 단계별로 설명한다. 예약별 시각과 개인별 금기만 개별 안내로 남긴다.",
+    "pageIds": [
+      "colonoscopy-preparation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "colonoscopy-preparation"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F033",
+    "units": [
+      "T00567",
+      "T00571",
+      "T00606",
+      "T00608"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "한 규칙으로 묶지 마세요·다른 상담을 적용하지 마세요·인터넷 시간을 적용하지 마세요·이 페이지로 금식 종료를 정하지 마세요가 일반 정보를 제공하지 않는 이유처럼 사용된다.",
+    "action": "왜 다른지와 실제 적용 범위를 답한다. 개인별 일정이 필요한 이유는 구체적으로 한 번 설명한다.",
+    "pageIds": [
+      "colonoscopy-preparation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "colonoscopy-preparation"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F034",
+    "units": [
+      "T00589",
+      "T00590",
+      "T00595",
+      "T00596"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "비진정·진정 구분 없이 보호자와 다음 날까지 운전 제한을 일반 대장내시경 조건처럼 제시한다.",
+    "action": "각 문장의 적용 대상이 진정 검사인지 시술 후 상태인지 명시하고 원 지침과 대조한다. 안전 제한 자체를 삭제하지 않는다.",
+    "pageIds": [
+      "colonoscopy-preparation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "colonoscopy-preparation"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F035",
+    "units": [
+      "T00637",
+      "T00639",
+      "T00642"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P2",
+    "reason": "검사 차이의 실제 예가 뒤에 있는데 앞부분은 설명 요청·질문 준비로 돌아간다.",
+    "action": "서로 다른 정상 결과의 의미와 간헐적 부정맥 예시를 먼저 설명하고 진료 준비를 한 단락으로 합친다.",
+    "pageIds": [
+      "heart-test-differences"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "heart-test-differences"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F036",
+    "units": [
+      "T00654"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "세 검사를 모두 해야 하느냐는 같은 질문에 본문은 직접 답과 사례를 주지만 FAQ는 의료진에게 질문하라는 말로 끝난다.",
+    "action": "본문의 아니요와 검사 선택 예를 FAQ에 반영하고 중복 섹션을 정리한다.",
+    "pageIds": [
+      "heart-test-differences"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "heart-test-differences"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F037",
+    "units": [
+      "T00662",
+      "T00664",
+      "T00666",
+      "T00671",
+      "T00677"
+    ],
+    "kind": "정보위계",
+    "priority": "P1",
+    "reason": "정상 심전도에서도 간헐적 부정맥이 기록되지 않을 수 있다는 핵심 답이 기록·질문 준비 세 문단 뒤에 있다.",
+    "action": "검사 후 증상 지속의 해석을 먼저 설명하고 증상 기록과 재진 준비는 뒤에 묶는다.",
+    "pageIds": [
+      "palpitations-followup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "palpitations-followup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F038",
+    "units": [
+      "T00683"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "관련 질환 링크 앞에 다른 페이지와 동일한 자가진단 금지문이 중복된다.",
+    "action": "증상과 관련 질환의 연결 이유를 짧게 설명하고 공통 면책을 반복하지 않는다.",
+    "pageIds": [
+      "palpitations-followup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "palpitations-followup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F039",
+    "units": [
+      "T00681",
+      "T00693"
+    ],
+    "kind": "중복",
+    "priority": "P2",
+    "reason": "스마트워치 기록 질문과 답이 본문·FAQ에 중복되며 FAQ 쪽이 더 추상적이다.",
+    "action": "하나의 분명한 답으로 합치고 시각·원본 파형 보존과 자동판정의 한계를 유지한다.",
+    "pageIds": [
+      "palpitations-followup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "palpitations-followup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F040",
+    "units": [
+      "T00764"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "환자가 원한다고 임의 투여하는 주사가 아니라는 표현이 치료 선택 설명에 불필요한 대립을 만든다.",
+    "action": "이미 앞에 있는 항암 종류·투여시기·호중구·감염 위험에 따른 결정 이유로 설명한다.",
+    "pageIds": [
+      "cancer-support"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-support"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F041",
+    "units": [
+      "T00778"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "지지진료가 항암치료를 대신하느냐는 질문에 본문에 있는 두 기관의 역할 대신 치료를 중단하지 말라는 지시로 답한다.",
+    "action": "기존 항암치료를 이어가며 지역 내과가 치료 사이의 증상을 관리한다는 직접 답을 제시한다.",
+    "pageIds": [
+      "cancer-support"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-support"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F042",
+    "units": [
+      "T00780"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "보충제를 알려야 하는 이유는 상호작용으로 설명되는데 광고·타인 경험으로 판단하지 말라는 경고가 덧붙는다.",
+    "action": "제품명·성분·용량과 상호작용 확인에 집중한다.",
+    "pageIds": [
+      "cancer-support"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-support"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F043",
+    "units": [
+      "T00790",
+      "T00792",
+      "T00794",
+      "T00798",
+      "T00799",
+      "T00800",
+      "T00801",
+      "T00802"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "위·대장내시경 허브 전체가 안내를 확인하는 순서만 설명한다. 위와 대장 검사의 차이를 설명하는 답이 없다.",
+    "action": "관찰 부위·장정결 필요 여부·검사 후 결과 확인의 차이를 짧게 보여주고 자세한 준비로 연결한다. 안내도와 단계 나열의 중복도 조정한다.",
+    "pageIds": [
+      "endoscopy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "endoscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F044",
+    "units": [
+      "T00813",
+      "T00815",
+      "T00819",
+      "T00822",
+      "T00825"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "대장내시경의 실제 목적·준비·결과보다 안내서와 일정을 확인하라는 문장이 본문 앞부분을 차지한다. 구체적 음식·장정결 설명은 뒤에 붙어 있다.",
+    "action": "검사 목적, 준비, 관찰 결과와 조직검사 결과의 차이를 먼저 설명하고 연락·예약 조건을 뒤에 묶는다.",
+    "pageIds": [
+      "colonoscopy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "colonoscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F045",
+    "units": [
+      "T00822",
+      "T00844"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "다른 병원 예시로 바꾸지 말라·이전 행사 가격으로 판단하지 말라는 지시가 환자에게 오류 책임을 돌리는 어조다.",
+    "action": "처방 정결제마다 용량이 다르다는 이유와 진정·조직검사 등 추가 비용 항목을 직접 설명한다.",
+    "pageIds": [
+      "colonoscopy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "colonoscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F046",
+    "units": [
+      "T00847",
+      "T00887"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "조직검사 결과가 바로 나오느냐는 질문에 다를 수 있다는 표현만 쓰고 관찰 결과와 병리검사의 처리 차이를 설명하지 않는다.",
+    "action": "당일 관찰 소견과 별도 처리되는 조직검사를 구분해 답하고 병원에서 확인한 예상 기간을 제시한다. 확인 전 기간을 만들지 않는다.",
+    "pageIds": [
+      "colonoscopy",
+      "gastroscopy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "colonoscopy",
+      "gastroscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F047",
+    "units": [
+      "T00859",
+      "T00862",
+      "T00864"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "선택 가능한 방식·금식·귀가·결과에 대해 거의 모두 문의를 지시한다. 보호자와 운전 기준은 같은 페이지 뒤쪽에 구체적으로 있다.",
+    "action": "이미 확인된 진정·귀가 기준을 앞에 제시하고 실제 미확정 일정만 문의 대상으로 남긴다.",
+    "pageIds": [
+      "gastroscopy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "gastroscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F048",
+    "units": [
+      "T00883"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "진정 여부에 따라 무엇이 달라지는지 답하지 않고 진정 여부는 필요한 조건이라고 되풀이한다.",
+    "action": "보호자 동행과 당일 운전 제한, 검사 조합에 따른 금식 조건을 명시한다.",
+    "pageIds": [
+      "gastroscopy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "gastroscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F049",
+    "units": [
+      "T00895"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "심장검사 허브의 도입이 개별 안내로 이동하고 상담을 준비하라는 동선 지시다.",
+    "action": "각 검사가 확인하는 정보와 증상에 따라 선택한다는 핵심을 먼저 설명한다.",
+    "pageIds": [
+      "heart-index"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "heart-index"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F050",
+    "units": [
+      "T00908",
+      "T00911",
+      "T00914",
+      "T00916"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "심전도·추가검사·심장초음파·홀터를 연속 단계로 붙여 모든 환자가 모두 받는 과정처럼 보인다. 같은 페이지 안내도는 선택 검사라고 설명한다.",
+    "action": "공통 진료 과정과 증상별 선택 검사를 구분한다. 안내도와 본문을 같은 구조로 맞춘다.",
+    "pageIds": [
+      "heart-index"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "heart-index"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F051",
+    "units": [
+      "T00933",
+      "T00935",
+      "T01020",
+      "T01022",
+      "T01084",
+      "T01086"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "검사명만 다른 동일 도입문이며 검사가 무엇을 보는지 답하지 않는다. HRV에도 검사 부위라는 어색한 공통 표현이 적용된다.",
+    "action": "검사별 관찰 대상과 주요 목적을 본문에서 끌어올려 고유한 도입문을 쓴다.",
+    "pageIds": [
+      "abi",
+      "carotid",
+      "hrv"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abi",
+      "carotid",
+      "hrv"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F052",
+    "units": [
+      "T00937",
+      "T00951",
+      "T01324"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "동맥경화도 상세는 본원 측정 항목을 환자가 확인하라고 하지만 검사·장비 페이지는 ABI 검사 시행을 명시한다. 같은 사이트의 확정도와 설명 범위가 맞지 않는다.",
+    "action": "검사·장비 원장과 실제 본원 시행 근거를 대조해 상세 페이지를 일치시킨다. 내부에서 확인할 운영 사실을 환자의 질문 과제로 남기지 않는다.",
+    "pageIds": [
+      "abi",
+      "examinations"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abi",
+      "examinations"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F053",
+    "units": [
+      "T00944",
+      "T00993",
+      "T01031",
+      "T01095"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "검사명만 바꾼 결과 상담 준비 문단이 네 페이지에서 같은 질문·비용·서류 지시를 반복한다.",
+    "action": "각 검사의 결과지 항목과 추적 판단에 필요한 정보로 바꾸고 공통 문의는 한 번으로 줄인다.",
+    "pageIds": [
+      "abi",
+      "cardiac-markers",
+      "carotid",
+      "hrv"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abi",
+      "cardiac-markers",
+      "carotid",
+      "hrv"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F054",
+    "units": [
+      "T00953",
+      "T00955"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "보행통을 왜 알려야 하는지와 결과가 무엇을 뜻하는지보다 확정하지 말고 설명받으라는 지시가 앞선다.",
+    "action": "보행·휴식에 따른 증상이 평가에 필요한 이유와 해당 지표의 해석 범위를 설명한다.",
+    "pageIds": [
+      "abi"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abi"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F055",
+    "units": [
+      "T00991",
+      "T01011"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "검사 한계의 타당한 내용 뒤에 스스로 확정하지 말라·단순 비교하지 말라는 어조가 붙는다.",
+    "action": "발생 시각·측정 항목·단위 등 해석이 달라지는 이유를 설명하고 위험 신호는 유지한다.",
+    "pageIds": [
+      "cardiac-markers"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardiac-markers"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F056",
+    "units": [
+      "T01007"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P2",
+    "reason": "트로포닌만 있는지를 묻는 답에 전체 항목·결과시간·응급 고지가 한꺼번에 들어가 초점이 흐려진다.",
+    "action": "아니요와 검사별 목적 차이를 먼저 답하고 결과시간은 표로 연결한다.",
+    "pageIds": [
+      "cardiac-markers"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardiac-markers"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F057",
+    "units": [
+      "T01026",
+      "T01042"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "복장 등 준비를 문의하라고 하지만 같은 페이지 T01034에 금식·목걸이·복장 안내가 있다.",
+    "action": "확인된 준비를 답변에 직접 반영한다.",
+    "pageIds": [
+      "carotid"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "carotid"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F058",
+    "units": [
+      "T01029",
+      "T01044"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "경동맥초음파의 관찰 범위를 설명하기보다 모든 뇌혈관으로 해석하지 말라는 금지로 끝난다.",
+    "action": "목의 경동맥 평가 범위를 먼저 설명하고 두개내 혈관 평가와의 차이를 필요한 만큼 보완한다.",
+    "pageIds": [
+      "carotid"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "carotid"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F059",
+    "units": [
+      "T01058",
+      "T01061",
+      "T01064"
+    ],
+    "kind": "중복",
+    "priority": "P2",
+    "reason": "예약 때 전달할 검사·이전 결과·복약 정보가 세 문단에 반복된다.",
+    "action": "전화 예약, 준비물·복장·금식, 결과의 세 항목으로 묶는다.",
+    "pageIds": [
+      "echocardiography"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "echocardiography"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F060",
+    "units": [
+      "T01072",
+      "T01074"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "심장초음파의 정상 결과 한계와 단독 검사 금식 여부가 본문에 있지만 FAQ는 넓혀 해석하지 말고 안내를 확인하라는 일반론이다.",
+    "action": "관상동맥·부정맥과의 검사 차이, 단독 검사와 동시 검사의 준비 차이를 직접 답한다.",
+    "pageIds": [
+      "echocardiography"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "echocardiography"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F061",
+    "units": [
+      "T01093",
+      "T01098",
+      "T01100",
+      "T01102"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "HRV와 심박수·홀터의 차이를 혼동하지 말라·한계를 질문하라·목적을 구분하라는 지시로 마무리한다.",
+    "action": "HRV가 측정하는 박동 간격 변화, 홀터의 리듬 기록 목적, 측정 조건의 영향을 직접 설명하고 적용 한계를 짧게 남긴다.",
+    "pageIds": [
+      "hrv"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "hrv"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F062",
+    "units": [
+      "T01113",
+      "T01126",
+      "T01146"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "홀터 설명에서 스스로 판단하지 말라·인터넷 기기 설명을 적용하지 말라는 말이 반복된다. 장비별 생활 제한은 필요하다.",
+    "action": "장비 기록과 증상 시각을 비교하는 이유, 본원 장비의 착용 주의사항을 직접 설명한다. 미확인 방수 조건을 임의로 만들지 않는다.",
+    "pageIds": [
+      "holter"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "holter"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F063",
+    "units": [
+      "T01142"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "본원 홀터가 24시간인지 묻는 답변에서 이미 도입과 본문에 있는 주로 72시간이라는 사실을 빼고 장비 안내를 확인하라고 한다.",
+    "action": "본원은 주로 72시간 기록하며 목적에 따라 조정한다는 직접 답을 쓴다.",
+    "pageIds": [
+      "holter"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "holter"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F064",
+    "units": [
+      "T01153",
+      "T01155",
+      "T01157",
+      "T01166",
+      "T01167",
+      "T01168",
+      "T01170"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "초음파 허브의 설명이 모두 검사명과 준비를 확인하라는 동선 지시다. 부위별 실제 차이를 보여주지 않는다.",
+    "action": "부위별 관찰 대상과 금식·방광 준비 차이를 기존 상세 글에서 요약해 선택을 돕는다.",
+    "pageIds": [
+      "ultrasound-index"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "ultrasound-index"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F065",
+    "units": [
+      "T01161",
+      "T01164"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "이 글보다 예약 안내가 우선이라는 포괄 문구와 숨기지 말라는 의심하는 표현이 사용된다.",
+    "action": "개별 예약 조건이 다른 이유를 설명하고 준비와 달라진 섭취·배뇨 내용을 알려 달라고 중립적으로 안내한다.",
+    "pageIds": [
+      "ultrasound-index"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "ultrasound-index"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F066",
+    "units": [
+      "T01179",
+      "T01181",
+      "T01232",
+      "T01234"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "상하복부·갑상선 검사에도 검사명만 바꾼 동일한 도입문이 사용된다.",
+    "action": "각 장기와 확인할 소견을 도입에서 직접 설명한다.",
+    "pageIds": [
+      "abdominal-ultrasound",
+      "thyroid-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abdominal-ultrasound",
+      "thyroid-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F067",
+    "units": [
+      "T01190",
+      "T01218",
+      "T01243"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "검사명만 바꾼 결과 상담 준비 문단이 복부·장·갑상선 검사에도 반복된다.",
+    "action": "결과에서 확인하는 소견과 다음 평가의 이유를 해당 검사에 맞게 쓰고 공통 문의 문구는 통합한다.",
+    "pageIds": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "thyroid-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound",
+      "thyroid-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F068",
+    "units": [
+      "T01185",
+      "T01198"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "상복부 금식과 방광을 채우는 검사 조건이 같은 페이지에 구체적으로 있지만 FAQ와 앞 문단은 음식·음료·배뇨를 문의하라고만 한다.",
+    "action": "상복부와 하복부의 준비 차이를 조건과 함께 직접 답한다.",
+    "pageIds": [
+      "abdominal-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abdominal-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F069",
+    "units": [
+      "T01200",
+      "T01225"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "초음파와 내시경의 차이를 간단히 설명한 뒤 대체로 스스로 결정하지 말라고 끝난다.",
+    "action": "관찰 방식·범위의 차이와 상호 보완하는 이유를 설명한다.",
+    "pageIds": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "abdominal-ultrasound",
+      "bowel-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F070",
+    "units": [
+      "T01216",
+      "T01221",
+      "T01223"
+    ],
+    "kind": "중복",
+    "priority": "P2",
+    "reason": "초음파만으로 배제할 수 없다는 한계가 세 군데 반복되지만 FAQ는 관찰이 제한되는 이유를 생략한다.",
+    "action": "가스·체형 등 관찰 한계와 지속 통증 시 추가 평가라는 구체 설명을 하나로 묶는다.",
+    "pageIds": [
+      "bowel-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "bowel-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F071",
+    "units": [
+      "T01241",
+      "T01252"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "결절이 바로 암인지 묻는 질문에 스스로 확정하지 말라는 문장부터 나온다.",
+    "action": "결절과 암의 관계를 먼저 설명하고 크기·모양·림프절·변화에 따른 추가 평가를 본문에 맞춰 덧붙인다.",
+    "pageIds": [
+      "thyroid-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "thyroid-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F072",
+    "units": [
+      "T01247",
+      "T01248",
+      "T01249"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "세침흡인검사가 필요한 경우라는 제목인데 본원이 시행하지 않는다는 사실을 전 문단과 반복하고 어떤 경우인지 설명이 부족하다.",
+    "action": "제목을 실제 내용에 맞추거나 위험도·크기 등 조직검사 판단 기준을 근거 확인 후 보완한다. 본원 미시행 정보는 한 번 명시한다.",
+    "pageIds": [
+      "thyroid-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "thyroid-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F073",
+    "units": [
+      "T01256"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "결절의 이전 결과를 어떻게 비교하느냐는 질문에 자료 지참과 설명 요청만 답한다.",
+    "action": "비교할 항목을 본문에 있는 크기·모양·주변 소견 중심으로 설명하고 자료 준비를 보완한다.",
+    "pageIds": [
+      "thyroid-ultrasound"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "thyroid-ultrasound"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F074",
+    "units": [
+      "T01267",
+      "T01269"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "점심시간 정보가 공통 원장에 있지만 도입에서는 점심·접수를 다시 문의하라고 한다.",
+    "action": "확정된 점심 운영시간·접수 범위를 제시하고 검사별 변동 접수만 문의 대상으로 구분한다.",
+    "pageIds": [
+      "visit"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "visit"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F075",
+    "units": [
+      "T01278"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "주차장 위치를 묻는데 이미 원장에 있는 건물 지하주차장 위치도 답하지 않고 문의를 요구한다.",
+    "action": "지하주차장 위치는 직접 답하고 지원 시간·추가 비용 등 미확인 조건만 확인 대상으로 남긴다.",
+    "pageIds": [
+      "visit"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "visit"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F076",
+    "units": [
+      "T01347",
+      "T01362"
+    ],
+    "kind": "정보확인필요",
+    "priority": "P2",
+    "reason": "결과시간 표에서 일부 검사는 비교적 신속·별도 설명이라고만 적혀 있어 질문에 답하는 정밀도가 낮다.",
+    "action": "검사별 통상 결과시간을 확보한다. 위탁·추가검사 변동 조건은 보존하고 미확인 숫자를 쓰지 않는다.",
+    "pageIds": [
+      "examinations"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "examinations"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F077",
+    "units": [
+      "T01425"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "검체 제출 안내 제목이 독자를 조작 의도가 있는 사람처럼 대하는 명령형이다. 본문은 과도한 수분과 해독제품의 영향을 구체적으로 설명해 유용하다.",
+    "action": "제목을 정확한 검사를 위한 수분 섭취와 검체 제출 안내로 정리하고 본문의 이유는 유지한다.",
+    "pageIds": [
+      "civil-service"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "civil-service"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F078",
+    "units": [
+      "T01575"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "호중구 증가 주사의 사용 조건을 설명한 뒤 “환자가 원한다고 임의로 투여하는 영양주사가 아닙니다”라고 덧붙여 독자를 나무라는 인상을 준다.",
+    "action": "첫 문장의 투여 판단 기준을 중심으로 약의 목적을 직접 설명한다.",
+    "pageIds": [
+      "cancer-treatment-symptoms"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-treatment-symptoms"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F079",
+    "units": [
+      "T01578"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "전용 바늘·무균술에 대한 안전정보는 필요하지만 “익숙하지 않은 기관”, “함부로”라는 표현은 환자가 판단하기 어렵고 경고 어조가 강하다.",
+    "action": "전용 바늘과 무균 관리가 가능한 의료기관에서 처치받는다는 행동 안내로 정리한다.",
+    "pageIds": [
+      "cancer-treatment-symptoms"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-treatment-symptoms"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F080",
+    "units": [
+      "T01673",
+      "T01675"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P2",
+    "reason": "호흡기 진료의 첫 설명이 질환명 목록과 “범위를 안내합니다”로 끝나 환자가 어떤 증상으로 방문할 수 있는지 바로 이해하기 어렵다.",
+    "action": "주요 내원 증상과 본원에서 가능한 평가를 요약하고 질환 목록은 탐색 링크로 활용한다.",
+    "pageIds": [
+      "respiratory-infections"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "respiratory-infections"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F081",
+    "units": [
+      "T01712"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P2",
+    "reason": "“아래 표는 이미지와 같은 내용을 제공”은 구현 설명으로, 접종 판단에 필요한 정보가 아니다. 앞뒤의 개인별 일정 조건은 필요하다.",
+    "action": "이미지-표 동등성 설명을 제거하고 표를 읽는 기준만 남긴다.",
+    "pageIds": [
+      "vaccinations"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "vaccinations"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F082",
+    "units": [
+      "T01832"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "동시 접종 가능 여부와 예외를 설명한 뒤 “한 번에 임의로 결정하지 말고”라는 훈계형 문장을 추가한다.",
+    "action": "동시 접종이 가능한 기본 원칙과 접종기록에 따라 조정하는 조건을 유지한다.",
+    "pageIds": [
+      "vaccinations"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "vaccinations"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F083",
+    "units": [
+      "T01843",
+      "T01845",
+      "T01846"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P2",
+    "reason": "성인 예방접종 전체 페이지에서 대상포진 문답 다음 “암환자는 언제 맞나요?”가 어떤 백신의 질문인지 불명확하다. 답은 재조합 백신을 언급해 대상포진 맥락으로 보이지만 제목에 드러나지 않는다.",
+    "action": "질문의 백신을 명시하고 해당 백신 설명에 붙인다.",
+    "pageIds": [
+      "vaccinations"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "vaccinations"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F084",
+    "units": [
+      "T01861",
+      "T01862"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "“올해도 필요한가요?”에 본문은 매 절기 1회라고 답하지만 FAQ는 “검토합니다”, “상담할 수 있습니다”, “알려주세요”로 약화된다.",
+    "action": "기본 접종 주기를 먼저 직접 답하고 예외 조건과 올해 감염한 경우를 뒤에 설명한다.",
+    "pageIds": [
+      "vaccinations"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "vaccinations"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F085",
+    "units": [
+      "T01898",
+      "T01899"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P2",
+    "reason": "분자검사·PCR 제목 아래 첫 본문이 신속검사 음성의 한계를 설명해 검사 종류가 혼동된다.",
+    "action": "음성 후 대응을 별도 소제목으로 옮기고 PCR의 목적과 시행 범위를 먼저 설명한다.",
+    "pageIds": [
+      "influenza"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "influenza"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F086",
+    "units": [
+      "T01966"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "신장·간기능에 따른 용량 조정 이유는 필요하지만 “해외 제품 설명이나 다른 사람의 복용법을 그대로 적용하지 마세요”가 특정 환자 행동을 가정한 경고로 붙는다.",
+    "action": "본원에서 국내 허가사항·검사 결과·병용약으로 처방을 정한다는 직접 설명을 중심으로 쓴다.",
+    "pageIds": [
+      "covid-19"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "covid-19"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F087",
+    "units": [
+      "T01986"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "“모든 팍스로비드 처방의 일률적인 법적 필수조건이라는 뜻은 아닙니다”는 독자 질문에 답하기보다 앞선 작성 주장에 대한 방어·해명처럼 읽힌다.",
+    "action": "어떤 증상·기록에 따라 어떤 검사를 선택하는지 설명하고 법적 필수 여부에 대한 내부 검토는 내부 문서에 둔다.",
+    "pageIds": [
+      "covid-19"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "covid-19"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F088",
+    "units": [
+      "T02000",
+      "T02001",
+      "T02004"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "“어떻게 복용하나요”라는 제목에 기본 복용기간·횟수 없이 처방대로/약 봉투 안내를 따르라는 지시만 있다. 치료 대상·지원 기준 문장도 복용법과 섞인다.",
+    "action": "국내 공식 복약자료와 본원 기준을 확인해 일반 복용 원칙과 개별 용량의 차이를 구분하거나 제목을 처방 전후 확인사항으로 정확히 바꾼다. 새 복약 수치를 임의로 넣지 않는다.",
+    "pageIds": [
+      "covid-19"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "covid-19"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F089",
+    "units": [
+      "T02076",
+      "T02077",
+      "T02078",
+      "T02079",
+      "T02080"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "복용시간 항목이 세 줄 모두 “지정 시각”, “금식 마감”만 되풀이한다. 개인 일정이 필요한 것은 맞지만 사용자가 실제 시간을 찾거나 계산할 자료가 없다.",
+    "action": "본원에서 검증한 오전·오후 안내표 또는 개인 예약 안내문 확인 경로를 제공한다. 복용 시각과 진정 금식 기준의 의료 확인 전 일률적인 시간을 만들지 않는다.",
+    "pageIds": [
+      "plenvu-preparation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "plenvu-preparation"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F090",
+    "units": [
+      "T02104",
+      "T02110",
+      "T02111",
+      "T02114",
+      "T02116",
+      "T02118"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "요약은 물·죽·일반식 시작시간, 사우나 등 구체적인 생활 안내를 약속하지만 본문은 대부분 “의료진이 허용한 시각/기간”, “퇴실 전 확인”으로 끝난다. 시술 종류를 구분해야 한다는 원칙만으로는 집에서 활용할 지침이 되지 않는다.",
+    "action": "본원 퇴실 안내 기준을 확인해 조직검사·용종절제별 기본 안내와 달라지는 조건을 분리하고 확인 가능한 안내문을 연결한다. 제공하지 않은 세부정보를 요약에서 약속하지 않는다.",
+    "pageIds": [
+      "after-endoscopy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "after-endoscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F091",
+    "units": [
+      "T02150"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "추적 간격을 묻는 항목이 변수를 나열한 뒤 모든 환자에게 같은 간격을 적용하지 않는다는 부정으로 끝난다.",
+    "action": "질환·중증도별로 설명할 수 있는 범위가 있는지 의료진 검토 후 기본 틀을 제공하거나 본인 결과지에서 확인할 항목과 다음 검사일 확인 방법을 구체화한다.",
+    "pageIds": [
+      "heart-valve-regurgitation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "heart-valve-regurgitation"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F092",
+    "units": [
+      "T02167"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "제목은 “협심증의 약물치료와 스텐트”인데 첫 문장이 “아닙니다”로 시작한다. 삭제된 질문에 대한 답변을 그대로 남긴 흔적이라 독립적인 도입문으로 성립하지 않는다.",
+    "action": "협심증이라고 모두 스텐트가 필요한 것은 아니라는 완결된 문장으로 시작한다.",
+    "pageIds": [
+      "angina-treatment"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "angina-treatment"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F093",
+    "units": [
+      "T02199",
+      "T02213"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "체중관리와 생활습관 설명에 약을 임의로 시작/중단하지 말라는 경고가 반복된다. 이 페이지 후반에 평생 복용과 감량 조건을 실제로 설명하고 있어 중복이다.",
+    "action": "생활관리와 약물치료의 관계를 직접 설명하고 중단·감량 주의는 관련 문답에 모은다.",
+    "pageIds": [
+      "chronic-disease"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "chronic-disease"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F094",
+    "units": [
+      "T02222",
+      "T02223",
+      "T02224",
+      "T02226"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P2",
+    "reason": "고혈압·당뇨·고지혈증·금연·체중관리 통합 페이지에서 “왜 증상이 없는데 약”, “평생 복용”, “부작용” 제목의 답이 LDL/스타틴에 집중된다. 어떤 치료를 말하는지 소제목만으로 알 수 없다.",
+    "action": "지질저하제 문답임을 제목에 명시하거나 해당 질환 안내로 묶는다. “숫자를 예쁘게” 같은 불필요한 비유도 정리한다.",
+    "pageIds": [
+      "chronic-disease"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "chronic-disease"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F095",
+    "units": [
+      "T02283"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "가족력에 맞는 검진을 다루지만 더 이른 검진 항목은 여러 암종을 나열하고 “획일적으로 정하지 않습니다”로 끝난다.",
+    "action": "환자가 자신의 가족력을 어느 검진 상담으로 연결할지 알도록 암종별로 구분한다. 시작연령·간격을 추가한다면 공식 근거와 의료 확인을 먼저 확보한다.",
+    "pageIds": [
+      "cancer-family-history"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cancer-family-history"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F096",
+    "units": [
+      "T02332"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "“단순히 ... 기억만으로”라는 표현이 자료 준비 안내를 독자 기억에 대한 지적으로 만든다.",
+    "action": "내시경 결과지와 조직검사 결과지의 어떤 정보가 추적 간격 결정에 필요한지 직접 안내한다.",
+    "pageIds": [
+      "colon-polyp-followup"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "colon-polyp-followup"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F097",
+    "units": [
+      "T02382",
+      "T02402"
+    ],
+    "kind": "방어적표현",
+    "priority": "P1",
+    "reason": "비만 진료의 시작과 끝이 “더 날씬해 보이고 싶다는 이유”, “유행이나 미용 목적만으로 쉽게 처방”처럼 내원 동기를 먼저 평가한다. 임상 적응증 설명은 필요하지만 환자를 나무라는 문맥이 된다.",
+    "action": "진료 대상·평가 항목·치료 선택·추적관리 순서로 설명하고 실제 금기와 주의사항은 구체적으로 남긴다.",
+    "pageIds": [
+      "obesity-medication"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "obesity-medication"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F098",
+    "units": [
+      "T02378",
+      "T02380",
+      "T02387"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "제목은 위고비·마운자로 진료인데 마운자로는 “적응증이 다를 수 있어 임의 사용해서는 안 됩니다” 한 문장뿐이다. 요약도 정상체중/경도 과체중의 처방 희망자 경고에 치우친다.",
+    "action": "두 약제에 관해 제공할 수 있는 본원 진료 정보와 확인된 허가사항을 검토해 제목에 맞는 설명을 갖추거나 제목 범위를 줄인다.",
+    "pageIds": [
+      "obesity-medication"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "obesity-medication"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F099",
+    "units": [
+      "T02424",
+      "T02445",
+      "T02466",
+      "T02487",
+      "T02508"
+    ],
+    "kind": "정보확인필요",
+    "priority": "P2",
+    "reason": "5개 언어 안내가 번역 차이와 통역 비보장에 관한 경고로 끝나지만 실제 지원 가능한 언어·도움 요청 방법은 제시하지 않는다. 지원 여부가 미확인인 경우 임의로 가능하다고 바꾸면 안 된다.",
+    "action": "본원 의사소통 지원 범위를 확인해 가능 언어·통역 동행 필요 여부 등 실제 방문 준비를 안내한다. 번역 정확도는 별도 언어 검수 대상이다.",
+    "pageIds": [
+      "visa-en",
+      "visa-ne",
+      "visa-ru",
+      "visa-th",
+      "visa-zh-hans"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "visa-en",
+      "visa-ne",
+      "visa-ru",
+      "visa-th",
+      "visa-zh-hans"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F100",
+    "units": [
+      "T02513",
+      "T02515",
+      "T02520",
+      "T02522"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "증상/질환백과의 소개가 “진료 시 확인할 내용”, “질문을 정리하세요”와 진단 불가 문구에 치우친다. 특히 질환백과를 읽는 목적을 상담 질문 준비로 축소한다.",
+    "action": "각 백과에서 얻을 수 있는 증상 대처·검사·치료·생활관리 정보를 직접 안내한다. 긴급 증상 안내와 개별 진료 원칙은 필요한 위치에서 유지한다.",
+    "pageIds": [
+      "diseases",
+      "symptoms"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "diseases",
+      "symptoms"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F101",
+    "units": [
+      "T02548",
+      "T02557",
+      "T02570",
+      "T02621",
+      "T02631",
+      "T02644",
+      "T02695",
+      "T02704",
+      "T02718",
+      "T02767",
+      "T02777",
+      "T02791",
+      "T02841",
+      "T02849",
+      "T02862",
+      "T02914",
+      "T02925",
+      "T02940",
+      "T02993",
+      "T03002",
+      "T03015",
+      "T03066",
+      "T03075",
+      "T03088",
+      "T03138",
+      "T03147",
+      "T03161",
+      "T03211",
+      "T03221",
+      "T03234",
+      "T03285",
+      "T03294",
+      "T03307",
+      "T03357",
+      "T03366",
+      "T03379",
+      "T03429",
+      "T03439",
+      "T03453",
+      "T03503",
+      "T03512",
+      "T03527",
+      "T03577",
+      "T03586",
+      "T03601",
+      "T03652",
+      "T03660",
+      "T03673",
+      "T03723",
+      "T03731",
+      "T03746",
+      "T03796",
+      "T03805",
+      "T03819",
+      "T03870",
+      "T03878",
+      "T03891",
+      "T03942",
+      "T03951",
+      "T03966"
+    ],
+    "kind": "중복",
+    "priority": "P1",
+    "reason": "심장·혈관 원고의 검사·약물·추적관리 공통 문단이 질환별 구체 정보보다 먼저 반복된다. 원장 제공 Word에도 동일하게 들어 있는 문장으로, 개발자가 새로 만든 경고라고 단정할 수 없다. 다만 사이트 편집 시 반복과 위계를 조정하지 않은 상태다.",
+    "action": "20편 전체의 같은 문단을 함께 검토해 질환별 검사·치료·생활관리 내용을 먼저 설명하고 필요한 주의는 해당 상황에 짧게 붙인다. 처방약 조절 안전정보를 일괄 삭제하지 않는다.",
+    "pageIds": [
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "originalWordPassageUnits": [
+      "T02548",
+      "T02557",
+      "T02570",
+      "T02621",
+      "T02631",
+      "T02644",
+      "T02695",
+      "T02704",
+      "T02718",
+      "T02767",
+      "T02777",
+      "T02791",
+      "T02841",
+      "T02849",
+      "T02862",
+      "T02914",
+      "T02925",
+      "T02940",
+      "T02993",
+      "T03002",
+      "T03015",
+      "T03066",
+      "T03075",
+      "T03088",
+      "T03138",
+      "T03147",
+      "T03161",
+      "T03211",
+      "T03221",
+      "T03234",
+      "T03285",
+      "T03294",
+      "T03307",
+      "T03357",
+      "T03366",
+      "T03379",
+      "T03429",
+      "T03439",
+      "T03453",
+      "T03503",
+      "T03512",
+      "T03527",
+      "T03577",
+      "T03586",
+      "T03601",
+      "T03652",
+      "T03660",
+      "T03673",
+      "T03723",
+      "T03731",
+      "T03746",
+      "T03796",
+      "T03805",
+      "T03819",
+      "T03870",
+      "T03878",
+      "T03891",
+      "T03942",
+      "T03951",
+      "T03966"
+    ]
+  },
+  {
+    "id": "F102",
+    "units": [
+      "T02579",
+      "T02584",
+      "T02652",
+      "T02658",
+      "T02726",
+      "T02731",
+      "T02799",
+      "T02805",
+      "T02870",
+      "T02875",
+      "T02949",
+      "T02955",
+      "T03023",
+      "T03028",
+      "T03096",
+      "T03101",
+      "T03169",
+      "T03174",
+      "T03242",
+      "T03247",
+      "T03315",
+      "T03320",
+      "T03387",
+      "T03392",
+      "T03461",
+      "T03466",
+      "T03535",
+      "T03540",
+      "T03609",
+      "T03614",
+      "T03681",
+      "T03686",
+      "T03754",
+      "T03759",
+      "T03828",
+      "T03833",
+      "T03899",
+      "T03904",
+      "T03974",
+      "T03979"
+    ],
+    "kind": "중복",
+    "priority": "P1",
+    "reason": "각 질환의 본원 평가·의뢰 조건이 이미 있는데 공통 관상동맥 CT/조영술/입원 의뢰 문단과 전원자료 제공 문단이 모든 질환에 붙는다. 원고에 있는 내용이나 질환과 무관한 검사명까지 반복하는 문제가 있다.",
+    "action": "질환별 실제 의뢰 기준을 중심으로 통합하고 전원 시 제공 자료는 필요한 안내로 간결하게 유지한다.",
+    "pageIds": [
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "originalWordPassageUnits": [
+      "T02579",
+      "T02584",
+      "T02652",
+      "T02658",
+      "T02726",
+      "T02731",
+      "T02799",
+      "T02805",
+      "T02870",
+      "T02875",
+      "T02949",
+      "T02955",
+      "T03023",
+      "T03028",
+      "T03096",
+      "T03101",
+      "T03169",
+      "T03174",
+      "T03242",
+      "T03247",
+      "T03315",
+      "T03320",
+      "T03387",
+      "T03392",
+      "T03461",
+      "T03466",
+      "T03535",
+      "T03540",
+      "T03609",
+      "T03614",
+      "T03681",
+      "T03686",
+      "T03754",
+      "T03759",
+      "T03828",
+      "T03833",
+      "T03899",
+      "T03904",
+      "T03974",
+      "T03979"
+    ]
+  },
+  {
+    "id": "F103",
+    "units": [
+      "T02594",
+      "T02667",
+      "T02740",
+      "T02814",
+      "T02965",
+      "T03038",
+      "T03110",
+      "T03183",
+      "T03257",
+      "T03329",
+      "T03401",
+      "T03475",
+      "T03549",
+      "T03624",
+      "T03695",
+      "T03768",
+      "T03842",
+      "T03988"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "“기억할 점”이 질환명만 바꾼 원인·중증도 다양/증상 판단 금지/초기평가·의뢰 공통 결론이다. 원고와 일치하지만 각 글에서 기억할 고유한 핵심이 빠진다.",
+    "action": "질환별 핵심 관리와 위험 신호를 요약한다. 특히 급성 질환에서는 안정적 의원 관리라는 공통 결론이 맞는지 따로 검토한다.",
+    "pageIds": [
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "originalWordPassageUnits": [
+      "T02594",
+      "T02667",
+      "T02740",
+      "T02814",
+      "T02965",
+      "T03038",
+      "T03110",
+      "T03183",
+      "T03257",
+      "T03401",
+      "T03475",
+      "T03549",
+      "T03624",
+      "T03695",
+      "T03768",
+      "T03842",
+      "T03988"
+    ]
+  },
+  {
+    "id": "F104",
+    "units": [
+      "T02532",
+      "T02604",
+      "T02677",
+      "T02750",
+      "T02824",
+      "T02896",
+      "T02975",
+      "T03048",
+      "T03120",
+      "T03193",
+      "T03267",
+      "T03339",
+      "T03411",
+      "T03485",
+      "T03559",
+      "T03634",
+      "T03705",
+      "T03778",
+      "T03853",
+      "T03924"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P2",
+    "reason": "질환별 검색 요약이 질환명만 달라지고 “의미·원인·증상·진단·치료를 확인하세요/상황을 안내합니다”라는 목차 소개로 동일하다.",
+    "action": "질환의 의미와 그 페이지의 핵심 답변을 짧게 요약한다. 최적화 효과를 약속하지 않는다.",
+    "pageIds": [
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F105",
+    "units": [
+      "T03039",
+      "T03040"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "“평생 먹어야 하나요”라는 질문에 약의 목적 차이와 임의 중단 경고만 답하고 지속·조정 판단을 설명하지 않는다. 이 문답은 원장 제공 Word와 일치한다.",
+    "action": "맥박/리듬 조절약과 항응고제의 지속 판단이 어떻게 다른지 의료 검토 후 짧게 답하고 임의 중단 주의를 뒤에 둔다.",
+    "pageIds": [
+      "cardio-atrial-fibrillation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-atrial-fibrillation"
+    ],
+    "originalWordPassageUnits": [
+      "T03040"
+    ]
+  },
+  {
+    "id": "F106",
+    "units": [
+      "T03152",
+      "T03156",
+      "T03158"
+    ],
+    "kind": "정보위계",
+    "priority": "P1",
+    "reason": "“바로 응급실” 목록에 현재 실신/흉통과 함께 가족 중 젊은 급사 병력·심장기능 저하가 조건 구분 없이 섞인다. 가족력만 있는 독자가 곧바로 응급실로 가야 한다고 읽을 수 있다. 원고에도 동일하다.",
+    "action": "현재 응급 증상과 전문 평가가 필요한 위험 배경을 의료진 검토 후 구분한다.",
+    "pageIds": [
+      "cardio-premature-ventricular-contractions"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-premature-ventricular-contractions"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F107",
+    "units": [
+      "T03186",
+      "T03187"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "“하루 몇 번”을 묻고 횟수로 판단하지 않는다는 원칙만 설명한다. 의미 있는 지표인 전체 박동 중 비율도 정의되지 않는다.",
+    "action": "부담률의 뜻과 결과지에서 확인할 항목을 쉽게 설명하고 수치 기준이 필요하면 의료 검토 후 조건과 함께 제시한다.",
+    "pageIds": [
+      "cardio-premature-ventricular-contractions"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-premature-ventricular-contractions"
+    ],
+    "originalWordPassageUnits": [
+      "T03187"
+    ]
+  },
+  {
+    "id": "F108",
+    "units": [
+      "T03332",
+      "T03333"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "초음파 주기를 묻는데 “경미하면 길고 중등도 이상이면 더 자주”라는 상대 표현만 있다.",
+    "action": "검사 간격을 설명할 수 있는 질환별 범위를 의료진과 검토하고 다음 검사일이 정해지는 기준을 구체화한다.",
+    "pageIds": [
+      "cardio-mitral-regurgitation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-mitral-regurgitation"
+    ],
+    "originalWordPassageUnits": [
+      "T03333"
+    ]
+  },
+  {
+    "id": "F109",
+    "units": [
+      "T03225",
+      "T03263",
+      "T03304"
+    ],
+    "kind": "정보위계",
+    "priority": "P2",
+    "reason": "환자가 판단할 치료/응급 조건을 “증상성 동기능부전”, “고도 방실차단”, “심잡음·색전 증상” 같은 전문 용어만으로 설명한다.",
+    "action": "용어를 쉬운 말로 풀고 환자가 느끼는 신호와 의료진이 검사로 확인하는 소견을 구분한다.",
+    "pageIds": [
+      "cardio-bradyarrhythmia",
+      "cardio-mitral-regurgitation"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-bradyarrhythmia",
+      "cardio-mitral-regurgitation"
+    ],
+    "originalWordPassageUnits": [
+      "T03263"
+    ]
+  },
+  {
+    "id": "F110",
+    "units": [
+      "T03676"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P2",
+    "reason": "“뇌졸중 FAST 증상 숙지”는 무엇을 알아야 한다는 요구만 적었고 약어의 뜻이나 기억할 행동을 설명하지 않는다. 같은 페이지에 실제 증상은 있다.",
+    "action": "얼굴·팔·말의 변화와 즉시 119라는 내용을 환자 언어로 풀어 기존 위험 신호에 연결한다.",
+    "pageIds": [
+      "cardio-carotid-stenosis"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "cardio-carotid-stenosis"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F111",
+    "units": [
+      "T04095",
+      "T04150",
+      "T04152",
+      "T04193"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "짧은 진료 소개에서 “약 용량을 스스로 바꾸지 말고”, “단정하지 말고 상담”, “무조건 물을 많이 마시지”, “결과만 보고 약을 바꾸지”가 설명의 결말로 반복된다. 약물·수분 안전조건은 필요하지만 정보를 알리는 문장보다 금지와 상담 지시가 앞선다.",
+    "action": "치료/검사 목적과 달라지는 조건을 먼저 직접 설명하고 실제 약물·수분 조정 주의는 해당 항목에 구체적으로 둔다.",
+    "pageIds": [
+      "ambulatory-blood-pressure",
+      "kidney-function",
+      "thyroid-disease"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "ambulatory-blood-pressure",
+      "kidney-function",
+      "thyroid-disease"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F112",
+    "units": [
+      "T04195"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "활동혈압 검사의 “착용과 생활 기록” 항목은 기록할 내용은 제공하지만 착용·기기 사용법은 안내받으라는 지시만 있다. 본원 장비를 명시한 만큼 실제 착용 시 주의 안내가 필요하다.",
+    "action": "본원 장비 안내서에서 검증한 착용·물 접촉·충전/재착용 등의 필요한 항목과 반납 절차를 확인해 제공한다. 장비 기능은 임의 추정하지 않는다.",
+    "pageIds": [
+      "ambulatory-blood-pressure"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "ambulatory-blood-pressure"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F113",
+    "units": [
+      "T04219",
+      "T04238",
+      "T04257",
+      "T04275",
+      "T04294",
+      "T04313",
+      "T04332",
+      "T04351",
+      "T04370",
+      "T04389",
+      "T04407",
+      "T04426",
+      "T04444",
+      "T04463",
+      "T04482",
+      "T04501",
+      "T04519",
+      "T04537",
+      "T04555",
+      "T04573"
+    ],
+    "kind": "중복",
+    "priority": "P1",
+    "reason": "증상백과 20편의 “결과 상담과 다음 진료”가 모두 같은 문장이다. 검사 결과를 이미 받은 사람을 가정해 최초 증상·응급 행동을 찾는 페이지와도 문맥이 맞지 않는다.",
+    "action": "20편 전체에서 증상별 다음 행동과 추적 조건을 작성하고 결과 상담 안내가 필요한 페이지에만 둔다.",
+    "pageIds": [
+      "symptom-cardio-blood-pressure-180",
+      "symptom-cardio-chest-pressure-sweating",
+      "symptom-cardio-chest-tightness-causes",
+      "symptom-cardio-epigastric-pain-heart",
+      "symptom-cardio-exertional-chest-pain",
+      "symptom-cardio-exertional-dyspnea",
+      "symptom-cardio-family-history-heart-disease",
+      "symptom-cardio-fatigue-exercise-intolerance",
+      "symptom-cardio-irregular-skipped-heartbeat",
+      "symptom-cardio-leg-edema-dyspnea",
+      "symptom-cardio-orthopnea-leg-edema",
+      "symptom-cardio-orthostatic-dizziness-low-bp",
+      "symptom-cardio-presyncope-cardiac-evaluation",
+      "symptom-cardio-radiating-chest-pain-119",
+      "symptom-cardio-rapid-heart-rate",
+      "symptom-cardio-rapid-weight-gain-edema",
+      "symptom-cardio-recurrent-palpitations-normal-ecg",
+      "symptom-cardio-slow-heart-rate-dizziness",
+      "symptom-cardio-syncope-emergency",
+      "symptom-cardio-valve-regurgitation-follow-up"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-blood-pressure-180",
+      "symptom-cardio-chest-pressure-sweating",
+      "symptom-cardio-chest-tightness-causes",
+      "symptom-cardio-epigastric-pain-heart",
+      "symptom-cardio-exertional-chest-pain",
+      "symptom-cardio-exertional-dyspnea",
+      "symptom-cardio-family-history-heart-disease",
+      "symptom-cardio-fatigue-exercise-intolerance",
+      "symptom-cardio-irregular-skipped-heartbeat",
+      "symptom-cardio-leg-edema-dyspnea",
+      "symptom-cardio-orthopnea-leg-edema",
+      "symptom-cardio-orthostatic-dizziness-low-bp",
+      "symptom-cardio-presyncope-cardiac-evaluation",
+      "symptom-cardio-radiating-chest-pain-119",
+      "symptom-cardio-rapid-heart-rate",
+      "symptom-cardio-rapid-weight-gain-edema",
+      "symptom-cardio-recurrent-palpitations-normal-ecg",
+      "symptom-cardio-slow-heart-rate-dizziness",
+      "symptom-cardio-syncope-emergency",
+      "symptom-cardio-valve-regurgitation-follow-up"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F114",
+    "units": [
+      "T04223",
+      "T04225",
+      "T04227",
+      "T04229",
+      "T04230",
+      "T04231"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "심장·폐·위식도 원인을 “어떻게 구분하나”라는 제목인데 활동/기침/식후 양상을 나열할 뿐 각각 어떤 원인의 단서인지 설명하지 않고 확정 불가·검사 선택으로 끝난다.",
+    "action": "각 양상이 어떤 평가로 이어지는지 독자가 이해할 비교 설명을 제공하고 위험 신호 및 증상만으로 확진할 수 없는 한계를 함께 설명한다.",
+    "pageIds": [
+      "symptom-cardio-chest-tightness-causes"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-chest-tightness-causes"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F115",
+    "units": [
+      "T04260",
+      "T04267",
+      "T04268"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "운동 시 흉통에서 협심증 검사를 먼저 해야 하는지 묻지만 “위험도에 따라 선택/추가검사나 의뢰”라는 과정 설명만 있다.",
+    "action": "우선 진료와 심전도 등 초기 평가, 추가 관상동맥 평가가 필요한 상황, 응급 행동을 단계별로 직접 설명한다.",
+    "pageIds": [
+      "symptom-cardio-exertional-chest-pain"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-exertional-chest-pain"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F116",
+    "units": [
+      "T04298",
+      "T04300",
+      "T04302",
+      "T04304",
+      "T04306"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "심방세동과 조기수축을 묻는 글에서 두 리듬의 의미·차이는 빠지고 느낌만으로 확정 불가와 약을 시작하지 말라는 지시가 중심이다.",
+    "action": "두 부정맥의 차이와 기록 검사의 목적을 쉬운 말로 설명하고 확인 전 약 복용 경고는 필요한 범위로 한정한다.",
+    "pageIds": [
+      "symptom-cardio-irregular-skipped-heartbeat"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-irregular-skipped-heartbeat"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F117",
+    "units": [
+      "T04317",
+      "T04324",
+      "T04325"
+    ],
+    "kind": "답변회피",
+    "priority": "P1",
+    "reason": "제목은 긴장과 위험 빈맥을 확인하는 법인데 두 번째 핵심 문단이 “원인 평가를 정합니다”와 타인 약/목 마사지 금지로 끝난다.",
+    "action": "안정 중 지속/발작 양상/동반 증상별 행동을 먼저 설명하고 금지사항은 실제 이유와 함께 보조 정보로 둔다.",
+    "pageIds": [
+      "symptom-cardio-rapid-heart-rate"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-rapid-heart-rate"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F118",
+    "units": [
+      "T04338",
+      "T04340"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "“평소 운동량이 많다는 이유만으로 증상을 넘기지 마세요”가 독자 행동을 가정한 경고다.",
+    "action": "운동으로 인한 평소 느린 맥박과 어지럼·실신을 동반한 새로운 증상을 구분해 설명한다.",
+    "pageIds": [
+      "symptom-cardio-slow-heart-rate-dizziness"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-slow-heart-rate-dizziness"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F119",
+    "units": [
+      "T04392",
+      "T04398",
+      "T04400"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "심장·폐·빈혈을 어떻게 구분하는지 약속하지만 각 원인과 검사 역할을 설명하지 않고 기록/검사 선택/모두 검사하지 않는다는 말로 끝난다.",
+    "action": "심장·폐·빈혈 평가에서 확인하는 단서와 검사 목적을 구체적으로 설명하고 긴급 호흡곤란 행동은 유지한다.",
+    "pageIds": [
+      "symptom-cardio-exertional-dyspnea"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-exertional-dyspnea"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F120",
+    "units": [
+      "T04429",
+      "T04436",
+      "T04437"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P1",
+    "reason": "제목은 장기 문제를 확인하는 “순서”를 약속하고 본문은 “정해진 장기 순서가 아니다”라는 해명을 한다.",
+    "action": "응급 신호→한쪽/양쪽→동반 증상과 필요한 평가라는 실제 진료 판단 흐름에 맞춰 제목과 본문을 정리한다.",
+    "pageIds": [
+      "symptom-cardio-leg-edema-dyspnea"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-leg-edema-dyspnea"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F121",
+    "units": [
+      "T04455",
+      "T04456"
+    ],
+    "kind": "정보위계",
+    "priority": "P2",
+    "reason": "체액 증가를 이해하려는 글의 두 번째 핵심 항목이 약을 늘리지 말라는 경고로 배치된다. 약 조절 지침은 기존 심부전 치료 환자에게 필요한 별도 상황이다.",
+    "action": "체중 증가·부종·소변 변화의 의미를 먼저 설명하고 기존 심부전 환자의 개인 지침을 별도 조건으로 둔다.",
+    "pageIds": [
+      "symptom-cardio-rapid-weight-gain-edema"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-rapid-weight-gain-edema"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F122",
+    "units": [
+      "T04467",
+      "T04469",
+      "T04471",
+      "T04475"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "심장·빈혈·갑상선을 확인하는 이유라는 제목인데 해당 질환이 피로/운동능력과 어떻게 연결되는지 설명하지 않는다. 영양제/수액부터 쓰지 말라는 경고가 대신 들어간다.",
+    "action": "각 원인과 증상의 관계 및 본원 평가 내용을 간략히 제공하고 불필요한 동기 추정 경고를 정리한다.",
+    "pageIds": [
+      "symptom-cardio-fatigue-exercise-intolerance"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-fatigue-exercise-intolerance"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F123",
+    "units": [
+      "T04522",
+      "T04528",
+      "T04530"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "추적간격을 정하는 법이라는 제목이 결과를 설명받기/수술·간격을 정할 수 없기/다른 글 보기로 채워진다. 연결된 건강정보와 질환백과에도 주기 설명이 상대 표현 위주라 링크만으로 답이 완성되지 않는다.",
+    "action": "3개 관련 판막 페이지의 역할을 구분하고 핵심 답을 각 진입 페이지에서 읽을 수 있도록 정리한다. 의료 확인이 필요한 검사 간격은 근거를 확보한다.",
+    "pageIds": [
+      "symptom-cardio-valve-regurgitation-follow-up"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-valve-regurgitation-follow-up"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F124",
+    "units": [
+      "T04548"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "“증상이 없다고 가족력이 없어지는 것은 아닙니다”는 환자에게 필요한 위험평가 내용을 상식적 부정문으로 반복한다.",
+    "action": "가족 진단별 필요한 본인 위험평가와 검사 조건을 직접 설명한다.",
+    "pageIds": [
+      "symptom-cardio-family-history-heart-disease"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-family-history-heart-disease"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F125",
+    "units": [
+      "T04558",
+      "T04560",
+      "T04562"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P2",
+    "reason": "제목은 119를 “고려”하지만 도입은 구체 위험 조건에서 “즉시 연락”이다. 긴급 행동의 강도가 다르다.",
+    "action": "위험 조건과 제목의 행동 강도를 맞춘다.",
+    "pageIds": [
+      "symptom-cardio-radiating-chest-pain-119"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "symptom-cardio-radiating-chest-pain-119"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F126",
+    "units": [
+      "T04589"
+    ],
+    "kind": "중복",
+    "priority": "P2",
+    "reason": "저작권·이용 안내에 공통 건강정보 제한 문구와 개인 치료법처럼 전달하지 말라는 경고가 다시 붙는다. 공유 시 문맥 보존은 앞 항목에도 있다.",
+    "action": "사이트 이용에 필요한 출처/문맥 유지 안내로 정리하고 공통 의료 안내를 불필요하게 반복하지 않는다.",
+    "pageIds": [
+      "copyright-policy"
+    ],
+    "sharedOrReusedTextPageMatches": [
+      "copyright-policy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F127",
+    "units": [
+      "T04592",
+      "T04607",
+      "T04611",
+      "T04618"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "공지 카드 요약이 연령·대상·일정의 핵심을 직접 보여주기보다 확인/문의할 목록으로 쓰였다. 일부는 바로 아래 본문에 대상과 날짜가 이미 있다. 미확인 본원 참여 여부와 공식 사업 요건은 구분해야 한다.",
+    "action": "카드와 첫 문장에 확인된 대상·시작일·준비자료를 직접 요약한다. 본원 지원접종 가능 여부는 두 미확인 사업에서 단정하지 않는다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "home",
+      "notices"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F128",
+    "units": [
+      "T04624",
+      "T04625",
+      "T04626",
+      "T04627"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "감염병 자료 기반 가족 예방 가이드 요청에 해당 주차의 어떤 감염병/지표가 주목할 만한지 설명이 없다. 통계의 한계와 일반 위생수칙만 있어 원문 자료를 활용한 핵심 해설이 빠졌다.",
+    "action": "해당 주차 공식 자료에서 해석 가능한 핵심 지표와 가족의 예방 행동을 연결한다. 과거 주차를 현재 유행으로 바꾸어 쓰지 않는다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "home",
+      "notices"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F129",
+    "units": [
+      "T04658",
+      "T04670",
+      "T04682",
+      "T04694"
+    ],
+    "kind": "중복",
+    "priority": "P2",
+    "reason": "서로 다른 4개 안내도 캡션이 모두 자세한 준비는 본문/개별 진료 안내를 확인하라는 문구로 끝난다. 검사 후 관리 그림에도 준비라는 틀을 적용한다.",
+    "action": "그림의 목적을 짧게 나타내고 실제 자세한 안내 위치를 연결한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "after-endoscopy",
+      "checkups",
+      "endoscopy",
+      "heart-index"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F130",
+    "units": [
+      "T04675",
+      "T04676",
+      "T04679",
+      "T04685",
+      "T04686",
+      "T04688",
+      "T04698",
+      "T04702",
+      "T04703"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "실용형 안내도의 핵심 단계가 개별 안내를 따르기/재개 시각 확인/발급일 문의로 채워져 있다. 해당 본문도 같은 지시를 반복하는 경우 그림을 읽어도 실제 준비와 회복 행동이 완성되지 않는다.",
+    "action": "검증된 본원 준비·회복 지침을 확보한 뒤 실제 할 일과 조건을 도식화한다. 항혈전제와 시술별 식사 시점은 임의로 일률화하지 않는다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "after-endoscopy",
+      "checkups",
+      "endoscopy"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F131",
+    "units": [
+      "T04667"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "“새로 생긴 심한 증상을 무시하지 마세요”는 환자가 무시한다고 가정한다. 필요한 긴급 행동은 같은 그림 첫 단계에도 있다.",
+    "action": "새로 생긴 위험 증상은 이전 정상 결과와 관계없이 즉시 평가받는다는 직접 행동으로 정리한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "heart-index"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F132",
+    "units": [
+      "T04726"
+    ],
+    "kind": "정보확인필요",
+    "priority": "P2",
+    "reason": "지하주차장 위치는 알려주지만 지원 조건은 다시 접수에서 확인하도록 한다. 무료시간/등록방법은 현재 자료만으로 확정할 수 없다.",
+    "action": "실제 주차 지원 시간과 등록 절차를 병원에서 확인한 뒤 방문 안내에 제공한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "abdominal-pain",
+      "abdominal-ultrasound",
+      "abi",
+      "acute-care",
+      "after-endoscopy",
+      "ambulatory-blood-pressure",
+      "angina-treatment",
+      "biliary-disease",
+      "bowel-appendix",
+      "bowel-ultrasound",
+      "cancer-family-history",
+      "cancer-screening",
+      "cancer-support",
+      "cancer-treatment-symptoms",
+      "cardiac-markers",
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia",
+      "carotid",
+      "carotid-disease",
+      "checkup-preparation",
+      "checkups",
+      "chronic-cough",
+      "chronic-disease",
+      "civil-service",
+      "colon-polyp-followup",
+      "colonoscopy",
+      "colonoscopy-preparation",
+      "conditions",
+      "covid-19",
+      "digestive-disease",
+      "diseases",
+      "drug-screening",
+      "echocardiography",
+      "employment-checkup",
+      "endoscopy",
+      "esophagus-stomach",
+      "examinations",
+      "fees",
+      "fever-during-cancer-treatment",
+      "gallstones",
+      "gastroscopy",
+      "health",
+      "heart-disease",
+      "heart-index",
+      "heart-test-differences",
+      "heart-valve-regurgitation",
+      "holter",
+      "hrv",
+      "hydronephrosis",
+      "influenza",
+      "kidney-disease",
+      "kidney-function",
+      "liver-disease",
+      "national-checkup",
+      "neck-disease",
+      "neck-lump",
+      "obesity-medication",
+      "orafang-preparation",
+      "palpitations-followup",
+      "pancreatic-disease",
+      "plenvu-preparation",
+      "preparation",
+      "pyelonephritis",
+      "respiratory-infections",
+      "services",
+      "symptom-cardio-blood-pressure-180",
+      "symptom-cardio-chest-pressure-sweating",
+      "symptom-cardio-chest-tightness-causes",
+      "symptom-cardio-epigastric-pain-heart",
+      "symptom-cardio-exertional-chest-pain",
+      "symptom-cardio-exertional-dyspnea",
+      "symptom-cardio-family-history-heart-disease",
+      "symptom-cardio-fatigue-exercise-intolerance",
+      "symptom-cardio-irregular-skipped-heartbeat",
+      "symptom-cardio-leg-edema-dyspnea",
+      "symptom-cardio-orthopnea-leg-edema",
+      "symptom-cardio-orthostatic-dizziness-low-bp",
+      "symptom-cardio-presyncope-cardiac-evaluation",
+      "symptom-cardio-radiating-chest-pain-119",
+      "symptom-cardio-rapid-heart-rate",
+      "symptom-cardio-rapid-weight-gain-edema",
+      "symptom-cardio-recurrent-palpitations-normal-ecg",
+      "symptom-cardio-slow-heart-rate-dizziness",
+      "symptom-cardio-syncope-emergency",
+      "symptom-cardio-valve-regurgitation-follow-up",
+      "symptoms",
+      "thyroid-cancer-surveillance",
+      "thyroid-disease",
+      "thyroid-ultrasound",
+      "tuberculosis-screening",
+      "ultrasound-index",
+      "vaccinations",
+      "visa-checkup",
+      "visit"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F133",
+    "units": [
+      "T04768",
+      "T04771",
+      "T04777",
+      "T04780",
+      "T04783",
+      "T04786",
+      "T04789",
+      "T04807",
+      "T04813",
+      "T04816",
+      "T04831",
+      "T04834"
+    ],
+    "kind": "문맥불일치",
+    "priority": "P2",
+    "reason": "사례 제목에 “증례 진단 사례”, “사례 진단 사례”, “진단사례. 진단 사례”, 마침표 뒤 진단 사례 등 일괄 접미어 흔적이 남는다.",
+    "action": "원문으로 연결하는 기능과 출처를 유지하면서 중복 단어·문장부호를 정리한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "cases"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F134",
+    "units": [
+      "I00002",
+      "UI0169",
+      "UI0831"
+    ],
+    "kind": "중복",
+    "priority": "P1",
+    "reason": "의학정보 글 하단에 원장 요청의 공통 안전 안내가 있는데 전역 푸터에서도 개인별 진료/검사 준비는 의료진 안내를 확인하라고 반복한다. 원문 적용규칙은 전역 푸터와 중복되지 않게 한 번 출력하도록 했다.",
+    "action": "원장 요청의 안전 안내는 보존하고 전역 푸터·본문·그림의 중복 제한 문구를 정리한다. 구성요소별 한 번씩 출력된다는 기술 검사와 독자가 같은 내용을 반복 읽는 문제를 구분한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "abdominal-pain",
+      "abdominal-ultrasound",
+      "abi",
+      "about",
+      "acute-care",
+      "after-endoscopy",
+      "ambulatory-blood-pressure",
+      "angina-treatment",
+      "biliary-disease",
+      "bowel-appendix",
+      "bowel-ultrasound",
+      "cancer-family-history",
+      "cancer-screening",
+      "cancer-support",
+      "cancer-treatment-symptoms",
+      "cardiac-markers",
+      "cardio-acute-myocardial-infarction",
+      "cardio-aortic-aneurysm-dissection",
+      "cardio-aortic-stenosis",
+      "cardio-atherosclerosis",
+      "cardio-atrial-fibrillation",
+      "cardio-bradyarrhythmia",
+      "cardio-carotid-stenosis",
+      "cardio-deep-vein-thrombosis",
+      "cardio-dilated-cardiomyopathy",
+      "cardio-dyslipidemia",
+      "cardio-heart-failure",
+      "cardio-hypertension",
+      "cardio-mitral-regurgitation",
+      "cardio-myocarditis",
+      "cardio-orthostatic-hypotension",
+      "cardio-pericarditis",
+      "cardio-peripheral-artery-disease",
+      "cardio-premature-ventricular-contractions",
+      "cardio-stable-angina",
+      "cardio-supraventricular-tachycardia",
+      "carotid",
+      "carotid-disease",
+      "cases",
+      "checkup-preparation",
+      "checkups",
+      "chronic-cough",
+      "chronic-disease",
+      "civil-service",
+      "colon-polyp-followup",
+      "colonoscopy",
+      "colonoscopy-preparation",
+      "conditions",
+      "copyright-policy",
+      "covid-19",
+      "digestive-disease",
+      "diseases",
+      "doctor-park-jongseol",
+      "doctor-park-rayoung",
+      "doctors",
+      "drug-screening",
+      "echocardiography",
+      "employment-checkup",
+      "endoscopy",
+      "esophagus-stomach",
+      "examinations",
+      "fees",
+      "fever-during-cancer-treatment",
+      "gallstones",
+      "gastroscopy",
+      "health",
+      "heart-disease",
+      "heart-index",
+      "heart-test-differences",
+      "heart-valve-regurgitation",
+      "holter",
+      "home",
+      "hrv",
+      "hydronephrosis",
+      "influenza",
+      "kidney-disease",
+      "kidney-function",
+      "liver-disease",
+      "national-checkup",
+      "neck-disease",
+      "neck-lump",
+      "not-found",
+      "notices",
+      "obesity-medication",
+      "orafang-preparation",
+      "palpitations-followup",
+      "pancreatic-disease",
+      "plenvu-preparation",
+      "preparation",
+      "privacy",
+      "pyelonephritis",
+      "respiratory-infections",
+      "search",
+      "services",
+      "sitemap",
+      "symptom-cardio-blood-pressure-180",
+      "symptom-cardio-chest-pressure-sweating",
+      "symptom-cardio-chest-tightness-causes",
+      "symptom-cardio-epigastric-pain-heart",
+      "symptom-cardio-exertional-chest-pain",
+      "symptom-cardio-exertional-dyspnea",
+      "symptom-cardio-family-history-heart-disease",
+      "symptom-cardio-fatigue-exercise-intolerance",
+      "symptom-cardio-irregular-skipped-heartbeat",
+      "symptom-cardio-leg-edema-dyspnea",
+      "symptom-cardio-orthopnea-leg-edema",
+      "symptom-cardio-orthostatic-dizziness-low-bp",
+      "symptom-cardio-presyncope-cardiac-evaluation",
+      "symptom-cardio-radiating-chest-pain-119",
+      "symptom-cardio-rapid-heart-rate",
+      "symptom-cardio-rapid-weight-gain-edema",
+      "symptom-cardio-recurrent-palpitations-normal-ecg",
+      "symptom-cardio-slow-heart-rate-dizziness",
+      "symptom-cardio-syncope-emergency",
+      "symptom-cardio-valve-regurgitation-follow-up",
+      "symptoms",
+      "thyroid-cancer-surveillance",
+      "thyroid-disease",
+      "thyroid-ultrasound",
+      "tuberculosis-screening",
+      "ultrasound-index",
+      "vaccinations",
+      "visa-checkup",
+      "visit"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F135",
+    "units": [
+      "UI0447"
+    ],
+    "kind": "방어적표현",
+    "priority": "P2",
+    "reason": "길찾기 도식을 보여주면서 실제 거리·방향을 나타낸 지도가 아니라는 설명을 별도로 붙인다. 목적에 맞지 않는 그림을 경고로 보완하는 형태다.",
+    "action": "역 출구·건물·층수와 실제 지도 링크를 중심으로 필요한 길찾기 정보를 제공한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "visit"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F136",
+    "units": [
+      "UI0450"
+    ],
+    "kind": "답변회피",
+    "priority": "P2",
+    "reason": "방문 안내 끝에 준비·최종 접수·당일 가능 여부를 모두 병원에 확인하라고 반복한다. 확인된 시간/예약 원칙과 미확인 운영사항이 분리되지 않는다.",
+    "action": "확인된 접수/예약 원칙을 먼저 제공하고 변동되는 검사별 마감만 구체적으로 문의 안내한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "visit"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F137",
+    "units": [
+      "UI0458",
+      "UI0459",
+      "UI0460",
+      "UI0461",
+      "UI0462",
+      "UI0463"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P2",
+    "reason": "병원 소개의 세 가치 문단이 검사·진료·방문 정보를 안내/확인할 수 있다는 홈페이지 기능 설명이다. 이 병원의 진료 특징이나 환자가 얻는 도움을 구체적으로 설명하지 않는다.",
+    "action": "검증된 의료진 전문분야·본원 가능 진료·검사 및 진료 연계 방식을 실제 정보로 풀어낸다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "about"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F138",
+    "units": [
+      "UI0548",
+      "UI0550",
+      "UI0551",
+      "UI0552",
+      "UI0553",
+      "UI0555"
+    ],
+    "kind": "요구사항대체",
+    "priority": "P1",
+    "reason": "비용·서류 페이지가 실제 요금/발급 안내 대신 전화할 때 물어볼 항목을 렌더러에서 추가한다. 본문 부족을 문의 체크리스트로 메우는 구조다.",
+    "action": "본원의 확인된 비용표와 서류별 기본 준비·발급기간을 제공하고 추가 비용이 생기는 조건을 설명한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "fees"
+    ],
+    "originalWordPassageUnits": []
+  },
+  {
+    "id": "F139",
+    "units": [
+      "UI0624"
+    ],
+    "kind": "중복",
+    "priority": "P2",
+    "reason": "공지 전체 머리말에서 대상/백신 확인을 요구하고 각 공지의 요약·가용성 문단에서 동일한 요구가 반복된다.",
+    "action": "공통 운영 안내는 한곳에 모으고 카드에는 사업별 핵심 조건과 본원 참여 확인 상태를 구분한다.",
+    "pageIds": [],
+    "sharedOrReusedTextPageMatches": [
+      "notices"
+    ],
+    "originalWordPassageUnits": []
+  }
+]

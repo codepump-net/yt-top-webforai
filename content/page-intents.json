@@ -2,646 +2,646 @@
   {
     "id": "home",
     "path": "/",
-    "patientNeed": "{{clinic.subway}}, {{clinic.name}}의 진료·검사와 의료진, 검진 준비를 확인하세요. 주소 {{clinic.address}}. 전화 {{clinic.phone}}."
+    "patientNeed": "내 증상·검진 목적에 맞는 진료 분야를 찾고 위치·시간·전화번호로 방문을 준비한다."
   },
   {
     "id": "not-found",
     "path": "/404.html",
-    "patientNeed": "요청한 페이지를 찾을 수 없습니다. 홈페이지나 검색에서 필요한 진료·검사 안내를 찾아보세요."
+    "patientNeed": "없는 주소 대신 검색이나 주요 진료 메뉴로 이동해 필요한 정보를 찾는다."
   },
   {
     "id": "about",
     "path": "/about/",
-    "patientNeed": "영통탑내과의 진료 원칙과 의료진, 진료시간·오시는 길·서류·공지 안내를 확인하세요."
+    "patientNeed": "의료진의 전문과목, 본원 진료 범위와 응급 의뢰 원칙을 알고 병원을 선택한다."
   },
   {
     "id": "cases",
     "path": "/cases/",
-    "patientNeed": "영통탑내과 홈페이지에 게시된 진단 사례의 원문 링크를 안내합니다. 개인별 진료 경과는 서로 다르므로 본인의 증상과 검사 필요성은 의료진과 상담하세요."
+    "patientNeed": "관심 있는 진단 사례의 원문으로 이동하고 사례의 결과와 자신의 진단을 구분한다."
   },
   {
     "id": "checkups",
     "path": "/checkups/",
-    "patientNeed": "건강 상태를 확인하는 검진과 제출용 서류를 구분해 안내합니다. 제출처의 양식·검사 항목·기한이 있다면 방문 전에 확인하세요."
+    "patientNeed": "건강 확인과 기관 제출 목적을 구분해 알맞은 검진·준비물·발급기간 안내를 선택한다."
   },
   {
     "id": "cancer-screening",
     "path": "/checkups/cancer-screening/",
-    "patientNeed": "암검진은 본인에게 해당하는 대상·항목을 먼저 확인해야 합니다. 영통탑내과의 검진 범위와 준비 방법, 결과에 따른 상담을 확인하는 순서를 안내합니다."
+    "patientNeed": "국가암검진 대상과 본원에서 시행하는 다섯 암검진, 내시경 예약 필요성을 파악한다."
   },
   {
     "id": "drug-screening",
     "path": "/checkups/drug-screening/",
-    "patientNeed": "마약검사·영문서류는 제출처가 요구하는 검사 항목과 양식, 언어와 기한을 먼저 확인해 문의하세요. 영통탑내과에서 가능한 검사와 발급 조건을 대조하는 방법을 안내합니다."
+    "patientNeed": "제출처가 요구하는 마약검사 항목·양식과 본원 6종 검사를 대조하고 복용약·신분증을 준비한다."
   },
   {
     "id": "employment-checkup",
     "path": "/checkups/employment/",
-    "patientNeed": "채용검진은 제출기관의 양식과 요구 항목을 확인한 뒤 예약하세요. 준비물, 검사 일정과 결과지 수령을 미리 문의하는 방법을 안내합니다."
+    "patientNeed": "채용 제출 양식·신분증·사진과 금식 조건, 통상 발급기간을 알아 제출 일정을 잡는다."
   },
   {
     "id": "national-checkup",
     "path": "/checkups/national/",
-    "patientNeed": "국가건강검진은 본인의 대상 여부와 해당 항목을 먼저 확인한 뒤 예약하세요. 영통탑내과의 검사 가능 항목, 준비물과 결과 상담을 확인하는 순서를 안내합니다."
+    "patientNeed": "대상 여부·연령별 검사를 확인하고 일반검진 방문과 예약이 필요한 내시경을 구분한다."
   },
   {
     "id": "tuberculosis-screening",
     "path": "/checkups/tuberculosis/",
-    "patientNeed": "기숙사 결핵검진은 요구하는 검사와 서류, 제출 기한을 확인해 문의하세요. 방문 전 준비와 결과지 수령 때 확인할 내용을 안내합니다."
+    "patientNeed": "기숙사와 비자 제출 목적에 따라 흉부 X선·IGRA의 차이와 발급기간·준비물을 알아본다."
   },
   {
     "id": "visa-checkup",
     "path": "/checkups/visa/",
-    "patientNeed": "영통탑내과의 E-2·F-2·H-2 비자 건강검진과 결핵진단서 준비물, 예상 발급기간, 금식과 지정기관 확인 방법을 안내합니다. 영어·중국어·태국어·러시아어·네팔어로도 읽을 수 있습니다."
+    "patientNeed": "E-2·F-2·H-2 제출기관의 요구와 검사 범위를 맞추고 여권 이름·양식·발급기간을 준비한다."
   },
   {
     "id": "conditions",
     "path": "/conditions/",
-    "patientNeed": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지진료까지 방문 목적에 맞는 안내를 선택하세요."
+    "patientNeed": "증상 또는 장기별로 진료 분야를 찾고 해당 분야에서 받을 수 있는 평가를 살펴본다."
   },
   {
     "id": "acute-care",
     "path": "/conditions/acute-care/",
-    "patientNeed": "갑자기 생긴 발열·기침·복통 등으로 진료를 준비할 때는 증상 시작과 변화, 복용약을 알려주세요. 영통탑내과의 진료 가능 시간과 긴급 도움을 구분해 안내합니다."
+    "patientNeed": "현재 증상이 119·응급실이 우선인 상황인지, 안정적일 때 외래에서 어떤 평가를 받는지 구분한다."
   },
   {
     "id": "chronic-cough",
     "path": "/conditions/chronic-cough/",
-    "patientNeed": "기침이 계속된다면 시작 시점과 양상, 동반 증상과 복용약을 정리해 진료 때 알려주세요. 영통탑내과 기침 상담에서 준비할 정보와 신속한 진료가 필요한 상황을 안내합니다."
+    "patientNeed": "지속 기간·가래·발열·숨참 등 기침의 단서를 알고 X선·폐기능검사의 역할을 이해한다."
   },
   {
     "id": "heart-disease",
     "path": "/conditions/heart-disease/",
-    "patientNeed": "흉부 불편·두근거림 등 심장 관련 증상은 발생 상황과 이전 검사 결과를 함께 상담해야 합니다. 영통탑내과 진료와 검사 선택을 준비하는 방법을 안내합니다."
+    "patientNeed": "가슴통증·두근거림·숨참에 대한 본원 평가 범위와 검사 선택·상급병원 의뢰 상황을 이해한다."
   },
   {
     "id": "doctors",
     "path": "/doctors/",
-    "patientNeed": "의료진 소개의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+    "patientNeed": "두 의료진의 전문과목과 이력·자격을 비교해 진료 분야를 알아본다."
   },
   {
     "id": "doctor-park-jongseol",
     "path": "/doctors/park-jongseol/",
-    "patientNeed": "내과 전문의 박종설 대표원장의 주요 진료 이력과 학회 활동을 소개합니다."
+    "patientNeed": "박종설 원장의 내과 전문의 이력과 내시경·초음파 자격을 확인한다."
   },
   {
     "id": "doctor-park-rayoung",
     "path": "/doctors/park-rayoung/",
-    "patientNeed": "박라영 원장의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+    "patientNeed": "박라영 원장의 가정의학과 전문의 이력과 비만·폐경·노인 진료 관련 자격을 확인한다."
   },
   {
     "id": "fees",
     "path": "/fees/",
-    "patientNeed": "비용·서류 발급 안내의 내용을 이해하고 진료 상담 또는 병원 방문에 필요한 정보를 확인한다."
+    "patientNeed": "검사비 구성 항목과 서류별 통상 발급기간을 알아 비용 문의와 제출 일정을 준비한다."
   },
   {
     "id": "health",
     "path": "/health/",
-    "patientNeed": "증상과 질환, 검사 준비, 암 치료 중 불편, 건강검진 중 지금 필요한 안내를 선택하세요."
+    "patientNeed": "검사 전 준비, 검사 결과 이해, 치료·추적관리 중 필요한 안내를 찾아 읽는다."
   },
   {
     "id": "checkup-preparation",
     "path": "/health/checkup-preparation-checklist/",
-    "patientNeed": "건강검진 전에는 예약한 검사 목록부터 확인하세요. 음식·음료와 복약, 신분 확인·서류, 진정 검사 후 귀가 계획을 나누어 준비할 수 있습니다."
+    "patientNeed": "금식·물·약·신분증·양식 등 검사 전 준비를 점검하고 검사별로 다른 조건을 구분한다."
   },
   {
     "id": "colonoscopy-preparation",
     "path": "/health/colonoscopy-preparation-questions/",
-    "patientNeed": "대장내시경 준비는 음식 조절, 장 정결제, 물·음료 섭취와 검사 시각을 함께 확인해야 합니다. 예약 안내서를 기준으로 준비하고, 지키지 못한 부분은 병원에 알려주세요."
+    "patientNeed": "대장내시경 전 피할 음식과 먹을 음식, 정결제·물 복용, 약과 귀가 준비를 실행한다."
   },
   {
     "id": "heart-test-differences",
     "path": "/health/heart-test-differences/",
-    "patientNeed": "심전도는 전기 신호, 심장초음파는 구조와 움직임, 홀터는 생활 중 리듬을 살펴봅니다. 검사 결과가 다를 때 확인할 점과 진료에서 전달할 정보를 비교해 보세요."
+    "patientNeed": "심전도·초음파·홀터가 각각 전기 신호·구조·장시간 리듬을 본다는 차이를 이해한다."
   },
   {
     "id": "palpitations-followup",
     "path": "/health/palpitations-test-followup/",
-    "patientNeed": "검사 후 두근거림이 계속된다면 검사 중 증상이 있었는지, 언제 어떤 상황에서 반복되는지 기록해 진료 때 알려주세요. 검사 결과를 이해하는 데 필요한 정보와 긴급 도움 안내입니다."
+    "patientNeed": "정상 심전도 뒤에도 반복되는 두근거림을 기록하고 홀터 등 추가 평가의 이유를 이해한다."
   },
   {
     "id": "notices",
     "path": "/notices/",
-    "patientNeed": "방문할 날짜의 휴진과 병원 소식을 원래 공지 채널에서 확인한다."
+    "patientNeed": "접종 지원사업의 실제 대상·기간·기관과 감염병 자료의 기준일을 확인한다."
   },
   {
     "id": "privacy",
     "path": "/privacy/",
-    "patientNeed": "이 사이트에서는 환자 정보를 입력받는 상담·예약 폼을 운영하지 않습니다."
+    "patientNeed": "진료·문의와 외부 서비스에서 개인정보가 어떻게 취급되는지 알고 연락 경로를 찾는다."
   },
   {
     "id": "search",
     "path": "/search/",
-    "patientNeed": "진료·검사 이름, 의료진, 방문 안내와 건강정보를 찾아보세요. 여러 단어를 띄어 쓰면 해당 단어가 모두 포함된 자료를 찾습니다."
+    "patientNeed": "병명·증상·검사명으로 이 사이트의 관련 안내를 찾는다."
   },
   {
     "id": "services",
     "path": "/services/",
-    "patientNeed": "심장검사·초음파·위내시경·대장내시경의 목적과 과정을 확인하세요. 예약한 검사 준비와 결과 확인 안내도 함께 찾을 수 있습니다."
+    "patientNeed": "검사별 목적과 본원 시행 범위를 비교해 필요한 준비·결과 안내로 이동한다."
   },
   {
     "id": "cancer-support",
     "path": "/services/cancer-support/",
-    "patientNeed": "영통탑내과의 암 치료 중 구역·구토·탈수·설사·변비 평가와 지지진료, 조건에 따른 호중구 증가 주사, 케모포트 후버바늘 제거와 치료병원 연계를 안내합니다."
+    "patientNeed": "항암치료팀과 본원의 역할을 구분하고 증상 조절·발열·혈구감소 때의 대응을 알아본다."
   },
   {
     "id": "endoscopy",
     "path": "/services/endoscopy/",
-    "patientNeed": "위·대장내시경 안내에서 검사 선택과 준비를 나누어 확인하세요 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "위·대장내시경이 관찰하는 부위와 시술을 구분하고 준비·귀가·검사 후 안내를 선택한다."
   },
   {
     "id": "colonoscopy",
     "path": "/services/endoscopy/colonoscopy/",
-    "patientNeed": "대장내시경은 대장 안쪽을 관찰하는 검사입니다. 검사 목적과 결과 상담, 준비 안내서를 확인하는 방법, 비용에 포함되는 항목을 예약 전에 살펴보세요."
+    "patientNeed": "대장내시경의 관찰·용종절제 목적과 장정결·진정 귀가 조건, 조직결과 확인 과정을 이해한다."
   },
   {
     "id": "gastroscopy",
     "path": "/services/endoscopy/gastroscopy/",
-    "patientNeed": "위내시경은 식도·위·십이지장 안쪽을 살펴보는 검사입니다. 진정 여부, 함께 받는 검사, 복용약과 귀가 준비를 예약 전에 확인하세요."
+    "patientNeed": "위내시경이 보는 식도·위·십이지장과 조직검사 목적, 금식·진정 귀가 조건을 이해한다."
   },
   {
     "id": "heart-index",
     "path": "/services/heart/",
-    "patientNeed": "심전도·심장초음파·홀터·활동혈압검사와 심장 관련 혈액검사의 목적, 예약·준비와 예상 결과시간을 확인하세요. 응급 증상이 있으면 외래 검사보다 응급실 평가가 우선입니다."
+    "patientNeed": "현재 증상에 맞춰 심전도·혈액·초음파·홀터·활동혈압 중 어떤 검사를 선택하는지 이해한다."
   },
   {
     "id": "abi",
     "path": "/services/heart/arterial-assessment/",
-    "patientNeed": "동맥경화도 검사에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "팔·발목 혈압 비율로 하지동맥 순환을 평가하는 이유와 보행 시 다리 통증의 관계를 이해한다."
   },
   {
     "id": "cardiac-markers",
     "path": "/services/heart/cardiac-markers/",
-    "patientNeed": "영통탑내과의 Troponin I·CK-MB·Troponin T·CPK·D-dimer·NT-proBNP 검사 목적과 결과시간을 안내합니다. Troponin I는 원내 약 20분, 나머지는 일반적으로 다음 날 확인합니다."
+    "patientNeed": "트로포닌 등 혈액검사가 심근 손상·부담을 어떻게 평가하며 채혈 시점이 왜 중요한지 알아본다."
   },
   {
     "id": "carotid",
     "path": "/services/heart/carotid-ultrasound/",
-    "patientNeed": "경동맥 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
+    "patientNeed": "경동맥초음파가 혈관벽·플라크·협착을 보는 검사임을 알고 금식 없이 목을 노출하기 쉽게 준비한다."
   },
   {
     "id": "echocardiography",
     "path": "/services/heart/echocardiography/",
-    "patientNeed": "심장초음파는 심장 근육과 판막의 움직임, 혈액 흐름을 영상으로 살펴보는 검사입니다. 심전도와의 차이, 결과의 한계와 영통탑내과 예약 전 확인할 내용을 안내합니다."
+    "patientNeed": "심장 구조·판막·펌프 기능을 보는 검사임을 알고 전화 예약·복장·동시검사 금식을 준비한다."
   },
   {
     "id": "hrv",
     "path": "/services/heart/heart-rate-variability/",
-    "patientNeed": "심박 변이도 검사에서 어떤 정보를 살펴보는 검사인가요? 내용을 이해하고 준비·결과 상담에 필요한 다음 행동을 확인한다."
+    "patientNeed": "심박 간격 변동이 자율신경 평가를 보조한다는 의미와 측정 환경·홀터와의 차이를 이해한다."
   },
   {
     "id": "holter",
     "path": "/services/heart/holter/",
-    "patientNeed": "영통탑내과는 주로 72시간 홀터검사로 일상생활의 심전도를 기록합니다. 간헐적인 두근거림의 증상 기록, 착용 중 생활, 반납과 결과 상담, 전화 예약을 안내합니다."
+    "patientNeed": "주로 72시간의 일상 심전도 기록과 증상 일지를 준비하고 착용·반납 일정과 기기별 제한을 확인한다."
   },
   {
     "id": "ultrasound-index",
     "path": "/services/ultrasound/",
-    "patientNeed": "심장·복부·갑상선 등 살펴보는 부위에 따라 확인할 정보와 준비가 다릅니다. 예약한 정확한 검사명을 확인하고 다른 검진과 함께 받는다면 준비 조건을 함께 문의하세요."
+    "patientNeed": "심장·복부·갑상선·경동맥 등 검사 부위에 따라 목적과 금식·방광 준비가 다름을 알아본다."
   },
   {
     "id": "abdominal-ultrasound",
     "path": "/services/ultrasound/abdomen/",
-    "patientNeed": "상·하복부 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
+    "patientNeed": "상복부의 장기 관찰과 하복부 평가를 구분해 금식·소변 참기 조건에 맞춰 준비한다."
   },
   {
     "id": "bowel-ultrasound",
     "path": "/services/ultrasound/bowel/",
-    "patientNeed": "소장·대장·충수의 초음파 검사로 장관의 부종·비후, 충수염(흔히 맹장염), 장폐색 등 의심 소견을 평가합니다. 검사 범위와 한계, 추가 검사가 필요한 상황을 확인하세요."
+    "patientNeed": "장벽·충수·주변 염증을 보는 초음파와 점막·조직을 보는 내시경의 역할 차이를 이해한다."
   },
   {
     "id": "thyroid-ultrasound",
     "path": "/services/ultrasound/thyroid/",
-    "patientNeed": "갑상선 초음파의 목적과 결과를 이해할 때 필요한 조건을 안내합니다. 영통탑내과 방문 전 검사 부위·항목과 준비, 이전 결과를 함께 확인하세요."
+    "patientNeed": "갑상선 결절의 크기·모양·변화를 어떻게 평가하는지 알고 세침검사가 필요할 때 의뢰 경로를 이해한다."
   },
   {
     "id": "sitemap",
     "path": "/sitemap/",
-    "patientNeed": "병원 소개부터 진료·검사·건강검진·건강정보까지, 영통탑내과 홈페이지의 전체 페이지를 분야별로 안내합니다."
+    "patientNeed": "전체 진료·검사·검진·증상·질환·방문 안내를 분야별 목록에서 찾는다."
   },
   {
     "id": "visit",
     "path": "/visit/",
-    "patientNeed": "{{clinic.subway}}. {{clinic.address}}에 있습니다. 평일 {{clinic.hours.weekdays}}, 토요일 {{clinic.hours.saturday}} 진료를 안내하며 점심·검사 접수는 방문 전에 확인해 주세요."
+    "patientNeed": "진료·점심·토요일 시간, 망포역 출구·층·주차장·지도와 검사 예약 전화를 확인해 방문한다."
   },
   {
     "id": "examinations",
     "path": "/services/examinations/",
-    "patientNeed": "심전도, 72시간 홀터, 심장·복부·갑상선·경동맥초음파, 내시경, X선, 유방촬영, 골밀도와 원내 신속검사를 안내합니다."
+    "patientNeed": "본원 장비와 시행 검사, 즉시 확인 가능한 결과와 위탁검사 소요시간을 구분한다."
   },
   {
     "id": "civil-service",
     "path": "/checkups/civil-service/",
-    "patientNeed": "2026년 개정 공무원 채용신체검사서의 마약류 6종, 준비물, 약물복용 주의, 예상치 못한 양성 결과와 발급기간을 안내합니다."
+    "patientNeed": "공무원 채용검진의 지정 양식·사진·금식과 6종 마약검사 시행 기준, 발급기간을 준비한다."
   },
   {
     "id": "fever-during-cancer-treatment",
     "path": "/health/fever-during-cancer-treatment/",
-    "patientNeed": "항암치료 중 38℃ 이상 발열이 있을 때 해열제로 기다리면 안 되는 이유, 준비할 정보와 응급실 기준을 설명합니다."
+    "patientNeed": "항암 중 38도 열이 날 때 호중구감소 감염 가능성을 알고 담당팀 연락·응급진료 행동을 한다."
   },
   {
     "id": "cancer-treatment-symptoms",
     "path": "/health/cancer-treatment-symptoms/",
-    "patientNeed": "항암치료·표적치료·면역항암치료 중 열, 구토, 설사, 기침, 호흡곤란, 통증과 검사 이상이 생겼을 때 가까운 내과에서 가능한 진료와 즉시 대학병원으로 가야 하는 위험 신호를 설명합니다."
+    "patientNeed": "치료 중 구토·설사·통증·발열의 위험 신호를 구분하고 치료팀에 전달할 증상 기록을 준비한다."
   },
   {
     "id": "abdominal-pain",
     "path": "/conditions/abdominal-pain/",
-    "patientNeed": "급성 복통에서 내과 진찰과 복부초음파로 확인하는 소견, CT 의뢰와 응급실 기준을 설명합니다."
+    "patientNeed": "급성 복통의 위치와 동반 증상별로 응급수술·입원이 필요한 신호와 본원 초음파 평가를 이해한다."
   },
   {
     "id": "respiratory-infections",
     "path": "/conditions/respiratory-infections/",
-    "patientNeed": "천식, COPD, 폐렴, 만성기침, 기흉, 독감·코로나·백일해, 잠복결핵과 결핵검사, 예방접종 범위를 안내합니다."
+    "patientNeed": "기침·발열·숨참에 대한 X선·감염검사·폐기능검사의 목적과 호흡기질환 진료를 알아본다."
   },
   {
     "id": "vaccinations",
     "path": "/services/vaccinations/",
-    "patientNeed": "독감, 폐렴구균, 대상포진, Tdap, A·B형간염, MMR, 수두와 수막구균 등 성인 예방접종의 필요성과 연령·기저질환별 기본 일정을 설명합니다."
+    "patientNeed": "나이·접종력·기저질환에 맞는 성인 백신과 기본 횟수·간격, 생백신 주의 대상을 확인한다."
   },
   {
     "id": "influenza",
     "path": "/conditions/influenza/",
-    "patientNeed": "독감의 증상, 신속항원검사와 PCR의 차이, 경구 오셀타미비르와 주사 페라미비르 치료, 폐렴을 의심해야 하는 위험 신호를 설명합니다."
+    "patientNeed": "독감 의심 증상, 신속항원·PCR의 차이와 음성 결과 해석, 치료가 중요한 시점을 이해한다."
   },
   {
     "id": "covid-19",
     "path": "/conditions/covid-19/",
-    "patientNeed": "코로나19 신속항원검사와 PCR의 차이, 60세 이상과 기저질환 고위험군의 팍스로비드 치료, 신장·간기능과 약물상호작용, 영통탑내과의 처방 전 검사 원칙을 설명합니다."
+    "patientNeed": "코로나 검사 선택과 고위험군 치료 평가, 팍스로비드의 약 상호작용·신장기능별 처방 조건을 이해한다."
   },
   {
     "id": "orafang-preparation",
     "path": "/health/orafang-preparation/",
-    "patientNeed": "오라팡 28정을 14정씩 두 번 나누어 복용하는 방법, 필요한 물의 양과 식이조절, 복용 중 연락해야 할 증상을 안내합니다."
+    "patientNeed": "오라팡 복용 회차와 필요한 물, 복용 전 알릴 질환·약, 정결 실패 때의 행동을 준비한다."
   },
   {
     "id": "plenvu-preparation",
     "path": "/health/plenvu-preparation/",
-    "patientNeed": "플렌뷰 1차·2차 용액을 만드는 법, 추가로 마실 물의 양, 허용되는 맑은 유동식과 주의사항을 안내합니다."
+    "patientNeed": "플렌뷰 용액과 추가 물의 역할, 복용 회차·완료 간격을 알고 개인 검사 시간표에 맞춘다."
   },
   {
     "id": "after-endoscopy",
     "path": "/health/after-endoscopy/",
-    "patientNeed": "위·대장 조직검사 또는 용종절제 후 물·죽·일반식 시작시간, 술·흡연, 운동·사우나·여행 제한과 응급 증상을 안내합니다."
+    "patientNeed": "조직검사·용종절제 범위와 진정 여부에 따라 식사·약·운동 재개 조건과 출혈 위험 신호를 구분한다."
   },
   {
     "id": "heart-valve-regurgitation",
     "path": "/health/heart-valve-regurgitation/",
-    "patientNeed": "승모판·대동맥판·삼첨판 역류의 중증도, 증상, 심장기능에 따른 추적과 수술 필요성을 설명합니다."
+    "patientNeed": "판막 역류의 정도·심장 크기·기능·증상이 치료와 초음파 추적 간격을 바꾸는 이유를 이해한다."
   },
   {
     "id": "angina-treatment",
     "path": "/health/angina-treatment/",
-    "patientNeed": "협심증 진단 후 약물치료, 생활관리, 관상동맥조영술과 스텐트가 필요한 경우를 설명합니다."
+    "patientNeed": "협심증 약의 증상 조절·심혈관 보호 역할과 스텐트·우회술을 검토하는 상황을 이해한다."
   },
   {
     "id": "chronic-disease",
     "path": "/conditions/chronic-disease/",
-    "patientNeed": "혈압·혈당·지질과 흡연·체중을 함께 관리해 심근경색·뇌졸중·신장질환 위험을 줄이는 진료를 안내합니다. 금연치료와 개인별 목표·추적 계획을 상담하세요."
+    "patientNeed": "혈압·혈당·지질을 장기적으로 관리하는 약·생활습관·검사 역할과 금연·체중관리 방법을 알아본다."
   },
   {
     "id": "gallstones",
     "path": "/health/gallstones/",
-    "patientNeed": "증상 없는 담석의 경과관찰, 담낭염과 담도폐색에서 수술이 필요한 경우, 복부초음파와 전원 기준을 설명합니다."
+    "patientNeed": "무증상 담석의 경과관찰과 통증·염증·담도 합병증 때 수술 평가가 필요한 상황을 구분한다."
   },
   {
     "id": "cancer-family-history",
     "path": "/health/cancer-family-history/",
-    "patientNeed": "암 가족력이 있을 때 필요한 검진을 암 종류, 발병연령, 가족 수와 유전성 암 의심 기준에 따라 설명합니다."
+    "patientNeed": "가족의 암 종류·진단 나이·혈연 관계를 기록하고 일반 검진과 유전상담이 필요한 경우를 구분한다."
   },
   {
     "id": "liver-disease",
     "path": "/conditions/liver-disease/",
-    "patientNeed": "AST, ALT, 감마GTP 등 간수치가 반복 상승할 때 지방간, 음주, 바이러스간염, 약물과 담도질환 평가과정을 설명합니다."
+    "patientNeed": "간수치 상승이 지속될 때 지방간·바이러스·약 등의 원인과 추가검사의 목적을 이해한다."
   },
   {
     "id": "colon-polyp-followup",
     "path": "/health/colon-polyp-followup/",
-    "patientNeed": "대장용종 제거 후 추적내시경 간격을 결정하는 개수, 크기, 조직형, 절제상태와 가족력을 설명합니다."
+    "patientNeed": "용종 크기·개수·병리결과·제거 상태가 추적 내시경 계획에 영향을 준다는 점을 이해한다."
   },
   {
     "id": "thyroid-cancer-surveillance",
     "path": "/health/thyroid-cancer-surveillance/",
-    "patientNeed": "저위험 미세갑상선유두암의 적극적 관찰 대상과 추적조건, 수술이 필요한 위험 소견을 설명합니다."
+    "patientNeed": "저위험 갑상선암에서 적극적 관찰의 대상·추적검사·수술 전환 조건을 알아본다."
   },
   {
     "id": "obesity-medication",
     "path": "/health/obesity-medication/",
-    "patientNeed": "정상체중 또는 경도 과체중에서 위고비·마운자로 사용을 원하는 경우 허가 적응증, 부작용과 진료 필요성을 설명합니다."
+    "patientNeed": "위고비·마운자로의 성분·작용·체중관리 허가 대상과 평가·증량·부작용 관찰 과정을 이해한다."
   },
   {
     "id": "visa-en",
     "path": "/en/checkups/visa/",
-    "patientNeed": "Yeongtong Top Internal Medicine Clinic provides health examinations for E-2, F-2 and H-2 visa documents. Tests and forms vary by visa type, nationality, application stage and receiving organization. Confirm the latest form and any designated-clinic r"
+    "patientNeed": "en 언어로 비자·결핵 검진의 여권·양식·영문 이름·기간·주소·진료시간을 이해하고 의사소통 지원 문의 경로를 찾는다."
   },
   {
     "id": "visa-zh-hans",
     "path": "/zh-hans/checkups/visa/",
-    "patientNeed": "영통탑내과의원（Yeongtong Top Internal Medicine Clinic）提供E-2、F-2、H-2签证相关健康检查。检查项目和所需文件因签证种类、国籍、申请阶段及接收机构而异。来院前请确认最新表格及是否要求指定医疗机构。"
+    "patientNeed": "zh-Hans 언어로 비자·결핵 검진의 여권·양식·영문 이름·기간·주소·진료시간을 이해하고 의사소통 지원 문의 경로를 찾는다."
   },
   {
     "id": "visa-th",
     "path": "/th/checkups/visa/",
-    "patientNeed": "คลินิกอายุรกรรมยองทงท็อปให้บริการตรวจสุขภาพสำหรับเอกสารวีซ่า E-2, F-2 และ H-2 รายการตรวจและเอกสารแตกต่างกันตามประเภทวีซ่า สัญชาติ ขั้นตอนการสมัคร และหน่วยงานรับเอกสาร โปรดตรวจสอบแบบฟอร์มล่าสุดและข้อกำหนดสถานพยาบาลที่กำหนดก่อนมา"
+    "patientNeed": "th 언어로 비자·결핵 검진의 여권·양식·영문 이름·기간·주소·진료시간을 이해하고 의사소통 지원 문의 경로를 찾는다."
   },
   {
     "id": "visa-ru",
     "path": "/ru/checkups/visa/",
-    "patientNeed": "Клиника Yeongtong Top Internal Medicine проводит обследования для документов по визам E-2, F-2 и H-2. Анализы и документы зависят от типа визы, гражданства, этапа подачи и принимающей организации. До визита уточните актуальный бланк и необходимость н"
+    "patientNeed": "ru 언어로 비자·결핵 검진의 여권·양식·영문 이름·기간·주소·진료시간을 이해하고 의사소통 지원 문의 경로를 찾는다."
   },
   {
     "id": "visa-ne",
     "path": "/ne/checkups/visa/",
-    "patientNeed": "Yeongtong Top Internal Medicine Clinic मा E-2, F-2 र H-2 भिसाका कागजातका लागि स्वास्थ्य परीक्षण गरिन्छ। परीक्षण र कागजात भिसाको प्रकार, राष्ट्रियता, आवेदनको चरण र बुझाउने निकायअनुसार फरक हुन्छन्। आउनुअघि नवीनतम फाराम र तोकिएको स्वास्थ्य संस्था आवश्यक"
+    "patientNeed": "ne 언어로 비자·결핵 검진의 여권·양식·영문 이름·기간·주소·진료시간을 이해하고 의사소통 지원 문의 경로를 찾는다."
   },
   {
     "id": "symptoms",
     "path": "/symptoms/",
-    "patientNeed": "불편한 증상에 맞는 안내를 찾아 위험 신호와 진료 시 확인할 내용을 살펴보세요. 증상만으로 질환을 확정할 수는 없습니다."
+    "patientNeed": "현재 겪는 증상에 맞는 원인·초기 평가·응급 행동 안내를 찾아 읽는다."
   },
   {
     "id": "diseases",
     "path": "/diseases/",
-    "patientNeed": "질환 이름이나 분야로 설명을 찾아 검사·치료·추적관찰에서 확인할 질문을 정리하세요. 개인별 진단과 치료는 진료를 통해 결정합니다."
+    "patientNeed": "진단받은 질환의 의미·치료 목적·위험 신호·장기 관리를 찾아 이해한다."
   },
   {
     "id": "preparation",
     "path": "/preparation/",
-    "patientNeed": "예약한 검사와 준비약 이름을 확인하고 해당 안내를 선택하세요. 복용약 조절과 금식은 병원에서 받은 개인별 지침을 우선합니다."
+    "patientNeed": "예약한 검사와 시술 종류를 골라 식사·물·약·귀가 및 검사 후 생활 안내로 이동한다."
   },
   {
     "id": "cardio-hypertension",
     "path": "/diseases/cardio/hypertension/",
-    "patientNeed": "고혈압의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "반복 측정과 평소 관리가 필요한 이유"
   },
   {
     "id": "cardio-dyslipidemia",
     "path": "/diseases/cardio/dyslipidemia/",
-    "patientNeed": "이상지질혈증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "지질 수치와 심혈관 위험을 함께 보는 이유"
   },
   {
     "id": "cardio-atherosclerosis",
     "path": "/diseases/cardio/atherosclerosis/",
-    "patientNeed": "죽상경화증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "혈관벽의 플라크가 협착·혈류 저하와 연결되는 과정을 이해하고 위험인자 관리와 검사 목적을 알아본다."
   },
   {
     "id": "cardio-stable-angina",
     "path": "/diseases/cardio/stable-angina/",
-    "patientNeed": "안정형 협심증의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
+    "patientNeed": "반복되는 흉통의 관리와 악화 시 행동"
   },
   {
     "id": "cardio-acute-myocardial-infarction",
     "path": "/diseases/cardio/acute-myocardial-infarction/",
-    "patientNeed": "급성 심근경색의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
+    "patientNeed": "현재 의심 증상의 응급 행동과 이후 관리 구분"
   },
   {
     "id": "cardio-heart-failure",
     "path": "/diseases/cardio/heart-failure/",
-    "patientNeed": "심부전의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
+    "patientNeed": "심부전의 증상·울혈과 일상 추적의 관계"
   },
   {
     "id": "cardio-atrial-fibrillation",
     "path": "/diseases/cardio/atrial-fibrillation/",
-    "patientNeed": "심방세동의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "리듬 관리와 뇌졸중 예방의 목적 차이"
   },
   {
     "id": "cardio-supraventricular-tachycardia",
     "path": "/diseases/cardio/supraventricular-tachycardia/",
-    "patientNeed": "발작성 상심실성 빈맥의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "발작성 빈맥의 기록과 치료 선택 이유"
   },
   {
     "id": "cardio-premature-ventricular-contractions",
     "path": "/diseases/cardio/premature-ventricular-contractions/",
-    "patientNeed": "심실조기수축의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "하루 횟수와 전체 박동 중 비율의 차이"
   },
   {
     "id": "cardio-bradyarrhythmia",
     "path": "/diseases/cardio/bradyarrhythmia/",
-    "patientNeed": "서맥성 부정맥의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "느린 맥박과 전도 문제를 평가하는 이유"
   },
   {
     "id": "cardio-mitral-regurgitation",
     "path": "/diseases/cardio/mitral-regurgitation/",
-    "patientNeed": "승모판 역류의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "역류 정도·심장 변화와 치료/추적의 관계"
   },
   {
     "id": "cardio-aortic-stenosis",
     "path": "/diseases/cardio/aortic-stenosis/",
-    "patientNeed": "대동맥판 협착의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "판막 협착의 진행과 증상 변화의 의미"
   },
   {
     "id": "cardio-myocarditis",
     "path": "/diseases/cardio/myocarditis/",
-    "patientNeed": "심근염의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
+    "patientNeed": "증상·심장 기능·리듬을 함께 보는 이유"
   },
   {
     "id": "cardio-pericarditis",
     "path": "/diseases/cardio/pericarditis/",
-    "patientNeed": "심낭염의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
+    "patientNeed": "심장 주변 막의 염증과 심낭액을 평가하는 이유, 흉통 치료와 추적검사의 목적을 이해한다."
   },
   {
     "id": "cardio-dilated-cardiomyopathy",
     "path": "/diseases/cardio/dilated-cardiomyopathy/",
-    "patientNeed": "확장성 심근병증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "심장 크기·수축 기능·가족력을 평가하는 이유"
   },
   {
     "id": "cardio-carotid-stenosis",
     "path": "/diseases/cardio/carotid-stenosis/",
-    "patientNeed": "경동맥 협착증의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "목 혈관 평가와 뇌졸중 증상 대처의 관계"
   },
   {
     "id": "cardio-peripheral-artery-disease",
     "path": "/diseases/cardio/peripheral-artery-disease/",
-    "patientNeed": "말초동맥질환의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "보행·휴식 시 다리 증상과 혈류 평가의 관계"
   },
   {
     "id": "cardio-deep-vein-thrombosis",
     "path": "/diseases/cardio/deep-vein-thrombosis/",
-    "patientNeed": "심부정맥혈전증의 의미와 원인, 증상, 진단·치료, 생활관리와 응급 신호를 확인하세요. 영통탑내과에서 가능한 평가와 상급병원 진료가 필요한 상황을 안내합니다."
+    "patientNeed": "한쪽 다리 증상과 폐색전 위험을 함께 보는 이유"
   },
   {
     "id": "cardio-aortic-aneurysm-dissection",
     "path": "/diseases/cardio/aortic-aneurysm-dissection/",
-    "patientNeed": "대동맥류·대동맥박리의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "대동맥류 추적과 급성 박리를 구분하기"
   },
   {
     "id": "cardio-orthostatic-hypotension",
     "path": "/diseases/cardio/orthostatic-hypotension/",
-    "patientNeed": "기립성 저혈압의 증상과 위험 신호를 이해하고 필요한 검사, 치료·추적관리 및 외래와 응급실·상급병원 이용을 구분한다."
+    "patientNeed": "자세 변화와 어지럼·낙상 위험의 관계"
   },
   {
     "id": "digestive-disease",
     "path": "/conditions/digestive/",
-    "patientNeed": "식도·위, 소장·대장·충수, 담낭·담도, 췌장, 간의 증상과 검사·진료를 안내합니다. 갑작스러운 복통이 있다면 먼저 위험 신호를 확인하세요."
+    "patientNeed": "소화기 증상에 따라 식도·위·장·담낭·췌장·간 중 관련 진료 안내를 찾는다."
   },
   {
     "id": "esophagus-stomach",
     "path": "/conditions/digestive/esophagus-stomach/",
-    "patientNeed": "속쓰림, 위산 역류, 소화불량과 삼킴 불편을 평가합니다. 증상 경과와 복용약을 확인하고 필요한 위내시경·조직검사와 치료를 상담하세요."
+    "patientNeed": "속쓰림·삼킴 곤란·명치 통증과 관련한 식도·위 평가와 내시경 역할을 알아본다."
   },
   {
     "id": "bowel-appendix",
     "path": "/conditions/digestive/bowel-appendix/",
-    "patientNeed": "설사·변비·혈변과 복통의 경과를 확인하고 장염, 염증성 장질환, 용종과 충수염 가능성을 평가합니다. 응급 수술이 필요한 복통은 신속히 의뢰합니다."
+    "patientNeed": "복통·배변 변화의 장질환 평가와 충수염·장폐색 등 응급 신호를 구분한다."
   },
   {
     "id": "biliary-disease",
     "path": "/conditions/digestive/gallbladder-bile-duct/",
-    "patientNeed": "담낭(쓸개)과 담도의 담석·염증·폐쇄 가능성을 확인합니다. 초음파와 혈액검사 결과, 통증·발열·황달 여부에 따라 추적 또는 상급병원 진료를 정합니다."
+    "patientNeed": "오른쪽 윗배 통증·황달·발열에서 담낭·담도 평가와 응급 의뢰가 필요한 경우를 알아본다."
   },
   {
     "id": "pancreatic-disease",
     "path": "/conditions/digestive/pancreas/",
-    "patientNeed": "췌장염이나 췌장 이상이 의심될 때 증상과 검사 결과를 함께 확인합니다. 심한 상복부 통증·구토는 응급 평가를 우선하고 정밀 영상검사가 필요하면 의뢰합니다."
+    "patientNeed": "췌장질환 의심 증상에서 혈액·초음파의 역할과 추가 영상검사·입원이 필요한 상황을 이해한다."
   },
   {
     "id": "neck-disease",
     "path": "/conditions/thyroid-carotid-neck/",
-    "patientNeed": "갑상선의 기능과 결절, 경동맥의 플라크·협착, 목에 만져지는 멍울을 구분해 안내합니다. 증상과 기존 결과에 맞춰 검사·치료·의뢰 계획을 확인하세요."
+    "patientNeed": "목의 멍울·갑상선·경동맥 중 목적에 맞는 진료와 초음파·혈액검사 안내를 찾는다."
   },
   {
     "id": "thyroid-disease",
     "path": "/conditions/thyroid-carotid-neck/thyroid/",
-    "patientNeed": "갑상선기능 이상과 갑상선 결절은 확인하는 검사가 다릅니다. 혈액검사와 초음파를 바탕으로 약물치료, 추적검사 또는 조직검사 의뢰를 상담하세요."
+    "patientNeed": "갑상선 기능 이상과 결절을 구분하고 혈액검사·초음파·약 조절의 역할을 이해한다."
   },
   {
     "id": "carotid-disease",
     "path": "/conditions/thyroid-carotid-neck/carotid/",
-    "patientNeed": "경동맥초음파에서 확인한 내중막 두께·플라크·협착과 혈류를 이해하고, 혈압·당뇨·흡연 등 위험요인의 관리와 전문 진료 필요성을 상담하세요."
+    "patientNeed": "경동맥 플라크·협착과 뇌혈관 위험인자 관리, 뇌졸중 의심 시 즉시 행동을 이해한다."
   },
   {
     "id": "neck-lump",
     "path": "/conditions/thyroid-carotid-neck/neck-lump/",
-    "patientNeed": "목의 멍울은 위치와 지속 기간, 크기 변화와 동반 증상에 따라 평가합니다. 갑상선·림프절 등의 원인을 구분하고 필요한 검사와 의뢰를 안내합니다."
+    "patientNeed": "목 멍울의 위치·변화·동반 증상을 정리하고 초음파와 추가 조직검사 의뢰의 이유를 알아본다."
   },
   {
     "id": "kidney-disease",
     "path": "/conditions/kidney/",
-    "patientNeed": "신장기능 저하, 단백뇨·혈뇨, 신우신염과 수신증을 평가합니다. 혈압·혈액·소변검사와 필요한 초음파를 바탕으로 치료와 상급병원 연계를 안내합니다."
+    "patientNeed": "소변 변화·옆구리 통증·부종에 따른 신장기능·감염·소변 흐름 문제의 평가를 알아본다."
   },
   {
     "id": "kidney-function",
     "path": "/conditions/kidney/function/",
-    "patientNeed": "고혈압·당뇨가 있거나 단백뇨·신장기능 이상을 들었다면 혈액·소변검사의 변화를 함께 확인하세요. 위험요인 관리와 추적검사의 목적을 안내합니다."
+    "patientNeed": "eGFR·단백뇨 추이로 신장기능을 보는 이유와 약·혈압·혈당·수분 관리 조건을 이해한다."
   },
   {
     "id": "pyelonephritis",
     "path": "/conditions/kidney/pyelonephritis/",
-    "patientNeed": "발열·오한과 옆구리 통증, 배뇨통이 있으면 신장까지 번진 요로감염을 확인해야 합니다. 검사와 항생제 치료, 입원이 필요한 상황을 안내합니다."
+    "patientNeed": "발열·옆구리 통증·배뇨 증상 때 신우신염 검사·치료와 입원이 필요한 신호를 이해한다."
   },
   {
     "id": "hydronephrosis",
     "path": "/conditions/kidney/hydronephrosis/",
-    "patientNeed": "수신증은 소변이 잘 배출되지 않아 신장 안에 고이는 소견입니다. 원인과 신장기능, 감염 여부를 확인하고 필요한 전문 치료와 이후 추적관리를 연결합니다."
+    "patientNeed": "초음파에서 보인 수신증의 원인과 추가 영상·상급병원 치료 및 추적검사 역할을 알아본다."
   },
   {
     "id": "ambulatory-blood-pressure",
     "path": "/services/heart/ambulatory-blood-pressure/",
-    "patientNeed": "반지형 CART BP Pro를 약 24시간 착용해 일상생활과 수면 중 혈압을 기록합니다. 진료실과 생활 속 혈압 차이, 결과 확인과 홀터검사와의 차이를 안내합니다."
+    "patientNeed": "반지형 기기로 24시간 혈압을 기록해 진료실 밖 혈압을 평가하는 과정과 반납 후 결과 시간을 파악한다."
   },
   {
     "id": "symptom-cardio-chest-pressure-sweating",
     "path": "/symptoms/cardio/chest-pressure-sweating/",
-    "patientNeed": "가슴 압박감에 식은땀이 동반되면 심장 응급질환 가능성을 먼저 살펴야 합니다. 증상이 지속되거나 숨참·어지럼이 함께 있으면 내과 외래를 기다리지 말고 119에 연락하세요."
+    "patientNeed": "현재 응급 도움을 받아야 하는 상황과 외래 안내의 경계를 알기"
   },
   {
     "id": "symptom-cardio-chest-tightness-causes",
     "path": "/symptoms/cardio/chest-tightness-causes/",
-    "patientNeed": "가슴 답답함은 심장·폐·위식도 등 여러 원인에서 생깁니다. 식사나 호흡과의 관계는 진료의 단서이지만, 느낌만으로 원인을 확정할 수 없습니다."
+    "patientNeed": "심장·폐·위식도 원인을 진료에서 어떻게 구분하는지 이해하기"
   },
   {
     "id": "symptom-cardio-epigastric-pain-heart",
     "path": "/symptoms/cardio/epigastric-pain-heart/",
-    "patientNeed": "명치의 불편함이나 소화불량처럼 느껴지는 증상이 심장 문제와 동반될 수 있습니다. 식은땀·숨참·가슴 압박감이 함께 있다면 위장약의 효과를 기다리지 마세요."
+    "patientNeed": "명치 통증에서 심장 평가도 필요한 이유와 급한 신호 알기"
   },
   {
     "id": "symptom-cardio-exertional-chest-pain",
     "path": "/symptoms/cardio/exertional-chest-pain/",
-    "patientNeed": "걷거나 계단을 오를 때 생기는 가슴통증은 진료가 필요합니다. 새로 생긴 통증, 쉬어도 지속되는 통증은 예정된 검사보다 긴급 평가를 우선합니다."
+    "patientNeed": "운동 중 흉통의 초기 평가와 추가 검사의 역할 알기"
   },
   {
     "id": "symptom-cardio-recurrent-palpitations-normal-ecg",
     "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
-    "patientNeed": "진료실 심전도가 정상이더라도 간헐적인 부정맥은 기록되지 않았을 수 있습니다. 처음 결과를 들었다면 검사 순간에 평소 두근거림이 있었는지부터 확인하세요."
+    "patientNeed": "정상 심전도 이후에도 증상이 반복되는 이유 이해하기"
   },
   {
     "id": "symptom-cardio-irregular-skipped-heartbeat",
     "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
-    "patientNeed": "맥박이 빠지거나 불규칙한 느낌만으로 심방세동과 조기수축을 구분하기는 어렵습니다. 증상 당시의 심전도 기록과 진료를 통해 리듬을 확인합니다."
+    "patientNeed": "심방세동·조기수축의 차이와 심전도 기록의 역할 이해하기"
   },
   {
     "id": "symptom-cardio-rapid-heart-rate",
     "path": "/symptoms/cardio/rapid-heart-rate/",
-    "patientNeed": "맥박은 운동·긴장·발열 등으로 빨라질 수 있지만 안정 중에도 빠르게 뛰거나 반복되면 진료가 필요합니다. 위험성은 숫자 하나보다 동반 증상과 리듬으로 판단합니다."
+    "patientNeed": "빠른 맥박이 생긴 상황에 따라 필요한 행동 알기"
   },
   {
     "id": "symptom-cardio-slow-heart-rate-dizziness",
     "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
-    "patientNeed": "느린 맥박에 어지럼이나 기운 빠짐이 동반되면 약물 영향과 심장 전도 이상 등을 확인해야 합니다. 평소 운동량이 많다는 이유만으로 증상을 넘기지 마세요."
+    "patientNeed": "약물·평소 맥박과 새 어지럼 증상을 구분해 전달하기"
   },
   {
     "id": "symptom-cardio-presyncope-cardiac-evaluation",
     "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
-    "patientNeed": "쓰러질 듯한 느낌은 실제 실신 전 단계일 수 있습니다. 자세 변화·탈수·약물 등과 심장 원인을 함께 살피며, 운동 중 발생하거나 흉통이 동반되면 긴급 평가가 필요합니다."
+    "patientNeed": "쓰러질 듯한 어지럼에서 심장 평가가 필요한 단서 알기"
   },
   {
     "id": "symptom-cardio-syncope-emergency",
     "path": "/symptoms/cardio/syncope-emergency/",
-    "patientNeed": "실신 후 깨어났더라도 운동 중 발생, 흉통·두근거림 동반, 심한 부상 또는 회복 지연이 있으면 응급 평가가 필요합니다. 처음 원인 모를 실신을 했다면 진료를 받으세요."
+    "patientNeed": "실신 후 회복 여부와 동반 상황에 따른 진료 필요 이해하기"
   },
   {
     "id": "symptom-cardio-exertional-dyspnea",
     "path": "/symptoms/cardio/exertional-dyspnea/",
-    "patientNeed": "평소 가능하던 짧은 보행에도 숨이 차면 심장·폐 질환과 빈혈 등 여러 원인을 확인합니다. 갑자기 심해지거나 가만히 있어도 숨이 차면 긴급 도움을 요청하세요."
+    "patientNeed": "심장·폐·빈혈을 살피는 이유와 검사 목적 이해하기"
   },
   {
     "id": "symptom-cardio-orthopnea-leg-edema",
     "path": "/symptoms/cardio/orthopnea-leg-edema/",
-    "patientNeed": "누우면 숨이 차서 베개를 더 높이거나 밤중에 숨이 차 깨고 다리가 붓는다면 진료를 서두르세요. 심부전의 단서일 수 있지만 증상만으로 확진하지 않습니다."
+    "patientNeed": "눕기 어려운 숨참과 부종을 함께 보는 이유 알기"
   },
   {
     "id": "symptom-cardio-leg-edema-dyspnea",
     "path": "/symptoms/cardio/leg-edema-dyspnea/",
-    "patientNeed": "다리 부종과 숨참이 함께 생기면 전신 상태를 평가해야 합니다. 한쪽 다리가 갑자기 붓고 아프면서 숨이 차거나 흉통이 있으면 즉시 119에 연락하세요."
+    "patientNeed": "부종·숨참을 평가하는 실제 흐름 알기"
   },
   {
     "id": "symptom-cardio-rapid-weight-gain-edema",
     "path": "/symptoms/cardio/rapid-weight-gain-edema/",
-    "patientNeed": "짧은 기간의 체중 증가에 부종이나 숨참이 동반되면 체액이 쌓이는지 확인해야 합니다. 식사량 변화만으로 설명하지 말고 최근 측정값과 증상을 진료 때 알려주세요."
+    "patientNeed": "체중 증가와 체액 변화를 구분해 보는 이유 이해하기"
   },
   {
     "id": "symptom-cardio-fatigue-exercise-intolerance",
     "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
-    "patientNeed": "쉽게 지치고 평소 하던 활동이 어려워지면 수면·생활 변화와 빈혈·갑상선·심장 문제 등을 함께 살핍니다. 피로만으로 특정 질환이나 필요한 검사를 정하지 않습니다."
+    "patientNeed": "피로와 운동능력 저하에서 원인 평가가 필요한 이유 알기"
   },
   {
     "id": "symptom-cardio-blood-pressure-180",
     "path": "/symptoms/cardio/blood-pressure-180/",
-    "patientNeed": "수축기 혈압 180 mmHg 이상 또는 이완기 120 mmHg 이상이면 동반 증상을 먼저 확인하세요. 흉통·숨참·마비·말 어눌함·시야 변화가 있으면 재측정 때문에 지체하지 말고 119에 연락합니다."
+    "patientNeed": "높게 측정된 혈압과 동반 증상에 따른 행동 구분하기"
   },
   {
     "id": "symptom-cardio-orthostatic-dizziness-low-bp",
     "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
-    "patientNeed": "일어설 때 눈앞이 어두워지거나 어지러우면 자세에 따른 혈압 변화와 탈수·약물 등을 확인합니다. 평소 혈압이 낮다는 이유만으로 모든 어지럼을 설명할 수는 없습니다."
+    "patientNeed": "자세에 따른 어지럼과 약 조정 평가의 관계 이해하기"
   },
   {
     "id": "symptom-cardio-valve-regurgitation-follow-up",
     "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
-    "patientNeed": "심장초음파에서 판막 역류가 처음 발견되면 어느 판막인지, 역류 정도와 심장 기능이 어떤지 확인하세요. 다음 검사 날짜는 결과와 증상 변화를 함께 보고 정합니다."
+    "patientNeed": "판막 역류 결과지와 다음 검사 계획의 관계 이해하기"
   },
   {
     "id": "symptom-cardio-family-history-heart-disease",
     "path": "/symptoms/cardio/family-history-heart-disease/",
-    "patientNeed": "가족에게 심장병이 있다면 정확한 병명과 진단받은 나이를 먼저 확인하세요. 가족력만으로 모두 같은 검사를 받기보다 본인의 증상과 위험요인을 함께 평가합니다."
+    "patientNeed": "가족의 병명·발병 나이에 따라 본인 평가가 달라짐을 이해하기"
   },
   {
     "id": "symptom-cardio-radiating-chest-pain-119",
     "path": "/symptoms/cardio/radiating-chest-pain-119/",
-    "patientNeed": "가슴통증이 팔·턱·등으로 퍼지고 지속되거나 식은땀·숨참이 동반되면 즉시 119에 연락하세요. 집에서 통증의 원인을 구분하려다 진료가 늦어지지 않도록 합니다."
+    "patientNeed": "퍼지는 가슴통증과 위험 신호에서 필요한 행동 알기"
   },
   {
     "id": "copyright-policy",
     "path": "/copyright/",
-    "patientNeed": "환자가 홈페이지 글과 이미지의 공유·인용 및 재사용 조건과 문의 방법을 이해한다."
+    "patientNeed": "건강정보 링크 공유·인용과 허락이 필요한 복제·이미지 이용을 구분한다."
   }
 ]

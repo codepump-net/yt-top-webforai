@@ -1,6 +1,6 @@
 {
   "site": "https://codepump-net.github.io/yt-top-webforai/",
-  "version": "2026-09-25-v3",
+  "version": "2026-09-28-v4",
   "originalSites": [
     "https://yttop.co.kr/",
     "http://yttop.co.kr/",
@@ -11,7 +11,7 @@
     "영통탑내과",
     "영통 탑내과"
   ],
-  "selection": "Editorial evaluation set extended from the director manuscript; no search-frequency, independent demand or observed exposure claim.",
+  "selection": "Editorial evaluation set: previous 53 questions retained and 20 distinct symptom-page questions added. No search-frequency, independent demand, indexing or AI citation result is claimed.",
   "frequencyEvidence": null,
   "queries": [
     {
@@ -328,6 +328,106 @@
       "id": "director-obesity-medication",
       "query": "정상체중인데 미용 목적으로 비만치료 주사를 써도 되나요?",
       "target": "/health/obesity-medication/"
+    },
+    {
+      "id": "symptom-chest-pressure-sweating",
+      "query": "가슴이 조이고 식은땀이 날 때, 내과로 가도 될까요?",
+      "target": "/symptoms/cardio/chest-pressure-sweating/"
+    },
+    {
+      "id": "symptom-chest-tightness-causes",
+      "query": "가슴이 답답할 때 심장·폐·위식도 원인을 어떻게 구분하나요?",
+      "target": "/symptoms/cardio/chest-tightness-causes/"
+    },
+    {
+      "id": "symptom-epigastric-pain-heart",
+      "query": "명치 통증이 위염이 아니라 심장 문제일 수 있나요?",
+      "target": "/symptoms/cardio/epigastric-pain-heart/"
+    },
+    {
+      "id": "symptom-exertional-chest-pain",
+      "query": "운동할 때 가슴통증이 생기면 협심증 검사부터 해야 하나요?",
+      "target": "/symptoms/cardio/exertional-chest-pain/"
+    },
+    {
+      "id": "symptom-recurrent-palpitations-normal-ecg",
+      "query": "두근거림이 반복되는데 심전도는 정상입니다. 부정맥이 아닌가요?",
+      "target": "/symptoms/cardio/recurrent-palpitations-normal-ecg/"
+    },
+    {
+      "id": "symptom-irregular-skipped-heartbeat",
+      "query": "맥박이 불규칙하고 건너뛰는 느낌, 심방세동이나 조기수축일까요?",
+      "target": "/symptoms/cardio/irregular-skipped-heartbeat/"
+    },
+    {
+      "id": "symptom-rapid-heart-rate",
+      "query": "맥박이 빠를 때 단순 긴장인지 위험한 빈맥인지 확인하는 법",
+      "target": "/symptoms/cardio/rapid-heart-rate/"
+    },
+    {
+      "id": "symptom-slow-heart-rate-dizziness",
+      "query": "맥박이 느리고 어지러울 때 약 때문인지 심장 문제인지",
+      "target": "/symptoms/cardio/slow-heart-rate-dizziness/"
+    },
+    {
+      "id": "symptom-presyncope-cardiac-evaluation",
+      "query": "어지럽고 쓰러질 것 같은 느낌, 심장검사가 필요한 경우는?",
+      "target": "/symptoms/cardio/presyncope-cardiac-evaluation/"
+    },
+    {
+      "id": "symptom-syncope-emergency",
+      "query": "실신했을 때 반드시 응급실로 가야 하는 경우",
+      "target": "/symptoms/cardio/syncope-emergency/"
+    },
+    {
+      "id": "symptom-exertional-dyspnea",
+      "query": "조금만 걸어도 숨이 찰 때 심장·폐·빈혈을 어떻게 구분하나요?",
+      "target": "/symptoms/cardio/exertional-dyspnea/"
+    },
+    {
+      "id": "symptom-orthopnea-leg-edema",
+      "query": "누우면 숨이 차고 다리가 붓습니다. 심부전을 의심해야 하나요?",
+      "target": "/symptoms/cardio/orthopnea-leg-edema/"
+    },
+    {
+      "id": "symptom-leg-edema-dyspnea",
+      "query": "다리가 붓고 숨이 찰 때, 응급 신호와 심장·신장·간 평가",
+      "target": "/symptoms/cardio/leg-edema-dyspnea/"
+    },
+    {
+      "id": "symptom-rapid-weight-gain-edema",
+      "query": "갑자기 체중이 늘고 붓는다면 지방보다 체액을 먼저 확인해야 하나요?",
+      "target": "/symptoms/cardio/rapid-weight-gain-edema/"
+    },
+    {
+      "id": "symptom-fatigue-exercise-intolerance",
+      "query": "쉽게 지치고 운동능력이 떨어질 때 심장·빈혈·갑상선을 확인하는 이유",
+      "target": "/symptoms/cardio/fatigue-exercise-intolerance/"
+    },
+    {
+      "id": "symptom-blood-pressure-180",
+      "query": "혈압이 180 이상이면 모두 응급실로 가야 하나요?",
+      "target": "/symptoms/cardio/blood-pressure-180/"
+    },
+    {
+      "id": "symptom-orthostatic-dizziness-low-bp",
+      "query": "혈압이 낮고 일어설 때 어지러운 원인과 약 조정이 필요한 경우",
+      "target": "/symptoms/cardio/orthostatic-dizziness-low-bp/"
+    },
+    {
+      "id": "symptom-valve-regurgitation-follow-up",
+      "query": "판막 역류가 발견됐을 때 증상과 심장초음파 추적간격을 정하는 법",
+      "target": "/symptoms/cardio/valve-regurgitation-follow-up/"
+    },
+    {
+      "id": "symptom-family-history-heart-disease",
+      "query": "부모님이 심장병이면 자녀는 어떤 검사와 위험인자 관리를 해야 하나요?",
+      "target": "/symptoms/cardio/family-history-heart-disease/"
+    },
+    {
+      "id": "symptom-radiating-chest-pain-119",
+      "query": "가슴통증이 등·턱·팔로 퍼질 때 즉시 119에 연락해야 하는 경우",
+      "target": "/symptoms/cardio/radiating-chest-pain-119/"
     }
   ]
 }

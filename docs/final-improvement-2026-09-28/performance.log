@@ -1,0 +1,7 @@
+
+> yeongtong-top-clinic@1.0.0 test:performance
+> node scripts/performance.mjs /fees/ /services/heart/ /health/colonoscopy-preparation-questions/
+
+fees/ {"performance":100,"accessibility":100,"best-practices":100,"seo":69} LCP=1738ms CLS=0
+services/heart/ {"performance":98,"accessibility":100,"best-practices":100,"seo":69} LCP=2345ms CLS=0
+health/colonoscopy-preparation-questions/ {"performance":99,"accessibility":100,"best-practices":100,"seo":69} LCP=2112ms CLS=0

@@ -1,0 +1,12 @@
+
+> yeongtong-top-clinic@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.0 /Users/nnnceo/Workspace/yt-top-webforai/web
+
+
+ Test Files  11 passed (11)
+      Tests  71 passed (71)
+   Start at  04:10:59
+   Duration  846ms (transform 36%, tests 35%, import 28%, worker 1%)

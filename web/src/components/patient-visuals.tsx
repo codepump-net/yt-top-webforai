@@ -3,6 +3,13 @@ import assets from '../../../content/assets.json';
 import { href } from '@/lib/site';
 import { ZoomImage } from './zoom-image';
 
+const diagramTextTitles: Record<string, string> = {
+  'heart-flow': '증상에 따라 선택하는 검사',
+  'endoscopy-preparation': '검사 종류별 준비',
+  'after-endoscopy': '식사와 생활 관리',
+  'checkup-flow': '검진별 준비와 결과',
+};
+
 export function PatientBanner({ pageId }: { pageId: string }) {
   const visual = visuals.banners.find((v) => v.pageId === pageId);
   if (!visual) return null;
@@ -36,7 +43,7 @@ export function PatientDiagram({ pageId }: { pageId: string }) {
         caption={visual.caption}
       />
       <div className="diagram-text">
-        <h3>관련 검사·준비 안내</h3>
+        <h3>{diagramTextTitles[visual.id]}</h3>
         <ol>
           {visual.steps.map((step) => (
             <li key={step.title}>

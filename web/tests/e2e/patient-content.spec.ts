@@ -44,8 +44,7 @@ test('patient search and sitemap exclude the retired policy and local article co
     await expect(page.locator('a[href*="content-policy"]')).toHaveCount(0);
     await expect(page.locator('main a[href*="/cases/"]')).toHaveCount(0);
     await expect(page.locator('.review-bar')).toHaveCount(0);
-    await expect(page.locator('footer')).toContainText(
-      '영통탑내과의 진료·검사와 방문을 안내합니다.',
-    );
+    await expect(page.locator('footer')).toContainText('영통탑내과의원');
+    await expect(page.locator('footer a[href$="/copyright/"]')).toBeVisible();
   }
 });

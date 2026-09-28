@@ -1,0 +1,416 @@
+[
+  {
+    "queryId": "symptom-chest-pressure-sweating",
+    "pageId": "symptom-cardio-chest-pressure-sweating",
+    "target": "/symptoms/cardio/chest-pressure-sweating/",
+    "question": "가슴이 조이고 식은땀이 날 때, 내과로 가도 될까요?",
+    "requiredAnswer": "지속 가슴 압박감·식은땀과 숨참/어지럼이면 119; 외래 예약보다 응급평가",
+    "doNotAssert": "기록을 준비하느라 응급 도움 지연",
+    "scope": "검사 결과를 받은 사람을 가정한 공통 마무리 제거",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/heart-attack/symptoms",
+      "https://www.nhs.uk/symptoms/chest-pain/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-chest-tightness-causes",
+    "pageId": "symptom-cardio-chest-tightness-causes",
+    "target": "/symptoms/cardio/chest-tightness-causes/",
+    "question": "가슴이 답답할 때 심장·폐·위식도 원인을 어떻게 구분하나요?",
+    "requiredAnswer": "운동·호흡·식후 양상이 각각 심장·폐/흉막·위식도 평가의 단서; 겹칠 수 있음",
+    "doNotAssert": "증상표만으로 원인 확진",
+    "scope": "증상만으로 병명을 고르는 자가진단표로 만들지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/symptoms/chest-pain/",
+      "https://www.nhs.uk/symptoms/shortness-of-breath/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-epigastric-pain-heart",
+    "pageId": "symptom-cardio-epigastric-pain-heart",
+    "target": "/symptoms/cardio/epigastric-pain-heart/",
+    "question": "명치 통증이 위염이 아니라 심장 문제일 수 있나요?",
+    "requiredAnswer": "심근경색도 명치·소화불량처럼 나타남; 식은땀·숨참 동반이면 119",
+    "doNotAssert": "위장약 반응으로 심장질환 배제",
+    "scope": "위장약 반응으로 심장 문제를 배제한다는 인상을 피함",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/heart-attack/symptoms"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-exertional-chest-pain",
+    "pageId": "symptom-cardio-exertional-chest-pain",
+    "target": "/symptoms/cardio/exertional-chest-pain/",
+    "question": "운동할 때 가슴통증이 생기면 협심증 검사부터 해야 하나요?",
+    "requiredAnswer": "현재 지속 통증은 긴급평가; 안정적인 운동성 흉통은 진찰·심전도와 위험인자 후 필요한 추가검사",
+    "doNotAssert": "모든 사람에게 CT나 모든 심장검사가 필수",
+    "scope": "모든 사람이 같은 심장검사를 순서대로 받는 형태를 피함",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/conditions/angina/",
+      "https://www.nhs.uk/symptoms/chest-pain/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-recurrent-palpitations-normal-ecg",
+    "pageId": "symptom-cardio-recurrent-palpitations-normal-ecg",
+    "target": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+    "question": "두근거림이 반복되는데 심전도는 정상입니다. 부정맥이 아닌가요?",
+    "requiredAnswer": "짧은 심전도 때 없던 간헐적 부정맥; 홀터와 증상 시각 대조",
+    "doNotAssert": "정상 심전도로 부정맥 모두 배제",
+    "scope": "새 증상 설명과 이미 여러 검사를 받은 환자의 재상담 안내를 구분",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis",
+      "https://www.nhs.uk/symptoms/heart-palpitations/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-irregular-skipped-heartbeat",
+    "pageId": "symptom-cardio-irregular-skipped-heartbeat",
+    "target": "/symptoms/cardio/irregular-skipped-heartbeat/",
+    "question": "맥박이 불규칙하고 건너뛰는 느낌, 심방세동이나 조기수축일까요?",
+    "requiredAnswer": "심방세동의 불규칙한 전기 신호와 조기수축의 이른 박동 차이; 심전도로 구분",
+    "doNotAssert": "느낌만으로 약 또는 병명 결정",
+    "scope": "약 복용 금지문으로 두 질환 설명을 대신하지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/arrhythmias/types",
+      "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-rapid-heart-rate",
+    "pageId": "symptom-cardio-rapid-heart-rate",
+    "target": "/symptoms/cardio/rapid-heart-rate/",
+    "question": "맥박이 빠를 때 단순 긴장인지 위험한 빈맥인지 확인하는 법",
+    "requiredAnswer": "운동·긴장·발열 반응과 갑자기 시작·끝나거나 안정 시 지속하는 양상 비교; 동반 위험 신호",
+    "doNotAssert": "맥박 수치 하나로 위험 확정",
+    "scope": "숫자 하나로 안전하다고 보장하거나 일반인에게 자가 처치를 지시하지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/symptoms/heart-palpitations/",
+      "https://www.nhlbi.nih.gov/health/arrhythmias/types"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-slow-heart-rate-dizziness",
+    "pageId": "symptom-cardio-slow-heart-rate-dizziness",
+    "target": "/symptoms/cardio/slow-heart-rate-dizziness/",
+    "question": "맥박이 느리고 어지러울 때 약 때문인지 심장 문제인지",
+    "requiredAnswer": "운동/수면의 느린 맥박과 새 증상 구분; 약물·전도 평가; 실신·흉통·심한 숨참은 응급",
+    "doNotAssert": "운동선수라는 이유로 새 실신을 정상 취급",
+    "scope": "운동하는 환자의 태도를 비판하는 문장을 중립적으로 편집",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/arrhythmias/types",
+      "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-presyncope-cardiac-evaluation",
+    "pageId": "symptom-cardio-presyncope-cardiac-evaluation",
+    "target": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+    "question": "어지럽고 쓰러질 것 같은 느낌, 심장검사가 필요한 경우는?",
+    "requiredAnswer": "자세·탈수·약과 심장 원인; 운동 중 발생·흉통 동반은 긴급 평가",
+    "doNotAssert": "모든 어지럼에 모든 심장검사 권유",
+    "scope": "급한 상황에 기록부터 준비하도록 안내하지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/conditions/fainting/",
+      "https://www.nhs.uk/conditions/low-blood-pressure-hypotension/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-syncope-emergency",
+    "pageId": "symptom-cardio-syncope-emergency",
+    "target": "/symptoms/cardio/syncope-emergency/",
+    "question": "실신했을 때 반드시 응급실로 가야 하는 경우",
+    "requiredAnswer": "운동 중 실신·흉통/두근거림·심한 부상·회복 지연은 응급평가",
+    "doNotAssert": "깨어났으므로 진료 불필요",
+    "scope": "과거 검사 정상이라는 공통 결론으로 마무리하지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/conditions/fainting/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-exertional-dyspnea",
+    "pageId": "symptom-cardio-exertional-dyspnea",
+    "target": "/symptoms/cardio/exertional-dyspnea/",
+    "question": "조금만 걸어도 숨이 찰 때 심장·폐·빈혈을 어떻게 구분하나요?",
+    "requiredAnswer": "심장 펌프·폐 가스교환·빈혈 산소 운반의 차이와 검사 역할; 안정 시 심한 숨참 응급",
+    "doNotAssert": "증상만으로 심부전 확진",
+    "scope": "병명·검사명을 나열하고 모두 검사하지 않는다는 말로 끝내지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/symptoms/shortness-of-breath/",
+      "https://www.nhlbi.nih.gov/health/heart-failure/symptoms"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-orthopnea-leg-edema",
+    "pageId": "symptom-cardio-orthopnea-leg-edema",
+    "target": "/symptoms/cardio/orthopnea-leg-edema/",
+    "question": "누우면 숨이 차고 다리가 붓습니다. 심부전을 의심해야 하나요?",
+    "requiredAnswer": "누울 때 숨참과 부종의 심부전 단서; 초음파/X선/혈액을 증상별 선택",
+    "doNotAssert": "부종만으로 심부전 확진",
+    "scope": "개별 진단 확정 대신 증상이 평가로 이어지는 이유를 제공",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/heart-failure/symptoms"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-leg-edema-dyspnea",
+    "pageId": "symptom-cardio-leg-edema-dyspnea",
+    "target": "/symptoms/cardio/leg-edema-dyspnea/",
+    "question": "다리가 붓고 숨이 찰 때, 응급 신호와 심장·신장·간 평가",
+    "requiredAnswer": "한쪽 통증성 부종과 숨참/흉통이면 119; 안정 시 심장·신장·간 평가",
+    "doNotAssert": "모든 환자에게 동일 장기 검사 순서",
+    "scope": "제목에서 장기별 고정 검사 순서를 약속하지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/conditions/oedema/",
+      "https://www.nhs.uk/symptoms/shortness-of-breath/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-rapid-weight-gain-edema",
+    "pageId": "symptom-cardio-rapid-weight-gain-edema",
+    "target": "/symptoms/cardio/rapid-weight-gain-edema/",
+    "question": "갑자기 체중이 늘고 붓는다면 지방보다 체액을 먼저 확인해야 하나요?",
+    "requiredAnswer": "빠른 체중 증가와 부종·소변량·숨참은 체액 평가 단서; 같은 조건 체중 기록",
+    "doNotAssert": "체중 증가만으로 이뇨제 자가 증량",
+    "scope": "일반 독자와 이미 심부전 치료 중인 독자를 구분",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/heart-failure/symptoms",
+      "https://www.nhs.uk/conditions/oedema/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-fatigue-exercise-intolerance",
+    "pageId": "symptom-cardio-fatigue-exercise-intolerance",
+    "target": "/symptoms/cardio/fatigue-exercise-intolerance/",
+    "question": "쉽게 지치고 운동능력이 떨어질 때 심장·빈혈·갑상선을 확인하는 이유",
+    "requiredAnswer": "심장 혈액공급·빈혈 산소운반·갑상선 대사 연결; 동반증상 따라 평가",
+    "doNotAssert": "피로만으로 심장병 또는 영양주사 필요 단정",
+    "scope": "영양제·수액을 원하는 동기를 추정하는 문구 제거",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/symptoms/tiredness-and-fatigue/",
+      "https://www.nhlbi.nih.gov/health/heart-failure/symptoms"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-blood-pressure-180",
+    "pageId": "symptom-cardio-blood-pressure-180",
+    "target": "/symptoms/cardio/blood-pressure-180/",
+    "question": "혈압이 180 이상이면 모두 응급실로 가야 하나요?",
+    "requiredAnswer": "수축기180 또는 이완기120 이상에서 흉통·마비·시야변화 등 있으면 119; 증상 없는 재측정 구분",
+    "doNotAssert": "수치만으로 모두 응급실 또는 모두 안전",
+    "scope": "기준 수치·재측정·진료 시점은 현재 근거와 의료 검토로 확인",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/hypertensive-crisis-when-you-should-call-911-for-high-blood-pressure"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-orthostatic-dizziness-low-bp",
+    "pageId": "symptom-cardio-orthostatic-dizziness-low-bp",
+    "target": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+    "question": "혈압이 낮고 일어설 때 어지러운 원인과 약 조정이 필요한 경우",
+    "requiredAnswer": "누움/일어섬 혈압·맥박 비교; 탈수·복용약 평가; 심장·신장질환 수분 조건",
+    "doNotAssert": "모든 환자에게 물/소금 증량 또는 약 중단",
+    "scope": "낮은 혈압이면 무조건 수분·소금을 늘리라는 일반화 금지",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/conditions/low-blood-pressure-hypotension/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-valve-regurgitation-follow-up",
+    "pageId": "symptom-cardio-valve-regurgitation-follow-up",
+    "target": "/symptoms/cardio/valve-regurgitation-follow-up/",
+    "question": "판막 역류가 발견됐을 때 증상과 심장초음파 추적간격을 정하는 법",
+    "requiredAnswer": "판막 종류·정도·심장기능·증상으로 결정; 무증상 승모판 역류의 조건부 참고 범위",
+    "doNotAssert": "승모판 기준을 모든 판막/수술후/임신에 적용",
+    "scope": "확인되지 않은 추적 주기를 임의의 숫자로 제시하지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhs.uk/conditions/heart-valve-disease/",
+      "https://www.bsecho.org/common/Uploaded%20files/Education/Posters/PUE004_Clinical-indications-triage_Heart-valve-disease_print.pdf"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-family-history-heart-disease",
+    "pageId": "symptom-cardio-family-history-heart-disease",
+    "target": "/symptoms/cardio/family-history-heart-disease/",
+    "question": "부모님이 심장병이면 자녀는 어떤 검사와 위험인자 관리를 해야 하나요?",
+    "requiredAnswer": "병명·발병나이·혈연관계; 관상동맥 위험인자와 심근병증/급사 가족 평가 구분",
+    "doNotAssert": "가족력만으로 모든 자녀에게 같은 검사",
+    "scope": "가족력만으로 전원 동일 검사 또는 긴급 진료 대상으로 만들지 않음",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/coronary-heart-disease/causes"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  },
+  {
+    "queryId": "symptom-radiating-chest-pain-119",
+    "pageId": "symptom-cardio-radiating-chest-pain-119",
+    "target": "/symptoms/cardio/radiating-chest-pain-119/",
+    "question": "가슴통증이 등·턱·팔로 퍼질 때 즉시 119에 연락해야 하는 경우",
+    "requiredAnswer": "지속 방사통과 식은땀/숨참, 갑작스런 심한 가슴·등 통증에서 즉시119; 직접운전 회피",
+    "doNotAssert": "119 연락을 단순 선택사항으로 약화",
+    "scope": "응급 안내 다음에 통상 예약검사 문구가 우선 행동처럼 붙지 않게 점검",
+    "evidenceBlockIds": [
+      "understand",
+      "evaluation",
+      "prepare",
+      "next-step"
+    ],
+    "sourceUrls": [
+      "https://www.nhlbi.nih.gov/health/heart-attack/symptoms",
+      "https://www.nhs.uk/symptoms/chest-pain/"
+    ],
+    "assessment": "원고에서 답과 조건 대조; 의료 검토는 미완료",
+    "exposureObservation": null
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-09-28",
+  "checks": {
+    "allSourceTextPointersMatch": 4848,
+    "uniqueReviewedTextUnits": 5241,
+    "findingsWithSourceReferences": 139,
+    "pageReviews": 129,
+    "flaggedTextUnits": 525,
+    "pendingReviews": 0,
+    "staticHtmlFilesMatchManifest": 129,
+    "unmatchedRenderedTextPairs": 0,
+    "faqBodyAndJsonLdPairsMatch": 152,
+    "contentAndWebGitDiffEmpty": true
+  },
+  "scope": "Internal audit artifacts only; no public source edits, commit, push, or deployment. Existing plan worktree changes preserved."
+}

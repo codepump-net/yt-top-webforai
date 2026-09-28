@@ -77,10 +77,10 @@ test('home notices precede visit information and retain original announcement ch
   await expect(page.locator('a[href="https://yttop.co.kr/44"]').first()).toBeVisible();
   await expect(
     page.locator('#notice-2026-gyeonggi-student-influenza .notice-availability'),
-  ).toContainText('전화로 확인');
+  ).toContainText('참여 여부');
   await expect(
     page.locator('#notice-2026-suwon-shingles-support .notice-availability'),
-  ).toContainText('전화로 확인');
+  ).toContainText('참여 여부');
   await expect(
     page.locator('#notice-2026-09-17-infection-guide a[href*="down_supple_pdf"]'),
   ).toContainText('PDF');
@@ -140,7 +140,7 @@ test('figures work with keyboard, mobile layout and readable text equivalents', 
         await page.keyboard.press('Escape');
         await expect(dialog).not.toBeVisible();
         await expect(trigger).toBeFocused();
-        await expect(page.locator('.diagram-text li')).toHaveCount(4);
+        await expect(page.locator('.diagram-text li')).toHaveCount(6);
         await page
           .locator('.patient-diagram')
           .screenshot({ path: `reports/director-afternoon/heart-diagram-${width}.png` });
@@ -167,7 +167,10 @@ test('notice source links, figures and all new guides remain usable without Java
   await page.goto(url('/symptoms/'));
   await expect(page.locator('.result-card[href*="/symptoms/cardio/"]')).toHaveCount(20);
   await page.goto(url('/services/endoscopy/'));
-  await expect(page.locator('.diagram-text')).toContainText('약은 임의로 중단하지 않습니다');
+  await expect(page.locator('.diagram-text')).toContainText('항혈전제·당뇨약');
+  await expect(page.locator('.diagram-text')).toContainText(
+    '약의 중단·복용 일정은 검사 전에 개별적으로 정합니다',
+  );
   const imageLink = page.locator('.patient-diagram .image-enlarge');
   expect((await page.request.get((await imageLink.getAttribute('href'))!)).status()).toBe(200);
   await page.goto(url('/notices/'));

@@ -1,0 +1,1521 @@
+{
+  "auditDate": "2026-09-28",
+  "basis": "local current source and matching static review export; not a live-site crawl",
+  "gitHead": "7864100aa9e0a772a5926282ed09decf189357ae",
+  "buildMatch": {
+    "currentContentDigest": "4b4c844cba16a3565d8fe1dbade956f4f8460926cec19d84c3e38ddfe9c4feb0",
+    "buildContentDigest": "4b4c844cba16a3565d8fe1dbade956f4f8460926cec19d84c3e38ddfe9c4feb0",
+    "matches": true,
+    "routeCount": 129,
+    "mode": "review",
+    "basePath": "/yt-top-webforai",
+    "builtAt": "2026-09-27T15:55:48.060Z"
+  },
+  "counts": {
+    "routesReviewed": 129,
+    "sourceUnits": 4848,
+    "interfaceUnits": 384,
+    "imageOverlayUnits": 9,
+    "totalUnits": 5241,
+    "flaggedUnits": 525,
+    "findings": 139,
+    "pageSpecificFindingPages": 98,
+    "renderedUniqueTypeTextPairs": 4758,
+    "faqPairsMatchedInBodyAndStructuredData": 152,
+    "articleFooterPages": 116,
+    "patientNeedCopiedFromIntroOrDescription": 102,
+    "priority": {
+      "P2": 60,
+      "P1": 79
+    },
+    "kinds": {
+      "중복": 12,
+      "문맥불일치": 18,
+      "답변회피": 31,
+      "정보확인필요": 4,
+      "요구사항대체": 37,
+      "방어적표현": 32,
+      "정보위계": 5
+    }
+  },
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "sha256": "8d949d24bbf978f9f235071ceff626c2a9644d0a4c3a9bc65d36c11df5a6ba76",
+      "matchesManifest": true
+    },
+    {
+      "id": "not-found",
+      "path": "/404.html",
+      "sha256": "a650f0620002969b9f13bdf924433b467691713d1531b342740922c9ace0117d",
+      "matchesManifest": true
+    },
+    {
+      "id": "about",
+      "path": "/about/",
+      "sha256": "4face6731bb17f6787c6e592f0adbe9d1b6af5fc955d6165fbb2560925628a2a",
+      "matchesManifest": true
+    },
+    {
+      "id": "cases",
+      "path": "/cases/",
+      "sha256": "3f662362f6a458a7281eda346fbfca0e27c24f65179086efa33eb9dff166e44e",
+      "matchesManifest": true
+    },
+    {
+      "id": "checkups",
+      "path": "/checkups/",
+      "sha256": "d5d68409ee4d862f660b22368a1b4bcb1e3f136ad4aa0de81b2ade5b68afac8d",
+      "matchesManifest": true
+    },
+    {
+      "id": "cancer-screening",
+      "path": "/checkups/cancer-screening/",
+      "sha256": "e8adbd6a58206a19d88c48d43814fb335c3e62604c39ef24f8424f5ec819eb06",
+      "matchesManifest": true
+    },
+    {
+      "id": "drug-screening",
+      "path": "/checkups/drug-screening/",
+      "sha256": "8b234292bc54d5b552d94c790a5901ebf328efa54ea6df4212c5b26b9e2bdacb",
+      "matchesManifest": true
+    },
+    {
+      "id": "employment-checkup",
+      "path": "/checkups/employment/",
+      "sha256": "58ab7dc8b6be4a563cbde08e29119e2fc53a271e0e8c224175546ec06dd89454",
+      "matchesManifest": true
+    },
+    {
+      "id": "national-checkup",
+      "path": "/checkups/national/",
+      "sha256": "b75cf3c919ed1845c96b866170ef681a58b3007da4fb6fcf9d7b160b1192319e",
+      "matchesManifest": true
+    },
+    {
+      "id": "tuberculosis-screening",
+      "path": "/checkups/tuberculosis/",
+      "sha256": "6533d25d0887d7c90196b68c201dfefc230ee598032a3741672bea780ccd7d5a",
+      "matchesManifest": true
+    },
+    {
+      "id": "visa-checkup",
+      "path": "/checkups/visa/",
+      "sha256": "3e94bc2ee105847178594c63cbe6dc60df662f970c9a688e8b516868512d870b",
+      "matchesManifest": true
+    },
+    {
+      "id": "conditions",
+      "path": "/conditions/",
+      "sha256": "e3bed034154df5a0afd13094f9d4557585aafd4adb98f9efeb1a89014fbd54cb",
+      "matchesManifest": true
+    },
+    {
+      "id": "acute-care",
+      "path": "/conditions/acute-care/",
+      "sha256": "6add83054261bdaa8526c61b8c62eeeae06846516a72f88bcabf3dc0543a6895",
+      "matchesManifest": true
+    },
+    {
+      "id": "chronic-cough",
+      "path": "/conditions/chronic-cough/",
+      "sha256": "f397dded848d9bab8a46202d07ece5a652211772242ad9d3a80cefefe93e5da7",
+      "matchesManifest": true
+    },
+    {
+      "id": "heart-disease",
+      "path": "/conditions/heart-disease/",
+      "sha256": "e0a4c2196e2a9fbf5c134509fae1ccda88c8e221244c6eb7a67d40ec75712577",
+      "matchesManifest": true
+    },
+    {
+      "id": "doctors",
+      "path": "/doctors/",
+      "sha256": "c12790dbecab55cfcaf3dfec7412ebe5f991b1b9df3e4f3da96796c8a201eab0",
+      "matchesManifest": true
+    },
+    {
+      "id": "doctor-park-jongseol",
+      "path": "/doctors/park-jongseol/",
+      "sha256": "eb66f2ae4bf870b4b5ddb869f2851eee62d43b3d26c1e7eec2753003822be0d5",
+      "matchesManifest": true
+    },
+    {
+      "id": "doctor-park-rayoung",
+      "path": "/doctors/park-rayoung/",
+      "sha256": "378612faa6708dba7393adce3584f6a80029619fb64908f3624b2b4ddbd28b5d",
+      "matchesManifest": true
+    },
+    {
+      "id": "fees",
+      "path": "/fees/",
+      "sha256": "ae068af63760ba2c4e6dd8151e7fddb4dbe84a65b24773fbf8c3441f95095390",
+      "matchesManifest": true
+    },
+    {
+      "id": "health",
+      "path": "/health/",
+      "sha256": "da647e464137c535022033a05783fc04bdc2fa204b9b1481f6f566fcc0984d2e",
+      "matchesManifest": true
+    },
+    {
+      "id": "checkup-preparation",
+      "path": "/health/checkup-preparation-checklist/",
+      "sha256": "93bd3f722f49481de1f4806baae7de59abe8c633700500b018bee49c12d1138a",
+      "matchesManifest": true
+    },
+    {
+      "id": "colonoscopy-preparation",
+      "path": "/health/colonoscopy-preparation-questions/",
+      "sha256": "d89833f60fbb9c25943e7d17603640f40db0dc606faea3e1c463c2b3913d5748",
+      "matchesManifest": true
+    },
+    {
+      "id": "heart-test-differences",
+      "path": "/health/heart-test-differences/",
+      "sha256": "825f1221ff8fe86b662d69756402cbfe9573b9b6c617da6c0b2a905ff15bfc07",
+      "matchesManifest": true
+    },
+    {
+      "id": "palpitations-followup",
+      "path": "/health/palpitations-test-followup/",
+      "sha256": "c6fc56b8e87a27a8b9ae067462eaaa2a1c45258efd88d94dfb64a2b923f12593",
+      "matchesManifest": true
+    },
+    {
+      "id": "notices",
+      "path": "/notices/",
+      "sha256": "257066d00e156c542b07ccaf32c53e3a043aa67704ff0a9556e47d9bfeb4c860",
+      "matchesManifest": true
+    },
+    {
+      "id": "privacy",
+      "path": "/privacy/",
+      "sha256": "89fe94ae65bfa27a881f5cd89c1d8e5820ad6a89548fc0caa400f050118a8cb8",
+      "matchesManifest": true
+    },
+    {
+      "id": "search",
+      "path": "/search/",
+      "sha256": "695bc80d4feba3f0e499017ceef76a927b7dbcd74455333652cd7e282c20de56",
+      "matchesManifest": true
+    },
+    {
+      "id": "services",
+      "path": "/services/",
+      "sha256": "fdbac30697754b33924ad5dc1539126df6ea27b52168395a50beccb0d1533f44",
+      "matchesManifest": true
+    },
+    {
+      "id": "cancer-support",
+      "path": "/services/cancer-support/",
+      "sha256": "2a33081d3b79201b9aa9c909114c5c07efcbd8c28226cbab1c941fd74f850a91",
+      "matchesManifest": true
+    },
+    {
+      "id": "endoscopy",
+      "path": "/services/endoscopy/",
+      "sha256": "69973fe494e90bd7953473e8b40a47c8d69f1665d5d4e687db4de16f27714a7e",
+      "matchesManifest": true
+    },
+    {
+      "id": "colonoscopy",
+      "path": "/services/endoscopy/colonoscopy/",
+      "sha256": "53db0a4b1a103e147e4e723c7b77ae3485be9291bba959ba2a2287a0a0a26188",
+      "matchesManifest": true
+    },
+    {
+      "id": "gastroscopy",
+      "path": "/services/endoscopy/gastroscopy/",
+      "sha256": "526e297a5b34c2d7afd222dfefd1f79f10daf253b3e5a4211f1b929138fc234a",
+      "matchesManifest": true
+    },
+    {
+      "id": "heart-index",
+      "path": "/services/heart/",
+      "sha256": "342123243f57857c27604c70bf7c1ee8447df86a5716e0240d6813a49de1e447",
+      "matchesManifest": true
+    },
+    {
+      "id": "abi",
+      "path": "/services/heart/arterial-assessment/",
+      "sha256": "878ead0207967026dcc5f138479ca8f53d97a4e321d373e12fd0c41f25515035",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardiac-markers",
+      "path": "/services/heart/cardiac-markers/",
+      "sha256": "510ca3d7214a2d710c80f59fde0927b497cf235b4f39d379dabb3b29e73b9046",
+      "matchesManifest": true
+    },
+    {
+      "id": "carotid",
+      "path": "/services/heart/carotid-ultrasound/",
+      "sha256": "0e5bb893c682f1df42b4c5d137d16ba60951b96d1b375f06d25df0219e97e3fb",
+      "matchesManifest": true
+    },
+    {
+      "id": "echocardiography",
+      "path": "/services/heart/echocardiography/",
+      "sha256": "d2609bce0b1fad7de44d1a1fe59d92814d666a4643adef475f98d965f696b17c",
+      "matchesManifest": true
+    },
+    {
+      "id": "hrv",
+      "path": "/services/heart/heart-rate-variability/",
+      "sha256": "b3e0f53a83f7cd91da7fcecadcef4c5016bdcb96bbf5dc6aa6ea77b6c42d5a7f",
+      "matchesManifest": true
+    },
+    {
+      "id": "holter",
+      "path": "/services/heart/holter/",
+      "sha256": "a2d28630ffcd328d5961abeb085e3666e0fc96b145e36e43702b1d26527bc922",
+      "matchesManifest": true
+    },
+    {
+      "id": "ultrasound-index",
+      "path": "/services/ultrasound/",
+      "sha256": "342a7e7bf759d4888954b9cd47fc82d1162905871763746ebe98e42285e96206",
+      "matchesManifest": true
+    },
+    {
+      "id": "abdominal-ultrasound",
+      "path": "/services/ultrasound/abdomen/",
+      "sha256": "f39adcc14857cf2794580ebc5c92d4bcd6ca595accf0b4be688822aa9e6de696",
+      "matchesManifest": true
+    },
+    {
+      "id": "bowel-ultrasound",
+      "path": "/services/ultrasound/bowel/",
+      "sha256": "07e0bcb48b8f925bf9f39a21501ee8d4e12b6fbb076a79258f8cca02eeb0f6a7",
+      "matchesManifest": true
+    },
+    {
+      "id": "thyroid-ultrasound",
+      "path": "/services/ultrasound/thyroid/",
+      "sha256": "c8652697a5425cef66f44348c7f7a7189a1dfa273e7a27eb7707e78384d5acca",
+      "matchesManifest": true
+    },
+    {
+      "id": "sitemap",
+      "path": "/sitemap/",
+      "sha256": "89aa7a327c656edf20afecfdc5921fc45e61bfc73c7d88fbbd7ba5d5f5f08278",
+      "matchesManifest": true
+    },
+    {
+      "id": "visit",
+      "path": "/visit/",
+      "sha256": "9a27f01117c023ece086ce14b199b707861a96eadc48e26af184f13c66b1233c",
+      "matchesManifest": true
+    },
+    {
+      "id": "examinations",
+      "path": "/services/examinations/",
+      "sha256": "10f730cec4909c2932aeb30e117282b6e92821c579a67eda4fe953881a8bab87",
+      "matchesManifest": true
+    },
+    {
+      "id": "civil-service",
+      "path": "/checkups/civil-service/",
+      "sha256": "446634107573d257aba6129be41d8eaa3d3234c86cfaf4156aee4adb20f47f76",
+      "matchesManifest": true
+    },
+    {
+      "id": "fever-during-cancer-treatment",
+      "path": "/health/fever-during-cancer-treatment/",
+      "sha256": "e67a3b1258fc59d3afbff9050d22909454e6ba7624323f783c347d40a140b1aa",
+      "matchesManifest": true
+    },
+    {
+      "id": "cancer-treatment-symptoms",
+      "path": "/health/cancer-treatment-symptoms/",
+      "sha256": "fe1ca68cc8050756cd477ac6449ba8e75f0d9ba841211214d8944abab6c741f6",
+      "matchesManifest": true
+    },
+    {
+      "id": "abdominal-pain",
+      "path": "/conditions/abdominal-pain/",
+      "sha256": "93ceebd46c81f721d9790105d2ed3779ea13168a59e6ed5ccc455326998eca0d",
+      "matchesManifest": true
+    },
+    {
+      "id": "respiratory-infections",
+      "path": "/conditions/respiratory-infections/",
+      "sha256": "b009c6b3dabe8d91eeac736c09692cd4bfd5813e4959626e7ce003b0a491e1cc",
+      "matchesManifest": true
+    },
+    {
+      "id": "vaccinations",
+      "path": "/services/vaccinations/",
+      "sha256": "584e84a0cb2bf0cb8937f4cff097c8711f8dbd78ff7ce27fd5b9a92dc31ceecb",
+      "matchesManifest": true
+    },
+    {
+      "id": "influenza",
+      "path": "/conditions/influenza/",
+      "sha256": "b13df6938f14d47b70791fd276cc9f2dcd3262ddc4d3d566dff13694c0ebf04c",
+      "matchesManifest": true
+    },
+    {
+      "id": "covid-19",
+      "path": "/conditions/covid-19/",
+      "sha256": "7ca6483a73bb57719c538618cfcac09193bc023bf607d9611eb0f6b88a3baa92",
+      "matchesManifest": true
+    },
+    {
+      "id": "orafang-preparation",
+      "path": "/health/orafang-preparation/",
+      "sha256": "54af7aa78200870f297222549ea787f67b1a2a3ca75746340447701fe3a4d590",
+      "matchesManifest": true
+    },
+    {
+      "id": "plenvu-preparation",
+      "path": "/health/plenvu-preparation/",
+      "sha256": "c7c72db353e75ca40b53f77764b141c5eacd8676970d500aa678143993fcf5bf",
+      "matchesManifest": true
+    },
+    {
+      "id": "after-endoscopy",
+      "path": "/health/after-endoscopy/",
+      "sha256": "a3b1c9399293479d80317d87b6801d17e5859bdee2ff507647f18fccec2b0ab9",
+      "matchesManifest": true
+    },
+    {
+      "id": "heart-valve-regurgitation",
+      "path": "/health/heart-valve-regurgitation/",
+      "sha256": "f3dd1c3ece0285e56729f428be6d25963639b181f26d031468c8a33035bb7948",
+      "matchesManifest": true
+    },
+    {
+      "id": "angina-treatment",
+      "path": "/health/angina-treatment/",
+      "sha256": "2d831e0dbb80252b93862abfc182efd24936f6ac66fa20a3379f49061afb903d",
+      "matchesManifest": true
+    },
+    {
+      "id": "chronic-disease",
+      "path": "/conditions/chronic-disease/",
+      "sha256": "e8f23bd77ab2db53aead24f73e022fd7741aae142a731d41c96de97052f6abcf",
+      "matchesManifest": true
+    },
+    {
+      "id": "gallstones",
+      "path": "/health/gallstones/",
+      "sha256": "4675f3acbb5c0a542d798ef33cf4c54b6db79d9e77abc2cbe49c6216e9eede60",
+      "matchesManifest": true
+    },
+    {
+      "id": "cancer-family-history",
+      "path": "/health/cancer-family-history/",
+      "sha256": "6fd1202fa4f48c8f8792ddfdb5c9ed8d8f95586092247822d5ebef2d8fcac630",
+      "matchesManifest": true
+    },
+    {
+      "id": "liver-disease",
+      "path": "/conditions/liver-disease/",
+      "sha256": "ef4d833bbf693f286ceeee7e898cab24761447a7c37c2687bcc7f0e89d458f0d",
+      "matchesManifest": true
+    },
+    {
+      "id": "colon-polyp-followup",
+      "path": "/health/colon-polyp-followup/",
+      "sha256": "b833ed3801594c7b51d22bfed61a22d0667c73128f075ce619eb6814526cb777",
+      "matchesManifest": true
+    },
+    {
+      "id": "thyroid-cancer-surveillance",
+      "path": "/health/thyroid-cancer-surveillance/",
+      "sha256": "a638363e8c804157f2aa74396c2217e52e348e0b7b41a986da87214d24e67e36",
+      "matchesManifest": true
+    },
+    {
+      "id": "obesity-medication",
+      "path": "/health/obesity-medication/",
+      "sha256": "9fefb72baf61c2d615f5a603ce68a35a001188b802c283af689ecf1935b0c0bc",
+      "matchesManifest": true
+    },
+    {
+      "id": "visa-en",
+      "path": "/en/checkups/visa/",
+      "sha256": "61881245721eff2ef69116fe131518b4b92ae208828bc39996e2e3562783d622",
+      "matchesManifest": true
+    },
+    {
+      "id": "visa-zh-hans",
+      "path": "/zh-hans/checkups/visa/",
+      "sha256": "49de47d1a303ee4fdd06b8ec80ec1a0cb84f7df28aafe77b277df6384c838828",
+      "matchesManifest": true
+    },
+    {
+      "id": "visa-th",
+      "path": "/th/checkups/visa/",
+      "sha256": "6b3ea2ca47f8848a382c0547a1e35fe6c9ec9f5e00319856dd4af6ce8aae34cb",
+      "matchesManifest": true
+    },
+    {
+      "id": "visa-ru",
+      "path": "/ru/checkups/visa/",
+      "sha256": "8e2ef0fd3d2581081bfc8f689ba9427b42c945085b7f98bea7daa5cce03ba93c",
+      "matchesManifest": true
+    },
+    {
+      "id": "visa-ne",
+      "path": "/ne/checkups/visa/",
+      "sha256": "089756ab0e0844f746aa714e250e61c2f767446b4c56dde187a0b76bcc764535",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptoms",
+      "path": "/symptoms/",
+      "sha256": "e55a1956c7076c4b9a6e5277485f7edf72180f9d70f3a84733402fde881363b7",
+      "matchesManifest": true
+    },
+    {
+      "id": "diseases",
+      "path": "/diseases/",
+      "sha256": "d32a559f6988112b7e0fc020c03cb6f84d5c2ea62817f99304443f6ed828f63b",
+      "matchesManifest": true
+    },
+    {
+      "id": "preparation",
+      "path": "/preparation/",
+      "sha256": "d04821c7924b379b30addccf157e63e9e4f5daa52fe0ab6e89922ad625d46e87",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-hypertension",
+      "path": "/diseases/cardio/hypertension/",
+      "sha256": "39cf162ccd8f868641da22d1f064caa2832218f2fe4c6cdedeb5b9498a4b0d3b",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-dyslipidemia",
+      "path": "/diseases/cardio/dyslipidemia/",
+      "sha256": "ca90320fbc15529c7233dbbe3bcc060b04fa2e038e0968ecb3e02670e66390d5",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-atherosclerosis",
+      "path": "/diseases/cardio/atherosclerosis/",
+      "sha256": "462a5d4fbf686fcc51e3a2847b13784cab77d6773f25847fe82ed87b69536811",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-stable-angina",
+      "path": "/diseases/cardio/stable-angina/",
+      "sha256": "15a0cad1bb05ac82b423dbbee642034a10c1b0dd24cb9b35c3fbb26f3405728c",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-acute-myocardial-infarction",
+      "path": "/diseases/cardio/acute-myocardial-infarction/",
+      "sha256": "cbdd82a5a25e430f58986a6f232e0a34f92602ac2f0609e94524df227b749c8f",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-heart-failure",
+      "path": "/diseases/cardio/heart-failure/",
+      "sha256": "b007d1889b56bf03dc0ce19f8a8020a1c784deaa0e19891bf02c687a61a6aaca",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-atrial-fibrillation",
+      "path": "/diseases/cardio/atrial-fibrillation/",
+      "sha256": "fd61a23925d8bf824549f27300e0a06b52f737d90a634efdd041295b95499477",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-supraventricular-tachycardia",
+      "path": "/diseases/cardio/supraventricular-tachycardia/",
+      "sha256": "2a6b1ea659a8f0324e1c525882eed45a9eadcbdd404d1193169089d194f676f7",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-premature-ventricular-contractions",
+      "path": "/diseases/cardio/premature-ventricular-contractions/",
+      "sha256": "27603e7cc95f8bd66d33630b85e941bd282dfb831d1fa965d262ce280095b41d",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-bradyarrhythmia",
+      "path": "/diseases/cardio/bradyarrhythmia/",
+      "sha256": "1afe9893c75a07e380f304fe4b3a6f89bfd24d5402e433ca647df5a661045990",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-mitral-regurgitation",
+      "path": "/diseases/cardio/mitral-regurgitation/",
+      "sha256": "eeadddaa9568177b5de2636a142223ad54e4885f48dd9f30bec84f9f9eef88ba",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-aortic-stenosis",
+      "path": "/diseases/cardio/aortic-stenosis/",
+      "sha256": "64a78103b33b40c8fa3252899bbc53582bdb6c6a70fa6567e90e8ab1dbd163df",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-myocarditis",
+      "path": "/diseases/cardio/myocarditis/",
+      "sha256": "5bd32cdb429d5c7914775dba3720633ec3d9b05cbfeb3a6a73c89b3d8acbc8da",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-pericarditis",
+      "path": "/diseases/cardio/pericarditis/",
+      "sha256": "8dddb906ec345e69bfcb879f8d0be74b9f36a9c5007cc9f79c0e9cdeeceed647",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-dilated-cardiomyopathy",
+      "path": "/diseases/cardio/dilated-cardiomyopathy/",
+      "sha256": "d8250c334f35cc29eef23994453164f3c9834a09a3f7151ef172cfdc72310715",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-carotid-stenosis",
+      "path": "/diseases/cardio/carotid-stenosis/",
+      "sha256": "d00100df8220f6d14ba5bfb2178cb4ce4d54b5da39f54499df16196d87728a69",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-peripheral-artery-disease",
+      "path": "/diseases/cardio/peripheral-artery-disease/",
+      "sha256": "18f34b9669caf739bf0dece394093811ad29e893c36ecca9738946f1fdaafd8b",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-deep-vein-thrombosis",
+      "path": "/diseases/cardio/deep-vein-thrombosis/",
+      "sha256": "9a4d9716422ae1fcd6aad8914366f49c82866790f26385a573928e076baa7a02",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-aortic-aneurysm-dissection",
+      "path": "/diseases/cardio/aortic-aneurysm-dissection/",
+      "sha256": "16f5bbeea746c6891c8491826aced355a44355f6e15ba37f91127a1f569db3fb",
+      "matchesManifest": true
+    },
+    {
+      "id": "cardio-orthostatic-hypotension",
+      "path": "/diseases/cardio/orthostatic-hypotension/",
+      "sha256": "e72d95bd69c0787848f3e6a077ef0f4ff855425b830e90f357086a130d2766a9",
+      "matchesManifest": true
+    },
+    {
+      "id": "digestive-disease",
+      "path": "/conditions/digestive/",
+      "sha256": "98616c8ccd5efc063ddbba710416bcb31cc3628c68d9c53e409931a5135cfba5",
+      "matchesManifest": true
+    },
+    {
+      "id": "esophagus-stomach",
+      "path": "/conditions/digestive/esophagus-stomach/",
+      "sha256": "6206ab17070cd304678abfadd9e77648d1c00dbe58297b0991c2f0e0a08190f7",
+      "matchesManifest": true
+    },
+    {
+      "id": "bowel-appendix",
+      "path": "/conditions/digestive/bowel-appendix/",
+      "sha256": "396a7caa2d4251ea92e0a6f58bf15a72a330e10e41705f97171484dd067f2376",
+      "matchesManifest": true
+    },
+    {
+      "id": "biliary-disease",
+      "path": "/conditions/digestive/gallbladder-bile-duct/",
+      "sha256": "547d366956f4c1ae2ae8d36284512a14469422818a6a9e520b68eb10ab54f152",
+      "matchesManifest": true
+    },
+    {
+      "id": "pancreatic-disease",
+      "path": "/conditions/digestive/pancreas/",
+      "sha256": "2fcfc51bda6e80e338806da120eb16a577f962dcef94f12cc5ef3ee3e5e84463",
+      "matchesManifest": true
+    },
+    {
+      "id": "neck-disease",
+      "path": "/conditions/thyroid-carotid-neck/",
+      "sha256": "8cc17ead7d94b2d30e75df9d3aa4eec2d8faf97bb18902a0a9db73cd8af1004b",
+      "matchesManifest": true
+    },
+    {
+      "id": "thyroid-disease",
+      "path": "/conditions/thyroid-carotid-neck/thyroid/",
+      "sha256": "a85158fee2e11fa62df34fb2d1f5524d423d5876732dd5fd7ba8a2596483c7f1",
+      "matchesManifest": true
+    },
+    {
+      "id": "carotid-disease",
+      "path": "/conditions/thyroid-carotid-neck/carotid/",
+      "sha256": "89ef44ed2dd9626d84d07aa709e15be1f4f9596ad65bb50665cf161f5446bfff",
+      "matchesManifest": true
+    },
+    {
+      "id": "neck-lump",
+      "path": "/conditions/thyroid-carotid-neck/neck-lump/",
+      "sha256": "668de1f7a9bd5e486a7c37c9fd6afebe65546a077e56239249022410f6a184b9",
+      "matchesManifest": true
+    },
+    {
+      "id": "kidney-disease",
+      "path": "/conditions/kidney/",
+      "sha256": "b9a7c6543e5512a0945209120cd15cb7582c367ebdd1b7f668551a3eed4b10e7",
+      "matchesManifest": true
+    },
+    {
+      "id": "kidney-function",
+      "path": "/conditions/kidney/function/",
+      "sha256": "c7cdd842dbefc67f94da0e2ca2ffd2bd6384dc6eaa513ec328a72c629623c133",
+      "matchesManifest": true
+    },
+    {
+      "id": "pyelonephritis",
+      "path": "/conditions/kidney/pyelonephritis/",
+      "sha256": "57062936e980bd3b26a1db572715478d6a4de44911916f7085dcfdaed0c19d01",
+      "matchesManifest": true
+    },
+    {
+      "id": "hydronephrosis",
+      "path": "/conditions/kidney/hydronephrosis/",
+      "sha256": "66db86538533dcc4cc350252cf9e4ae876f9e3f114941f05a56e5d82ab7d287c",
+      "matchesManifest": true
+    },
+    {
+      "id": "ambulatory-blood-pressure",
+      "path": "/services/heart/ambulatory-blood-pressure/",
+      "sha256": "36011bbdd7589c3fe41fbb614f4baa2f5f62b9d80ce823964bb578fd9d693d5b",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-chest-pressure-sweating",
+      "path": "/symptoms/cardio/chest-pressure-sweating/",
+      "sha256": "9da9685c8b2e0ef89a3c129fbdb7e0409de35916633a47f86c4f348621843dc7",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-chest-tightness-causes",
+      "path": "/symptoms/cardio/chest-tightness-causes/",
+      "sha256": "c526eb83498f92b9bc647531c0508ddb48742463b920d8de1844a7469bdb5856",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-epigastric-pain-heart",
+      "path": "/symptoms/cardio/epigastric-pain-heart/",
+      "sha256": "429c81e26dac1d05a4e5d527cb1ee2a0046982e9458cbbb0a3b6babc4feb8290",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-exertional-chest-pain",
+      "path": "/symptoms/cardio/exertional-chest-pain/",
+      "sha256": "b852111e2b6f608d06e39cf610a3059a39f56f99b47a4062a3eb4187fec6f643",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-recurrent-palpitations-normal-ecg",
+      "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+      "sha256": "6b7d84257a7f9ecc68a0f892e7ab3c14f4d9df79b09ae9f507fd2427b6e93765",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-irregular-skipped-heartbeat",
+      "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+      "sha256": "1ef428aa09e10fe1e7c8d3028926dfffdb1c103235d5b04e87545401df87fc94",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-rapid-heart-rate",
+      "path": "/symptoms/cardio/rapid-heart-rate/",
+      "sha256": "c7e107ac7094133178e4e00822b13685d797c909af05a458ff96431e38790121",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-slow-heart-rate-dizziness",
+      "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+      "sha256": "ef17f04dbfc0ac50a5918d8db164a678492ac6506f50f93446c6552cd4ad6bac",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-presyncope-cardiac-evaluation",
+      "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+      "sha256": "848c19d7770b6bad1630b5a965cdaf3e1acc812d21b1e4994f521b2d9e84e6b0",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-syncope-emergency",
+      "path": "/symptoms/cardio/syncope-emergency/",
+      "sha256": "77964999796790d7614332b2a898cb6ff654f164c2bf889753f0f6274a89d1ca",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-exertional-dyspnea",
+      "path": "/symptoms/cardio/exertional-dyspnea/",
+      "sha256": "d4c6eb06fa114794bccd0a76ad8b90e58223cb78eaa0770c84d4b645e540147b",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-orthopnea-leg-edema",
+      "path": "/symptoms/cardio/orthopnea-leg-edema/",
+      "sha256": "ad5cb346cf22527c673b24c3137d163a64be92caf5ed8cd0f3dda7970b087d38",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-leg-edema-dyspnea",
+      "path": "/symptoms/cardio/leg-edema-dyspnea/",
+      "sha256": "1e3c5ab4d07c00c9387eefd08550b27c242e91c80360a6b7101ed4cc7f8b60d7",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-rapid-weight-gain-edema",
+      "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+      "sha256": "475eeca8ab705c347436af507fc66d2d7e37c34b06ca7f7a847046d248f37723",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-fatigue-exercise-intolerance",
+      "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+      "sha256": "ad286c04c02027abe2f1a9d685e93e2a7e4099cf6fdd3fba8e803c00473a227f",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-blood-pressure-180",
+      "path": "/symptoms/cardio/blood-pressure-180/",
+      "sha256": "3d2135f3e5c5d1f174b640827209ceb1088c476c6d025ca4c388806edfcd8b97",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-orthostatic-dizziness-low-bp",
+      "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+      "sha256": "be57a3bdc5f4a93fc5cbc75439c285305f4669e34a8504f495c15fbe13f1888b",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-valve-regurgitation-follow-up",
+      "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+      "sha256": "acb44f270c7f08ce101f3e9e4b2c9c80b42e0cafdcee2b38d738108131000e2e",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-family-history-heart-disease",
+      "path": "/symptoms/cardio/family-history-heart-disease/",
+      "sha256": "c2babf96634eb879dce5198ca8cf70f45d87dabec131bba0f38e8b3c465e2344",
+      "matchesManifest": true
+    },
+    {
+      "id": "symptom-cardio-radiating-chest-pain-119",
+      "path": "/symptoms/cardio/radiating-chest-pain-119/",
+      "sha256": "04dbff21d01d63c29d0a2129af1d3e1e7d8db7b351498c11cd9b030998ce2dde",
+      "matchesManifest": true
+    },
+    {
+      "id": "copyright-policy",
+      "path": "/copyright/",
+      "sha256": "e83ceaee75c9bed029a2a14ec2092c6270e6281ef4ddc98a3dae566f9a3fcb24",
+      "matchesManifest": true
+    }
+  ],
+  "batchesManuallyRead": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "repeatExpansionRules": [
+    {
+      "finding": "F001",
+      "manuallySelected": [
+        "T00039",
+        "T00041"
+      ],
+      "expandedTo": [
+        "T00037",
+        "T00039",
+        "T00041"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F002",
+      "manuallySelected": [
+        "T00047",
+        "T00049",
+        "T00052",
+        "T00053",
+        "T00059"
+      ],
+      "expandedTo": [
+        "T00045",
+        "T00047",
+        "T00049",
+        "T00052",
+        "T00053",
+        "T00059"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F020",
+      "manuallySelected": [
+        "T00312"
+      ],
+      "expandedTo": [
+        "T00310",
+        "T00312"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F023",
+      "manuallySelected": [
+        "T00362",
+        "T00364",
+        "T00368"
+      ],
+      "expandedTo": [
+        "T00360",
+        "T00362",
+        "T00364",
+        "T00368"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F027",
+      "manuallySelected": [
+        "T00435"
+      ],
+      "expandedTo": [
+        "T00435",
+        "T00683",
+        "T00947",
+        "T01002",
+        "T01036",
+        "T01067",
+        "T01135",
+        "T01612",
+        "T02156",
+        "T02181"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F029",
+      "manuallySelected": [
+        "T00480",
+        "T00482",
+        "T00493",
+        "T00499"
+      ],
+      "expandedTo": [
+        "T00478",
+        "T00480",
+        "T00482",
+        "T00493",
+        "T00499"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F037",
+      "manuallySelected": [
+        "T00664",
+        "T00666",
+        "T00671",
+        "T00677"
+      ],
+      "expandedTo": [
+        "T00662",
+        "T00664",
+        "T00666",
+        "T00671",
+        "T00677"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F043",
+      "manuallySelected": [
+        "T00792",
+        "T00794",
+        "T00798",
+        "T00799",
+        "T00800",
+        "T00801",
+        "T00802"
+      ],
+      "expandedTo": [
+        "T00790",
+        "T00792",
+        "T00794",
+        "T00798",
+        "T00799",
+        "T00800",
+        "T00801",
+        "T00802"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F044",
+      "manuallySelected": [
+        "T00815",
+        "T00819",
+        "T00822",
+        "T00825"
+      ],
+      "expandedTo": [
+        "T00813",
+        "T00815",
+        "T00819",
+        "T00822",
+        "T00825"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F051",
+      "manuallySelected": [
+        "T00935",
+        "T01022",
+        "T01086"
+      ],
+      "expandedTo": [
+        "T00933",
+        "T00935",
+        "T01020",
+        "T01022",
+        "T01084",
+        "T01086"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F064",
+      "manuallySelected": [
+        "T01155",
+        "T01157",
+        "T01166",
+        "T01167",
+        "T01168",
+        "T01170"
+      ],
+      "expandedTo": [
+        "T01153",
+        "T01155",
+        "T01157",
+        "T01166",
+        "T01167",
+        "T01168",
+        "T01170"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F066",
+      "manuallySelected": [
+        "T01181",
+        "T01234"
+      ],
+      "expandedTo": [
+        "T01179",
+        "T01181",
+        "T01232",
+        "T01234"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F074",
+      "manuallySelected": [
+        "T01269"
+      ],
+      "expandedTo": [
+        "T01267",
+        "T01269"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F080",
+      "manuallySelected": [
+        "T01675"
+      ],
+      "expandedTo": [
+        "T01673",
+        "T01675"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F100",
+      "manuallySelected": [
+        "T02515",
+        "T02522"
+      ],
+      "expandedTo": [
+        "T02513",
+        "T02515",
+        "T02520",
+        "T02522"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F101",
+      "manuallySelected": [
+        "T02548",
+        "T02557",
+        "T02570"
+      ],
+      "expandedTo": [
+        "T02548",
+        "T02557",
+        "T02570",
+        "T02621",
+        "T02631",
+        "T02644",
+        "T02695",
+        "T02704",
+        "T02718",
+        "T02767",
+        "T02777",
+        "T02791",
+        "T02841",
+        "T02849",
+        "T02862",
+        "T02914",
+        "T02925",
+        "T02940",
+        "T02993",
+        "T03002",
+        "T03015",
+        "T03066",
+        "T03075",
+        "T03088",
+        "T03138",
+        "T03147",
+        "T03161",
+        "T03211",
+        "T03221",
+        "T03234",
+        "T03285",
+        "T03294",
+        "T03307",
+        "T03357",
+        "T03366",
+        "T03379",
+        "T03429",
+        "T03439",
+        "T03453",
+        "T03503",
+        "T03512",
+        "T03527",
+        "T03577",
+        "T03586",
+        "T03601",
+        "T03652",
+        "T03660",
+        "T03673",
+        "T03723",
+        "T03731",
+        "T03746",
+        "T03796",
+        "T03805",
+        "T03819",
+        "T03870",
+        "T03878",
+        "T03891",
+        "T03942",
+        "T03951",
+        "T03966"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F102",
+      "manuallySelected": [
+        "T02579",
+        "T02584"
+      ],
+      "expandedTo": [
+        "T02579",
+        "T02584",
+        "T02652",
+        "T02658",
+        "T02726",
+        "T02731",
+        "T02799",
+        "T02805",
+        "T02870",
+        "T02875",
+        "T02949",
+        "T02955",
+        "T03023",
+        "T03028",
+        "T03096",
+        "T03101",
+        "T03169",
+        "T03174",
+        "T03242",
+        "T03247",
+        "T03315",
+        "T03320",
+        "T03387",
+        "T03392",
+        "T03461",
+        "T03466",
+        "T03535",
+        "T03540",
+        "T03609",
+        "T03614",
+        "T03681",
+        "T03686",
+        "T03754",
+        "T03759",
+        "T03828",
+        "T03833",
+        "T03899",
+        "T03904",
+        "T03974",
+        "T03979"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F103",
+      "manuallySelected": [
+        "T02594",
+        "T02667",
+        "T02740",
+        "T02814"
+      ],
+      "expandedTo": [
+        "T02594",
+        "T02667",
+        "T02740",
+        "T02814",
+        "T02965",
+        "T03038",
+        "T03110",
+        "T03183",
+        "T03257",
+        "T03329",
+        "T03401",
+        "T03475",
+        "T03549",
+        "T03624",
+        "T03695",
+        "T03768",
+        "T03842",
+        "T03988"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F104",
+      "manuallySelected": [
+        "T02532",
+        "T02604",
+        "T02677",
+        "T02750"
+      ],
+      "expandedTo": [
+        "T02532",
+        "T02604",
+        "T02677",
+        "T02750",
+        "T02824",
+        "T02896",
+        "T02975",
+        "T03048",
+        "T03120",
+        "T03193",
+        "T03267",
+        "T03339",
+        "T03411",
+        "T03485",
+        "T03559",
+        "T03634",
+        "T03705",
+        "T03778",
+        "T03853",
+        "T03924"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F113",
+      "manuallySelected": [
+        "T04219"
+      ],
+      "expandedTo": [
+        "T04219",
+        "T04238",
+        "T04257",
+        "T04275",
+        "T04294",
+        "T04313",
+        "T04332",
+        "T04351",
+        "T04370",
+        "T04389",
+        "T04407",
+        "T04426",
+        "T04444",
+        "T04463",
+        "T04482",
+        "T04501",
+        "T04519",
+        "T04537",
+        "T04555",
+        "T04573"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F114",
+      "manuallySelected": [
+        "T04223",
+        "T04227",
+        "T04229",
+        "T04230",
+        "T04231"
+      ],
+      "expandedTo": [
+        "T04223",
+        "T04225",
+        "T04227",
+        "T04229",
+        "T04230",
+        "T04231"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F116",
+      "manuallySelected": [
+        "T04298",
+        "T04302",
+        "T04304",
+        "T04306"
+      ],
+      "expandedTo": [
+        "T04298",
+        "T04300",
+        "T04302",
+        "T04304",
+        "T04306"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F118",
+      "manuallySelected": [
+        "T04340"
+      ],
+      "expandedTo": [
+        "T04338",
+        "T04340"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F122",
+      "manuallySelected": [
+        "T04467",
+        "T04471",
+        "T04475"
+      ],
+      "expandedTo": [
+        "T04467",
+        "T04469",
+        "T04471",
+        "T04475"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F125",
+      "manuallySelected": [
+        "T04558",
+        "T04562"
+      ],
+      "expandedTo": [
+        "T04558",
+        "T04560",
+        "T04562"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    },
+    {
+      "finding": "F134",
+      "manuallySelected": [
+        "UI0169",
+        "UI0831"
+      ],
+      "expandedTo": [
+        "I00002",
+        "UI0169",
+        "UI0831"
+      ],
+      "rule": "같은 페이지의 동일 원문; 명시한 반복 문단/질환명 치환 패턴에만 전체 발생 위치 추가"
+    }
+  ],
+  "copiedPatientNeedPageIds": [
+    "home",
+    "not-found",
+    "about",
+    "cases",
+    "checkups",
+    "drug-screening",
+    "employment-checkup",
+    "national-checkup",
+    "visa-checkup",
+    "conditions",
+    "acute-care",
+    "chronic-cough",
+    "heart-disease",
+    "doctor-park-jongseol",
+    "health",
+    "checkup-preparation",
+    "colonoscopy-preparation",
+    "heart-test-differences",
+    "palpitations-followup",
+    "privacy",
+    "search",
+    "services",
+    "cancer-support",
+    "colonoscopy",
+    "gastroscopy",
+    "heart-index",
+    "cardiac-markers",
+    "carotid",
+    "echocardiography",
+    "holter",
+    "ultrasound-index",
+    "abdominal-ultrasound",
+    "bowel-ultrasound",
+    "thyroid-ultrasound",
+    "sitemap",
+    "visit",
+    "examinations",
+    "civil-service",
+    "fever-during-cancer-treatment",
+    "cancer-treatment-symptoms",
+    "abdominal-pain",
+    "respiratory-infections",
+    "vaccinations",
+    "influenza",
+    "covid-19",
+    "orafang-preparation",
+    "plenvu-preparation",
+    "after-endoscopy",
+    "heart-valve-regurgitation",
+    "angina-treatment",
+    "chronic-disease",
+    "gallstones",
+    "cancer-family-history",
+    "liver-disease",
+    "colon-polyp-followup",
+    "thyroid-cancer-surveillance",
+    "obesity-medication",
+    "visa-zh-hans",
+    "visa-th",
+    "symptoms",
+    "diseases",
+    "preparation",
+    "cardio-stable-angina",
+    "cardio-acute-myocardial-infarction",
+    "cardio-heart-failure",
+    "cardio-myocarditis",
+    "cardio-pericarditis",
+    "cardio-deep-vein-thrombosis",
+    "digestive-disease",
+    "esophagus-stomach",
+    "bowel-appendix",
+    "biliary-disease",
+    "pancreatic-disease",
+    "neck-disease",
+    "thyroid-disease",
+    "carotid-disease",
+    "neck-lump",
+    "kidney-disease",
+    "kidney-function",
+    "pyelonephritis",
+    "hydronephrosis",
+    "ambulatory-blood-pressure",
+    "symptom-cardio-chest-pressure-sweating",
+    "symptom-cardio-chest-tightness-causes",
+    "symptom-cardio-epigastric-pain-heart",
+    "symptom-cardio-exertional-chest-pain",
+    "symptom-cardio-recurrent-palpitations-normal-ecg",
+    "symptom-cardio-irregular-skipped-heartbeat",
+    "symptom-cardio-rapid-heart-rate",
+    "symptom-cardio-slow-heart-rate-dizziness",
+    "symptom-cardio-presyncope-cardiac-evaluation",
+    "symptom-cardio-syncope-emergency",
+    "symptom-cardio-exertional-dyspnea",
+    "symptom-cardio-orthopnea-leg-edema",
+    "symptom-cardio-leg-edema-dyspnea",
+    "symptom-cardio-rapid-weight-gain-edema",
+    "symptom-cardio-fatigue-exercise-intolerance",
+    "symptom-cardio-blood-pressure-180",
+    "symptom-cardio-orthostatic-dizziness-low-bp",
+    "symptom-cardio-valve-regurgitation-follow-up",
+    "symptom-cardio-family-history-heart-disease",
+    "symptom-cardio-radiating-chest-pain-119"
+  ],
+  "sourceDigests": {
+    "content/assets.json": "27c3a92876e918b024a81bb3af84968e7a50bb27c743114167861a7f292da8ca",
+    "content/case-links.json": "558a8573bc78e2d4de3d0f427470988139b55635aa0c0c045a1ca81923efc677",
+    "content/clinic.json": "ec6dbf59ae1023c93c7136726a366a517f526daac59a5d55c4f820bd100bdf6b",
+    "content/encyclopedia-categories.json": "56673962ee2d1b6807abcffe605837509eb39128e7fbc10b6aaece1169592543",
+    "content/measurement-conversations.json": "5158c2ad5ef89eacb0a01730e4a6fdcf3f4d1d14bcaef1c777d878db0f2e535b",
+    "content/measurement-queries.json": "6640c20ad32105afded907449af75ec4fd84baa472c4106f27db3131a97eb790",
+    "content/notices.json": "a9ce7f10993153b8ea51ccc85075f04c6ccd9b03e52da45ab23bec37597e39af",
+    "content/page-intents.json": "607ca2904734beb00100e3a7b495f6f06ced0bfa45e36b612c43510821bb63a5",
+    "content/pages.json": "c1584894373e51d941a2de9fb8181d4794e179e2f823609883e40a60fbbf5bf2",
+    "content/physicians.json": "d4203ea80ad11e047847749c31266f1a9a0d38601e4a20e44c832a68170cf03a",
+    "content/publication-approval.json": "ff262f3ef0118f075d95ad02dba40fefffdf967cfe894f156455f90f3e9d9b50",
+    "content/reviews.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "content/search-aliases.json": "7e1c21c2618fe963e072dd1b6056b2bfb74324577cfb59dcdda617bbd7635513",
+    "content/visuals.json": "ac52d647732f5c1bf1d67190982d70529c48d64711970db0b2ebc8517c134be3"
+  },
+  "limits": [
+    "편집 품질 검토이며 의료 검수나 법률·제도 전수검증이 아님",
+    "원본 별도 증상백과 본문 패키지는 현재 자료에 없어 문장 생성 주체를 단정하지 않음",
+    "다국어 문구도 범위에 포함했으나 원어민 감수는 수행하지 않음",
+    "사진 배경의 작은 포스터·안내판은 현재 공식 정보로 전사·검증하지 않음",
+    "정적 HTML의 화면 문구·속성·검색 설명·구조화 데이터와 조건부 UI 소스를 함께 검토; 모든 브라우저 상태를 실행한 검사는 아님"
+  ]
+}

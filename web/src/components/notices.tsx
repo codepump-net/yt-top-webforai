@@ -86,8 +86,8 @@ export function NoticeBoard({ initialDay }: { initialDay: string }) {
         ))}
       </nav>
       <p className="small">
-        지원 대상·일정은 공식 자료의 확인일을 기준으로 안내합니다. 방문 전 대상 요건과 백신 보유
-        여부를 확인해 주세요.
+        예방접종 지원 대상과 접종 기간, 감염병 통계를 주제별로 볼 수 있습니다. 지원접종은 사업별
+        지정 의료기관에서 받을 수 있으며, 아래 공식 기관 목록에서 접종기관을 찾을 수 있습니다.
       </p>
       {current.map((n) => (
         <NoticeCard key={n.id} item={n} day={day} />

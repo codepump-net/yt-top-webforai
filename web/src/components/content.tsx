@@ -605,7 +605,7 @@ function VisitPage() {
       <div className="location-panel">
         <div
           className="station-diagram"
-          aria-label="망포역 3번 출구에서 도보 약 2분 거리의 포레스퀘어 6층, 실제 지도는 네이버 지도 링크 확인"
+          aria-label="망포역 3번 출구에서 도보 약 2분, 포레스퀘어 6층 609호"
         >
           <span className="station">
             수인분당선
@@ -623,24 +623,18 @@ function VisitPage() {
         </div>
         <div>
           <span className="eyebrow">LOCATION</span>
-          <h2>망포역 가까이에서 만나요.</h2>
+          <h2>망포역 3번 출구, 포레스퀘어 6층 609호</h2>
           <p>{clinic.address}</p>
           <p>{clinic.parkingNote}</p>
           <a className="button" href={clinic.mapUrl} target="_blank" rel="noopener noreferrer">
             네이버 지도로 길찾기 <ArrowUpRight size={18} />
             <span className="sr-only"> (새 창)</span>
           </a>
-          <p className="small">
-            위 도식은 위치 안내용이며 실제 거리·방향을 표현한 지도는 아닙니다.
-          </p>
         </div>
       </div>
       <div className="article-section">
         <h2>검사 예약·접수 확인</h2>
-        <p>
-          {clinic.bookingNote} 다른 검사와 함께 진행할 때는 준비 사항을 함께 문의해 주세요. 최종
-          접수 시간과 당일 검사 가능 여부는 검사 종류와 진료 상황에 따라 병원에 확인해 주세요.
-        </p>
+        <p>{clinic.bookingNote}</p>
       </div>
       <ClinicPhoto />
     </>
@@ -656,16 +650,16 @@ function doctorSections(page: Page) {
 }
 const clinicValues = [
   {
-    title: '진료를 이해하는 설명',
-    text: '검사의 목적과 준비, 결과를 살펴볼 때 필요한 정보를 함께 안내합니다.',
+    title: '내과·가정의학과 전문의 진료',
+    text: '박종설 내과 전문의와 박라영 가정의학과 전문의가 진료합니다.',
   },
   {
-    title: '일상 가까이의 건강관리',
-    text: '내과 진료와 건강검진부터 심장·초음파·내시경 검사까지 확인할 수 있습니다.',
+    title: '증상 평가부터 만성질환 관리까지',
+    text: '심장·소화기·호흡기 증상을 평가하고 고혈압·당뇨병·고지혈증을 관리합니다.',
   },
   {
-    title: '방문 전부터 편안하게',
-    text: '진료시간과 위치, 검사 예약·서류 준비를 미리 살펴보세요.',
+    title: '초음파·내시경과 건강검진',
+    text: '심장·복부·갑상선·경동맥초음파, 위·대장내시경과 국가·채용·비자검진을 시행합니다.',
   },
 ];
 function DoctorDetail({ page }: { page: Page }) {
@@ -749,7 +743,7 @@ export function PageContent({ page }: { page: Page }) {
     ...(page.id === 'notices'
       ? notices.map((notice) => ({ id: notice.id, label: notice.title }))
       : []),
-    ...(page.id === 'fees' ? [{ id: 'fee-enquiry', label: '전화 문의 시 함께 확인할 항목' }] : []),
+    ...(page.id === 'fees' ? [{ id: 'fee-enquiry', label: '비용·서류 문의 연락처' }] : []),
   ];
   const hasToc =
     tocEntries.length > 0 &&
@@ -888,13 +882,7 @@ export function PageContent({ page }: { page: Page }) {
               {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}
               {page.id === 'fees' && (
                 <div className="article-section" id="fee-enquiry">
-                  <h2>전화 문의 시 함께 확인할 항목</h2>
-                  <ul className="check-list">
-                    <li>검사 종류와 건강보험·검진 적용 여부</li>
-                    <li>진정·조직검사·추가 처치의 포함 여부</li>
-                    <li>진단서·영문서류의 종류, 발급 소요 시간과 비용</li>
-                    <li>제출 기관의 지정 양식과 필요한 신분 확인 서류</li>
-                  </ul>
+                  <h2>비용·서류 문의 연락처</h2>
                   <a className="button" href={phoneHref}>
                     비용·서류 전화 문의 <ArrowUpRight size={16} />
                   </a>

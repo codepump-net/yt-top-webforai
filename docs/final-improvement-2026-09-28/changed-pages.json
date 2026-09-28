@@ -1,0 +1,985 @@
+[
+  {
+    "id": "about",
+    "path": "/about/",
+    "title": "병원안내",
+    "changedFields": [
+      "description",
+      "intro",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cases",
+    "path": "/cases/",
+    "title": "진단 사례",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "checkups",
+    "path": "/checkups/",
+    "title": "검진·서류",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cancer-screening",
+    "path": "/checkups/cancer-screening/",
+    "title": "암검진 안내",
+    "changedFields": [
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "drug-screening",
+    "path": "/checkups/drug-screening/",
+    "title": "마약검사·영문서류",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "employment-checkup",
+    "path": "/checkups/employment/",
+    "title": "채용검진·제출 서류",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "national-checkup",
+    "path": "/checkups/national/",
+    "title": "국가건강검진",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "tuberculosis-screening",
+    "path": "/checkups/tuberculosis/",
+    "title": "기숙사·비자 결핵검진과 진단서",
+    "changedFields": [
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "visa-checkup",
+    "path": "/checkups/visa/",
+    "title": "E-2·F-2·H-2 비자검진과 결핵진단서",
+    "changedFields": [
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "acute-care",
+    "path": "/conditions/acute-care/",
+    "title": "급성 증상과 응급 진료 안내",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "chronic-cough",
+    "path": "/conditions/chronic-cough/",
+    "title": "기침이 오래갈 때 무엇을 확인하나요?",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "heart-disease",
+    "path": "/conditions/heart-disease/",
+    "title": "심장질환 진료",
+    "changedFields": [
+      "description",
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "fees",
+    "path": "/fees/",
+    "title": "비용·서류 발급 안내",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt",
+      "reviewStatus"
+    ]
+  },
+  {
+    "id": "checkup-preparation",
+    "path": "/health/checkup-preparation-checklist/",
+    "title": "건강검진 전 준비 확인표",
+    "changedFields": [
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "colonoscopy-preparation",
+    "path": "/health/colonoscopy-preparation-questions/",
+    "title": "대장내시경 전 음식·정결제·귀가 준비",
+    "changedFields": [
+      "title",
+      "metaTitle",
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "heart-test-differences",
+    "path": "/health/heart-test-differences/",
+    "title": "심전도·심장초음파·홀터검사의 차이",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "palpitations-followup",
+    "path": "/health/palpitations-test-followup/",
+    "title": "검사 후에도 두근거림이 계속될 때 확인할 점",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "cancer-support",
+    "path": "/services/cancer-support/",
+    "title": "암 의심 소견 및 암 치료 중 지지진료",
+    "changedFields": [
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "endoscopy",
+    "path": "/services/endoscopy/",
+    "title": "위·대장내시경 안내",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "colonoscopy",
+    "path": "/services/endoscopy/colonoscopy/",
+    "title": "대장내시경",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "gastroscopy",
+    "path": "/services/endoscopy/gastroscopy/",
+    "title": "위내시경",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "heart-index",
+    "path": "/services/heart/",
+    "title": "심장검사 안내",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "abi",
+    "path": "/services/heart/arterial-assessment/",
+    "title": "동맥경화도 검사",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cardiac-markers",
+    "path": "/services/heart/cardiac-markers/",
+    "title": "심장 관련 혈액검사",
+    "changedFields": [
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "carotid",
+    "path": "/services/heart/carotid-ultrasound/",
+    "title": "경동맥 초음파",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "echocardiography",
+    "path": "/services/heart/echocardiography/",
+    "title": "심장초음파 검사",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "hrv",
+    "path": "/services/heart/heart-rate-variability/",
+    "title": "심박 변이도 검사",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt",
+      "reviewStatus"
+    ]
+  },
+  {
+    "id": "holter",
+    "path": "/services/heart/holter/",
+    "title": "홀터검사",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "ultrasound-index",
+    "path": "/services/ultrasound/",
+    "title": "초음파 검사 안내",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "abdominal-ultrasound",
+    "path": "/services/ultrasound/abdomen/",
+    "title": "상·하복부 초음파",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "bowel-ultrasound",
+    "path": "/services/ultrasound/bowel/",
+    "title": "소장·대장·충수초음파",
+    "changedFields": [
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "thyroid-ultrasound",
+    "path": "/services/ultrasound/thyroid/",
+    "title": "갑상선 초음파",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "visit",
+    "path": "/visit/",
+    "title": "진료시간·오시는 길",
+    "changedFields": [
+      "description",
+      "intro",
+      "questions",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "examinations",
+    "path": "/services/examinations/",
+    "title": "검사·장비와 결과 확인 시간",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "civil-service",
+    "path": "/checkups/civil-service/",
+    "title": "공무원 채용신체검사와 마약류 6종",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cancer-treatment-symptoms",
+    "path": "/health/cancer-treatment-symptoms/",
+    "title": "암 치료 중 증상별 대처와 위험 신호",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "respiratory-infections",
+    "path": "/conditions/respiratory-infections/",
+    "title": "호흡기·감염질환 진료",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "vaccinations",
+    "path": "/services/vaccinations/",
+    "title": "성인 예방접종과 접종 일정",
+    "changedFields": [
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "influenza",
+    "path": "/conditions/influenza/",
+    "title": "독감 검사와 항바이러스 치료",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "covid-19",
+    "path": "/conditions/covid-19/",
+    "title": "코로나19 검사와 팍스로비드 상담",
+    "changedFields": [
+      "blocks",
+      "sources",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "plenvu-preparation",
+    "path": "/health/plenvu-preparation/",
+    "title": "플렌뷰 복용과 대장내시경 준비",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "after-endoscopy",
+    "path": "/health/after-endoscopy/",
+    "title": "조직검사·용종절제 후 식사와 생활",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "heart-valve-regurgitation",
+    "path": "/health/heart-valve-regurgitation/",
+    "title": "심장판막 역류와 치료·추적검사",
+    "changedFields": [
+      "blocks",
+      "sources"
+    ]
+  },
+  {
+    "id": "angina-treatment",
+    "path": "/health/angina-treatment/",
+    "title": "협심증의 약물치료와 스텐트",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "chronic-disease",
+    "path": "/conditions/chronic-disease/",
+    "title": "고혈압·당뇨·고지혈증 치료, 금연치료, 체중관리",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "cancer-family-history",
+    "path": "/health/cancer-family-history/",
+    "title": "암 가족력과 나에게 필요한 검진",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "colon-polyp-followup",
+    "path": "/health/colon-polyp-followup/",
+    "title": "대장용종 결과와 추적 내시경",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "obesity-medication",
+    "path": "/health/obesity-medication/",
+    "title": "위고비·마운자로와 비만 진료",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "sources",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "visa-en",
+    "path": "/en/checkups/visa/",
+    "title": "E-2, F-2 and H-2 visa examinations and TB certificates",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "visa-zh-hans",
+    "path": "/zh-hans/checkups/visa/",
+    "title": "E-2、F-2、H-2签证体检及结核病证明",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "visa-th",
+    "path": "/th/checkups/visa/",
+    "title": "ตรวจสุขภาพวีซ่า E-2, F-2, H-2 และใบรับรองวัณโรค",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "visa-ru",
+    "path": "/ru/checkups/visa/",
+    "title": "Обследование для виз E-2, F-2, H-2 и справка о туберкулёзе",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "visa-ne",
+    "path": "/ne/checkups/visa/",
+    "title": "E-2, F-2, H-2 भिसा स्वास्थ्य परीक्षण र क्षयरोग प्रमाणपत्र",
+    "changedFields": [
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "symptoms",
+    "path": "/symptoms/",
+    "title": "증상백과",
+    "changedFields": [
+      "description",
+      "intro"
+    ]
+  },
+  {
+    "id": "diseases",
+    "path": "/diseases/",
+    "title": "질환백과",
+    "changedFields": [
+      "description",
+      "intro"
+    ]
+  },
+  {
+    "id": "cardio-hypertension",
+    "path": "/diseases/cardio/hypertension/",
+    "title": "고혈압이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-dyslipidemia",
+    "path": "/diseases/cardio/dyslipidemia/",
+    "title": "이상지질혈증이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cardio-atherosclerosis",
+    "path": "/diseases/cardio/atherosclerosis/",
+    "title": "죽상경화증이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-stable-angina",
+    "path": "/diseases/cardio/stable-angina/",
+    "title": "안정형 협심증이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-acute-myocardial-infarction",
+    "path": "/diseases/cardio/acute-myocardial-infarction/",
+    "title": "급성 심근경색이란? 증상과 검사, 치료 및 응급실 기준",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-heart-failure",
+    "path": "/diseases/cardio/heart-failure/",
+    "title": "심부전이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-atrial-fibrillation",
+    "path": "/diseases/cardio/atrial-fibrillation/",
+    "title": "심방세동이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "questions",
+      "sources"
+    ]
+  },
+  {
+    "id": "cardio-supraventricular-tachycardia",
+    "path": "/diseases/cardio/supraventricular-tachycardia/",
+    "title": "발작성 상심실성 빈맥이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-premature-ventricular-contractions",
+    "path": "/diseases/cardio/premature-ventricular-contractions/",
+    "title": "심실조기수축이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "cardio-bradyarrhythmia",
+    "path": "/diseases/cardio/bradyarrhythmia/",
+    "title": "서맥성 부정맥이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "questions"
+    ]
+  },
+  {
+    "id": "cardio-mitral-regurgitation",
+    "path": "/diseases/cardio/mitral-regurgitation/",
+    "title": "승모판 역류란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "questions",
+      "sources"
+    ]
+  },
+  {
+    "id": "cardio-aortic-stenosis",
+    "path": "/diseases/cardio/aortic-stenosis/",
+    "title": "대동맥판 협착이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cardio-myocarditis",
+    "path": "/diseases/cardio/myocarditis/",
+    "title": "심근염이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cardio-pericarditis",
+    "path": "/diseases/cardio/pericarditis/",
+    "title": "심낭염이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cardio-dilated-cardiomyopathy",
+    "path": "/diseases/cardio/dilated-cardiomyopathy/",
+    "title": "확장성 심근병증이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-carotid-stenosis",
+    "path": "/diseases/cardio/carotid-stenosis/",
+    "title": "경동맥 협착증이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cardio-peripheral-artery-disease",
+    "path": "/diseases/cardio/peripheral-artery-disease/",
+    "title": "말초동맥질환이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks",
+      "updatedAt"
+    ]
+  },
+  {
+    "id": "cardio-deep-vein-thrombosis",
+    "path": "/diseases/cardio/deep-vein-thrombosis/",
+    "title": "심부정맥혈전증이란? 증상과 검사, 치료 및 응급실 기준",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-aortic-aneurysm-dissection",
+    "path": "/diseases/cardio/aortic-aneurysm-dissection/",
+    "title": "대동맥류·대동맥박리란? 증상과 검사, 치료 및 응급실 기준",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "cardio-orthostatic-hypotension",
+    "path": "/diseases/cardio/orthostatic-hypotension/",
+    "title": "기립성 저혈압이란 무엇인가요? 원인·증상·검사·치료와 추적관리",
+    "changedFields": [
+      "description",
+      "blocks"
+    ]
+  },
+  {
+    "id": "thyroid-disease",
+    "path": "/conditions/thyroid-carotid-neck/thyroid/",
+    "title": "갑상선질환 진료",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "kidney-function",
+    "path": "/conditions/kidney/function/",
+    "title": "신부전 예방과 신장기능 모니터링",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "ambulatory-blood-pressure",
+    "path": "/services/heart/ambulatory-blood-pressure/",
+    "title": "CART BP Pro 24시간 혈압모니터링",
+    "changedFields": [
+      "blocks",
+      "sources"
+    ]
+  },
+  {
+    "id": "symptom-cardio-chest-pressure-sweating",
+    "path": "/symptoms/cardio/chest-pressure-sweating/",
+    "title": "가슴이 조이고 식은땀이 날 때, 내과로 가도 될까요?",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-chest-tightness-causes",
+    "path": "/symptoms/cardio/chest-tightness-causes/",
+    "title": "가슴이 답답할 때 심장·폐·위식도 원인을 어떻게 구분하나요?",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-epigastric-pain-heart",
+    "path": "/symptoms/cardio/epigastric-pain-heart/",
+    "title": "명치 통증이 위염이 아니라 심장 문제일 수 있나요?",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-exertional-chest-pain",
+    "path": "/symptoms/cardio/exertional-chest-pain/",
+    "title": "운동할 때 가슴통증이 생기면 협심증 검사부터 해야 하나요?",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-recurrent-palpitations-normal-ecg",
+    "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+    "title": "두근거림이 반복되는데 심전도는 정상입니다. 부정맥이 아닌가요?",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-irregular-skipped-heartbeat",
+    "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+    "title": "맥박이 불규칙하고 건너뛰는 느낌, 심방세동이나 조기수축일까요?",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-rapid-heart-rate",
+    "path": "/symptoms/cardio/rapid-heart-rate/",
+    "title": "맥박이 빠를 때 단순 긴장인지 위험한 빈맥인지 확인하는 법",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-slow-heart-rate-dizziness",
+    "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+    "title": "맥박이 느리고 어지러울 때 약 때문인지 심장 문제인지",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-presyncope-cardiac-evaluation",
+    "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+    "title": "어지럽고 쓰러질 것 같은 느낌, 심장검사가 필요한 경우는?",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-syncope-emergency",
+    "path": "/symptoms/cardio/syncope-emergency/",
+    "title": "실신했을 때 반드시 응급실로 가야 하는 경우",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-exertional-dyspnea",
+    "path": "/symptoms/cardio/exertional-dyspnea/",
+    "title": "조금만 걸어도 숨이 찰 때 심장·폐·빈혈을 어떻게 구분하나요?",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-orthopnea-leg-edema",
+    "path": "/symptoms/cardio/orthopnea-leg-edema/",
+    "title": "누우면 숨이 차고 다리가 붓습니다. 심부전을 의심해야 하나요?",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-leg-edema-dyspnea",
+    "path": "/symptoms/cardio/leg-edema-dyspnea/",
+    "title": "다리가 붓고 숨이 찰 때, 응급 신호와 심장·신장·간 평가",
+    "changedFields": [
+      "title",
+      "metaTitle",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-rapid-weight-gain-edema",
+    "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+    "title": "갑자기 체중이 늘고 붓는다면 지방보다 체액을 먼저 확인해야 하나요?",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-fatigue-exercise-intolerance",
+    "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+    "title": "쉽게 지치고 운동능력이 떨어질 때 심장·빈혈·갑상선을 확인하는 이유",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-blood-pressure-180",
+    "path": "/symptoms/cardio/blood-pressure-180/",
+    "title": "혈압이 180 이상이면 모두 응급실로 가야 하나요?",
+    "changedFields": [
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-orthostatic-dizziness-low-bp",
+    "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+    "title": "혈압이 낮고 일어설 때 어지러운 원인과 약 조정이 필요한 경우",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-valve-regurgitation-follow-up",
+    "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+    "title": "판막 역류가 발견됐을 때 증상과 심장초음파 추적간격을 정하는 법",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks",
+      "sources"
+    ]
+  },
+  {
+    "id": "symptom-cardio-family-history-heart-disease",
+    "path": "/symptoms/cardio/family-history-heart-disease/",
+    "title": "부모님이 심장병이면 자녀는 어떤 검사와 위험인자 관리를 해야 하나요?",
+    "changedFields": [
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "symptom-cardio-radiating-chest-pain-119",
+    "path": "/symptoms/cardio/radiating-chest-pain-119/",
+    "title": "가슴통증이 등·턱·팔로 퍼질 때 즉시 119에 연락해야 하는 경우",
+    "changedFields": [
+      "title",
+      "metaTitle",
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  {
+    "id": "copyright-policy",
+    "path": "/copyright/",
+    "title": "저작권·콘텐츠 이용 안내",
+    "changedFields": [
+      "blocks"
+    ]
+  }
+]

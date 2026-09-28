@@ -1,0 +1,15 @@
+{
+  "baselineCommit": "e27a4c4a4309e5e4fc2adb0f9ae3acf7fddc5fbf",
+  "workPackages": 15,
+  "activeFindingsMapped": 138,
+  "regressionOnly": [
+    "F129"
+  ],
+  "symptomPageBriefs": 20,
+  "diseasePageBriefs": 20,
+  "clinicFactItems": 15,
+  "linksValid": true,
+  "sourceUnchanged": true,
+  "siteTestsRun": false,
+  "reason": "Documentation-only specification; site content and implementation were not modified."
+}

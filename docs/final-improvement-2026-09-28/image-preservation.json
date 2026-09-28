@@ -1,0 +1,121 @@
+[
+  {
+    "id": "vaccination-schedule-2026",
+    "sha256": "9f63764e081948d03dcf67b06371594e7a666944514beb6da70bc59a8a89420b",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "vaccinations"
+  },
+  {
+    "id": "banner-heart",
+    "sha256": "744304b1479aff73fa72ac547b6a30494d646a96880b8e8dd6091b0ff3fa9ba2",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "heart-disease"
+  },
+  {
+    "id": "banner-digestive",
+    "sha256": "5d2ff228814c426041870968d93a2a92dbef00f78c3be250586ca62d4d3e4411",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "digestive-disease"
+  },
+  {
+    "id": "banner-respiratory",
+    "sha256": "df9a1080f7161449ecc172cb362014273260d63729d9dd03d38120b636a2e70f",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "respiratory-infections"
+  },
+  {
+    "id": "banner-vaccinations",
+    "sha256": "a2b350c9a6d1bf2be7cdce014c9267a3e46d14c69589379ec171b11c08230ff7",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "vaccinations"
+  },
+  {
+    "id": "banner-chronic",
+    "sha256": "0974ba596143bbafbec6f576193a209eb63e32534357f99439487f57ed8a650a",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "chronic-disease"
+  },
+  {
+    "id": "banner-neck",
+    "sha256": "c515c6b481898f78a1edcb0c442386aa8494de17831a87d3c47ef265d8bce8c3",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "neck-disease"
+  },
+  {
+    "id": "banner-kidney",
+    "sha256": "38971e8fe1f8fb7452a19edee2e029cd68a1d2b1683ed6a5705f732a8778a4b0",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "kidney-disease"
+  },
+  {
+    "id": "banner-cancer-support",
+    "sha256": "87348435514c97debacf1f0cde5feab1830ca4f38ef014d8622f426b0335d5a0",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "cancer-support"
+  },
+  {
+    "id": "banner-services",
+    "sha256": "ec7c318294399e4afa10f46a6cbc0e95ea2fa4d158117fe1e6f476494ab3d811",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "services"
+  },
+  {
+    "id": "banner-checkups",
+    "sha256": "e53ce3e7c80479263851797e85caeadd3b13990a7283ffec3a3ec9d83826f571",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "checkups"
+  },
+  {
+    "id": "banner-symptoms",
+    "sha256": "4557c7122dae335a4fb2d6253b30fef92451aa8169bee2773ac28fdb357ad460",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "symptoms"
+  },
+  {
+    "id": "banner-diseases",
+    "sha256": "76fe2bb62b6d8d687fd7f83b92fe1507fdb5525d937820419e5bd73e0ad01711",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "diseases"
+  },
+  {
+    "id": "diagram-heart-flow",
+    "sha256": "40ab95d1d563cebaa56838f5f5ce4800530ce8c492f8351e5d3c581ab45a80e0",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "heart-index"
+  },
+  {
+    "id": "diagram-endoscopy-preparation",
+    "sha256": "de986a1f64871166c1da4e8209e766dfce815d97f2635c1cc39019ef97c6ed3f",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "endoscopy"
+  },
+  {
+    "id": "diagram-after-endoscopy",
+    "sha256": "2d93d75fe60bbc89550391f6aaabd7ea2d0627701e46ced3271615992ab71939",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "after-endoscopy"
+  },
+  {
+    "id": "diagram-checkup-flow",
+    "sha256": "13c0ba304197ba22c068523882bd3e017c4cd5f690bace7b0de3a6c9bd976e78",
+    "bytesUnchanged": true,
+    "pixelsMatchSource": true,
+    "placement": "checkups"
+  }
+]

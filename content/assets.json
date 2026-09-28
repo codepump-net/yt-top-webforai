@@ -339,7 +339,7 @@
       "width": 280,
       "height": 300
     },
-    "guidanceSha256": "f93b7a51cd9c615ac957a97912cd47de8a2b177e64c52a84f8905beb39656b6f"
+    "guidanceSha256": "67429c263191dda763000b27007147057f9df60195b01269f55084009ab3352a"
   },
   {
     "id": "diagram-endoscopy-preparation",
@@ -359,7 +359,7 @@
       "width": 280,
       "height": 300
     },
-    "guidanceSha256": "0bf600e3bf3d7ed7dbf64f6f28fe0c14e55d1d7bea978bdfe648f08f041401e2"
+    "guidanceSha256": "5192aa3ec9513c375f7da07ae99a4e5939824599a8c7d2f28b4d098d50b7161e"
   },
   {
     "id": "diagram-after-endoscopy",
@@ -379,7 +379,7 @@
       "width": 280,
       "height": 300
     },
-    "guidanceSha256": "2c400933c0a91f656d6d7c63cea67ae6dc60b25688fde45c9966e8c2998df60f"
+    "guidanceSha256": "3fcb867f52ee5ee0322ebb29f8d8064b239995a96d03f9d78090ce3357dbb2f2"
   },
   {
     "id": "diagram-checkup-flow",
@@ -399,6 +399,6 @@
       "width": 280,
       "height": 300
     },
-    "guidanceSha256": "72cd28fbff3129d92988a539a474975f930c6f046911004533301936e308c18e"
+    "guidanceSha256": "9d68ed674c12f3f8a1fb60aea3f4326b879bd770fe37d0c270d90febbbff1e97"
   }
 ]
