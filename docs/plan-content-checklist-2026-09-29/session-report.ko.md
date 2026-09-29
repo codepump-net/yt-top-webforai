@@ -24,10 +24,10 @@
 
 ## 커밋·배포
 
-- 이번 세션의 코드·콘텐츠·생성 마스터·공개 자산·내부 보고서와 검증 근거를 `main`에 커밋한다.
+- 이번 세션의 코드·콘텐츠·생성 마스터·공개 자산·내부 보고서와 검증 근거를 `36d5e7a`로 커밋하고 `main`에 푸시했다.
 - 작업 시작 전에 있던 `plan/` 추가·삭제는 유지한다. 요청 문서 7개는 검토 기록의 `request-sources/`에 동일 바이트로 보관한다. 조사용 임시 `output/`·`tmp/`와 외부 사이트 원시 HTML은 커밋에서 제외한다.
-- 기존 GitHub Actions 검사 후 **GitHub Pages에 `review/noindex` 모드로 배포**한다. 승인 기록을 생성하거나 검색 공개로 전환하지 않는다.
-- 현재 진행 상태: 보고서 작성 완료, 커밋·푸시·배포 확인 진행 중. 실제 커밋과 배포 결과는 아래 기록을 완료 후 갱신한다.
+- 기존 GitHub Actions 검사를 통과하고 **GitHub Pages에 `review/noindex` 모드로 배포 완료**했다. 승인 기록 생성이나 검색 공개 전환은 수행하지 않았다.
+- 실제 135경로의 HTML 일치, PNG 33개·PDF 1개의 응답·파일 해시, 모바일·PC 8개 화면 확인 완료. CI에서도 루트·프로젝트 각각 브라우저 검사 69개 통과. [사이트](https://codepump-net.github.io/yt-top-webforai/) · [배포 기록](deployment.ko.md) · [Actions](https://github.com/codepump-net/yt-top-webforai/actions/runs/36534969998).
 
 ## 남은 운영 확인
 

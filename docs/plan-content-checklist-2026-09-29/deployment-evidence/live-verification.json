@@ -1,0 +1,820 @@
+{
+  "checkedAt": "2026-09-29T07:15:37.609Z",
+  "site": "https://codepump-net.github.io/yt-top-webforai/",
+  "commit": "36d5e7a55bc4b5a6070418d57e3eb9fd6cf58b97",
+  "mode": "review",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/404.html",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/cases/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, nofollow, nosnippet, noimageindex,"
+    },
+    {
+      "path": "/checkups/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/employment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/national/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/doctors/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/fees/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/cancer-support/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/endoscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/holter/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/sitemap/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/visit/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/examinations/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/checkups/civil-service/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/fever-during-cancer-treatment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/cancer-treatment-symptoms/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/abdominal-pain/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/respiratory-infections/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/vaccinations/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/influenza/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/covid-19/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/orafang-preparation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/plenvu-preparation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/after-endoscopy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/heart-valve-regurgitation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/angina-treatment/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/chronic-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/gallstones/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/cancer-family-history/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/liver-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/colon-polyp-followup/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/thyroid-cancer-surveillance/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/health/obesity-medication/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/en/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/zh-hans/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/th/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/ru/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/ne/checkups/visa/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/preparation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/hypertension/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/dyslipidemia/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/atherosclerosis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/stable-angina/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/acute-myocardial-infarction/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/heart-failure/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/atrial-fibrillation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/supraventricular-tachycardia/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/premature-ventricular-contractions/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/bradyarrhythmia/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/mitral-regurgitation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/aortic-stenosis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/myocarditis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/pericarditis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/dilated-cardiomyopathy/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/carotid-stenosis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/peripheral-artery-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/deep-vein-thrombosis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/aortic-aneurysm-dissection/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/diseases/cardio/orthostatic-hypotension/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/digestive/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/digestive/esophagus-stomach/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/digestive/bowel-appendix/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/digestive/gallbladder-bile-duct/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/digestive/pancreas/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/thyroid/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/carotid/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/neck-lump/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/kidney/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/kidney/function/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/kidney/pyelonephritis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/conditions/kidney/hydronephrosis/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/services/heart/ambulatory-blood-pressure/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/chest-pressure-sweating/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/chest-tightness-causes/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/epigastric-pain-heart/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/exertional-chest-pain/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/rapid-heart-rate/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/syncope-emergency/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/exertional-dyspnea/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/orthopnea-leg-edema/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/leg-edema-dyspnea/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/blood-pressure-180/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/family-history-heart-disease/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/symptoms/cardio/radiating-chest-pain-119/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/copyright/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/2026-hpv/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/2026-pneumococcal/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/2026-2027-influenza/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/2026-suwon-shingles/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/2026-gyeonggi-student-influenza/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    },
+    {
+      "path": "/notices/2026-09-17-infection-guide/",
+      "status": 200,
+      "indexable": false,
+      "robots": "noindex, follow,"
+    }
+  ],
+  "failures": [],
+  "sitemapUrls": []
+}

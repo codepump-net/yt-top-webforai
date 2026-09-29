@@ -252,32 +252,32 @@
       "proof": "[개발·검증 기록](implementation.ko.md)"
     },
     "SAFE-04": {
-      "actual": "review/noindex 유지. 최종 수정 후 production 검증도 승인 범위·승인 상태·digest 불일치 3건으로 차단됨을 확인. 운영 배포 미수행.",
+      "actual": "review/noindex로 GitHub Pages 배포 완료. production 검증의 승인 범위·승인 상태·digest 불일치 3건은 유지. 의료·운영 승인 기록을 생성하지 않음.",
       "state": "충족",
-      "proof": "[배포 전 최종 검토](predeploy-review.ko.md)"
+      "proof": "[커밋·푸시·배포 확인](deployment.ko.md)"
     },
     "VERIFY-01": {
-      "actual": "135경로·38자산 콘텐츠 검사, 루트·프로젝트 접두사 review 빌드·정적 출력 검사, 타입·린트·단위 85개·하네스 17개 통과. 완료 검사에서 PNG 17개·감염병 16쪽·오류 0개.",
+      "actual": "로컬 135경로·38자산 및 두 경로 빌드·정적 검사·타입·린트·단위 85개·하네스 17개 통과. CI에서도 두 환경의 검사와 대표 6경로 성능 기준 통과.",
       "state": "충족",
-      "proof": "[배포 전 최종 검토](predeploy-review.ko.md)"
+      "proof": "[커밋·푸시·배포 확인](deployment.ko.md)"
     },
     "VERIFY-02": {
-      "actual": "루트 경로 관련 브라우저 검사 14개와 프로젝트 접두사 전체 브라우저 검사 69개 통과. 메뉴·게시판·표·공식 채널·PNG 17개·감염병 16쪽·키보드·JavaScript 미사용·접근성 회귀 확인.",
+      "actual": "로컬 루트 관련 14개·프로젝트 전체 69개 통과. CI 루트·프로젝트 전체 브라우저 각각 69개 통과. 배포 후 모바일·PC 8화면 직접 확인.",
       "state": "충족",
-      "proof": "[배포 전 최종 검토](predeploy-review.ko.md)"
+      "proof": "[커밋·푸시·배포 확인](deployment.ko.md)"
     },
     "VERIFY-03": {
-      "actual": "루트·프로젝트 접두사에서 PNG 17개·감염병 16쪽·PDF의 실제 로딩·원본 접근·형식·해시 확인. 생성 마스터와 공개 파일 일치. 운영 배포·CDN 갱신은 미수행.",
+      "actual": "GitHub Pages review 배포 완료. 실제 135경로 HTML이 해당 CI 매니페스트와 일치. PNG 33개·PDF 1개 HTTP 200·형식·바이트·해시 일치, 내부 보고서 미노출 확인.",
       "state": "충족",
-      "proof": "[배포 전 최종 검토](predeploy-review.ko.md)"
+      "proof": "[커밋·푸시·배포 확인](deployment.ko.md)"
     },
     "VERIFY-04": {
-      "actual": "최초 54개와 plan 7개를 재대조하고 최종 검토의 수정 5종·전후 차이·실행 로그를 기록. 16쪽 대체 맥락, 이전 47/2/5 판정, 현재 54/0/0과 별도 운영 확인을 보존.",
+      "actual": "최초 54개 대조·최종 교정 5종·전후 차이·검사 기록에 커밋 36d5e7a와 성공한 Actions 36534969998·실제 사이트 검증을 추가. 운영 승인 상태는 별도 유지.",
       "state": "충족",
-      "proof": "[배포 전 최종 검토](predeploy-review.ko.md)"
+      "proof": "[커밋·푸시·배포 확인](deployment.ko.md)"
     }
   },
-  "note": "후속 사용자 지시에 따른 공식 16쪽 대체 기준의 로컬 구현·검증 결과. 기존 15쪽 문서를 확보했다는 판정이 아니며 운영 배포·의료 승인은 별도다.",
+  "note": "후속 사용자 지시에 따른 공식 16쪽 대체 기준으로 구현·검증·review 배포 완료. 기존 15쪽 문서를 확보했다는 판정이 아니며 의료·운영 승인과 검색 공개 전환은 별도다.",
   "clarification": "2026-09-29 사용자 정정: 기존 PNG 리소스가 없으므로 고해상도로 다시 제작한다. 감염병: 공식 16쪽 자료로 해결 가능하다는 설명 뒤 사용자가 자료부족 문제 모두 정확하게 해결하도록 지시하여 대체 적용.",
   "updatedAt": "2026-09-29",
   "basis": [
@@ -286,7 +286,9 @@
     "outstanding-items.ko.md",
     "original-material-references.ko.md",
     "infection-resolution.ko.md",
-    "predeploy-review.ko.md"
+    "predeploy-review.ko.md",
+    "session-report.ko.md",
+    "deployment.ko.md"
   ],
   "historicalSnapshot": "redraw-evidence/requirement-results.json",
   "sourceReplacement": {
@@ -318,8 +320,18 @@
     "projectBrowserPassed": 69,
     "unitPassed": 85,
     "harnessPassed": 17,
-    "deployed": false,
+    "deployed": true,
     "productionApproved": false,
     "performanceSelectedRoutesPassed": 3
+  },
+  "deployment": {
+    "record": "deployment.ko.md",
+    "codeCommit": "36d5e7a55bc4b5a6070418d57e3eb9fd6cf58b97",
+    "actionsRun": 36534969998,
+    "mode": "review",
+    "url": "https://codepump-net.github.io/yt-top-webforai/",
+    "verifiedRoutes": 135,
+    "verifiedAssets": 34,
+    "productionApproved": false
   }
 }

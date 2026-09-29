@@ -1,0 +1,341 @@
+{
+  "checkedAt": "2026-09-29T07:15:40.072Z",
+  "site": "https://codepump-net.github.io/yt-top-webforai",
+  "assets": [
+    {
+      "file": "/assets/clinic-visuals-hq/banner-digestive-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1456521,
+      "sha256": "07f9b1933a5379c3f538f79d1e668a970cb6982737fad0c79c2b5102cad646d9",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1610592,
+      "sha256": "1cb465d416ea5bc8794520cbdbcf1f45ce985dd0478510033ea1ed656911c3cc",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-heart-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1476398,
+      "sha256": "e8af85c9a9dd200d633d2969fb51c3c7b12e292e916bdc88c5e2e3b116c7b9bb",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-respiratory-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1460014,
+      "sha256": "3587fc67664b9b2ce2ddca0f695055ce785b73002b2dbdb241ab19fdd1c385a4",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-chronic-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1493979,
+      "sha256": "7dea9b49da704463a60a7368fe347d81e95186c20aaaa90d0760cc5f48065e33",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-neck-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1490119,
+      "sha256": "59912fddc3eba752c0e5fc5e3038eba950b00b87004cbd55cb67b6c342eda912",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-vaccinations-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1498080,
+      "sha256": "95de6ba61398eb2a1f510f30e37e253da236e9fb39632c0fba534fc97a4e02ae",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-kidney-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1368611,
+      "sha256": "d684596647c938ecb67f2361573ba853f9169a1565cc323b7a432718c80340cd",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-checkups-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1427039,
+      "sha256": "36583af8d77339e027ebd617bd99b465ce76d6f8e379b42052a5a0815a7830fa",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-services-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1529659,
+      "sha256": "7b9dd7bd1c61a1388a48265abd16bba1d1b7793d53d0443fb17248f847a069f9",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-cancer-support-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1476438,
+      "sha256": "e0d3e668a0f2c3b0bf59345c33a6bc0aba4094a8bdcf44257830e0e24741ef8f",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-symptoms-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1503694,
+      "sha256": "743b09e795c936b5b18986c61092b9a3a9bd342994c7f5bd03aecd063cc82026",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/banner-diseases-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1396071,
+      "sha256": "6cf1f9e382ed2c8fd0ad54345cd859cfbd712aa4c560ac872e57527682bba05e",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/diagram-endoscopy-preparation-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1521497,
+      "sha256": "5750625107d3eb1188b3cfdde7bd15ad6143225887de92fbad5a7a12f92f8cf8",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/diagram-heart-flow-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1496710,
+      "sha256": "124128f789b9197f4eb298394b6f15b290f0518e91d16a565649d76ad5f3e5ce",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/diagram-after-endoscopy-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1499519,
+      "sha256": "4fc8360a9b210a5a0e344af0e23c1bb5cae5684bea00fc706512ba536b4f3963",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-01.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 514701,
+      "sha256": "ff69db63b917f4fef241ff3e0be1ad4be1bde4d2496c224c9ad743764b39b8d4",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-02.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1408547,
+      "sha256": "a1fee1d2f36d3afc63ca19b1966cda1e29d243a29402c985c01e458bac14f536",
+      "ok": true
+    },
+    {
+      "file": "/assets/clinic-visuals-hq/diagram-checkup-flow-hq-original.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1433354,
+      "sha256": "bb0de286d1abc9d5da4c759b432eacf2bde96aaab3f504ef9bbef29784282295",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-03.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 989470,
+      "sha256": "04a5257c4e669b1e215a51a2f40ae9cee8940839f7b7901fc6bdf04813161a3e",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-07.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 543673,
+      "sha256": "88ad88840aca4ac92f723acce370475ce193ab5eeac45ce1c0ace182991342ee",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-05.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 450888,
+      "sha256": "369a0776e9ae42da1ebf946841e4fbba504ad7b6dfcfc83445af459dc11500fe",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-04.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 593168,
+      "sha256": "63b4d60c11d2fbd7f9f47ce77120b226054c1896410eac5fa2a886ca3a0a2786",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-06.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 600656,
+      "sha256": "5d588ecbe1df6c9ba5f8cae651d11ebdd35c6b810d9f2079079455f2f5535fa8",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-09.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 658814,
+      "sha256": "ca1bc51c5d39c5cdfcbce64d639e3392bdf3a7fedd768ca51ed30abadf561548",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-10.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 495285,
+      "sha256": "ad0cfe585fd6e16519b931c6474f619ed32de0b692311cd172023a343925740c",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-08.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 647027,
+      "sha256": "847151d69a23b7320f962d91b2cd668daa1cb63b2e4a6bda56fd021d24536856",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-11.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1109295,
+      "sha256": "bc68cd4b1d1e8494f7e85cea4af47fe2a207ae0327552d9f009c538eff72873e",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-13.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 463698,
+      "sha256": "7fde23da7fb20d60190d677c2e87f10485e7b333b78503758acd410a9f9e85c2",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-14.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 473129,
+      "sha256": "cf4186504c5aaf52d8a0375e43fb7d35e18ac9fcb5129a457c3c83ced7703c81",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-15.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2068663,
+      "sha256": "40b7ca26eda5a014379a681919cbd3cd3028c7669467c2ad37eb582d1f41ff3c",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-12.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1249730,
+      "sha256": "4e751e43682e3044fe0652ef8ad465f0670678c3dbfd0185c3cbdf575c1c789d",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/infection-prevention-page-16.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1748796,
+      "sha256": "fc8a99a9fee611b8ca64a6b3f5a310ad94f35d053caf06b2a076e5ec3df9a575",
+      "ok": true
+    },
+    {
+      "file": "/assets/notice-documents/kdca-2026-09-21-infection-prevention-press.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 1505951,
+      "sha256": "6f85c40ba28f99ecc281adc0fd0ab46f42d487652473fc2259835251312a7ba1",
+      "ok": true
+    }
+  ],
+  "screens": [
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/notices/",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/notices/2026-hpv/",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/notices/2026-09-17-infection-guide/",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/notices/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/notices/2026-hpv/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/notices/2026-09-17-infection-guide/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    }
+  ],
+  "internalReports": [
+    {
+      "path": "/docs/plan-content-checklist-2026-09-29/session-report.ko.md",
+      "status": 404,
+      "ok": true
+    },
+    {
+      "path": "/reports/build-manifest.json",
+      "status": 404,
+      "ok": true
+    }
+  ],
+  "failures": []
+}

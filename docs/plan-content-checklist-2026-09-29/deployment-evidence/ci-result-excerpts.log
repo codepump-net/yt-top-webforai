@@ -1,0 +1,26 @@
+Validate (project)	Run npm ci	2026-09-29T07:09:46.1541970Z found 0 vulnerabilities
+Validate (project)	Run npm audit --audit-level=moderate	2026-09-29T07:09:46.8377388Z found 0 vulnerabilities
+Validate (project)	Run npm test	2026-09-29T07:09:54.7628408Z       Tests  85 passed (85)
+Validate (project)	Run npm run harness-check	2026-09-29T07:09:55.1548886Z Ran 17 tests in 0.027s
+Validate (project)	Build static HTML and audit every page	2026-09-29T07:10:14.3252664Z Static audit passed: 135 routes; links, HTML, metadata, schema, indexing, assets. Max JS 181572 B gzip; CSS 11842 B gzip.
+Validate (project)	Run npm run test:e2e	2026-09-29T07:13:24.1087133Z   69 passed (2.7m)
+Validate (project)	Run npm run test:performance	2026-09-29T07:13:33.6940180Z / {"performance":98,"accessibility":100,"best-practices":100,"seo":66} LCP=2325ms CLS=0
+Validate (project)	Run npm run test:performance	2026-09-29T07:13:40.7238686Z services/heart/echocardiography/ {"performance":97,"accessibility":100,"best-practices":100,"seo":66} LCP=2359ms CLS=0
+Validate (project)	Run npm run test:performance	2026-09-29T07:13:47.3148132Z search/ {"performance":93,"accessibility":100,"best-practices":100,"seo":66} LCP=2313ms CLS=0.002294951040342114
+Validate (project)	Run npm run test:performance	2026-09-29T07:13:54.0984809Z health/colonoscopy-preparation-questions/ {"performance":99,"accessibility":100,"best-practices":100,"seo":66} LCP=2014ms CLS=0
+Validate (project)	Run npm run test:performance	2026-09-29T07:14:01.4489266Z health/cancer-treatment-symptoms/ {"performance":97,"accessibility":100,"best-practices":100,"seo":66} LCP=2343ms CLS=0
+Validate (project)	Run npm run test:performance	2026-09-29T07:14:08.0729557Z ne/checkups/visa/ {"performance":99,"accessibility":100,"best-practices":100,"seo":66} LCP=2016ms CLS=0
+Validate (root)	Run npm ci	2026-09-29T07:09:47.9518237Z found 0 vulnerabilities
+Validate (root)	Run npm audit --audit-level=moderate	2026-09-29T07:09:48.3961467Z found 0 vulnerabilities
+Validate (root)	Run npm test	2026-09-29T07:09:55.3731704Z       Tests  85 passed (85)
+Validate (root)	Run npm run harness-check	2026-09-29T07:09:56.9227966Z Ran 17 tests in 0.025s
+Validate (root)	Build static HTML and audit every page	2026-09-29T07:10:13.6316336Z Static audit passed: 135 routes; links, HTML, metadata, schema, indexing, assets. Max JS 181508 B gzip; CSS 11842 B gzip.
+Validate (root)	Run npm run test:e2e	2026-09-29T07:13:04.6297264Z   69 passed (2.1m)
+Validate (root)	Run npm run test:performance	2026-09-29T07:13:13.1205114Z / {"performance":98,"accessibility":100,"best-practices":100,"seo":69} LCP=2376ms CLS=0
+Validate (root)	Run npm run test:performance	2026-09-29T07:13:19.4908963Z services/heart/echocardiography/ {"performance":98,"accessibility":100,"best-practices":100,"seo":69} LCP=2232ms CLS=0
+Validate (root)	Run npm run test:performance	2026-09-29T07:13:25.3624896Z search/ {"performance":99,"accessibility":100,"best-practices":100,"seo":69} LCP=2078ms CLS=0.002294951040342114
+Validate (root)	Run npm run test:performance	2026-09-29T07:13:31.5909865Z health/colonoscopy-preparation-questions/ {"performance":94,"accessibility":100,"best-practices":100,"seo":69} LCP=2220ms CLS=0
+Validate (root)	Run npm run test:performance	2026-09-29T07:13:38.0685596Z health/cancer-treatment-symptoms/ {"performance":98,"accessibility":100,"best-practices":100,"seo":69} LCP=2246ms CLS=0
+Validate (root)	Run npm run test:performance	2026-09-29T07:13:44.0039575Z ne/checkups/visa/ {"performance":99,"accessibility":100,"best-practices":100,"seo":69} LCP=2071ms CLS=0
+Deploy GitHub Pages	Run npm ci	2026-09-29T07:15:33.3816279Z found 0 vulnerabilities
+Deploy GitHub Pages	Verify deployed commit and all pages	2026-09-29T07:15:37.6105967Z Live verification passed: 135 pages, real 404, commit 36d5e7a55bc4b5a6070418d57e3eb9fd6cf58b97.
