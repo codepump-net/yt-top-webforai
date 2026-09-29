@@ -13,6 +13,10 @@ const dimensions = await sharp(source).metadata();
 assert.equal(dimensions.width, manifest.width);
 assert.equal(dimensions.height, manifest.height);
 const assets = JSON.parse(await fs.readFile('../content/assets.json', 'utf8'));
+assert(
+  !assets.some((asset) => asset.generatedOriginal),
+  'The low-resolution contact sheet importer is superseded by the redrawn PNG masters.',
+);
 const visuals = JSON.parse(await fs.readFile('../content/visuals.json', 'utf8'));
 const results = [];
 for (const crop of manifest.crops) {

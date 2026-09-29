@@ -1,0 +1,943 @@
+{
+  "recordedOn": "2026-09-29",
+  "purpose": "작업 전 콘텐츠·소스 기록; 목표 상태나 작업 후 실측이 아님",
+  "scope": "로컬 저장소와 기존 정적 출력물. 이번 조사에서 웹사이트 수정·빌드·배포·외부 의료 사실 확인은 수행하지 않음.",
+  "gitHead": "92528ee0f76a8fe2f466484a81e05cb19195efc1",
+  "sourceDocuments": [
+    {
+      "name": "README.md",
+      "path": "plan/README.md",
+      "sha256": "97080d76e270f079ab8edaafde234d936f5d3a9cbe34cffacf8c7e12109749bf",
+      "lines": 56
+    },
+    {
+      "name": "모의적용_검증보고서.md",
+      "path": "plan/모의적용_검증보고서.md",
+      "sha256": "7842a13183fd4e58dba0ad83b06faa7a3bcdb3b8c9eccce4555f30341ae396cd",
+      "lines": 29
+    },
+    {
+      "name": "변경요약.md",
+      "path": "plan/변경요약.md",
+      "sha256": "be7e476b5c2e443d1c1e2a927df5e1404c780060cd3e111092ad4d91916a8072",
+      "lines": 85
+    },
+    {
+      "name": "적용순서.md",
+      "path": "plan/적용순서.md",
+      "sha256": "ae314bf4baebe75a9323fbc18d7c7ca263d1ab2a553a1b028f92ce3de7ad63a0",
+      "lines": 91
+    },
+    {
+      "name": "최종검수체크리스트.md",
+      "path": "plan/최종검수체크리스트.md",
+      "sha256": "04296ff9ff6e14f012cbef793e9292bd313f866b833e55f5813c8bd50eccf377",
+      "lines": 64
+    },
+    {
+      "name": "충돌및주의사항.md",
+      "path": "plan/충돌및주의사항.md",
+      "sha256": "a27edb55291c69386040a3e86b217870d9a76187ccee2f3939a4230283cc2691",
+      "lines": 10
+    },
+    {
+      "name": "코딩에이전트_전달용_요청문 (1).md",
+      "path": "plan/코딩에이전트_전달용_요청문 (1).md",
+      "sha256": "752ed38b2e93c82e467d6db8ad51eb1a25c7dfa158caa4a93c27b27dc85d5cf9",
+      "lines": 31
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "content/pages.json",
+      "sha256": "b15a332e8f698f8bf0001f2b7bbb2200a9c1b601e2a4c95c2acace715ddc9430"
+    },
+    {
+      "path": "content/notices.json",
+      "sha256": "f00b6b0b8b1576e25bb25e5c2380361c0fbfb46f6d6d19e8115fdfd3c5bae13d"
+    },
+    {
+      "path": "content/assets.json",
+      "sha256": "16193cc51f59e1396acad31cc70b8f3dcd7e762f39a7e3ec4ce4bd2f8baf3fbf"
+    },
+    {
+      "path": "content/visuals.json",
+      "sha256": "c5575d8c18fdbced036eb5ad41d43fac43300221ed490b6b9329b8f0dd70a3ad"
+    },
+    {
+      "path": "content/clinic.json",
+      "sha256": "ec6dbf59ae1023c93c7136726a366a517f526daac59a5d55c4f820bd100bdf6b"
+    },
+    {
+      "path": "content/page-intents.json",
+      "sha256": "5b616572a9656b673d88f4ddec1dc835ecf6428b336748b564420481a9f01c4a"
+    },
+    {
+      "path": "web/src/lib/information-architecture.mjs",
+      "sha256": "f13e340c1a76612984aba63896d830bf54f33328a48e65435deb04c3f1360683"
+    },
+    {
+      "path": "web/src/lib/search-model.mjs",
+      "sha256": "14c1f94508e62214345f5ad93848eea521019a740d85be1161b66087d6b47670"
+    },
+    {
+      "path": "web/src/lib/structured-data.mjs",
+      "sha256": "284354b72be600fd233f39bb47a095df46cc2a14587a2bf65d12310ab04acae7"
+    },
+    {
+      "path": "web/src/components/content.tsx",
+      "sha256": "e292b251b639070deb9e8b78d5df1be21c890373cf0ed44da3fda149c6e19a6c"
+    },
+    {
+      "path": "web/src/components/chrome.tsx",
+      "sha256": "60cb1231f309f05687c2b9aa4bdf9e1bad3490dee042e173a6e5117c098d8f71"
+    },
+    {
+      "path": "web/src/components/site-navigation.tsx",
+      "sha256": "3bae2ad2501722e22bb54ce482bcda5e4d9685c1db66c8f4f12ae64a5a3c09c7"
+    },
+    {
+      "path": "web/src/components/notices.tsx",
+      "sha256": "f02e5ee6b8cf5ea428bc8f729161744b632fece7f674a8c9a5fb2bcb1672a203"
+    },
+    {
+      "path": "web/src/components/patient-visuals.tsx",
+      "sha256": "cd89fad6a006e25bf07a70d5d3c80b114d4ad5458877860d01e1789017d9ff0c"
+    },
+    {
+      "path": "web/src/components/zoom-image.tsx",
+      "sha256": "3ba901526b21a491965de2d6f47d43458156e6442be27ea2a631805be90dd894"
+    },
+    {
+      "path": "web/src/app/globals.css",
+      "sha256": "1871f27b8cc31354958c69c449ede940a08b9f4f1dbc7e4b7985ade7bcac6e30"
+    },
+    {
+      "path": "docs/patient-content-policy.ko.md",
+      "sha256": "f9635f8a7a321414a4fa8ab71c917025c290d191de954139b780d00a7f5c3cbc"
+    },
+    {
+      "path": "web/scripts/public-content-policy.mjs",
+      "sha256": "37059e117a957742af701ebe6d3709fca5a5a8dd6252537222e40ad90a3628cf"
+    },
+    {
+      "path": "web/scripts/patient-additions-contract.mjs",
+      "sha256": "b105e83f22f29a9ab57923bf75ffff65232216ec46e33d6e9ad61abdf85e7489"
+    },
+    {
+      "path": "web/scripts/validate.mjs",
+      "sha256": "e5951d8aba578856efa93d44d0157bcc9bb610b9df20204ce2b8b4a660998bb4"
+    }
+  ],
+  "pageCount": 129,
+  "noticeCount": 6,
+  "noticeRoutes": [
+    "/notices/"
+  ],
+  "termTextOccurrences": 20,
+  "termReplacements": [
+    {
+      "file": "content/pages.json",
+      "pageId": "about",
+      "route": "/about/",
+      "field": "/blocks/1/items/1",
+      "before": "소화기: 담석·담낭염, 췌장염, 충수염 의심, 게실염, 급성 장염, 위궤양, 간질환, 염증성 장질환의 진단과 지지진료",
+      "expectedAfter": "소화기: 담석·담낭염, 췌장염, 충수염 의심, 게실염, 급성 장염, 위궤양, 간질환, 염증성 장질환의 진단과 지지치료",
+      "id": "TXT-01"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "about",
+      "route": "/about/",
+      "field": "/blocks/1/items/4",
+      "before": "암 관련 진료: 위·대장 병변의 내시경 조직검사, 암 의심 소견의 초기 평가와 정밀검사 의뢰, 항암치료 중 증상과 합병증의 지지진료",
+      "expectedAfter": "암 관련 진료: 위·대장 병변의 내시경 조직검사, 암 의심 소견의 초기 평가와 정밀검사 의뢰, 항암치료 중 증상과 합병증의 지지치료",
+      "id": "TXT-02"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "conditions",
+      "route": "/conditions/",
+      "field": "/description",
+      "before": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지진료까지 방문 목적에 맞는 안내를 선택하세요.",
+      "expectedAfter": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지치료까지 방문 목적에 맞는 안내를 선택하세요.",
+      "id": "TXT-03"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "conditions",
+      "route": "/conditions/",
+      "field": "/intro",
+      "before": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지진료까지 방문 목적에 맞는 안내를 선택하세요.",
+      "expectedAfter": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지치료까지 방문 목적에 맞는 안내를 선택하세요.",
+      "id": "TXT-04"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "doctor-park-jongseol",
+      "route": "/doctors/park-jongseol/",
+      "field": "/blocks/1/paragraphs/0",
+      "before": "암과 관련해서는 위·대장내시경 조직검사가 필요한 병변을 진단하고, 초음파·흉부 X선·혈액검사에서 암이 의심되는 소견이 발견되면 필요한 정밀검사와 협력병원 진료를 안내합니다. 대학병원에서 암 치료 중인 환자에게는 발열, 감염 의심 증상, 구역·구토, 식사량 감소, 탈수, 백혈구·호중구 감소 등 치료 중 합병증을 평가하고 기존 치료팀과 연계한 지지진료를 시행합니다.",
+      "expectedAfter": "암과 관련해서는 위·대장내시경 조직검사가 필요한 병변을 진단하고, 초음파·흉부 X선·혈액검사에서 암이 의심되는 소견이 발견되면 필요한 정밀검사와 협력병원 진료를 안내합니다. 대학병원에서 암 치료 중인 환자에게는 발열, 감염 의심 증상, 구역·구토, 식사량 감소, 탈수, 백혈구·호중구 감소 등 치료 중 합병증을 평가하고 기존 치료팀과 연계한 지지치료를 시행합니다.",
+      "id": "TXT-05"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-support",
+      "route": "/services/cancer-support/",
+      "field": "/title",
+      "before": "암 의심 소견 및 암 치료 중 지지진료",
+      "expectedAfter": "암 의심 소견 및 암 치료 중 지지치료",
+      "id": "TXT-06"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-support",
+      "route": "/services/cancer-support/",
+      "field": "/metaTitle",
+      "before": "암 의심 소견 및 암 치료 중 지지진료 | 영통탑내과",
+      "expectedAfter": "암 의심 소견 및 암 치료 중 지지치료 | 영통탑내과",
+      "id": "TXT-07"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-support",
+      "route": "/services/cancer-support/",
+      "field": "/description",
+      "before": "영통탑내과의 암 치료 중 구역·구토·탈수·설사·변비 평가와 지지진료, 조건에 따른 호중구 증가 주사, 케모포트 후버바늘 제거와 치료병원 연계를 안내합니다.",
+      "expectedAfter": "영통탑내과의 암 치료 중 구역·구토·탈수·설사·변비 평가와 지지치료, 조건에 따른 호중구 증가 주사, 케모포트 후버바늘 제거와 치료병원 연계를 안내합니다.",
+      "id": "TXT-08"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-support",
+      "route": "/services/cancer-support/",
+      "field": "/intro",
+      "before": "영통탑내과는 암 치료 중 구역·구토, 섭취 저하, 탈수, 설사·변비, 감염 의심 증상을 평가하고 기존 치료팀과 연계해 지지진료를 시행합니다. 항암치료 계획 변경이나 입원이 필요한 상황은 치료병원으로 연결합니다.",
+      "expectedAfter": "영통탑내과는 암 치료 중 구역·구토, 섭취 저하, 탈수, 설사·변비, 감염 의심 증상을 평가하고 기존 치료팀과 연계해 지지치료를 시행합니다. 항암치료 계획 변경이나 입원이 필요한 상황은 치료병원으로 연결합니다.",
+      "id": "TXT-09"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-support",
+      "route": "/services/cancer-support/",
+      "field": "/questions/0/answer",
+      "before": "아니요. 기존 암 치료팀의 항암치료를 이어가면서, 영통탑내과는 치료 사이의 구역·탈수·설사·발열 등 증상을 평가하고 지지진료를 합니다. 항암치료 계획 변경이나 입원이 필요한 상태는 치료병원으로 연결합니다.",
+      "expectedAfter": "아니요. 기존 암 치료팀의 항암치료를 이어가면서, 영통탑내과는 치료 사이의 구역·탈수·설사·발열 등 증상을 평가하고 지지치료를 합니다. 항암치료 계획 변경이나 입원이 필요한 상태는 치료병원으로 연결합니다.",
+      "id": "TXT-10"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-treatment-symptoms",
+      "route": "/health/cancer-treatment-symptoms/",
+      "field": "/intro",
+      "before": "암 치료 중 발열·새 호흡곤란·혈변·의식 변화는 기존 치료팀이나 응급실 평가를 서둘러야 합니다. 위험 신호가 없는 경한 구역·섭취 저하·변비 등은 영통탑내과에서 원인을 평가하고 기존 치료팀과 연계해 지지진료를 받을 수 있습니다.",
+      "expectedAfter": "암 치료 중 발열·새 호흡곤란·혈변·의식 변화는 기존 치료팀이나 응급실 평가를 서둘러야 합니다. 위험 신호가 없는 경한 구역·섭취 저하·변비 등은 영통탑내과에서 원인을 평가하고 기존 치료팀과 연계해 지지치료를 받을 수 있습니다.",
+      "id": "TXT-11"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-treatment-symptoms",
+      "route": "/health/cancer-treatment-symptoms/",
+      "field": "/blocks/21/heading",
+      "before": "영통탑내과에서 가능한 암환자 지지진료",
+      "expectedAfter": "영통탑내과에서 가능한 암환자 지지치료",
+      "id": "TXT-12"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "cancer-treatment-symptoms",
+      "route": "/health/cancer-treatment-symptoms/",
+      "field": "/blocks/21/text",
+      "before": "영통탑내과에서는 환자의 상태에 따라 다음과 같은 평가와 지지진료를 시행합니다.",
+      "expectedAfter": "영통탑내과에서는 환자의 상태에 따라 다음과 같은 평가와 지지치료를 시행합니다.",
+      "id": "TXT-13"
+    },
+    {
+      "file": "content/pages.json",
+      "pageId": "bowel-appendix",
+      "route": "/conditions/digestive/bowel-appendix/",
+      "field": "/blocks/1/text",
+      "before": "증상에 따라 혈액검사, 장관초음파와 대장내시경을 선택하고 필요한 조직검사·용종절제를 시행합니다. 궤양성 대장염과 크론병의 진단·경과 평가와 증상 지지진료를 하며, 생물학적 제제 등 전문 치료는 상급병원으로 연계합니다.",
+      "expectedAfter": "증상에 따라 혈액검사, 장관초음파와 대장내시경을 선택하고 필요한 조직검사·용종절제를 시행합니다. 궤양성 대장염과 크론병의 진단·경과 평가와 증상 지지치료를 하며, 생물학적 제제 등 전문 치료는 상급병원으로 연계합니다.",
+      "id": "TXT-14"
+    },
+    {
+      "file": "web/src/lib/information-architecture.mjs",
+      "line": 36,
+      "before": "['cancer-support', '암환자 지지진료'],",
+      "expectedAfter": "['cancer-support', '암환자 지지치료'],",
+      "id": "TXT-15"
+    },
+    {
+      "file": "web/src/lib/information-architecture.mjs",
+      "line": 74,
+      "before": "{ title: '암 의심 소견 및 암 치료 중 지지진료', ids: ['cancer-support'] },",
+      "expectedAfter": "{ title: '암 의심 소견 및 암 치료 중 지지치료', ids: ['cancer-support'] },",
+      "id": "TXT-16"
+    },
+    {
+      "file": "web/src/lib/search-model.mjs",
+      "line": 10,
+      "before": "'cancer-support': '암환자 지지진료',",
+      "expectedAfter": "'cancer-support': '암환자 지지치료',",
+      "id": "TXT-17"
+    },
+    {
+      "file": "web/src/components/content.tsx",
+      "line": 265,
+      "before": "치료 중 증상과 최근 치료·검사 정보를 바탕으로 가까운 내과에서 가능한 지지진료와 기존",
+      "expectedAfter": "치료 중 증상과 최근 치료·검사 정보를 바탕으로 가까운 내과에서 가능한 지지치료와 기존",
+      "id": "TXT-18"
+    },
+    {
+      "file": "web/src/components/content.tsx",
+      "line": 269,
+      "before": "암환자 지지진료 안내 <ArrowRight size={18} />",
+      "expectedAfter": "암환자 지지치료 안내 <ArrowRight size={18} />",
+      "id": "TXT-19"
+    },
+    {
+      "file": "content/visuals.json",
+      "line": 41,
+      "before": "\"alt\": \"암 치료 중 지지진료: 발열·피로·구역·백혈구 감소 대응\"",
+      "expectedAfter": "\"alt\": \"암 치료 중 지지치료: 발열·피로·구역·백혈구 감소 대응\"",
+      "id": "TXT-20"
+    }
+  ],
+  "noticeBefore": [
+    {
+      "id": "notice-2026-hpv-national",
+      "title": "2026년 HPV 국가예방접종 지원 대상과 일정",
+      "sourcePublishedAt": "2026-04-14",
+      "checkedAt": "2026-09-28",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "kind": "program",
+      "summary": "2026년 HPV 4가 백신 지원 대상은 12~17세 여성 청소년, 18~26세 저소득층 여성과 12세 남성 청소년입니다. 남성 청소년 지원은 5월 6일부터 시작합니다.",
+      "paragraphs": [
+        "2026년에는 12~17세 여성 청소년과 18~26세 저소득층 여성이 지원 대상입니다. 12세 남성 청소년(2014년생)은 5월 6일부터 지원이 시작되었습니다.",
+        "국가 지원 백신은 HPV 4가이며 9가 백신은 해당 지원 대상이 아닙니다. 접종 횟수와 간격은 첫 접종 나이와 접종 이력에 따라 달라지므로 기록을 가져오세요."
+      ],
+      "availability": "지원 대상 증빙, 접종 이력과 사용할 백신을 방문 전에 확인해 주세요.",
+      "sources": [
+        {
+          "label": "질병관리청 예방접종도우미 · HPV 지원사업",
+          "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=132&menuLv=1"
+        }
+      ]
+    },
+    {
+      "id": "notice-2026-pneumococcal-65plus",
+      "title": "2026년 65세 이상 폐렴구균 국가예방접종",
+      "sourcePublishedAt": null,
+      "checkedAt": "2026-09-28",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "kind": "program",
+      "summary": "65세 이상 어르신의 폐렴구균 23가 다당 백신(PPSV23) 지원 안내입니다.",
+      "paragraphs": [
+        "2026년에는 1961년 12월 31일 이전 출생자가 대상입니다. 지정 의료기관과 보건소에서 연중 지원하며, 65세 이후 PPSV23 접종 이력이 있다면 일반적으로 추가 국가 지원 접종은 필요하지 않습니다.",
+        "이전에 받은 백신의 종류와 접종 시기에 따라 상담이 달라집니다. 다른 폐렴구균 백신까지 모두 무료라는 뜻은 아니므로 접종 기록과 신분증을 준비하세요."
+      ],
+      "availability": "지원 접종 이력과 백신 보유 여부를 방문 전에 확인해 주세요.",
+      "sources": [
+        {
+          "label": "질병관리청 예방접종도우미 · 어르신 폐렴구균",
+          "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=135&menuLv=1"
+        }
+      ]
+    },
+    {
+      "id": "notice-2026-2027-national-influenza",
+      "title": "2026–2027절기 인플루엔자 국가예방접종 일정",
+      "sourcePublishedAt": "2026-09-16",
+      "checkedAt": "2026-09-28",
+      "startDate": "2026-09-21",
+      "endDate": "2027-04-30",
+      "kind": "program",
+      "summary": "어린이·임신부는 9월 21일, 어르신은 연령별로 10월부터 시작합니다.",
+      "paragraphs": [
+        "9월 16일 질병관리청의 변경 발표를 반영한 일정입니다. 생후 6개월~14세 어린이와 임신부의 지원 접종은 9월 21일부터 시작합니다. 어린이는 접종 이력에 따라 2회 접종이 필요할 수 있습니다.",
+        "어르신은 75세 이상 10월 6일, 70~74세 10월 12일, 65~69세 10월 15일부터 시작하며 지원 종료일은 2027년 4월 30일입니다. 연령·임신 확인 서류와 이전 접종 이력을 확인하세요."
+      ],
+      "availability": "대상별 시작일이 다릅니다. 본인의 지원 대상 여부와 예약·백신 보유 여부를 먼저 문의해 주세요.",
+      "sources": [
+        {
+          "label": "질병관리청 · 국가예방접종 시작일 변경(9월 16일)",
+          "url": "https://www.kdca.go.kr/kdca/2847/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQxJTJGMzEyNjQyJTJGYXJ0Y2xWaWV3LmRvJTNG"
+        },
+        {
+          "label": "질병관리청 · 2026–2027절기 지원사업 안내",
+          "url": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyMzA4JTJGYXJ0Y2xWaWV3LmRvJTNG"
+        }
+      ]
+    },
+    {
+      "id": "notice-2026-suwon-shingles-support",
+      "title": "2026년 수원시 대상포진 예방접종 비용지원",
+      "sourcePublishedAt": "2025-12-16",
+      "checkedAt": "2026-09-28",
+      "startDate": "2026-01-26",
+      "endDate": null,
+      "kind": "program",
+      "summary": "2026년 수원시 대상포진 지원은 65세 이상 시민 중 짝수 연도 출생 미접종자가 대상입니다. 소득 자격에 따라 접종기관과 본인부담금이 다릅니다.",
+      "paragraphs": [
+        "수원시 안내의 대상은 65세 이상 수원시민 중 짝수연도 출생자로, 대상포진 미접종 여부 등 요건을 확인해야 합니다. 기초생활수급자·차상위계층과 일반 대상자의 접종 장소·비용 조건이 다릅니다.",
+        "보건소 대상 접종은 1월 26일, 일반 대상자 지원은 2월 23일부터 안내되어 있습니다. 백신비 지원과 접종 시행비 본인부담을 구분하고, 백신 종류별 지원 조건과 재고·예산을 접종 전에 확인하세요."
+      ],
+      "availability": "접종기관은 아래 수원시 위탁의료기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원접종 예약은 031-202-7555로 문의해 주세요.",
+      "sources": [
+        {
+          "label": "수원시 보건소 · 2026년 대상포진 지원 안내",
+          "url": "https://health.suwon.go.kr/board_view.asp?bd_gubn=&no=870&page_code=sub060901"
+        },
+        {
+          "label": "수원시 · 위탁의료기관 목록(2026-07-09, XLSX)",
+          "url": "https://health.suwon.go.kr/bt_dwn.asp?b_code=tbl_bbs_edu&file_num=1&b_num=870"
+        }
+      ]
+    },
+    {
+      "id": "notice-2026-gyeonggi-student-influenza",
+      "title": "2026년 경기도 중·고등학생 인플루엔자 지원",
+      "sourcePublishedAt": "2026-08-19",
+      "checkedAt": "2026-09-28",
+      "startDate": "2026-09-14",
+      "endDate": "2026-11-21",
+      "kind": "program",
+      "summary": "경기도 중·고등학교 재학생 중 2008~2011년생(중3~고3)은 2026년 9월 14일~11월 21일 선정 의료기관에서 독감 예방접종을 지원받을 수 있습니다.",
+      "paragraphs": [
+        "경기도교육청 안내의 지원 대상은 경기도 중·고등학교 재학생 중 2008~2011년생(중3~고3 해당 연령)입니다. 운영기간은 2026년 9월 14일~11월 21일입니다. 모든 중학생이 같은 사업의 대상인 것은 아닙니다.",
+        "재학·본인 확인 자료와 학교 가정통신문에 포함된 동의서 등 구비서류를 준비하세요. 보호자 없이 방문할 때 필요한 서류도 사전에 확인해야 합니다."
+      ],
+      "availability": "접종기관은 아래 경기도교육청 선정기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원접종 예약은 031-202-7555로 문의해 주세요.",
+      "sources": [
+        {
+          "label": "경기도교육청 · 선정기관과 사업 안내",
+          "url": "https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?mi=&nttSn=2363059"
+        },
+        {
+          "label": "경기도교육청 · 선정기관 목록(2026-08-26, XLSX)",
+          "url": "https://www.goe.go.kr/resource/goe/na/bbs_1932/2026/08/35cfb2a3-7b90-4caf-971e-ab56b6b28f37.xlsx"
+        }
+      ]
+    },
+    {
+      "id": "notice-2026-09-17-infection-guide",
+      "title": "9월 17일 감염병 자료와 가족 예방 안내",
+      "sourcePublishedAt": "2026-09-17",
+      "checkedAt": "2026-09-28",
+      "startDate": null,
+      "endDate": null,
+      "kind": "reference",
+      "summary": "2026년 37주차 전국 신고는 수두 283명, A형간염 27명, 뎅기열 9명으로 집계됐습니다. 9월 12일 기준 잠정통계와 가족 모임·여행 시 예방수칙을 살펴보세요.",
+      "paragraphs": [
+        "질병관리청이 9월 17일 발표한 37주차 자료에서 수두는 283명, A형간염은 27명, 뎅기열은 9명이 신고됐고, 뎅기열 9명은 모두 해외유입으로 분류됐습니다. 이는 당시 전국 신고 현황이며 현재 수원 지역의 발생 수준이나 개인의 감염 여부를 나타내는 수치는 아닙니다. 이후 신고 정정으로 수치가 바뀔 수 있습니다.",
+        "가족 모임에서는 흐르는 물에 비누로 손을 씻고 음식을 충분히 익혀 먹으세요. 기침·발열 등 호흡기 증상이 있을 때는 마스크를 착용하고 실내를 환기하세요. 설사·구토가 있으면 다른 사람의 음식을 조리하지 않는 것이 좋습니다. 해외여행 전에는 방문 국가의 감염병 정보를 확인하고 모기에 물리지 않도록 준비하세요."
+      ],
+      "availability": "고령자·임신부·만성질환자는 예방접종과 증상 발생 시 진료 시점을 의료진과 상의하세요.",
+      "sources": [
+        {
+          "label": "질병관리청 · 37주차 주요 감염병 통계(9월 17일)",
+          "url": "https://www.kdca.go.kr/kdca/3026/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjYwJTJGMzEyNjYyJTJGYXJ0Y2xWaWV3LmRvJTNG"
+        },
+        {
+          "label": "질병관리청 · 가족 모임과 감염병 예방수칙(9월 21일)",
+          "url": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG"
+        }
+      ],
+      "attachment": {
+        "url": "https://www.phwr.org/journal/down_supple_pdf.php?eid=dWlkPTE5NQ%3D%3D",
+        "label": "질병관리청 9월 17일 주요 감염병 통계 원문",
+        "publishedAt": "2026-09-17",
+        "bytes": 3655819,
+        "sha256": "26940a084103777bdc5b73a0a611a19571a547aba657207065e98e4b50ef5bf7"
+      }
+    }
+  ],
+  "imageBefore": [
+    {
+      "id": "ASSET-01",
+      "pageId": "heart-disease",
+      "route": "/conditions/heart-disease/",
+      "asset": {
+        "id": "banner-heart",
+        "file": "/assets/banner-heart.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 84140,
+        "sha256": "744304b1479aff73fa72ac547b6a30494d646a96880b8e8dd6091b0ff3fa9ba2",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 10,
+          "top": 10,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "심장질환: 협심증·심근경색·부정맥·판막질환",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-02",
+      "pageId": "digestive-disease",
+      "route": "/conditions/digestive/",
+      "asset": {
+        "id": "banner-digestive",
+        "file": "/assets/banner-digestive.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 87190,
+        "sha256": "5d2ff228814c426041870968d93a2a92dbef00f78c3be250586ca62d4d3e4411",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 430,
+          "top": 10,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "소화기질환: 위·대장·소장·췌장·담도·담낭·간질환",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-03",
+      "pageId": "respiratory-infections",
+      "route": "/conditions/respiratory-infections/",
+      "asset": {
+        "id": "banner-respiratory",
+        "file": "/assets/banner-respiratory.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 85276,
+        "sha256": "df9a1080f7161449ecc172cb362014273260d63729d9dd03d38120b636a2e70f",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 850,
+          "top": 10,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "호흡기·감염질환: 폐렴·독감·코로나19·만성기침",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-04",
+      "pageId": "vaccinations",
+      "route": "/services/vaccinations/",
+      "asset": {
+        "id": "banner-vaccinations",
+        "file": "/assets/banner-vaccinations.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 87388,
+        "sha256": "a2b350c9a6d1bf2be7cdce014c9267a3e46d14c69589379ec171b11c08230ff7",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 10,
+          "top": 360,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "성인 예방접종: 독감·폐렴·대상포진·간염 예방",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-05",
+      "pageId": "chronic-disease",
+      "route": "/conditions/chronic-disease/",
+      "asset": {
+        "id": "banner-chronic",
+        "file": "/assets/banner-chronic.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 91848,
+        "sha256": "0974ba596143bbafbec6f576193a209eb63e32534357f99439487f57ed8a650a",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 430,
+          "top": 360,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "고혈압·당뇨·고지혈증 치료, 금연치료·체중관리",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-06",
+      "pageId": "neck-disease",
+      "route": "/conditions/thyroid-carotid-neck/",
+      "asset": {
+        "id": "banner-neck",
+        "file": "/assets/banner-neck.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 85490,
+        "sha256": "c515c6b481898f78a1edcb0c442386aa8494de17831a87d3c47ef265d8bce8c3",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 850,
+          "top": 360,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "갑상선·경동맥·경부 멍울: 초음파·혈액검사·추적관리",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-07",
+      "pageId": "kidney-disease",
+      "route": "/conditions/kidney/",
+      "asset": {
+        "id": "banner-kidney",
+        "file": "/assets/banner-kidney.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 84644,
+        "sha256": "38971e8fe1f8fb7452a19edee2e029cd68a1d2b1683ed6a5705f732a8778a4b0",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 10,
+          "top": 710,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "콩팥 그림과 신부전 예방·신우신염·수신증 안내",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-08",
+      "pageId": "cancer-support",
+      "route": "/services/cancer-support/",
+      "asset": {
+        "id": "banner-cancer-support",
+        "file": "/assets/banner-cancer-support.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 89462,
+        "sha256": "87348435514c97debacf1f0cde5feab1830ca4f38ef014d8622f426b0335d5a0",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 430,
+          "top": 710,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "암 치료 중 지지진료: 발열·피로·구역·백혈구 감소 대응",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-09",
+      "pageId": "services",
+      "route": "/services/",
+      "asset": {
+        "id": "banner-services",
+        "file": "/assets/banner-services.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 89048,
+        "sha256": "ec7c318294399e4afa10f46a6cbc0e95ea2fa4d158117fe1e6f476494ab3d811",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 850,
+          "top": 710,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "검사·시술 안내",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-10",
+      "pageId": "checkups",
+      "route": "/checkups/",
+      "asset": {
+        "id": "banner-checkups",
+        "file": "/assets/banner-checkups.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 92980,
+        "sha256": "e53ce3e7c80479263851797e85caeadd3b13990a7283ffec3a3ec9d83826f571",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 10,
+          "top": 1060,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "건강검진·서류안내: 국가검진·채용검진·공무원검진·비자검진",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-11",
+      "pageId": "symptoms",
+      "route": "/symptoms/",
+      "asset": {
+        "id": "banner-symptoms",
+        "file": "/assets/banner-symptoms.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 90804,
+        "sha256": "4557c7122dae335a4fb2d6253b30fef92451aa8169bee2773ac28fdb357ad460",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 430,
+          "top": 1060,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "증상백과: 흉통·숨참·복통·기침·발열·어지럼",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-12",
+      "pageId": "diseases",
+      "route": "/diseases/",
+      "asset": {
+        "id": "banner-diseases",
+        "file": "/assets/banner-diseases.webp",
+        "width": 400,
+        "height": 225,
+        "bytes": 92220,
+        "sha256": "76fe2bb62b6d8d687fd7f83b92fe1507fdb5525d937820419e5bd73e0ad01711",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 850,
+          "top": 1060,
+          "width": 400,
+          "height": 225
+        }
+      },
+      "alt": "질환백과: 심장혈관·소화기·호흡기·내분비·신장",
+      "role": "banner"
+    },
+    {
+      "id": "ASSET-13",
+      "pageId": "heart-index",
+      "route": "/services/heart/",
+      "asset": {
+        "id": "diagram-heart-flow",
+        "file": "/assets/diagram-heart-flow.webp",
+        "width": 280,
+        "height": 300,
+        "bytes": 89936,
+        "sha256": "40ab95d1d563cebaa56838f5f5ce4800530ce8c492f8351e5d3c581ab45a80e0",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 490,
+          "top": 1410,
+          "width": 280,
+          "height": 300
+        },
+        "guidanceSha256": "67429c263191dda763000b27007147057f9df60195b01269f55084009ab3352a"
+      },
+      "alt": "영통탑내과 심장검사 진행 순서",
+      "role": "figure"
+    },
+    {
+      "id": "ASSET-14",
+      "pageId": "endoscopy",
+      "route": "/services/endoscopy/",
+      "asset": {
+        "id": "diagram-endoscopy-preparation",
+        "file": "/assets/diagram-endoscopy-preparation.webp",
+        "width": 280,
+        "height": 300,
+        "bytes": 85136,
+        "sha256": "de986a1f64871166c1da4e8209e766dfce815d97f2635c1cc39019ef97c6ed3f",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 910,
+          "top": 1410,
+          "width": 280,
+          "height": 300
+        },
+        "guidanceSha256": "5192aa3ec9513c375f7da07ae99a4e5939824599a8c7d2f28b4d098d50b7161e"
+      },
+      "alt": "위·대장내시경 검사 전 준비",
+      "role": "figure"
+    },
+    {
+      "id": "ASSET-15",
+      "pageId": "after-endoscopy",
+      "route": "/health/after-endoscopy/",
+      "asset": {
+        "id": "diagram-after-endoscopy",
+        "file": "/assets/diagram-after-endoscopy.webp",
+        "width": 280,
+        "height": 300,
+        "bytes": 87612,
+        "sha256": "2d93d75fe60bbc89550391f6aaabd7ea2d0627701e46ced3271615992ab71939",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 70,
+          "top": 1760,
+          "width": 280,
+          "height": 300
+        },
+        "guidanceSha256": "3fcb867f52ee5ee0322ebb29f8d8064b239995a96d03f9d78090ce3357dbb2f2"
+      },
+      "alt": "조직검사·용종절제 후 주의사항",
+      "role": "figure"
+    },
+    {
+      "id": "ASSET-16",
+      "pageId": "checkups",
+      "route": "/checkups/",
+      "asset": {
+        "id": "diagram-checkup-flow",
+        "file": "/assets/diagram-checkup-flow.webp",
+        "width": 280,
+        "height": 300,
+        "bytes": 87886,
+        "sha256": "13c0ba304197ba22c068523882bd3e017c4cd5f690bace7b0de3a6c9bd976e78",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceCrop": {
+          "left": 490,
+          "top": 1760,
+          "width": 280,
+          "height": 300
+        },
+        "guidanceSha256": "9d68ed674c12f3f8a1fb60aea3f4326b879bd770fe37d0c270d90febbbff1e97"
+      },
+      "alt": "국가검진·채용검진·비자검진 진행 순서",
+      "role": "figure"
+    },
+    {
+      "id": "ASSET-17",
+      "pageId": "vaccinations",
+      "route": "/services/vaccinations/",
+      "asset": {
+        "id": "vaccination-schedule-2026",
+        "file": "/assets/vaccination-schedule-2026.webp",
+        "width": 240,
+        "height": 300,
+        "bytes": 70578,
+        "sha256": "9f63764e081948d03dcf67b06371594e7a666944514beb6da70bc59a8a89420b",
+        "sourceFile": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+        "provenance": "Unaltered crop of the director-supplied contact sheet, at the user’s explicit request. Lossless WebP preserves the decoded source pixels; no text or artwork was regenerated.",
+        "imageKind": "patient-information",
+        "checkedAt": "2026-09-28",
+        "sourceSha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+        "sourceCrop": {
+          "left": 90,
+          "top": 1410,
+          "width": 240,
+          "height": 300
+        }
+      },
+      "alt": "영통탑내과 2026 성인 예방접종 일정표. 백신별 대상·기본 일정·메모는 바로 아래 표에서 확인할 수 있습니다.",
+      "role": "figure"
+    }
+  ],
+  "imageTextFindings": [
+    {
+      "assetId": "banner-cancer-support",
+      "before": "암 치료 중 지지진료",
+      "expectedAfter": "암 치료 중 지지치료",
+      "classification": "명시된 용어 통일 요구에 포함",
+      "evidence": "assets/director-supplied/2026-09-27/contact-sheet.jpg 직접 열람"
+    },
+    {
+      "assetId": "banner-kidney",
+      "before": "콩팥 그림 위 제목이 심장질환",
+      "expectedAfter": null,
+      "classification": "추가 확인 사항; plan의 명시된 정정 요청으로 간주하지 않음",
+      "evidence": "assets/director-supplied/2026-09-27/contact-sheet.jpg 직접 열람"
+    }
+  ],
+  "existingLocalHtml": {
+    "/": {
+      "path": "web/out/index.html",
+      "sha256": "560c99270fa3c4bafc51713ed1582f25fb18b3ebae8d3561e6679a83e8e70625",
+      "noindex": true,
+      "noticeCardCount": 0,
+      "officialBlogPresent": false,
+      "officialInstagramPresent": false,
+      "hqOriginalPngPresent": false
+    },
+    "/notices/": {
+      "path": "web/out/notices/index.html",
+      "sha256": "2e936a7dce0155220fa3d55aee3bab7239421b482faa83a4cd06e33e72a2ef2a",
+      "noindex": true,
+      "noticeCardCount": 6,
+      "officialBlogPresent": false,
+      "officialInstagramPresent": false,
+      "hqOriginalPngPresent": false
+    }
+  }
+}

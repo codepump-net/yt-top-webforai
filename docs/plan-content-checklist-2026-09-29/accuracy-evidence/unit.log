@@ -1,0 +1,8 @@
+
+ RUN  v5.0.0 /Users/nnnceo/Workspace/yt-top-webforai/web
+
+
+ Test Files  13 passed (13)
+      Tests  82 passed (82)
+   Start at  13:40:20
+   Duration  698ms (transform 34%, tests 33%, import 32%, worker 1%)

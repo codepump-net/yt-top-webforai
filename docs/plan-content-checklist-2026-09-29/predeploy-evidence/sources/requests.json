@@ -1,0 +1,33 @@
+[
+  {
+    "id": "suwon",
+    "url": "https://health.suwon.go.kr/board_view.asp?bd_gubn=&no=870&page_code=sub060901",
+    "status": 200,
+    "bytes": 37898,
+    "sha256": "a2d6dd4e50d7970e2823ef9bdd74000f6d70de10fb4c805beda90f6fd932bd7e",
+    "checkedOn": "2026-09-29"
+  },
+  {
+    "id": "nip-hpv",
+    "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=132&menuLv=1",
+    "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1082)>"
+  },
+  {
+    "id": "nip-flu",
+    "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=134&menuLv=1",
+    "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1082)>"
+  },
+  {
+    "id": "nip-pneumo",
+    "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=135&menuLv=1",
+    "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1082)>"
+  },
+  {
+    "id": "goe",
+    "url": "https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?mi=&nttSn=2363059",
+    "status": 200,
+    "bytes": 231126,
+    "sha256": "df5efb43df333aa3951d6f5ed810c5d618ca5890e90863a00928536ebae65d4f",
+    "checkedOn": "2026-09-29"
+  }
+]

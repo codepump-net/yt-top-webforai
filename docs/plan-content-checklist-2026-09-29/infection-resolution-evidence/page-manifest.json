@@ -1,0 +1,161 @@
+{
+  "source": {
+    "noticeId": "notice-2026-09-17-infection-guide",
+    "pageCount": 16,
+    "pdf": "/assets/notice-documents/kdca-2026-09-21-infection-prevention-press.pdf",
+    "sha256": "6f85c40ba28f99ecc281adc0fd0ab46f42d487652473fc2259835251312a7ba1",
+    "bytes": 1505951,
+    "sourcePdfUrl": "https://www.kdca.go.kr/bbs/kdca/42/309808/download.do",
+    "sourceUrl": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG",
+    "renderDpi": 200,
+    "width": 1653,
+    "height": 2337
+  },
+  "command": "pdftoppm -r 200 -png (PDF) infection-prevention-page",
+  "pages": [
+    {
+      "page": 1,
+      "topic": "보도자료 표지와 해외여행 전 감염병 예방 안내",
+      "file": "/assets/notice-documents/infection-prevention-page-01.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 514701,
+      "sha256": "ff69db63b917f4fef241ff3e0be1ad4be1bde4d2496c224c9ad743764b39b8d4"
+    },
+    {
+      "page": 2,
+      "topic": "일본·동남아 여행 시 호흡기·모기 매개 감염병 주의사항",
+      "file": "/assets/notice-documents/infection-prevention-page-02.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 1408547,
+      "sha256": "a1fee1d2f36d3afc63ca19b1966cda1e29d243a29402c985c01e458bac14f536"
+    },
+    {
+      "page": 3,
+      "topic": "중국 방문과 귀국 시 검역·증상 신고 안내",
+      "file": "/assets/notice-documents/infection-prevention-page-03.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 989470,
+      "sha256": "04a5257c4e669b1e215a51a2f40ae9cee8940839f7b7901fc6bdf04813161a3e"
+    },
+    {
+      "page": 4,
+      "topic": "인플루엔자·코로나19 발생 동향과 고위험군 호흡기 예방수칙",
+      "file": "/assets/notice-documents/infection-prevention-page-04.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 593168,
+      "sha256": "63b4d60c11d2fbd7f9f47ce77120b226054c1896410eac5fa2a886ca3a0a2786"
+    },
+    {
+      "page": 5,
+      "topic": "호흡기 감염병 예방수칙과 수인성·식품매개감염병 집단발생 통계",
+      "file": "/assets/notice-documents/infection-prevention-page-05.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 450888,
+      "sha256": "369a0776e9ae42da1ebf946841e4fbba504ad7b6dfcfc83445af459dc11500fe"
+    },
+    {
+      "page": 6,
+      "topic": "음식·식수 위생수칙, 콜레라 주의사항과 진드기 매개 감염병 안내",
+      "file": "/assets/notice-documents/infection-prevention-page-06.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 600656,
+      "sha256": "5d588ecbe1df6c9ba5f8cae651d11ebdd35c6b810d9f2079079455f2f5535fa8"
+    },
+    {
+      "page": 7,
+      "topic": "진드기 매개 감염병 발생 그래프·위험요인 표와 주요 증상",
+      "file": "/assets/notice-documents/infection-prevention-page-07.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 543673,
+      "sha256": "88ad88840aca4ac92f723acce370475ce193ab5eeac45ce1c0ace182991342ee"
+    },
+    {
+      "page": 8,
+      "topic": "진드기 예방·진료 안내와 해외유입 모기 매개 감염병 통계",
+      "file": "/assets/notice-documents/infection-prevention-page-08.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 647027,
+      "sha256": "847151d69a23b7320f962d91b2cd668daa1cb63b2e4a6bda56fd021d24536856"
+    },
+    {
+      "page": 9,
+      "topic": "말라리아·치쿤구니야열·지카바이러스 설명과 임신 관련 예방수칙",
+      "file": "/assets/notice-documents/infection-prevention-page-09.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 658814,
+      "sha256": "ca1bc51c5d39c5cdfcbce64d639e3392bdf3a7fedd768ca51ed30abadf561548"
+    },
+    {
+      "page": 10,
+      "topic": "모기 매개 감염병 예방 안내, 붙임 목록과 담당 부서",
+      "file": "/assets/notice-documents/infection-prevention-page-10.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 495285,
+      "sha256": "ad0cfe585fd6e16519b931c6474f619ed32de0b692311cd172023a343925740c"
+    },
+    {
+      "page": 11,
+      "topic": "붙임 1: 해외여행 전·중·후 감염병 예방수칙 포스터",
+      "file": "/assets/notice-documents/infection-prevention-page-11.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 1109295,
+      "sha256": "bc68cd4b1d1e8494f7e85cea4af47fe2a207ae0327552d9f009c538eff72873e"
+    },
+    {
+      "page": 12,
+      "topic": "붙임 2: 수인성·식품매개감염병 예방수칙 포스터",
+      "file": "/assets/notice-documents/infection-prevention-page-12.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 1249730,
+      "sha256": "4e751e43682e3044fe0652ef8ad465f0670678c3dbfd0185c3cbdf575c1c789d"
+    },
+    {
+      "page": 13,
+      "topic": "붙임 3: 쯔쯔가무시증의 감염경로·증상·진단·치료·예방 개요",
+      "file": "/assets/notice-documents/infection-prevention-page-13.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 463698,
+      "sha256": "7fde23da7fb20d60190d677c2e87f10485e7b333b78503758acd410a9f9e85c2"
+    },
+    {
+      "page": 14,
+      "topic": "붙임 3: 중증열성혈소판감소증후군(SFTS)의 감염경로·증상·예방 개요",
+      "file": "/assets/notice-documents/infection-prevention-page-14.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 473129,
+      "sha256": "cf4186504c5aaf52d8a0375e43fb7d35e18ac9fcb5129a457c3c83ced7703c81"
+    },
+    {
+      "page": 15,
+      "topic": "붙임 4: 진드기 매개 감염병 예방을 위한 대국민 리플릿",
+      "file": "/assets/notice-documents/infection-prevention-page-15.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 2068663,
+      "sha256": "40b7ca26eda5a014379a681919cbd3cd3028c7669467c2ad37eb582d1f41ff3c"
+    },
+    {
+      "page": 16,
+      "topic": "붙임 5: 모기 매개 감염병 예방수칙 카드뉴스",
+      "file": "/assets/notice-documents/infection-prevention-page-16.png",
+      "width": 1653,
+      "height": 2337,
+      "bytes": 1748796,
+      "sha256": "fc8a99a9fee611b8ca64a6b3f5a310ad94f35d053caf06b2a076e5ec3df9a575"
+    }
+  ]
+}

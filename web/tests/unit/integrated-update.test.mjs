@@ -46,9 +46,10 @@ it('keeps every cardiovascular article in search and the sitemap while excluding
     '질환',
     '진료분야',
     '검사·시술',
-    '암환자 지지진료',
+    '암환자 지지치료',
     '검진·서류',
     '병원안내',
+    '공지사항',
   ]);
   expect(items.every((item) => searchCategories.includes(item.category))).toBe(true);
   for (const p of data.pages.filter((p) => p.path.startsWith('/diseases/cardio/'))) {
@@ -87,7 +88,10 @@ it('binds the vaccination figure to nine readable schedules and preserves pendin
   const vaccine = page('vaccinations');
   expect(vaccine.blocks[0].id).toBe('vaccination-schedule');
   expect(vaccine.blocks[0].table.rows).toHaveLength(9);
-  expect(data.assets.find((a) => a.id === vaccine.image).bytes).toBeLessThanOrEqual(200000);
+  const figure = data.assets.find((a) => a.id === vaccine.image);
+  expect(figure.generatedOriginal).toBe(true);
+  expect(figure.file).toBe('/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png');
+  expect(figure.bytes).toBeLessThanOrEqual(8_000_000);
   expect(vaccine.reviewStatus).toBe('pending');
   expect(data.reviews).toEqual([]);
   expect(articleGuidance(page('fees'))).toMatchObject({

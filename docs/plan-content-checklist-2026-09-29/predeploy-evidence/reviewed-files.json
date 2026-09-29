@@ -1,0 +1,40 @@
+{
+  "publicImplementationChangedThisReview": [
+    {
+      "path": "content/notices.json",
+      "sha256": "989af0c44e3f7911dab49bcfdbe96e720e5731b5d53097987c4bfb01468bd942"
+    },
+    {
+      "path": "content/pages.json",
+      "sha256": "b4addca5f57faa620a0f30c0b1ec926d47fc2817745e0604b4d241a717e9140e"
+    },
+    {
+      "path": "web/src/lib/notice-types.ts",
+      "sha256": "bc856a89f324312eb6b892c30b378ae025318e0e69d34af9ec90074bd70bd8dc"
+    },
+    {
+      "path": "web/src/components/notices.tsx",
+      "sha256": "6d4abc82c461b76d332b151e60e7a6a439108fafecd9292fa2b8078583f71649"
+    },
+    {
+      "path": "web/src/lib/notice-model.mjs",
+      "sha256": "299d611c5e3d89e030f08aac981cdfb6a55fbcbb0440143af961489c93216fdd"
+    },
+    {
+      "path": "web/scripts/patient-additions-contract.mjs",
+      "sha256": "dba856386ce75739e417cb5eaed4548044adae46e89e1c232f85c131616e2b24"
+    },
+    {
+      "path": "web/tests/unit/notice-content-update.test.mjs",
+      "sha256": "52945da5f55009d9e257d8aa9b6825cf065ab42fded937e76cc53c8eb9d1006d"
+    },
+    {
+      "path": "web/tests/e2e/notice-content-update.spec.ts",
+      "sha256": "8b1a516db0e69d8da0aba99fff95677dd1d0c90c23974f9f41c21bfaf37a6f36"
+    }
+  ],
+  "imageFilesChangedThisReview": [],
+  "planDocumentsChangedThisReview": [],
+  "packageWorkPerformed": false,
+  "deployed": false
+}

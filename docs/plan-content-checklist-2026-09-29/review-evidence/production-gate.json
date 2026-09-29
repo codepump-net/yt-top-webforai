@@ -1,0 +1,8 @@
+{
+  "expectedFailure": true,
+  "errors": [
+    "Publication confirmation scope differs from indexable pages",
+    "Publication confirmation requires approved content status",
+    "Stale publication confirmation: content, facts, or renderer changed"
+  ]
+}

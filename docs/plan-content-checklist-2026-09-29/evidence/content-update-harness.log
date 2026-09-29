@@ -1,0 +1,22 @@
+test_alt_markup_rejected (test_harness.HarnessTests.test_alt_markup_rejected) ... ok
+test_biography_copy_and_unknown_author (test_harness.HarnessTests.test_biography_copy_and_unknown_author) ... ok
+test_build_fact_propagation_stable_identity_noindex (test_harness.HarnessTests.test_build_fact_propagation_stable_identity_noindex) ... ok
+test_changed_facts_invalidate_reviews (test_harness.HarnessTests.test_changed_facts_invalidate_reviews) ... ok
+test_citation_hostname_boundary_and_duplicate_observation (test_harness.HarnessTests.test_citation_hostname_boundary_and_duplicate_observation) ... ok
+test_expired_and_future_reviews_fail (test_harness.HarnessTests.test_expired_and_future_reviews_fail) ... ok
+test_hours_overlap_and_literal_copy (test_harness.HarnessTests.test_hours_overlap_and_literal_copy) ... ok
+test_malformed_optional_containers_report_errors (test_harness.HarnessTests.test_malformed_optional_containers_report_errors) ... ok
+test_metrics_errors_denominator_and_unknown_accuracy (test_harness.HarnessTests.test_metrics_errors_denominator_and_unknown_accuracy) ... ok
+test_paths_cannot_escape_build (test_harness.HarnessTests.test_paths_cannot_escape_build) ... ok
+test_preview_passes_but_cannot_release (test_harness.HarnessTests.test_preview_passes_but_cannot_release) ... ok
+test_real_snapshot_regressions (test_harness.HarnessTests.test_real_snapshot_regressions) ... ok
+test_release_build_needs_review_and_emits_matching_profile_id (test_harness.HarnessTests.test_release_build_needs_review_and_emits_matching_profile_id) ... ok
+test_scope_timing_and_statistical_measure_drift (test_harness.HarnessTests.test_scope_timing_and_statistical_measure_drift) ... ok
+test_unknown_evidence_and_duplicate_ids (test_harness.HarnessTests.test_unknown_evidence_and_duplicate_ids) ... ok
+test_unknown_fact_token (test_harness.HarnessTests.test_unknown_fact_token) ... ok
+test_urgent_booking_is_blocked (test_harness.HarnessTests.test_urgent_booking_is_blocked) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.014s
+
+OK

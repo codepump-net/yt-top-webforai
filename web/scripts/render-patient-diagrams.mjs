@@ -1,4 +1,4 @@
-// Rebuild generated diagrams only. Director-supplied crops must never be redrawn.
+// Legacy HTML renderer. Preserve supplied crops and the user-requested new PNG masters.
 import fs from 'node:fs/promises';
 import { chromium } from '@playwright/test';
 import sharp from 'sharp';
@@ -18,8 +18,9 @@ try {
     deviceScaleFactor: 1,
   });
   for (const diagram of visuals.diagrams) {
-    if (assets.find((asset) => asset.id === diagram.assetId)?.sourceCrop) {
-      console.log(`Preserving supplied original: ${diagram.assetId}`);
+    const existing = assets.find((asset) => asset.id === diagram.assetId);
+    if (existing?.sourceCrop || existing?.generatedOriginal) {
+      console.log(`Preserving registered artwork: ${diagram.assetId}`);
       continue;
     }
     await page.setContent(`<html lang="ko"><meta charset="utf-8"><style>

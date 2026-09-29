@@ -1,0 +1,37 @@
+[
+  {
+    "path": "plan/README.md",
+    "unchanged": true,
+    "sha256": "97080d76e270f079ab8edaafde234d936f5d3a9cbe34cffacf8c7e12109749bf"
+  },
+  {
+    "path": "plan/모의적용_검증보고서.md",
+    "unchanged": true,
+    "sha256": "7842a13183fd4e58dba0ad83b06faa7a3bcdb3b8c9eccce4555f30341ae396cd"
+  },
+  {
+    "path": "plan/변경요약.md",
+    "unchanged": true,
+    "sha256": "be7e476b5c2e443d1c1e2a927df5e1404c780060cd3e111092ad4d91916a8072"
+  },
+  {
+    "path": "plan/적용순서.md",
+    "unchanged": true,
+    "sha256": "ae314bf4baebe75a9323fbc18d7c7ca263d1ab2a553a1b028f92ce3de7ad63a0"
+  },
+  {
+    "path": "plan/최종검수체크리스트.md",
+    "unchanged": true,
+    "sha256": "04296ff9ff6e14f012cbef793e9292bd313f866b833e55f5813c8bd50eccf377"
+  },
+  {
+    "path": "plan/충돌및주의사항.md",
+    "unchanged": true,
+    "sha256": "a27edb55291c69386040a3e86b217870d9a76187ccee2f3939a4230283cc2691"
+  },
+  {
+    "path": "plan/코딩에이전트_전달용_요청문 (1).md",
+    "unchanged": true,
+    "sha256": "752ed38b2e93c82e467d6db8ad51eb1a25c7dfa158caa4a93c27b27dc85d5cf9"
+  }
+]

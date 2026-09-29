@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { clinic, href, phoneHref } from '@/lib/site';
 import { languageNames, pageLabels } from '@/lib/languages';
 import { contentUse } from '@/components/article-footer';
+import { OfficialChannels } from '@/components/official-channels';
 import '../globals.css';
 export const metadata: Metadata = {
   applicationName: 'Yeongtong Top Internal Medicine Clinic',
@@ -65,6 +66,7 @@ export default async function LanguageLayout({
               <a href={href('/copyright/')}>{contentUse[language as keyof typeof contentUse][1]}</a>
             </div>
             <p className="footer-note">© 2026 Yeongtong Top Internal Medicine Clinic</p>
+            <OfficialChannels variant="footer" />
           </div>
         </footer>
       </body>

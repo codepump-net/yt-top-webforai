@@ -8,6 +8,7 @@ export function ZoomImage({
   alt,
   caption,
   className = '',
+  naturalSize = false,
 }: {
   src: string;
   width: number;
@@ -15,6 +16,7 @@ export function ZoomImage({
   alt: string;
   caption: string;
   className?: string;
+  naturalSize?: boolean;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const trigger = useRef<HTMLAnchorElement>(null);
@@ -23,6 +25,7 @@ export function ZoomImage({
   return (
     <figure className={`zoom-figure ${className}`}>
       <a
+        style={{ maxWidth: width, marginInline: 'auto' }}
         ref={trigger}
         className="image-enlarge"
         href={src}
@@ -63,8 +66,21 @@ export function ZoomImage({
             닫기
           </button>
         </div>
-        <div className="image-dialog-scroll">
-          {open && <img src={src} width={width} height={height} alt={alt} />}
+        <div
+          className="image-dialog-scroll"
+          tabIndex={naturalSize ? 0 : undefined}
+          role={naturalSize ? 'region' : undefined}
+          aria-label={naturalSize ? '확대한 이미지 스크롤 영역' : undefined}
+        >
+          {open && (
+            <img
+              src={src}
+              width={width}
+              height={height}
+              alt={alt}
+              style={{ maxWidth: width, ...(naturalSize ? { width } : {}) }}
+            />
+          )}
         </div>
         <a href={src} target="_blank" rel="noopener noreferrer">
           원본 크기로 보기 (새 창)

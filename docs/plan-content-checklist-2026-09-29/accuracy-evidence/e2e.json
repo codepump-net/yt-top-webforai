@@ -1,0 +1,343 @@
+{
+  "config": {
+    "argv": [
+      "/Users/nnnceo/Workspace/yt-top-webforai/.local/runtime/node-v24.10.0-darwin-arm64/bin/node",
+      "/Users/nnnceo/Workspace/yt-top-webforai/web/node_modules/@playwright/test/cli.js",
+      "test",
+      "tests/e2e/redrawn-images.spec.ts",
+      "tests/e2e/integrated-update.spec.ts"
+    ],
+    "configFile": "/Users/nnnceo/Workspace/yt-top-webforai/web/playwright.config.ts",
+    "rootDir": "/Users/nnnceo/Workspace/yt-top-webforai/web/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/nnnceo/Workspace/yt-top-webforai/web/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/nnnceo/Workspace/yt-top-webforai/web/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/e2e.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node scripts/serve.mjs",
+      "url": "http://127.0.0.1:3000/yt-top-webforai/",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "integrated-update.spec.ts",
+      "file": "integrated-update.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "home search stays below emergency guidance and opens local aliases without a query request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 586,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:41:10.495Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f9fe0f6c0d93a6fb4b7-ad7c67ab0e2e889aca91",
+          "file": "integrated-update.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "care hubs expose eight destinations and organ guides without scripts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 549,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:41:11.346Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f9fe0f6c0d93a6fb4b7-3a0972795b55f25e7340",
+          "file": "integrated-update.spec.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "vaccination figure, table and unified contents remain readable on mobile and desktop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4233,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:41:11.899Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f9fe0f6c0d93a6fb4b7-fd0ecbcedc895c5ed1eb",
+          "file": "integrated-update.spec.ts",
+          "line": 68,
+          "column": 5
+        },
+        {
+          "title": "case directory preserves originals while enforcing exclusions and privacy",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 306,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:41:16.138Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f9fe0f6c0d93a6fb4b7-8ca07b90026545bde047",
+          "file": "integrated-update.spec.ts",
+          "line": 118,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "redrawn-images.spec.ts",
+      "file": "redrawn-images.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all 17 registered PNG masters are real, complete image responses at the export path",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 74,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:41:16.457Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c30c935ccee03f83ff1-6c9b98b3403cb0884c8f",
+          "file": "redrawn-images.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "all 17 figures load, preserve their proportions and open the same PNG at 390px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3603,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:41:16.535Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c30c935ccee03f83ff1-f1f0f4c4e724ddc79360",
+          "file": "redrawn-images.spec.ts",
+          "line": 33,
+          "column": 7
+        },
+        {
+          "title": "all 17 figures load, preserve their proportions and open the same PNG at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4200,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:41:20.142Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c30c935ccee03f83ff1-9cad8559a2821077dce5",
+          "file": "redrawn-images.spec.ts",
+          "line": 33,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T04:41:10.092Z",
+    "duration": 14317.711,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

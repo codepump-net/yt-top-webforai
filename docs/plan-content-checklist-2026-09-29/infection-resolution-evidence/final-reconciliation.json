@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-29",
+  "counts": {
+    "충족": 54,
+    "부분 충족": 0,
+    "미충족": 0
+  },
+  "distinctImagePages": 16,
+  "publicAndExportAssetsMatch": true,
+  "sourcePdfMatchesPublicAndExport": true,
+  "reportLinksExist": true,
+  "operationalDeploymentPerformed": false
+}

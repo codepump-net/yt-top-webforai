@@ -1,0 +1,61 @@
+{
+  "reviewedAt": "2026-09-29T03:28:40.365Z",
+  "scope": "Local implementation and original plan review; no site changes or deployment",
+  "sourceDocuments": [
+    {
+      "path": "plan/README.md",
+      "matches": true
+    },
+    {
+      "path": "plan/모의적용_검증보고서.md",
+      "matches": true
+    },
+    {
+      "path": "plan/변경요약.md",
+      "matches": true
+    },
+    {
+      "path": "plan/적용순서.md",
+      "matches": true
+    },
+    {
+      "path": "plan/최종검수체크리스트.md",
+      "matches": true
+    },
+    {
+      "path": "plan/충돌및주의사항.md",
+      "matches": true
+    },
+    {
+      "path": "plan/코딩에이전트_전달용_요청문 (1).md",
+      "matches": true
+    }
+  ],
+  "contentDigestMatchesBuild": true,
+  "buildDigestMatchesRecorded": true,
+  "routesChecked": 135,
+  "htmlHashMismatches": [],
+  "contentErrors": [],
+  "originalDocumentRegistered": false,
+  "hqPngAssetCount": 0,
+  "originalPngContractSimulation": {
+    "note": "Uses a distinct old generated PNG solely to exercise metadata handling; not the requested original",
+    "sourceSha256": "f277f4a3edddd9e0385f8224ade8198370b1523bfac1c51260f8df9388dcdbe4",
+    "guidanceSha256": "67429c263191dda763000b27007147057f9df60195b01269f55084009ab3352a",
+    "errors": [
+      "Diagram guidance is stale: heart-flow"
+    ]
+  },
+  "imageSizeLimitBytes": 200000,
+  "knownStatisticsPdf": {
+    "file": ".local/afternoon-update/PHWR_Supple_19-36.pdf",
+    "sha256": "26940a084103777bdc5b73a0a611a19571a547aba657207065e98e4b50ef5bf7",
+    "pages": 38
+  },
+  "sourceReference": {
+    "fluScheduleUrl": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=134&menuLv=1",
+    "checkedOn": "2026-09-29",
+    "matchesSixRowDates": true
+  },
+  "rerunScope": "Content/hash checks, targeted browser checks and MIME fixture; no repeated full build/unit/performance suite"
+}

@@ -185,7 +185,8 @@ export function validateContent(
   const parsed = z.array(pageSchema).safeParse(pages);
   if (!parsed.success) return parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`);
   errors.push(...validatePatientScope(pages, { caseLinks, pageIntents, clinic, physicians }));
-  if (visuals || notices) errors.push(...validatePatientAdditions({ pages, assets, visuals, notices }, now));
+  if (visuals || notices)
+    errors.push(...validatePatientAdditions({ pages, assets, visuals, notices, clinic }, now));
   if (!['review', 'production'].includes(mode)) errors.push('Unknown build mode');
   for (const field of ['id', 'path', 'metaTitle', 'description']) {
     const all = pages.map((p) => p[field]);

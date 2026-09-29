@@ -1,0 +1,27 @@
+
+> yeongtong-top-clinic@1.0.0 test:e2e
+> playwright test tests/e2e/notice-content-update.spec.ts tests/e2e/infection-guide.spec.ts tests/e2e/redrawn-images.spec.ts
+
+[WebServer] (node:93168) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 1 worker
+
+(node:93170) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/infection-guide.spec.ts:14:5 › serves the matching original PDF and every full page without missing or substituted files (77ms)
+  ✓   2 tests/e2e/infection-guide.spec.ts:35:7 › all 16 pages retain their order, dimensions and keyboard enlargement at 390px (4.1s)
+  ✓   3 tests/e2e/infection-guide.spec.ts:35:7 › all 16 pages retain their order, dimensions and keyboard enlargement at 1440px (4.3s)
+  ✓   4 tests/e2e/infection-guide.spec.ts:103:5 › the original PDF and all 16 full images remain accessible without JavaScript (631ms)
+  ✓   5 tests/e2e/notice-content-update.spec.ts:21:5 › eight menus remain ordered, unique and usable at desktop and mobile widths (761ms)
+  ✓   6 tests/e2e/notice-content-update.spec.ts:42:5 › notice search, categories, reset and pagination operate on the six real articles (326ms)
+  ✓   7 tests/e2e/notice-content-update.spec.ts:65:5 › all six individual articles retain their sources, original anchor access and review metadata (598ms)
+  ✓   8 tests/e2e/notice-content-update.spec.ts:94:5 › flu schedule is an accessible six-row HTML table with the correct target dates (169ms)
+  ✓   9 tests/e2e/notice-content-update.spec.ts:106:5 › three official channels appear at each required location and merge with the clinic identity (473ms)
+  ✓  10 tests/e2e/notice-content-update.spec.ts:132:5 › all existing patient images can open their source without upscaling the page image (2.2s)
+  ✓  11 tests/e2e/notice-content-update.spec.ts:163:5 › notice and channel screens pass mobile and desktop accessibility and overflow checks (4.8s)
+  ✓  12 tests/e2e/redrawn-images.spec.ts:16:5 › all 17 registered PNG masters are real, complete image responses at the export path (75ms)
+  ✓  13 tests/e2e/redrawn-images.spec.ts:33:7 › all 17 figures load, preserve their proportions and open the same PNG at 390px (3.7s)
+  ✓  14 tests/e2e/redrawn-images.spec.ts:33:7 › all 17 figures load, preserve their proportions and open the same PNG at 1440px (4.3s)
+
+  14 passed (27.3s)

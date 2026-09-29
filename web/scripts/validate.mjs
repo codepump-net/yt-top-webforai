@@ -2,16 +2,46 @@ import fs from 'node:fs/promises';
 import sharp from 'sharp';
 import { loadContent } from './data.mjs';
 import { sha256, pageDigest, validateContent } from './content-contract.mjs';
+import { validateRedrawnImage } from './redrawn-image-contract.mjs';
 const data = await loadContent();
 const mode = process.argv[2] ?? 'review';
 const errors = validateContent(data.pages, { ...data, mode });
 const suppliedSources = new Map();
+for (const notice of data.notices.filter((item) => item.document)) {
+  try {
+    const bytes = await fs.readFile(`public${notice.document.pdf}`);
+    if (
+      bytes.subarray(0, 5).toString() !== '%PDF-' ||
+      sha256(bytes) !== notice.document.sha256 ||
+      bytes.length !== notice.document.bytes
+    )
+      errors.push(`Notice PDF integrity: ${notice.document.pdf}`);
+  } catch (error) {
+    errors.push(`Notice PDF verification failed: ${notice.document.pdf}: ${error.message}`);
+  }
+}
 for (const asset of data.assets) {
   try {
     const bytes = await fs.readFile(`public${asset.file}`);
     if (sha256(bytes) !== asset.sha256 || bytes.length !== asset.bytes)
       errors.push(`Asset integrity: ${asset.file}`);
-    if (asset.bytes > 200_000) errors.push(`Image exceeds 200 kB: ${asset.file}`);
+    if (asset.generatedOriginal) {
+      const source = await fs.readFile('../' + asset.sourceFile);
+      errors.push(...(await validateRedrawnImage(asset, bytes, source)));
+    } else if (asset.imageKind === 'document-page') {
+      const document = data.notices.find((n) =>
+        n.document?.pages.some((p) => p.assetId === asset.id),
+      )?.document;
+      const metadata = await sharp(bytes).metadata();
+      if (
+        !document ||
+        metadata.format !== 'png' ||
+        metadata.width !== asset.width ||
+        metadata.height !== asset.height ||
+        asset.bytes > 5_000_000
+      )
+        errors.push(`Invalid full-page document image: ${asset.file}`);
+    } else if (asset.bytes > 200_000) errors.push(`Image exceeds 200 kB: ${asset.file}`);
     if (asset.sourceCrop) {
       if (!suppliedSources.has(asset.sourceFile))
         suppliedSources.set(asset.sourceFile, await fs.readFile('../' + asset.sourceFile));

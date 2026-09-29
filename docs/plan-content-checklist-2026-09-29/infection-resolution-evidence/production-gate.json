@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-29T06:07:27.030Z",
+  "expectedBlocked": true,
+  "errors": [
+    "Publication confirmation scope differs from indexable pages",
+    "Publication confirmation requires approved content status",
+    "Stale publication confirmation: content, facts, or renderer changed"
+  ]
+}

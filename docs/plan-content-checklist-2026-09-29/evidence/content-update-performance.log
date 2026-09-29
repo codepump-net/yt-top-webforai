@@ -1,0 +1,7 @@
+/ {"performance":98,"accessibility":100,"best-practices":100,"seo":69} LCP=2347ms CLS=0
+services/heart/echocardiography/ {"performance":100,"accessibility":100,"best-practices":100,"seo":69} LCP=1883ms CLS=0
+search/ {"performance":100,"accessibility":100,"best-practices":100,"seo":69} LCP=1735ms CLS=0.001240977965032753
+health/colonoscopy-preparation-questions/ {"performance":100,"accessibility":100,"best-practices":100,"seo":69} LCP=1883ms CLS=0
+health/cancer-treatment-symptoms/ {"performance":100,"accessibility":100,"best-practices":100,"seo":69} LCP=1883ms CLS=0
+ne/checkups/visa/ {"performance":100,"accessibility":100,"best-practices":100,"seo":69} LCP=1729ms CLS=0
+notices/ {"performance":100,"accessibility":100,"best-practices":100,"seo":69} LCP=1734ms CLS=0

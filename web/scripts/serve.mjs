@@ -16,6 +16,8 @@ export async function serve({
     '.css': 'text/css; charset=utf-8',
     '.json': 'application/json; charset=utf-8',
     '.webp': 'image/webp',
+    '.png': 'image/png',
+    '.pdf': 'application/pdf',
     '.svg': 'image/svg+xml',
     '.xml': 'application/xml; charset=utf-8',
     '.txt': 'text/plain; charset=utf-8',

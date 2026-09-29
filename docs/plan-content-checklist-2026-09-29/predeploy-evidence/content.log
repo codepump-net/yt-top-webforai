@@ -1,0 +1,5 @@
+
+> yeongtong-top-clinic@1.0.0 content:validate
+> node scripts/validate.mjs review
+
+Content contract passed: 135 pages, 38 assets (review).

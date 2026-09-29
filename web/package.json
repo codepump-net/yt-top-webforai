@@ -13,6 +13,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint src tests",
     "content:validate": "node scripts/validate.mjs review",
+    "verify:plan": "node scripts/verify-plan-content.mjs",
     "harness-check": "node scripts/harness-check.mjs",
     "test": "vitest run",
     "audit:static": "node scripts/audit.mjs",

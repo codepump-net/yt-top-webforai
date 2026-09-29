@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-09-29T06:03:49.489Z",
+  "redrawnPngCount": 17,
+  "infectionGuidePages": 16,
+  "infectionGuideSource": {
+    "pdf": "/assets/notice-documents/kdca-2026-09-21-infection-prevention-press.pdf",
+    "sha256": "6f85c40ba28f99ecc281adc0fd0ab46f42d487652473fc2259835251312a7ba1",
+    "pageCount": 16
+  },
+  "acceptanceRecord": "docs/plan-content-checklist-2026-09-29/infection-resolution.ko.md",
+  "errors": []
+}

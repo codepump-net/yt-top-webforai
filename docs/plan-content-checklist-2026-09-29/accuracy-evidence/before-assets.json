@@ -1,0 +1,22 @@
+[
+  {
+    "id": "banner-services",
+    "file": "web/public/assets/clinic-visuals-hq/banner-services-hq-original.png",
+    "sha256": "eb4d5ea4e69368f99241a869d6ad1ace08bff80951663748cd5daa53b192ea49"
+  },
+  {
+    "id": "banner-chronic",
+    "file": "web/public/assets/clinic-visuals-hq/banner-chronic-hq-original.png",
+    "sha256": "eddfcb011e0103e6ca2ea0b9e1a35a5b84bf6dd836e7a39073cd1cd6f495e810"
+  },
+  {
+    "id": "banner-vaccinations",
+    "file": "web/public/assets/clinic-visuals-hq/banner-vaccinations-hq-original.png",
+    "sha256": "e71b7d596f8714007ea67443f2857a94bba3549376ba37222bbd0d8d5edc97bc"
+  },
+  {
+    "id": "vaccination-schedule-2026",
+    "file": "web/public/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png",
+    "sha256": "4b37ceece4f4c22e8f521ce9b6c9dbc0963738c182c91c2a9d7e1df90ae823f5"
+  }
+]

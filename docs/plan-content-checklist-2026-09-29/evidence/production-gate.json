@@ -1,0 +1,10 @@
+{
+  "mode": "production",
+  "pages": 135,
+  "assets": 22,
+  "errors": [
+    "Publication confirmation scope differs from indexable pages",
+    "Publication confirmation requires approved content status",
+    "Stale publication confirmation: content, facts, or renderer changed"
+  ]
+}

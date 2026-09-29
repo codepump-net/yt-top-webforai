@@ -2,12 +2,12 @@
   {
     "id": "notice-2026-hpv-national",
     "title": "2026년 HPV 국가예방접종 지원 대상과 일정",
-    "sourcePublishedAt": "2026-04-14",
-    "checkedAt": "2026-09-28",
+    "sourcePublishedAt": null,
+    "checkedAt": "2026-09-29",
     "startDate": "2026-01-01",
     "endDate": "2026-12-31",
     "kind": "program",
-    "summary": "2026년 HPV 4가 백신 지원 대상은 12~17세 여성 청소년, 18~26세 저소득층 여성과 12세 남성 청소년입니다. 남성 청소년 지원은 5월 6일부터 시작합니다.",
+    "summary": "2026년 HPV 4가 백신 지원 대상은 12~17세 여성 청소년, 18~26세 저소득층 여성과 12세 남성 청소년입니다. 남성 청소년 지원은 5월 6일부터 시작되었습니다.",
     "paragraphs": [
       "2026년에는 12~17세 여성 청소년과 18~26세 저소득층 여성이 지원 대상입니다. 12세 남성 청소년(2014년생)은 5월 6일부터 지원이 시작되었습니다.",
       "국가 지원 백신은 HPV 4가이며 9가 백신은 해당 지원 대상이 아닙니다. 접종 횟수와 간격은 첫 접종 나이와 접종 이력에 따라 달라지므로 기록을 가져오세요."
@@ -18,13 +18,26 @@
         "label": "질병관리청 예방접종도우미 · HPV 지원사업",
         "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=132&menuLv=1"
       }
-    ]
+    ],
+    "path": "/notices/2026-hpv/",
+    "number": 1,
+    "postedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
+    "category": "예방접종",
+    "tags": [
+      "HPV",
+      "사람유두종바이러스",
+      "국가예방접종"
+    ],
+    "pinned": false,
+    "views": null,
+    "sourceReviewedAt": "2026-04-14"
   },
   {
     "id": "notice-2026-pneumococcal-65plus",
     "title": "2026년 65세 이상 폐렴구균 국가예방접종",
     "sourcePublishedAt": null,
-    "checkedAt": "2026-09-28",
+    "checkedAt": "2026-09-29",
     "startDate": "2026-01-01",
     "endDate": "2026-12-31",
     "kind": "program",
@@ -39,13 +52,25 @@
         "label": "질병관리청 예방접종도우미 · 어르신 폐렴구균",
         "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=135&menuLv=1"
       }
-    ]
+    ],
+    "path": "/notices/2026-pneumococcal/",
+    "number": 2,
+    "postedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
+    "category": "예방접종",
+    "tags": [
+      "폐렴구균",
+      "65세 이상",
+      "국가예방접종"
+    ],
+    "pinned": false,
+    "views": null
   },
   {
     "id": "notice-2026-2027-national-influenza",
     "title": "2026–2027절기 인플루엔자 국가예방접종 일정",
     "sourcePublishedAt": "2026-09-16",
-    "checkedAt": "2026-09-28",
+    "checkedAt": "2026-09-29",
     "startDate": "2026-09-21",
     "endDate": "2027-04-30",
     "kind": "program",
@@ -63,23 +88,88 @@
       {
         "label": "질병관리청 · 2026–2027절기 지원사업 안내",
         "url": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyMzA4JTJGYXJ0Y2xWaWV3LmRvJTNG"
+      },
+      {
+        "label": "질병관리청 예방접종도우미 · 2026–2027절기 대상별 지원 일정",
+        "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=134&menuLv=1"
       }
-    ]
+    ],
+    "path": "/notices/2026-2027-influenza/",
+    "number": 3,
+    "postedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
+    "category": "예방접종",
+    "tags": [
+      "인플루엔자",
+      "독감",
+      "어린이",
+      "임신부",
+      "어르신"
+    ],
+    "pinned": true,
+    "views": null,
+    "schedule": {
+      "caption": "2026–2027절기 인플루엔자 국가예방접종 일정",
+      "columns": [
+        "지원 대상",
+        "시작일",
+        "종료일",
+        "확인사항"
+      ],
+      "rows": [
+        [
+          "어린이 · 2회 접종 대상",
+          "2026-09-21",
+          "2027-04-30",
+          "생후 6개월~9세 미만 중 첫 접종이거나 접종 이력이 불확실한 경우, 또는 2026년 6월 30일까지 총 1회만 접종한 경우입니다. 이전 접종 기록을 확인합니다."
+        ],
+        [
+          "어린이 · 1회 접종 대상",
+          "2026-09-21",
+          "2027-04-30",
+          "생후 6개월~14세 지원 대상 중 1회 접종에 해당하는지 접종 이력을 확인합니다."
+        ],
+        [
+          "임신부",
+          "2026-09-21",
+          "2027-04-30",
+          "산모수첩·임신확인서 등 임신을 확인할 수 있는 자료를 준비합니다."
+        ],
+        [
+          "75세 이상",
+          "2026-10-06",
+          "2027-04-30",
+          "1951년 12월 31일 이전 출생자. 신분증을 준비합니다."
+        ],
+        [
+          "70~74세",
+          "2026-10-12",
+          "2027-04-30",
+          "1952~1956년 출생자. 신분증을 준비합니다."
+        ],
+        [
+          "65~69세",
+          "2026-10-15",
+          "2027-04-30",
+          "1957~1961년 출생자. 신분증을 준비합니다."
+        ]
+      ]
+    }
   },
   {
     "id": "notice-2026-suwon-shingles-support",
     "title": "2026년 수원시 대상포진 예방접종 비용지원",
     "sourcePublishedAt": "2025-12-16",
-    "checkedAt": "2026-09-28",
+    "checkedAt": "2026-09-29",
     "startDate": "2026-01-26",
     "endDate": null,
     "kind": "program",
     "summary": "2026년 수원시 대상포진 지원은 65세 이상 시민 중 짝수 연도 출생 미접종자가 대상입니다. 소득 자격에 따라 접종기관과 본인부담금이 다릅니다.",
     "paragraphs": [
-      "수원시 안내의 대상은 65세 이상 수원시민 중 짝수연도 출생자로, 대상포진 미접종 여부 등 요건을 확인해야 합니다. 기초생활수급자·차상위계층과 일반 대상자의 접종 장소·비용 조건이 다릅니다.",
+      "수원시 안내의 대상은 65세 이상 수원시민 중 짝수 연도 출생자로, 대상포진 미접종 여부 등 요건을 확인해야 합니다. 기초생활수급자·차상위계층과 일반 대상자의 접종 장소·비용 조건이 다릅니다.",
       "보건소 대상 접종은 1월 26일, 일반 대상자 지원은 2월 23일부터 안내되어 있습니다. 백신비 지원과 접종 시행비 본인부담을 구분하고, 백신 종류별 지원 조건과 재고·예산을 접종 전에 확인하세요."
     ],
-    "availability": "접종기관은 아래 수원시 위탁의료기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원접종 예약은 031-202-7555로 문의해 주세요.",
+    "availability": "접종기관은 아래 수원시 위탁의료기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원 접종 예약은 031-202-7555로 문의해 주세요.",
     "sources": [
       {
         "label": "수원시 보건소 · 2026년 대상포진 지원 안내",
@@ -89,22 +179,34 @@
         "label": "수원시 · 위탁의료기관 목록(2026-07-09, XLSX)",
         "url": "https://health.suwon.go.kr/bt_dwn.asp?b_code=tbl_bbs_edu&file_num=1&b_num=870"
       }
-    ]
+    ],
+    "path": "/notices/2026-suwon-shingles/",
+    "number": 4,
+    "postedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
+    "category": "지역 지원사업",
+    "tags": [
+      "수원시",
+      "대상포진",
+      "비용지원"
+    ],
+    "pinned": false,
+    "views": null
   },
   {
     "id": "notice-2026-gyeonggi-student-influenza",
     "title": "2026년 경기도 중·고등학생 인플루엔자 지원",
     "sourcePublishedAt": "2026-08-19",
-    "checkedAt": "2026-09-28",
+    "checkedAt": "2026-09-29",
     "startDate": "2026-09-14",
     "endDate": "2026-11-21",
     "kind": "program",
-    "summary": "경기도 중·고등학교 재학생 중 2008~2011년생(중3~고3)은 2026년 9월 14일~11월 21일 선정 의료기관에서 독감 예방접종을 지원받을 수 있습니다.",
+    "summary": "경기도 소재 중3~고3 재학생과 경기도 중·고등학교에 재학 중인 2008~2011년생은 2026년 9월 14일~11월 21일 선정 의료기관에서 독감 예방접종을 지원받을 수 있습니다.",
     "paragraphs": [
-      "경기도교육청 안내의 지원 대상은 경기도 중·고등학교 재학생 중 2008~2011년생(중3~고3 해당 연령)입니다. 운영기간은 2026년 9월 14일~11월 21일입니다. 모든 중학생이 같은 사업의 대상인 것은 아닙니다.",
+      "경기도교육청 안내의 지원 대상은 경기도 소재 중3~고3 재학생과 경기도 중·고등학교에 재학 중인 2008년 1월 1일~2011년 12월 31일 출생 학생입니다. 지원 기간은 2026년 9월 14일~11월 21일입니다. 재학 여부와 학년·출생일을 확인해 주세요.",
       "재학·본인 확인 자료와 학교 가정통신문에 포함된 동의서 등 구비서류를 준비하세요. 보호자 없이 방문할 때 필요한 서류도 사전에 확인해야 합니다."
     ],
-    "availability": "접종기관은 아래 경기도교육청 선정기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원접종 예약은 031-202-7555로 문의해 주세요.",
+    "availability": "접종기관은 아래 경기도교육청 선정기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원 접종 예약은 031-202-7555로 문의해 주세요.",
     "sources": [
       {
         "label": "경기도교육청 · 선정기관과 사업 안내",
@@ -114,20 +216,35 @@
         "label": "경기도교육청 · 선정기관 목록(2026-08-26, XLSX)",
         "url": "https://www.goe.go.kr/resource/goe/na/bbs_1932/2026/08/35cfb2a3-7b90-4caf-971e-ab56b6b28f37.xlsx"
       }
-    ]
+    ],
+    "path": "/notices/2026-gyeonggi-student-influenza/",
+    "number": 5,
+    "postedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
+    "category": "지역 지원사업",
+    "tags": [
+      "경기도",
+      "중학생",
+      "고등학생",
+      "인플루엔자",
+      "독감"
+    ],
+    "pinned": false,
+    "views": null
   },
   {
     "id": "notice-2026-09-17-infection-guide",
-    "title": "9월 17일 감염병 자료와 가족 예방 안내",
+    "title": "질병관리청 최신 데이터(9.17 기준)로 보는 우리 가족 감염병 예방 가이드",
     "sourcePublishedAt": "2026-09-17",
-    "checkedAt": "2026-09-28",
+    "checkedAt": "2026-09-29",
     "startDate": null,
     "endDate": null,
     "kind": "reference",
     "summary": "2026년 37주차 전국 신고는 수두 283명, A형간염 27명, 뎅기열 9명으로 집계됐습니다. 9월 12일 기준 잠정통계와 가족 모임·여행 시 예방수칙을 살펴보세요.",
     "paragraphs": [
       "질병관리청이 9월 17일 발표한 37주차 자료에서 수두는 283명, A형간염은 27명, 뎅기열은 9명이 신고됐고, 뎅기열 9명은 모두 해외유입으로 분류됐습니다. 이는 당시 전국 신고 현황이며 현재 수원 지역의 발생 수준이나 개인의 감염 여부를 나타내는 수치는 아닙니다. 이후 신고 정정으로 수치가 바뀔 수 있습니다.",
-      "가족 모임에서는 흐르는 물에 비누로 손을 씻고 음식을 충분히 익혀 먹으세요. 기침·발열 등 호흡기 증상이 있을 때는 마스크를 착용하고 실내를 환기하세요. 설사·구토가 있으면 다른 사람의 음식을 조리하지 않는 것이 좋습니다. 해외여행 전에는 방문 국가의 감염병 정보를 확인하고 모기에 물리지 않도록 준비하세요."
+      "가족 모임에서는 흐르는 물에 비누로 손을 씻고 음식을 충분히 익혀 먹으세요. 기침·발열 등 호흡기 증상이 있을 때는 마스크를 착용하고 실내를 환기하세요. 설사·구토가 있으면 다른 사람의 음식을 조리하지 않는 것이 좋습니다. 해외여행 전에는 방문 국가의 감염병 정보를 확인하고 모기에 물리지 않도록 준비하세요.",
+      "제목의 9.17은 통계 자료의 발간일이며, 해당 주간 통계의 집계 기준일은 2026년 9월 12일입니다. 아래 예방수칙 원문은 질병관리청이 별도로 발표한 9월 21일 조간용 보도자료와 붙임 전체 16쪽입니다. 두 자료의 통계 항목과 집계 기간은 각각의 표·각주를 확인해 주세요."
     ],
     "availability": "고령자·임신부·만성질환자는 예방접종과 증상 발생 시 진료 시점을 의료진과 상의하세요.",
     "sources": [
@@ -136,16 +253,129 @@
         "url": "https://www.kdca.go.kr/kdca/3026/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjYwJTJGMzEyNjYyJTJGYXJ0Y2xWaWV3LmRvJTNG"
       },
       {
-        "label": "질병관리청 · 가족 모임과 감염병 예방수칙(9월 21일)",
+        "label": "질병관리청 · 추석연휴 감염병 예방수칙(9월 21일 조간용)",
         "url": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG"
+      },
+      {
+        "label": "질병관리청 · 상황별 감염병 예방수칙 카드뉴스(9월 21일)",
+        "url": "https://www.kdca.go.kr/kdca/2853/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQ1JTJGMzEyNzAzJTJGYXJ0Y2xWaWV3LmRvJTNG"
       }
     ],
     "attachment": {
       "url": "https://www.phwr.org/journal/down_supple_pdf.php?eid=dWlkPTE5NQ%3D%3D",
-      "label": "질병관리청 9월 17일 주요 감염병 통계 원문",
+      "label": "질병관리청 9월 17일 발간 주요 감염병 통계 원문 38쪽",
       "publishedAt": "2026-09-17",
       "bytes": 3655819,
       "sha256": "26940a084103777bdc5b73a0a611a19571a547aba657207065e98e4b50ef5bf7"
+    },
+    "path": "/notices/2026-09-17-infection-guide/",
+    "number": 6,
+    "postedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
+    "category": "감염병 예방",
+    "tags": [
+      "감염병",
+      "질병관리청",
+      "가족",
+      "예방"
+    ],
+    "pinned": false,
+    "views": null,
+    "document": {
+      "title": "질병관리청 감염병 예방수칙 — 보도자료와 붙임 전체",
+      "pdf": "/assets/notice-documents/kdca-2026-09-21-infection-prevention-press.pdf",
+      "sha256": "6f85c40ba28f99ecc281adc0fd0ab46f42d487652473fc2259835251312a7ba1",
+      "bytes": 1505951,
+      "pageCount": 16,
+      "sourceUrl": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG",
+      "sourcePdfUrl": "https://www.kdca.go.kr/bbs/kdca/42/309808/download.do",
+      "publicationNote": "질병관리청 「추석연휴 건강하게! 감염병 예방수칙은 철저하게!」. 보도시점 2026년 9월 20일 12:00, 9월 21일 조간용 자료입니다. 본문 1~10쪽과 붙임 11~16쪽을 함께 제공합니다.",
+      "license": {
+        "label": "공공누리 제0유형: 자유이용",
+        "url": "https://www.kogl.or.kr/info/licenseType0.do"
+      },
+      "pages": [
+        {
+          "assetId": "infection-prevention-page-01",
+          "page": 1,
+          "alt": "질병관리청 감염병 예방수칙 1쪽 — 보도자료 표지와 해외여행 전 감염병 예방 안내"
+        },
+        {
+          "assetId": "infection-prevention-page-02",
+          "page": 2,
+          "alt": "질병관리청 감염병 예방수칙 2쪽 — 일본·동남아 여행 시 호흡기·모기 매개 감염병 주의사항"
+        },
+        {
+          "assetId": "infection-prevention-page-03",
+          "page": 3,
+          "alt": "질병관리청 감염병 예방수칙 3쪽 — 중국 방문과 귀국 시 검역·증상 신고 안내"
+        },
+        {
+          "assetId": "infection-prevention-page-04",
+          "page": 4,
+          "alt": "질병관리청 감염병 예방수칙 4쪽 — 인플루엔자·코로나19 발생 동향과 고위험군 호흡기 예방수칙"
+        },
+        {
+          "assetId": "infection-prevention-page-05",
+          "page": 5,
+          "alt": "질병관리청 감염병 예방수칙 5쪽 — 호흡기 감염병 예방수칙과 수인성·식품매개감염병 집단발생 통계"
+        },
+        {
+          "assetId": "infection-prevention-page-06",
+          "page": 6,
+          "alt": "질병관리청 감염병 예방수칙 6쪽 — 음식·식수 위생수칙, 콜레라 주의사항과 진드기 매개 감염병 안내"
+        },
+        {
+          "assetId": "infection-prevention-page-07",
+          "page": 7,
+          "alt": "질병관리청 감염병 예방수칙 7쪽 — 진드기 매개 감염병 발생 그래프·위험요인 표와 주요 증상"
+        },
+        {
+          "assetId": "infection-prevention-page-08",
+          "page": 8,
+          "alt": "질병관리청 감염병 예방수칙 8쪽 — 진드기 예방·진료 안내와 해외유입 모기 매개 감염병 통계"
+        },
+        {
+          "assetId": "infection-prevention-page-09",
+          "page": 9,
+          "alt": "질병관리청 감염병 예방수칙 9쪽 — 말라리아·치쿤구니야열·지카바이러스 설명과 임신 관련 예방수칙"
+        },
+        {
+          "assetId": "infection-prevention-page-10",
+          "page": 10,
+          "alt": "질병관리청 감염병 예방수칙 10쪽 — 모기 매개 감염병 예방 안내, 붙임 목록과 담당 부서"
+        },
+        {
+          "assetId": "infection-prevention-page-11",
+          "page": 11,
+          "alt": "질병관리청 감염병 예방수칙 11쪽 — 붙임 1: 해외여행 전·중·후 감염병 예방수칙 포스터"
+        },
+        {
+          "assetId": "infection-prevention-page-12",
+          "page": 12,
+          "alt": "질병관리청 감염병 예방수칙 12쪽 — 붙임 2: 수인성·식품매개감염병 예방수칙 포스터"
+        },
+        {
+          "assetId": "infection-prevention-page-13",
+          "page": 13,
+          "alt": "질병관리청 감염병 예방수칙 13쪽 — 붙임 3: 쯔쯔가무시증의 감염경로·증상·진단·치료·예방 개요"
+        },
+        {
+          "assetId": "infection-prevention-page-14",
+          "page": 14,
+          "alt": "질병관리청 감염병 예방수칙 14쪽 — 붙임 3: 중증열성혈소판감소증후군(SFTS)의 감염경로·증상·예방 개요"
+        },
+        {
+          "assetId": "infection-prevention-page-15",
+          "page": 15,
+          "alt": "질병관리청 감염병 예방수칙 15쪽 — 붙임 4: 진드기 매개 감염병 예방을 위한 대국민 리플릿"
+        },
+        {
+          "assetId": "infection-prevention-page-16",
+          "page": 16,
+          "alt": "질병관리청 감염병 예방수칙 16쪽 — 붙임 5: 모기 매개 감염병 예방수칙 카드뉴스"
+        }
+      ]
     }
   }
 ]

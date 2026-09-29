@@ -1,0 +1,78 @@
+[
+  {
+    "name": "registered-statistics-pdf",
+    "requestedUrl": "https://www.phwr.org/journal/down_supple_pdf.php?eid=dWlkPTE5NQ%3D%3D",
+    "responseUrl": "https://www.phwr.org/journal/down_supple_pdf.php?eid=dWlkPTE5NQ%3D%3D",
+    "status": 200,
+    "type": "application/download",
+    "bytes": 3655819,
+    "sha256": "26940a084103777bdc5b73a0a611a19571a547aba657207065e98e4b50ef5bf7",
+    "file": ".local/infection-source-retrieval/registered-statistics-pdf.pdf",
+    "title": []
+  },
+  {
+    "name": "kdca-statistics",
+    "requestedUrl": "https://www.kdca.go.kr/kdca/3026/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjYwJTJGMzEyNjYyJTJGYXJ0Y2xWaWV3LmRvJTNG",
+    "responseUrl": "https://www.kdca.go.kr/kdca/3026/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjYwJTJGMzEyNjYyJTJGYXJ0Y2xWaWV3LmRvJTNG",
+    "status": 200,
+    "type": "text/html;charset=UTF-8",
+    "bytes": 92896,
+    "sha256": "72b3a8b178d81357a34dd07b7c8ebb2ce1caf056a706b849f79d90425d9c6e55",
+    "file": ".local/infection-source-retrieval/kdca-statistics.html",
+    "title": [
+      "감염병발생정보"
+    ]
+  },
+  {
+    "name": "kdca-prevention",
+    "requestedUrl": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG",
+    "responseUrl": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG",
+    "status": 200,
+    "type": "text/html;charset=UTF-8",
+    "bytes": 160374,
+    "sha256": "fccc0c648c4b16066520ecdc94904a95a4bc6244f4325847e419838c2791a5d7",
+    "file": ".local/infection-source-retrieval/kdca-prevention.html",
+    "title": [
+      "보도자료"
+    ]
+  },
+  {
+    "name": "clinic-home",
+    "requestedUrl": "https://yttop.co.kr/",
+    "responseUrl": "https://yttop.co.kr/",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 825006,
+    "sha256": "dce748d2e27fadf497cd97e4aee4389fe239e2c2b2759f00f7df9b1902f67813",
+    "file": ".local/infection-source-retrieval/clinic-home.html",
+    "title": [
+      "수원건강검진, 영통탑내과"
+    ]
+  },
+  {
+    "name": "clinic-blog",
+    "requestedUrl": "https://blog.naver.com/goytt2022",
+    "responseUrl": "https://blog.naver.com/goytt2022",
+    "status": 200,
+    "type": "text/html;charset=UTF-8",
+    "bytes": 2837,
+    "sha256": "20230506d4afeffa3086cfe6ee84246f0bc97c6482e8424cab21cea94b6abdc4",
+    "file": ".local/infection-source-retrieval/clinic-blog.html",
+    "title": [
+      "망포역 영통탑내과 공식블로그 : 네이버 블로그"
+    ]
+  },
+  {
+    "name": "clinic-blog-rss",
+    "requestedUrl": "https://rss.blog.naver.com/goytt2022.xml",
+    "responseUrl": "https://rss.blog.naver.com/goytt2022.xml",
+    "status": 200,
+    "type": "text/xml;charset=UTF-8",
+    "bytes": 98806,
+    "sha256": "dcf3d15c0469a4eb129f9d3cd721a3d834f1b2b37284e145e42766635acae665",
+    "file": ".local/infection-source-retrieval/clinic-blog-rss.html",
+    "title": [
+      "<![CDATA[망포역 영통탑내과 공식블로그]]>"
+    ]
+  }
+]

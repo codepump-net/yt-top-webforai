@@ -7,9 +7,10 @@ const categories = {
   diseases: '질환',
   conditions: '진료분야',
   services: '검사·시술',
-  'cancer-support': '암환자 지지진료',
+  'cancer-support': '암환자 지지치료',
   checkups: '검진·서류',
   about: '병원안내',
+  notices: '공지사항',
 };
 export const searchCategories = Object.values(categories);
 export const searchCategory = (page) => categories[sectionId(page)];

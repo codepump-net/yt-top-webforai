@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-29",
+  "environment": "macOS arm64 / Node 24.10.0 / Chromium",
+  "mode": "review",
+  "basePath": "/yt-top-webforai",
+  "content": {
+    "exitCode": 0,
+    "pages": 135,
+    "assets": 22,
+    "log": "content.log"
+  },
+  "unit": {
+    "exitCode": 0,
+    "passed": 82,
+    "log": "unit.log"
+  },
+  "buildAndStaticAudit": {
+    "exitCode": 0,
+    "routes": 135,
+    "log": "build.log"
+  },
+  "e2e": {
+    "exitCode": 0,
+    "passed": 7,
+    "specs": [
+      "redrawn-images.spec.ts",
+      "integrated-update.spec.ts"
+    ],
+    "log": "e2e.log"
+  },
+  "visualReview": {
+    "reviewed": 17,
+    "changed": 4,
+    "ocrBefore": "ocr-before.json",
+    "ocrAfter": "ocr-after.json",
+    "medicalApprovalAdded": false
+  },
+  "deployed": false
+}

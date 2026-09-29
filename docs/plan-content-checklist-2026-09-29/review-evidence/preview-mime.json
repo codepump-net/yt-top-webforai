@@ -1,0 +1,17 @@
+{
+  "scope": "Temporary preview fixture, existing source PNG and 38-page PDF; not claimed as requested originals",
+  "responses": [
+    {
+      "file": "sample.png",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "download": "sample.png"
+    },
+    {
+      "file": "sample.pdf",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "download": "sample.pdf"
+    }
+  ]
+}

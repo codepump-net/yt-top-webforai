@@ -1,0 +1,20 @@
+[
+  {
+    "id": "website",
+    "label": "영통탑내과 홈페이지",
+    "description": "병원 소식과 진료 안내",
+    "url": "https://yttop.co.kr/"
+  },
+  {
+    "id": "blog",
+    "label": "네이버 블로그",
+    "description": "영통탑내과의 건강 이야기",
+    "url": "https://blog.naver.com/goytt2022"
+  },
+  {
+    "id": "instagram",
+    "label": "인스타그램",
+    "description": "영통탑내과의 소식",
+    "url": "https://www.instagram.com/yttopim"
+  }
+]

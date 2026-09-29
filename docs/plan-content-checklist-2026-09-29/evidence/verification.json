@@ -1,0 +1,252 @@
+{
+  "verifiedAt": "2026-09-29T12:21:43.282180+09:00",
+  "scope": "Local review builds. No deployment or medical/operational approval. Missing source PNGs and 15-page PDF remain unresolved.",
+  "environment": {
+    "node": "24.10.0",
+    "platform": "macOS arm64",
+    "browser": "Playwright Chromium",
+    "productionArchiveSha256Verified": true
+  },
+  "content": {
+    "pages": 135,
+    "assets": 22,
+    "errors": []
+  },
+  "builds": [
+    {
+      "basePath": "",
+      "origin": "http://localhost:3000",
+      "mode": "review",
+      "builtAt": "2026-09-29T03:13:21.459Z",
+      "routeCount": 135,
+      "contentDigest": "f4c0fc50430150f633418205b7600f1faf12df111032f6a069f94409b8e0be08"
+    },
+    {
+      "basePath": "/yt-top-webforai",
+      "origin": "https://codepump-net.github.io",
+      "mode": "review",
+      "builtAt": "2026-09-29T03:19:32.166Z",
+      "routeCount": 135,
+      "contentDigest": "f4c0fc50430150f633418205b7600f1faf12df111032f6a069f94409b8e0be08"
+    }
+  ],
+  "checks": {
+    "unit": {
+      "command": "node node_modules/vitest/vitest.mjs run --reporter=json --outputFile=reports/content-update-unit.json",
+      "passed": 78,
+      "failed": 0
+    },
+    "harness": {
+      "command": "PYTHON=python3 node scripts/harness-check.mjs",
+      "passed": 17,
+      "failed": 0
+    },
+    "lint": {
+      "command": "node node_modules/eslint/bin/eslint.js src tests",
+      "exitCode": 0
+    },
+    "typecheck": {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "exitCode": 0
+    },
+    "format": {
+      "exitCode": 0,
+      "scope": "changed notice implementation files and adjusted integrated e2e test"
+    },
+    "rootE2E": {
+      "startTime": "2026-09-29T03:15:33.565Z",
+      "duration": 64705.918,
+      "expected": 62,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "projectE2E": {
+      "startTime": "2026-09-29T03:20:09.432Z",
+      "duration": 17083.269999999997,
+      "expected": 14,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "projectE2EScope": [
+      "notice-content-update.spec.ts",
+      "director-afternoon.spec.ts"
+    ],
+    "staticAudit": {
+      "rootErrors": [],
+      "projectErrors": [],
+      "routeCountEach": 135
+    },
+    "performance": {
+      "scope": "root build; six established gate pages plus /notices/",
+      "reports": [
+        {
+          "route": "/",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          },
+          "metrics": {
+            "largest-contentful-paint": 2346.9557999999997,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 37.01104999999984,
+            "first-contentful-paint": 907.9558
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/services/heart/echocardiography/",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          },
+          "metrics": {
+            "largest-contentful-paint": 1883.4122000000002,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 31,
+            "first-contentful-paint": 908.4122
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/search/",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          },
+          "metrics": {
+            "largest-contentful-paint": 1735.0373999999997,
+            "cumulative-layout-shift": 0.001240977965032753,
+            "total-blocking-time": 32,
+            "first-contentful-paint": 760.0373999999999
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/health/colonoscopy-preparation-questions/",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          },
+          "metrics": {
+            "largest-contentful-paint": 1882.9945000000002,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 34,
+            "first-contentful-paint": 907.9945
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/health/cancer-treatment-symptoms/",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          },
+          "metrics": {
+            "largest-contentful-paint": 1883.1339000000003,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 35,
+            "first-contentful-paint": 908.1339
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/ne/checkups/visa/",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          },
+          "metrics": {
+            "largest-contentful-paint": 1728.8762,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 35,
+            "first-contentful-paint": 753.8761999999999
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        },
+        {
+          "route": "/notices/",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          },
+          "metrics": {
+            "largest-contentful-paint": 1733.6097,
+            "cumulative-layout-shift": 0,
+            "total-blocking-time": 40,
+            "first-contentful-paint": 908.6097
+          },
+          "failedAudits": [
+            "is-crawlable"
+          ]
+        }
+      ],
+      "errors": [],
+      "note": "Local simulated mobile measurements. Review noindex is retained; SEO crawlability exclusion is expected."
+    },
+    "productionGate": {
+      "exitCode": 1,
+      "expectedFailure": true,
+      "errors": [
+        "Publication confirmation scope differs from indexable pages",
+        "Publication confirmation requires approved content status",
+        "Stale publication confirmation: content, facts, or renderer changed"
+      ]
+    },
+    "baselinePreserved": true,
+    "sourceComparison": {
+      "termsPassed": 20,
+      "noticesOriginalContentPreserved": 6,
+      "previousTermInPublicTextFiles": 0
+    },
+    "externalChannels": {
+      "officialChannelsHttp200": 3,
+      "originalAnnouncementHttp200": true,
+      "caseOriginalsHttp200": 25
+    },
+    "documentation": {
+      "requirements": 54,
+      "passed": 41,
+      "partial": 5,
+      "needsOriginalFiles": 8
+    }
+  },
+  "remaining": [
+    "17 original PNGs and their required URLs",
+    "Cancer banner bitmap wording",
+    "15-page infection guide PDF and all page images",
+    "Validation of final original files and images",
+    "Live deployment has not been performed"
+  ],
+  "initialIssuesResolved": [
+    "Missing official channel links in translated footers",
+    "Existing search-category test expected eight buttons before the notice category was added"
+  ]
+}

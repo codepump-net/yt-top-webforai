@@ -643,5 +643,35 @@
     "id": "copyright-policy",
     "path": "/copyright/",
     "patientNeed": "건강정보 링크 공유·인용과 허락이 필요한 복제·이미지 이용을 구분한다."
+  },
+  {
+    "id": "notice-2026-hpv-national",
+    "path": "/notices/2026-hpv/",
+    "patientNeed": "2026년 HPV 국가예방접종 지원 대상과 일정의 대상·기간·준비사항과 공식 자료를 확인하고 필요한 진료·접종 문의를 할 수 있다."
+  },
+  {
+    "id": "notice-2026-pneumococcal-65plus",
+    "path": "/notices/2026-pneumococcal/",
+    "patientNeed": "2026년 65세 이상 폐렴구균 국가예방접종의 대상·기간·준비사항과 공식 자료를 확인하고 필요한 진료·접종 문의를 할 수 있다."
+  },
+  {
+    "id": "notice-2026-2027-national-influenza",
+    "path": "/notices/2026-2027-influenza/",
+    "patientNeed": "2026–2027절기 인플루엔자 국가예방접종 일정의 대상·기간·준비사항과 공식 자료를 확인하고 필요한 진료·접종 문의를 할 수 있다."
+  },
+  {
+    "id": "notice-2026-suwon-shingles-support",
+    "path": "/notices/2026-suwon-shingles/",
+    "patientNeed": "2026년 수원시 대상포진 예방접종 비용지원의 대상·기간·준비사항과 공식 자료를 확인하고 필요한 진료·접종 문의를 할 수 있다."
+  },
+  {
+    "id": "notice-2026-gyeonggi-student-influenza",
+    "path": "/notices/2026-gyeonggi-student-influenza/",
+    "patientNeed": "2026년 경기도 중·고등학생 인플루엔자 지원의 대상·기간·준비사항과 공식 자료를 확인하고 필요한 진료·접종 문의를 할 수 있다."
+  },
+  {
+    "id": "notice-2026-09-17-infection-guide",
+    "path": "/notices/2026-09-17-infection-guide/",
+    "patientNeed": "질병관리청 최신 데이터(9.17 기준)로 보는 우리 가족 감염병 예방 가이드의 대상·기간·준비사항과 공식 자료를 확인하고 필요한 진료·접종 문의를 할 수 있다."
   }
 ]

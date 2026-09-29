@@ -1,0 +1,35 @@
+export type Notice = {
+  id: string;
+  path: string;
+  number: number;
+  title: string;
+  summary: string;
+  category: string;
+  tags: string[];
+  pinned: boolean;
+  views: number | null;
+  postedAt: string;
+  updatedAt: string;
+  sourcePublishedAt: string | null;
+  sourceReviewedAt?: string;
+  checkedAt: string;
+  startDate: string | null;
+  endDate: string | null;
+  kind: string;
+  paragraphs: string[];
+  availability: string;
+  sources: { label: string; url: string }[];
+  attachment?: { url: string; label: string; publishedAt: string; bytes: number; sha256: string };
+  document?: {
+    title: string;
+    pdf: string;
+    sha256: string;
+    bytes: number;
+    pageCount: number;
+    sourceUrl: string;
+    sourcePdfUrl: string;
+    publicationNote: string;
+    license: { label: string; url: string };
+    pages: { assetId: string; page: number; alt: string }[];
+  };
+};

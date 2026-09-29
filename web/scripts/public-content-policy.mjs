@@ -39,6 +39,12 @@ export function validatePatientScope(pages, { pageIntents, caseLinks, clinic, ph
       errors.push(`${page.id}: documented patient need required`);
     if (['case-detail', 'notice-detail'].includes(page.template) || page.id === 'content-policy')
       errors.push(`${page.id}: retired public page; use the original hospital channel`);
+    if (
+      page.path.startsWith('/notices/') &&
+      page.id !== 'notices' &&
+      page.template !== 'notice-guide'
+    )
+      errors.push(`${page.id}: notice route requires a registered patient guide`);
     const {
       title,
       metaTitle,

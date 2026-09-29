@@ -17,6 +17,7 @@ import {
   clinic,
   physicians,
   href,
+  basePath,
   breadcrumbs,
   structuredData,
   reviewFor,
@@ -41,7 +42,9 @@ import { searchItems as makeSearchItems, searchCategories } from '@/lib/search-m
 import { ArticleFooter } from './article-footer';
 import assets from '../../../content/assets.json';
 import notices from '../../../content/notices.json';
-import { NoticeBoard } from './notices';
+import { NoticeBoard, NoticeMeta } from './notices';
+import { NoticeDocument } from './notice-document';
+import { OfficialChannels } from './official-channels';
 import { koreaDate, recentNotices } from '@/lib/notice-model.mjs';
 import { PatientBanner, PatientDiagram } from './patient-visuals';
 import { ZoomImage } from './zoom-image';
@@ -262,11 +265,11 @@ function Home() {
             어디에서 진료받아야 할까요?
           </h2>
           <p>
-            치료 중 증상과 최근 치료·검사 정보를 바탕으로 가까운 내과에서 가능한 지지진료와 기존
+            치료 중 증상과 최근 치료·검사 정보를 바탕으로 가까운 내과에서 가능한 지지치료와 기존
             치료병원·응급실 진료가 필요한 상황을 확인하세요.
           </p>
           <a className="text-link" href={href('/services/cancer-support/')}>
-            암환자 지지진료 안내 <ArrowRight size={18} />
+            암환자 지지치료 안내 <ArrowRight size={18} />
           </a>
         </div>
         <PageLinks ids={['cancer-treatment-symptoms', 'fever-during-cancer-treatment']} />
@@ -289,7 +292,7 @@ function Home() {
           {recentNotices(notices)
             .slice(0, 3)
             .map((notice: (typeof notices)[number]) => (
-              <a className="notice-preview" href={href(`/notices/#${notice.id}`)} key={notice.id}>
+              <a className="notice-preview" href={href(notice.path)} key={notice.id}>
                 <span className="small">
                   {notice.sourcePublishedAt ? '공식 자료 발표' : '내용 확인'} ·{' '}
                   {notice.sourcePublishedAt ?? notice.checkedAt}
@@ -313,6 +316,7 @@ function Home() {
           link={['/visit/', '방문 안내']}
         />
         <VisitInfo />
+        <OfficialChannels variant="visit" />
         <div className="visit-channel">
           <p>휴진 일정과 검사·서류 발급 소식은 병원 홈페이지의 공지사항에서 확인하세요.</p>
           <OriginalNoticesLink />
@@ -723,6 +727,7 @@ function SiteMap() {
 
 export function PageContent({ page }: { page: Page }) {
   const t = pageLabels(page.language);
+  const notice = notices.find((item) => item.id === page.id);
   const versions = languageVersions(page);
   const tocEntries = [
     ...(page.template === 'physician-detail'
@@ -806,6 +811,7 @@ export function PageContent({ page }: { page: Page }) {
           <div className={`container page-content ${hasToc ? 'article-layout' : ''}`}>
             {hasToc && <ArticleNavigation label={t.contents} entries={tocEntries} />}
             <article className="main-article">
+              {notice && <NoticeMeta notice={notice} initialDay={koreaDate()} />}
               {page.id === 'visit' ? (
                 <VisitPage />
               ) : page.id === 'doctors' ? (
@@ -849,7 +855,7 @@ export function PageContent({ page }: { page: Page }) {
                 <>
                   <BodyBlocks page={page} />
                   <OriginalNoticesLink />
-                  <NoticeBoard initialDay={koreaDate()} />
+                  <NoticeBoard items={notices} initialDay={koreaDate()} basePath={basePath} />
                   <p className="article-copyright">
                     페이지 링크를 공유할 수 있습니다. 글·이미지의 재사용은 자료별 이용 조건을 확인해
                     주세요. <a href={href('/copyright/')}>저작권·콘텐츠 이용 안내</a>
@@ -876,10 +882,12 @@ export function PageContent({ page }: { page: Page }) {
                     '심한 흉통·호흡곤란 또는 의식 저하가 있다면 예약을 기다리지 말고 119 등 긴급 도움을 요청하세요.'}
                 </p>
               )}
+              {page.id === 'about' && <OfficialChannels variant="about" />}
               <PatientBanner pageId={page.id} />
               <HubDirectory page={page} />
               <PatientDiagram pageId={page.id} />
               {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}
+              {notice && <NoticeDocument notice={notice} />}
               {page.id === 'fees' && (
                 <div className="article-section" id="fee-enquiry">
                   <h2>비용·서류 문의 연락처</h2>

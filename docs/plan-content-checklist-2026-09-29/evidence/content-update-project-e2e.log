@@ -1,0 +1,23 @@
+[WebServer] (node:80654) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 1 worker
+
+(node:80655) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/director-afternoon.spec.ts:11:5 › every medical article has one reuse notice and every page has the global copyright link (544ms)
+  ✓   2 tests/e2e/director-afternoon.spec.ts:24:5 › search recovers from a failed static index request and preserves patient privacy (399ms)
+  ✓   3 tests/e2e/director-afternoon.spec.ts:45:5 › new symptom guides are discoverable and carry useful safety and reuse information (333ms)
+  ✓   4 tests/e2e/director-afternoon.spec.ts:68:5 › home notices precede visit information and retain original announcement channel (436ms)
+  ✓   5 tests/e2e/director-afternoon.spec.ts:93:5 › notice archive changes after the program end date without advertising expired availability (219ms)
+  ✓   6 tests/e2e/director-afternoon.spec.ts:104:5 › figures work with keyboard, mobile layout and readable text equivalents (6.1s)
+  ✓   7 tests/e2e/director-afternoon.spec.ts:163:5 › notice source links, figures and all new guides remain usable without JavaScript (243ms)
+  ✓   8 tests/e2e/notice-content-update.spec.ts:21:5 › eight menus remain ordered, unique and usable at desktop and mobile widths (703ms)
+  ✓   9 tests/e2e/notice-content-update.spec.ts:42:5 › notice search, categories, reset and pagination operate on the six real articles (310ms)
+  ✓  10 tests/e2e/notice-content-update.spec.ts:65:5 › all six individual articles retain their sources, original anchor access and review metadata (554ms)
+  ✓  11 tests/e2e/notice-content-update.spec.ts:90:5 › flu schedule is an accessible six-row HTML table with the correct target dates (169ms)
+  ✓  12 tests/e2e/notice-content-update.spec.ts:102:5 › three official channels appear at each required location and merge with the clinic identity (461ms)
+  ✓  13 tests/e2e/notice-content-update.spec.ts:128:5 › all existing patient images can open their source without upscaling the page image (1.8s)
+  ✓  14 tests/e2e/notice-content-update.spec.ts:159:5 › notice and channel screens pass mobile and desktop accessibility and overflow checks (4.0s)
+
+  14 passed (17.1s)

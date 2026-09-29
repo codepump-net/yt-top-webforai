@@ -7,6 +7,7 @@ import {
   siteMapGroups,
   discoverable,
 } from './information-architecture.mjs';
+import officialChannels from '../../../content/official-channels.json' with { type: 'json' };
 import { clinicAddressSchema, clinicHoursSchema } from './content-model.mjs';
 
 export function childPages(page, pages) {
@@ -65,7 +66,7 @@ export function createStructuredData({
   const doctor = physicians.find((p) => page.id === `doctor-${p.id}`);
   const collection = /index|hub|sitemap|home/.test(page.template);
   const medical = page.risk !== 'operational';
-  const article = page.template === 'article-detail';
+  const article = ['article-detail', 'notice-guide'].includes(page.template);
   const service = ['service-detail', 'checkup-detail', 'condition-detail'].includes(page.template);
   const testType = testTypes[page.id];
   const imageAsset = assets.find(
@@ -129,7 +130,7 @@ export function createStructuredData({
       name: clinic.name,
       alternateName: clinic.shortName,
       url: clinic.originalUrl,
-      sameAs: [absolute('/')],
+      sameAs: [...new Set([absolute('/'), ...officialChannels.map((channel) => channel.url)])],
       telephone: clinic.phone,
       logo: ref(logoId),
       image: absolute('/assets/clinic-1600.webp'),

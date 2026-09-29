@@ -1,6 +1,7 @@
 import { ArrowUpRight, Clock3, MapPin, Phone, ClipboardCheck } from 'lucide-react';
 import { clinic, href, nav, pageById, phoneHref, basePath, pages, sectionId } from '@/lib/site';
 import { SiteNavigation } from './site-navigation';
+import { OfficialChannels } from './official-channels';
 
 export function Header() {
   return (
@@ -17,7 +18,6 @@ export function Header() {
           homeUrl={href('/')}
           logoUrl={href('/assets/logo.webp')}
           searchUrl={href('/search/')}
-          noticeUrl={href('/notices/')}
           sitemapUrl={href('/sitemap/')}
           phoneUrl={phoneHref}
           basePath={basePath}
@@ -104,10 +104,7 @@ export function Footer() {
                 © 2026 영통탑내과 · 글과 이미지의 이용 조건은 자료별로 다를 수 있습니다.
               </p>
             </div>
-            <a href="https://yttop.co.kr/" target="_blank" rel="noopener noreferrer">
-              영통탑내과 홈페이지 <ArrowUpRight size={14} />
-              <span className="sr-only"> (새 창)</span>
-            </a>
+            <OfficialChannels variant="footer" />
           </div>
         </div>
       </footer>

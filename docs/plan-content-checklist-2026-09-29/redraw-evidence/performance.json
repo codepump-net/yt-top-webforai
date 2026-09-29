@@ -1,0 +1,43 @@
+{
+  "mode": "review",
+  "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+  "errors": [],
+  "reports": [
+    {
+      "route": "/conditions/kidney/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "metrics": {
+        "largest-contentful-paint": 2335.3097000000002,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 24,
+        "first-contentful-paint": 905.3097
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/services/vaccinations/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "metrics": {
+        "largest-contentful-paint": 2489.3995000000004,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 17.5,
+        "first-contentful-paint": 904.3995
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    }
+  ]
+}

@@ -13,7 +13,10 @@ test('every medical article has one reuse notice and every page has the global c
     const $ = load(fs.readFileSync(`out/${route.file}`, 'utf8'));
     expect($(`.site-footer a[href="${manifest.basePath}/copyright/"]`).length, route.path).toBe(1);
     const page = pages.find((p) => p.id === route.id)!;
-    const expected = articleGuidance(page).medical || page.id === 'notices' ? 1 : 0;
+    const expected =
+      articleGuidance(page).medical || page.id === 'notices' || page.template === 'notice-guide'
+        ? 1
+        : 0;
     expect($('.article-copyright').length, route.path).toBe(expected);
   }
 });
@@ -73,31 +76,29 @@ test('home notices precede visit information and retain original announcement ch
       .evaluate((n) => n.nextElementSibling?.textContent?.includes('진료시간·오시는 길')),
   ).toBe(true);
   await page.locator('.notice-preview').first().click();
-  await expect(page.locator('.notice-card')).toHaveCount(6);
+  await expect(page.locator('.notice-article-meta')).toBeVisible();
+  for (const route of [
+    '/notices/2026-suwon-shingles/',
+    '/notices/2026-gyeonggi-student-influenza/',
+  ]) {
+    await page.goto(url(route));
+    await expect(page.locator('#notice-visit')).toContainText('참여 여부');
+  }
+  await page.goto(url('/notices/2026-09-17-infection-guide/'));
+  await expect(page.locator('a[href*="down_supple_pdf"]')).toContainText('PDF');
+  await page.goto(url('/notices/'));
   await expect(page.locator('a[href="https://yttop.co.kr/44"]').first()).toBeVisible();
-  await expect(
-    page.locator('#notice-2026-gyeonggi-student-influenza .notice-availability'),
-  ).toContainText('참여 여부');
-  await expect(
-    page.locator('#notice-2026-suwon-shingles-support .notice-availability'),
-  ).toContainText('참여 여부');
-  await expect(
-    page.locator('#notice-2026-09-17-infection-guide a[href*="down_supple_pdf"]'),
-  ).toContainText('PDF');
 });
 
 test('notice archive changes after the program end date without advertising expired availability', async ({
   page,
 }) => {
   await page.clock.install({ time: new Date('2027-05-01T00:00:00+09:00') });
-  await page.goto(url('/notices/'));
-  await expect(page.locator('.notice-archive #notice-2026-2027-national-influenza')).toBeVisible();
-  await expect(page.locator('#notice-2026-2027-national-influenza .notice-status')).toHaveText(
-    '안내 기간 종료',
-  );
-  await expect(page.locator('#notice-2026-09-17-infection-guide .notice-status')).toHaveText(
-    '기준일 자료',
-  );
+  await page.goto(url('/notices/2026-2027-influenza/'));
+  await expect(page.locator('.notice-expired')).toBeVisible();
+  await expect(page.locator('.notice-status')).toHaveText('안내 기간 종료');
+  await page.goto(url('/notices/2026-09-17-infection-guide/'));
+  await expect(page.locator('.notice-status')).toHaveText('기준일 자료');
 });
 
 test('figures work with keyboard, mobile layout and readable text equivalents', async ({
@@ -174,6 +175,6 @@ test('notice source links, figures and all new guides remain usable without Java
   const imageLink = page.locator('.patient-diagram .image-enlarge');
   expect((await page.request.get((await imageLink.getAttribute('href'))!)).status()).toBe(200);
   await page.goto(url('/notices/'));
-  await expect(page.locator('.notice-card')).toHaveCount(6);
+  await expect(page.locator('.notice-topics a')).toHaveCount(6);
   await context.close();
 });

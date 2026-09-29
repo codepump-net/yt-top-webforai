@@ -1,0 +1,39 @@
+Content contract passed: 135 pages, 22 assets (review).
+▲ Next.js 16.3.4 (Turbopack)
+✓ Running next.config.ts took 93ms
+- Experiments (use with caution):
+  ✓ globalNotFound
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1055ms
+  Running TypeScript ...
+  Finished TypeScript in 1875ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/137) ...
+  Generating static pages using 7 workers (34/137)
+  Generating static pages using 7 workers (68/137)
+  Generating static pages using 7 workers (102/137)
+✓ Generating static pages using 7 workers (137/137) in 697ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[...segments]
+│ ├ ● /about
+│ ├ ● /cases
+│ ├ ● /checkups
+│ └ ● [+125 more paths]
+├   /[locale]/checkups/visa
+│ ├ ● /en/checkups/visa
+│ ├ ● /zh-hans/checkups/visa
+│ ├ ● /th/checkups/visa
+│ └ ● [+2 more paths]
+└ ○ /search-index.json
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Static audit passed: 135 routes; links, HTML, metadata, schema, indexing, assets. Max JS 181400 B gzip; CSS 11842 B gzip.
+Export complete: 135 routes, review, https://codepump-net.github.io/

@@ -29,7 +29,8 @@ test('home search stays below emergency guidance and opens local aliases without
   expect(requests.some((request) => new URL(request).searchParams.has('q'))).toBe(false);
   await page.goto(url('/search/'));
   await expect(page.locator('.result-card')).toHaveCount(0);
-  await expect(page.locator('.filter-row button')).toHaveCount(8);
+  await expect(page.locator('.filter-row button')).toHaveCount(9);
+  await expect(page.getByRole('button', { name: /^공지사항 \d+개$/ })).toBeVisible();
   await expect(page.locator('.search-privacy')).toContainText('개인정보는 입력하지 마세요');
   await page.getByRole('button', { name: /^질환 \d+개$/ }).click();
   await expect(page.locator('.result-card[href*="/diseases/cardio/"]')).toHaveCount(20);

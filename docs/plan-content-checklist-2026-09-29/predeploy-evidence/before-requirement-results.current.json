@@ -1,0 +1,313 @@
+{
+  "date": "2026-09-29",
+  "counts": {
+    "충족": 54,
+    "부분 충족": 0,
+    "미충족": 0
+  },
+  "requirements": {
+    "NAV-01": {
+      "actual": "데스크톱 메뉴 8개를 지정 순서로 출력. 공지사항이 마지막 독립 메뉴.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "NAV-02": {
+      "actual": "320·390·850px 메뉴 순서와 중복 없음 확인. 모바일의 별도 공지 추가 코드를 제거.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "NAV-03": {
+      "actual": "기존 암환자 주소와 /notices/ 링크 유지, 1024·1440px 및 모바일 이동 확인.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "TERM-01": {
+      "actual": "6개 페이지 14개 필드를 목표 문구와 대조해 일치 확인. 제목·본문·FAQ와 진료 범위 보존.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "TERM-02": {
+      "actual": "홈 2곳·메뉴/분류/검색 3곳을 지지치료로 변경.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "TERM-03": {
+      "actual": "배너 ALT를 암 치료 중 지지치료로 변경.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "TERM-04": {
+      "actual": "새 암환자 배너 그림 안의 암 치료 중 지지치료 확인. 외래 상담 장면으로 제작.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "TERM-05": {
+      "actual": "135경로의 HTML·공개 JSON/XML/TXT/JS 검색에서 이전 용어 0건. 비트맵 글자는 TERM-04에 기록.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "TERM-06": {
+      "actual": "cancer-support ID와 /services/cancer-support/ 주소를 보존. 내부 링크와 직접 접근 통과.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "TERM-07": {
+      "actual": "20곳의 정확한 용어 치환 외에 기존 항암치료·응급 의뢰 범위 문장은 변경하지 않음.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-01": {
+      "actual": "번호·제목·게시일·조회수 4열 구현. 미집계 조회수는 —로 표시.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-02": {
+      "actual": "제목·태그 검색, 여러 단어 조건, 결과 없음과 초기화 확인.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-03": {
+      "actual": "예방접종·지역 지원사업·감염병 예방 3분류와 전체 보기 구현.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-04": {
+      "actual": "국가 인플루엔자 안내를 중요 공지로 지정하고 목록 상단에 고정. 선정 이유는 개발 기록에 보존.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-05": {
+      "actual": "실제 6편을 5개씩 2페이지로 제공. 누락·중복, 필터 후 페이지 초기화와 범위 보정 검사 통과.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-06": {
+      "actual": "390px에서 4개 항목을 카드로 표시하고 상세 링크 접근. 문서 전체 가로 넘침 없음.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-07": {
+      "actual": "독립 상세 6경로 등록·렌더링·직접 접근·목록 복귀 확인. 등록되지 않은 notice-guide는 검사에서 거절.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-08": {
+      "actual": "최초 게시 9/28은 기존 배포 기록에 근거. 자료 발표일·내용 확인일과 구분. 독립 경로 개편일은 9/29.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-09": {
+      "actual": "views=null은 —, 숫자는 실제 데이터 값으로 표시. 미집계 설명 제공. 브라우저별 가짜 누적값 없음.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-10": {
+      "actual": "홈 3편을 상세로 연결하고 예전 6개 앵커를 항상 표시되는 주제 링크에 보존. JS 없이도 6편 접근 가능.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "BOARD-11": {
+      "actual": "기존 공지 5편은 변경 전과 동일. 감염병 공지의 기존 문단·통계·출처를 보존하고 원문 16쪽, 발행 시점, 이용 조건과 같은 PDF를 추가. 6편 상세·출처·이전 앵커 검사 통과.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "BOARD-12": {
+      "actual": "시작 예정·지원기간 안내·안내 기간 종료·기준일 자료 구분. 2027-05-01 시뮬레이션에서 종료 문구 확인.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "FLU-01": {
+      "actual": "어린이 2회/1회·임신부·75세 이상·70~74세·65~69세 총 6행 HTML 표 구현.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "FLU-02": {
+      "actual": "390px에서 표 영역만 가로 스크롤. 키보드 접근 가능한 영역과 좌우 이동 안내 제공.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "FLU-03": {
+      "actual": "예방접종도우미 대상별 일정과 9/16 변경 발표 대조. 실제 확인일 2026-09-29와 공식 링크 표시.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "FLU-04": {
+      "actual": "2026–2027절기 제목·본문·표 일치. 예방접종 페이지의 성인 백신별 기본표 보존.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "INF-01": {
+      "actual": "지정 제목을 원장·상세·목록·홈·검색·메타데이터에서 사용.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "INF-02": {
+      "actual": "사용자 후속 지시에 따라 질병관리청 공식 보도자료와 붙임 16쪽으로 대체. 1~16쪽 PNG를 누락·중복 없이 순서대로 게시.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "INF-03": {
+      "actual": "원본 PDF를 자르거나 재작성하지 않고 200 dpi 전체 페이지로 변환. 16쪽 전수 시각 검토, 1653×2337 크기와 파일별 해시 확인. 표·각주·기준일 보존.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "INF-04": {
+      "actual": "390·1440px에서 16쪽 전부 클릭·Enter 확대, 원래 1653px 폭 표시, Escape 닫기·초점 복귀 확인. 첫·마지막 페이지 원본 새 창도 확인.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "INF-05": {
+      "actual": "동일한 공식 PDF 16쪽을 로컬 첨부로 연결. 공식 재다운로드·보관본·공개 파일·HTTP 응답의 SHA-256과 바이트 일치. 통계 38쪽 링크 별도 유지.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "INF-06": {
+      "actual": "원문 16쪽 전체와 기존 예방 안내를 함께 게시. 통계 발간일 9/17·집계 기준일 9/12·예방수칙 9/21 조간용을 본문에서 구분. 수두 283·A형간염 27·뎅기열 9는 통계 원문 1쪽과 대조.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "IMG-01": {
+      "actual": "사용자 정정에 따라 12개 배너·5개 안내도를 고해상도 PNG로 신규 제작. 생성 마스터와 공개 파일의 SHA-256·바이트 일치 확인.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "IMG-02": {
+      "actual": "17개 전부 지정 clinic-visuals-hq/*-hq-original.png로 요청. 루트와 /yt-top-webforai 접두사에서 HTTP 200·image/png·파일 해시 확인.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "IMG-03": {
+      "actual": "17개 전체 그림·문구를 읽어 검수. 390·1440px에서 자연 비율·잘림 없음 확인. 안내도는 현재 HTML 문구와 대조.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "IMG-04": {
+      "actual": "17개 본문 표시 폭이 실제 PNG 픽셀 폭 이내. 확대창에도 동일 폭 상한 유지. 배너 1672px, 안내도 1086px 기준.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "IMG-05": {
+      "actual": "12개 배너의 실제 새 창 열기와 5개 안내도의 확대·원본 링크 확인. 17개 PNG 모두 브라우저 이미지 응답.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "IMG-06": {
+      "actual": "17개 ALT·주제 대조. 암환자 지지치료와 신장질환 제목을 그림·ALT 모두에 반영.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "IMG-07": {
+      "actual": "17개 지정 페이지 배치 확인. 4개 안내도 단계·9행 백신표가 HTML과 대응. 신장 제목과 숨참 그림 오류 교정.",
+      "state": "충족",
+      "proof": "[PNG 재제작·검증](redrawn-images.ko.md) · [후속 이미지 정확성 검토](image-accuracy.ko.md)"
+    },
+    "CHANNEL-01": {
+      "actual": "홈 진료시간·오시는 길 영역에 홈페이지·블로그·인스타그램 3개 카드.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "CHANNEL-02": {
+      "actual": "한국어·5개 번역 언어 공통 푸터에 3개 채널. 번역 화면의 한국어 채널 묶음에 lang=ko 지정.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "CHANNEL-03": {
+      "actual": "병원안내 /about/ 본문에 3개 카드.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "CHANNEL-04": {
+      "actual": "세 주소 모두 target=_blank, rel=noopener noreferrer external 확인.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "CHANNEL-05": {
+      "actual": "기존 신규 사이트 주소에 세 주소를 중복 없이 병합. https://yttop.co.kr/#clinic 식별자 보존.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "CHANNEL-06": {
+      "actual": "이전 한국어 푸터의 단독 홈페이지 링크 제거. 요구 위치별 묶음은 각각 1회 출력.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "CHANNEL-07": {
+      "actual": "3개 주소 HTTP 200, 블로그·인스타그램 제목에서 영통탑내과 채널 확인. 링크와 sameAs 일치.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "SAFE-01": {
+      "actual": "두 지역 지원사업의 참여 여부·예약 전화 확인 문장을 그대로 보존. 본원 지원접종 가능을 확정하지 않음.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "SAFE-02": {
+      "actual": "기존 공식 출처·발표일을 보존. 인플루엔자와 이번 감염병 자료의 실제 확인일 2026-09-29를 기록. 의료 검토자·승인 기록을 생성하지 않음.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "SAFE-03": {
+      "actual": "병원 기존 공지 /44와 사례 원문 25개 HTTP 200. URL 보존·자체 안내 6편만 추가. 폐기한 복제 템플릿 금지 유지.",
+      "state": "충족",
+      "proof": "[개발·검증 기록](implementation.ko.md)"
+    },
+    "SAFE-04": {
+      "actual": "review/noindex 유지. 최신 변경 후 production 검증도 범위·승인 상태·digest 불일치 3건으로 차단됨을 재확인.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "VERIFY-01": {
+      "actual": "최신 135경로·38자산 콘텐츠 검사, 루트·프로젝트 접두사 review 빌드·정적 출력 검사, 타입·린트·단위 84개 통과. 이전 하네스 17개 기록 보존. 완료 검사에서 PNG 17개·감염병 16쪽 확인, 오류 0개.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "VERIFY-02": {
+      "actual": "기존 메뉴·게시판·표·공식 채널·PNG 17개 회귀 검사와 감염병 16쪽 모바일·PC·확대·PDF·키보드·JavaScript 미사용 검사 통과. 루트 4개·프로젝트 접두사 14개 브라우저 검사 모두 통과.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "VERIFY-03": {
+      "actual": "루트·프로젝트 접두사에서 신규 감염병 PNG 16개와 PDF의 HTTP 200·형식·해시 확인. 기존 PNG 17개의 실제 로딩·원본 열기 회귀 검사 통과. 운영 배포·CDN 갱신은 미수행.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    },
+    "VERIFY-04": {
+      "actual": "15쪽 요구를 공식 16쪽 문서로 대체한 사용자 지시 맥락·원문 URL·해시·쪽별 기록·검사 결과와 작업 전 판정 47/2/5를 보존. 최신 판정 54/0/0과 운영 후속 확인을 구분.",
+      "state": "충족",
+      "proof": "[자료 부족 해결·16쪽 검증](infection-resolution.ko.md)"
+    }
+  },
+  "note": "후속 사용자 지시에 따른 공식 16쪽 대체 기준의 로컬 구현·검증 결과. 기존 15쪽 문서를 확보했다는 판정이 아니며 운영 배포·의료 승인은 별도다.",
+  "clarification": "2026-09-29 사용자 정정: 기존 PNG 리소스가 없으므로 고해상도로 다시 제작한다. 감염병: 공식 16쪽 자료로 해결 가능하다는 설명 뒤 사용자가 자료부족 문제 모두 정확하게 해결하도록 지시하여 대체 적용.",
+  "updatedAt": "2026-09-29",
+  "basis": [
+    "work-results.ko.md",
+    "image-accuracy.ko.md",
+    "outstanding-items.ko.md",
+    "original-material-references.ko.md",
+    "infection-resolution.ko.md"
+  ],
+  "historicalSnapshot": "redraw-evidence/requirement-results.json",
+  "sourceReplacement": {
+    "previousPages": 15,
+    "acceptedPages": 16,
+    "record": "infection-resolution.ko.md",
+    "previousAssessment": "infection-resolution-evidence/before-requirement-results.current.json",
+    "originalDocumentIdentity": "unconfirmed; superseded as an implementation dependency by user-directed source replacement"
+  },
+  "excludedNonIssues": [
+    {
+      "item": "이식용 패키지",
+      "state": "논이슈·범위 제외",
+      "includes": [
+        "패키지 제공·확보",
+        "패키지 설치·복사",
+        "통합 자동 적용",
+        "패키지 전용 검증"
+      ],
+      "countedInRequirements": false,
+      "workPerformed": false,
+      "record": "scope-clarification.ko.md"
+    }
+  ]
+}

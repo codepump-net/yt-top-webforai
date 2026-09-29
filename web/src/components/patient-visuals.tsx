@@ -16,14 +16,23 @@ export function PatientBanner({ pageId }: { pageId: string }) {
   const asset = assets.find((a) => a.id === visual.assetId)!;
   return (
     <figure className="patient-banner">
-      <img
-        src={href(asset.file)}
-        width={asset.width}
-        height={asset.height}
-        alt={visual.alt}
-        loading="lazy"
-        decoding="async"
-      />
+      <a
+        className="banner-original"
+        href={href(asset.file)}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ maxWidth: asset.width }}
+        aria-label={`${visual.alt} — 원본 이미지 보기 (새 창)`}
+      >
+        <img
+          src={href(asset.file)}
+          width={asset.width}
+          height={asset.height}
+          alt={visual.alt}
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
     </figure>
   );
 }

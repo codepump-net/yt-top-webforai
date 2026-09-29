@@ -42,7 +42,7 @@
     "image": "clinic",
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -97,10 +97,10 @@
         "text": "",
         "items": [
           "심장·순환기: 심부전, 심근경색 의심, 심근염, 심낭염, 부정맥, 판막질환, 고혈압, 경동맥 협착 평가",
-          "소화기: 담석·담낭염, 췌장염, 충수염 의심, 게실염, 급성 장염, 위궤양, 간질환, 염증성 장질환의 진단과 지지진료",
+          "소화기: 담석·담낭염, 췌장염, 충수염 의심, 게실염, 급성 장염, 위궤양, 간질환, 염증성 장질환의 진단과 지지치료",
           "내시경: 위내시경, 대장내시경, 조직검사, 위·대장용종 절제",
           "호흡기·감염: 천식, 만성폐쇄성폐질환, 폐렴, 독감, 코로나19, 백일해, 만성기침, 기흉 의심, 결핵 관련 검사와 잠복결핵 치료 상담",
-          "암 관련 진료: 위·대장 병변의 내시경 조직검사, 암 의심 소견의 초기 평가와 정밀검사 의뢰, 항암치료 중 증상과 합병증의 지지진료",
+          "암 관련 진료: 위·대장 병변의 내시경 조직검사, 암 의심 소견의 초기 평가와 정밀검사 의뢰, 항암치료 중 증상과 합병증의 지지치료",
           "건강검진: 국가건강검진, 국가암검진, 채용·공무원·외국인 비자·기숙사·해외 체류 검진",
           "예방접종: 독감, A형·B형간염, MMR, Tdap, 수두, 대상포진, 폐렴구균, 수막구균 예방접종"
         ]
@@ -130,7 +130,7 @@
     "image": "clinic",
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -978,10 +978,10 @@
     "path": "/conditions/",
     "title": "진료분야",
     "metaTitle": "진료분야 | 영통탑내과",
-    "description": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지진료까지 방문 목적에 맞는 안내를 선택하세요.",
+    "description": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지치료까지 방문 목적에 맞는 안내를 선택하세요.",
     "template": "condition-index",
     "category": "내과 진료",
-    "intro": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지진료까지 방문 목적에 맞는 안내를 선택하세요.",
+    "intro": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지치료까지 방문 목적에 맞는 안내를 선택하세요.",
     "blocks": [],
     "questions": [],
     "related": [
@@ -1010,7 +1010,7 @@
     "image": null,
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-09-27",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary",
@@ -1513,7 +1513,7 @@
         "heading": "주요 진료 영역",
         "text": "심장 분야에서는 가슴통증, 호흡곤란, 두근거림, 실신과 부종을 평가하고 심근경색·심부전·심근염·심낭염·판막질환·부정맥 가능성을 확인합니다. 소화기 분야에서는 복부초음파와 위·대장내시경을 활용해 급성 복통, 담석과 담낭염, 췌장염, 위궤양, 장염, 염증성 장질환과 간질환을 평가합니다.",
         "paragraphs": [
-          "암과 관련해서는 위·대장내시경 조직검사가 필요한 병변을 진단하고, 초음파·흉부 X선·혈액검사에서 암이 의심되는 소견이 발견되면 필요한 정밀검사와 협력병원 진료를 안내합니다. 대학병원에서 암 치료 중인 환자에게는 발열, 감염 의심 증상, 구역·구토, 식사량 감소, 탈수, 백혈구·호중구 감소 등 치료 중 합병증을 평가하고 기존 치료팀과 연계한 지지진료를 시행합니다."
+          "암과 관련해서는 위·대장내시경 조직검사가 필요한 병변을 진단하고, 초음파·흉부 X선·혈액검사에서 암이 의심되는 소견이 발견되면 필요한 정밀검사와 협력병원 진료를 안내합니다. 대학병원에서 암 치료 중인 환자에게는 발열, 감염 의심 증상, 구역·구토, 식사량 감소, 탈수, 백혈구·호중구 감소 등 치료 중 합병증을 평가하고 기존 치료팀과 연계한 지지치료를 시행합니다."
         ]
       },
       {
@@ -1538,7 +1538,7 @@
     "image": "jongseol",
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-09-25",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -2466,7 +2466,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -2600,12 +2600,12 @@
   {
     "id": "cancer-support",
     "path": "/services/cancer-support/",
-    "title": "암 의심 소견 및 암 치료 중 지지진료",
-    "metaTitle": "암 의심 소견 및 암 치료 중 지지진료 | 영통탑내과",
-    "description": "영통탑내과의 암 치료 중 구역·구토·탈수·설사·변비 평가와 지지진료, 조건에 따른 호중구 증가 주사, 케모포트 후버바늘 제거와 치료병원 연계를 안내합니다.",
+    "title": "암 의심 소견 및 암 치료 중 지지치료",
+    "metaTitle": "암 의심 소견 및 암 치료 중 지지치료 | 영통탑내과",
+    "description": "영통탑내과의 암 치료 중 구역·구토·탈수·설사·변비 평가와 지지치료, 조건에 따른 호중구 증가 주사, 케모포트 후버바늘 제거와 치료병원 연계를 안내합니다.",
     "template": "service-detail",
     "category": "병원 안내",
-    "intro": "영통탑내과는 암 치료 중 구역·구토, 섭취 저하, 탈수, 설사·변비, 감염 의심 증상을 평가하고 기존 치료팀과 연계해 지지진료를 시행합니다. 항암치료 계획 변경이나 입원이 필요한 상황은 치료병원으로 연결합니다.",
+    "intro": "영통탑내과는 암 치료 중 구역·구토, 섭취 저하, 탈수, 설사·변비, 감염 의심 증상을 평가하고 기존 치료팀과 연계해 지지치료를 시행합니다. 항암치료 계획 변경이나 입원이 필요한 상황은 치료병원으로 연결합니다.",
     "blocks": [
       {
         "id": "suspected-cancer",
@@ -2690,7 +2690,7 @@
       {
         "id": "cancer-treatment",
         "question": "영통탑내과 진료가 기존 항암치료를 대신하나요?",
-        "answer": "아니요. 기존 암 치료팀의 항암치료를 이어가면서, 영통탑내과는 치료 사이의 구역·탈수·설사·발열 등 증상을 평가하고 지지진료를 합니다. 항암치료 계획 변경이나 입원이 필요한 상태는 치료병원으로 연결합니다."
+        "answer": "아니요. 기존 암 치료팀의 항암치료를 이어가면서, 영통탑내과는 치료 사이의 구역·탈수·설사·발열 등 증상을 평가하고 지지치료를 합니다. 항암치료 계획 변경이나 입원이 필요한 상태는 치료병원으로 연결합니다."
       },
       {
         "id": "cancer-supplements",
@@ -2743,7 +2743,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -5165,7 +5165,7 @@
     "description": "항암치료·표적치료·면역항암치료 중 열, 구토, 설사, 기침, 호흡곤란, 통증과 검사 이상이 생겼을 때 가까운 내과에서 가능한 진료와 즉시 대학병원으로 가야 하는 위험 신호를 설명합니다.",
     "template": "article-detail",
     "category": "건강정보",
-    "intro": "암 치료 중 발열·새 호흡곤란·혈변·의식 변화는 기존 치료팀이나 응급실 평가를 서둘러야 합니다. 위험 신호가 없는 경한 구역·섭취 저하·변비 등은 영통탑내과에서 원인을 평가하고 기존 치료팀과 연계해 지지진료를 받을 수 있습니다.",
+    "intro": "암 치료 중 발열·새 호흡곤란·혈변·의식 변화는 기존 치료팀이나 응급실 평가를 서둘러야 합니다. 위험 신호가 없는 경한 구역·섭취 저하·변비 등은 영통탑내과에서 원인을 평가하고 기존 치료팀과 연계해 지지치료를 받을 수 있습니다.",
     "blocks": [
       {
         "id": "m42-s2",
@@ -5430,8 +5430,8 @@
       },
       {
         "id": "m42-s25",
-        "heading": "영통탑내과에서 가능한 암환자 지지진료",
-        "text": "영통탑내과에서는 환자의 상태에 따라 다음과 같은 평가와 지지진료를 시행합니다.",
+        "heading": "영통탑내과에서 가능한 암환자 지지치료",
+        "text": "영통탑내과에서는 환자의 상태에 따라 다음과 같은 평가와 지지치료를 시행합니다.",
         "paragraphs": [
           "본원에는 CT가 없으므로 CT가 필요한 안정적인 환자는 인접 협력병원으로 신속히 의뢰하며, 응급수술이나 입원 가능성이 있으면 응급실로 바로 연결합니다."
         ],
@@ -5533,7 +5533,7 @@
     "image": null,
     "risk": "urgent_context_review",
     "publishedAt": null,
-    "updatedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary",
@@ -5803,8 +5803,8 @@
             [
               "Tdap / Td",
               "모든 성인",
-              "Tdap 1회 + 이후 10년마다 Td 또는 Tdap",
-              "과거 Tdap 접종력이 없으면 1회는 Tdap 포함"
+              "기초접종 완료 후 10년마다 Td/Tdap",
+              "Tdap 미접종 시 1회 포함; 기초 미접종자는 3회 상담"
             ],
             [
               "폐렴구균",
@@ -5814,15 +5814,15 @@
             ],
             [
               "대상포진",
-              "50세 이상 성인",
+              "50세 이상; 면역저하자는 18세 이상",
               "백신 종류에 따라 1~2회",
-              "면역저하 상태는 의료진과 상담"
+              "면역저하자는 재조합 백신으로 상담"
             ],
             [
               "A형간염",
               "항체 없거나 접종력 없는 성인, 만성간질환자, 해외여행 예정자",
               "2회",
-              "0, 6~12개월"
+              "1차 후 6개월 이상, 제품별 간격 확인"
             ],
             [
               "B형간염",
@@ -5840,7 +5840,7 @@
               "수두",
               "앓은 적·접종력 없는 성인",
               "2회",
-              "생백신이므로 임신·면역저하 시 상담 필요"
+              "임신 중 접종 금지·면역저하자는 상담"
             ],
             [
               "수막구균",
@@ -6013,7 +6013,7 @@
         "heading": "수두 백신",
         "text": "수두를 앓지 않았고 접종기록이나 항체가 없는 성인은 일반적으로 4~8주 간격으로 2회 접종합니다. 의료기관·학교·보육시설 종사자, 해외여행자, 가임기 여성과 면역저하자와 함께 생활하는 사람은 면역 확인이 중요합니다.",
         "paragraphs": [
-          "수두백신은 생백신이므로 임신부와 항암·중증 면역억제치료 중인 환자에게는 금기일 수 있습니다."
+          "수두백신은 생백신이므로 임신 중에는 접종하지 않습니다. 항암치료나 면역억제치료 중에는 면역상태와 치료 종류에 따라 접종 가능 여부를 의료진이 판단해야 합니다."
         ],
         "sourceIds": [
           "varicella"
@@ -6134,7 +6134,8 @@
         "id": "zoster",
         "title": "질병관리청 · 대상포진 예방접종",
         "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1117&menuLv=1",
-        "kind": "medical"
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
       },
       {
         "id": "pneumococcal",
@@ -6148,7 +6149,7 @@
         "title": "질병관리청 · A형간염 예방접종",
         "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1109&menuLv=1",
         "kind": "medical",
-        "checkedAt": "2026-09-25"
+        "checkedAt": "2026-09-29"
       },
       {
         "id": "hepatitis-b-vaccine",
@@ -6162,14 +6163,14 @@
         "title": "질병관리청 · 수두 예방접종",
         "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1108&menuLv=1",
         "kind": "medical",
-        "checkedAt": "2026-09-25"
+        "checkedAt": "2026-09-29"
       },
       {
         "id": "tdap",
         "title": "질병관리청 · 백일해 예방접종",
         "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1120&menuLv=1",
         "kind": "medical",
-        "checkedAt": "2026-09-25"
+        "checkedAt": "2026-09-29"
       },
       {
         "id": "mmr",
@@ -6189,7 +6190,7 @@
     "image": "vaccination-schedule-2026",
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-09-28",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -12542,7 +12543,7 @@
       {
         "id": "tests",
         "heading": "검사와 치료 범위",
-        "text": "증상에 따라 혈액검사, 장관초음파와 대장내시경을 선택하고 필요한 조직검사·용종절제를 시행합니다. 궤양성 대장염과 크론병의 진단·경과 평가와 증상 지지진료를 하며, 생물학적 제제 등 전문 치료는 상급병원으로 연계합니다.",
+        "text": "증상에 따라 혈액검사, 장관초음파와 대장내시경을 선택하고 필요한 조직검사·용종절제를 시행합니다. 궤양성 대장염과 크론병의 진단·경과 평가와 증상 지지치료를 하며, 생물학적 제제 등 전문 치료는 상급병원으로 연계합니다.",
         "sourceIds": [
           "clinic"
         ],
@@ -12596,7 +12597,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-09-27",
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary",
@@ -14940,6 +14941,383 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-09-28",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-2026-hpv-national",
+    "path": "/notices/2026-hpv/",
+    "title": "2026년 HPV 국가예방접종 지원 대상과 일정",
+    "metaTitle": "2026년 HPV 국가예방접종 지원 대상과 일정 | 영통탑내과",
+    "description": "2026년 HPV 4가 백신 지원 대상은 12~17세 여성 청소년, 18~26세 저소득층 여성과 12세 남성 청소년입니다. 남성 청소년 지원은 5월 6일부터 시작되었습니다.",
+    "template": "notice-guide",
+    "category": "공지사항",
+    "intro": "2026년 HPV 4가 백신 지원 대상은 12~17세 여성 청소년, 18~26세 저소득층 여성과 12세 남성 청소년입니다. 남성 청소년 지원은 5월 6일부터 시작되었습니다.",
+    "blocks": [
+      {
+        "id": "notice-information",
+        "heading": "지원 대상과 안내",
+        "text": "2026년에는 12~17세 여성 청소년과 18~26세 저소득층 여성이 지원 대상입니다. 12세 남성 청소년(2014년생)은 5월 6일부터 지원이 시작되었습니다.",
+        "paragraphs": [
+          "국가 지원 백신은 HPV 4가이며 9가 백신은 해당 지원 대상이 아닙니다. 접종 횟수와 간격은 첫 접종 나이와 접종 이력에 따라 달라지므로 기록을 가져오세요."
+        ]
+      },
+      {
+        "id": "notice-visit",
+        "heading": "방문 전 확인",
+        "text": "지원 대상 증빙, 접종 이력과 사용할 백신을 방문 전에 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "notices",
+      "vaccinations",
+      "visit"
+    ],
+    "sources": [
+      {
+        "id": "notice-source-1",
+        "title": "질병관리청 예방접종도우미 · HPV 지원사업",
+        "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=132&menuLv=1",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-29",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-2026-pneumococcal-65plus",
+    "path": "/notices/2026-pneumococcal/",
+    "title": "2026년 65세 이상 폐렴구균 국가예방접종",
+    "metaTitle": "2026년 65세 이상 폐렴구균 국가예방접종 | 영통탑내과",
+    "description": "65세 이상 어르신의 폐렴구균 23가 다당 백신(PPSV23) 지원 안내입니다.",
+    "template": "notice-guide",
+    "category": "공지사항",
+    "intro": "65세 이상 어르신의 폐렴구균 23가 다당 백신(PPSV23) 지원 안내입니다.",
+    "blocks": [
+      {
+        "id": "notice-information",
+        "heading": "지원 대상과 안내",
+        "text": "2026년에는 1961년 12월 31일 이전 출생자가 대상입니다. 지정 의료기관과 보건소에서 연중 지원하며, 65세 이후 PPSV23 접종 이력이 있다면 일반적으로 추가 국가 지원 접종은 필요하지 않습니다.",
+        "paragraphs": [
+          "이전에 받은 백신의 종류와 접종 시기에 따라 상담이 달라집니다. 다른 폐렴구균 백신까지 모두 무료라는 뜻은 아니므로 접종 기록과 신분증을 준비하세요."
+        ]
+      },
+      {
+        "id": "notice-visit",
+        "heading": "방문 전 확인",
+        "text": "지원 접종 이력과 백신 보유 여부를 방문 전에 확인해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "notices",
+      "vaccinations",
+      "visit"
+    ],
+    "sources": [
+      {
+        "id": "notice-source-1",
+        "title": "질병관리청 예방접종도우미 · 어르신 폐렴구균",
+        "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=135&menuLv=1",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-29",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-2026-2027-national-influenza",
+    "path": "/notices/2026-2027-influenza/",
+    "title": "2026–2027절기 인플루엔자 국가예방접종 일정",
+    "metaTitle": "2026–2027절기 인플루엔자 국가예방접종 일정 | 영통탑내과",
+    "description": "어린이·임신부는 9월 21일, 어르신은 연령별로 10월부터 시작합니다.",
+    "template": "notice-guide",
+    "category": "공지사항",
+    "intro": "어린이·임신부는 9월 21일, 어르신은 연령별로 10월부터 시작합니다.",
+    "blocks": [
+      {
+        "id": "notice-information",
+        "heading": "지원 대상과 안내",
+        "text": "9월 16일 질병관리청의 변경 발표를 반영한 일정입니다. 생후 6개월~14세 어린이와 임신부의 지원 접종은 9월 21일부터 시작합니다. 어린이는 접종 이력에 따라 2회 접종이 필요할 수 있습니다.",
+        "paragraphs": [
+          "어르신은 75세 이상 10월 6일, 70~74세 10월 12일, 65~69세 10월 15일부터 시작하며 지원 종료일은 2027년 4월 30일입니다. 연령·임신 확인 서류와 이전 접종 이력을 확인하세요."
+        ]
+      },
+      {
+        "id": "notice-schedule",
+        "heading": "대상별 접종 일정",
+        "text": "지원 대상별 시작일과 종료일을 확인하고, 접종 이력과 준비할 자료를 살펴보세요. 표가 화면보다 넓으면 좌우로 넘겨 확인할 수 있습니다.",
+        "table": {
+          "caption": "2026–2027절기 인플루엔자 국가예방접종 일정",
+          "columns": [
+            "지원 대상",
+            "시작일",
+            "종료일",
+            "확인사항"
+          ],
+          "rows": [
+            [
+              "어린이 · 2회 접종 대상",
+              "2026-09-21",
+              "2027-04-30",
+              "생후 6개월~9세 미만 중 첫 접종이거나 접종 이력이 불확실한 경우, 또는 2026년 6월 30일까지 총 1회만 접종한 경우입니다. 이전 접종 기록을 확인합니다."
+            ],
+            [
+              "어린이 · 1회 접종 대상",
+              "2026-09-21",
+              "2027-04-30",
+              "생후 6개월~14세 지원 대상 중 1회 접종에 해당하는지 접종 이력을 확인합니다."
+            ],
+            [
+              "임신부",
+              "2026-09-21",
+              "2027-04-30",
+              "산모수첩·임신확인서 등 임신을 확인할 수 있는 자료를 준비합니다."
+            ],
+            [
+              "75세 이상",
+              "2026-10-06",
+              "2027-04-30",
+              "1951년 12월 31일 이전 출생자. 신분증을 준비합니다."
+            ],
+            [
+              "70~74세",
+              "2026-10-12",
+              "2027-04-30",
+              "1952~1956년 출생자. 신분증을 준비합니다."
+            ],
+            [
+              "65~69세",
+              "2026-10-15",
+              "2027-04-30",
+              "1957~1961년 출생자. 신분증을 준비합니다."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "notice-visit",
+        "heading": "방문 전 확인",
+        "text": "대상별 시작일이 다릅니다. 본인의 지원 대상 여부와 예약·백신 보유 여부를 먼저 문의해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "notices",
+      "vaccinations",
+      "visit"
+    ],
+    "sources": [
+      {
+        "id": "notice-source-1",
+        "title": "질병관리청 · 국가예방접종 시작일 변경(9월 16일)",
+        "url": "https://www.kdca.go.kr/kdca/2847/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQxJTJGMzEyNjQyJTJGYXJ0Y2xWaWV3LmRvJTNG",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      },
+      {
+        "id": "notice-source-2",
+        "title": "질병관리청 · 2026–2027절기 지원사업 안내",
+        "url": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyMzA4JTJGYXJ0Y2xWaWV3LmRvJTNG",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      },
+      {
+        "id": "notice-source-3",
+        "title": "질병관리청 예방접종도우미 · 2026–2027절기 대상별 지원 일정",
+        "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=134&menuLv=1",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-29",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-2026-suwon-shingles-support",
+    "path": "/notices/2026-suwon-shingles/",
+    "title": "2026년 수원시 대상포진 예방접종 비용지원",
+    "metaTitle": "2026년 수원시 대상포진 예방접종 비용지원 | 영통탑내과",
+    "description": "2026년 수원시 대상포진 지원은 65세 이상 시민 중 짝수 연도 출생 미접종자가 대상입니다. 소득 자격에 따라 접종기관과 본인부담금이 다릅니다.",
+    "template": "notice-guide",
+    "category": "공지사항",
+    "intro": "2026년 수원시 대상포진 지원은 65세 이상 시민 중 짝수 연도 출생 미접종자가 대상입니다. 소득 자격에 따라 접종기관과 본인부담금이 다릅니다.",
+    "blocks": [
+      {
+        "id": "notice-information",
+        "heading": "지원 대상과 안내",
+        "text": "수원시 안내의 대상은 65세 이상 수원시민 중 짝수 연도 출생자로, 대상포진 미접종 여부 등 요건을 확인해야 합니다. 기초생활수급자·차상위계층과 일반 대상자의 접종 장소·비용 조건이 다릅니다.",
+        "paragraphs": [
+          "보건소 대상 접종은 1월 26일, 일반 대상자 지원은 2월 23일부터 안내되어 있습니다. 백신비 지원과 접종 시행비 본인부담을 구분하고, 백신 종류별 지원 조건과 재고·예산을 접종 전에 확인하세요."
+        ]
+      },
+      {
+        "id": "notice-visit",
+        "heading": "방문 전 확인",
+        "text": "접종기관은 아래 수원시 위탁의료기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원 접종 예약은 {{clinic.phone}}로 문의해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "notices",
+      "vaccinations",
+      "visit"
+    ],
+    "sources": [
+      {
+        "id": "notice-source-1",
+        "title": "수원시 보건소 · 2026년 대상포진 지원 안내",
+        "url": "https://health.suwon.go.kr/board_view.asp?bd_gubn=&no=870&page_code=sub060901",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      },
+      {
+        "id": "notice-source-2",
+        "title": "수원시 · 위탁의료기관 목록(2026-07-09, XLSX)",
+        "url": "https://health.suwon.go.kr/bt_dwn.asp?b_code=tbl_bbs_edu&file_num=1&b_num=870",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-29",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-2026-gyeonggi-student-influenza",
+    "path": "/notices/2026-gyeonggi-student-influenza/",
+    "title": "2026년 경기도 중·고등학생 인플루엔자 지원",
+    "metaTitle": "2026년 경기도 중·고등학생 인플루엔자 지원 | 영통탑내과",
+    "description": "경기도 소재 중3~고3 재학생과 경기도 중·고등학교에 재학 중인 2008~2011년생은 2026년 9월 14일~11월 21일 선정 의료기관에서 독감 예방접종을 지원받을 수 있습니다.",
+    "template": "notice-guide",
+    "category": "공지사항",
+    "intro": "경기도 소재 중3~고3 재학생과 경기도 중·고등학교에 재학 중인 2008~2011년생은 2026년 9월 14일~11월 21일 선정 의료기관에서 독감 예방접종을 지원받을 수 있습니다.",
+    "blocks": [
+      {
+        "id": "notice-information",
+        "heading": "지원 대상과 안내",
+        "text": "경기도교육청 안내의 지원 대상은 경기도 소재 중3~고3 재학생과 경기도 중·고등학교에 재학 중인 2008년 1월 1일~2011년 12월 31일 출생 학생입니다. 지원 기간은 2026년 9월 14일~11월 21일입니다. 재학 여부와 학년·출생일을 확인해 주세요.",
+        "paragraphs": [
+          "재학·본인 확인 자료와 학교 가정통신문에 포함된 동의서 등 구비서류를 준비하세요. 보호자 없이 방문할 때 필요한 서류도 사전에 확인해야 합니다."
+        ]
+      },
+      {
+        "id": "notice-visit",
+        "heading": "방문 전 확인",
+        "text": "접종기관은 아래 경기도교육청 선정기관 목록에서 찾을 수 있습니다. 영통탑내과의 이 사업 참여 여부와 지원 접종 예약은 {{clinic.phone}}로 문의해 주세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "notices",
+      "vaccinations",
+      "visit"
+    ],
+    "sources": [
+      {
+        "id": "notice-source-1",
+        "title": "경기도교육청 · 선정기관과 사업 안내",
+        "url": "https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?mi=&nttSn=2363059",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      },
+      {
+        "id": "notice-source-2",
+        "title": "경기도교육청 · 선정기관 목록(2026-08-26, XLSX)",
+        "url": "https://www.goe.go.kr/resource/goe/na/bbs_1932/2026/08/35cfb2a3-7b90-4caf-971e-ab56b6b28f37.xlsx",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-29",
+    "indexable": true,
+    "reviewStatus": "pending",
+    "contentKind": "original-editorial-summary"
+  },
+  {
+    "id": "notice-2026-09-17-infection-guide",
+    "path": "/notices/2026-09-17-infection-guide/",
+    "title": "질병관리청 최신 데이터(9.17 기준)로 보는 우리 가족 감염병 예방 가이드",
+    "metaTitle": "질병관리청 최신 데이터(9.17 기준)로 보는 우리 가족 감염병 예방 가이드 | 영통탑내과",
+    "description": "2026년 37주차 전국 신고는 수두 283명, A형간염 27명, 뎅기열 9명으로 집계됐습니다. 9월 12일 기준 잠정통계와 가족 모임·여행 시 예방수칙을 살펴보세요.",
+    "template": "notice-guide",
+    "category": "공지사항",
+    "intro": "2026년 37주차 전국 신고는 수두 283명, A형간염 27명, 뎅기열 9명으로 집계됐습니다. 9월 12일 기준 잠정통계와 가족 모임·여행 시 예방수칙을 살펴보세요.",
+    "blocks": [
+      {
+        "id": "notice-information",
+        "heading": "자료와 예방 안내",
+        "text": "질병관리청이 9월 17일 발표한 37주차 자료에서 수두는 283명, A형간염은 27명, 뎅기열은 9명이 신고됐고, 뎅기열 9명은 모두 해외유입으로 분류됐습니다. 이는 당시 전국 신고 현황이며 현재 수원 지역의 발생 수준이나 개인의 감염 여부를 나타내는 수치는 아닙니다. 이후 신고 정정으로 수치가 바뀔 수 있습니다.",
+        "paragraphs": [
+          "가족 모임에서는 흐르는 물에 비누로 손을 씻고 음식을 충분히 익혀 먹으세요. 기침·발열 등 호흡기 증상이 있을 때는 마스크를 착용하고 실내를 환기하세요. 설사·구토가 있으면 다른 사람의 음식을 조리하지 않는 것이 좋습니다. 해외여행 전에는 방문 국가의 감염병 정보를 확인하고 모기에 물리지 않도록 준비하세요.",
+          "제목의 9.17은 통계 자료의 발간일이며, 해당 주간 통계의 집계 기준일은 2026년 9월 12일입니다. 아래 예방수칙 원문은 질병관리청이 별도로 발표한 9월 21일 조간용 보도자료와 붙임 전체 16쪽입니다. 두 자료의 통계 항목과 집계 기간은 각각의 표·각주를 확인해 주세요."
+        ]
+      },
+      {
+        "id": "notice-visit",
+        "heading": "방문 전 확인",
+        "text": "고령자·임신부·만성질환자는 예방접종과 증상 발생 시 진료 시점을 의료진과 상의하세요."
+      }
+    ],
+    "questions": [],
+    "related": [
+      "notices",
+      "vaccinations",
+      "visit"
+    ],
+    "sources": [
+      {
+        "id": "notice-source-1",
+        "title": "질병관리청 · 37주차 주요 감염병 통계(9월 17일)",
+        "url": "https://www.kdca.go.kr/kdca/3026/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjYwJTJGMzEyNjYyJTJGYXJ0Y2xWaWV3LmRvJTNG",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      },
+      {
+        "id": "notice-source-2",
+        "title": "질병관리청 · 추석연휴 감염병 예방수칙(9월 21일 조간용)",
+        "url": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      },
+      {
+        "id": "notice-source-3",
+        "title": "질병관리청 · 상황별 감염병 예방수칙 카드뉴스(9월 21일)",
+        "url": "https://www.kdca.go.kr/kdca/2853/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQ1JTJGMzEyNzAzJTJGYXJ0Y2xWaWV3LmRvJTNG",
+        "kind": "medical",
+        "checkedAt": "2026-09-29"
+      }
+    ],
+    "image": null,
+    "risk": "medical",
+    "publishedAt": null,
+    "updatedAt": "2026-09-29",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"

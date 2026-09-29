@@ -1,0 +1,29 @@
+[
+  {
+    "file": "output/pdf/kdca-2026-09-21-infection-prevention-cards.pdf",
+    "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/45/309883/download.do",
+    "pages": 7,
+    "bytes": 4079741,
+    "sha256": "d0895e9ede25ca187e85347001884adae0fc1a88bfad77caa7fc83f4f3117348",
+    "downloadedAt": "2026-09-29",
+    "publishedOnSite": false
+  },
+  {
+    "file": "output/pdf/kdca-2026-09-21-infection-prevention-press.pdf",
+    "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/42/309808/download.do",
+    "pages": 16,
+    "bytes": 1505951,
+    "sha256": "6f85c40ba28f99ecc281adc0fd0ab46f42d487652473fc2259835251312a7ba1",
+    "downloadedAt": "2026-09-29",
+    "publishedOnSite": false
+  },
+  {
+    "file": "output/pdf/kdca-2026-09-17-infection-statistics.pdf",
+    "sourceUrl": "https://www.phwr.org/journal/down_supple_pdf.php?eid=dWlkPTE5NQ%3D%3D",
+    "pages": 38,
+    "bytes": 3655819,
+    "sha256": "26940a084103777bdc5b73a0a611a19571a547aba657207065e98e4b50ef5bf7",
+    "downloadedAt": "2026-09-29",
+    "publishedOnSite": false
+  }
+]

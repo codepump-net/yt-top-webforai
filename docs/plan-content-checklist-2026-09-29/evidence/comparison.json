@@ -1,0 +1,180 @@
+{
+  "baselineSha256": "0985f63c96896b4dbf89f8e0dc703e29e588a52a0628215092e4f887cc372385",
+  "terms": [
+    {
+      "id": "TXT-01",
+      "actual": "소화기: 담석·담낭염, 췌장염, 충수염 의심, 게실염, 급성 장염, 위궤양, 간질환, 염증성 장질환의 진단과 지지치료",
+      "passed": true
+    },
+    {
+      "id": "TXT-02",
+      "actual": "암 관련 진료: 위·대장 병변의 내시경 조직검사, 암 의심 소견의 초기 평가와 정밀검사 의뢰, 항암치료 중 증상과 합병증의 지지치료",
+      "passed": true
+    },
+    {
+      "id": "TXT-03",
+      "actual": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지치료까지 방문 목적에 맞는 안내를 선택하세요.",
+      "passed": true
+    },
+    {
+      "id": "TXT-04",
+      "actual": "심장·소화기·호흡기질환부터 예방접종, 만성질환 관리, 갑상선·경동맥·목 멍울, 신장질환과 암환자 지지치료까지 방문 목적에 맞는 안내를 선택하세요.",
+      "passed": true
+    },
+    {
+      "id": "TXT-05",
+      "actual": "암과 관련해서는 위·대장내시경 조직검사가 필요한 병변을 진단하고, 초음파·흉부 X선·혈액검사에서 암이 의심되는 소견이 발견되면 필요한 정밀검사와 협력병원 진료를 안내합니다. 대학병원에서 암 치료 중인 환자에게는 발열, 감염 의심 증상, 구역·구토, 식사량 감소, 탈수, 백혈구·호중구 감소 등 치료 중 합병증을 평가하고 기존 치료팀과 연계한 지지치료를 시행합니다.",
+      "passed": true
+    },
+    {
+      "id": "TXT-06",
+      "actual": "암 의심 소견 및 암 치료 중 지지치료",
+      "passed": true
+    },
+    {
+      "id": "TXT-07",
+      "actual": "암 의심 소견 및 암 치료 중 지지치료 | 영통탑내과",
+      "passed": true
+    },
+    {
+      "id": "TXT-08",
+      "actual": "영통탑내과의 암 치료 중 구역·구토·탈수·설사·변비 평가와 지지치료, 조건에 따른 호중구 증가 주사, 케모포트 후버바늘 제거와 치료병원 연계를 안내합니다.",
+      "passed": true
+    },
+    {
+      "id": "TXT-09",
+      "actual": "영통탑내과는 암 치료 중 구역·구토, 섭취 저하, 탈수, 설사·변비, 감염 의심 증상을 평가하고 기존 치료팀과 연계해 지지치료를 시행합니다. 항암치료 계획 변경이나 입원이 필요한 상황은 치료병원으로 연결합니다.",
+      "passed": true
+    },
+    {
+      "id": "TXT-10",
+      "actual": "아니요. 기존 암 치료팀의 항암치료를 이어가면서, 영통탑내과는 치료 사이의 구역·탈수·설사·발열 등 증상을 평가하고 지지치료를 합니다. 항암치료 계획 변경이나 입원이 필요한 상태는 치료병원으로 연결합니다.",
+      "passed": true
+    },
+    {
+      "id": "TXT-11",
+      "actual": "암 치료 중 발열·새 호흡곤란·혈변·의식 변화는 기존 치료팀이나 응급실 평가를 서둘러야 합니다. 위험 신호가 없는 경한 구역·섭취 저하·변비 등은 영통탑내과에서 원인을 평가하고 기존 치료팀과 연계해 지지치료를 받을 수 있습니다.",
+      "passed": true
+    },
+    {
+      "id": "TXT-12",
+      "actual": "영통탑내과에서 가능한 암환자 지지치료",
+      "passed": true
+    },
+    {
+      "id": "TXT-13",
+      "actual": "영통탑내과에서는 환자의 상태에 따라 다음과 같은 평가와 지지치료를 시행합니다.",
+      "passed": true
+    },
+    {
+      "id": "TXT-14",
+      "actual": "증상에 따라 혈액검사, 장관초음파와 대장내시경을 선택하고 필요한 조직검사·용종절제를 시행합니다. 궤양성 대장염과 크론병의 진단·경과 평가와 증상 지지치료를 하며, 생물학적 제제 등 전문 치료는 상급병원으로 연계합니다.",
+      "passed": true
+    },
+    {
+      "id": "TXT-15",
+      "actual": "['cancer-support', '암환자 지지치료'],",
+      "passed": true
+    },
+    {
+      "id": "TXT-16",
+      "actual": "{ title: '암 의심 소견 및 암 치료 중 지지치료', ids: ['cancer-support'] },",
+      "passed": true
+    },
+    {
+      "id": "TXT-17",
+      "actual": "'cancer-support': '암환자 지지치료',",
+      "passed": true
+    },
+    {
+      "id": "TXT-18",
+      "actual": "치료 중 증상과 최근 치료·검사 정보를 바탕으로 가까운 내과에서 가능한 지지치료와 기존",
+      "passed": true
+    },
+    {
+      "id": "TXT-19",
+      "actual": "암환자 지지치료 안내 <ArrowRight size={18} />",
+      "passed": true
+    },
+    {
+      "id": "TXT-20",
+      "actual": "\"alt\": \"암 치료 중 지지치료: 발열·피로·구역·백혈구 감소 대응\"",
+      "passed": true
+    }
+  ],
+  "notices": [
+    {
+      "id": "notice-2026-hpv-national",
+      "path": "/notices/2026-hpv/",
+      "preserved": {
+        "paragraphs": true,
+        "availability": true,
+        "attachment": true,
+        "startDate": true,
+        "endDate": true
+      },
+      "sourcesRetained": true
+    },
+    {
+      "id": "notice-2026-pneumococcal-65plus",
+      "path": "/notices/2026-pneumococcal/",
+      "preserved": {
+        "paragraphs": true,
+        "availability": true,
+        "attachment": true,
+        "startDate": true,
+        "endDate": true
+      },
+      "sourcesRetained": true
+    },
+    {
+      "id": "notice-2026-2027-national-influenza",
+      "path": "/notices/2026-2027-influenza/",
+      "preserved": {
+        "paragraphs": true,
+        "availability": true,
+        "attachment": true,
+        "startDate": true,
+        "endDate": true
+      },
+      "sourcesRetained": true
+    },
+    {
+      "id": "notice-2026-suwon-shingles-support",
+      "path": "/notices/2026-suwon-shingles/",
+      "preserved": {
+        "paragraphs": true,
+        "availability": true,
+        "attachment": true,
+        "startDate": true,
+        "endDate": true
+      },
+      "sourcesRetained": true
+    },
+    {
+      "id": "notice-2026-gyeonggi-student-influenza",
+      "path": "/notices/2026-gyeonggi-student-influenza/",
+      "preserved": {
+        "paragraphs": true,
+        "availability": true,
+        "attachment": true,
+        "startDate": true,
+        "endDate": true
+      },
+      "sourcesRetained": true
+    },
+    {
+      "id": "notice-2026-09-17-infection-guide",
+      "path": "/notices/2026-09-17-infection-guide/",
+      "preserved": {
+        "paragraphs": true,
+        "availability": true,
+        "attachment": true,
+        "startDate": true,
+        "endDate": true
+      },
+      "sourcesRetained": true
+    }
+  ],
+  "oldTermInPublicFiles": []
+}

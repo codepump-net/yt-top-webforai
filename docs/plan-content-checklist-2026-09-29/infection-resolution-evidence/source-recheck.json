@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "press",
+    "url": "https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMzEyNjYwJTJGYXJ0Y2xWaWV3LmRvJTNG",
+    "status": 200,
+    "sha256": "f3e4fe5ff73fc2dda80fe1184c98cf362b02153df98e738fc345b22ebdd32e30",
+    "licenseHtml": [
+      "                <a href=\"http://www.kogl.or.kr/info/licenseType0.do\" target=\"_blank\" title=\"공공누리 출처표시 새창열림\">"
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "kind": "cards",
+    "url": "https://www.kdca.go.kr/kdca/2853/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQ1JTJGMzEyNzAzJTJGYXJ0Y2xWaWV3LmRvJTNG",
+    "status": 200,
+    "sha256": "e1dc4df7005c551ed30ab694a489cfa47c69b86331760b58cf64a4269cd59742",
+    "licenseHtml": [
+      "                <a href=\"http://www.kogl.or.kr/info/licenseType4.do\" target=\"_blank\" title=\"공공누리 출처표시 새창열림\">"
+    ],
+    "checkedAt": "2026-09-29"
+  },
+  {
+    "kind": "source-pdf",
+    "url": "https://www.kdca.go.kr/bbs/kdca/42/309808/download.do",
+    "status": 200,
+    "bytes": 1505951,
+    "sha256": "6f85c40ba28f99ecc281adc0fd0ab46f42d487652473fc2259835251312a7ba1",
+    "matchesDownloadedOriginal": true
+  }
+]

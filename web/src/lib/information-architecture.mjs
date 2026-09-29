@@ -33,9 +33,10 @@ export const navigation = [
   ['diseases', '질환백과'],
   ['conditions', '진료분야'],
   ['services', '검사·시술'],
-  ['cancer-support', '암환자 지지진료'],
+  ['cancer-support', '암환자 지지치료'],
   ['checkups', '검진·서류'],
   ['about', '병원안내'],
+  ['notices', '공지사항'],
 ];
 export const patientEntrances = [
   {
@@ -71,7 +72,7 @@ export const hubGroups = {
     { title: '고혈압·당뇨·고지혈증 치료, 금연치료, 체중관리', ids: ['chronic-disease'] },
     { title: '갑상선·경동맥·경부 멍울', ids: ['neck-disease'] },
     { title: '신장질환', ids: ['kidney-disease'] },
-    { title: '암 의심 소견 및 암 치료 중 지지진료', ids: ['cancer-support'] },
+    { title: '암 의심 소견 및 암 치료 중 지지치료', ids: ['cancer-support'] },
   ],
   'digestive-disease': [
     { title: '식도·위질환', ids: ['esophagus-stomach'] },
@@ -185,6 +186,7 @@ export function sectionId(page) {
   if (navigation.some(([id]) => id === page.id)) return page.id;
   if (['cancer-treatment-symptoms', 'fever-during-cancer-treatment'].includes(page.id))
     return 'cancer-support';
+  if (page.path.startsWith('/notices/')) return 'notices';
   if (page.path.startsWith('/diseases/')) return 'diseases';
   if (hubIds('symptoms').includes(page.id)) return 'symptoms';
   if (

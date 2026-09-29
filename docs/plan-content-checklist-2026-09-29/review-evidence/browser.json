@@ -1,0 +1,247 @@
+{
+  "channelsOnRoutes": 135,
+  "oldTermHtml": [],
+  "banners": [
+    {
+      "asset": "banner-heart",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-digestive",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-respiratory",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-vaccinations",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-chronic",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-neck",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-kidney",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-cancer-support",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-services",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-checkups",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-symptoms",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-diseases",
+      "viewport": 390,
+      "display": 346,
+      "natural": 400
+    },
+    {
+      "asset": "banner-heart",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-digestive",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-respiratory",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-vaccinations",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-chronic",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-neck",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-kidney",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-cancer-support",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-services",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-checkups",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-symptoms",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    },
+    {
+      "asset": "banner-diseases",
+      "viewport": 1440,
+      "display": 400,
+      "natural": 400
+    }
+  ],
+  "modals": [
+    {
+      "asset": "diagram-heart-flow",
+      "viewport": 390,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "diagram-endoscopy-preparation",
+      "viewport": 390,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "diagram-after-endoscopy",
+      "viewport": 390,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "diagram-checkup-flow",
+      "viewport": 390,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "vaccination-schedule-2026",
+      "viewport": 390,
+      "display": 240,
+      "natural": 240,
+      "focusRestored": true
+    },
+    {
+      "asset": "diagram-heart-flow",
+      "viewport": 1440,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "diagram-endoscopy-preparation",
+      "viewport": 1440,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "diagram-after-endoscopy",
+      "viewport": 1440,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "diagram-checkup-flow",
+      "viewport": 1440,
+      "display": 280,
+      "natural": 280,
+      "focusRestored": true
+    },
+    {
+      "asset": "vaccination-schedule-2026",
+      "viewport": 1440,
+      "display": 240,
+      "natural": 240,
+      "focusRestored": true
+    }
+  ],
+  "categories": [
+    {
+      "category": "예방접종",
+      "rows": 3
+    },
+    {
+      "category": "지역 지원사업",
+      "rows": 2
+    },
+    {
+      "category": "감염병 예방",
+      "rows": 1
+    }
+  ],
+  "errors": [],
+  "fluMobileScroll": {
+    "client": 344,
+    "scroll": 704,
+    "offset": 0,
+    "after": 360,
+    "rows": 6
+  },
+  "infectionRenderedPages": 0,
+  "infectionOriginalPdfLinks": 0,
+  "infectionCurrentPdf": "https://www.phwr.org/journal/down_supple_pdf.php?eid=dWlkPTE5NQ%3D%3D"
+}

@@ -1,0 +1,24 @@
+Author:          User
+Creator:         Hwp 2020 11.0.0.8808
+Producer:        Hancom PDF 1.3.0.550
+CreationDate:    Thu Sep 17 16:26:02 2026 KST
+ModDate:         Thu Sep 17 16:26:02 2026 KST
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           16
+Encrypted:       no
+Page size:       595 x 841 pts (A4)
+Page rot:        0
+MediaBox:            0.00     0.00   595.00   841.00
+CropBox:             0.00     0.00   595.00   841.00
+BleedBox:            0.00     0.00   595.00   841.00
+TrimBox:             0.00     0.00   595.00   841.00
+ArtBox:              0.00     0.00   595.00   841.00
+File size:       1505951 bytes
+Optimized:       no
+PDF version:     1.4

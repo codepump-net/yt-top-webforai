@@ -1,0 +1,508 @@
+{
+  "stats": {
+    "startTime": "2026-09-29T03:15:33.565Z",
+    "duration": 64705.918,
+    "expected": 62,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "file": "aeo-content.spec.ts",
+      "title": "research-derived questions, evidence and contextual links are usable without JavaScript",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "aeo-content.spec.ts",
+      "title": "new comparison and preparation tables fit a small viewport and have readable headers",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "cardio-update.spec.ts",
+      "title": "category aliases, actual counts and an empty symptom category work",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "cardio-update.spec.ts",
+      "title": "site search includes the introductory definition of a disease",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "cardio-update.spec.ts",
+      "title": "new disease is accessible, uses the disease menu and has one complete footer on mobile",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "cardio-update.spec.ts",
+      "title": "test availability and emergency articles preserve different result times",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "cardio-update.spec.ts",
+      "title": "visa safety and document panels match all five translated page languages",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-afternoon.spec.ts",
+      "title": "every medical article has one reuse notice and every page has the global copyright link",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-afternoon.spec.ts",
+      "title": "search recovers from a failed static index request and preserves patient privacy",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-afternoon.spec.ts",
+      "title": "new symptom guides are discoverable and carry useful safety and reuse information",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-afternoon.spec.ts",
+      "title": "home notices precede visit information and retain original announcement channel",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-afternoon.spec.ts",
+      "title": "notice archive changes after the program end date without advertising expired availability",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-afternoon.spec.ts",
+      "title": "figures work with keyboard, mobile layout and readable text equivalents",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-afternoon.spec.ts",
+      "title": "notice source links, figures and all new guides remain usable without JavaScript",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-revamp.spec.ts",
+      "title": "six visa versions have reciprocal links, static language and usable mobile navigation",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-revamp.spec.ts",
+      "title": "long new articles, lists and emergency instructions remain accessible",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "director-revamp.spec.ts",
+      "title": "new preparations are discoverable from the examination and local search",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "integrated-update.spec.ts",
+      "title": "home search stays below emergency guidance and opens local aliases without a query request",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "integrated-update.spec.ts",
+      "title": "care hubs expose eight destinations and organ guides without scripts",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "integrated-update.spec.ts",
+      "title": "vaccination figure, table and unified contents remain readable on mobile and desktop",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "integrated-update.spec.ts",
+      "title": "case directory preserves originals while enforcing exclusions and privacy",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "notice-content-update.spec.ts",
+      "title": "eight menus remain ordered, unique and usable at desktop and mobile widths",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "notice-content-update.spec.ts",
+      "title": "notice search, categories, reset and pagination operate on the six real articles",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "notice-content-update.spec.ts",
+      "title": "all six individual articles retain their sources, original anchor access and review metadata",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "notice-content-update.spec.ts",
+      "title": "flu schedule is an accessible six-row HTML table with the correct target dates",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "notice-content-update.spec.ts",
+      "title": "three official channels appear at each required location and merge with the clinic identity",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "notice-content-update.spec.ts",
+      "title": "all existing patient images can open their source without upscaling the page image",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "notice-content-update.spec.ts",
+      "title": "notice and channel screens pass mobile and desktop accessibility and overflow checks",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-content.spec.ts",
+      "title": "retired pages and internal build artifacts are not served",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-content.spec.ts",
+      "title": "case links remain readable without JavaScript and lead to hospital originals",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-content.spec.ts",
+      "title": "patient search and sitemap exclude the retired policy and local article copies",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-navigation.spec.ts",
+      "title": "eight sections and four patient journeys preserve crawlable navigation without scripts",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-navigation.spec.ts",
+      "title": "encyclopedias filter and search real articles, and reset remains usable",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-navigation.spec.ts",
+      "title": "left contents stays reachable and mobile offers contents and preparation without repeated cards",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-navigation.spec.ts",
+      "title": "contents includes directory and physician sections, and test comparisons use the examination category",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "patient-navigation.spec.ts",
+      "title": "new home and hub layouts are accessible and fit desktop and mobile",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "all patient routes return HTML with one heading and correct indexing",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "all content routes remain usable without JavaScript",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /visit/",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /doctors/park-jongseol/",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /doctors/park-rayoung/",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /services/heart/echocardiography/",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /cases/",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /search/",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "WCAG 2.2 AA automated accessibility: /privacy/",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "responsive layout, images, and visual review captures",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "local search, empty state, category and reset",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "mobile navigation works without client scripting",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "keyboard skip link, Q&A and deep refresh",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "unknown deep link returns a real 404 with recovery links",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "urgent symptom context shows emergency guidance without an article booking CTA",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "structured-data.spec.ts",
+      "title": "every FAQ answer and collection URL in JSON-LD is available in patient HTML",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "structured-data.spec.ts",
+      "title": "SearchAction URL opens the requested search and remains editable",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "every menu link remains reachable in short viewports (JavaScript true)",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "every menu link remains reachable in short viewports (JavaScript false)",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "Tab keeps focused content and footer links above the contact bar",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "search ranks direct examination pages first and restores input focus after reset",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "printing includes closed answers and restores the original disclosure states",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "tablet contact action and current section are available at breakpoint edges",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "short desktop sidebar links can be brought into view",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    },
+    {
+      "file": "ui-regressions.spec.ts",
+      "title": "notices lead patients to the original hospital announcement channel",
+      "ok": true,
+      "statuses": [
+        "expected"
+      ]
+    }
+  ]
+}

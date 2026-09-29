@@ -1,0 +1,272 @@
+{
+  "sourceDocuments": [
+    {
+      "path": "plan/README.md",
+      "matchesInitial": true
+    },
+    {
+      "path": "plan/모의적용_검증보고서.md",
+      "matchesInitial": true
+    },
+    {
+      "path": "plan/변경요약.md",
+      "matchesInitial": true
+    },
+    {
+      "path": "plan/적용순서.md",
+      "matchesInitial": true
+    },
+    {
+      "path": "plan/최종검수체크리스트.md",
+      "matchesInitial": true
+    },
+    {
+      "path": "plan/충돌및주의사항.md",
+      "matchesInitial": true
+    },
+    {
+      "path": "plan/코딩에이전트_전달용_요청문 (1).md",
+      "matchesInitial": true
+    }
+  ],
+  "termReplacements": [
+    {
+      "id": "TXT-01",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-02",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-03",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-04",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-05",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-06",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-07",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-08",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-09",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-10",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-11",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-12",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-13",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-14",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-15",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-16",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-17",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-18",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-19",
+      "matchesExpected": true
+    },
+    {
+      "id": "TXT-20",
+      "matchesExpected": true
+    }
+  ],
+  "imageHashes": [
+    {
+      "id": "vaccination-schedule-2026",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-heart",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-digestive",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-respiratory",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-vaccinations",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-chronic",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-neck",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-kidney",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-cancer-support",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-services",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-checkups",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-symptoms",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "banner-diseases",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "diagram-heart-flow",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "diagram-endoscopy-preparation",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "diagram-after-endoscopy",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    },
+    {
+      "id": "diagram-checkup-flow",
+      "matchesPriorAudit": true,
+      "masterMatchesPublic": true
+    }
+  ],
+  "textIssues": [],
+  "publicTextFields": 4705,
+  "publicCharacters": 178217,
+  "allChecksPassed": true,
+  "infectionPageHashes": [
+    {
+      "page": 1,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 2,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 3,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 4,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 5,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 6,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 7,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 8,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 9,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 10,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 11,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 12,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 13,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 14,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 15,
+      "matchesPriorAudit": true
+    },
+    {
+      "page": 16,
+      "matchesPriorAudit": true
+    }
+  ],
+  "infectionPdfMatchesPriorAudit": true
+}

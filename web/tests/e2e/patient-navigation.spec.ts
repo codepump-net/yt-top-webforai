@@ -4,7 +4,7 @@ import fs from 'node:fs';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 const url = (path: string) => `http://127.0.0.1:3000${manifest.basePath}${path}`;
 
-test('seven sections and four patient journeys preserve crawlable navigation without scripts', async ({
+test('eight sections and four patient journeys preserve crawlable navigation without scripts', async ({
   browser,
 }) => {
   const context = await browser.newContext({
@@ -18,9 +18,10 @@ test('seven sections and four patient journeys preserve crawlable navigation wit
     '질환백과',
     '진료분야',
     '검사·시술',
-    '암환자 지지진료',
+    '암환자 지지치료',
     '검진·서류',
     '병원안내',
+    '공지사항',
   ]);
   await expect(page.locator('.patient-entry')).toHaveCount(4);
   for (const path of ['/symptoms/', '/preparation/', '/services/cancer-support/', '/checkups/']) {

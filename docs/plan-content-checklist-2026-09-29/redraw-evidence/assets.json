@@ -1,0 +1,325 @@
+[
+  {
+    "id": "banner-heart",
+    "path": "/conditions/heart-disease/",
+    "before": {
+      "file": "/assets/banner-heart.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 84140
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-heart-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1476398,
+      "sha256": "e8af85c9a9dd200d633d2969fb51c3c7b12e292e916bdc88c5e2e3b116c7b9bb"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-digestive",
+    "path": "/conditions/digestive/",
+    "before": {
+      "file": "/assets/banner-digestive.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 87190
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-digestive-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1456521,
+      "sha256": "07f9b1933a5379c3f538f79d1e668a970cb6982737fad0c79c2b5102cad646d9"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-respiratory",
+    "path": "/conditions/respiratory-infections/",
+    "before": {
+      "file": "/assets/banner-respiratory.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 85276
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-respiratory-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1460014,
+      "sha256": "3587fc67664b9b2ce2ddca0f695055ce785b73002b2dbdb241ab19fdd1c385a4"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-vaccinations",
+    "path": "/services/vaccinations/",
+    "before": {
+      "file": "/assets/banner-vaccinations.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 87388
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-vaccinations-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1416073,
+      "sha256": "e71b7d596f8714007ea67443f2857a94bba3549376ba37222bbd0d8d5edc97bc"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-chronic",
+    "path": "/conditions/chronic-disease/",
+    "before": {
+      "file": "/assets/banner-chronic.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 91848
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-chronic-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1438103,
+      "sha256": "eddfcb011e0103e6ca2ea0b9e1a35a5b84bf6dd836e7a39073cd1cd6f495e810"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-neck",
+    "path": "/conditions/thyroid-carotid-neck/",
+    "before": {
+      "file": "/assets/banner-neck.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 85490
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-neck-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1490119,
+      "sha256": "59912fddc3eba752c0e5fc5e3038eba950b00b87004cbd55cb67b6c342eda912"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-kidney",
+    "path": "/conditions/kidney/",
+    "before": {
+      "file": "/assets/banner-kidney.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 84644
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-kidney-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1368611,
+      "sha256": "d684596647c938ecb67f2361573ba853f9169a1565cc323b7a432718c80340cd"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-cancer-support",
+    "path": "/services/cancer-support/",
+    "before": {
+      "file": "/assets/banner-cancer-support.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 89462
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-cancer-support-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1476438,
+      "sha256": "e0d3e668a0f2c3b0bf59345c33a6bc0aba4094a8bdcf44257830e0e24741ef8f"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-services",
+    "path": "/services/",
+    "before": {
+      "file": "/assets/banner-services.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 89048
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-services-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1460717,
+      "sha256": "eb4d5ea4e69368f99241a869d6ad1ace08bff80951663748cd5daa53b192ea49"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-checkups",
+    "path": "/checkups/",
+    "before": {
+      "file": "/assets/banner-checkups.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 92980
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-checkups-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1427039,
+      "sha256": "36583af8d77339e027ebd617bd99b465ce76d6f8e379b42052a5a0815a7830fa"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-symptoms",
+    "path": "/symptoms/",
+    "before": {
+      "file": "/assets/banner-symptoms.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 90804
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-symptoms-hq-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1503694,
+      "sha256": "743b09e795c936b5b18986c61092b9a3a9bd342994c7f5bd03aecd063cc82026"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "banner-diseases",
+    "path": "/diseases/",
+    "before": {
+      "file": "/assets/banner-diseases.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 92220
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/banner-diseases-hq-original.png",
+      "width": 1672,
+      "height": 940,
+      "bytes": 1396071,
+      "sha256": "6cf1f9e382ed2c8fd0ad54345cd859cfbd712aa4c560ac872e57527682bba05e"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "diagram-heart-flow",
+    "path": "/services/heart/",
+    "before": {
+      "file": "/assets/diagram-heart-flow.webp",
+      "width": 280,
+      "height": 300,
+      "bytes": 89936
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/diagram-heart-flow-hq-original.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1496710,
+      "sha256": "124128f789b9197f4eb298394b6f15b290f0518e91d16a565649d76ad5f3e5ce"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "diagram-endoscopy-preparation",
+    "path": "/services/endoscopy/",
+    "before": {
+      "file": "/assets/diagram-endoscopy-preparation.webp",
+      "width": 280,
+      "height": 300,
+      "bytes": 85136
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/diagram-endoscopy-preparation-hq-original.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1521497,
+      "sha256": "5750625107d3eb1188b3cfdde7bd15ad6143225887de92fbad5a7a12f92f8cf8"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "diagram-after-endoscopy",
+    "path": "/health/after-endoscopy/",
+    "before": {
+      "file": "/assets/diagram-after-endoscopy.webp",
+      "width": 280,
+      "height": 300,
+      "bytes": 87612
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/diagram-after-endoscopy-hq-original.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1499519,
+      "sha256": "4fc8360a9b210a5a0e344af0e23c1bb5cae5684bea00fc706512ba536b4f3963"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "diagram-checkup-flow",
+    "path": "/checkups/",
+    "before": {
+      "file": "/assets/diagram-checkup-flow.webp",
+      "width": 280,
+      "height": 300,
+      "bytes": 87886
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/diagram-checkup-flow-hq-original.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1433354,
+      "sha256": "bb0de286d1abc9d5da4c759b432eacf2bde96aaab3f504ef9bbef29784282295"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  },
+  {
+    "id": "vaccination-schedule-2026",
+    "path": "/services/vaccinations/",
+    "before": {
+      "file": "/assets/vaccination-schedule-2026.webp",
+      "width": 240,
+      "height": 300,
+      "bytes": 70578
+    },
+    "after": {
+      "file": "/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1505995,
+      "sha256": "4b37ceece4f4c22e8f521ce9b6c9dbc0963738c182c91c2a9d7e1df90ae823f5"
+    },
+    "masterMatches": true,
+    "visualReview": "Korean titles, body text and illustration inspected; no clinical approval implied"
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-29",
+  "scope": "고해상도 신규 재제작 17개 및 사이트 반영. 이식 패키지 제외. 로컬 검토 출력이며 운영 배포 없음.",
+  "runtime": "Node 24.10.0 / macOS arm64 / Chromium",
+  "assets": {
+    "redrawn": 17,
+    "banners": 12,
+    "guides": 5,
+    "nativeBytes": 24826873,
+    "formats": [
+      "PNG"
+    ],
+    "dimensions": [
+      "1672×941",
+      "1672×940",
+      "1086×1448"
+    ],
+    "publicFileEqualsGeneratedMaster": true,
+    "resizedOrRecompressed": false
+  },
+  "checks": {
+    "content": {
+      "exitCode": 0,
+      "pages": 135,
+      "registeredAssets": 22,
+      "log": "content.log"
+    },
+    "rootBuild": {
+      "exitCode": 0,
+      "basePath": "",
+      "log": "build-root.log"
+    },
+    "projectBuild": {
+      "exitCode": 0,
+      "basePath": "/yt-top-webforai",
+      "log": "build-project.log"
+    },
+    "unit": {
+      "exitCode": 0,
+      "passed": 82,
+      "log": "unit.log"
+    },
+    "harness": {
+      "exitCode": 0,
+      "passed": 17,
+      "log": "harness.log"
+    },
+    "lint": {
+      "exitCode": 0,
+      "log": "lint.log"
+    },
+    "typecheck": {
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    "rootBrowser": {
+      "exitCode": 0,
+      "passed": 17,
+      "log": "e2e-root.log"
+    },
+    "projectBrowser": {
+      "exitCode": 0,
+      "passed": 65,
+      "log": "e2e-project.log"
+    },
+    "mobilePerformance": {
+      "exitCode": 0,
+      "pages": 2,
+      "log": "performance.log",
+      "data": "performance.json"
+    },
+    "requestCompletion": {
+      "exitCode": 1,
+      "redrawnPngCount": 17,
+      "infectionGuidePages": 0,
+      "remaining": [
+        "INF-02~06"
+      ],
+      "log": "plan-completion.log"
+    },
+    "productionGuard": {
+      "exitCode": 1,
+      "expected": true,
+      "reason": "Publication confirmation scope/status/digest no longer cover the current draft. No approval was fabricated.",
+      "log": "production-gate.log"
+    }
+  },
+  "checklist": {
+    "충족": 47,
+    "부분 충족": 2,
+    "미충족": 5
+  },
+  "originalChecklist": {
+    "충족": 35,
+    "미충족": 5,
+    "제외": 2
+  },
+  "remaining": "감염병 지정 원문 15쪽 미게시. PNG 원본 리소스 요청은 철회하고 새 제작 완료.",
+  "inspection": "생성한 17개 전체 그림과 한글을 직접 열어 확인. 신장 제목, 암환자 지지치료·외래 상담, 숨참 폐 아이콘 교정. 4개 단계 안내와 백신 9행은 현재 HTML 원고와 대조."
+}

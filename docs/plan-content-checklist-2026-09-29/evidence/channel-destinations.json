@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://yttop.co.kr/44",
+    "status": 200,
+    "finalUrl": "https://yttop.co.kr/44",
+    "title": "영통탑내과 공지사항",
+    "meta": [
+      "<meta id='meta_og_title' property='og:title' content='영통탑내과 공지사항' />",
+      "<meta property='og:description' content='영통탑내과 공지사항' />"
+    ]
+  },
+  {
+    "url": "https://blog.naver.com/goytt2022",
+    "status": 200,
+    "finalUrl": "https://blog.naver.com/goytt2022",
+    "title": "망포역 영통탑내과 공식블로그 : 네이버 블로그",
+    "meta": []
+  },
+  {
+    "url": "https://www.instagram.com/yttopim",
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/yttopim",
+    "title": "서울대동문병원 영통탑내과 (@yttopim) • Instagram photos and videos",
+    "meta": [
+      "<meta property=\"og:title\" content=\"&#xc11c;&#xc6b8;&#xb300;&#xb3d9;&#xbb38;&#xbcd1;&#xc6d0; &#xc601;&#xd1b5;&#xd0d1;&#xb0b4;&#xacfc; (&#064;yttopim) &#x2022; Instagram photos and videos\" />",
+      "<meta property=\"og:description\" content=\"145 Followers, 1 Following, 185 Posts - See Instagram photos and videos from &#xc11c;&#xc6b8;&#xb300;&#xb3d9;&#xbb38;&#xbcd1;&#xc6d0; &#xc601;&#xd1b5;&#xd0d1;&#xb0b4;&#xacfc; (&#064;yttopim)\" />"
+    ]
+  },
+  {
+    "url": "https://blog.naver.com/PostList.naver?blogId=goytt2022&from=postList&categoryNo=0",
+    "status": 200,
+    "finalUrl": "https://blog.naver.com/PostList.naver?blogId=goytt2022&from=postList&categoryNo=0",
+    "title": "망포역 영통탑내과 공식블로그 : 네이버 블로그",
+    "meta": [
+      "<meta property=\"og:title\" content=\"망포역 영통탑내과 공식블로그 : 네이버 블로그\"/>",
+      "<meta property=\"og:description\" content=\"망포역에 있는 영통탑내과입니다.\n\n내과 진료시 환자의 니즈를 반영하는 진료로 안전하고 편안한 내시경 및 검사를 하는 영통탑내과 입니다.\"/>"
+    ]
+  }
+]

@@ -11,7 +11,6 @@ export function SiteNavigation({
   homeUrl,
   logoUrl,
   searchUrl,
-  noticeUrl,
   sitemapUrl,
   phoneUrl,
   basePath,
@@ -20,7 +19,6 @@ export function SiteNavigation({
   homeUrl: string;
   logoUrl: string;
   searchUrl: string;
-  noticeUrl: string;
   sitemapUrl: string;
   phoneUrl: string;
   basePath: string;
@@ -149,7 +147,6 @@ export function SiteNavigation({
           </summary>
           <nav aria-label="모바일 메뉴">
             {items.map(link)}
-            {link({ href: noticeUrl, label: '공지사항' })}
             {link({ href: sitemapUrl, label: '전체 페이지' })}
           </nav>
         </details>
