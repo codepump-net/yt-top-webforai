@@ -1,0 +1,115 @@
+{
+  "mode": "review",
+  "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+  "errors": [],
+  "reports": [
+    {
+      "route": "/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2313.0274,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 50,
+        "first-contentful-paint": 964.0137
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/services/heart/echocardiography/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2283.8136,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 57,
+        "first-contentful-paint": 919.8136
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/search/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2147.2985,
+        "cumulative-layout-shift": 0.002294951040342114,
+        "total-blocking-time": 61.5,
+        "first-contentful-paint": 774.2985000000001
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/health/colonoscopy-preparation-questions/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2300.9815,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 95,
+        "first-contentful-paint": 927.4907500000002
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/health/cancer-treatment-symptoms/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2327.5824000000002,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 102,
+        "first-contentful-paint": 987.7912
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/ne/checkups/visa/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "largest-contentful-paint": 2002.7605000000003,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 104,
+        "first-contentful-paint": 756.7605000000001
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    }
+  ]
+}

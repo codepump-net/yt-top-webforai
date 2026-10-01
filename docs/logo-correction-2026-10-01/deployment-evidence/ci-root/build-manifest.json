@@ -1,0 +1,1231 @@
+{
+  "version": 1,
+  "commit": "077eead0f74abb85179421b504afa005d0091a0f",
+  "mode": "review",
+  "origin": "https://codepump-net.github.io",
+  "basePath": "",
+  "builtAt": "2026-10-01T06:19:04.266Z",
+  "contentDigest": "da5f0655c58053fca6b0514d4c4ca4438c5afcfd940f5ccb14457ccae51a9a70",
+  "routes": [
+    {
+      "id": "home",
+      "language": "ko",
+      "path": "/",
+      "file": "index.html",
+      "sha256": "64d4a87cd8ce04c1466e16f8cb6b6f3f648b9689e4dc24e2e74cbceed920cc70",
+      "bytes": 113243,
+      "indexable": false
+    },
+    {
+      "id": "not-found",
+      "language": "ko",
+      "path": "/404.html",
+      "file": "404.html",
+      "sha256": "61fc9ad058353c21677536c4eee270b9250491794032cd7909e61f6b75cf0a3d",
+      "bytes": 27247,
+      "indexable": false
+    },
+    {
+      "id": "about",
+      "language": "ko",
+      "path": "/about/",
+      "file": "about/index.html",
+      "sha256": "028ab2cd970fb655713c5053f5760501861a52f1b0ecc6803979d0b0f9bbbfea",
+      "bytes": 75707,
+      "indexable": false
+    },
+    {
+      "id": "cases",
+      "language": "ko",
+      "path": "/cases/",
+      "file": "cases/index.html",
+      "sha256": "0d1f293bb9073294f2ae7c28ebe49fb66f12fabf77dd6cbd6719b498e50ca704",
+      "bytes": 93200,
+      "indexable": false
+    },
+    {
+      "id": "checkups",
+      "language": "ko",
+      "path": "/checkups/",
+      "file": "checkups/index.html",
+      "sha256": "7865def3251131f33c5f0cb02113ee566153ace8c77a57dcc2fa564223c22755",
+      "bytes": 90333,
+      "indexable": false
+    },
+    {
+      "id": "cancer-screening",
+      "language": "ko",
+      "path": "/checkups/cancer-screening/",
+      "file": "checkups/cancer-screening/index.html",
+      "sha256": "7ae04f2a9dd77244b2b359285e79d3402b390eddbd0003134911d5d78b1e3cbb",
+      "bytes": 81298,
+      "indexable": false
+    },
+    {
+      "id": "drug-screening",
+      "language": "ko",
+      "path": "/checkups/drug-screening/",
+      "file": "checkups/drug-screening/index.html",
+      "sha256": "a2f6725971e1efcd9e78abfba90ce9551b95d9e722763c94291397e0ad948b88",
+      "bytes": 83206,
+      "indexable": false
+    },
+    {
+      "id": "employment-checkup",
+      "language": "ko",
+      "path": "/checkups/employment/",
+      "file": "checkups/employment/index.html",
+      "sha256": "4cfc454d6ee706a9ac03760ffeee780c3e424022422b57bb36b7ed1025c4ce51",
+      "bytes": 80482,
+      "indexable": false
+    },
+    {
+      "id": "national-checkup",
+      "language": "ko",
+      "path": "/checkups/national/",
+      "file": "checkups/national/index.html",
+      "sha256": "c0ee8d517bc1c9a450f06b450c65eeb3bd9af96379bd96ba1c47f6056bae4198",
+      "bytes": 87702,
+      "indexable": false
+    },
+    {
+      "id": "tuberculosis-screening",
+      "language": "ko",
+      "path": "/checkups/tuberculosis/",
+      "file": "checkups/tuberculosis/index.html",
+      "sha256": "69214a5dac970ae442125cd9273c3fa160c3a120c7c01488cbf2350b8e4fd1b5",
+      "bytes": 77460,
+      "indexable": false
+    },
+    {
+      "id": "visa-checkup",
+      "language": "ko",
+      "path": "/checkups/visa/",
+      "file": "checkups/visa/index.html",
+      "sha256": "59e96048650e249779601f5f2ca5bc3a48edc904bccbcc4c020b0a6ae0dc2b74",
+      "bytes": 79175,
+      "indexable": false
+    },
+    {
+      "id": "conditions",
+      "language": "ko",
+      "path": "/conditions/",
+      "file": "conditions/index.html",
+      "sha256": "5064fbf8abc8a4c2c2b996530374ce26a47aba06bfc8adb26601e1ad0569422b",
+      "bytes": 77005,
+      "indexable": false
+    },
+    {
+      "id": "acute-care",
+      "language": "ko",
+      "path": "/conditions/acute-care/",
+      "file": "conditions/acute-care/index.html",
+      "sha256": "b583466ffbc4eb14fdfde40dab3d308958a644775c7c7113dfef692993703c8d",
+      "bytes": 83601,
+      "indexable": false
+    },
+    {
+      "id": "chronic-cough",
+      "language": "ko",
+      "path": "/conditions/chronic-cough/",
+      "file": "conditions/chronic-cough/index.html",
+      "sha256": "7b14c5b2ec78d325027fd2f2982b4492d16a3a05d5a3b3dfd9a75f689b914383",
+      "bytes": 83295,
+      "indexable": false
+    },
+    {
+      "id": "heart-disease",
+      "language": "ko",
+      "path": "/conditions/heart-disease/",
+      "file": "conditions/heart-disease/index.html",
+      "sha256": "6f6ea1849eee02a06aab64153c0130d62fb630a5552dfbfe83616f15c6fac040",
+      "bytes": 104685,
+      "indexable": false
+    },
+    {
+      "id": "doctors",
+      "language": "ko",
+      "path": "/doctors/",
+      "file": "doctors/index.html",
+      "sha256": "a9d0b0013d3df1305d82f835a91a1905f8a3143aac5b59cb28e18aea3a88f962",
+      "bytes": 54538,
+      "indexable": false
+    },
+    {
+      "id": "doctor-park-jongseol",
+      "language": "ko",
+      "path": "/doctors/park-jongseol/",
+      "file": "doctors/park-jongseol/index.html",
+      "sha256": "14b8c51e3e6c94694bf93e0a4848b38763fe443fd935ea698baa194d5924b96e",
+      "bytes": 66402,
+      "indexable": false
+    },
+    {
+      "id": "doctor-park-rayoung",
+      "language": "ko",
+      "path": "/doctors/park-rayoung/",
+      "file": "doctors/park-rayoung/index.html",
+      "sha256": "c5d1b6ac08a441b922b106dcba51506bced0ec3514273d215b01d7ecaf99be0f",
+      "bytes": 54460,
+      "indexable": false
+    },
+    {
+      "id": "fees",
+      "language": "ko",
+      "path": "/fees/",
+      "file": "fees/index.html",
+      "sha256": "d39e3d1687264ff0e4ca15d68099210d3684690bfa49d1841022a5a95a95f3fc",
+      "bytes": 71895,
+      "indexable": false
+    },
+    {
+      "id": "health",
+      "language": "ko",
+      "path": "/health/",
+      "file": "health/index.html",
+      "sha256": "335a81bb5abfc12e368450fac930dbc487decca98c56d88f3d93a2043676b0f6",
+      "bytes": 70472,
+      "indexable": false
+    },
+    {
+      "id": "checkup-preparation",
+      "language": "ko",
+      "path": "/health/checkup-preparation-checklist/",
+      "file": "health/checkup-preparation-checklist/index.html",
+      "sha256": "1b0013b695ede1280f5a7d28574e5d76861e486df3a9ec35ecd075d277dd5799",
+      "bytes": 102722,
+      "indexable": false
+    },
+    {
+      "id": "colonoscopy-preparation",
+      "language": "ko",
+      "path": "/health/colonoscopy-preparation-questions/",
+      "file": "health/colonoscopy-preparation-questions/index.html",
+      "sha256": "941cf6af3248370c9e377ae0569258ac8e8bdb667a32a412ff2640b05bee5dfe",
+      "bytes": 99339,
+      "indexable": false
+    },
+    {
+      "id": "heart-test-differences",
+      "language": "ko",
+      "path": "/health/heart-test-differences/",
+      "file": "health/heart-test-differences/index.html",
+      "sha256": "fb9464324daebbea92e0bc8f8a9b540b272e89c804ff692b3a455e72c105d5d8",
+      "bytes": 100368,
+      "indexable": false
+    },
+    {
+      "id": "palpitations-followup",
+      "language": "ko",
+      "path": "/health/palpitations-test-followup/",
+      "file": "health/palpitations-test-followup/index.html",
+      "sha256": "4d281282bebbdb2e4007ab731a1e5932ac83445d34d9e6143b0aaf52ae0b30ac",
+      "bytes": 96198,
+      "indexable": false
+    },
+    {
+      "id": "notices",
+      "language": "ko",
+      "path": "/notices/",
+      "file": "notices/index.html",
+      "sha256": "9c56f402f7e0e8bddf8d4ef6c8e59ecf98df37e4d78314c5bca35335af0cfe3a",
+      "bytes": 72770,
+      "indexable": false
+    },
+    {
+      "id": "privacy",
+      "language": "ko",
+      "path": "/privacy/",
+      "file": "privacy/index.html",
+      "sha256": "d9ccccfc374db9e7e2029617ccb7f8d6ebcfd71df94c3019830950aa0fcbe6af",
+      "bytes": 48350,
+      "indexable": false
+    },
+    {
+      "id": "search",
+      "language": "ko",
+      "path": "/search/",
+      "file": "search/index.html",
+      "sha256": "f8b5b478efe22cab5d1ed575d7be95ec7d956f563ad39f3d5e4b043a677ebf38",
+      "bytes": 49272,
+      "indexable": false
+    },
+    {
+      "id": "services",
+      "language": "ko",
+      "path": "/services/",
+      "file": "services/index.html",
+      "sha256": "48b73eda3c32904d56c285bd3189a6d1d97092356c93c8b4ff27bed56950b8ef",
+      "bytes": 79135,
+      "indexable": false
+    },
+    {
+      "id": "cancer-support",
+      "language": "ko",
+      "path": "/services/cancer-support/",
+      "file": "services/cancer-support/index.html",
+      "sha256": "fc1b25fc597594d0ce8bf9feadd5a8ab06e11c23a9da114d90b9a493c35b7e5c",
+      "bytes": 90293,
+      "indexable": false
+    },
+    {
+      "id": "endoscopy",
+      "language": "ko",
+      "path": "/services/endoscopy/",
+      "file": "services/endoscopy/index.html",
+      "sha256": "8b616f505804271377f407758cb66d89f0481f9490a9a0ea60674f0af49020be",
+      "bytes": 80959,
+      "indexable": false
+    },
+    {
+      "id": "colonoscopy",
+      "language": "ko",
+      "path": "/services/endoscopy/colonoscopy/",
+      "file": "services/endoscopy/colonoscopy/index.html",
+      "sha256": "e1a1ed950daf8412b1352adfcff90afcff260ac40ef996a6bd79c8bd9420fa84",
+      "bytes": 96973,
+      "indexable": false
+    },
+    {
+      "id": "gastroscopy",
+      "language": "ko",
+      "path": "/services/endoscopy/gastroscopy/",
+      "file": "services/endoscopy/gastroscopy/index.html",
+      "sha256": "62ba3d7a4a0ac51b6bceb459df8427eb8e98ffa2d1fa22979107915d8833a434",
+      "bytes": 95036,
+      "indexable": false
+    },
+    {
+      "id": "heart-index",
+      "language": "ko",
+      "path": "/services/heart/",
+      "file": "services/heart/index.html",
+      "sha256": "6a9b880a605915920be9a22796b8a60fbcdf821e34d1015aa5c31f7e7bf499c4",
+      "bytes": 103332,
+      "indexable": false
+    },
+    {
+      "id": "abi",
+      "language": "ko",
+      "path": "/services/heart/arterial-assessment/",
+      "file": "services/heart/arterial-assessment/index.html",
+      "sha256": "38b698be13d18b5ab0baf2417595b99d1228b6ce40baad177adbc0a9efdd7dcf",
+      "bytes": 85663,
+      "indexable": false
+    },
+    {
+      "id": "cardiac-markers",
+      "language": "ko",
+      "path": "/services/heart/cardiac-markers/",
+      "file": "services/heart/cardiac-markers/index.html",
+      "sha256": "01217d70485554759f36fd9b719d95f321cbf5d1676f9a329e70d3176884f57d",
+      "bytes": 111400,
+      "indexable": false
+    },
+    {
+      "id": "carotid",
+      "language": "ko",
+      "path": "/services/heart/carotid-ultrasound/",
+      "file": "services/heart/carotid-ultrasound/index.html",
+      "sha256": "f253a50cb6471966edce05231500327ed99f18c52b9a5ada74feb5d8dacd1107",
+      "bytes": 88113,
+      "indexable": false
+    },
+    {
+      "id": "echocardiography",
+      "language": "ko",
+      "path": "/services/heart/echocardiography/",
+      "file": "services/heart/echocardiography/index.html",
+      "sha256": "ce4b7ef6d6b089747d8a66f81f2e0aae288bf7616b8a415edff49d67019bbc7c",
+      "bytes": 102920,
+      "indexable": false
+    },
+    {
+      "id": "hrv",
+      "language": "ko",
+      "path": "/services/heart/heart-rate-variability/",
+      "file": "services/heart/heart-rate-variability/index.html",
+      "sha256": "c0cf842f5ba8e07465a5da013f348e438d7d3c9cc126a651e6b73923a31f6de6",
+      "bytes": 82042,
+      "indexable": false
+    },
+    {
+      "id": "holter",
+      "language": "ko",
+      "path": "/services/heart/holter/",
+      "file": "services/heart/holter/index.html",
+      "sha256": "db6d4b391a71f32c8f4bd6c5de39dc79b3220b389779c1156b881caadb426c5b",
+      "bytes": 98143,
+      "indexable": false
+    },
+    {
+      "id": "ultrasound-index",
+      "language": "ko",
+      "path": "/services/ultrasound/",
+      "file": "services/ultrasound/index.html",
+      "sha256": "97f247680aa728c73191f93acf0ff9e25a1f3872a7acfc4a0b7b8183d4581deb",
+      "bytes": 73409,
+      "indexable": false
+    },
+    {
+      "id": "abdominal-ultrasound",
+      "language": "ko",
+      "path": "/services/ultrasound/abdomen/",
+      "file": "services/ultrasound/abdomen/index.html",
+      "sha256": "a301b2647ba486aabe1867856eef0335588e421a772912d616b1a91bb82c60dc",
+      "bytes": 82596,
+      "indexable": false
+    },
+    {
+      "id": "bowel-ultrasound",
+      "language": "ko",
+      "path": "/services/ultrasound/bowel/",
+      "file": "services/ultrasound/bowel/index.html",
+      "sha256": "9e4adcebd84f084a838e69716e46e25c7349f6a63b9b975216e29627585ae4c0",
+      "bytes": 78616,
+      "indexable": false
+    },
+    {
+      "id": "thyroid-ultrasound",
+      "language": "ko",
+      "path": "/services/ultrasound/thyroid/",
+      "file": "services/ultrasound/thyroid/index.html",
+      "sha256": "3455725e29fbd86ce936c4805ae1b65abdf1e61a60dbd864add4a331a750434e",
+      "bytes": 82085,
+      "indexable": false
+    },
+    {
+      "id": "sitemap",
+      "language": "ko",
+      "path": "/sitemap/",
+      "file": "sitemap/index.html",
+      "sha256": "13eab541a7663ca6c950bc15257c2cf7c45448032f3ba598e5b42be39c19c848",
+      "bytes": 306224,
+      "indexable": false
+    },
+    {
+      "id": "visit",
+      "language": "ko",
+      "path": "/visit/",
+      "file": "visit/index.html",
+      "sha256": "79c986db93dce3fa6fc87eca4962f0ccc5a8450bf4d2e84c1d8398d4052e9fff",
+      "bytes": 73406,
+      "indexable": false
+    },
+    {
+      "id": "examinations",
+      "language": "ko",
+      "path": "/services/examinations/",
+      "file": "services/examinations/index.html",
+      "sha256": "aacebabb302433986575bbc59bb017526a11f5b318679f58c99cb1fab9649b08",
+      "bytes": 94699,
+      "indexable": false
+    },
+    {
+      "id": "civil-service",
+      "language": "ko",
+      "path": "/checkups/civil-service/",
+      "file": "checkups/civil-service/index.html",
+      "sha256": "fe513437c8c5299600e74fa76042a50b60e407d6df51d064d730076437fd6356",
+      "bytes": 81537,
+      "indexable": false
+    },
+    {
+      "id": "fever-during-cancer-treatment",
+      "language": "ko",
+      "path": "/health/fever-during-cancer-treatment/",
+      "file": "health/fever-during-cancer-treatment/index.html",
+      "sha256": "89b683becd3c47de0538fe28949fe679d88a08c4fe7777db42293e8b79e3b1da",
+      "bytes": 72403,
+      "indexable": false
+    },
+    {
+      "id": "cancer-treatment-symptoms",
+      "language": "ko",
+      "path": "/health/cancer-treatment-symptoms/",
+      "file": "health/cancer-treatment-symptoms/index.html",
+      "sha256": "32fb229f9eb5faae4a651999186e46e9ad7b7294a6b818568dedb9d4b6677b60",
+      "bytes": 131498,
+      "indexable": false
+    },
+    {
+      "id": "abdominal-pain",
+      "language": "ko",
+      "path": "/conditions/abdominal-pain/",
+      "file": "conditions/abdominal-pain/index.html",
+      "sha256": "a6c0f0a2faea3ab41d7d56362512fd9ab0785d9904fb4f5ee2dc0747ba7752dc",
+      "bytes": 79858,
+      "indexable": false
+    },
+    {
+      "id": "respiratory-infections",
+      "language": "ko",
+      "path": "/conditions/respiratory-infections/",
+      "file": "conditions/respiratory-infections/index.html",
+      "sha256": "7f4d713850d3cd43bcaff63e53710c4ac7de6260fb42cd2ba43f15b392c6b50e",
+      "bytes": 76754,
+      "indexable": false
+    },
+    {
+      "id": "vaccinations",
+      "language": "ko",
+      "path": "/services/vaccinations/",
+      "file": "services/vaccinations/index.html",
+      "sha256": "2a0cf813c85877fd6a631c7529e91d8801895e32409425fe171f42071d867d99",
+      "bytes": 146275,
+      "indexable": false
+    },
+    {
+      "id": "influenza",
+      "language": "ko",
+      "path": "/conditions/influenza/",
+      "file": "conditions/influenza/index.html",
+      "sha256": "d43c1b8a85d3d331b6f9bff35c814d16c21dbf9b74abfdf3558d8256985870cc",
+      "bytes": 81283,
+      "indexable": false
+    },
+    {
+      "id": "covid-19",
+      "language": "ko",
+      "path": "/conditions/covid-19/",
+      "file": "conditions/covid-19/index.html",
+      "sha256": "085999e4e570be26abac4c305e063e2aa5c1ef81c12fd2173fe9063213839764",
+      "bytes": 90018,
+      "indexable": false
+    },
+    {
+      "id": "orafang-preparation",
+      "language": "ko",
+      "path": "/health/orafang-preparation/",
+      "file": "health/orafang-preparation/index.html",
+      "sha256": "94bfecd71914aabc1fd2349d3fcee7a88176624418a296665bd446045811d2b6",
+      "bytes": 73070,
+      "indexable": false
+    },
+    {
+      "id": "plenvu-preparation",
+      "language": "ko",
+      "path": "/health/plenvu-preparation/",
+      "file": "health/plenvu-preparation/index.html",
+      "sha256": "5c8b9457d9ba99ea6788f043e4c88366cadd544afd7462cc5ddf920b62c46965",
+      "bytes": 78354,
+      "indexable": false
+    },
+    {
+      "id": "after-endoscopy",
+      "language": "ko",
+      "path": "/health/after-endoscopy/",
+      "file": "health/after-endoscopy/index.html",
+      "sha256": "0d5635568bd34f7291a9c54ff75d8af589702be2da55268af26a1a969275cb92",
+      "bytes": 75445,
+      "indexable": false
+    },
+    {
+      "id": "heart-valve-regurgitation",
+      "language": "ko",
+      "path": "/health/heart-valve-regurgitation/",
+      "file": "health/heart-valve-regurgitation/index.html",
+      "sha256": "41c15f77132b6acb8db2a40af1d37e633f5b463e503290f9b4cea4d707037e47",
+      "bytes": 85270,
+      "indexable": false
+    },
+    {
+      "id": "angina-treatment",
+      "language": "ko",
+      "path": "/health/angina-treatment/",
+      "file": "health/angina-treatment/index.html",
+      "sha256": "b438a3faaeb92cd4859c04032b034466283b23495fe9625adaabdabd003f1df3",
+      "bytes": 77073,
+      "indexable": false
+    },
+    {
+      "id": "chronic-disease",
+      "language": "ko",
+      "path": "/conditions/chronic-disease/",
+      "file": "conditions/chronic-disease/index.html",
+      "sha256": "03bca0661fae811a6b8e910f4f3590252444387eacbbd97b84e9f7aa29bd8c61",
+      "bytes": 106501,
+      "indexable": false
+    },
+    {
+      "id": "gallstones",
+      "language": "ko",
+      "path": "/health/gallstones/",
+      "file": "health/gallstones/index.html",
+      "sha256": "f8533654aa5c90c5c1fd91a5f6491927806917cd6bfaa6b425973d1c8bcf644d",
+      "bytes": 63424,
+      "indexable": false
+    },
+    {
+      "id": "cancer-family-history",
+      "language": "ko",
+      "path": "/health/cancer-family-history/",
+      "file": "health/cancer-family-history/index.html",
+      "sha256": "679d414125690d02cbcadbbaa761259585e6b123e3c305f717be2ddd639aef27",
+      "bytes": 78449,
+      "indexable": false
+    },
+    {
+      "id": "liver-disease",
+      "language": "ko",
+      "path": "/conditions/liver-disease/",
+      "file": "conditions/liver-disease/index.html",
+      "sha256": "251bbf72e2cba30c84642864d47a44eb64c05670a36ccb2a9d2fd1172a9dea54",
+      "bytes": 78222,
+      "indexable": false
+    },
+    {
+      "id": "colon-polyp-followup",
+      "language": "ko",
+      "path": "/health/colon-polyp-followup/",
+      "file": "health/colon-polyp-followup/index.html",
+      "sha256": "7952a17bfeebfbad1426c263eb81ccbfed4ba7e239391b3b3ca508591e7e04c1",
+      "bytes": 64959,
+      "indexable": false
+    },
+    {
+      "id": "thyroid-cancer-surveillance",
+      "language": "ko",
+      "path": "/health/thyroid-cancer-surveillance/",
+      "file": "health/thyroid-cancer-surveillance/index.html",
+      "sha256": "6028324ddc2a7e264b7002310856315931f24aa7601bbe78ec1756744f6221b2",
+      "bytes": 64144,
+      "indexable": false
+    },
+    {
+      "id": "obesity-medication",
+      "language": "ko",
+      "path": "/health/obesity-medication/",
+      "file": "health/obesity-medication/index.html",
+      "sha256": "e5c5de314243848055127d11f3f86e41a1cc67ea98a73d0f4d4ddde5f3549bfd",
+      "bytes": 79953,
+      "indexable": false
+    },
+    {
+      "id": "visa-en",
+      "language": "en",
+      "translationOf": "visa-checkup",
+      "path": "/en/checkups/visa/",
+      "file": "en/checkups/visa/index.html",
+      "sha256": "7108c677c5fb40b8a0f819ffd1f82cfecdc17c17cb089f090cbd2fb609abea0c",
+      "bytes": 49952,
+      "indexable": false
+    },
+    {
+      "id": "visa-zh-hans",
+      "language": "zh-Hans",
+      "translationOf": "visa-checkup",
+      "path": "/zh-hans/checkups/visa/",
+      "file": "zh-hans/checkups/visa/index.html",
+      "sha256": "c519ee3e16c22744dbf9437fbee09ab19650d76a33c6458e8f083b55b51ae060",
+      "bytes": 49151,
+      "indexable": false
+    },
+    {
+      "id": "visa-th",
+      "language": "th",
+      "translationOf": "visa-checkup",
+      "path": "/th/checkups/visa/",
+      "file": "th/checkups/visa/index.html",
+      "sha256": "cdb4602e3ab72968e3f5ef36ed58ad57f436337385c6ef8eab111f38adac45da",
+      "bytes": 65900,
+      "indexable": false
+    },
+    {
+      "id": "visa-ru",
+      "language": "ru",
+      "translationOf": "visa-checkup",
+      "path": "/ru/checkups/visa/",
+      "file": "ru/checkups/visa/index.html",
+      "sha256": "7870f4c19a56fd72511912b7b5108462af578a8ef502314913fea1c9550e7efb",
+      "bytes": 58765,
+      "indexable": false
+    },
+    {
+      "id": "visa-ne",
+      "language": "ne",
+      "translationOf": "visa-checkup",
+      "path": "/ne/checkups/visa/",
+      "file": "ne/checkups/visa/index.html",
+      "sha256": "b031ee76cf6e824fc22d0aece220981fa8d623f2c2f37839593553f9a021dc0d",
+      "bytes": 64925,
+      "indexable": false
+    },
+    {
+      "id": "symptoms",
+      "language": "ko",
+      "path": "/symptoms/",
+      "file": "symptoms/index.html",
+      "sha256": "6443931ed5e4d8c97eb0efede6a0e0635394504cbf5637537c81f7b90c6c8d58",
+      "bytes": 167482,
+      "indexable": false
+    },
+    {
+      "id": "diseases",
+      "language": "ko",
+      "path": "/diseases/",
+      "file": "diseases/index.html",
+      "sha256": "109478f18c11137675dd73bcb5c517f49b2c09460654287d0a5b36c1dc644607",
+      "bytes": 219104,
+      "indexable": false
+    },
+    {
+      "id": "preparation",
+      "language": "ko",
+      "path": "/preparation/",
+      "file": "preparation/index.html",
+      "sha256": "72205ad9a8ea571a5f5afa8f9665a510f78fa62c79a5e2cc3bd038fb246e5b65",
+      "bytes": 77360,
+      "indexable": false
+    },
+    {
+      "id": "cardio-hypertension",
+      "language": "ko",
+      "path": "/diseases/cardio/hypertension/",
+      "file": "diseases/cardio/hypertension/index.html",
+      "sha256": "b386291f176e02db2da86e7265166e64e4e904bc0e996dad3cd4a26454055588",
+      "bytes": 90917,
+      "indexable": false
+    },
+    {
+      "id": "cardio-dyslipidemia",
+      "language": "ko",
+      "path": "/diseases/cardio/dyslipidemia/",
+      "file": "diseases/cardio/dyslipidemia/index.html",
+      "sha256": "b630403d54310da918483b1624189a8f38ee3bf3a4ab90a5515338016069466b",
+      "bytes": 91724,
+      "indexable": false
+    },
+    {
+      "id": "cardio-atherosclerosis",
+      "language": "ko",
+      "path": "/diseases/cardio/atherosclerosis/",
+      "file": "diseases/cardio/atherosclerosis/index.html",
+      "sha256": "582f533c2ad74fe9f1bb2275cd535c84e4ef4c08be0b9427d9478d751f925f01",
+      "bytes": 88770,
+      "indexable": false
+    },
+    {
+      "id": "cardio-stable-angina",
+      "language": "ko",
+      "path": "/diseases/cardio/stable-angina/",
+      "file": "diseases/cardio/stable-angina/index.html",
+      "sha256": "8ad0d71c24b0d0c332c7be53c669d42bf43101f99815c60107da6476f7799f4b",
+      "bytes": 91787,
+      "indexable": false
+    },
+    {
+      "id": "cardio-acute-myocardial-infarction",
+      "language": "ko",
+      "path": "/diseases/cardio/acute-myocardial-infarction/",
+      "file": "diseases/cardio/acute-myocardial-infarction/index.html",
+      "sha256": "b2026b7cf336511449074097bc0fd6858cf5231d20d8ec13c8ec879ea45200f3",
+      "bytes": 92702,
+      "indexable": false
+    },
+    {
+      "id": "cardio-heart-failure",
+      "language": "ko",
+      "path": "/diseases/cardio/heart-failure/",
+      "file": "diseases/cardio/heart-failure/index.html",
+      "sha256": "edaa4a2bf9b8d67a61e6be1da345408e04a6492ac539c9a18c56011f1b04a5a6",
+      "bytes": 95089,
+      "indexable": false
+    },
+    {
+      "id": "cardio-atrial-fibrillation",
+      "language": "ko",
+      "path": "/diseases/cardio/atrial-fibrillation/",
+      "file": "diseases/cardio/atrial-fibrillation/index.html",
+      "sha256": "95ada7e87c43d1f331e944697de500de81dc8aee4fcef1c3e5a5cba298fb7b82",
+      "bytes": 94314,
+      "indexable": false
+    },
+    {
+      "id": "cardio-supraventricular-tachycardia",
+      "language": "ko",
+      "path": "/diseases/cardio/supraventricular-tachycardia/",
+      "file": "diseases/cardio/supraventricular-tachycardia/index.html",
+      "sha256": "38bbf098e55ce8da192d2a6c7445f7e12a97bad18d91272dc86034b46eb7afb2",
+      "bytes": 90032,
+      "indexable": false
+    },
+    {
+      "id": "cardio-premature-ventricular-contractions",
+      "language": "ko",
+      "path": "/diseases/cardio/premature-ventricular-contractions/",
+      "file": "diseases/cardio/premature-ventricular-contractions/index.html",
+      "sha256": "4cde2ed1181a808922461872a0e6d45139e3be9c577effae6eae50931a1fbb57",
+      "bytes": 91498,
+      "indexable": false
+    },
+    {
+      "id": "cardio-bradyarrhythmia",
+      "language": "ko",
+      "path": "/diseases/cardio/bradyarrhythmia/",
+      "file": "diseases/cardio/bradyarrhythmia/index.html",
+      "sha256": "7f2f0089f60a4085d55886147bd21bf08b2e9b26e45050504b02dd233912828a",
+      "bytes": 91161,
+      "indexable": false
+    },
+    {
+      "id": "cardio-mitral-regurgitation",
+      "language": "ko",
+      "path": "/diseases/cardio/mitral-regurgitation/",
+      "file": "diseases/cardio/mitral-regurgitation/index.html",
+      "sha256": "c42d31e267ce8a77c59b1f23c34df0bacfe422ac72ded0e69ab92dae9752a281",
+      "bytes": 98689,
+      "indexable": false
+    },
+    {
+      "id": "cardio-aortic-stenosis",
+      "language": "ko",
+      "path": "/diseases/cardio/aortic-stenosis/",
+      "file": "diseases/cardio/aortic-stenosis/index.html",
+      "sha256": "e4ec3a961a55f0eecdf1472f1669da99c301231ac8ff09104978c576d88ff4f0",
+      "bytes": 87284,
+      "indexable": false
+    },
+    {
+      "id": "cardio-myocarditis",
+      "language": "ko",
+      "path": "/diseases/cardio/myocarditis/",
+      "file": "diseases/cardio/myocarditis/index.html",
+      "sha256": "5d229323163566caa4b00b2b30ed388197c6d74b9a7b5e032aab27bd3b83aa4b",
+      "bytes": 87616,
+      "indexable": false
+    },
+    {
+      "id": "cardio-pericarditis",
+      "language": "ko",
+      "path": "/diseases/cardio/pericarditis/",
+      "file": "diseases/cardio/pericarditis/index.html",
+      "sha256": "e8b04ff7cd6ca0132b97f08be1026c71ec7715de3ada347ec99b3d6d0fad70dc",
+      "bytes": 86617,
+      "indexable": false
+    },
+    {
+      "id": "cardio-dilated-cardiomyopathy",
+      "language": "ko",
+      "path": "/diseases/cardio/dilated-cardiomyopathy/",
+      "file": "diseases/cardio/dilated-cardiomyopathy/index.html",
+      "sha256": "e5e87f060b01582700a730a7bc17680870449ad5383ab76536a47cbc6aed75b0",
+      "bytes": 88313,
+      "indexable": false
+    },
+    {
+      "id": "cardio-carotid-stenosis",
+      "language": "ko",
+      "path": "/diseases/cardio/carotid-stenosis/",
+      "file": "diseases/cardio/carotid-stenosis/index.html",
+      "sha256": "437462d4791508bf5097feccb0b6c78a3a46253b4faf88abfa4deeaa281fe6e6",
+      "bytes": 87410,
+      "indexable": false
+    },
+    {
+      "id": "cardio-peripheral-artery-disease",
+      "language": "ko",
+      "path": "/diseases/cardio/peripheral-artery-disease/",
+      "file": "diseases/cardio/peripheral-artery-disease/index.html",
+      "sha256": "a84739d7836963cdff7411358bd0afb7a942be4af9d828bb79f1263da3c08e5f",
+      "bytes": 87368,
+      "indexable": false
+    },
+    {
+      "id": "cardio-deep-vein-thrombosis",
+      "language": "ko",
+      "path": "/diseases/cardio/deep-vein-thrombosis/",
+      "file": "diseases/cardio/deep-vein-thrombosis/index.html",
+      "sha256": "bfdf6d880963d88c9ef45d6ea1c62aa5452eb08e0d073adb487ffee6a62b02de",
+      "bytes": 89092,
+      "indexable": false
+    },
+    {
+      "id": "cardio-aortic-aneurysm-dissection",
+      "language": "ko",
+      "path": "/diseases/cardio/aortic-aneurysm-dissection/",
+      "file": "diseases/cardio/aortic-aneurysm-dissection/index.html",
+      "sha256": "262ccff74c3eed58afc17d0fb7d5720da5e574b7bf5334a67d9098784efa08e0",
+      "bytes": 89424,
+      "indexable": false
+    },
+    {
+      "id": "cardio-orthostatic-hypotension",
+      "language": "ko",
+      "path": "/diseases/cardio/orthostatic-hypotension/",
+      "file": "diseases/cardio/orthostatic-hypotension/index.html",
+      "sha256": "53b95a3edc6127bb0b09bb6daf6238e4dbbedfda93866ba7a60aea6e9dad1be9",
+      "bytes": 89730,
+      "indexable": false
+    },
+    {
+      "id": "digestive-disease",
+      "language": "ko",
+      "path": "/conditions/digestive/",
+      "file": "conditions/digestive/index.html",
+      "sha256": "e829b4b880eacb449dcc4e15f4e05bd289f49e76eb03b434d07ab8559c41fe3c",
+      "bytes": 74224,
+      "indexable": false
+    },
+    {
+      "id": "esophagus-stomach",
+      "language": "ko",
+      "path": "/conditions/digestive/esophagus-stomach/",
+      "file": "conditions/digestive/esophagus-stomach/index.html",
+      "sha256": "4bad40fee4cb21ea7397106bf9550d781f5757ca1d36deeed0674a7528918b92",
+      "bytes": 70586,
+      "indexable": false
+    },
+    {
+      "id": "bowel-appendix",
+      "language": "ko",
+      "path": "/conditions/digestive/bowel-appendix/",
+      "file": "conditions/digestive/bowel-appendix/index.html",
+      "sha256": "7dfd497a4fe0624f422f14af15f4d55966be687d55f8855f64daff4f0c8422fa",
+      "bytes": 69796,
+      "indexable": false
+    },
+    {
+      "id": "biliary-disease",
+      "language": "ko",
+      "path": "/conditions/digestive/gallbladder-bile-duct/",
+      "file": "conditions/digestive/gallbladder-bile-duct/index.html",
+      "sha256": "bfc0d37193ceae9bddf3dc4df2afffc822a324301f1a7cb4f51d1332d7fae280",
+      "bytes": 68762,
+      "indexable": false
+    },
+    {
+      "id": "pancreatic-disease",
+      "language": "ko",
+      "path": "/conditions/digestive/pancreas/",
+      "file": "conditions/digestive/pancreas/index.html",
+      "sha256": "6909d83b4ca04bde1b79063c63c03aaf52fe104098f8e868a32259bd6fc12db9",
+      "bytes": 67859,
+      "indexable": false
+    },
+    {
+      "id": "neck-disease",
+      "language": "ko",
+      "path": "/conditions/thyroid-carotid-neck/",
+      "file": "conditions/thyroid-carotid-neck/index.html",
+      "sha256": "ac1d5a8e7ed2d253dcc1f4e9e0c2a7e646ee916835cdfce782ddb9bb6cc01d5e",
+      "bytes": 67101,
+      "indexable": false
+    },
+    {
+      "id": "thyroid-disease",
+      "language": "ko",
+      "path": "/conditions/thyroid-carotid-neck/thyroid/",
+      "file": "conditions/thyroid-carotid-neck/thyroid/index.html",
+      "sha256": "7c2164678f8826fbd1cc5ec4edf87ad01995c23ab29edf94d2666ecb9570681e",
+      "bytes": 72794,
+      "indexable": false
+    },
+    {
+      "id": "carotid-disease",
+      "language": "ko",
+      "path": "/conditions/thyroid-carotid-neck/carotid/",
+      "file": "conditions/thyroid-carotid-neck/carotid/index.html",
+      "sha256": "81ce8ed91845b18d0d222fe7f85adda79ac3dbf74e62dda5b377d928941d273a",
+      "bytes": 70223,
+      "indexable": false
+    },
+    {
+      "id": "neck-lump",
+      "language": "ko",
+      "path": "/conditions/thyroid-carotid-neck/neck-lump/",
+      "file": "conditions/thyroid-carotid-neck/neck-lump/index.html",
+      "sha256": "097242d0a8050dce1a4918b3a191abb468c5c2f9c4eefaf755d4caae7754c725",
+      "bytes": 70999,
+      "indexable": false
+    },
+    {
+      "id": "kidney-disease",
+      "language": "ko",
+      "path": "/conditions/kidney/",
+      "file": "conditions/kidney/index.html",
+      "sha256": "ab3dc27850a223a91b4ec1b7a5a8972017a127450e2899fc4a678fd9cd4a2e0a",
+      "bytes": 71398,
+      "indexable": false
+    },
+    {
+      "id": "kidney-function",
+      "language": "ko",
+      "path": "/conditions/kidney/function/",
+      "file": "conditions/kidney/function/index.html",
+      "sha256": "ddcb9f541102fa0674f91823241b6da85dd4ba50bc4d354adbeb34c56850f8fd",
+      "bytes": 73942,
+      "indexable": false
+    },
+    {
+      "id": "pyelonephritis",
+      "language": "ko",
+      "path": "/conditions/kidney/pyelonephritis/",
+      "file": "conditions/kidney/pyelonephritis/index.html",
+      "sha256": "fea63d276cc986d4fb9fec5c8981a027898bf66f17816f494ef0d51f532eec54",
+      "bytes": 70356,
+      "indexable": false
+    },
+    {
+      "id": "hydronephrosis",
+      "language": "ko",
+      "path": "/conditions/kidney/hydronephrosis/",
+      "file": "conditions/kidney/hydronephrosis/index.html",
+      "sha256": "3afaa294e53171bb5492044c6de7d65fc3d71d9cb9e6bbdac81b88e91c78afa1",
+      "bytes": 69047,
+      "indexable": false
+    },
+    {
+      "id": "ambulatory-blood-pressure",
+      "language": "ko",
+      "path": "/services/heart/ambulatory-blood-pressure/",
+      "file": "services/heart/ambulatory-blood-pressure/index.html",
+      "sha256": "4c2160d336b0f63a85e5c4ac04485b7cd4532f1a6d6b7766b486738d27019b40",
+      "bytes": 79907,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-chest-pressure-sweating",
+      "language": "ko",
+      "path": "/symptoms/cardio/chest-pressure-sweating/",
+      "file": "symptoms/cardio/chest-pressure-sweating/index.html",
+      "sha256": "ca0d52d1c4fbeea4e926f5f57f762cd4f395e47d2afabe489edae3dcce68bf8e",
+      "bytes": 69872,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-chest-tightness-causes",
+      "language": "ko",
+      "path": "/symptoms/cardio/chest-tightness-causes/",
+      "file": "symptoms/cardio/chest-tightness-causes/index.html",
+      "sha256": "e647614e8b2d69a02eab68e70fac0e05f257f938d4218bad4ee80d11b633f034",
+      "bytes": 71975,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-epigastric-pain-heart",
+      "language": "ko",
+      "path": "/symptoms/cardio/epigastric-pain-heart/",
+      "file": "symptoms/cardio/epigastric-pain-heart/index.html",
+      "sha256": "b37d2fb6d67e921ba43df7ed93ad2b2dcccef40a0f421353db27f80a7b0f20cd",
+      "bytes": 65897,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-exertional-chest-pain",
+      "language": "ko",
+      "path": "/symptoms/cardio/exertional-chest-pain/",
+      "file": "symptoms/cardio/exertional-chest-pain/index.html",
+      "sha256": "0765f31897ecd43b6a6adbc279935be1bc79be2b311690723b7a005df24c0dcf",
+      "bytes": 71209,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-recurrent-palpitations-normal-ecg",
+      "language": "ko",
+      "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+      "file": "symptoms/cardio/recurrent-palpitations-normal-ecg/index.html",
+      "sha256": "eb651ad3122bc658162630525a9dcfeca7ac5bbd7bbcdfadb397b7d83756c917",
+      "bytes": 71573,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-irregular-skipped-heartbeat",
+      "language": "ko",
+      "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+      "file": "symptoms/cardio/irregular-skipped-heartbeat/index.html",
+      "sha256": "ec3adaf4b5b5c4e7f1c5ef2ea5ded1fed0ac87dcd3115075db918277dd96653d",
+      "bytes": 72794,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-rapid-heart-rate",
+      "language": "ko",
+      "path": "/symptoms/cardio/rapid-heart-rate/",
+      "file": "symptoms/cardio/rapid-heart-rate/index.html",
+      "sha256": "db0bc04137b1c9398cb8a22e47fd7f8994c137222cee20d8dbdce6520798ae79",
+      "bytes": 70356,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-slow-heart-rate-dizziness",
+      "language": "ko",
+      "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+      "file": "symptoms/cardio/slow-heart-rate-dizziness/index.html",
+      "sha256": "24cbb59210d0962d13cdbeaef0f6be02e7a514a0e7b3c632cd370baad93a03d4",
+      "bytes": 71150,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-presyncope-cardiac-evaluation",
+      "language": "ko",
+      "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+      "file": "symptoms/cardio/presyncope-cardiac-evaluation/index.html",
+      "sha256": "18230ef413a310009f645369be74afc78f679b52bb41b35e2e5e209f28f5120f",
+      "bytes": 70208,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-syncope-emergency",
+      "language": "ko",
+      "path": "/symptoms/cardio/syncope-emergency/",
+      "file": "symptoms/cardio/syncope-emergency/index.html",
+      "sha256": "52d13734ca810b1b99c1d61b3f4566266bdf3e1eac47a209de92c7a3ed2fb667",
+      "bytes": 65609,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-exertional-dyspnea",
+      "language": "ko",
+      "path": "/symptoms/cardio/exertional-dyspnea/",
+      "file": "symptoms/cardio/exertional-dyspnea/index.html",
+      "sha256": "70249e8b464fee570ded327bb97d0acb1e80975e5d80e497d4b9bfc3f45f396a",
+      "bytes": 71161,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-orthopnea-leg-edema",
+      "language": "ko",
+      "path": "/symptoms/cardio/orthopnea-leg-edema/",
+      "file": "symptoms/cardio/orthopnea-leg-edema/index.html",
+      "sha256": "12a6e938980925e7aa98bfabbb7706e1abf5ae56a40406cbdc3a3eac2babf30e",
+      "bytes": 68263,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-leg-edema-dyspnea",
+      "language": "ko",
+      "path": "/symptoms/cardio/leg-edema-dyspnea/",
+      "file": "symptoms/cardio/leg-edema-dyspnea/index.html",
+      "sha256": "2ca274ffe13f2cfd3ef42008b047fd495571b8f0ba9e28aec6a5eb49739d2e76",
+      "bytes": 72151,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-rapid-weight-gain-edema",
+      "language": "ko",
+      "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+      "file": "symptoms/cardio/rapid-weight-gain-edema/index.html",
+      "sha256": "2119f04fec3804088604cd753680cffeb8a65b047999d59a0dc9ae033c1cfc20",
+      "bytes": 70813,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-fatigue-exercise-intolerance",
+      "language": "ko",
+      "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+      "file": "symptoms/cardio/fatigue-exercise-intolerance/index.html",
+      "sha256": "4946ac5135269c57079c4d667f7cb6fbc96fe5d2afb39d3f722cc42f2d715ce5",
+      "bytes": 72582,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-blood-pressure-180",
+      "language": "ko",
+      "path": "/symptoms/cardio/blood-pressure-180/",
+      "file": "symptoms/cardio/blood-pressure-180/index.html",
+      "sha256": "793418d9f65e08e3cd9e162e01d1cc2b4106dec21a5abf4d7d652798c6787b7d",
+      "bytes": 68130,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-orthostatic-dizziness-low-bp",
+      "language": "ko",
+      "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+      "file": "symptoms/cardio/orthostatic-dizziness-low-bp/index.html",
+      "sha256": "91bb419962df7bf42e7cc92c2b799271a8349448327b0eec36dbfa23e66de688",
+      "bytes": 67362,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-valve-regurgitation-follow-up",
+      "language": "ko",
+      "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+      "file": "symptoms/cardio/valve-regurgitation-follow-up/index.html",
+      "sha256": "9cdf361fa2dc7196b6685cedb98d3d92be69e683bc3b0972d23cae04dcde0fef",
+      "bytes": 71115,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-family-history-heart-disease",
+      "language": "ko",
+      "path": "/symptoms/cardio/family-history-heart-disease/",
+      "file": "symptoms/cardio/family-history-heart-disease/index.html",
+      "sha256": "ad773c19e12aa3999f656db96de3414150543485ab3bbb42e74238ecc7d413ee",
+      "bytes": 69464,
+      "indexable": false
+    },
+    {
+      "id": "symptom-cardio-radiating-chest-pain-119",
+      "language": "ko",
+      "path": "/symptoms/cardio/radiating-chest-pain-119/",
+      "file": "symptoms/cardio/radiating-chest-pain-119/index.html",
+      "sha256": "bb347036d1b44546b04e4f9267ed0993f07e74e81ff23281778d277a8b11d4b2",
+      "bytes": 71171,
+      "indexable": false
+    },
+    {
+      "id": "copyright-policy",
+      "language": "ko",
+      "path": "/copyright/",
+      "file": "copyright/index.html",
+      "sha256": "5c6e0161b7ea8af698d7957da1a6349f86044a12797774404679afdd14df35f7",
+      "bytes": 51402,
+      "indexable": false
+    },
+    {
+      "id": "notice-2026-hpv-national",
+      "language": "ko",
+      "path": "/notices/2026-hpv/",
+      "file": "notices/2026-hpv/index.html",
+      "sha256": "77d4077db0a19cf0d380c08152423ee2892508d312d708bd7c1c0814656e1341",
+      "bytes": 56500,
+      "indexable": false
+    },
+    {
+      "id": "notice-2026-pneumococcal-65plus",
+      "language": "ko",
+      "path": "/notices/2026-pneumococcal/",
+      "file": "notices/2026-pneumococcal/index.html",
+      "sha256": "1c3ed83cbf3bbfd1ac0d03874c6c91651adc7d975580a69fac94cf8e24428010",
+      "bytes": 55136,
+      "indexable": false
+    },
+    {
+      "id": "notice-2026-2027-national-influenza",
+      "language": "ko",
+      "path": "/notices/2026-2027-influenza/",
+      "file": "notices/2026-2027-influenza/index.html",
+      "sha256": "829f498ffe3cbf580416d76f7ee03b2f6f5ad00cd632908b10cb520254e485ec",
+      "bytes": 66772,
+      "indexable": false
+    },
+    {
+      "id": "notice-2026-suwon-shingles-support",
+      "language": "ko",
+      "path": "/notices/2026-suwon-shingles/",
+      "file": "notices/2026-suwon-shingles/index.html",
+      "sha256": "bd71465acf8d8807341fca9581463f20bf29c9a794a5414e99167560488a5799",
+      "bytes": 59518,
+      "indexable": false
+    },
+    {
+      "id": "notice-2026-gyeonggi-student-influenza",
+      "language": "ko",
+      "path": "/notices/2026-gyeonggi-student-influenza/",
+      "file": "notices/2026-gyeonggi-student-influenza/index.html",
+      "sha256": "075ada516167f4695fda230079dde5df162335e5f27b5e05aedbccbcf595f0a8",
+      "bytes": 60191,
+      "indexable": false
+    },
+    {
+      "id": "notice-2026-09-17-infection-guide",
+      "language": "ko",
+      "path": "/notices/2026-09-17-infection-guide/",
+      "file": "notices/2026-09-17-infection-guide/index.html",
+      "sha256": "b22695a4b688ff7c229948340e28ef1d7f28ba5da6bdd12a3f04bc76df38d9b7",
+      "bytes": 97315,
+      "indexable": false
+    }
+  ]
+}

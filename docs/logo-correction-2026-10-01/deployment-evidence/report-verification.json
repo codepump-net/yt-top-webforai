@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-01T06:27:32.320Z",
+  "results": [
+    {
+      "width": 390,
+      "images": 44,
+      "brokenImages": 0,
+      "overflow": false,
+      "deploymentSection": true,
+      "rows": 21
+    },
+    {
+      "width": 1440,
+      "images": 44,
+      "brokenImages": 0,
+      "overflow": false,
+      "deploymentSection": true,
+      "rows": 21
+    }
+  ]
+}

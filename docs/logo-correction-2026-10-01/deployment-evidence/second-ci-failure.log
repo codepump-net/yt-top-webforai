@@ -1,0 +1,232 @@
+Validate (project)	Run npm ci	﻿2026-10-01T06:13:56.2558415Z ##[group]Run npm ci
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2558858Z ^[[36;1mnpm ci^[[0m
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2816539Z shell: /usr/bin/bash -e {0}
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2816864Z env:
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2817112Z   CI: true
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2817331Z   NEXT_TELEMETRY_DISABLED: 1
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2817626Z   SITE_ORIGIN: https://codepump-net.github.io
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2817915Z   SITE_BASE_PATH: /yt-top-webforai
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2818143Z   BUILD_MODE: review
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2818455Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2818847Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2819214Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2819558Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2819867Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2820239Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+Validate (project)	Run npm ci	2026-10-01T06:13:56.2820522Z ##[endgroup]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0407950Z npm error code EUSAGE
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0449804Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0450925Z npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0451644Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0451948Z npm error Missing: @emnapi/core@1.11.3 from lock file
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0452319Z npm error Missing: @emnapi/runtime@1.11.3 from lock file
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0452662Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0452896Z npm error Clean install a project
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0453167Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0453367Z npm error Usage:
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0453623Z npm error npm ci
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0453841Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0454067Z npm error Options:
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0454462Z npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0454972Z npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0455504Z npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0455976Z npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0456435Z npm error [--allow-directory <all|none|root>] [--allow-file <all|none|root>]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0456922Z npm error [--allow-git <all|none|root>] [--allow-remote <all|none|root>]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0457529Z npm error [--allow-scripts <package-list> [--allow-scripts <package-list> ...]]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0458086Z npm error [--strict-allow-scripts] [--dangerously-allow-all-scripts] [--no-audit]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0458511Z npm error [--no-bin-links] [--no-fund] [--dry-run]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0458975Z npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0459440Z npm error [--workspaces] [--include-workspace-root] [--install-links]
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0459798Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0460064Z npm error   --install-strategy
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0460425Z npm error     Sets the strategy for installing packages in node_modules.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0460752Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0461233Z npm error   --legacy-bundling
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0461771Z npm error     Instead of hoisting package installs in `node_modules`, install packages
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0462137Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0462364Z npm error   --global-style
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0462769Z npm error     Only install direct dependencies in the top level `node_modules`,
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0463113Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0463335Z npm error   --omit
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0463666Z npm error     Dependency types to omit from the installation tree on disk.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0464229Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0464428Z npm error   --include
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0464818Z npm error     Option that allows for defining which types of dependencies to install.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0465166Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0465539Z npm error   --strict-peer-deps
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0465922Z npm error     If set to `true`, and `--legacy-peer-deps` is not set, then _any_
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0466252Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0466530Z npm error   --foreground-scripts
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0466876Z npm error     Run all build scripts (ie, `preinstall`, `install`, and
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0467191Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0467424Z npm error   --ignore-scripts
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0467803Z npm error     If true, npm does not run scripts specified in package.json files.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0468154Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0468375Z npm error   --allow-directory
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0468757Z npm error     Limits the ability for npm to install dependencies from directories.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0469090Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0469304Z npm error   --allow-file
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0469720Z npm error     Limits the ability for npm to install dependencies from tarball files.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0470091Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0470303Z npm error   --allow-git
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0470673Z npm error     Limits the ability for npm to fetch dependencies from git references.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0471125Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0471398Z npm error   --allow-remote
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0471747Z npm error     Limits the ability for npm to fetch dependencies from urls.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0472053Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0472279Z npm error   --allow-scripts
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0472655Z npm error     Comma-separated list of packages whose install-time lifecycle scripts
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0473007Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0473273Z npm error   --strict-allow-scripts
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0473740Z npm error     If `true`, turn the install-script policy from a warning into a hard
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0474101Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0474350Z npm error   --dangerously-allow-all-scripts
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0474795Z npm error     If `true`, bypass the `allowScripts` policy entirely and run every
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0475110Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0475319Z npm error   --audit
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0475695Z npm error     When "true" submit audit reports alongside the current npm command to the
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0476027Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0476298Z npm error   --bin-links
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0476659Z npm error     Tells npm to create symlinks (or `.cmd` shims on Windows) for package
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0476987Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0477204Z npm error   --fund
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0477542Z npm error     When "true" displays the message at the end of each `npm install`
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0477883Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0478120Z npm error   --dry-run
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0478498Z npm error     Indicates that you don't want npm to make any changes and that it should
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0478838Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0479073Z npm error   -w|--workspace
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0479459Z npm error     Enable running a command in the context of the configured workspaces of the
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0479820Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0480029Z npm error   --workspaces
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0480397Z npm error     Set to true to run the command in the context of **all** configured
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0480861Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0481138Z npm error   --include-workspace-root
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0481523Z npm error     Include the workspace root when workspaces are enabled for a command.
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0481879Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0482108Z npm error   --install-links
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0482500Z npm error     When set file: protocol dependencies will be packed and installed as
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0482832Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0483026Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0483469Z npm error aliases: clean-install, ic, install-clean, isntall-clean
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0483780Z npm error
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0484044Z npm error Run "npm help ci" for more info
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0484530Z npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-01T06_13_56_324Z-debug-0.log
+Validate (project)	Run npm ci	2026-10-01T06:13:57.0620501Z ##[error]Process completed with exit code 1.
+Validate (root)	Run npm ci	﻿2026-10-01T06:13:57.2129229Z ##[group]Run npm ci
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2129859Z ^[[36;1mnpm ci^[[0m
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2445325Z shell: /usr/bin/bash -e {0}
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2445704Z env:
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2445924Z   CI: true
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2446135Z   NEXT_TELEMETRY_DISABLED: 1
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2446469Z   SITE_ORIGIN: https://codepump-net.github.io
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2446816Z   SITE_BASE_PATH:
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2447033Z   BUILD_MODE: review
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2447332Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2447823Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2448338Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2473762Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2474490Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2475146Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+Validate (root)	Run npm ci	2026-10-01T06:13:57.2475746Z ##[endgroup]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2730812Z npm error code EUSAGE
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2767473Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2769874Z npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2771296Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2771689Z npm error Missing: @emnapi/core@1.11.3 from lock file
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2772157Z npm error Missing: @emnapi/runtime@1.11.3 from lock file
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2772480Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2772743Z npm error Clean install a project
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2773002Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2773193Z npm error Usage:
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2773409Z npm error npm ci
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2773654Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2773860Z npm error Options:
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2774337Z npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2775043Z npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2775751Z npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2776415Z npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2777009Z npm error [--allow-directory <all|none|root>] [--allow-file <all|none|root>]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2777585Z npm error [--allow-git <all|none|root>] [--allow-remote <all|none|root>]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2778181Z npm error [--allow-scripts <package-list> [--allow-scripts <package-list> ...]]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2778827Z npm error [--strict-allow-scripts] [--dangerously-allow-all-scripts] [--no-audit]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2779677Z npm error [--no-bin-links] [--no-fund] [--dry-run]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2780639Z npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2781658Z npm error [--workspaces] [--include-workspace-root] [--install-links]
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2782116Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2782404Z npm error   --install-strategy
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2782849Z npm error     Sets the strategy for installing packages in node_modules.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2783216Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2783436Z npm error   --legacy-bundling
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2783999Z npm error     Instead of hoisting package installs in `node_modules`, install packages
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2784414Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2784628Z npm error   --global-style
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2785076Z npm error     Only install direct dependencies in the top level `node_modules`,
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2785467Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2785668Z npm error   --omit
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2786069Z npm error     Dependency types to omit from the installation tree on disk.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2786682Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2786891Z npm error   --include
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2787349Z npm error     Option that allows for defining which types of dependencies to install.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2787769Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2788200Z npm error   --strict-peer-deps
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2788655Z npm error     If set to `true`, and `--legacy-peer-deps` is not set, then _any_
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2789036Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2789525Z npm error   --foreground-scripts
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2790008Z npm error     Run all build scripts (ie, `preinstall`, `install`, and
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2790377Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2790595Z npm error   --ignore-scripts
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2791054Z npm error     If true, npm does not run scripts specified in package.json files.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2791439Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2791660Z npm error   --allow-directory
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2792125Z npm error     Limits the ability for npm to install dependencies from directories.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2792529Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2792736Z npm error   --allow-file
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2793190Z npm error     Limits the ability for npm to install dependencies from tarball files.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2793590Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2793800Z npm error   --allow-git
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2794249Z npm error     Limits the ability for npm to fetch dependencies from git references.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2794647Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2794860Z npm error   --allow-remote
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2795276Z npm error     Limits the ability for npm to fetch dependencies from urls.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2795643Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2795859Z npm error   --allow-scripts
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2796332Z npm error     Comma-separated list of packages whose install-time lifecycle scripts
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2796741Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2797057Z npm error   --strict-allow-scripts
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2797550Z npm error     If `true`, turn the install-script policy from a warning into a hard
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2797971Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2798246Z npm error   --dangerously-allow-all-scripts
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2798744Z npm error     If `true`, bypass the `allowScripts` policy entirely and run every
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2799132Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2799610Z npm error   --audit
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2800100Z npm error     When "true" submit audit reports alongside the current npm command to the
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2800517Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2800728Z npm error   --bin-links
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2801179Z npm error     Tells npm to create symlinks (or `.cmd` shims on Windows) for package
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2801566Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2801768Z npm error   --fund
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2802185Z npm error     When "true" displays the message at the end of each `npm install`
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2802573Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2802776Z npm error   --dry-run
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2803245Z npm error     Indicates that you don't want npm to make any changes and that it should
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2803665Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2803884Z npm error   -w|--workspace
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2804377Z npm error     Enable running a command in the context of the configured workspaces of the
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2804815Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2805023Z npm error   --workspaces
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2805484Z npm error     Set to true to run the command in the context of **all** configured
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2805872Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2806135Z npm error   --include-workspace-root
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2806635Z npm error     Include the workspace root when workspaces are enabled for a command.
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2807030Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2807251Z npm error   --install-links
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2807728Z npm error     When set file: protocol dependencies will be packed and installed as
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2808124Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2808307Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2808668Z npm error aliases: clean-install, ic, install-clean, isntall-clean
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2809179Z npm error
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2809714Z npm error Run "npm help ci" for more info
+Validate (root)	Run npm ci	2026-10-01T06:13:58.2810362Z npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-01T06_13_57_312Z-debug-0.log
+Validate (root)	Run npm ci	2026-10-01T06:13:58.3178691Z ##[error]Process completed with exit code 1.

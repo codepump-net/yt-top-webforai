@@ -1,0 +1,52 @@
+Validate (project)	Run npm ci	2026-10-01T06:18:51.8665719Z found 0 vulnerabilities
+Validate (project)	Run npm audit --audit-level=moderate	2026-10-01T06:18:52.4454163Z found 0 vulnerabilities
+Validate (project)	Run npm test	2026-10-01T06:19:00.3582939Z ^[[2m      Tests ^[[22m ^[[1m^[[32m87 passed^[[39m^[[22m^[[90m (87)^[[39m
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4596055Z test_alt_markup_rejected (test_harness.HarnessTests.test_alt_markup_rejected) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4598834Z test_biography_copy_and_unknown_author (test_harness.HarnessTests.test_biography_copy_and_unknown_author) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4695091Z test_build_fact_propagation_stable_identity_noindex (test_harness.HarnessTests.test_build_fact_propagation_stable_identity_noindex) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4707587Z test_changed_facts_invalidate_reviews (test_harness.HarnessTests.test_changed_facts_invalidate_reviews) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4712192Z test_citation_hostname_boundary_and_duplicate_observation (test_harness.HarnessTests.test_citation_hostname_boundary_and_duplicate_observation) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4723809Z test_expired_and_future_reviews_fail (test_harness.HarnessTests.test_expired_and_future_reviews_fail) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4727632Z test_hours_overlap_and_literal_copy (test_harness.HarnessTests.test_hours_overlap_and_literal_copy) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4731790Z test_malformed_optional_containers_report_errors (test_harness.HarnessTests.test_malformed_optional_containers_report_errors) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4734800Z test_metrics_errors_denominator_and_unknown_accuracy (test_harness.HarnessTests.test_metrics_errors_denominator_and_unknown_accuracy) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4737420Z test_paths_cannot_escape_build (test_harness.HarnessTests.test_paths_cannot_escape_build) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4742317Z test_preview_passes_but_cannot_release (test_harness.HarnessTests.test_preview_passes_but_cannot_release) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4750020Z test_real_snapshot_regressions (test_harness.HarnessTests.test_real_snapshot_regressions) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4780196Z test_release_build_needs_review_and_emits_matching_profile_id (test_harness.HarnessTests.test_release_build_needs_review_and_emits_matching_profile_id) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4783144Z test_scope_timing_and_statistical_measure_drift (test_harness.HarnessTests.test_scope_timing_and_statistical_measure_drift) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4786866Z test_unknown_evidence_and_duplicate_ids (test_harness.HarnessTests.test_unknown_evidence_and_duplicate_ids) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4789829Z test_unknown_fact_token (test_harness.HarnessTests.test_unknown_fact_token) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4793452Z test_urgent_booking_is_blocked (test_harness.HarnessTests.test_urgent_booking_is_blocked) ... ok
+Validate (project)	Run npm run harness-check	2026-10-01T06:19:01.4795213Z Ran 17 tests in 0.035s
+Validate (project)	Build static HTML and audit every page	2026-10-01T06:19:02.1434241Z Content contract passed: 135 pages, 38 assets (review).
+Validate (project)	Build static HTML and audit every page	2026-10-01T06:19:19.7693844Z Static audit passed: 135 routes; links, HTML, metadata, schema, indexing, assets. Max JS 181665 B gzip; CSS 11842 B gzip.
+Validate (project)	Confirm unreviewed content cannot become a release	2026-10-01T06:19:24.8524264Z Content contract passed: 135 pages, 38 assets (review).
+Validate (project)	Run npm run test:e2e	2026-10-01T06:22:31.8174474Z   69 passed (2.6m)
+Validate (root)	Run npm ci	2026-10-01T06:18:42.8379744Z found 0 vulnerabilities
+Validate (root)	Run npm audit --audit-level=moderate	2026-10-01T06:18:43.3499215Z found 0 vulnerabilities
+Validate (root)	Run npm test	2026-10-01T06:18:50.2306707Z ^[[2m      Tests ^[[22m ^[[1m^[[32m87 passed^[[39m^[[22m^[[90m (87)^[[39m
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3181614Z test_alt_markup_rejected (test_harness.HarnessTests.test_alt_markup_rejected) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3184090Z test_biography_copy_and_unknown_author (test_harness.HarnessTests.test_biography_copy_and_unknown_author) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3324351Z test_build_fact_propagation_stable_identity_noindex (test_harness.HarnessTests.test_build_fact_propagation_stable_identity_noindex) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3335757Z test_changed_facts_invalidate_reviews (test_harness.HarnessTests.test_changed_facts_invalidate_reviews) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3338551Z test_citation_hostname_boundary_and_duplicate_observation (test_harness.HarnessTests.test_citation_hostname_boundary_and_duplicate_observation) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3348048Z test_expired_and_future_reviews_fail (test_harness.HarnessTests.test_expired_and_future_reviews_fail) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3350343Z test_hours_overlap_and_literal_copy (test_harness.HarnessTests.test_hours_overlap_and_literal_copy) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3353364Z test_malformed_optional_containers_report_errors (test_harness.HarnessTests.test_malformed_optional_containers_report_errors) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3355083Z test_metrics_errors_denominator_and_unknown_accuracy (test_harness.HarnessTests.test_metrics_errors_denominator_and_unknown_accuracy) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3357036Z test_paths_cannot_escape_build (test_harness.HarnessTests.test_paths_cannot_escape_build) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3359889Z test_preview_passes_but_cannot_release (test_harness.HarnessTests.test_preview_passes_but_cannot_release) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3365856Z test_real_snapshot_regressions (test_harness.HarnessTests.test_real_snapshot_regressions) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3386780Z test_release_build_needs_review_and_emits_matching_profile_id (test_harness.HarnessTests.test_release_build_needs_review_and_emits_matching_profile_id) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3388839Z test_scope_timing_and_statistical_measure_drift (test_harness.HarnessTests.test_scope_timing_and_statistical_measure_drift) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3391038Z test_unknown_evidence_and_duplicate_ids (test_harness.HarnessTests.test_unknown_evidence_and_duplicate_ids) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3393035Z test_unknown_fact_token (test_harness.HarnessTests.test_unknown_fact_token) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3395355Z test_urgent_booking_is_blocked (test_harness.HarnessTests.test_urgent_booking_is_blocked) ... ok
+Validate (root)	Run npm run harness-check	2026-10-01T06:18:51.3396715Z Ran 17 tests in 0.055s
+Validate (root)	Build static HTML and audit every page	2026-10-01T06:18:51.9155654Z Content contract passed: 135 pages, 38 assets (review).
+Validate (root)	Build static HTML and audit every page	2026-10-01T06:19:08.9763494Z Static audit passed: 135 routes; links, HTML, metadata, schema, indexing, assets. Max JS 181600 B gzip; CSS 11842 B gzip.
+Validate (root)	Confirm unreviewed content cannot become a release	2026-10-01T06:19:13.7248115Z Content contract passed: 135 pages, 38 assets (review).
+Validate (root)	Run npm run test:e2e	2026-10-01T06:22:23.2383497Z   69 passed (2.5m)
+Deploy GitHub Pages	Run npm ci	2026-10-01T06:24:13.9454853Z found 0 vulnerabilities
+Deploy GitHub Pages	Verify deployed commit and all pages	2026-10-01T06:24:25.6411203Z Live verification passed: 135 pages, real 404, commit 077eead0f74abb85179421b504afa005d0091a0f.

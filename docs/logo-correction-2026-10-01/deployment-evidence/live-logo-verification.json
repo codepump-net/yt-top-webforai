@@ -1,0 +1,563 @@
+{
+  "checkedAt": "2026-10-01T06:24:37.568Z",
+  "site": "https://codepump-net.github.io/yt-top-webforai",
+  "commit": "077eead0f74abb85179421b504afa005d0091a0f",
+  "assets": [
+    {
+      "id": "banner-heart",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-heart-hq-original.png",
+      "status": 200,
+      "bytes": 1350167,
+      "sha256": "2b60faf65d72290c2a22f4957a4652301c335f8476981a9f871c4f0fbeafef16",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-digestive",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-digestive-hq-original.png",
+      "status": 200,
+      "bytes": 1329239,
+      "sha256": "f78da0bbd2d9429dfa65e7609e12e75bbef6ad9354b80748cf45069d931e3f08",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-respiratory",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-respiratory-hq-original.png",
+      "status": 200,
+      "bytes": 1337400,
+      "sha256": "97e516685f65ca1a9eb3d681d409ec956f811d5e4fa4da121f091a24876dd92d",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-vaccinations",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-vaccinations-hq-original.png",
+      "status": 200,
+      "bytes": 1381432,
+      "sha256": "4ec8980d79ccb6b0936ce7eb55b051f6c95c044203837825d02f30142e0a2628",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-chronic",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-chronic-hq-original.png",
+      "status": 200,
+      "bytes": 1379127,
+      "sha256": "3803a1c6fcd2152eb0510884ffbf45e1d7d3f9cffdb2f0f62bb05b3a24c3808c",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-neck",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-neck-hq-original.png",
+      "status": 200,
+      "bytes": 1364415,
+      "sha256": "72df8c7386adca314972b43d76f9f9eb66a8bd11ed13bb1be0468328fdef4b61",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-kidney",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-kidney-hq-original.png",
+      "status": 200,
+      "bytes": 1239468,
+      "sha256": "1132a284befbea7462f85338fd25bed469d18e74c475be9895a2f11500be5f8d",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-cancer-support",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-cancer-support-hq-original.png",
+      "status": 200,
+      "bytes": 1356742,
+      "sha256": "e33c987a221c177d820359d5b49a6b2f7faca3d92aa1475917ba061c6d241f7a",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-services",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-services-hq-original.png",
+      "status": 200,
+      "bytes": 1415318,
+      "sha256": "71ffbcea9bee5f131b55a0bb79fa9043f68bc9e19d37d4a573c924a7d29dea91",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-checkups",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-checkups-hq-original.png",
+      "status": 200,
+      "bytes": 1297772,
+      "sha256": "4e1ba56e6f4d63ef33b7aa637369045eb40d6c01d92f7c83cc0d3acefeaec21e",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-symptoms",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-symptoms-hq-original.png",
+      "status": 200,
+      "bytes": 1380156,
+      "sha256": "21aedf63ae797452f8e4535808aee0185e605dde8fbefe674ae9356d59360487",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "banner-diseases",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/banner-diseases-hq-original.png",
+      "status": 200,
+      "bytes": 1267520,
+      "sha256": "b165ede4cb932a700a404ee8d65d469115564bb0b6d915a56dd75f4bf11e9131",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "diagram-heart-flow",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/diagram-heart-flow-hq-original.png",
+      "status": 200,
+      "bytes": 1382317,
+      "sha256": "02a0fee84b2090034dcbed44d09ebec2ed5e999e3622f9d04e0f918c4cdf70a7",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "diagram-endoscopy-preparation",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/diagram-endoscopy-preparation-hq-original.png",
+      "status": 200,
+      "bytes": 1405715,
+      "sha256": "8435603d98245d7468ed08818b601af42ba2c02324599652b78cdda883b6698f",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "diagram-after-endoscopy",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/diagram-after-endoscopy-hq-original.png",
+      "status": 200,
+      "bytes": 1382817,
+      "sha256": "ccb5bd65f0371ad0044ccd9b21db10b2a7acf4f9a3a6bf144a94a0ec639488fb",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "diagram-checkup-flow",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/diagram-checkup-flow-hq-original.png",
+      "status": 200,
+      "bytes": 1319936,
+      "sha256": "39618c931801876d79a58af06a0dc8ab96901bb0482a50976f6abc5ea7a3e9fb",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "vaccination-schedule-2026",
+      "url": "https://codepump-net.github.io/yt-top-webforai/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png",
+      "status": 200,
+      "bytes": 1495312,
+      "sha256": "1f62521c57cc3d21132b807d48be1c2d985c1ec8597e4010ce7ced37f9e9c8dd",
+      "masterMatches": true,
+      "originalLogoPixelsMatch": true
+    },
+    {
+      "id": "/assets/logo.webp",
+      "status": 200,
+      "sha256": "f52b33213933cf714322ee4be36ae83f58f0e4fed196d23ff0e5feed3bc79acd",
+      "exactBytesMatch": true
+    },
+    {
+      "id": "/favicon.svg",
+      "status": 200,
+      "sha256": "8c2a1b20d55566b74305cdbfdff5ee802563cf647a6141cb36b9bd53a1060116",
+      "exactBytesMatch": true
+    }
+  ],
+  "viewports": [
+    {
+      "id": "banner-heart",
+      "viewport": 390,
+      "path": "/conditions/heart-disease/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-digestive",
+      "viewport": 390,
+      "path": "/conditions/digestive/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-respiratory",
+      "viewport": 390,
+      "path": "/conditions/respiratory-infections/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-vaccinations",
+      "viewport": 390,
+      "path": "/services/vaccinations/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-chronic",
+      "viewport": 390,
+      "path": "/conditions/chronic-disease/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-neck",
+      "viewport": 390,
+      "path": "/conditions/thyroid-carotid-neck/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-kidney",
+      "viewport": 390,
+      "path": "/conditions/kidney/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-cancer-support",
+      "viewport": 390,
+      "path": "/services/cancer-support/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-services",
+      "viewport": 390,
+      "path": "/services/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-checkups",
+      "viewport": 390,
+      "path": "/checkups/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-symptoms",
+      "viewport": 390,
+      "path": "/symptoms/",
+      "width": 346,
+      "height": 194.71875,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-diseases",
+      "viewport": 390,
+      "path": "/diseases/",
+      "width": 346,
+      "height": 194.515625,
+      "naturalWidth": 1672,
+      "naturalHeight": 940,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-heart-flow",
+      "viewport": 390,
+      "path": "/services/heart/",
+      "width": 344,
+      "height": 458.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-endoscopy-preparation",
+      "viewport": 390,
+      "path": "/services/endoscopy/",
+      "width": 344,
+      "height": 458.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-after-endoscopy",
+      "viewport": 390,
+      "path": "/health/after-endoscopy/",
+      "width": 344,
+      "height": 458.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-checkup-flow",
+      "viewport": 390,
+      "path": "/checkups/",
+      "width": 344,
+      "height": 458.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "vaccination-schedule-2026",
+      "viewport": 390,
+      "path": "/services/vaccinations/",
+      "width": 344,
+      "height": 458.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-heart",
+      "viewport": 1440,
+      "path": "/conditions/heart-disease/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-digestive",
+      "viewport": 1440,
+      "path": "/conditions/digestive/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-respiratory",
+      "viewport": 1440,
+      "path": "/conditions/respiratory-infections/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-vaccinations",
+      "viewport": 1440,
+      "path": "/services/vaccinations/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-chronic",
+      "viewport": 1440,
+      "path": "/conditions/chronic-disease/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-neck",
+      "viewport": 1440,
+      "path": "/conditions/thyroid-carotid-neck/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-kidney",
+      "viewport": 1440,
+      "path": "/conditions/kidney/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-cancer-support",
+      "viewport": 1440,
+      "path": "/services/cancer-support/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-services",
+      "viewport": 1440,
+      "path": "/services/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-checkups",
+      "viewport": 1440,
+      "path": "/checkups/",
+      "width": 876,
+      "height": 493,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-symptoms",
+      "viewport": 1440,
+      "path": "/symptoms/",
+      "width": 1180,
+      "height": 664.09375,
+      "naturalWidth": 1672,
+      "naturalHeight": 941,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "banner-diseases",
+      "viewport": 1440,
+      "path": "/diseases/",
+      "width": 1180,
+      "height": 663.390625,
+      "naturalWidth": 1672,
+      "naturalHeight": 940,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-heart-flow",
+      "viewport": 1440,
+      "path": "/services/heart/",
+      "width": 680,
+      "height": 906.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-endoscopy-preparation",
+      "viewport": 1440,
+      "path": "/services/endoscopy/",
+      "width": 680,
+      "height": 906.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-after-endoscopy",
+      "viewport": 1440,
+      "path": "/health/after-endoscopy/",
+      "width": 680,
+      "height": 906.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "diagram-checkup-flow",
+      "viewport": 1440,
+      "path": "/checkups/",
+      "width": 680,
+      "height": 906.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    },
+    {
+      "id": "vaccination-schedule-2026",
+      "viewport": 1440,
+      "path": "/services/vaccinations/",
+      "width": 680,
+      "height": 906.65625,
+      "naturalWidth": 1086,
+      "naturalHeight": 1448,
+      "fit": "fill",
+      "overflow": false
+    }
+  ],
+  "failures": [],
+  "internalDocuments": [
+    {
+      "path": "/docs/logo-audit-2026-10-01/report.ko.html",
+      "status": 404
+    },
+    {
+      "path": "/docs/logo-correction-2026-10-01/report.ko.html",
+      "status": 404
+    },
+    {
+      "path": "/reports/build-manifest.json",
+      "status": 404
+    }
+  ]
+}

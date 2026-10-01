@@ -238,7 +238,105 @@
     "noIndexMaintained": true,
     "internalReportNotExported": true
   },
-  "deployment": "Local export only; no remote deployment performed.",
+  "deployment": {
+    "checkedAt": "2026-10-01T06:24:25.640Z",
+    "status": "deployed-and-verified",
+    "site": "https://codepump-net.github.io/yt-top-webforai/",
+    "mode": "review",
+    "noindexMaintained": true,
+    "deployedCommit": "077eead0f74abb85179421b504afa005d0091a0f",
+    "logoCommit": "92b2833cbf54c793d0c521c218bda79a78193cc6",
+    "dependencyPatchCommit": "e29ba27e30b4cf1ad511dbb58fb4a9d051e60df4",
+    "workflowRun": 36824056137,
+    "workflowUrl": "https://github.com/codepump-net/yt-top-webforai/actions/runs/36824056137",
+    "checks": [
+      {
+        "layout": "root",
+        "basePath": "",
+        "unitTestsPassed": 87,
+        "harnessTestsPassed": 17,
+        "browserTests": {
+          "startTime": "2026-10-01T06:19:50.311Z",
+          "duration": 152926.51,
+          "expected": 69,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "staticRoutes": 135,
+        "staticAuditErrors": [],
+        "performanceRoutes": 6,
+        "minimumPerformanceScore": 98,
+        "performanceErrors": []
+      },
+      {
+        "layout": "project",
+        "basePath": "/yt-top-webforai",
+        "unitTestsPassed": 87,
+        "harnessTestsPassed": 17,
+        "browserTests": {
+          "startTime": "2026-10-01T06:19:55.452Z",
+          "duration": 156363.808,
+          "expected": 69,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "staticRoutes": 135,
+        "staticAuditErrors": [],
+        "performanceRoutes": 6,
+        "minimumPerformanceScore": 98,
+        "performanceErrors": []
+      }
+    ],
+    "livePages": 135,
+    "liveFiguresPerViewport": 17,
+    "viewports": [
+      390,
+      1440
+    ],
+    "liveImageByteAndOriginalLogoPixelChecks": 17,
+    "liveReferenceLogoUnchanged": true,
+    "liveFaviconOriginalSymbolPixelsMatch": true,
+    "real404Verified": true,
+    "indexedSitemapUrls": 0,
+    "internalEvidencePublicResponses": [
+      {
+        "path": "/docs/logo-audit-2026-10-01/report.ko.html",
+        "status": 404
+      },
+      {
+        "path": "/docs/logo-correction-2026-10-01/report.ko.html",
+        "status": 404
+      },
+      {
+        "path": "/reports/build-manifest.json",
+        "status": 404
+      }
+    ],
+    "dependencyAuditVulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "deploymentBlockersResolved": [
+      {
+        "run": 36823147358,
+        "stage": "npm audit --audit-level=moderate",
+        "resolution": "Next.js and eslint-config-next 16.3.8; brace-expansion 1.1.21 and 5.0.12",
+        "evidence": "first-ci-failure.log"
+      },
+      {
+        "run": 36823659902,
+        "stage": "npm ci",
+        "resolution": "Completed optional dependency lock entries using CI versions Node.js 24.21.0 and npm 11.19.0; clean installation and Linux dry-run passed",
+        "evidence": "second-ci-failure.log"
+      }
+    ]
+  },
   "checks": {
     "contentValidation": {
       "passed": true,
