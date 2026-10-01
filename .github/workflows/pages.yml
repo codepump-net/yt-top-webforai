@@ -122,7 +122,7 @@ jobs:
       - run: npm ci
         working-directory: web
       - name: Load expected manifest from this run's build evidence
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v8
         with:
           name: checks-project
           path: .verification
