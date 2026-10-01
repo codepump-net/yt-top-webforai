@@ -6,7 +6,7 @@
 
 ## 구현 결과
 
-Next.js 16.3.4 App Router, React 19.3.0, TypeScript, Tailwind CSS 4.3.3을 사용했습니다. `output: export`로 모든 페이지의 HTML을 미리 생성합니다. Node.js 24는 개발·빌드에만 필요하며 배포된 사이트는 서버 API나 데이터베이스 없이 동작합니다. 버전의 정확한 설치 결과는 `web/package-lock.json`에 고정했습니다.
+Next.js 16.3.8 App Router, React 19.3.0, TypeScript, Tailwind CSS 4.3.3을 사용했습니다. `output: export`로 모든 페이지의 HTML을 미리 생성합니다. Node.js 24는 개발·빌드에만 필요하며 배포된 사이트는 서버 API나 데이터베이스 없이 동작합니다. 버전의 정확한 설치 결과는 `web/package-lock.json`에 고정했습니다.
 
 ESLint는 Next.js 구성에 포함된 React·접근성 플러그인의 호환 범위에 맞춰 9.39.5에 고정했습니다. ESLint 10은 해당 플러그인과 실제 실행 오류가 있어 사용하지 않습니다. 추후 플러그인 호환 업데이트 후 함께 올립니다. Prettier 3.9.6으로 소스 형식을 정리했습니다.
 

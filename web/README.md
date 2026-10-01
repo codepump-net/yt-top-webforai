@@ -1,6 +1,6 @@
 # 영통탑내과 정적 웹 앱
 
-Node.js 24, Next.js 16.3.4, React 19.3.0, TypeScript, Tailwind CSS 4.3.3. The lockfile pins the dependency tree.
+Node.js 24, Next.js 16.3.8, React 19.3.0, TypeScript, Tailwind CSS 4.3.3. The lockfile pins the dependency tree.
 
 ```sh
 npm ci
