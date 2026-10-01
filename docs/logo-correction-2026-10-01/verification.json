@@ -1,0 +1,275 @@
+{
+  "logoOriginalUnchanged": true,
+  "exportedFaviconMatches": true,
+  "counts": {
+    "active": 17,
+    "historicalCorrectedVariants": 4,
+    "favicon": 1
+  },
+  "records": [
+    {
+      "id": "banner-heart",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-digestive",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-respiratory",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-vaccinations",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-chronic",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-neck",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-kidney",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-cancer-support",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-services",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-checkups",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-symptoms",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-diseases",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "diagram-heart-flow",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "diagram-endoscopy-preparation",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "diagram-after-endoscopy",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "diagram-checkup-flow",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "vaccination-schedule-2026",
+      "historical": false,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "publicMatches": true,
+      "exportMatches": true,
+      "registeredMatches": true
+    },
+    {
+      "id": "banner-chronic",
+      "historical": true,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "historicalEvidencePreserved": true
+    },
+    {
+      "id": "banner-services",
+      "historical": true,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "historicalEvidencePreserved": true
+    },
+    {
+      "id": "banner-vaccinations",
+      "historical": true,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "historicalEvidencePreserved": true
+    },
+    {
+      "id": "vaccination-schedule-2026",
+      "historical": true,
+      "unchangedOutsideLogo": true,
+      "unchangedDimensions": true,
+      "correctedHashMatches": true,
+      "beforeHashMatches": true,
+      "historicalEvidencePreserved": true
+    }
+  ],
+  "build": {
+    "mode": "review",
+    "basePath": "/yt-top-webforai",
+    "routes": 135,
+    "noIndexMaintained": true,
+    "internalReportNotExported": true
+  },
+  "deployment": "Local export only; no remote deployment performed.",
+  "checks": {
+    "contentValidation": {
+      "passed": true,
+      "pages": 135,
+      "assets": 38
+    },
+    "planValidation": {
+      "passed": true
+    },
+    "typeScript": {
+      "passed": true
+    },
+    "eslint": {
+      "passed": true
+    },
+    "unitTests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "browserTests": {
+      "passed": 3,
+      "failed": 0,
+      "figuresPerViewport": 17,
+      "viewports": [
+        390,
+        1440
+      ]
+    },
+    "staticExportAudit": {
+      "passed": true,
+      "routes": 135
+    }
+  }
+}

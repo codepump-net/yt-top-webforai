@@ -139,5 +139,13 @@
       "file": "assets/generated/redrawn-2026-09-29/diagram-after-endoscopy-hq-original.png",
       "prompt": "Use case: infographic-diagram. Create ONE high-resolution portrait PNG patient handout at native 1536x2048 or larger if supported, roughly 3:4 portrait. The attached thumbnail is a layout/style reference only, not an image to upscale. Rebuild the whole layout and typography with sharp native Korean text. White background, calm clinic blue and teal, small brand \"영통탑내과\" at top, large bold title, 6 spacious numbered horizontal cards vertically, simple illustrative icons, a clearly separated important note at bottom. Strong visual hierarchy, large body letters, no microprint, generous margins, no clipped text. Use the EXACT current Korean copy below in full; it intentionally replaces outdated words/timelines in the thumbnail. Do NOT copy old small text from thumbnail. No phone/address, no other invented text or extra sections. No contact sheet. Title: \"조직검사·용종절제 후 주의사항\"\n1. 시술 내용과 회복 상태\n조직검사만 받았는지 용종을 절제했는지 확인합니다. 용종의 크기·절제 범위·출혈 여부에 따라 식사와 활동 재개 시점이 달라집니다.\n\n2. 물과 식사 재개\n위내시경 뒤 목의 마취가 풀리고 삼키는 데 문제가 없는지 확인한 후 소량의 물부터 시작합니다. 시술 후 금식 지시를 받은 경우에는 정해진 시각까지 기다립니다.\n\n3. 처음 먹는 음식\n식사가 허용되면 죽 등 부드러운 음식부터 시작합니다. 용종절제 후에는 절제 범위에 따라 부드러운 식사를 유지하는 기간을 안내받습니다.\n\n4. 진정검사 당일\n직접 운전·음주를 피하고 보호자와 귀가합니다. 중요한 계약이나 기계 조작은 회복 후로 미룹니다.\n\n5. 운동·여행과 약\n용종절제 후 무거운 물건 들기, 격한 운동, 사우나·여행과 항혈전제 재개 일정은 퇴실 시 시술 범위에 맞춰 정합니다.\n\n6. 바로 진료받아야 할 증상\n반복되거나 많은 출혈, 심해지는 복통, 어지러움·실신, 호흡곤란은 즉시 병원에 연락하거나 응급실로 가세요. 증상이 심하면 119에 도움을 요청하세요.\nBottom note: \"용종절제 후에는 며칠 뒤에도 출혈이 생길 수 있습니다. 퇴실 시 받은 식사·활동·약 복용 안내를 보관하세요.\"\nReproduce all Korean characters correctly. Distinguish step numbers and headings from body. Use enough vertical height for all content; no truncation."
     }
-  ]
+  ],
+  "officialLogoCorrection": {
+    "date": "2026-10-01",
+    "method": "Deterministic composition of the existing clinic logo at its native pixels; no image generation or logo redraw.",
+    "referenceFile": "web/public/assets/logo.webp",
+    "referenceSha256": "f52b33213933cf714322ee4be36ae83f58f0e4fed196d23ff0e5feed3bc79acd",
+    "record": "docs/logo-correction-2026-10-01/corrections.json",
+    "originalGenerationRecordsPreserved": true
+  }
 }

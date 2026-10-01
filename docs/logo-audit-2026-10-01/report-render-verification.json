@@ -1,0 +1,83 @@
+{
+  "title": "영통탑내과 이미지 로고 오류 검토표",
+  "images": [
+    {
+      "src": "official-logo-on-white.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-heart.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-digestive.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-respiratory.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-vaccinations.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-chronic.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-neck.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-kidney.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-cancer-support.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-services.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-checkups.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-symptoms.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/banner-diseases.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/diagram-heart-flow.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/diagram-endoscopy-preparation.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/diagram-after-endoscopy.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/diagram-checkup-flow.png",
+      "loaded": true
+    },
+    {
+      "src": "regions/vaccination-schedule-2026.png",
+      "loaded": true
+    },
+    {
+      "src": "favicon-preview.png",
+      "loaded": true
+    }
+  ],
+  "rows": 17,
+  "overflow": false
+}

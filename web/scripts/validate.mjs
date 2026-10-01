@@ -3,10 +3,20 @@ import sharp from 'sharp';
 import { loadContent } from './data.mjs';
 import { sha256, pageDigest, validateContent } from './content-contract.mjs';
 import { validateRedrawnImage } from './redrawn-image-contract.mjs';
+import { validateClinicFavicon } from './clinic-favicon-contract.mjs';
 const data = await loadContent();
 const mode = process.argv[2] ?? 'review';
 const errors = validateContent(data.pages, { ...data, mode });
 const suppliedSources = new Map();
+try {
+  const [favicon, logo] = await Promise.all([
+    fs.readFile('public/favicon.svg'),
+    fs.readFile('public/assets/logo.webp'),
+  ]);
+  errors.push(...(await validateClinicFavicon(favicon, logo)));
+} catch (error) {
+  errors.push(`Clinic favicon verification failed: ${error.message}`);
+}
 for (const notice of data.notices.filter((item) => item.document)) {
   try {
     const bytes = await fs.readFile(`public${notice.document.pdf}`);

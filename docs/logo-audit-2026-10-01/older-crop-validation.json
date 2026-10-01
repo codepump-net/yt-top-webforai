@@ -1,0 +1,87 @@
+[
+  {
+    "id": "banner-heart",
+    "file": "web/public/assets/banner-heart.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-digestive",
+    "file": "web/public/assets/banner-digestive.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-respiratory",
+    "file": "web/public/assets/banner-respiratory.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-vaccinations",
+    "file": "web/public/assets/banner-vaccinations.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-chronic",
+    "file": "web/public/assets/banner-chronic.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-neck",
+    "file": "web/public/assets/banner-neck.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-kidney",
+    "file": "web/public/assets/banner-kidney.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-cancer-support",
+    "file": "web/public/assets/banner-cancer-support.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-services",
+    "file": "web/public/assets/banner-services.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-checkups",
+    "file": "web/public/assets/banner-checkups.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-symptoms",
+    "file": "web/public/assets/banner-symptoms.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "banner-diseases",
+    "file": "web/public/assets/banner-diseases.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "vaccination-schedule-2026",
+    "file": "web/public/assets/vaccination-schedule-2026.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "diagram-heart-flow",
+    "file": "web/public/assets/diagram-heart-flow.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "diagram-endoscopy-preparation",
+    "file": "web/public/assets/diagram-endoscopy-preparation.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "diagram-after-endoscopy",
+    "file": "web/public/assets/diagram-after-endoscopy.webp",
+    "sourcePixelsMatch": true
+  },
+  {
+    "id": "diagram-checkup-flow",
+    "file": "web/public/assets/diagram-checkup-flow.webp",
+    "sourcePixelsMatch": true
+  }
+]

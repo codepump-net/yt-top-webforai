@@ -1,0 +1,754 @@
+[
+  {
+    "path": "web/public/assets/banner-cancer-support.webp",
+    "sha256": "87348435514c97debacf1f0cde5feab1830ca4f38ef014d8622f426b0335d5a0",
+    "bytes": 89462,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-checkups.webp",
+    "sha256": "e53ce3e7c80479263851797e85caeadd3b13990a7283ffec3a3ec9d83826f571",
+    "bytes": 92980,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-chronic.webp",
+    "sha256": "0974ba596143bbafbec6f576193a209eb63e32534357f99439487f57ed8a650a",
+    "bytes": 91848,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-digestive.webp",
+    "sha256": "5d2ff228814c426041870968d93a2a92dbef00f78c3be250586ca62d4d3e4411",
+    "bytes": 87190,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-diseases.webp",
+    "sha256": "76fe2bb62b6d8d687fd7f83b92fe1507fdb5525d937820419e5bd73e0ad01711",
+    "bytes": 92220,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-heart.webp",
+    "sha256": "744304b1479aff73fa72ac547b6a30494d646a96880b8e8dd6091b0ff3fa9ba2",
+    "bytes": 84140,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-kidney.webp",
+    "sha256": "38971e8fe1f8fb7452a19edee2e029cd68a1d2b1683ed6a5705f732a8778a4b0",
+    "bytes": 84644,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-neck.webp",
+    "sha256": "c515c6b481898f78a1edcb0c442386aa8494de17831a87d3c47ef265d8bce8c3",
+    "bytes": 85490,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-respiratory.webp",
+    "sha256": "df9a1080f7161449ecc172cb362014273260d63729d9dd03d38120b636a2e70f",
+    "bytes": 85276,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-services.webp",
+    "sha256": "ec7c318294399e4afa10f46a6cbc0e95ea2fa4d158117fe1e6f476494ab3d811",
+    "bytes": 89048,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-symptoms.webp",
+    "sha256": "4557c7122dae335a4fb2d6253b30fef92451aa8169bee2773ac28fdb357ad460",
+    "bytes": 90804,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/banner-vaccinations.webp",
+    "sha256": "a2b350c9a6d1bf2be7cdce014c9267a3e46d14c69589379ec171b11c08230ff7",
+    "bytes": 87388,
+    "width": 400,
+    "height": 225,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/clinic-1600.webp",
+    "sha256": "4111731aac9bed33b49727fc6ab93ebe12f78976bc46a3226c073eadcde9b323",
+    "bytes": 62050,
+    "width": 1600,
+    "height": 417,
+    "review": "original-interior-photo-with-physical-signage-no-redrawn-logo"
+  },
+  {
+    "path": "web/public/assets/clinic-800.webp",
+    "sha256": "86c83c4ba7b4b20b32e78640c59daf25ae1a533c42b35caf1f2aff466740cad6",
+    "bytes": 22478,
+    "width": 800,
+    "height": 208,
+    "review": "original-interior-photo-with-physical-signage-no-redrawn-logo"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-cancer-support-hq-original.png",
+    "sha256": "e0d3e668a0f2c3b0bf59345c33a6bc0aba4094a8bdcf44257830e0e24741ef8f",
+    "bytes": 1476438,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-checkups-hq-original.png",
+    "sha256": "36583af8d77339e027ebd617bd99b465ce76d6f8e379b42052a5a0815a7830fa",
+    "bytes": 1427039,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-chronic-hq-original.png",
+    "sha256": "7dea9b49da704463a60a7368fe347d81e95186c20aaaa90d0760cc5f48065e33",
+    "bytes": 1493979,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-digestive-hq-original.png",
+    "sha256": "07f9b1933a5379c3f538f79d1e668a970cb6982737fad0c79c2b5102cad646d9",
+    "bytes": 1456521,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-diseases-hq-original.png",
+    "sha256": "6cf1f9e382ed2c8fd0ad54345cd859cfbd712aa4c560ac872e57527682bba05e",
+    "bytes": 1396071,
+    "width": 1672,
+    "height": 940,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-heart-hq-original.png",
+    "sha256": "e8af85c9a9dd200d633d2969fb51c3c7b12e292e916bdc88c5e2e3b116c7b9bb",
+    "bytes": 1476398,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-kidney-hq-original.png",
+    "sha256": "d684596647c938ecb67f2361573ba853f9169a1565cc323b7a432718c80340cd",
+    "bytes": 1368611,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-neck-hq-original.png",
+    "sha256": "59912fddc3eba752c0e5fc5e3038eba950b00b87004cbd55cb67b6c342eda912",
+    "bytes": 1490119,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-respiratory-hq-original.png",
+    "sha256": "3587fc67664b9b2ce2ddca0f695055ce785b73002b2dbdb241ab19fdd1c385a4",
+    "bytes": 1460014,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-services-hq-original.png",
+    "sha256": "7b9dd7bd1c61a1388a48265abd16bba1d1b7793d53d0443fb17248f847a069f9",
+    "bytes": 1529659,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-symptoms-hq-original.png",
+    "sha256": "743b09e795c936b5b18986c61092b9a3a9bd342994c7f5bd03aecd063cc82026",
+    "bytes": 1503694,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/banner-vaccinations-hq-original.png",
+    "sha256": "95de6ba61398eb2a1f510f30e37e253da236e9fb39632c0fba534fc97a4e02ae",
+    "bytes": 1498080,
+    "width": 1672,
+    "height": 941,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/diagram-after-endoscopy-hq-original.png",
+    "sha256": "4fc8360a9b210a5a0e344af0e23c1bb5cae5684bea00fc706512ba536b4f3963",
+    "bytes": 1499519,
+    "width": 1086,
+    "height": 1448,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/diagram-checkup-flow-hq-original.png",
+    "sha256": "bb0de286d1abc9d5da4c759b432eacf2bde96aaab3f504ef9bbef29784282295",
+    "bytes": 1433354,
+    "width": 1086,
+    "height": 1448,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/diagram-endoscopy-preparation-hq-original.png",
+    "sha256": "5750625107d3eb1188b3cfdde7bd15ad6143225887de92fbad5a7a12f92f8cf8",
+    "bytes": 1521497,
+    "width": 1086,
+    "height": 1448,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/diagram-heart-flow-hq-original.png",
+    "sha256": "124128f789b9197f4eb298394b6f15b290f0518e91d16a565649d76ad5f3e5ce",
+    "bytes": 1496710,
+    "width": 1086,
+    "height": 1448,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png",
+    "sha256": "1cb465d416ea5bc8794520cbdbcf1f45ce985dd0478510033ea1ed656911c3cc",
+    "bytes": 1610592,
+    "width": 1086,
+    "height": 1448,
+    "review": "current-original-logo-mismatch"
+  },
+  {
+    "path": "web/public/assets/diagram-after-endoscopy.webp",
+    "sha256": "2d93d75fe60bbc89550391f6aaabd7ea2d0627701e46ced3271615992ab71939",
+    "bytes": 87612,
+    "width": 280,
+    "height": 300,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/diagram-checkup-flow.webp",
+    "sha256": "13c0ba304197ba22c068523882bd3e017c4cd5f690bace7b0de3a6c9bd976e78",
+    "bytes": 87886,
+    "width": 280,
+    "height": 300,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/diagram-endoscopy-preparation.webp",
+    "sha256": "de986a1f64871166c1da4e8209e766dfce815d97f2635c1cc39019ef97c6ed3f",
+    "bytes": 85136,
+    "width": 280,
+    "height": 300,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/diagram-heart-flow.webp",
+    "sha256": "40ab95d1d563cebaa56838f5f5ce4800530ce8c492f8351e5d3c581ab45a80e0",
+    "bytes": 89936,
+    "width": 280,
+    "height": 300,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/assets/jongseol-640.webp",
+    "sha256": "5578a6e36edc3eb889f13b96a9918177f6b34842a1b38e5b761739f1332b85c8",
+    "bytes": 15718,
+    "width": 640,
+    "height": 664,
+    "review": "no-graphic-clinic-logo-portrait-or-silhouette"
+  },
+  {
+    "path": "web/public/assets/logo.webp",
+    "sha256": "f52b33213933cf714322ee4be36ae83f58f0e4fed196d23ff0e5feed3bc79acd",
+    "bytes": 5314,
+    "width": 294,
+    "height": 77,
+    "review": "official-reference-asset"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-01.png",
+    "sha256": "ff69db63b917f4fef241ff3e0be1ad4be1bde4d2496c224c9ad743764b39b8d4",
+    "bytes": 514701,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-02.png",
+    "sha256": "a1fee1d2f36d3afc63ca19b1966cda1e29d243a29402c985c01e458bac14f536",
+    "bytes": 1408547,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-03.png",
+    "sha256": "04a5257c4e669b1e215a51a2f40ae9cee8940839f7b7901fc6bdf04813161a3e",
+    "bytes": 989470,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-04.png",
+    "sha256": "63b4d60c11d2fbd7f9f47ce77120b226054c1896410eac5fa2a886ca3a0a2786",
+    "bytes": 593168,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-05.png",
+    "sha256": "369a0776e9ae42da1ebf946841e4fbba504ad7b6dfcfc83445af459dc11500fe",
+    "bytes": 450888,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-06.png",
+    "sha256": "5d588ecbe1df6c9ba5f8cae651d11ebdd35c6b810d9f2079079455f2f5535fa8",
+    "bytes": 600656,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-07.png",
+    "sha256": "88ad88840aca4ac92f723acce370475ce193ab5eeac45ce1c0ace182991342ee",
+    "bytes": 543673,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-08.png",
+    "sha256": "847151d69a23b7320f962d91b2cd668daa1cb63b2e4a6bda56fd021d24536856",
+    "bytes": 647027,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-09.png",
+    "sha256": "ca1bc51c5d39c5cdfcbce64d639e3392bdf3a7fedd768ca51ed30abadf561548",
+    "bytes": 658814,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-10.png",
+    "sha256": "ad0cfe585fd6e16519b931c6474f619ed32de0b692311cd172023a343925740c",
+    "bytes": 495285,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-11.png",
+    "sha256": "bc68cd4b1d1e8494f7e85cea4af47fe2a207ae0327552d9f009c538eff72873e",
+    "bytes": 1109295,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-12.png",
+    "sha256": "4e751e43682e3044fe0652ef8ad465f0670678c3dbfd0185c3cbdf575c1c789d",
+    "bytes": 1249730,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-13.png",
+    "sha256": "7fde23da7fb20d60190d677c2e87f10485e7b333b78503758acd410a9f9e85c2",
+    "bytes": 463698,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-14.png",
+    "sha256": "cf4186504c5aaf52d8a0375e43fb7d35e18ac9fcb5129a457c3c83ced7703c81",
+    "bytes": 473129,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-15.png",
+    "sha256": "40b7ca26eda5a014379a681919cbd3cd3028c7669467c2ad37eb582d1f41ff3c",
+    "bytes": 2068663,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/notice-documents/infection-prevention-page-16.png",
+    "sha256": "fc8a99a9fee611b8ca64a6b3f5a310ad94f35d053caf06b2a076e5ec3df9a575",
+    "bytes": 1748796,
+    "width": 1653,
+    "height": 2337,
+    "review": "no-clinic-logo-official-kdca-document"
+  },
+  {
+    "path": "web/public/assets/rayoung-640.webp",
+    "sha256": "653e6d445b23496a06c98f63a397fef134da9ee7914c394933e3cce7305b2f65",
+    "bytes": 9696,
+    "width": 640,
+    "height": 664,
+    "review": "no-graphic-clinic-logo-portrait-or-silhouette"
+  },
+  {
+    "path": "web/public/assets/vaccination-schedule-2026.webp",
+    "sha256": "9f63764e081948d03dcf67b06371594e7a666944514beb6da70bc59a8a89420b",
+    "bytes": 70578,
+    "width": 240,
+    "height": 300,
+    "review": "supplied-low-resolution-crop-pixels-preserved-fine-details-unresolved"
+  },
+  {
+    "path": "web/public/favicon.svg",
+    "sha256": "5f2f51d53b2c279f51156d9996e2264a3426db0c89679c1eba608fc89adf4f14",
+    "bytes": 212,
+    "width": 64,
+    "height": 64,
+    "review": "additional-brand-icon-mismatch"
+  },
+  {
+    "path": "assets/director-supplied/2026-09-27/contact-sheet.jpg",
+    "sha256": "07a0d317b80d900b882d5deaa722ac083045fd1084d4d7f6f5d6b74bf8a7a5bb",
+    "bytes": 504813,
+    "width": 1260,
+    "height": 2100,
+    "review": "supplied-low-resolution-contact-sheet-fine-details-unresolved"
+  },
+  {
+    "path": "assets/generated/banners/cancer-support.png",
+    "sha256": "f9444438b551b00d50d1f5c7166f25e099633009980d8d1f4f0784089e2f3174",
+    "bytes": 1829392,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/checkups.png",
+    "sha256": "885183773eaa80625860a59d4a2c8ff68ad445cbec143878aa87beb63c5c401b",
+    "bytes": 1801253,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/chronic.png",
+    "sha256": "428e72481bf64e2001014ed3e7aa46dce61c2bbea4d726ad93397d0fb946d00d",
+    "bytes": 1780545,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/digestive.png",
+    "sha256": "e8f4fdf7c95b8fc168237384cd6bcfefe39c1cfa499f2c8fa83c6cdf04da2f39",
+    "bytes": 1743981,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/diseases.png",
+    "sha256": "0fa9409da25e843edb55510426f0b7d14a2b9b473eda3784befa900755d1d7c0",
+    "bytes": 1777544,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/heart.png",
+    "sha256": "b4ff5b00c145543e32876ca3059617b5481e170bd88cba6ab72c223363d807a8",
+    "bytes": 1820794,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/kidney.png",
+    "sha256": "8864a9336556b6f21068487c17e765dc0077facbd03a61d04348938f30a2b6e2",
+    "bytes": 1717779,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/neck.png",
+    "sha256": "bf49524f5f0c1fc6140acc9dfe155ff5b2989ea873c739751ccc9d4ff7869844",
+    "bytes": 1817250,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/respiratory.png",
+    "sha256": "10c6a9083b144c90fa112d98abeefa82e43874a38b5ee502601b23f4cb421594",
+    "bytes": 1823540,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/services.png",
+    "sha256": "e6f307fcdcf305c7d5d35337729cb43e6331127cee8efe44678ba0209f9c936b",
+    "bytes": 1791797,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/symptoms.png",
+    "sha256": "89f560108368abf502b69b614370347639ea85bd9edc3f6314ceb5fd66964809",
+    "bytes": 1624746,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/banners/vaccinations.png",
+    "sha256": "18342f41f4e203ddca75b3ccd7ba5b7bae93e27b639639b791865e4f18d117e5",
+    "bytes": 1825957,
+    "width": 1536,
+    "height": 1024,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/diagrams/after-endoscopy.png",
+    "sha256": "f012c73297e016c92709891dd01f94e3b473f75f8528474546c0d43696f17e4f",
+    "bytes": 223573,
+    "width": 1056,
+    "height": 952,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/diagrams/checkup-flow.png",
+    "sha256": "f5314ec8c46c617e34d2650384a12c29d52ea0e4760a1f4703250ceb0ebd2565",
+    "bytes": 215635,
+    "width": 1056,
+    "height": 952,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/diagrams/endoscopy-preparation.png",
+    "sha256": "646f250abfc74cb04da5fba71d680e6cbef5b7b84a83ccce3bb028ef4b37aeaf",
+    "bytes": 220935,
+    "width": 1056,
+    "height": 952,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/diagrams/heart-flow.png",
+    "sha256": "f277f4a3edddd9e0385f8224ade8198370b1523bfac1c51260f8df9388dcdbe4",
+    "bytes": 215443,
+    "width": 1056,
+    "height": 989,
+    "review": "no-graphic-clinic-logo-earlier-draft"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-cancer-support-hq-original.png",
+    "sha256": "e0d3e668a0f2c3b0bf59345c33a6bc0aba4094a8bdcf44257830e0e24741ef8f",
+    "bytes": 1476438,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-checkups-hq-original.png",
+    "sha256": "36583af8d77339e027ebd617bd99b465ce76d6f8e379b42052a5a0815a7830fa",
+    "bytes": 1427039,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-chronic-hq-original.png",
+    "sha256": "7dea9b49da704463a60a7368fe347d81e95186c20aaaa90d0760cc5f48065e33",
+    "bytes": 1493979,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-digestive-hq-original.png",
+    "sha256": "07f9b1933a5379c3f538f79d1e668a970cb6982737fad0c79c2b5102cad646d9",
+    "bytes": 1456521,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-diseases-hq-original.png",
+    "sha256": "6cf1f9e382ed2c8fd0ad54345cd859cfbd712aa4c560ac872e57527682bba05e",
+    "bytes": 1396071,
+    "width": 1672,
+    "height": 940,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-heart-hq-original.png",
+    "sha256": "e8af85c9a9dd200d633d2969fb51c3c7b12e292e916bdc88c5e2e3b116c7b9bb",
+    "bytes": 1476398,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-kidney-hq-original.png",
+    "sha256": "d684596647c938ecb67f2361573ba853f9169a1565cc323b7a432718c80340cd",
+    "bytes": 1368611,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-neck-hq-original.png",
+    "sha256": "59912fddc3eba752c0e5fc5e3038eba950b00b87004cbd55cb67b6c342eda912",
+    "bytes": 1490119,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-respiratory-hq-original.png",
+    "sha256": "3587fc67664b9b2ce2ddca0f695055ce785b73002b2dbdb241ab19fdd1c385a4",
+    "bytes": 1460014,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-services-hq-original.png",
+    "sha256": "7b9dd7bd1c61a1388a48265abd16bba1d1b7793d53d0443fb17248f847a069f9",
+    "bytes": 1529659,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-symptoms-hq-original.png",
+    "sha256": "743b09e795c936b5b18986c61092b9a3a9bd342994c7f5bd03aecd063cc82026",
+    "bytes": 1503694,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/banner-vaccinations-hq-original.png",
+    "sha256": "95de6ba61398eb2a1f510f30e37e253da236e9fb39632c0fba534fc97a4e02ae",
+    "bytes": 1498080,
+    "width": 1672,
+    "height": 941,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/diagram-after-endoscopy-hq-original.png",
+    "sha256": "4fc8360a9b210a5a0e344af0e23c1bb5cae5684bea00fc706512ba536b4f3963",
+    "bytes": 1499519,
+    "width": 1086,
+    "height": 1448,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/diagram-checkup-flow-hq-original.png",
+    "sha256": "bb0de286d1abc9d5da4c759b432eacf2bde96aaab3f504ef9bbef29784282295",
+    "bytes": 1433354,
+    "width": 1086,
+    "height": 1448,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/diagram-endoscopy-preparation-hq-original.png",
+    "sha256": "5750625107d3eb1188b3cfdde7bd15ad6143225887de92fbad5a7a12f92f8cf8",
+    "bytes": 1521497,
+    "width": 1086,
+    "height": 1448,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/diagram-heart-flow-hq-original.png",
+    "sha256": "124128f789b9197f4eb298394b6f15b290f0518e91d16a565649d76ad5f3e5ce",
+    "bytes": 1496710,
+    "width": 1086,
+    "height": 1448,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "assets/generated/redrawn-2026-09-29/vaccination-schedule-2026-hq-original.png",
+    "sha256": "1cb465d416ea5bc8794520cbdbcf1f45ce985dd0478510033ea1ed656911c3cc",
+    "bytes": 1610592,
+    "width": 1086,
+    "height": 1448,
+    "review": "identical-master-original-logo-mismatch"
+  },
+  {
+    "path": "docs/plan-content-checklist-2026-09-29/accuracy-evidence/before/banner-chronic-hq-original.png",
+    "sha256": "eddfcb011e0103e6ca2ea0b9e1a35a5b84bf6dd836e7a39073cd1cd6f495e810",
+    "bytes": 1438103,
+    "width": 1672,
+    "height": 941,
+    "review": "historical-original-logo-mismatch"
+  },
+  {
+    "path": "docs/plan-content-checklist-2026-09-29/accuracy-evidence/before/banner-services-hq-original.png",
+    "sha256": "eb4d5ea4e69368f99241a869d6ad1ace08bff80951663748cd5daa53b192ea49",
+    "bytes": 1460717,
+    "width": 1672,
+    "height": 941,
+    "review": "historical-original-logo-mismatch"
+  },
+  {
+    "path": "docs/plan-content-checklist-2026-09-29/accuracy-evidence/before/banner-vaccinations-hq-original.png",
+    "sha256": "e71b7d596f8714007ea67443f2857a94bba3549376ba37222bbd0d8d5edc97bc",
+    "bytes": 1416073,
+    "width": 1672,
+    "height": 941,
+    "review": "historical-original-logo-mismatch"
+  },
+  {
+    "path": "docs/plan-content-checklist-2026-09-29/accuracy-evidence/before/vaccination-schedule-2026-hq-original.png",
+    "sha256": "4b37ceece4f4c22e8f521ce9b6c9dbc0963738c182c91c2a9d7e1df90ae823f5",
+    "bytes": 1505995,
+    "width": 1086,
+    "height": 1448,
+    "review": "historical-original-logo-mismatch"
+  }
+]

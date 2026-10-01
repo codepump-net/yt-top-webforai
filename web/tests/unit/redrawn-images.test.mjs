@@ -6,8 +6,44 @@ import { loadContent } from '../../scripts/data.mjs';
 import { validatePatientAdditions } from '../../scripts/patient-additions-contract.mjs';
 import { validateRedrawnImage } from '../../scripts/redrawn-image-contract.mjs';
 import { serve } from '../../scripts/serve.mjs';
+import sharp from 'sharp';
+import { createHash } from 'node:crypto';
+import { validateClinicFavicon } from '../../scripts/clinic-favicon-contract.mjs';
 
 const data = await loadContent();
+
+it('rejects an altered logo even when the edited PNG and saved master hashes agree', async () => {
+  const asset = data.assets.find((a) => a.id === 'banner-heart');
+  const bytes = await fs.readFile(`public${asset.file}`);
+  const { data: pixels, info } = await sharp(bytes)
+    .removeAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  const { left, top } = asset.logoComposite;
+  const at = ((top + 20) * info.width + left + 20) * info.channels;
+  pixels[at] = pixels[at] === 0 ? 255 : 0;
+  const changed = await sharp(pixels, { raw: info }).png().toBuffer();
+  const hash = createHash('sha256').update(changed).digest('hex');
+  const errors = await validateRedrawnImage(
+    { ...asset, sha256: hash, sourceSha256: hash },
+    changed,
+    changed,
+  );
+  expect(errors).not.toContain('Native PNG differs from saved master: banner-heart');
+  expect(errors).toContain('Official clinic logo composite pixels changed: banner-heart');
+});
+
+it('rejects the former unrelated T favicon and accepts the embedded original symbol', async () => {
+  const logo = await fs.readFile('public/assets/logo.webp');
+  const current = await fs.readFile('public/favicon.svg');
+  expect(await validateClinicFavicon(current, logo)).toEqual([]);
+  expect(
+    await validateClinicFavicon(
+      Buffer.from('<svg><path d="M14 19h36v8H36v22h-8V27H14z"/></svg>'),
+      logo,
+    ),
+  ).toEqual(['Clinic favicon must embed the existing logo symbol without redrawing']);
+});
 
 it('rejects a low-resolution WebP substituted for any of the 17 required PNGs', () => {
   const invalid = structuredClone(data);
