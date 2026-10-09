@@ -137,6 +137,8 @@ npm run measure -- .local/observations.json
 
 ## 자료 관리와 복구
 
+2026-10-10 사용자 도메인 재배포: `SITE_ORIGIN=https://yttop.kr`, `SITE_BASE_PATH=/`, `PUBLICATION_MODE=review`로 빌드한다. sharp는 0.35.5, source-map-js는 1.2.2로 패치했다. 보안 검사는 `npm run audit:dependencies`로 전체 의존성의 npm audit 결과를 확인한다. 아직 수정 버전이 없는 [braces GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm)만 2026-11-10 00:00 UTC까지 한시적으로 예외 처리한다. 예외는 lockfile의 dev 전용 braces 3.0.3 및 ESLint 의존 경로(`eslint-config-next → @next/eslint-plugin-next → fast-glob → micromatch → braces`)로 제한한다. 현재 ESLint 설정에는 `settings.next.rootDir` 사용자 입력이 없으며, 외부 요청이나 환자 입력을 glob으로 처리하지 않는다. 배포물은 정적 파일만 포함한다. 이는 취약점 수정이 아니며, 신규 advisory·런타임 의존성·버전 변경·예외 만료·audit 조회 실패는 배포를 차단한다. 원본 결과와 판정은 CI 내부 `reports/npm-audit*.json`에 보관한다. upstream 패치가 나오면 업데이트하고 예외를 제거한다.
+
 원본 크롤링과 OCR, 515개 수집 이미지가 있는 `research/`는 로컬 조사 자료로 유지하고 공개 저장소에 올리지 않습니다. 앱에는 선별된 이미지와 출처를 가진 편집 원고만 들어갑니다. `seed_content.py`, `polish_content.py`, `prepare-assets.mjs`는 최초 가져오기 도구이며 CI 필수 단계가 아닙니다. 이후 원고를 수정한 뒤 초기화 도구를 다시 실행하면 편집 내용을 덮어쓸 수 있으므로 일반 유지보수는 JSON 파일을 직접 수정합니다.
 
 장애 복구는 정상 커밋으로 코드·콘텐츠 변경을 되돌리는 새 커밋을 만들어 main에 push하는 방식으로 진행합니다. 과거 실행의 배포만 재실행하면 최신 SHA 검사가 막도록 되어 있습니다. 정상 커밋의 원고도 검수 만료 여부를 다시 검사하므로, 오래된 의료정보를 검사 없이 재배포하지 않습니다. 도메인이나 basePath를 변경했다면 해당 값으로 다시 빌드합니다.
