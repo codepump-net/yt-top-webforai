@@ -2483,7 +2483,7 @@
     "blocks": [
       {
         "heading": "개인정보 처리 안내",
-        "text": "전화와 외부 지도 링크를 통해 안내받을 수 있습니다. 외부 서비스로 이동하면 해당 서비스의 정책이 적용됩니다. 이 사이트는 별도의 방문자 분석 도구와 광고 추적기를 사용하지 않으며, 사이트 검색어도 서버로 전송하지 않습니다. GitHub Pages 호스팅에 필요한 접속 정보의 처리는 GitHub 개인정보 정책을 따릅니다."
+        "text": "전화와 외부 지도 링크를 통해 안내받을 수 있습니다. 외부 서비스로 이동하면 해당 서비스의 정책이 적용됩니다. 이 사이트는 별도의 방문자 분석 도구와 광고 추적기를 사용하지 않으며, 사이트 검색어도 서버로 전송하지 않습니다."
       },
       {
         "id": "clinical-information",
@@ -2495,16 +2495,11 @@
     "related": [
       "visit"
     ],
-    "sources": [
-      {
-        "title": "GitHub 개인정보 처리방침",
-        "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
-      }
-    ],
+    "sources": [],
     "image": null,
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-09-27",
+    "updatedAt": "2026-10-10",
     "indexable": true,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"

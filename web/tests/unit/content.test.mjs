@@ -25,6 +25,13 @@ describe('Content and release contract', () => {
     pages[0].related.push('absent');
     expect(validateContent(pages, data).some((e) => e.includes('invalid related'))).toBe(true);
   });
+  it('allows the own privacy notice without external citations but still requires clinical sources', () => {
+    const pages = structuredClone(data.pages);
+    pages.find((p) => p.id === 'privacy').sources = [];
+    expect(validateContent(pages, data)).toEqual([]);
+    pages.find((p) => p.id === 'echocardiography').sources = [];
+    expect(validateContent(pages, data)).toContain('echocardiography: source required');
+  });
   it('rejects future publication dates', () => {
     const pages = structuredClone(data.pages);
     pages[0].publishedAt = '2099-01-01T00:00:00+09:00';

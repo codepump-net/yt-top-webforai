@@ -415,6 +415,7 @@ function OriginalNoticesLink() {
   );
 }
 function Sources({ page }: { page: Page }) {
+  if (page.sources.length === 0) return null;
   const t = pageLabels(page.language);
   const groups =
     !page.language || page.language === 'ko'

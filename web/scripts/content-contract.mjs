@@ -233,7 +233,10 @@ export function validateContent(
         /(?:hidoc\.co\.kr|doctornow\.co\.kr|kin\.naver\.com)/.test(new URL(s.url).hostname)
       )
         errors.push(`${page.id}: question-discovery source is not clinical evidence`);
-    if (page.id !== 'not-found' && page.sources.length === 0)
+    // The site's own operational privacy notice does not cite an external policy.
+    const ownPrivacyNotice =
+      page.id === 'privacy' && page.template === 'policy' && page.risk === 'operational';
+    if (page.id !== 'not-found' && !ownPrivacyNotice && page.sources.length === 0)
       errors.push(`${page.id}: source required`);
     for (const id of page.related)
       if (!ids.has(id) || id === page.id) errors.push(`${page.id}: invalid related ${id}`);
