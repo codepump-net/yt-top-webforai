@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-15T09:43:19.364Z",
+  "commit": "1b5528f406b44a12187dfcdba919c832faebc3e3",
+  "site": "https://yttop.kr/",
+  "status": 200,
+  "title": "영통탑내과 | 증상·검사·검진 질문과 답변",
+  "description": "망포역 3번 출구에서 도보 약 2분, 영통탑내과의 증상·검사·검진 질문과 답변을 찾아보세요. 내과 증상과 검사 선택, 내시경·건강검진 준비, 진료시간·주차를 안내합니다. 주소 경기도 수원시 영통구 덕영대로 1478, 망포역포레스퀘어 6층 609호. 전화 031-202-7555.",
+  "ogAndTwitterMatch": true,
+  "visibleCopyAligned": true,
+  "verificationTokensPreserved": true,
+  "robots": "index, follow, max-image-preview:large",
+  "canonical": "https://yttop.kr/",
+  "workflow": "https://github.com/codepump-net/yt-top-webforai/actions/runs/38714155747",
+  "searchAndAiVisibilityMeasured": false
+}

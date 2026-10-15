@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-15T08:25:32.221584+00:00",
+  "commit": "cbf1e24c2702430162885488923934afee7ee0a9",
+  "home": {
+    "url": "https://yttop.kr/",
+    "status": 200,
+    "xRobotsTag": null,
+    "title": "영통탑내과 | 망포역 내과·건강검진·검사 안내",
+    "robots": "index, follow, max-image-preview:large",
+    "canonical": "https://yttop.kr/"
+  },
+  "robots": {
+    "url": "https://yttop.kr/robots.txt",
+    "status": 200,
+    "xRobotsTag": null,
+    "body": "User-agent: *\nAllow: /\nSitemap: https://yttop.kr/sitemap.xml\n"
+  },
+  "sitemap": {
+    "status": 200,
+    "urlCount": 132,
+    "url": "https://yttop.kr/sitemap.xml"
+  }
+}

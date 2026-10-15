@@ -54,7 +54,9 @@ test('new symptom guides are discoverable and carry useful safety and reuse info
   );
   await page.locator('.result-card').first().click();
   await expect(page.locator('.urgent-note')).toContainText('119');
-  await expect(page.locator('.content-updated')).toContainText('2026-09-28');
+  const guide = pages.find((p) => p.path === '/symptoms/cardio/presyncope-cardiac-evaluation/')!;
+  await expect(page.locator('.content-updated')).toContainText(guide.updatedAt);
+  await expect(page.locator('.content-updated time')).toHaveAttribute('dateTime', guide.updatedAt);
   await expect(page.locator('.article-copyright a')).toHaveAttribute(
     'href',
     manifest.basePath + '/copyright/',

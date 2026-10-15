@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-15T11:16:08.181710+00:00",
+  "scope": "Working tree before branding commit; not a deployed-build claim",
+  "siteName": "탑 건강문답",
+  "homeTitle": "탑 건강문답 | 영통탑내과의 증상·검사·검진 안내",
+  "operator": "영통탑내과의원",
+  "checks": {
+    "productionContentAndStaticRoutes": 135,
+    "indexableRoutes": 132,
+    "unitTestsPassed": 96,
+    "pythonHarnessPassed": 17,
+    "typecheck": "passed",
+    "lint": "passed",
+    "sourceAssets": "passed",
+    "dependencyAudit": "passed with existing time-limited development ESLint exception",
+    "browserTests": "68 of 70 initially passed; old fixed date and duplicate footer clinic link were corrected; both affected tests then passed",
+    "visualReview": [
+      "desktop home",
+      "mobile home",
+      "desktop footer",
+      "English mobile page"
+    ]
+  },
+  "clinicalBodiesAndClinicFacts": "unchanged; page titles and home/site-use descriptions changed",
+  "publicationConfirmation": "existing user attestation, original recordedAt and 132-page scope retained; digest rebound for authorized branding changes",
+  "searchEngineConsoleSubmission": "not verified from an authenticated account",
+  "next": "CI checks in both layouts and actual deployment verification"
+}

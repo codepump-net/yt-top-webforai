@@ -1,12 +1,13 @@
 import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
-import { clinic, href, phoneHref } from '@/lib/site';
+import { clinic, siteIdentity, href, phoneHref } from '@/lib/site';
 import { languageNames, pageLabels } from '@/lib/languages';
 import { contentUse } from '@/components/article-footer';
 import { OfficialChannels } from '@/components/official-channels';
+import { SiteBrand } from '@/components/site-brand';
 import '../globals.css';
 export const metadata: Metadata = {
-  applicationName: 'Yeongtong Top Internal Medicine Clinic',
+  applicationName: siteIdentity.name,
   icons: { icon: href('/favicon.svg') },
   formatDetection: { telephone: false },
 };
@@ -32,14 +33,7 @@ export default async function LanguageLayout({
         </a>
         <header className="site-header">
           <div className="container language-header">
-            <a className="brand" href={href('/')} aria-label={t.koreanSite}>
-              <img
-                src={href('/assets/logo.webp')}
-                width="294"
-                height="77"
-                alt="Yeongtong Top Internal Medicine Clinic"
-              />
-            </a>
+            <SiteBrand homeUrl={href('/')} label={`${siteIdentity.name} · ${t.koreanSite}`} />
             <a href={href('/')} lang="ko">
               한국어
             </a>
@@ -51,6 +45,10 @@ export default async function LanguageLayout({
         <main id="main">{children}</main>
         <footer className="site-footer">
           <div className="container">
+            <a className="footer-brand" href={href('/')} lang="ko">
+              {siteIdentity.name}
+              <span>{siteIdentity.operatorLabel}</span>
+            </a>
             <p>
               Yeongtong Top Internal Medicine Clinic · <span lang="ko">{clinic.name}</span>
             </p>

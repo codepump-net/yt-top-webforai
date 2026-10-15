@@ -1,0 +1,48 @@
+{
+  "status": "deployed-and-verified",
+  "publicDeploymentPerformed": true,
+  "recordedAt": "2026-10-15T08:27:01.280919+00:00",
+  "site": "https://yttop.kr/",
+  "commit": "cbf1e24c2702430162885488923934afee7ee0a9",
+  "workflow": "https://github.com/codepump-net/yt-top-webforai/actions/runs/38704617676",
+  "workflowConclusion": "success",
+  "routes": 135,
+  "indexableRoutes": 132,
+  "intentionalNoindexRoutes": [
+    "/404.html",
+    "/cases/",
+    "/search/"
+  ],
+  "before": {
+    "indexableRoutes": 0,
+    "sitemapUrls": 0,
+    "mode": "review"
+  },
+  "after": {
+    "indexableRoutes": 132,
+    "sitemapUrls": 132,
+    "mode": "production",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  "checks": {
+    "contentAndStatic": "pass",
+    "unitTests": 96,
+    "contentHarnessTests": 17,
+    "browserTests": 70,
+    "liveHtmlHashAndCanonicalAndRobots": 135,
+    "liveAssetsPages": 135,
+    "liveImageOccurrences": 177,
+    "uniqueImages": 37,
+    "liveFailures": 0,
+    "sampledIndexableLighthouseSeo": 100,
+    "sampledLighthousePerformance": "97–99",
+    "lint": "pass",
+    "typecheck": "pass",
+    "dependencyAudit": "pass with existing time-limited development exception"
+  },
+  "searchConsole": {
+    "submitted": false,
+    "reason": "Authenticated Search Console access unavailable; actual Google indexing and rankings have not been verified."
+  },
+  "approval": "User confirmed completed medical and operations review of all 132 intended indexable pages."
+}

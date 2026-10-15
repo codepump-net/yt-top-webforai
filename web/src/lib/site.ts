@@ -4,6 +4,8 @@ import clinicData from '../../../content/clinic.json';
 import physicianData from '../../../content/physicians.json';
 import reviewData from '../../../content/reviews.json';
 import assetData from '../../../content/assets.json';
+export { default as siteIdentity } from '../../../content/site.json';
+import siteIdentity from '../../../content/site.json';
 import { navigation, sectionId } from './information-architecture.mjs';
 export {
   hubGroups,
@@ -122,7 +124,7 @@ export function pageMetadata(page: Page): Metadata {
             string
           >
         )[page.language ?? 'ko'] ?? 'ko_KR',
-      siteName: clinic.name,
+      siteName: siteIdentity.name,
       title: page.metaTitle,
       description: page.description,
       url,

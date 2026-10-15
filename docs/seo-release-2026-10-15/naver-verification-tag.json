@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-15T09:16:43.247521+00:00",
+  "commit": "29dabc8438ebe11e7684642e8a09aab13b2b0d56",
+  "site": "https://yttop.kr/",
+  "status": 200,
+  "verification": [
+    {
+      "inHead": true,
+      "content": "badf5024bd3f8f1c9469ae5261687a96ae9aa4cb"
+    }
+  ],
+  "robots": [
+    "index, follow, max-image-preview:large"
+  ],
+  "googleVerificationFilePreserved": true,
+  "sitemapUrls": 132,
+  "verificationTagDeployment": "verified",
+  "naverAccountOwnershipConfirmation": "pending in authenticated Naver account",
+  "sitemapSubmission": "not performed",
+  "workflow": "https://github.com/codepump-net/yt-top-webforai/actions/runs/38710976687"
+}

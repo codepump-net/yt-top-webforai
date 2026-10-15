@@ -3,6 +3,7 @@ import path from 'node:path';
 import { gzipSync } from 'node:zlib';
 import { load } from 'cheerio';
 import { publicTextErrors, nonPublicArtifact } from './public-content-policy.mjs';
+import siteIdentity from '../../content/site.json' with { type: 'json' };
 const manifest = JSON.parse(await fs.readFile('reports/build-manifest.json', 'utf8'));
 const errors = [];
 const titles = new Set();
@@ -43,6 +44,18 @@ for (const route of manifest.routes) {
   const title = $('title').text();
   if (!title || titles.has(title)) errors.push(`${route.path}: missing/duplicate title`);
   titles.add(title);
+  if (
+    route.id === 'home'
+      ? !title.startsWith(siteIdentity.name + ' | ')
+      : !title.endsWith(' | ' + siteIdentity.name)
+  )
+    errors.push(`${route.path}: title must identify the patient information site`);
+  if ($('header .brand-name').text() !== siteIdentity.name)
+    errors.push(`${route.path}: visible site name`);
+  if ($('header .brand-operator').text() !== siteIdentity.operatorLabel)
+    errors.push(`${route.path}: visible operator attribution`);
+  if (!$('footer .footer-brand').text().includes(siteIdentity.name))
+    errors.push(`${route.path}: footer site name`);
   if ($('html').attr('lang') !== (route.language ?? 'ko')) errors.push(`${route.path}: lang`);
   const originalId = route.translationOf ?? route.id;
   const versions = manifest.routes.filter(
@@ -94,6 +107,15 @@ for (const route of manifest.routes) {
       )
         errors.push(`${route.path}: incomplete schema`);
       const clinic = graph?.find((n) => n['@type'] === 'MedicalClinic');
+      const sites = graph.filter((n) => n['@type'] === 'WebSite');
+      if (
+        sites.length !== 1 ||
+        sites[0].name !== siteIdentity.name ||
+        sites[0].url !== manifest.origin + manifest.basePath + '/' ||
+        sites[0].publisher?.['@id'] !== clinic?.['@id'] ||
+        clinic?.name !== '영통탑내과의원'
+      )
+        errors.push(`${route.path}: website name and hospital publisher must remain distinct`);
       const pageNode = graph.find(
         (n) => n['@id'] === manifest.origin + manifest.basePath + route.path + '#webpage',
       );
@@ -112,6 +134,13 @@ for (const route of manifest.routes) {
       manifest.origin + manifest.basePath + route.path
     )
       errors.push(`${route.path}: OG URL`);
+    if ($('meta[property="og:site_name"]').attr('content') !== siteIdentity.name)
+      errors.push(`${route.path}: OG site name`);
+    if ($('meta[name="application-name"]').attr('content') !== siteIdentity.name)
+      errors.push(`${route.path}: application name`);
+    for (const selector of ['meta[property="og:title"]', 'meta[name="twitter:title"]'])
+      if ($(selector).attr('content') !== title)
+        errors.push(`${route.path}: shared title differs from page title`);
   }
   if (route.id !== 'not-found' && $('main').text().trim().length < 150)
     errors.push(`${route.path}: insufficient static text`);

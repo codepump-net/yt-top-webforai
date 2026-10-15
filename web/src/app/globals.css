@@ -247,9 +247,19 @@ summary:focus-visible {
   justify-content: space-between;
   gap: 25px;
 }
-.brand img {
-  width: 190px;
-  height: auto;
+.brand-name {
+  color: var(--brand);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.045em;
+}
+.brand-operator {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 .desktop-nav {
   display: flex;
@@ -277,7 +287,10 @@ summary:focus-visible {
   min-width: 0;
   min-height: 44px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
 }
 .desktop-nav a:hover,
 .footer-links a:hover {
@@ -1241,10 +1254,20 @@ summary:focus-visible {
 }
 .footer-brand span {
   display: block;
-  font-size: 9px;
-  letter-spacing: 0.15em;
+  font-size: 12px;
+  letter-spacing: 0;
   font-weight: 500;
   margin-top: 2px;
+}
+.footer-clinic-logo {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-bottom: 12px;
+}
+.footer-clinic-logo img {
+  width: 180px;
+  height: auto;
 }
 .footer-top p {
   font-size: 12px;
@@ -1300,9 +1323,6 @@ summary:focus-visible {
   .desktop-nav a {
     font-size: 13px;
   }
-  .brand img {
-    width: 165px;
-  }
   .header-actions {
     gap: 8px;
   }
@@ -1355,8 +1375,8 @@ summary:focus-visible {
   .header-inner {
     min-height: 74px;
   }
-  .brand img {
-    width: 170px;
+  .brand-name {
+    font-size: 24px;
   }
   .mobile-nav {
     display: block;
@@ -1570,8 +1590,8 @@ summary:focus-visible {
   .header-phone {
     display: none;
   }
-  .brand img {
-    width: 160px;
+  .brand-name {
+    font-size: 23px;
   }
   .hero-layout {
     grid-template-columns: 1fr;

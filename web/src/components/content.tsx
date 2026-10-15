@@ -15,6 +15,7 @@ import {
   pages,
   pageById,
   clinic,
+  siteIdentity,
   physicians,
   href,
   basePath,
@@ -154,16 +155,16 @@ function Home() {
           <div className="hero-copy">
             <span className="eyebrow">
               <span className="status-dot" />
-              {clinic.subway} · 영통탑내과
+              {siteIdentity.name} · {siteIdentity.operatorLabel}
             </span>
             <h1>
-              갑작스러운 내과 증상,
+              증상·검사·검진,
               <br />
-              <em>위험도부터</em> 살핍니다.
+              <em>궁금한 점</em>을 확인하세요.
             </h1>
             <p>
-              심장·소화기·호흡기 증상과 암 치료 중 불편을 살피고, 필요한 검사와 응급실·상급병원 진료
-              여부를 함께 판단합니다.
+              {siteIdentity.description}입니다. 증상별 위험 신호부터 검사 선택과 준비,
+              의료진·진료시간·오시는 길까지 확인하세요.
             </p>
             <div className="button-row">
               <a className="button" href={href('/symptoms/')}>

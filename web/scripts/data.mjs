@@ -24,6 +24,8 @@ export async function loadContent() {
     'src/app/search-index.json/route.ts',
     'src/components/print-questions.tsx',
     'src/components/site-navigation.tsx',
+    'src/components/site-brand.tsx',
+    '../content/site.json',
     'src/components/article-navigation.tsx',
     'src/components/article-footer.tsx',
     'src/components/home-search.tsx',

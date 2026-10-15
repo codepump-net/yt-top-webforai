@@ -3,13 +3,13 @@
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Menu, Phone, Search } from 'lucide-react';
+import { SiteBrand } from './site-brand';
 
 type NavItem = { href: string; label: string; paths?: string[] };
 
 export function SiteNavigation({
   items,
   homeUrl,
-  logoUrl,
   searchUrl,
   sitemapUrl,
   phoneUrl,
@@ -17,7 +17,6 @@ export function SiteNavigation({
 }: {
   items: NavItem[];
   homeUrl: string;
-  logoUrl: string;
   searchUrl: string;
   sitemapUrl: string;
   phoneUrl: string;
@@ -122,9 +121,7 @@ export function SiteNavigation({
   );
   return (
     <div className="container header-inner" ref={inner}>
-      <a className="brand" href={homeUrl} aria-label="영통탑내과 홈">
-        <img src={logoUrl} width="294" height="77" alt="영통탑내과의원" />
-      </a>
+      <SiteBrand homeUrl={homeUrl} />
       <nav className="desktop-nav" aria-label="주 메뉴">
         {items.map(link)}
       </nav>

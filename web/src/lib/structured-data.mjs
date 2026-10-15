@@ -8,6 +8,7 @@ import {
   discoverable,
 } from './information-architecture.mjs';
 import officialChannels from '../../../content/official-channels.json' with { type: 'json' };
+import siteIdentity from '../../../content/site.json' with { type: 'json' };
 import { clinicAddressSchema, clinicHoursSchema } from './content-model.mjs';
 
 export function childPages(page, pages) {
@@ -166,7 +167,8 @@ export function createStructuredData({
     {
       '@type': 'WebSite',
       '@id': siteId,
-      name: '영통탑내과 진료·검사 안내',
+      name: siteIdentity.name,
+      description: siteIdentity.description,
       url: absolute('/'),
       inLanguage: [...new Set(pages.map((p) => p.language ?? 'ko'))],
       publisher: ref(clinicId),

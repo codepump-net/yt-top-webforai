@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-15T09:04:24.353877+00:00",
+  "commit": "d2a71a4f206faa6e12f8dc30fb3130674edbe107",
+  "url": "https://yttop.kr/googledad4bdf9eb06009a.html",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "redirected": false,
+  "body": "google-site-verification: googledad4bdf9eb06009a.html\n",
+  "exactContentMatch": true,
+  "fileDeployment": "verified",
+  "searchConsoleOwnershipConfirmation": "pending in authenticated Google account",
+  "sitemapSubmission": "not performed",
+  "sitemap": "https://yttop.kr/sitemap.xml",
+  "workflow": "https://github.com/codepump-net/yt-top-webforai/actions/runs/38709434994"
+}

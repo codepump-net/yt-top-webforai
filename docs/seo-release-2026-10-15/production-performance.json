@@ -1,0 +1,105 @@
+{
+  "mode": "production",
+  "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+  "errors": [],
+  "reports": [
+    {
+      "route": "/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2301.3665,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 46.5,
+        "first-contentful-paint": 959.18325
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/services/heart/echocardiography/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2303.538,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 96,
+        "first-contentful-paint": 916.538
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/search/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "metrics": {
+        "largest-contentful-paint": 2113.6589,
+        "cumulative-layout-shift": 0.002294951040342114,
+        "total-blocking-time": 44,
+        "first-contentful-paint": 775.6588999999999
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/health/colonoscopy-preparation-questions/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2296.9964999999997,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 93,
+        "first-contentful-paint": 916.99825
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/health/cancer-treatment-symptoms/",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2333.7566,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 122,
+        "first-contentful-paint": 935.8783
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/ne/checkups/visa/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2128.5314,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 107.99999999999977,
+        "first-contentful-paint": 770.5314000000001
+      },
+      "failedAudits": []
+    }
+  ]
+}

@@ -1,0 +1,2801 @@
+{
+  "checkedAt": "2026-10-15T08:25:44.047Z",
+  "origin": "https://yttop.kr",
+  "commit": "cbf1e24c2702430162885488923934afee7ee0a9",
+  "pageCount": 135,
+  "imageOccurrences": 177,
+  "uniqueImages": 37,
+  "resources": [
+    {
+      "url": "https://yttop.kr/_next/static/chunks/05mrvlgfz9j96.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/1yfk95h_261q3.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/0kpyx80be7t_y.css",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/3wkt3-74el481.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/0gnfgnecyqt03.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/3vj94awoiseyj.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/2l7u30riulybw.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/turbopack-2pnz0pm5r4oh0.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/logo.webp",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/1rtg1lcplzq40.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/1vljyf5y44dfi.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-1600.webp",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/jongseol-640.webp",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/rayoung-640.webp",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/diagram-checkup-flow-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-checkups-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-heart-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-cancer-support-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/diagram-endoscopy-preparation-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/diagram-heart-flow-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-services-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-respiratory-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-vaccinations-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/diagram-after-endoscopy-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-chronic-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/_next/static/chunks/3am7baym1b-1f.js",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-diseases-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-symptoms-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-digestive-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-neck-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/clinic-visuals-hq/banner-kidney-hq-original.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-01.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-02.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-14.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-05.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-07.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-10.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-03.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-12.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-08.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-04.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-16.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-15.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-09.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-13.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-06.png",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "url": "https://yttop.kr/assets/notice-documents/infection-prevention-page-11.png",
+      "type": "image",
+      "status": 200
+    }
+  ],
+  "results": [
+    {
+      "path": "/404.html",
+      "status": 200,
+      "canonical": "https://yttop.kr/404.html",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/cases/",
+      "status": 200,
+      "canonical": "https://yttop.kr/cases/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "canonical": "https://yttop.kr/about/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-1600.webp",
+          "width": 900,
+          "height": 234,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://yttop.kr/",
+      "stylesheets": 1,
+      "imageCount": 4,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-1600.webp",
+          "width": 935,
+          "height": 243,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/jongseol-640.webp",
+          "width": 640,
+          "height": 664,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/rayoung-640.webp",
+          "width": 640,
+          "height": 664,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/cancer-screening/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/cancer-screening/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/drug-screening/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/drug-screening/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/employment/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/employment/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/national/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/national/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/tuberculosis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/tuberculosis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/visa/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/visa/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/acute-care/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/acute-care/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/chronic-cough/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/chronic-cough/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/",
+      "stylesheets": 1,
+      "imageCount": 3,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-checkups-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/diagram-checkup-flow-hq-original.png",
+          "width": 1086,
+          "height": 1448,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/doctors/",
+      "status": 200,
+      "canonical": "https://yttop.kr/doctors/",
+      "stylesheets": 1,
+      "imageCount": 3,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/jongseol-640.webp",
+          "width": 640,
+          "height": 664,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/rayoung-640.webp",
+          "width": 640,
+          "height": 664,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/doctors/park-jongseol/",
+      "status": 200,
+      "canonical": "https://yttop.kr/doctors/park-jongseol/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/jongseol-640.webp",
+          "width": 640,
+          "height": 664,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/doctors/park-rayoung/",
+      "status": 200,
+      "canonical": "https://yttop.kr/doctors/park-rayoung/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/rayoung-640.webp",
+          "width": 640,
+          "height": 664,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/heart-disease/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/heart-disease/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-heart-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/fees/",
+      "status": 200,
+      "canonical": "https://yttop.kr/fees/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/checkup-preparation-checklist/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/checkup-preparation-checklist/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/colonoscopy-preparation-questions/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/heart-test-differences/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/heart-test-differences/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/palpitations-test-followup/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/palpitations-test-followup/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/notices/",
+      "status": 200,
+      "canonical": "https://yttop.kr/notices/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "canonical": "https://yttop.kr/privacy/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "canonical": "https://yttop.kr/search/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/endoscopy/colonoscopy/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/endoscopy/colonoscopy/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/cancer-support/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/cancer-support/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-cancer-support-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/endoscopy/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/endoscopy/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/diagram-endoscopy-preparation-hq-original.png",
+          "width": 1086,
+          "height": 1448,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/endoscopy/gastroscopy/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/endoscopy/gastroscopy/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/arterial-assessment/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/arterial-assessment/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/cardiac-markers/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/cardiac-markers/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/diagram-heart-flow-hq-original.png",
+          "width": 1086,
+          "height": 1448,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/carotid-ultrasound/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/carotid-ultrasound/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/echocardiography/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/echocardiography/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/heart-rate-variability/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/heart-rate-variability/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/holter/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/holter/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-services-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/ultrasound/bowel/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/ultrasound/bowel/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/ultrasound/abdomen/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/ultrasound/abdomen/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/ultrasound/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/ultrasound/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/ultrasound/thyroid/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/ultrasound/thyroid/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/checkups/civil-service/",
+      "status": 200,
+      "canonical": "https://yttop.kr/checkups/civil-service/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/visit/",
+      "status": 200,
+      "canonical": "https://yttop.kr/visit/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-1600.webp",
+          "width": 900,
+          "height": 234,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/examinations/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/examinations/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/sitemap/",
+      "status": 200,
+      "canonical": "https://yttop.kr/sitemap/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/fever-during-cancer-treatment/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/fever-during-cancer-treatment/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/cancer-treatment-symptoms/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/cancer-treatment-symptoms/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/abdominal-pain/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/abdominal-pain/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/influenza/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/influenza/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/covid-19/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/covid-19/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/respiratory-infections/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/respiratory-infections/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-respiratory-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/plenvu-preparation/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/plenvu-preparation/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/orafang-preparation/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/orafang-preparation/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/angina-treatment/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/angina-treatment/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/heart-valve-regurgitation/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/heart-valve-regurgitation/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/after-endoscopy/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/after-endoscopy/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/diagram-after-endoscopy-hq-original.png",
+          "width": 1086,
+          "height": 1448,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/vaccinations/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/vaccinations/",
+      "stylesheets": 1,
+      "imageCount": 3,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-vaccinations-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png",
+          "width": 1086,
+          "height": 1448,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/gallstones/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/gallstones/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/cancer-family-history/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/cancer-family-history/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/liver-disease/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/liver-disease/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/chronic-disease/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/chronic-disease/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-chronic-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/colon-polyp-followup/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/colon-polyp-followup/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/thyroid-cancer-surveillance/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/thyroid-cancer-surveillance/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/health/obesity-medication/",
+      "status": 200,
+      "canonical": "https://yttop.kr/health/obesity-medication/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/zh-hans/checkups/visa/",
+      "status": 200,
+      "canonical": "https://yttop.kr/zh-hans/checkups/visa/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/en/checkups/visa/",
+      "status": 200,
+      "canonical": "https://yttop.kr/en/checkups/visa/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/th/checkups/visa/",
+      "status": 200,
+      "canonical": "https://yttop.kr/th/checkups/visa/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/ru/checkups/visa/",
+      "status": 200,
+      "canonical": "https://yttop.kr/ru/checkups/visa/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/preparation/",
+      "status": 200,
+      "canonical": "https://yttop.kr/preparation/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/ne/checkups/visa/",
+      "status": 200,
+      "canonical": "https://yttop.kr/ne/checkups/visa/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-diseases-hq-original.png",
+          "width": 1672,
+          "height": 940,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/hypertension/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/hypertension/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/dyslipidemia/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/dyslipidemia/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/atherosclerosis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/atherosclerosis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/acute-myocardial-infarction/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/acute-myocardial-infarction/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/stable-angina/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/stable-angina/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/heart-failure/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/heart-failure/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/atrial-fibrillation/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/atrial-fibrillation/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/supraventricular-tachycardia/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/supraventricular-tachycardia/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/premature-ventricular-contractions/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/premature-ventricular-contractions/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/mitral-regurgitation/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/mitral-regurgitation/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/bradyarrhythmia/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/bradyarrhythmia/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-symptoms-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/aortic-stenosis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/aortic-stenosis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/myocarditis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/myocarditis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/pericarditis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/pericarditis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/dilated-cardiomyopathy/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/dilated-cardiomyopathy/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/peripheral-artery-disease/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/peripheral-artery-disease/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/carotid-stenosis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/carotid-stenosis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/deep-vein-thrombosis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/deep-vein-thrombosis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/aortic-aneurysm-dissection/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/aortic-aneurysm-dissection/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/diseases/cardio/orthostatic-hypotension/",
+      "status": 200,
+      "canonical": "https://yttop.kr/diseases/cardio/orthostatic-hypotension/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/digestive/esophagus-stomach/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/digestive/esophagus-stomach/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/digestive/bowel-appendix/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/digestive/bowel-appendix/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/digestive/gallbladder-bile-duct/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/digestive/gallbladder-bile-duct/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/digestive/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/digestive/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-digestive-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/digestive/pancreas/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/digestive/pancreas/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/thyroid/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/thyroid-carotid-neck/thyroid/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/carotid/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/thyroid-carotid-neck/carotid/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/neck-lump/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/thyroid-carotid-neck/neck-lump/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/kidney/function/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/kidney/function/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/kidney/pyelonephritis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/kidney/pyelonephritis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/thyroid-carotid-neck/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/thyroid-carotid-neck/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-neck-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/kidney/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/kidney/",
+      "stylesheets": 1,
+      "imageCount": 2,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/clinic-visuals-hq/banner-kidney-hq-original.png",
+          "width": 1672,
+          "height": 941,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/services/heart/ambulatory-blood-pressure/",
+      "status": 200,
+      "canonical": "https://yttop.kr/services/heart/ambulatory-blood-pressure/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/conditions/kidney/hydronephrosis/",
+      "status": 200,
+      "canonical": "https://yttop.kr/conditions/kidney/hydronephrosis/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/chest-pressure-sweating/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/chest-pressure-sweating/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/chest-tightness-causes/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/chest-tightness-causes/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/epigastric-pain-heart/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/epigastric-pain-heart/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/exertional-chest-pain/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/exertional-chest-pain/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/recurrent-palpitations-normal-ecg/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/irregular-skipped-heartbeat/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/irregular-skipped-heartbeat/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/rapid-heart-rate/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/rapid-heart-rate/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/slow-heart-rate-dizziness/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/slow-heart-rate-dizziness/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/presyncope-cardiac-evaluation/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/presyncope-cardiac-evaluation/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/syncope-emergency/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/syncope-emergency/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/exertional-dyspnea/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/exertional-dyspnea/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/orthopnea-leg-edema/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/orthopnea-leg-edema/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/leg-edema-dyspnea/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/leg-edema-dyspnea/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/rapid-weight-gain-edema/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/rapid-weight-gain-edema/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/fatigue-exercise-intolerance/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/fatigue-exercise-intolerance/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/blood-pressure-180/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/blood-pressure-180/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/orthostatic-dizziness-low-bp/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/orthostatic-dizziness-low-bp/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/valve-regurgitation-follow-up/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/valve-regurgitation-follow-up/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/family-history-heart-disease/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/family-history-heart-disease/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/symptoms/cardio/radiating-chest-pain-119/",
+      "status": 200,
+      "canonical": "https://yttop.kr/symptoms/cardio/radiating-chest-pain-119/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/copyright/",
+      "status": 200,
+      "canonical": "https://yttop.kr/copyright/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/notices/2026-hpv/",
+      "status": 200,
+      "canonical": "https://yttop.kr/notices/2026-hpv/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/notices/2026-pneumococcal/",
+      "status": 200,
+      "canonical": "https://yttop.kr/notices/2026-pneumococcal/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/notices/2026-2027-influenza/",
+      "status": 200,
+      "canonical": "https://yttop.kr/notices/2026-2027-influenza/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/notices/2026-suwon-shingles/",
+      "status": 200,
+      "canonical": "https://yttop.kr/notices/2026-suwon-shingles/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/notices/2026-gyeonggi-student-influenza/",
+      "status": 200,
+      "canonical": "https://yttop.kr/notices/2026-gyeonggi-student-influenza/",
+      "stylesheets": 1,
+      "imageCount": 1,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    },
+    {
+      "path": "/notices/2026-09-17-infection-guide/",
+      "status": 200,
+      "canonical": "https://yttop.kr/notices/2026-09-17-infection-guide/",
+      "stylesheets": 1,
+      "imageCount": 17,
+      "images": [
+        {
+          "src": "https://yttop.kr/assets/logo.webp",
+          "width": 294,
+          "height": 77,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-01.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-02.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-03.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-04.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-05.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-06.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-07.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-08.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-09.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-10.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-11.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-12.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-13.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-14.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-15.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        },
+        {
+          "src": "https://yttop.kr/assets/notice-documents/infection-prevention-page-16.png",
+          "width": 1653,
+          "height": 2337,
+          "error": null
+        }
+      ],
+      "requestFailures": [],
+      "ok": true
+    }
+  ],
+  "failures": [],
+  "badResources": []
+}

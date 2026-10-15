@@ -1,4 +1,5 @@
 import clinic from '../../../content/clinic.json' with { type: 'json' };
+import siteIdentity from '../../../content/site.json' with { type: 'json' };
 // The registry and the rendered article share the same notice content.
 export function noticePage(notice) {
   const blocks = [
@@ -28,7 +29,7 @@ export function noticePage(notice) {
     id: notice.id,
     path: notice.path,
     title: notice.title,
-    metaTitle: `${notice.title} | 영통탑내과`,
+    metaTitle: `${notice.title} | ${siteIdentity.name}`,
     description: notice.summary,
     template: 'notice-guide',
     category: '공지사항',

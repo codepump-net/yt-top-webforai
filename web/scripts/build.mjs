@@ -6,6 +6,7 @@ import { loadContent } from './data.mjs';
 import { sha256 } from './content-contract.mjs';
 import { absoluteUrl, normalizeBase } from '../src/lib/urls.mjs';
 import { discoverable } from '../src/lib/information-architecture.mjs';
+import siteIdentity from '../../content/site.json' with { type: 'json' };
 const mode = process.argv[2] ?? 'review';
 if (!['review', 'production'].includes(mode)) throw new Error('Unknown build mode');
 const origin = process.env.SITE_ORIGIN ?? 'http://localhost:3000';
@@ -58,7 +59,7 @@ await fs.writeFile('out/.nojekyll', '');
 if (mode === 'production')
   await fs.writeFile(
     'out/llms.txt',
-    `# ${data.clinic.name}\n\n> ${data.pages[0].description}\n\n` +
+    `# ${siteIdentity.name}\n\n> ${data.pages[0].description}\n\n` +
       data.pages
         .filter((p) => p.indexable && discoverable(p) && p.template !== 'case-detail')
         .map((p) => `- [${p.title}](${absolute(p.path)}): ${p.description}`)

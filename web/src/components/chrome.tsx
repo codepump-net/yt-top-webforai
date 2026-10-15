@@ -1,5 +1,15 @@
 import { ArrowUpRight, Clock3, MapPin, Phone, ClipboardCheck } from 'lucide-react';
-import { clinic, href, nav, pageById, phoneHref, basePath, pages, sectionId } from '@/lib/site';
+import {
+  clinic,
+  siteIdentity,
+  href,
+  nav,
+  pageById,
+  phoneHref,
+  basePath,
+  pages,
+  sectionId,
+} from '@/lib/site';
 import { SiteNavigation } from './site-navigation';
 import { OfficialChannels } from './official-channels';
 
@@ -16,7 +26,6 @@ export function Header() {
               .map((p) => href(p.path)),
           }))}
           homeUrl={href('/')}
-          logoUrl={href('/assets/logo.webp')}
           searchUrl={href('/search/')}
           sitemapUrl={href('/sitemap/')}
           phoneUrl={phoneHref}
@@ -76,9 +85,10 @@ export function Footer() {
           <div className="footer-top">
             <div>
               <a className="footer-brand" href={href('/')}>
-                영통탑내과<span>{clinic.englishName}</span>
+                {siteIdentity.name}
+                <span>{siteIdentity.operatorLabel}</span>
               </a>
-              <p>건강을 이해하는 시간, 함께합니다.</p>
+              <p>{siteIdentity.description}</p>
             </div>
             <div className="footer-links">
               <a href={href('/visit/')}>진료시간·위치</a>
@@ -94,6 +104,9 @@ export function Footer() {
           </div>
           <div className="footer-bottom">
             <div>
+              <div className="footer-clinic-logo">
+                <img src={href('/assets/logo.webp')} width="294" height="77" alt={clinic.name} />
+              </div>
               <p>
                 {clinic.name} · 대표 {clinic.representative} · 사업자등록번호 {clinic.registration}
               </p>
