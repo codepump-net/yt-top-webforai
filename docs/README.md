@@ -1,5 +1,7 @@
 # 홈페이지 개발 문서
 
+- **[2026-10-16 AEO GEO 운영 대시보드 상세 개발계획](aeo-geo-operations-plan-2026-10-16/README.ko.md)** — 무료 운영을 우선한 Cloudflare·GitHub Actions 구성, 데이터·API 계약, 단계별 개발·검증, 인증·배포·복구 절차. 계획 문서이며 앱 구현·배포 완료 기록이 아님.
+
 - **[2026-09-29 이번 세션 요약보고서](plan-content-checklist-2026-09-29/session-report.ko.md)** — 주요 작업, 최종 검증과 커밋·푸시·review 배포 결과.
 - **[2026-09-29 배포 전 최종 검토](plan-content-checklist-2026-09-29/predeploy-review.ko.md)** — 이식 패키지 논이슈 제외, 최초 54개 재대조. 날짜·지원 대상·접종 조건·시제·띄어쓰기 수정과 전체 검증, 실제 공개 승인 상태 기록.
 - **[2026-09-29 자료 부족 해결·감염병 원문 반영](plan-content-checklist-2026-09-29/infection-resolution.ko.md)** — 사용자 후속 지시에 따른 공식 16쪽 대체, 동일 PDF·원문 확대·전수 검증 완료. 현재 체크리스트 54개 충족·부분 충족 0개·미충족 0개. 로컬 review 결과.
@@ -20,4 +22,4 @@
 - **[3개 사이트 실제 비교](seo-aeo-geo-comparison-2026-09-11/README.ko.md)** — 검색 공개 전환 전의 측정과 비교
 - [초기 상세 실행 계획](implementation-plan/README.md), [개발 스펙](website-spec.ko.md), [URL 대응표](route-map.csv), [완료 기준](acceptance-criteria.csv) — 역사적 설계 자료
 
-갱신일: 2026-09-29. 과거 76개 페이지 계획은 현재 경로 원장이나 공개 승인 기록을 대신하지 않는다. 조사·검증 보고서는 웹 출력과 분리한다.
+갱신일: 2026-10-16. 과거 76개 페이지 계획은 현재 경로 원장이나 공개 승인 기록을 대신하지 않는다. 조사·검증 보고서는 웹 출력과 분리한다.
