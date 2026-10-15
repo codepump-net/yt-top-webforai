@@ -3,6 +3,7 @@ import { Header, Footer } from '@/components/chrome';
 import { href, siteIdentity } from '@/lib/site';
 import { PrintQuestions } from '@/components/print-questions';
 import '../globals.css';
+import '../library.css';
 
 export const metadata: Metadata = {
   applicationName: siteIdentity.name,

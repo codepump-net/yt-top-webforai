@@ -124,7 +124,8 @@ test('mobile navigation works without client scripting', async ({ browser }) => 
   await expect(page.locator('h1')).toHaveText('병원안내');
   await page
     .locator('.hub-directory')
-    .getByRole('link', { name: '의료진 소개', exact: true })
+    .getByRole('link')
+    .filter({ has: page.getByRole('heading', { name: '의료진 소개', exact: true }) })
     .click();
   await expect(page.locator('h1')).toHaveText('의료진 소개');
   await expect(page.locator('.mobile-contact a').first()).toHaveAttribute('href', 'tel:0312027555');

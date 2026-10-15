@@ -144,7 +144,10 @@ test('all existing patient images can open their source without upscaling the pa
     await page.goto(url(pages.find((p: { id: string }) => p.id === visual.pageId).path));
     const img = page.locator(`img[src="${manifest.basePath}${asset.file}"]`).first();
     await img.scrollIntoViewIfNeeded();
-    await expect(img).toHaveJSProperty('naturalWidth', asset.width);
+    if (await img.getAttribute('srcset')) {
+      await expect(img).toHaveJSProperty('complete', true);
+      expect(await img.evaluate((el: HTMLImageElement) => el.naturalWidth)).toBeGreaterThan(0);
+    } else await expect(img).toHaveJSProperty('naturalWidth', asset.width);
     const dimensions = await img.evaluate((el: HTMLImageElement) => ({
       width: el.getBoundingClientRect().width,
       height: el.getBoundingClientRect().height,
@@ -153,9 +156,7 @@ test('all existing patient images can open their source without upscaling the pa
     }));
     expect(dimensions.width).toBeLessThanOrEqual(dimensions.naturalWidth + 1);
     expect(
-      Math.abs(
-        dimensions.width / dimensions.height - dimensions.naturalWidth / dimensions.naturalHeight,
-      ),
+      Math.abs(dimensions.width / dimensions.height - asset.width / asset.height),
     ).toBeLessThan(0.01);
     await expect(img.locator('..')).toHaveAttribute('href', manifest.basePath + asset.file);
   }

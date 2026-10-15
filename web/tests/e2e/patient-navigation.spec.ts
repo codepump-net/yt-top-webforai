@@ -156,7 +156,8 @@ test('new home and hub layouts are accessible and fit desktop and mobile', async
         `${width} ${route}`,
       ).toBe(true);
       const result = await new AxeBuilder({ page })
-        .withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa'])
+        .options({ rules: { 'label-content-name-mismatch': { enabled: true } } })
+        .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'])
         .analyze();
       expect(
         result.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })),

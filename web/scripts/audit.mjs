@@ -173,6 +173,19 @@ for (const route of manifest.routes) {
   for (const el of $('img').toArray())
     if ($(el).attr('alt') === undefined || !$(el).attr('width') || !$(el).attr('height'))
       errors.push(`${route.path}: image accessibility/dimensions`);
+  // A valid fallback must not hide a missing image selected by a browser's srcset.
+  for (const el of $('img[srcset],source[srcset],link[imagesrcset]').toArray()) {
+    const srcset = $(el).attr('srcset') ?? $(el).attr('imagesrcset');
+    for (const candidate of srcset.split(',')) {
+      const url = candidate.trim().split(/\s+/)[0];
+      try {
+        const target = localFile(url, route.path);
+        if (target) await fs.access(target.file);
+      } catch (error) {
+        errors.push(`${route.path}: broken responsive image ${url}: ${error.message}`);
+      }
+    }
+  }
   const gzipBytes = async (selector) => {
     let bytes = 0;
     const urls = [

@@ -1,0 +1,535 @@
+{
+  "stage": "pre-deployment local checks",
+  "date": "2026-10-15",
+  "request": "새카드형 그리드 main 에 커밋 푸시하고 배포해주세요.",
+  "changes": [
+    "Home, guide directories and search results use responsive card grids.",
+    "Existing page illustrations are reused as 400px and 720px AVIF/WebP thumbnails.",
+    "Home search appears in the opening section; the clinic photograph remains in the visiting section.",
+    "Compact directory banners use responsive previews and retain their original PNG links.",
+    "Card links use their visible contents as accessible names.",
+    "Static audit checks every responsive image candidate, including preloads."
+  ],
+  "content": "Medical content, clinic facts, original assets and TOP 건강백과 identity are unchanged. Existing publication evidence retained; digest updated for authorized presentation changes.",
+  "checks": {
+    "productionRoutes": 135,
+    "indexableRoutes": 132,
+    "unitTests": 96,
+    "pythonHarnessTests": 17,
+    "lint": "passed",
+    "typecheck": "passed",
+    "originalAssetIntegrity": "passed",
+    "thumbnailFiles": 48,
+    "dependencyAudit": "passed with existing time-limited development ESLint exception"
+  },
+  "initialFullE2e": {
+    "startTime": "2026-10-15T13:43:40.654Z",
+    "duration": 90358.005,
+    "expected": 70,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "finalFocusedE2e": {
+    "startTime": "2026-10-15T13:51:36.887Z",
+    "duration": 17893.764,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "responsive": [
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false,
+      "grids": [
+        {
+          "classes": "card-grid library-grid",
+          "columns": 3,
+          "children": 6
+        },
+        {
+          "classes": "guide-links library-grid",
+          "columns": 3,
+          "children": 8
+        },
+        {
+          "classes": "guide-links library-grid",
+          "columns": 3,
+          "children": 4
+        }
+      ],
+      "thumbnails": [
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 400,
+          "height": 225
+        }
+      ],
+      "title": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
+      "screenshot": "reports/grid/home-1440.png"
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false,
+      "grids": [
+        {
+          "classes": "card-grid library-grid",
+          "columns": 1,
+          "children": 6
+        },
+        {
+          "classes": "guide-links library-grid",
+          "columns": 1,
+          "children": 8
+        },
+        {
+          "classes": "guide-links library-grid",
+          "columns": 1,
+          "children": 4
+        }
+      ],
+      "thumbnails": [
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 345,
+          "height": 194
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 345,
+          "height": 194
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 345,
+          "height": 194
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 345,
+          "height": 194
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 345,
+          "height": 194
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 345,
+          "height": 194
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 345,
+          "height": 194
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 345,
+          "height": 194
+        }
+      ],
+      "title": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
+      "screenshot": "reports/grid/home-390.png"
+    },
+    {
+      "width": 1440,
+      "route": "/conditions/",
+      "overflow": false,
+      "grids": [
+        {
+          "classes": "care-directory library-grid",
+          "columns": 3,
+          "children": 8
+        }
+      ],
+      "thumbnails": [
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 400,
+          "height": 225
+        }
+      ],
+      "title": "진료분야 | TOP 건강백과",
+      "screenshot": "reports/grid/conditions-1440.png"
+    },
+    {
+      "width": 768,
+      "route": "/conditions/",
+      "overflow": false,
+      "grids": [
+        {
+          "classes": "care-directory library-grid",
+          "columns": 2,
+          "children": 8
+        }
+      ],
+      "thumbnails": [
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 349,
+          "height": 196
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 349,
+          "height": 196
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 349,
+          "height": 196
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 349,
+          "height": 196
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 349,
+          "height": 196
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 349,
+          "height": 196
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 349,
+          "height": 196
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 349,
+          "height": 196
+        }
+      ],
+      "title": "진료분야 | TOP 건강백과",
+      "screenshot": "reports/grid/conditions-768.png"
+    },
+    {
+      "width": 320,
+      "route": "/conditions/",
+      "overflow": false,
+      "grids": [
+        {
+          "classes": "care-directory library-grid",
+          "columns": 1,
+          "children": 8
+        }
+      ],
+      "thumbnails": [
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 276,
+          "height": 155
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 276,
+          "height": 155
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 276,
+          "height": 155
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 276,
+          "height": 155
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 276,
+          "height": 155
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 276,
+          "height": 155
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 276,
+          "height": 155
+        },
+        {
+          "src": "http://127.0.0.1:51539/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 276,
+          "height": 155
+        }
+      ],
+      "title": "진료분야 | TOP 건강백과",
+      "screenshot": "reports/grid/conditions-320.png"
+    },
+    {
+      "width": 1440,
+      "route": "/search/",
+      "overflow": false,
+      "grids": [
+        {
+          "classes": "search-results library-grid",
+          "columns": 3,
+          "children": 107
+        }
+      ],
+      "thumbnails": [],
+      "title": "사이트 검색 | TOP 건강백과",
+      "screenshot": "reports/grid/search-1440.png"
+    },
+    {
+      "width": 390,
+      "route": "/search/",
+      "overflow": false,
+      "grids": [
+        {
+          "classes": "search-results library-grid",
+          "columns": 1,
+          "children": 107
+        }
+      ],
+      "thumbnails": [],
+      "title": "사이트 검색 | TOP 건강백과",
+      "screenshot": "reports/grid/search-390.png"
+    },
+    {
+      "width": 390,
+      "route": "/health/colonoscopy-preparation-questions/",
+      "overflow": false,
+      "grids": [],
+      "thumbnails": [],
+      "title": "대장내시경 전 음식·정결제·귀가 준비 | TOP 건강백과",
+      "screenshot": "reports/grid/article-390.png"
+    }
+  ],
+  "resolvedFindings": [
+    "Removed card aria-label overrides that omitted visible categories and descriptions; enabled this accessibility rule in the existing home/hub regression test.",
+    "Replaced full-size directory header image downloads with previews; original-image integrity and enlargement tests pass."
+  ],
+  "performance": {
+    "mode": "production",
+    "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+    "errors": [
+      "conditions/: LCP/CLS budget"
+    ],
+    "reports": [
+      {
+        "route": "/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 1853.3083,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 50.99999999999977,
+          "first-contentful-paint": 906.3082999999999
+        },
+        "failedAudits": []
+      },
+      {
+        "route": "/conditions/",
+        "scores": {
+          "performance": 96,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 2727.0365,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 24,
+          "first-contentful-paint": 904.0364999999999
+        },
+        "failedAudits": []
+      },
+      {
+        "route": "/services/",
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 2339.2051,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 32.698725000000195,
+          "first-contentful-paint": 905.2050999999999
+        },
+        "failedAudits": []
+      },
+      {
+        "route": "/services/heart/echocardiography/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 1884.3939,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 34,
+          "first-contentful-paint": 909.3939
+        },
+        "failedAudits": []
+      },
+      {
+        "route": "/search/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 69
+        },
+        "metrics": {
+          "largest-contentful-paint": 1737.9551,
+          "cumulative-layout-shift": 0.001278436256013717,
+          "total-blocking-time": 37,
+          "first-contentful-paint": 762.9550999999999
+        },
+        "failedAudits": [
+          "is-crawlable"
+        ]
+      },
+      {
+        "route": "/health/colonoscopy-preparation-questions/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 1805.7848,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 37,
+          "first-contentful-paint": 905.7847999999999
+        },
+        "failedAudits": []
+      },
+      {
+        "route": "/health/cancer-treatment-symptoms/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 2268.0987,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 33,
+          "first-contentful-paint": 910.0987
+        },
+        "failedAudits": []
+      },
+      {
+        "route": "/ne/checkups/visa/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 1664.9555999999998,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 30,
+          "first-contentful-paint": 764.9556
+        },
+        "failedAudits": []
+      }
+    ]
+  },
+  "requiredPerformanceRoutes": [
+    "/",
+    "/services/heart/echocardiography/",
+    "/search/",
+    "/health/colonoscopy-preparation-questions/",
+    "/health/cancer-treatment-symptoms/",
+    "/ne/checkups/visa/"
+  ],
+  "performanceInterpretation": "All six existing CI performance routes pass their thresholds. The additional /services/ sample passes. The extra /conditions/ sample scores 96 but its simulated LCP is about 2.7 seconds, above the 2.5-second target; repeat measurement was similar. This remaining opportunity is recorded without changing the CI budgets or concealing the measurement.",
+  "pending": "CI repeats the full suite on the committed source, then verifies all deployed responses."
+}

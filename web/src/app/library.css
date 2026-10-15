@@ -1,0 +1,758 @@
+/* Reading and discovery presentation. Content and route data remain unchanged. */
+.home-library {
+  --library-line: #dce5e0;
+  --library-paper: #f7f9f7;
+}
+
+.home-library .hero {
+  background: #f4f7f3;
+  border-bottom: 1px solid var(--line);
+}
+
+.home-library .hero-layout {
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.9fr);
+  gap: 56px;
+  min-height: 0;
+  padding-block: 38px;
+}
+
+.home-library .hero-copy {
+  padding: 0;
+}
+
+.home-library .hero-copy .eyebrow {
+  margin-bottom: 16px;
+}
+
+.home-library .hero h1 {
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.home-library .hero-copy > p {
+  font-size: 16px;
+  line-height: 1.85;
+  margin-bottom: 22px;
+}
+
+.home-library .hero-note {
+  margin-top: 18px;
+  font-size: 12px;
+}
+
+.home-library .hero-visual {
+  align-self: center;
+  height: 275px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.home-library .location-chip {
+  right: 16px;
+  top: 16px;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.home-library .photo-caption {
+  left: 22px;
+  bottom: 20px;
+  right: 16px;
+}
+
+.home-library .photo-caption span {
+  font-size: 9px;
+  letter-spacing: 0.09em;
+}
+
+.home-library .photo-caption p {
+  font-size: 17px;
+}
+
+.home-library .emergency-strip > div {
+  padding-block: 13px;
+}
+
+.home-library .home-search {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid #dce5e0;
+  border-radius: 10px;
+}
+
+.home-library .home-search h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.home-library .home-search label {
+  font-size: 14px;
+}
+
+.home-library .home-search .small {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.home-library .home-search-field input {
+  background: #f8faf8;
+  border-color: #b9ccc3;
+}
+
+.home-library .section {
+  padding-block: 56px;
+}
+
+.home-library .section-heading h2 {
+  font-size: 28px;
+}
+
+.home-library .section-heading .eyebrow {
+  margin-bottom: 8px;
+}
+
+.home-library .section-heading p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.home-library .patient-entry {
+  position: relative;
+  padding: 20px;
+  background: #f7f9f7;
+  border-radius: 8px;
+  gap: 0;
+}
+
+.home-library .patient-entrances {
+  margin-top: 30px;
+}
+
+.home-library .home-visit-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+}
+
+.home-library .home-visit-heading .section-heading {
+  display: block;
+}
+
+.home-library .home-visit-heading .hero-visual {
+  height: 220px;
+}
+
+.home-library .entry-number {
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.home-library .patient-entry h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.home-library .patient-entry p {
+  font-size: 14px;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+.home-library .patient-entry > svg {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  width: 18px;
+  height: 18px;
+}
+
+.home-library .discovery-links {
+  margin: 20px 0 30px;
+  gap: 8px 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.library-grid,
+.care-directory.library-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 26px;
+  align-items: stretch;
+}
+
+.guide-links.library-grid > li {
+  min-width: 0;
+  display: flex;
+  border: 0;
+}
+
+.library-card,
+.guide-links a.library-card,
+.encyclopedia-search .result-card.library-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  gap: 0;
+  padding: 24px;
+  border: 1px solid #dce5e0;
+  border-radius: 9px;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.library-card:hover,
+.guide-links a.library-card:hover {
+  transform: none;
+  background: #fff;
+  border-color: #71988b;
+  box-shadow: 0 6px 24px #183b3709;
+  text-decoration: none;
+}
+
+.library-card:hover h2,
+.library-card:hover h3 {
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+}
+
+.library-card > div:not(.guide-card-image):not(.card-icon) {
+  min-width: 0;
+  flex: 1;
+}
+
+.library-card .eyebrow {
+  display: block;
+  margin: 0 0 14px;
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: #376c60;
+}
+
+.library-card h2,
+.library-card h3,
+.encyclopedia-search .library-card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.04em;
+  margin: 0 0 14px;
+  padding: 0;
+  border: 0;
+}
+
+.library-card p,
+.result-card.library-card p {
+  font-size: 15px;
+  line-height: 1.85;
+  margin: 0 0 24px;
+  color: #53645e;
+}
+
+.library-card > p {
+  flex: 1;
+}
+
+.library-card .card-link {
+  font-size: 13px;
+  line-height: 1.7;
+  padding-top: 16px;
+  border-top: 1px solid #e8eeea;
+  color: var(--brand);
+}
+
+.library-card > svg {
+  align-self: flex-end;
+  margin-top: auto;
+  color: var(--brand);
+  width: 20px;
+  height: 20px;
+}
+
+.guide-card-image {
+  flex: none;
+  margin: -24px -24px 22px;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid #e8eeea;
+  background: #f4f8fa;
+}
+
+.guide-card-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1672 / 941;
+  object-fit: contain;
+}
+
+.home-library .home-care-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 56px;
+}
+
+.home-library .home-care-grid .section-heading {
+  display: flex;
+}
+
+.home-library .home-care-grid .section-heading > a {
+  margin-top: 0;
+}
+
+.home-library .soft-section {
+  background: #f7f9f7;
+}
+
+.home-library .notice-preview {
+  border-radius: 9px;
+  padding: 24px;
+}
+
+.library-heading {
+  background: #f7f9f7;
+  padding-bottom: 36px;
+}
+
+.library-heading h1 {
+  font-size: clamp(28px, 3.2vw, 42px);
+  line-height: 1.45;
+  max-width: 960px;
+}
+
+.library-heading .breadcrumbs {
+  padding-block: 12px 20px;
+  font-size: 12px;
+}
+
+.library-heading .page-category {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0 0 14px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #8cafa2;
+}
+
+.library-heading .page-intro {
+  max-width: 880px;
+  font-size: 17px;
+  line-height: 1.9;
+  margin-top: 18px;
+}
+
+.directory-heading > .container:has(> .patient-banner) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  column-gap: 48px;
+  align-items: center;
+}
+
+.directory-heading .container > .breadcrumbs {
+  grid-column: 1 / -1;
+}
+
+.directory-heading h1,
+.directory-heading .page-intro {
+  grid-column: 1;
+}
+
+.directory-heading .patient-banner {
+  grid-column: 2;
+  grid-row: 2 / span 3;
+  margin: 0;
+  align-self: center;
+}
+
+.directory-heading .banner-original {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.library-page {
+  padding-block: 40px 72px;
+}
+
+.library-page.article-layout {
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 48px;
+}
+
+.library-page .article-sidebar .sidebar-box {
+  background: #f7f9f7;
+  border: 1px solid #e2e9e4;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.library-page .article-sidebar nav {
+  font-size: 14px;
+}
+
+.library-page .article-sidebar nav a {
+  padding: 10px 6px;
+}
+
+.library-page .hub-directory {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 40px;
+}
+
+.library-page .hub-directory > section > h2 {
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b7cbc1;
+  font-size: 23px;
+}
+
+.library-page.article-layout .library-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.library-directory .patient-banner {
+  max-width: 440px;
+  margin: 0 0 30px;
+}
+
+.library-directory .patient-banner .banner-original {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.library-page .search-field {
+  border-radius: 8px;
+  border-color: #b9ccc3;
+  background: #f8faf8;
+}
+
+.library-page .filter-row {
+  gap: 8px;
+  margin-block: 22px;
+}
+
+.library-page .filter-row button {
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 9px 13px;
+}
+
+.library-page .result-count {
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.library-detail .article-section {
+  margin-bottom: 42px;
+}
+
+.library-detail .article-section > h2 {
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.library-detail .article-section > p {
+  font-size: 18px;
+  line-height: 1.95;
+}
+
+.library-page .qa-list {
+  display: grid;
+  gap: 12px;
+  border-top: 0;
+}
+
+.library-page .qa-list details {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.library-page .qa-list details[open] {
+  border-color: #9db9ac;
+  background: #f8faf8;
+}
+
+.library-page .qa-list summary {
+  padding: 20px 50px 20px 22px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.library-page .qa-list summary::after {
+  right: 22px;
+}
+
+.library-page .qa-list summary > span {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.library-page .qa-list details > p {
+  padding: 0 24px 24px 52px;
+  font-size: 17px;
+  line-height: 1.95;
+}
+
+.library-page .qa-list .answer-sources,
+.library-page .qa-list .context-links {
+  margin: 0 24px 24px 52px;
+}
+
+.library-page .article-connections {
+  padding-top: 28px;
+  margin-top: 40px;
+}
+
+.library-page .article-connections > strong {
+  font-size: 16px;
+}
+
+.library-page .article-connections .guide-links {
+  margin-top: 12px;
+}
+
+.library-page .article-footer {
+  border-radius: 8px;
+}
+
+@media (max-width: 1100px) {
+  .home-library .hero-layout {
+    gap: 30px;
+  }
+  .library-grid,
+  .care-directory.library-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+  .library-page.article-layout {
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .home-library .hero-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+  .home-library .hero-visual {
+    height: 260px;
+  }
+  .home-library .location-chip {
+    left: 12px;
+    right: 12px;
+    padding: 8px;
+    font-size: 11px;
+  }
+  .home-library .photo-caption {
+    left: 16px;
+  }
+  .home-library .photo-caption span {
+    letter-spacing: 0;
+  }
+  .home-library .home-search {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .directory-heading > .container:has(> .patient-banner) {
+    grid-template-columns: minmax(0, 1fr) 200px;
+    column-gap: 24px;
+  }
+  .library-page.article-layout {
+    display: block;
+  }
+  .library-page .article-sidebar .sidebar-box {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-library .hero-layout {
+    grid-template-columns: minmax(0, 1fr);
+    padding-block: 28px;
+    gap: 22px;
+  }
+  .home-library .hero-copy .eyebrow {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+  .home-library .hero-copy > p {
+    font-size: 15px;
+  }
+  .home-library .hero-visual {
+    height: 145px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .home-library .location-chip {
+    left: auto;
+    right: 12px;
+    top: 12px;
+  }
+  .home-library .photo-caption {
+    bottom: 14px;
+  }
+  .home-library .photo-caption p {
+    font-size: 15px;
+  }
+  .home-library .home-search {
+    padding: 22px;
+  }
+  .home-library .home-search h2 {
+    font-size: 22px;
+  }
+  .home-library .section {
+    padding-block: 36px;
+  }
+  .home-library .section-heading h2 {
+    font-size: 25px;
+  }
+  .home-library .home-visit-heading {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+  .home-library .section-heading > .text-link {
+    font-size: 14px;
+  }
+  .home-library .patient-entry {
+    display: block;
+    padding: 18px 48px 18px 18px;
+  }
+  .home-library .patient-entry p {
+    margin: 0;
+  }
+  .home-library .discovery-links {
+    gap: 6px 18px;
+    margin-bottom: 24px;
+  }
+  .library-grid,
+  .care-directory.library-grid,
+  .library-page.article-layout .library-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+  .library-card,
+  .guide-links a.library-card,
+  .encyclopedia-search .result-card.library-card {
+    padding: 22px;
+  }
+  .guide-card-image {
+    margin: -22px -22px 22px;
+  }
+  .library-card h2,
+  .library-card h3,
+  .encyclopedia-search .library-card h2 {
+    font-size: 21px;
+  }
+  .library-card p,
+  .result-card.library-card p {
+    font-size: 16px;
+  }
+  .home-library .home-care-grid {
+    gap: 36px;
+  }
+  .home-library .home-care-grid .section-heading {
+    display: block;
+  }
+  .home-library .home-care-grid .section-heading > a {
+    margin-top: 12px;
+  }
+  .library-heading {
+    padding-bottom: 28px;
+  }
+  .directory-heading > .container:has(> .patient-banner) {
+    grid-template-columns: minmax(0, 1fr) 120px;
+    column-gap: 16px;
+  }
+  .directory-heading .patient-banner {
+    grid-row: 2;
+  }
+  .directory-heading .page-intro {
+    grid-column: 1 / -1;
+  }
+  .library-heading .page-intro {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  .library-heading .breadcrumbs {
+    font-size: 11px;
+    padding-bottom: 16px;
+  }
+  .library-page {
+    padding-block: 28px 48px;
+  }
+  .library-detail .article-section > h2 {
+    font-size: 23px;
+  }
+  .library-detail .article-section > p {
+    font-size: 17px;
+  }
+  .library-page .qa-list summary {
+    padding: 18px 42px 18px 18px;
+    font-size: 17px;
+  }
+  .library-page .qa-list summary::after {
+    right: 18px;
+  }
+  .library-page .qa-list details > p {
+    padding: 0 18px 22px;
+    font-size: 16px;
+  }
+  .library-page .qa-list .answer-sources,
+  .library-page .qa-list .context-links {
+    margin: 0 18px 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .library-card {
+    transition: none;
+  }
+}
+
+@media print {
+  .home-library .hero-layout,
+  .home-library .home-search,
+  .home-library .home-care-grid,
+  .library-page.article-layout,
+  .library-grid,
+  .library-page.article-layout .library-grid {
+    display: block;
+  }
+  .library-card,
+  .guide-links a.library-card {
+    margin-bottom: 16px;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+  .guide-card-image {
+    display: none;
+  }
+  .library-page .qa-list details {
+    border: 0;
+    break-inside: auto;
+  }
+  .library-page .qa-list details > p {
+    padding-left: 0;
+  }
+}

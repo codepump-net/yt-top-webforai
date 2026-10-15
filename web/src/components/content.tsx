@@ -49,15 +49,21 @@ import { OfficialChannels } from './official-channels';
 import { koreaDate, recentNotices } from '@/lib/notice-model.mjs';
 import { PatientBanner, PatientDiagram } from './patient-visuals';
 import { ZoomImage } from './zoom-image';
+import { GuideCardImage } from './guide-card-image';
 
 const iconSet = [HeartPulse, ScanLine, Waves, ClipboardCheck, Stethoscope, Activity];
 export function Cards({ items, icons = false }: { items: Page[]; icons?: boolean }) {
   return (
-    <div className="card-grid">
+    <div className="card-grid library-grid">
       {items.map((p, i) => {
         const Icon = iconSet[i % iconSet.length];
         return (
-          <a key={p.id} className={`topic-card ${icons ? 'with-icon' : ''}`} href={href(p.path)}>
+          <a
+            key={p.id}
+            className={`topic-card library-card ${icons ? 'with-icon' : ''}`}
+            href={href(p.path)}
+          >
+            <GuideCardImage pageId={p.id} />
             {icons && (
               <span className="card-icon">
                 <Icon strokeWidth={1.5} size={30} />
@@ -149,7 +155,7 @@ export function DoctorCards() {
 }
 function Home() {
   return (
-    <>
+    <div className="home-library">
       <section className="hero">
         <div className="container hero-layout">
           <div className="hero-copy">
@@ -179,19 +185,7 @@ function Home() {
               <a href={href('/visit/')}>진료시간·오시는 길</a>
             </div>
           </div>
-          <div className="hero-visual">
-            <ClinicPhoto hero />
-            <div className="photo-caption">
-              <span>{clinic.englishName}</span>
-              <p>필요한 진료로 이어지는 첫 만남</p>
-            </div>
-            <div className="location-chip">
-              <MapPin size={18} />
-              <span>
-                망포역포레스퀘어 <b>6층 609호</b>
-              </span>
-            </div>
-          </div>
+          <HomeSearch searchUrl={href('/search/')} sitemapUrl={href('/sitemap/')} />
         </div>
       </section>
       <div className="emergency-strip">
@@ -206,12 +200,30 @@ function Home() {
           </a>
         </div>
       </div>
-      <HomeSearch searchUrl={href('/search/')} sitemapUrl={href('/sitemap/')} />
       <section className="section container patient-entry-section">
         <SectionHeading
           eyebrow="START HERE"
           title="지금 무엇이 필요하신가요?"
           text="증상·검사·검진 질문의 답을 찾고, 방문 준비를 확인하세요."
+        />
+        <nav className="discovery-links" aria-label="증상과 질환 찾기">
+          <a href={href('/conditions/heart-disease/')}>가슴통증·두근거림</a>
+          <a href={href('/conditions/abdominal-pain/')}>갑작스러운 복통</a>
+          <a href={href('/conditions/chronic-cough/')}>오래가는 기침</a>
+          <a href={href('/health/fever-during-cancer-treatment/')}>항암치료 중 발열</a>
+          <a href={href('/diseases/')}>
+            질환 이름으로 찾기 <ArrowRight size={15} />
+          </a>
+        </nav>
+        <Cards
+          items={select([
+            'heart-test-differences',
+            'colonoscopy-preparation',
+            'palpitations-followup',
+            'after-endoscopy',
+            'checkup-preparation',
+            'cancer-treatment-symptoms',
+          ])}
         />
         <div className="patient-entrances">
           {patientEntrances.map((entry, index) => (
@@ -223,15 +235,6 @@ function Home() {
             </a>
           ))}
         </div>
-        <nav className="discovery-links" aria-label="증상과 질환 찾기">
-          <a href={href('/conditions/heart-disease/')}>가슴통증·두근거림</a>
-          <a href={href('/conditions/abdominal-pain/')}>갑작스러운 복통</a>
-          <a href={href('/conditions/chronic-cough/')}>오래가는 기침</a>
-          <a href={href('/health/fever-during-cancer-treatment/')}>항암치료 중 발열</a>
-          <a href={href('/diseases/')}>
-            질환 이름으로 찾기 <ArrowRight size={15} />
-          </a>
-        </nav>
       </section>
       <section className="section soft-section">
         <div className="container home-care-grid">
@@ -243,6 +246,7 @@ function Home() {
               link={['/conditions/', '진료분야 전체']}
             />
             <PageLinks
+              cards
               ids={hubGroups.conditions.flatMap((group: { ids: string[] }) => group.ids)}
             />
           </div>
@@ -253,7 +257,10 @@ function Home() {
               text="검사 목적을 이해하고 예약한 검사의 준비를 확인하세요."
               link={['/services/', '검사·시술 전체']}
             />
-            <PageLinks ids={['heart-index', 'ultrasound-index', 'endoscopy', 'examinations']} />
+            <PageLinks
+              cards
+              ids={['heart-index', 'ultrasound-index', 'endoscopy', 'examinations']}
+            />
           </div>
         </div>
       </section>
@@ -311,11 +318,26 @@ function Home() {
         </a>
       </section>
       <section className="section container">
-        <SectionHeading
-          eyebrow="VISIT"
-          title="진료시간·오시는 길"
-          link={['/visit/', '방문 안내']}
-        />
+        <div className="home-visit-heading">
+          <SectionHeading
+            eyebrow="VISIT"
+            title="진료시간·오시는 길"
+            link={['/visit/', '방문 안내']}
+          />
+          <div className="hero-visual">
+            <ClinicPhoto />
+            <div className="photo-caption">
+              <span>{clinic.englishName}</span>
+              <p>필요한 진료로 이어지는 첫 만남</p>
+            </div>
+            <div className="location-chip">
+              <MapPin size={18} />
+              <span>
+                망포역포레스퀘어 <b>6층 609호</b>
+              </span>
+            </div>
+          </div>
+        </div>
         <VisitInfo />
         <OfficialChannels variant="visit" />
         <div className="visit-channel">
@@ -323,17 +345,26 @@ function Home() {
           <OriginalNoticesLink />
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
-function PageLinks({ ids }: { ids: string[] }) {
+function PageLinks({ ids, cards = false }: { ids: string[]; cards?: boolean }) {
   return (
-    <ul className="guide-links">
+    <ul className={`guide-links ${cards ? 'library-grid' : ''}`}>
       {select(ids).map((p) => (
         <li key={p.id}>
-          <a href={href(p.path)}>
-            {p.title}
+          <a href={href(p.path)} className={cards ? 'library-card' : undefined}>
+            {cards ? (
+              <>
+                <GuideCardImage pageId={p.id} />
+                <span className="eyebrow">{p.category}</span>
+                <h3>{p.title}</h3>
+                <p>{p.description}</p>
+              </>
+            ) : (
+              p.title
+            )}
             <ArrowRight size={16} />
           </a>
         </li>
@@ -345,11 +376,12 @@ function HubDirectory({ page }: { page: Page }) {
   const groups = hubGroups[page.id];
   if (page.id === 'conditions')
     return (
-      <div className="care-directory">
+      <div className="care-directory library-grid">
         {groups.map((group: { title: string; ids: string[] }, i: number) => {
           const target = pageById(group.ids[0])!;
           return (
-            <a className="topic-card" href={href(target.path)} key={target.id}>
+            <a className="topic-card library-card" href={href(target.path)} key={target.id}>
+              <GuideCardImage pageId={target.id} priority={i === 0} />
               <span className="eyebrow">{String(i + 1).padStart(2, '0')}</span>
               <h2>{group.title}</h2>
               <p>{target.description}</p>
@@ -392,13 +424,13 @@ function HubDirectory({ page }: { page: Page }) {
         {groups.map((group: { title: string; ids: string[] }, i: number) => (
           <section key={group.title} id={`directory-${i + 1}`}>
             <h2>{group.title}</h2>
-            <PageLinks ids={group.ids} />
+            <PageLinks ids={group.ids} cards />
           </section>
         ))}
       </div>
     );
   return /index|hub/.test(page.template) && !['doctors', 'cases', 'notices'].includes(page.id) ? (
-    <PageLinks ids={childrenFor(page).map((p) => p.id)} />
+    <PageLinks ids={childrenFor(page).map((p) => p.id)} cards />
   ) : null;
 }
 
@@ -756,6 +788,8 @@ export function PageContent({ page }: { page: Page }) {
     tocEntries.length > 0 &&
     !['visit', 'doctors', 'sitemap', 'search', 'cases', 'conditions'].includes(page.id);
   const section = sectionFor(page);
+  const directory =
+    /index|hub/.test(page.template) && !['doctors', 'cases', 'notices'].includes(page.id);
   return (
     <>
       <script
@@ -766,7 +800,7 @@ export function PageContent({ page }: { page: Page }) {
         <Home />
       ) : (
         <>
-          <div className="page-heading">
+          <div className={`page-heading library-heading ${directory ? 'directory-heading' : ''}`}>
             <div className="container">
               <nav className="breadcrumbs" aria-label={t.home}>
                 <ol>
@@ -788,6 +822,7 @@ export function PageContent({ page }: { page: Page }) {
               )}
               <h1 id="article-title">{page.title}</h1>
               <p className="page-intro">{page.intro}</p>
+              {directory && <PatientBanner pageId={page.id} compact />}
               {(page.path.startsWith('/symptoms/cardio/') || page.id === 'copyright-policy') && (
                 <p className="content-updated">
                   내용 수정일 <time dateTime={page.updatedAt}>{page.updatedAt}</time>
@@ -810,7 +845,9 @@ export function PageContent({ page }: { page: Page }) {
               )}
             </div>
           </div>
-          <div className={`container page-content ${hasToc ? 'article-layout' : ''}`}>
+          <div
+            className={`container page-content library-page ${directory ? 'library-directory' : 'library-detail'} ${hasToc ? 'article-layout' : ''}`}
+          >
             {hasToc && <ArticleNavigation label={t.contents} entries={tocEntries} />}
             <article className="main-article">
               {notice && <NoticeMeta notice={notice} initialDay={koreaDate()} />}
@@ -885,7 +922,7 @@ export function PageContent({ page }: { page: Page }) {
                 </p>
               )}
               {page.id === 'about' && <OfficialChannels variant="about" />}
-              <PatientBanner pageId={page.id} />
+              {!directory && <PatientBanner pageId={page.id} />}
               <HubDirectory page={page} />
               <PatientDiagram pageId={page.id} />
               {!['cases', 'notices'].includes(page.id) && <BodyBlocks page={page} />}

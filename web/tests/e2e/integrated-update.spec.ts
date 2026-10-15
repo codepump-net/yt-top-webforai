@@ -6,15 +6,22 @@ import assets from '../../../content/assets.json';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 const url = (path: string) => `http://127.0.0.1:3000${manifest.basePath}${path}`;
 
-test('home search stays below emergency guidance and opens local aliases without a query request', async ({
+test('home search stays in the opening section and opens local aliases without a query request', async ({
   page,
 }) => {
   await page.goto(url('/'));
   await expect(page.locator('.header-search')).toContainText('검색');
+  await expect(page.locator('.hero #home-query')).toBeVisible();
+  await expect(page.locator('.emergency-strip')).toContainText('119');
   expect(
     await page
       .locator('.emergency-strip')
-      .evaluate((el) => el.nextElementSibling?.classList.contains('home-search')),
+      .evaluate((el) =>
+        Boolean(
+          el.compareDocumentPosition(document.querySelector('.patient-entry-section')!) &
+          Node.DOCUMENT_POSITION_FOLLOWING,
+        ),
+      ),
   ).toBe(true);
   const requests: string[] = [];
   page.on('request', (request) => requests.push(request.url()));

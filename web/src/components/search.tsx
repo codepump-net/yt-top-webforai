@@ -179,13 +179,13 @@ export function Search({
           전체 페이지에서 찾기
         </a>
       )}
-      <div className="search-results">
+      <div className="search-results library-grid">
         {!waiting &&
           results.map((p) => (
             <a
               href={p.url}
               key={p.url}
-              className="result-card"
+              className="result-card library-card"
               target={p.external ? '_blank' : undefined}
               rel={p.external ? 'noopener noreferrer' : undefined}
             >

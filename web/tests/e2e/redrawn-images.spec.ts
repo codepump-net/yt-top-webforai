@@ -42,8 +42,18 @@ for (const width of [390, 1440]) {
       await page.goto(url(content.path));
       const image = page.locator(`main img[src="${manifest.basePath}${asset.file}"]`).first();
       await image.scrollIntoViewIfNeeded();
-      await expect(image).toHaveJSProperty('naturalWidth', asset.width);
-      await expect(image).toHaveJSProperty('naturalHeight', asset.height);
+      if (await image.getAttribute('srcset')) {
+        await expect(image).toHaveJSProperty('complete', true);
+        expect(await image.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(
+          0,
+        );
+        expect(await image.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(
+          new RegExp(`/assets/card-thumbnails/${asset.id}(?:-400)?\\.webp$`),
+        );
+      } else {
+        await expect(image).toHaveJSProperty('naturalWidth', asset.width);
+        await expect(image).toHaveJSProperty('naturalHeight', asset.height);
+      }
       const dimensions = await image.evaluate((node) => {
         const img = node as HTMLImageElement;
         const box = img.getBoundingClientRect();

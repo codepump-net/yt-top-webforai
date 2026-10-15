@@ -10,7 +10,7 @@ const diagramTextTitles: Record<string, string> = {
   'checkup-flow': '검진별 준비와 결과',
 };
 
-export function PatientBanner({ pageId }: { pageId: string }) {
+export function PatientBanner({ pageId, compact = false }: { pageId: string; compact?: boolean }) {
   const visual = visuals.banners.find((v) => v.pageId === pageId);
   if (!visual) return null;
   const asset = assets.find((a) => a.id === visual.assetId)!;
@@ -26,10 +26,17 @@ export function PatientBanner({ pageId }: { pageId: string }) {
       >
         <img
           src={href(asset.file)}
+          srcSet={
+            compact
+              ? `${href(`/assets/card-thumbnails/${asset.id}-400.webp`)} 400w, ${href(`/assets/card-thumbnails/${asset.id}.webp`)} 720w`
+              : undefined
+          }
+          sizes={compact ? '(max-width: 600px) 120px, (max-width: 850px) 200px, 280px' : undefined}
           width={asset.width}
           height={asset.height}
           alt={visual.alt}
-          loading="lazy"
+          loading={compact ? 'eager' : 'lazy'}
+          fetchPriority={compact ? 'high' : undefined}
           decoding="async"
         />
       </a>
