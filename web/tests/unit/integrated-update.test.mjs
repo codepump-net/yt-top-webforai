@@ -84,7 +84,7 @@ it('provides patient aliases without turning blood pressure monitoring into Holt
   expect(bp.blocks.find((b) => b.id === 'results').text).toContain('약 1시간');
 });
 
-it('binds the vaccination figure to nine readable schedules and preserves pending review', () => {
+it('binds the vaccination figure to nine readable schedules and preserves medical review requirements', () => {
   const vaccine = page('vaccinations');
   expect(vaccine.blocks[0].id).toBe('vaccination-schedule');
   expect(vaccine.blocks[0].table.rows).toHaveLength(9);
@@ -92,7 +92,7 @@ it('binds the vaccination figure to nine readable schedules and preserves pendin
   expect(figure.generatedOriginal).toBe(true);
   expect(figure.file).toBe('/assets/clinic-visuals-hq/vaccination-schedule-2026-hq-original.png');
   expect(figure.bytes).toBeLessThanOrEqual(8_000_000);
-  expect(vaccine.reviewStatus).toBe('pending');
+  expect(vaccine.risk).toBe('medical');
   expect(data.reviews).toEqual([]);
   expect(articleGuidance(page('fees'))).toMatchObject({
     medical: true,

@@ -34,6 +34,14 @@ it('accepts the recorded scope while leaving named clinical review records separ
   expect(context.reviews).toEqual([]);
   expect(validateContent(context.pages, context)).toEqual([]);
 });
+it('rejects pending content even when confirmation scope and digest match', () => {
+  const context = approvedFixture();
+  context.pages.find((p) => p.id === 'echocardiography').reviewStatus = 'pending';
+  context.publicationApproval.digest = publicationDigest(context.pages, context);
+  expect(validateContent(context.pages, context)).toContain(
+    'Publication confirmation requires approved content status',
+  );
+});
 it.each(['content', 'clinic', 'physician', 'renderer', 'case', 'scope'])(
   'rejects changes to confirmed %s without new evidence',
   (field) => {

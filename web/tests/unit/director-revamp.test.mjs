@@ -1,11 +1,14 @@
 import { expect, it } from 'vitest';
 import { loadContent } from '../../scripts/data.mjs';
-import { validateContent } from '../../scripts/content-contract.mjs';
+import { publicationDigest, validateContent } from '../../scripts/content-contract.mjs';
 import { createStructuredData } from '../../src/lib/structured-data.mjs';
 const data = await loadContent();
 const page = (id) => data.pages.find((p) => p.id === id);
-it('keeps the previous release evidence stale after a medical content change', () => {
-  const errors = validateContent(data.pages, { ...data, mode: 'production' });
+it('invalidates a content-bound confirmation after a medical content change', () => {
+  const changed = structuredClone(data);
+  changed.publicationApproval.digest = publicationDigest(changed.pages, changed);
+  changed.pages.find((p) => p.id === 'orafang-preparation').intro += ' Changed preparation.';
+  const errors = validateContent(changed.pages, { ...changed, mode: 'production' });
   expect(errors).toContain('Stale publication confirmation: content, facts, or renderer changed');
   expect(data.reviews).toEqual([]);
 });

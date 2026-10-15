@@ -13,7 +13,7 @@ const data = await loadContent();
 const page = (id) => data.pages.find((p) => p.id === id);
 const diseases = data.pages.filter((p) => p.path.startsWith('/diseases/cardio/'));
 
-it('publishes twenty distinct disease drafts with all sixty manuscript answers and existing URL syntax', () => {
+it('provides twenty distinct medical disease guides with all sixty manuscript answers and existing URL syntax', () => {
   expect(diseases).toHaveLength(20);
   expect(diseases.reduce((n, p) => n + p.questions.length, 0)).toBe(60);
   for (const p of diseases) {
@@ -22,7 +22,7 @@ it('publishes twenty distinct disease drafts with all sixty manuscript answers a
     expect(p.blocks.map((b) => b.id)).toContain('clinic-care');
     expect(p.sources.some((s) => s.kind === 'medical')).toBe(true);
     expect(JSON.stringify(p)).not.toMatch(/내부 인덱스|권장 URL|역류이란|박리이란|최종 검토/);
-    expect(p.reviewStatus).toBe('pending');
+    expect(['medical', 'urgent_context_review']).toContain(p.risk);
   }
 });
 it('keeps clinical hubs out of encyclopedias and discovers every new article under diseases', () => {

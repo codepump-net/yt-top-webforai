@@ -24,7 +24,7 @@ it('exposes all 20 symptom guides consistently without replacing disease or foll
     expect(searchItems([p])[0].aliases.length).toBeGreaterThan(0);
     expect(articleGuidance(p)).toMatchObject({ medical: true, heart: true });
     expect(p.publishedAt).toBeNull();
-    expect(p.reviewStatus).toBe('pending');
+    expect(['medical', 'urgent_context_review']).toContain(p.risk);
     expect(p.sources.every((s) => s.checkedAt)).toBe(true);
     expect(p.related.some((id) => data.pages.find((t) => t.id === id).related.includes(p.id))).toBe(
       true,
@@ -52,7 +52,6 @@ it('validates visuals and notices and catches stale diagram text, unknown pages 
 it('keeps date-specific programs separate from historical data and archives by Korean date', () => {
   expect(data.pages.find((p) => p.id === 'notices')).toMatchObject({
     risk: 'medical',
-    reviewStatus: 'pending',
   });
   const flu = data.notices.find((n) => n.id === 'notice-2026-2027-national-influenza');
   expect(noticeState(flu, '2026-09-20')).toBe('upcoming');
