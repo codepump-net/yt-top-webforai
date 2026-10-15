@@ -1,0 +1,24 @@
+{
+  "commit": "5dd8c90b7e77638611a75feef9c1e9faf0f7a5bf",
+  "site": "https://yttop.kr/",
+  "siteName": "TOP 건강백과",
+  "actions": "https://github.com/codepump-net/yt-top-webforai/actions/runs/38743285265",
+  "conclusion": "success",
+  "liveCheckedAt": "2026-10-15T13:35:33.997Z",
+  "verifiedRoutes": 135,
+  "indexableRoutes": 132,
+  "e2e": {
+    "startTime": "2026-10-15T13:31:46.572Z",
+    "duration": 109220.408,
+    "expected": 70,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "performanceRange": [
+    98,
+    99
+  ],
+  "unrelatedUiChanges": "Preserved in working tree and excluded from deployment.",
+  "accountSubmissions": "Google and Naver verification settings remain served. Authenticated ownership confirmation and sitemap submission have not been verified."
+}

@@ -81,3 +81,15 @@ Google에서 도메인 속성 `yttop.kr`을 이미 선택했다면 DNS 인증이
 배포 전 로컬에서는 production 콘텐츠·정적 검사 135경로, 단위 검사 96개, Python 하네스 17개, 타입·lint·원본 자료 검사가 통과했다. 브라우저 전체 검사에서 이전 날짜 고정값과 추가한 푸터 링크 중복이 발견되어 각각 실제 원고 날짜 대조와 중복 링크 제거로 수정했고, 해당 2개 검사가 통과했다. 데스크톱·모바일 홈, 푸터와 영어 페이지의 표시도 확인했다. [로컬 검사 범위](branding-local-checks.json). 최종 전체 브라우저 검사와 실제 배포 결과는 후속 CI 실행으로 확인한다.
 
 이름 변경 커밋 `d2edf6b40721b1c44a80eec82f399f5780c18baf`의 [첫 배포 실행](https://github.com/codepump-net/yt-top-webforai/actions/runs/38726129412)은 두 경로 구성의 전체 검사와 실제 135경로 검증을 통과했다. 프로젝트 경로 브라우저 검사는 70개 성공·실패와 재시도 0개였다. 상세 Lighthouse 결과에서 점수 합격 여부와 별개로 상단 이름의 접근성 이름과 표시 문구 불일치가 확인되어, 운영 주체까지 포함한 접근성 이름과 명시적인 텍스트 사이 공백을 추가했다. 한국어 홈과 네팔어 페이지의 후속 검사에서 `label-content-name-mismatch`가 통과하고 실패 항목이 없어졌으며, 동일 조건을 전체 정적 HTML 검사에도 추가했다. [보완 후 로컬 검사](branding-accessibility-local.json). 이 보완의 배포 결과는 후속 실행에서 확인한다.
+
+최종 보완 배포 커밋은 `cc4c50cec5b789badee72a73c1f4eb7572aef4bb`이다. [최종 Actions 실행](https://github.com/codepump-net/yt-top-webforai/actions/runs/38727078904)의 두 검증 작업·Pages 배포·실제 전체 135경로 검증이 모두 성공했다. 브라우저 검사 70개는 실패·건너뜀·불안정 재시도 없이 통과했고, 최종 성능 표본 전체에서 이름 불일치 문제가 사라졌다. 실제 홈·병원 안내·대장내시경 준비·영어 페이지의 HTML 해시가 이 실행의 매니페스트와 일치하며 제목·공유 이름·WebSite·운영 병원·접근성 이름을 확인했다. Google 인증 파일과 네이버 인증 태그, 자기 주소 canonical, 검색 허용, 사이트맵 132개 URL과 llms.txt 이름도 정상이다. [배포 요약](branding-deployment.json), [전체 실제 배포 검사](branding-live-verification.json), [이름·인증 실응답 검사](branding-live.json), [배포 매니페스트](branding-build-manifest.json), [최종 성능 표본](branding-performance.json), [CI 결과](branding-actions.json). 계정 내 소유권 확인·사이트맵 접수나 검색 노출·AI 인용 성과를 확인했다는 의미는 아니다.
+
+## TOP 건강백과로 이름 확정
+
+사용자가 `TOP 건강백과` 제안에 “이대로 진행해주세요.”라고 답하여 공식 사이트 이름을 변경했다. 홈 제목은 `TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내`, 소개 문구는 `증상부터 검사 준비까지, 내 몸을 이해하는 건강정보`, 운영 표시는 `영통탑내과 운영`이다. 전체 135경로의 제목, 화면의 이름·소개, 공유 정보, application-name, WebSite와 llms.txt를 공통 이름에 맞췄다. 각 안내의 주제와 임상 본문, 실제 병원 MedicalClinic 및 기존 홈페이지 연결은 유지한다. 이전 이름이 담긴 위 기록들은 당시 배포에 대한 역사 자료다.
+
+기존 작업 공간에 진행 중이던 화면 변경이 있어 별도 worktree에서 이름 변경만 검증했다. 원래 작업 공간에도 이름 변경을 병합했으며, 기존 수정 파일 7개와 미추적 파일 57개의 보존을 대조했다. 해당 화면 변경은 이번 배포에 포함하지 않았다. 공개 확인의 기존 진술·시각·범위를 유지하고 승인된 브랜드 변경에 한해 digest를 갱신했다. [로컬 검사](top-brand-local-checks.json).
+
+배포 커밋은 `5dd8c90b7e77638611a75feef9c1e9faf0f7a5bf`다. [Actions 실행](https://github.com/codepump-net/yt-top-webforai/actions/runs/38743285265)의 두 검증 작업과 Pages 배포, 실제 135경로 검증이 모두 성공했다. 브라우저 검사 70개가 실패·건너뜀·불안정 재시도 없이 통과했다. 최종 성능 표본 6개는 성능 98~99, 접근성·권장사항 100이며 검색 허용 표본 5개의 SEO는 100이다. 내부 검색은 의도적인 noindex를 유지한다. [배포 요약](top-brand-deployment.json), [CI 결과](top-brand-actions.json), [최종 성능 표본](top-brand-performance.json).
+
+실제 홈·병원 안내·대장내시경 준비·영어 페이지에서 새 이름과 운영 병원, 제목·공유 정보·구조화 데이터·자기 주소 canonical·접근성 이름이 일치하며 배포 매니페스트의 HTML 해시와 같음을 확인했다. Google 인증 파일, 네이버 인증 태그, 사이트맵 132개 URL, robots.txt 및 llms.txt도 정상이다. [이름·인증 실응답 검사](top-brand-live.json), [전체 실제 배포 검사](top-brand-live-verification.json), [매니페스트](top-brand-build-manifest.json). 검색엔진 계정의 소유권 확인·사이트맵 접수, 실제 검색 노출이나 AI 인용 성과를 확인했다는 의미는 아니다.

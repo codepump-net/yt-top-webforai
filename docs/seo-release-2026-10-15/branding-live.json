@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-15T11:31:02.708Z",
+  "commit": "cc4c50cec5b789badee72a73c1f4eb7572aef4bb",
+  "routes": [
+    {
+      "path": "/",
+      "title": "탑 건강문답 | 영통탑내과의 증상·검사·검진 안내",
+      "siteName": "탑 건강문답",
+      "operator": "영통탑내과의원",
+      "accessibleName": "탑 건강문답 영통탑내과 운영 · 홈",
+      "matchesDeployedManifest": true
+    },
+    {
+      "path": "/about/",
+      "title": "영통탑내과 병원안내 | 탑 건강문답",
+      "siteName": "탑 건강문답",
+      "operator": "영통탑내과의원",
+      "accessibleName": "탑 건강문답 영통탑내과 운영 · 홈",
+      "matchesDeployedManifest": true
+    },
+    {
+      "path": "/health/colonoscopy-preparation-questions/",
+      "title": "대장내시경 전 음식·정결제·귀가 준비 | 탑 건강문답",
+      "siteName": "탑 건강문답",
+      "operator": "영통탑내과의원",
+      "accessibleName": "탑 건강문답 영통탑내과 운영 · 홈",
+      "matchesDeployedManifest": true
+    },
+    {
+      "path": "/en/checkups/visa/",
+      "title": "E-2, F-2 and H-2 visa examinations and TB certificates | 탑 건강문답",
+      "siteName": "탑 건강문답",
+      "operator": "영통탑내과의원",
+      "accessibleName": "탑 건강문답 영통탑내과 운영 · Korean website",
+      "matchesDeployedManifest": true
+    }
+  ],
+  "naverVerificationPreserved": true,
+  "googleVerificationExact": true,
+  "sitemapUrls": 132,
+  "robotsAllowCrawling": true,
+  "llmsSiteNameConsistent": true
+}

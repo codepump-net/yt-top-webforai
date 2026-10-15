@@ -1,0 +1,19 @@
+{
+  "commit": "cc4c50cec5b789badee72a73c1f4eb7572aef4bb",
+  "actions": "https://github.com/codepump-net/yt-top-webforai/actions/runs/38727078904",
+  "result": "success",
+  "staticRoutes": 135,
+  "liveRoutes": 135,
+  "indexableRoutes": 132,
+  "browserTests": {
+    "startTime": "2026-10-15T11:25:42.352Z",
+    "duration": 155887.022,
+    "expected": 70,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "liveFailures": [],
+  "googleAndNaverVerification": "confirmed separately in branding-live.json",
+  "searchEngineIndexingAndRanking": "not measured"
+}

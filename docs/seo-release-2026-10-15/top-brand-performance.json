@@ -1,0 +1,105 @@
+{
+  "mode": "production",
+  "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+  "errors": [],
+  "reports": [
+    {
+      "route": "/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2363.071698947866,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 46.732075263033494,
+        "first-contentful-paint": 913.071698947866
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/services/heart/echocardiography/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2222.4042,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 30.5,
+        "first-contentful-paint": 911.4042
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/search/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "metrics": {
+        "largest-contentful-paint": 2071.4212,
+        "cumulative-layout-shift": 0.002294951040342114,
+        "total-blocking-time": 27.5,
+        "first-contentful-paint": 766.4212
+      },
+      "failedAudits": [
+        "is-crawlable"
+      ]
+    },
+    {
+      "route": "/health/colonoscopy-preparation-questions/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2217.6969,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 28.5,
+        "first-contentful-paint": 910.6968999999999
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/health/cancer-treatment-symptoms/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2210.1425,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 25,
+        "first-contentful-paint": 910.1424999999999
+      },
+      "failedAudits": []
+    },
+    {
+      "route": "/ne/checkups/visa/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2084.1402,
+        "cumulative-layout-shift": 0,
+        "total-blocking-time": 75,
+        "first-contentful-paint": 759.1402
+      },
+      "failedAudits": []
+    }
+  ]
+}

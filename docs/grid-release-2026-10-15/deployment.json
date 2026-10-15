@@ -1,0 +1,26 @@
+{
+  "commit": "30931b8c1e5851d0e7b16142648763bcdb0999ba",
+  "branch": "main",
+  "site": "https://yttop.kr/",
+  "actions": "https://github.com/codepump-net/yt-top-webforai/actions/runs/38747042849",
+  "conclusion": "success",
+  "liveCheckedAt": "2026-10-15T14:04:32.732Z",
+  "verifiedRoutes": 135,
+  "sitemapUrls": 132,
+  "e2e": {
+    "startTime": "2026-10-15T13:58:12.612Z",
+    "duration": 165121.277,
+    "expected": 70,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "liveGridScreens": 7,
+  "liveThumbnailsVerified": 48,
+  "googleAndNaverVerificationPreserved": true,
+  "performanceRange": [
+    97,
+    99
+  ],
+  "additionalLocalObservation": "The extra /conditions/ mobile simulated LCP is around 2.7 seconds (performance 96). Recorded in local-checks.json as a remaining performance improvement; required CI samples all pass unchanged budgets."
+}

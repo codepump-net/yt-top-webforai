@@ -1,0 +1,612 @@
+{
+  "commit": "30931b8c1e5851d0e7b16142648763bcdb0999ba",
+  "checkedAt": "2026-10-15T14:04:24.862Z",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "matchesManifest": true,
+      "title": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내"
+    },
+    {
+      "path": "/conditions/",
+      "status": 200,
+      "matchesManifest": true,
+      "title": "진료분야 | TOP 건강백과"
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "matchesManifest": true,
+      "title": "검사·시술 | TOP 건강백과"
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "matchesManifest": true,
+      "title": "사이트 검색 | TOP 건강백과"
+    }
+  ],
+  "thumbnails": [
+    {
+      "path": "/assets/card-thumbnails/banner-cancer-support-400.avif",
+      "status": 200,
+      "bytes": 8568,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-cancer-support-400.webp",
+      "status": 200,
+      "bytes": 18960,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-cancer-support.avif",
+      "status": 200,
+      "bytes": 17872,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-cancer-support.webp",
+      "status": 200,
+      "bytes": 40518,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-checkups-400.avif",
+      "status": 200,
+      "bytes": 8012,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-checkups-400.webp",
+      "status": 200,
+      "bytes": 18858,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-checkups.avif",
+      "status": 200,
+      "bytes": 16631,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-checkups.webp",
+      "status": 200,
+      "bytes": 39614,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-chronic-400.avif",
+      "status": 200,
+      "bytes": 8988,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-chronic-400.webp",
+      "status": 200,
+      "bytes": 20690,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-chronic.avif",
+      "status": 200,
+      "bytes": 18064,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-chronic.webp",
+      "status": 200,
+      "bytes": 43270,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-digestive-400.avif",
+      "status": 200,
+      "bytes": 8342,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-digestive-400.webp",
+      "status": 200,
+      "bytes": 19180,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-digestive.avif",
+      "status": 200,
+      "bytes": 17949,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-digestive.webp",
+      "status": 200,
+      "bytes": 41756,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-diseases-400.avif",
+      "status": 200,
+      "bytes": 8088,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-diseases-400.webp",
+      "status": 200,
+      "bytes": 17996,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-diseases.avif",
+      "status": 200,
+      "bytes": 16780,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-diseases.webp",
+      "status": 200,
+      "bytes": 38552,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-heart-400.avif",
+      "status": 200,
+      "bytes": 7676,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-heart-400.webp",
+      "status": 200,
+      "bytes": 18032,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-heart.avif",
+      "status": 200,
+      "bytes": 16606,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-heart.webp",
+      "status": 200,
+      "bytes": 38556,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-kidney-400.avif",
+      "status": 200,
+      "bytes": 7698,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-kidney-400.webp",
+      "status": 200,
+      "bytes": 16998,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-kidney.avif",
+      "status": 200,
+      "bytes": 15773,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-kidney.webp",
+      "status": 200,
+      "bytes": 35970,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-neck-400.avif",
+      "status": 200,
+      "bytes": 8310,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-neck-400.webp",
+      "status": 200,
+      "bytes": 19010,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-neck.avif",
+      "status": 200,
+      "bytes": 17370,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-neck.webp",
+      "status": 200,
+      "bytes": 40302,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-respiratory-400.avif",
+      "status": 200,
+      "bytes": 7804,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-respiratory-400.webp",
+      "status": 200,
+      "bytes": 18246,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-respiratory.avif",
+      "status": 200,
+      "bytes": 16830,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-respiratory.webp",
+      "status": 200,
+      "bytes": 38732,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-services-400.avif",
+      "status": 200,
+      "bytes": 8337,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-services-400.webp",
+      "status": 200,
+      "bytes": 19528,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-services.avif",
+      "status": 200,
+      "bytes": 18260,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-services.webp",
+      "status": 200,
+      "bytes": 42148,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-symptoms-400.avif",
+      "status": 200,
+      "bytes": 8452,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-symptoms-400.webp",
+      "status": 200,
+      "bytes": 18782,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-symptoms.avif",
+      "status": 200,
+      "bytes": 18088,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-symptoms.webp",
+      "status": 200,
+      "bytes": 39564,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-vaccinations-400.avif",
+      "status": 200,
+      "bytes": 8528,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-vaccinations-400.webp",
+      "status": 200,
+      "bytes": 19410,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-vaccinations.avif",
+      "status": 200,
+      "bytes": 17486,
+      "matchesSource": true
+    },
+    {
+      "path": "/assets/card-thumbnails/banner-vaccinations.webp",
+      "status": 200,
+      "bytes": 40570,
+      "matchesSource": true
+    }
+  ],
+  "screens": [
+    {
+      "width": 1440,
+      "path": "/",
+      "overflow": false,
+      "grids": [
+        {
+          "columns": 3,
+          "cards": 6
+        },
+        {
+          "columns": 3,
+          "cards": 8
+        },
+        {
+          "columns": 3,
+          "cards": 4
+        }
+      ],
+      "images": [
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 400
+        }
+      ],
+      "screenshot": "reports/grid/live-home-1440.png"
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "overflow": false,
+      "grids": [
+        {
+          "columns": 1,
+          "cards": 6
+        },
+        {
+          "columns": 1,
+          "cards": 8
+        },
+        {
+          "columns": 1,
+          "cards": 4
+        }
+      ],
+      "images": [
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 345
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 345
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 345
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 345
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 345
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 345
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 345
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 345
+        }
+      ],
+      "screenshot": "reports/grid/live-home-390.png"
+    },
+    {
+      "width": 1440,
+      "path": "/conditions/",
+      "overflow": false,
+      "grids": [
+        {
+          "columns": 3,
+          "cards": 8
+        }
+      ],
+      "images": [
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 400
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 400
+        }
+      ],
+      "screenshot": "reports/grid/live-conditions-1440.png"
+    },
+    {
+      "width": 768,
+      "path": "/conditions/",
+      "overflow": false,
+      "grids": [
+        {
+          "columns": 2,
+          "cards": 8
+        }
+      ],
+      "images": [
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 349
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 349
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 349
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 349
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 349
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 349
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 349
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 349
+        }
+      ],
+      "screenshot": "reports/grid/live-conditions-768.png"
+    },
+    {
+      "width": 320,
+      "path": "/conditions/",
+      "overflow": false,
+      "grids": [
+        {
+          "columns": 1,
+          "cards": 8
+        }
+      ],
+      "images": [
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-heart-400.avif",
+          "width": 276
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-digestive-400.avif",
+          "width": 276
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-respiratory-400.avif",
+          "width": 276
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-vaccinations-400.avif",
+          "width": 276
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-chronic-400.avif",
+          "width": 276
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-neck-400.avif",
+          "width": 276
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-kidney-400.avif",
+          "width": 276
+        },
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-cancer-support-400.avif",
+          "width": 276
+        }
+      ],
+      "screenshot": "reports/grid/live-conditions-320.png"
+    },
+    {
+      "width": 390,
+      "path": "/services/",
+      "overflow": false,
+      "grids": [
+        {
+          "columns": 1,
+          "cards": 2
+        },
+        {
+          "columns": 1,
+          "cards": 1
+        },
+        {
+          "columns": 1,
+          "cards": 3
+        },
+        {
+          "columns": 1,
+          "cards": 2
+        }
+      ],
+      "images": [
+        {
+          "source": "https://yttop.kr/assets/card-thumbnails/banner-services-400.webp",
+          "width": 120
+        }
+      ],
+      "screenshot": "reports/grid/live-services-390.png"
+    },
+    {
+      "width": 390,
+      "path": "/search/",
+      "overflow": false,
+      "grids": [
+        {
+          "columns": 1,
+          "cards": 35
+        }
+      ],
+      "images": [],
+      "screenshot": "reports/grid/live-search-390.png"
+    }
+  ],
+  "googleAndNaverVerificationPreserved": true
+}
