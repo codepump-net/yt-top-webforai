@@ -133,7 +133,9 @@ test('case directory preserves originals while enforcing exclusions and privacy'
   expect(data.join('')).not.toContain('ItemList');
   const sitemap = await request.get(url('/sitemap.xml'));
   expect(await sitemap.text()).not.toContain('/cases/');
-  expect(fs.readFileSync('reports/planned-sitemap.xml', 'utf8')).not.toContain('/cases/');
+  if (manifest.mode === 'review')
+    expect(fs.readFileSync('reports/planned-sitemap.xml', 'utf8')).not.toContain('/cases/');
+  else expect(fs.existsSync('reports/planned-sitemap.xml')).toBe(false);
   await page.goto(url('/sitemap/'));
   await expect(page.locator('main a[href$="/cases/"]')).toHaveCount(0);
   await expect(page.locator('footer a[href$="/cases/"]')).toHaveAttribute('rel', 'nofollow');

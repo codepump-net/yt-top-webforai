@@ -48,6 +48,7 @@ if (mode === 'review')
     'reports/planned-sitemap.xml',
     xml(data.pages.filter((p) => p.indexable && discoverable(p))),
   );
+else await fs.rm('reports/planned-sitemap.xml', { force: true });
 await fs.writeFile(
   'out/robots.txt',
   `User-agent: *\nAllow: /\n${mode === 'production' ? `Sitemap: ${absolute('/sitemap.xml')}\n` : ''}`,

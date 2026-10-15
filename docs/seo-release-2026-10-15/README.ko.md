@@ -23,7 +23,7 @@
 | 콘텐츠·정적 export | review 및 production 모드 각각 135개 경로 통과; production 색인 대상 132개 |
 | 단위 검사 | 최종 96개 통과 |
 | Python 콘텐츠 하네스 | 17개 통과 |
-| 브라우저·접근성·기존 UI 회귀 검사 | review 전체 70개, production 관련 33개 통과 |
+| 브라우저·접근성·기존 UI 회귀 검사 | review 전체 70개, production 전체 70개 통과 |
 | lint·타입 검사 | 통과 |
 | 의존성 검사 | 기존 개발 도구의 기한 있는 예외를 적용해 통과 |
 | 원본 이미지·공지 자료 확인 | 통과 |
@@ -35,4 +35,6 @@
 
 공개 범위는 132개 페이지이며 검색·사례·오류 경로 3개의 noindex는 유지한다. production 빌드와 GitHub Actions 통과 후 실제 배포 135개 HTML의 해시·대표 URL·검색 지시, robots.txt·사이트맵·실제 404를 확인한다. Search Console의 실제 색인과 검색 순위는 별도 측정 대상이다.
 
-정식 공개 빌드 근거: [콘텐츠 검증](production-content-validation.json), [정적 export 검증](production-static-audit.json), [production 관련 브라우저 검사](production-e2e.json). 최종 단위 검사는 현행 공개 확인 이후에도 미승인 콘텐츠·변경된 원고·잘못된 공개 모드를 거절하는 조건을 포함한다.
+정식 공개 빌드 근거: [콘텐츠 검증](production-content-validation.json), [정적 export 검증](production-static-audit.json), [production 전체 브라우저 검사](production-e2e.json). 최종 단위 검사는 현행 공개 확인 이후에도 미승인 콘텐츠·변경된 원고·잘못된 공개 모드를 거절하는 조건을 포함한다.
+
+production 빌드는 검토용 `reports/planned-sitemap.xml`을 제거하며, 사례 제외 검사는 현재 모드의 실제 사이트맵을 기준으로 수행한다. 첫 CI 실행에서 발견된 검토 전용 파일 의존성을 수정한 뒤 production 전체 브라우저 검사 70개가 로컬에서 통과했다.

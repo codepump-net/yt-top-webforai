@@ -17,7 +17,7 @@
     "performanceReview": "6 routes pass; performance 98–100, accessibility 100, best practices 100; review noindex intentionally affects SEO",
     "productionContent": "135 pages and 38 assets pass",
     "productionStatic": "135 routes; 132 indexable; 3 intentional noindex; sitemap 132 URLs",
-    "productionBrowser": "33 relevant tests pass"
+    "productionBrowser": "70 tests pass after removing stale planned-sitemap artifact"
   },
   "confirmation": "User confirmed completed medical and operations review of all 132 intended indexable pages."
 }
