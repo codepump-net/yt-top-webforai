@@ -111,7 +111,7 @@ export function pageMetadata(page: Page): Metadata {
         : {
             index: !reviewMode && page.indexable,
             follow: true,
-            ...(!reviewMode && page.indexable ? { maxImagePreview: 'large' as const } : {}),
+            ...(!reviewMode && page.indexable ? { 'max-image-preview': 'large' as const } : {}),
           },
     openGraph: {
       type: 'website',

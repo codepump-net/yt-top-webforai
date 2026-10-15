@@ -75,6 +75,8 @@ for (const route of manifest.routes) {
     (route.indexable && robots.includes('noindex'))
   )
     errors.push(`${route.path}: indexing policy`);
+  if (route.indexable && !robots.includes('max-image-preview:large'))
+    errors.push(`${route.path}: large image preview policy missing from rendered metadata`);
   if (
     route.id === 'cases' &&
     ['noindex', 'nofollow', 'nosnippet', 'noimageindex'].some(

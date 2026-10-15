@@ -45,6 +45,8 @@ for (let start = 0; start < manifest.routes.length; start += 4) {
         (result.headers.get('x-robots-tag') ?? '');
       if (route.indexable && /noindex|nosnippet|\bnone\b/i.test(robots))
         throw new Error(`${route.path}: published page blocks indexing or snippets`);
+      if (route.indexable && !robots.includes('max-image-preview:large'))
+        throw new Error(`${route.path}: published page is missing the large image preview policy`);
       return { path: route.path, status: result.status, indexable: route.indexable, robots };
     }),
   );
