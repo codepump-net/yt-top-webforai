@@ -210,7 +210,7 @@ function Home() {
         <SectionHeading
           eyebrow="START HERE"
           title="지금 무엇이 필요하신가요?"
-          text="방문 목적에 맞는 안내부터 차근차근 확인하세요."
+          text="증상·검사·검진 질문의 답을 찾고, 방문 준비를 확인하세요."
         />
         <div className="patient-entrances">
           {patientEntrances.map((entry, index) => (
