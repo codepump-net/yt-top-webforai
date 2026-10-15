@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   applicationName: '영통탑내과',
   icons: { icon: href('/favicon.svg') },
   formatDetection: { telephone: false },
+  verification: {
+    other: { 'naver-site-verification': 'badf5024bd3f8f1c9469ae5261687a96ae9aa4cb' },
+  },
 };
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#125b51' };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
