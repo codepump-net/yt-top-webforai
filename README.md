@@ -2,6 +2,9 @@
 
 기존 `yttop.co.kr`과 함께 운영할 **환자용 영통탑내과 병원 홈페이지**의 React 정적 사이트 구현 저장소입니다. 병원 소개·진료·검사·방문 안내를 환자와 AI 모델이 이해하기 쉽게 구성하며, 조사·개발 보고서는 사이트에 게시하지 않습니다.
 
+- **[2026-10-15 검색 공개와 SEO 수정](docs/seo-release-2026-10-15/README.ko.md)** — 9개 페이지 검색 메타데이터, production 배포 설정과 검색 공개 검증 보완. 현행 의료·운영 확인 후 배포 예정.
+- **[2026-10-15 검색 미노출 원인 진단](docs/seo-indexing-review-2026-10-15/README.ko.md)** — 실제 135개 경로의 noindex, 빈 사이트맵과 검토 모드 배포를 확인.
+
 - **[2026-09-27 블로그 미반영사항 통합반영안 적용](docs/integrated-update-2026-09-27/README.ko.md)** — 진료분야 8개, 하위 안내 14개 추가, 홈 검색·단일 목차·예방접종 표·사례 제외. 총 108개 경로를 [작업 의도 확인 후 review 모드로 배포](docs/integrated-update-2026-09-27/deployment.ko.md)하고 실제 페이지 검증 완료.
 - **[2026-09-26 심장·혈관 20편 및 홈페이지 업데이트](docs/director-content-review-2026-09-26/implementation.ko.md)** — 당시 영문 URL로 총 94개 경로 구현. 검사 정보·공통 안내·백과 분류 개선, 2026-09-27 검토 모드 배포 완료.
 - **[2026-09-25 세션 작업 요약·배포 결과](docs/patient-navigation-2026-09-25/session-summary.ko.md)** — 74개 경로 배포와 실제 사이트 검증 완료. 메뉴·목차 개편, 출처·오타 교정 및 후속 확인 사항.
@@ -22,11 +25,11 @@
 
 - **[초기 개발·검증 이력](docs/development-completion.ko.md)** — 최초 76페이지 구현과 당시 CI·Pages 상태
 - **[개발·운영 인수 문서](docs/development-handoff.ko.md)** — 실행, 원고 수정, 실제 검수, 자동 배포, AI 인용 관측
-- **[웹 앱 실행](web/README.md)** — Next.js 16.3.4 · React 19.3.0 · TypeScript · Tailwind CSS 4.3.3
-- [콘텐츠 원장](content/README.md) — 108개 경로, 의료진 2명, 진단 사례 원문 링크 25개
+- **[웹 앱 실행](web/README.md)** — Next.js 16.3.8 · React 19.3.0 · TypeScript · Tailwind CSS 4.3.3
+- [콘텐츠 원장](content/README.md) — 135개 경로, 의료진 2명, 진단 사례 원문 링크 25개
 - [자동 검사·배포 워크플로](.github/workflows/pages.yml)
 
-배포 주소: `https://codepump-net.github.io/yt-top-webforai/`. 2026-09-27 사용자의 요청에 따라 통합반영안과 검색 성능 보완을 커밋·배포하고 실제 108개 경로를 검증했습니다. `PUBLICATION_MODE=review`를 유지하여 방문은 가능하지만 모든 페이지는 noindex이며 공개 XML 사이트맵은 비어 있습니다. 기존 승인 digest와 의료 검토 기록은 갱신하지 않았습니다. [최신 배포 결과](docs/integrated-update-2026-09-27/deployment.ko.md)와 [앞선 94개 경로 배포 기록](docs/director-content-review-2026-09-26/deployment.ko.md)을 참고하세요. 원장님 원본 자료와 사용자가 정리한 파일 변경은 로컬 `plan/`에, 원본 조사 자료는 로컬 `research/`에 보존합니다.
+배포 주소: `https://yttop.kr/`. 현재 경로는 135개이며 검색 대상은 132개입니다. 2026-10-15 진단 시 실제 배포는 review/noindex 상태였습니다. [검색 공개와 SEO 수정](docs/seo-release-2026-10-15/README.ko.md)에서 코드 변경·검증과 배포 상태를 관리합니다. 기존 GitHub Pages 주소는 새 도메인으로 이동하며, `yttop.co.kr`은 별도로 병행 운영합니다. 원장님 원본 자료는 로컬 `plan/`, 원본 조사 자료는 로컬 `research/`에 보존합니다.
 
 ## 개발 스펙
 

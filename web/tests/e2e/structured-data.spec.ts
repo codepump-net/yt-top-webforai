@@ -1,8 +1,29 @@
 import { test, expect } from '@playwright/test';
 import { load } from 'cheerio';
 import fs from 'node:fs';
+import pages from '../../../content/pages.json';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 const normalize = (s: string) => s.replace(/\s+/g, ' ').trim();
+test('discovery files expose exactly the intended publication scope', async ({ request }) => {
+  if (process.env.BUILD_MODE) expect(manifest.mode).toBe(process.env.BUILD_MODE);
+  const site = manifest.origin + manifest.basePath;
+  const sitemapResponse = await request.get(`${manifest.basePath}/sitemap.xml`);
+  expect(sitemapResponse.status()).toBe(200);
+  const xml = load(await sitemapResponse.text(), { xmlMode: true });
+  const expectedPaths =
+    manifest.mode === 'production' ? pages.filter((page) => page.indexable).map((p) => p.path) : [];
+  const urls = xml('url > loc')
+    .map((_, el) => xml(el).text())
+    .get();
+  expect(urls.sort()).toEqual(expectedPaths.map((path) => site + path).sort());
+  expect(new Set(urls).size).toBe(urls.length);
+  const robotsResponse = await request.get(`${manifest.basePath}/robots.txt`);
+  expect(robotsResponse.status()).toBe(200);
+  expect(await robotsResponse.text()).toBe(
+    `User-agent: *\nAllow: /\n` +
+      (manifest.mode === 'production' ? `Sitemap: ${site}/sitemap.xml\n` : ''),
+  );
+});
 test('every FAQ answer and collection URL in JSON-LD is available in patient HTML', async ({
   request,
 }) => {

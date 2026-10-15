@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-15T07:31:17.259Z",
+  "scope": "Content contract only; no build, asset-integrity audit or deployment",
+  "pageCount": 135,
+  "productionSitemapEligible": 132,
+  "review": [],
+  "production": [
+    "Publication confirmation scope differs from indexable pages",
+    "Publication confirmation requires approved content status",
+    "Stale publication confirmation: content, facts, or renderer changed"
+  ],
+  "individualReviewRecords": 0,
+  "storedApprovalDate": "2026-09-11T07:39:52.116Z",
+  "storedApprovalPageCount": 43,
+  "reviewStatus": {
+    "pending": 133,
+    "approved": 2
+  }
+}

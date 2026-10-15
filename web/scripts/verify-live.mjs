@@ -1,11 +1,16 @@
 import fs from 'node:fs/promises';
 import { load } from 'cheerio';
 import { sha256 } from './content-contract.mjs';
-const base = process.env.DEPLOY_URL ?? 'https://codepump-net.github.io/yt-top-webforai/';
-const site = base.endsWith('/') ? base : base + '/';
 const expectedSha = process.env.EXPECTED_SHA ?? process.env.GITHUB_SHA;
+const expectedMode = process.env.EXPECTED_MODE;
 // The expected manifest comes from this run's CI evidence artifact, outside the deployed web root.
 const manifest = JSON.parse(await fs.readFile('reports/build-manifest.json', 'utf8'));
+if (expectedMode && manifest.mode !== expectedMode)
+  throw new Error(`Publication mode mismatch: wanted ${expectedMode}, got ${manifest.mode}`);
+if (expectedMode === 'production' && !manifest.routes.some((route) => route.indexable))
+  throw new Error('Production deployment must contain indexable patient pages');
+const base = process.env.DEPLOY_URL ?? `${manifest.origin}${manifest.basePath}/`;
+const site = base.endsWith('/') ? base : base + '/';
 if (expectedSha && manifest.commit !== expectedSha)
   throw new Error(`Deployed commit mismatch: wanted ${expectedSha}, got ${manifest.commit}`);
 const failures = [];
@@ -63,6 +68,15 @@ const expectedUrls = manifest.routes
   .sort();
 if (!sitemapResponse.ok || JSON.stringify(sitemapUrls) !== JSON.stringify(expectedUrls))
   failures.push('Published sitemap differs from verified indexable routes');
+const robotsResponse = await fetch(site + 'robots.txt', {
+  signal: AbortSignal.timeout(30_000),
+});
+const robotsText = (await robotsResponse.text()).replace(/\r\n/g, '\n').trim();
+const expectedRobots =
+  `User-agent: *\nAllow: /` +
+  (manifest.mode === 'production' ? `\nSitemap: ${site}sitemap.xml` : '');
+if (!robotsResponse.ok || robotsText !== expectedRobots)
+  failures.push('Published robots.txt differs from the verified crawl and sitemap policy');
 await fs.mkdir('reports', { recursive: true });
 await fs.writeFile(
   'reports/live-verification.json',
@@ -75,6 +89,7 @@ await fs.writeFile(
       results,
       failures,
       sitemapUrls,
+      robots: { status: robotsResponse.status, text: robotsText },
     },
     null,
     2,

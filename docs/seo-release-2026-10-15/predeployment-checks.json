@@ -1,0 +1,19 @@
+{
+  "status": "ready-for-current-medical-and-operations-confirmation",
+  "publicDeploymentPerformed": false,
+  "indexingTargets": 132,
+  "routes": 135,
+  "metadataPagesChanged": 9,
+  "checks": {
+    "contentReview": "pass",
+    "staticReview": "135 routes pass",
+    "unit": "95 pass",
+    "harness": "17 pass",
+    "browserReview": "70 pass",
+    "lint": "pass",
+    "typecheck": "pass",
+    "dependencyAudit": "pass with existing time-limited development exception",
+    "planContent": "pass"
+  },
+  "requiredConfirmation": "Current 132-page medical and operational review completion; requested asynchronously. Publication itself is already authorized."
+}

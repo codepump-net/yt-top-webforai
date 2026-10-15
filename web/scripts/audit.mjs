@@ -169,6 +169,13 @@ for (const route of manifest.routes) {
   });
 }
 const sitemap = await fs.readFile('out/sitemap.xml', 'utf8');
+const expectedRobots =
+  `User-agent: *\nAllow: /\n` +
+  (manifest.mode === 'production'
+    ? `Sitemap: ${manifest.origin}${manifest.basePath}/sitemap.xml\n`
+    : '');
+if ((await fs.readFile('out/robots.txt', 'utf8')) !== expectedRobots)
+  errors.push('robots.txt must allow crawling and advertise the production sitemap');
 if (manifest.mode === 'review' && sitemap.includes('<loc>'))
   errors.push('Review sitemap must not advertise indexable URLs');
 if (

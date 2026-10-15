@@ -108,7 +108,11 @@ export function pageMetadata(page: Page): Metadata {
     robots:
       page.id === 'cases'
         ? { index: false, follow: false, nosnippet: true, noimageindex: true }
-        : { index: !reviewMode && page.indexable, follow: true },
+        : {
+            index: !reviewMode && page.indexable,
+            follow: true,
+            ...(!reviewMode && page.indexable ? { maxImagePreview: 'large' as const } : {}),
+          },
     openGraph: {
       type: 'website',
       locale:

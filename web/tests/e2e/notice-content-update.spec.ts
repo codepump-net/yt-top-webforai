@@ -62,7 +62,7 @@ test('notice search, categories, reset and pagination operate on the six real ar
   await expect(page.locator('.notice-table tbody tr')).toHaveCount(5);
 });
 
-test('all six individual articles retain their sources, original anchor access and review metadata', async ({
+test('all six individual articles retain their sources, original anchor access and publication metadata', async ({
   page,
   request,
 }) => {
@@ -82,7 +82,8 @@ test('all six individual articles retain their sources, original anchor access a
       await expect(page.locator('.notice-metadata')).toContainText('출처 페이지 검토일2026-04-14');
       await expect(page.locator('.notice-metadata')).not.toContainText('공식 자료 발표');
     }
-    await expect(page.locator('meta[name="robots"]').first()).toHaveAttribute('content', /noindex/);
+    const robots = await page.locator('meta[name="robots"]').first().getAttribute('content');
+    expect(robots?.includes('noindex')).toBe(manifest.mode !== 'production');
     await expect(page.locator('.notice-metadata [aria-label="집계된 조회수 없음"]')).toHaveText(
       '—',
     );

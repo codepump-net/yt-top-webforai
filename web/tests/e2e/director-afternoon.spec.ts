@@ -60,7 +60,8 @@ test('new symptom guides are discoverable and carry useful safety and reuse info
     manifest.basePath + '/copyright/',
   );
   await expect(page.locator('.heart-reservation')).toBeVisible();
-  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/);
+  const robots = await page.locator('meta[name="robots"]').getAttribute('content');
+  expect(robots?.includes('noindex')).toBe(manifest.mode !== 'production');
   await page.goto(url('/search/#q=학생 독감'));
   await expect(page.locator('.result-card[href$="/notices/"]')).toBeVisible();
 });
