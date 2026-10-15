@@ -54,6 +54,9 @@ for (const route of manifest.routes) {
     errors.push(`${route.path}: visible site name`);
   if ($('header .brand-operator').text() !== siteIdentity.operatorLabel)
     errors.push(`${route.path}: visible operator attribution`);
+  const visibleBrand = $('header .brand').text().replace(/\s+/g, ' ').trim();
+  if (!$('header .brand').attr('aria-label')?.includes(visibleBrand))
+    errors.push(`${route.path}: accessible brand name must include its visible name and operator`);
   if (!$('footer .footer-brand').text().includes(siteIdentity.name))
     errors.push(`${route.path}: footer site name`);
   if ($('html').attr('lang') !== (route.language ?? 'ko')) errors.push(`${route.path}: lang`);

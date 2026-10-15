@@ -33,7 +33,7 @@ export default async function LanguageLayout({
         </a>
         <header className="site-header">
           <div className="container language-header">
-            <SiteBrand homeUrl={href('/')} label={`${siteIdentity.name} · ${t.koreanSite}`} />
+            <SiteBrand homeUrl={href('/')} label={t.koreanSite} />
             <a href={href('/')} lang="ko">
               한국어
             </a>
