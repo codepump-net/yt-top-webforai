@@ -1,0 +1,147 @@
+{
+  "stage": "pre-deployment local checks",
+  "date": "2026-10-15",
+  "siteName": "TOP 건강백과",
+  "homeTitle": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
+  "description": "증상부터 검사 준비까지, 내 몸을 이해하는 건강정보",
+  "operatorLabel": "영통탑내과 운영",
+  "scope": "User accepted the TOP 건강백과 proposal with 이대로 진행해주세요. Existing clinical content and clinic identity retained.",
+  "sourceChanges": [
+    "content/site.json",
+    "content/pages.json",
+    "web/src/components/content.tsx",
+    "docs/patient-content-policy.ko.md"
+  ],
+  "checks": {
+    "productionContentAndStaticRoutes": 135,
+    "indexableRoutes": 132,
+    "unitTests": 96,
+    "pythonHarnessTests": 17,
+    "lint": "passed",
+    "typecheck": "passed",
+    "dependencyAudit": "passed with existing time-limited development ESLint exception"
+  },
+  "responsive": [
+    {
+      "width": 320,
+      "route": "/",
+      "title": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
+      "brand": "TOP 건강백과 영통탑내과 운영",
+      "accessibleName": "TOP 건강백과 영통탑내과 운영 · 홈",
+      "overflow": false,
+      "brandRect": {
+        "x": 22,
+        "y": 10.21875,
+        "width": 120.390625,
+        "height": 48.546875
+      },
+      "intro": "증상부터 검사 준비까지, 내 몸을 이해하는 건강정보. 영통탑내과가 운영하며, 증상별 위험 신호부터 검사 선택과 준비, 의료진·진료시간·오시는 길까지 안내합니다.",
+      "screenshot": "reports/top-brand-320-home.png"
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "title": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
+      "brand": "TOP 건강백과 영통탑내과 운영",
+      "accessibleName": "TOP 건강백과 영통탑내과 운영 · 홈",
+      "overflow": false,
+      "brandRect": {
+        "x": 22,
+        "y": 10.21875,
+        "width": 120.390625,
+        "height": 48.546875
+      },
+      "intro": "증상부터 검사 준비까지, 내 몸을 이해하는 건강정보. 영통탑내과가 운영하며, 증상별 위험 신호부터 검사 선택과 준비, 의료진·진료시간·오시는 길까지 안내합니다.",
+      "screenshot": "reports/top-brand-360-home.png"
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "title": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
+      "brand": "TOP 건강백과 영통탑내과 운영",
+      "accessibleName": "TOP 건강백과 영통탑내과 운영 · 홈",
+      "overflow": false,
+      "brandRect": {
+        "x": 22,
+        "y": 10.21875,
+        "width": 120.390625,
+        "height": 48.546875
+      },
+      "intro": "증상부터 검사 준비까지, 내 몸을 이해하는 건강정보. 영통탑내과가 운영하며, 증상별 위험 신호부터 검사 선택과 준비, 의료진·진료시간·오시는 길까지 안내합니다.",
+      "screenshot": "reports/top-brand-390-home.png"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "title": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
+      "brand": "TOP 건강백과 영통탑내과 운영",
+      "accessibleName": "TOP 건강백과 영통탑내과 운영 · 홈",
+      "overflow": false,
+      "brandRect": {
+        "x": 130,
+        "y": 18.96875,
+        "width": 130.859375,
+        "height": 51.046875
+      },
+      "intro": "증상부터 검사 준비까지, 내 몸을 이해하는 건강정보. 영통탑내과가 운영하며, 증상별 위험 신호부터 검사 선택과 준비, 의료진·진료시간·오시는 길까지 안내합니다.",
+      "screenshot": "reports/top-brand-1440-home.png"
+    },
+    {
+      "width": 320,
+      "route": "/en/checkups/visa/",
+      "title": "E-2, F-2 and H-2 visa examinations and TB certificates | TOP 건강백과",
+      "brand": "TOP 건강백과 영통탑내과 운영",
+      "accessibleName": "TOP 건강백과 영통탑내과 운영 · Korean website",
+      "overflow": false,
+      "brandRect": {
+        "x": 22,
+        "y": 16,
+        "width": 180,
+        "height": 48.546875
+      },
+      "screenshot": "reports/top-brand-320-en.png"
+    }
+  ],
+  "performance": {
+    "mode": "production",
+    "note": "Mobile simulated lab metrics. INP requires real user measurement; review and non-indexable utility routes intentionally fail is-crawlable.",
+    "errors": [],
+    "reports": [
+      {
+        "route": "/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 2243.8436,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 23.5,
+          "first-contentful-paint": 906.8435999999999
+        },
+        "failedAudits": []
+      },
+      {
+        "route": "/ne/checkups/visa/",
+        "scores": {
+          "performance": 99,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "metrics": {
+          "largest-contentful-paint": 2032.6924,
+          "cumulative-layout-shift": 0,
+          "total-blocking-time": 28,
+          "first-contentful-paint": 754.6923999999999
+        },
+        "failedAudits": []
+      }
+    ]
+  },
+  "publicationEvidence": "Original user statement, timestamp and 132-page scope retained; only digest changed for authorized branding.",
+  "unrelatedChanges": "Existing uncommitted UI work preserved in original worktree; excluded from this build.",
+  "pending": "Full browser suite and actual deployed response verification run in CI after this commit."
+}

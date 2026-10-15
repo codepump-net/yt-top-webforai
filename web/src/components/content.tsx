@@ -163,8 +163,8 @@ function Home() {
               <em>궁금한 점</em>을 확인하세요.
             </h1>
             <p>
-              {siteIdentity.description}입니다. 증상별 위험 신호부터 검사 선택과 준비,
-              의료진·진료시간·오시는 길까지 확인하세요.
+              {siteIdentity.description}. 영통탑내과가 운영하며, 증상별 위험 신호부터 검사 선택과
+              준비, 의료진·진료시간·오시는 길까지 안내합니다.
             </p>
             <div className="button-row">
               <a className="button" href={href('/symptoms/')}>
