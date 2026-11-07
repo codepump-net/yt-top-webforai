@@ -61,7 +61,7 @@
       "priority": "P0",
       "action": "최종 배포 후 핵심 URL 실시간 검사와 색인 생성 요청",
       "owner": "Search Console 권한자",
-      "status": "배포 검증 후 진행",
+      "status": "2026-11-07 운영 사이트 배포 검증 후 5개 모두 실제 색인 가능성 검사 및 색인 생성 요청 접수 확인. 실제 색인 완료는 별도 확인 필요.",
       "urls": [
         "https://yttop.kr/visit/",
         "https://yttop.kr/checkups/national/",
@@ -104,7 +104,7 @@
       "priority": "P2",
       "action": "GA4 방문 분석과 전화·길찾기 클릭 집계 연결",
       "owner": "GA4 속성 소유자와 개발자",
-      "status": "측정 ID·컨테이너 연결 확인. 사용자 지시에 따라 방문자 창·버튼을 모두 제거한 최종 구현 검증 중."
+      "status": "방문자 UI 없이 운영 사이트 태그·조회 전송 검증 완료. GA4 보고서 표시와 실제 클릭 집계는 별도 확인이 필요하며 제한 사항은 analytics.limits 참조."
     }
   ],
   "weeklyReview": {
@@ -133,7 +133,8 @@
     "https://developers.google.com/search/docs/specialty/international/localized-versions?hl=ko",
     "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl?hl=ko",
     "https://developers.google.com/analytics/devguides/collection/ga4/reference/config?hl=ko",
-    "https://developers.google.com/analytics/devguides/collection/ga4/views?hl=ko"
+    "https://developers.google.com/analytics/devguides/collection/ga4/views?hl=ko",
+    "https://support.google.com/analytics/answer/11161109?hl=ko"
   ],
   "metadataChanges": [
     {
@@ -485,16 +486,16 @@
       "URL 쿼리·프래그먼트와 상세 유입 경로",
       "직접 입력한 이름·연락처·주민등록번호"
     ],
-    "status": "방문자 UI 없는 최종 로컬 코드 및 실제 전송 검증 통과. 배포 후 검증 예정.",
+    "status": "최종 운영 사이트에서 방문자 통계 UI 0개, GA 쿠키 없음, 컨테이너 1회 로드 및 page_view 수집 서버 HTTP 204 확인. GA4 보고서의 실제 방문자 집계 완료를 뜻하지 않음.",
     "containerId": "GTM-PMTZZ9VT",
     "storageConsent": "denied",
     "visitorUi": "팝업·배너·설정 버튼·동의/거부 등 방문자 추가 행동을 전혀 요구하지 않음",
     "mode": "limited cookieless measurement",
-    "limits": "쿠키 없는 측정에서는 재방문자·세션 및 일부 보고 지표에 제한이 있음. Google 수집 서버 응답과 실제 보고서 표시를 구분함.",
+    "limits": "모든 방문에 analytics_storage=denied를 적용한 현재 구현에서는 GA4 일반 보고서에 이벤트·방문자·세션이 표시되지 않을 수 있음. Google의 행동 모델링은 별도 트래픽 및 동의 데이터 기준이 필요하므로 이 사이트에서 사용할 수 있다고 가정하지 않음. 수집 서버 응답과 실제 보고서 표시를 구분함.",
     "visitorConsentUi": false,
     "transportCheck": {
-      "checkedAt": "2026-11-07T13:20:20.362Z",
-      "environment": "local export served at production origin for an installation check",
+      "checkedAt": "2026-11-07T13:26:38.001Z",
+      "environment": "production",
       "visitorUi": 0,
       "gaCookies": [],
       "tags": [
@@ -519,5 +520,56 @@
     "intendedIndexable": 132,
     "targetedBrowserChecks": "홈 발견 경로·접근성·다국어 사이트맵·대표 이미지 및 방문자 통계 UI 없음·저장 거부·검색어 제외 검사 통과",
     "clinicalBodiesAndFacts": "기존 의료 본문·출처·진료 사실 불변; 개인정보 처리 안내의 운영 내용만 새 분석 처리에 맞게 갱신"
-  }
+  },
+  "releaseValidation": {
+    "siteCommit": "0e1482ba90e51d8ce8c4f874b60ee503bc5d0eb0",
+    "run": "https://github.com/codepump-net/yt-top-webforai/actions/runs/42376575041",
+    "conclusion": "success",
+    "unitTests": 100,
+    "pythonHarness": 17,
+    "browserTestsPerLayout": 72,
+    "layouts": [
+      "root",
+      "project"
+    ],
+    "livePagesVerified": 135,
+    "note": "실제 검색 노출·환자 방문 성과를 의미하지 않음."
+  },
+  "indexingRequests": [
+    {
+      "url": "https://yttop.kr/visit/",
+      "requestedAtDate": "2026-11-07",
+      "before": "Google에는 아직 알려지지 않은 URL",
+      "result": "색인 생성 요청됨: 우선순위 크롤링 대기열에 추가",
+      "indexedAfterRequest": "미확인"
+    },
+    {
+      "url": "https://yttop.kr/checkups/national/",
+      "requestedAtDate": "2026-11-07",
+      "before": "Google에는 아직 알려지지 않은 URL",
+      "result": "색인 생성 요청됨: 우선순위 크롤링 대기열에 추가",
+      "indexedAfterRequest": "미확인"
+    },
+    {
+      "url": "https://yttop.kr/services/heart/echocardiography/",
+      "requestedAtDate": "2026-11-07",
+      "before": "Google에는 아직 알려지지 않은 URL",
+      "result": "색인 생성 요청됨: 우선순위 크롤링 대기열에 추가",
+      "indexedAfterRequest": "미확인"
+    },
+    {
+      "url": "https://yttop.kr/health/colonoscopy-preparation-questions/",
+      "requestedAtDate": "2026-11-07",
+      "before": "Google에는 아직 알려지지 않은 URL",
+      "result": "색인 생성 요청됨: 우선순위 크롤링 대기열에 추가",
+      "indexedAfterRequest": "미확인"
+    },
+    {
+      "url": "https://yttop.kr/checkups/employment/",
+      "requestedAtDate": "2026-11-07",
+      "before": "Google에는 아직 알려지지 않은 URL",
+      "result": "색인 생성 요청됨: 우선순위 크롤링 대기열에 추가",
+      "indexedAfterRequest": "미확인"
+    }
+  ]
 }

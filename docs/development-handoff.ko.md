@@ -158,3 +158,9 @@ npm run measure -- .local/observations.json
 개인정보 처리 안내만 실제 통계 처리에 맞게 갱신했다. 의료 본문·진료 사실·기존 의료 출처·의료 검토 상태는 바꾸지 않았으며 기존 공개 확인의 시각·기간·범위는 유지한다. 승인된 운영·기술 변경에 대한 digest만 갱신하고 새 의료 승인이나 검토자를 만들지 않았다. 통계 확인은 운영자의 Google Analytics 계정에서 수행하며 개발·분석 보고서는 공개 웹 출력에 포함하지 않는다. 설치 검증 방문은 실제 환자 방문 성과와 구분한다. 배포와 전체 검증은 최종 변경의 GitHub Actions 실행에서 확인한다.
 
 [전체 작업과 후속 운영 기준](seo-improvement-2026-11-07/action-plan.json), [기존 홈페이지에 삽입할 링크 HTML](seo-improvement-2026-11-07/original-site-links.html)은 내부 자료이며 웹 출력에 포함하지 않는다. 실제 검색 노출·클릭·색인 수의 증가는 후속 Search Console 관측으로 확인한다.
+
+최종 사이트 커밋 `0e1482ba90e51d8ce8c4f874b60ee503bc5d0eb0`의 [배포 실행 42376575041](https://github.com/codepump-net/yt-top-webforai/actions/runs/42376575041)이 성공했다. 루트·프로젝트 경로 각각 단위 검사 100개, Python 하네스 17개, 브라우저 검사 72개와 콘텐츠·접근성·성능 검사를 통과했고 운영 사이트 135개 경로를 검증했다. 운영 사이트의 독립 브라우저 설치 검사에서는 통계 UI 0개, GA 쿠키 없음, 컨테이너 한 번 로드, `page_view` 수집 서버 HTTP 204를 확인했다.
+
+이 전송 성공을 일반 GA4 통계 보고서의 완전한 작동으로 표현하지 않는다. 모든 방문에 `analytics_storage=denied`를 적용한 현재 구현에서는 보고서에 이벤트·방문자·세션이 표시되지 않을 수 있다. [Google의 행동 모델링 기준](https://support.google.com/analytics/answer/11161109?hl=ko)은 별도의 동의 데이터와 트래픽을 요구하므로 현재 사이트에서 모델링이 가능하다고 가정하지 않는다. 보고서가 비어 있어도 설치 실패나 실제 방문 0명으로 단정하지 않으며, 보고서를 채우기 위해 방문자 창을 다시 추가하거나 동의를 임의로 부여하지 않는다.
+
+2026-11-07 최종 배포 후 `/visit/`, `/checkups/national/`, `/services/heart/echocardiography/`, `/health/colonoscopy-preparation-questions/`, `/checkups/employment/`의 Search Console 색인 생성 요청이 모두 접수됐다. 각 URL은 검사 당시 Google에 알려지지 않은 URL로 표시됐으며, 실제 URL의 색인 가능성 검사 후 우선순위 크롤링 대기열 추가 확인을 받았다. 접수는 실제 색인 완료나 순위 상승을 뜻하지 않는다.
