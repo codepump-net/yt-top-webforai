@@ -12,7 +12,12 @@ export const metadata: Metadata = {
   icons: { icon: href('/favicon.svg') },
   formatDetection: { telephone: false },
   verification: {
-    other: { 'naver-site-verification': 'badf5024bd3f8f1c9469ae5261687a96ae9aa4cb' },
+    other: {
+      'naver-site-verification': [
+        '70a6bdc90d5833f8c8fa63b0e83adbd08435a1d3',
+        'badf5024bd3f8f1c9469ae5261687a96ae9aa4cb',
+      ],
+    },
   },
 };
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#125b51' };

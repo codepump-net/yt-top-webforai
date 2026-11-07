@@ -72,12 +72,6 @@
     },
     {
       "priority": "P1",
-      "action": "기존 병원 홈페이지에서 건강백과와 검사 준비 안내 연결",
-      "owner": "yttop.co.kr CMS 관리자",
-      "status": "original-site-links.html에 바로 사용할 문구와 HTML 준비. 기존 홈페이지에 적용하지 않음"
-    },
-    {
-      "priority": "P1",
       "action": "네이버 서치어드바이저의 실제 소유확인·사이트맵 성공·수집 및 노출 상태 확인",
       "owner": "등록 계정 권한자",
       "status": "인증 태그 반영은 확인했지만 계정 내 처리 결과는 미확인"
@@ -570,6 +564,13 @@
       "before": "Google에는 아직 알려지지 않은 URL",
       "result": "색인 생성 요청됨: 우선순위 크롤링 대기열에 추가",
       "indexedAfterRequest": "미확인"
+    }
+  ],
+  "outOfScope": [
+    {
+      "action": "기존 병원 홈페이지에서 건강백과와 검사 준비 안내 연결",
+      "owner": "yttop.co.kr CMS 관리자",
+      "status": "작업 범위 밖. 사용자가 기존 홈페이지 작업 권한이 없음을 확인했으므로 후속 필수 작업으로 안내하지 않음. 기존 HTML은 참고 이력이며 적용하지 않음."
     }
   ]
 }
