@@ -60,6 +60,39 @@ export const patientEntrances = [
     description: '건강 확인과 제출 서류 중 방문 목적에 맞는 안내를 찾으세요.',
   },
 ];
+// These are patient tasks, not a claim about measured popularity or search volume.
+export const homeGuideGroups = [
+  {
+    id: 'checkup',
+    title: '검진·서류 준비',
+    links: [
+      { id: 'national-checkup', label: '국가건강검진 대상·예약·준비물' },
+      { id: 'employment-checkup', label: '채용검진 준비물·결과지 발급' },
+      { id: 'checkup-preparation', label: '건강검진 전 금식·복용약 확인' },
+    ],
+  },
+  {
+    id: 'endoscopy',
+    title: '내시경 전후 준비',
+    links: [
+      { id: 'gastroscopy', label: '위내시경 금식·귀가 준비' },
+      { id: 'colonoscopy', label: '대장내시경 음식·장정결제 준비' },
+      { id: 'orafang-preparation', label: '오라팡 복용 안내' },
+      { id: 'plenvu-preparation', label: '플렌뷰 복용 안내' },
+      { id: 'after-endoscopy', label: '조직검사·용종절제 후 식사와 생활' },
+    ],
+  },
+  {
+    id: 'heart-visit',
+    title: '심장검사·방문 안내',
+    links: [
+      { id: 'echocardiography', label: '심장초음파 예약·준비물' },
+      { id: 'holter', label: '홀터검사 예약·착용 중 생활' },
+      { id: 'heart-test-differences', label: '심전도·홀터·심장초음파 차이' },
+      { id: 'visit', label: '진료시간·오시는 길·주차' },
+    ],
+  },
+];
 /** @type {Record<string, {title: string, ids: string[]}[]>} */
 export const hubGroups = {
   symptoms: directoryGroups(categories.symptomCategories, symptomMembers),

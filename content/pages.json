@@ -42,7 +42,7 @@
     "image": "clinic",
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -130,7 +130,7 @@
     "image": "clinic",
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -224,7 +224,7 @@
     "image": null,
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1455,7 +1455,7 @@
     "image": null,
     "risk": "urgent_context_review",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1538,7 +1538,7 @@
     "image": "jongseol",
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1738,8 +1738,8 @@
     "id": "checkup-preparation",
     "path": "/health/checkup-preparation-checklist/",
     "title": "건강검진 전 준비 확인표",
-    "metaTitle": "건강검진 전 준비 확인표 | TOP 건강백과",
-    "description": "건강검진 전에는 예약한 검사 목록부터 확인하세요. 음식·음료와 복약, 신분 확인·서류, 진정 검사 후 귀가 계획을 나누어 준비할 수 있습니다.",
+    "metaTitle": "건강검진 전 금식·복용약·준비물 확인표 | TOP 건강백과",
+    "description": "건강검진 전 금식과 물·커피, 복용약, 신분증·제출 서류와 귀가 준비를 확인하세요. 예약한 검사별 준비를 구분하고, 약 조절과 금식은 병원에서 받은 개인별 지침을 우선하세요.",
     "template": "article-detail",
     "category": "건강정보",
     "intro": "건강검진 전에는 예약한 검사 목록부터 확인하세요. 음식·음료와 복약, 신분 확인·서류, 진정 검사 후 귀가 계획을 나누어 준비할 수 있습니다.",
@@ -1922,7 +1922,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1931,8 +1931,8 @@
     "id": "colonoscopy-preparation",
     "path": "/health/colonoscopy-preparation-questions/",
     "title": "대장내시경 전 음식·정결제·귀가 준비",
-    "metaTitle": "대장내시경 전 음식·정결제·귀가 준비 | TOP 건강백과",
-    "description": "대장내시경 준비는 3일 전부터 잔여물이 적은 식사, 처방된 장정결제와 물 복용, 검사 직전 금식 순서로 진행합니다. 씨 있는 과일·잡곡·질긴 채소를 피하고, 마지막 변이 맑거나 연한 노란 물에 가까운지 살펴보세요.",
+    "metaTitle": "대장내시경 전 음식·물·커피·정결제 준비 | TOP 건강백과",
+    "description": "대장내시경 전 음식·물·커피, 처방받은 정결제와 검사 후 귀가 준비를 확인하세요. 3일 전 식사 조절부터 금식까지 구분하고, 오라팡·플렌뷰 안내와 병원에서 받은 개인별 지침을 함께 살펴보세요.",
     "template": "article-detail",
     "category": "건강정보",
     "intro": "대장내시경 준비는 3일 전부터 잔여물이 적은 식사, 처방된 장정결제와 물 복용, 검사 직전 금식 순서로 진행합니다. 씨 있는 과일·잡곡·질긴 채소를 피하고, 마지막 변이 맑거나 연한 노란 물에 가까운지 살펴보세요.",
@@ -2107,7 +2107,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2483,23 +2483,38 @@
     "blocks": [
       {
         "heading": "개인정보 처리 안내",
-        "text": "전화와 외부 지도 링크를 통해 안내받을 수 있습니다. 외부 서비스로 이동하면 해당 서비스의 정책이 적용됩니다. 이 사이트는 별도의 방문자 분석 도구와 광고 추적기를 사용하지 않으며, 사이트 검색어도 서버로 전송하지 않습니다."
+        "text": "전화와 외부 지도 링크를 통해 안내받을 수 있습니다. 외부 서비스로 이동하면 해당 서비스의 정책이 적용됩니다. 사이트 검색창에 입력한 검색어는 브라우저 안에서 처리하며 방문 통계로 보내지 않습니다."
       },
       {
         "id": "clinical-information",
         "heading": "의료정보와 환자 사례",
         "text": "이 사이트에는 특정 환자의 이름·연락처·정확한 진료일·원본 검사자료를 게시하지 않습니다. 정확한 나이와 드문 경과 등 여러 정보를 조합해 환자를 알아볼 수 있는 내용도 게시 대상에서 제외합니다. 일반 의료정보는 개인을 식별할 수 없는 설명으로 제공하며, 기존 병원 홈페이지의 진단 사례는 원문 링크로 안내합니다."
+      },
+      {
+        "id": "visit-analytics",
+        "heading": "선택하는 방문 통계 수집",
+        "text": "방문 통계 수집에 동의한 경우 Google Analytics 4를 사용해 방문·페이지 조회, 스크롤·외부 링크 클릭·파일 다운로드 등 사이트 이용 행동과 전화·길찾기 버튼 클릭을 집계합니다. 페이지 주소와 제목, 유입 사이트, 브라우저·기기 정보와 쿠키 등이 사용될 수 있습니다. 사이트 검색 화면과 검색어는 분석 대상에서 제외하며, 이름·연락처·주민등록번호를 입력받거나 통계에 포함하지 않습니다. 전화 버튼 클릭은 실제 통화나 진료 예약 완료를 뜻하지 않습니다."
+      },
+      {
+        "id": "analytics-choice",
+        "heading": "동의 여부와 선택 변경",
+        "text": "방문 통계 수집은 동의한 뒤 시작합니다. 동의하지 않아도 모든 안내를 이용할 수 있습니다. 화면 하단의 방문 통계 설정에서 선택을 바꿀 수 있으며, 거부하면 이 사이트의 Google Analytics 통계 수집을 중단하고 관련 쿠키를 삭제합니다. 선택은 이 브라우저에 저장됩니다. Google 서비스의 정보 이용 방식은 아래 Google 개인정보처리방침에서도 확인할 수 있습니다."
       }
     ],
     "questions": [],
     "related": [
       "visit"
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Google 개인정보처리방침",
+        "url": "https://policies.google.com/privacy?hl=ko"
+      }
+    ],
     "image": null,
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2587,7 +2602,7 @@
     "image": null,
     "risk": "operational",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2738,7 +2753,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2851,7 +2866,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3285,7 +3300,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3992,7 +4007,7 @@
     "id": "holter",
     "path": "/services/heart/holter/",
     "title": "홀터검사",
-    "metaTitle": "홀터검사 | TOP 건강백과",
+    "metaTitle": "홀터검사 예약·72시간 착용·생활 안내 | TOP 건강백과",
     "description": "홀터는 생활 중 심전도를 연속 기록해 간헐적인 두근거림·어지럼과 심장 리듬의 관계를 확인합니다. 영통탑내과에서는 주로 72시간 기록하며 전화 예약이 필요합니다. 증상이 생긴 시각과 당시 활동을 적어 장비와 함께 제출하세요.",
     "template": "service-detail",
     "category": "심장검사",
@@ -4156,7 +4171,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -5761,7 +5776,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6185,7 +6200,7 @@
     "image": "vaccination-schedule-2026",
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6565,7 +6580,7 @@
     "id": "orafang-preparation",
     "path": "/health/orafang-preparation/",
     "title": "오라팡 복용과 대장내시경 준비",
-    "metaTitle": "오라팡 복용과 대장내시경 준비 | TOP 건강백과",
+    "metaTitle": "오라팡 복용법·물 섭취·대장내시경 준비 | TOP 건강백과",
     "description": "오라팡 28정을 14정씩 두 번 나누어 복용하는 방법, 필요한 물의 양과 식이조절, 복용 중 연락해야 할 증상을 안내합니다.",
     "template": "article-detail",
     "category": "건강정보",
@@ -6661,7 +6676,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6670,7 +6685,7 @@
     "id": "plenvu-preparation",
     "path": "/health/plenvu-preparation/",
     "title": "플렌뷰 복용과 대장내시경 준비",
-    "metaTitle": "플렌뷰 복용과 대장내시경 준비 | TOP 건강백과",
+    "metaTitle": "플렌뷰 복용법·용액 만들기·주의사항 | TOP 건강백과",
     "description": "플렌뷰 1차·2차 용액을 만드는 법, 추가로 마실 물의 양, 허용되는 맑은 유동식과 주의사항을 안내합니다.",
     "template": "article-detail",
     "category": "건강정보",
@@ -6805,7 +6820,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6814,7 +6829,7 @@
     "id": "after-endoscopy",
     "path": "/health/after-endoscopy/",
     "title": "조직검사·용종절제 후 식사와 생활",
-    "metaTitle": "조직검사·용종절제 후 식사와 생활 | TOP 건강백과",
+    "metaTitle": "내시경 조직검사·용종절제 후 식사·생활 안내 | TOP 건강백과",
     "description": "조직검사와 용종절제의 회복 차이, 진정 후 귀가, 식사·활동·항혈전제 재개 시 확인할 조건과 출혈·복통의 위험 신호를 설명합니다.",
     "template": "article-detail",
     "category": "건강정보",
@@ -6911,7 +6926,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7348,7 +7363,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -8337,7 +8352,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -8369,7 +8384,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -12428,7 +12443,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -12793,7 +12808,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -13109,7 +13124,7 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-11-07",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"

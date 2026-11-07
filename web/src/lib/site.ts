@@ -11,6 +11,7 @@ export {
   hubGroups,
   hubIds,
   patientEntrances,
+  homeGuideGroups,
   sectionId,
   siteMapGroups,
   directoryTerms,
@@ -20,6 +21,8 @@ export {
 import { assetPath, absoluteUrl, jsonSafe } from './urls.mjs';
 import { resolveClinic, resolvePages } from './content-model.mjs';
 import { createStructuredData, childPages } from './structured-data.mjs';
+import visualData from '../../../content/visuals.json';
+import { pageImage } from './page-image.mjs';
 export { questionAnchor } from './structured-data.mjs';
 
 export type Source = {
@@ -93,6 +96,12 @@ export const sectionFor = (page: Page) => pageById(sectionId(page))!;
 export function pageMetadata(page: Page): Metadata {
   const url = absolute(page.path);
   const versions = languageVersions(page);
+  const image = pageImage(page, { assets: assetData, visuals: visualData, physicians }) ?? {
+    file: '/assets/clinic-1600.webp',
+    width: 1600,
+    height: 417,
+    caption: '영통탑내과 접수 공간',
+  };
   return {
     title: page.metaTitle,
     description: page.description,
@@ -130,10 +139,10 @@ export function pageMetadata(page: Page): Metadata {
       url,
       images: [
         {
-          url: absolute('/assets/clinic-1600.webp'),
-          width: 1600,
-          height: 417,
-          alt: '영통탑내과 접수 공간',
+          url: absolute(image.file),
+          width: image.width,
+          height: image.height,
+          alt: image.caption,
         },
       ],
     },
@@ -141,7 +150,7 @@ export function pageMetadata(page: Page): Metadata {
       card: 'summary_large_image',
       title: page.metaTitle,
       description: page.description,
-      images: [absolute('/assets/clinic-1600.webp')],
+      images: [{ url: absolute(image.file), alt: image.caption }],
     },
   };
 }

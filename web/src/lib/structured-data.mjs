@@ -4,16 +4,26 @@ import {
   hubGroups,
   hubIds,
   patientEntrances,
+  homeGuideGroups,
   siteMapGroups,
   discoverable,
 } from './information-architecture.mjs';
 import officialChannels from '../../../content/official-channels.json' with { type: 'json' };
 import siteIdentity from '../../../content/site.json' with { type: 'json' };
 import { clinicAddressSchema, clinicHoursSchema } from './content-model.mjs';
+import visuals from '../../../content/visuals.json' with { type: 'json' };
+import { pageImage } from './page-image.mjs';
 
 export function childPages(page, pages) {
   if (page.id === 'home')
-    return patientEntrances.map(({ id }) => pages.find((p) => p.id === id)).filter(Boolean);
+    return [
+      ...new Set([
+        ...patientEntrances.map(({ id }) => id),
+        ...homeGuideGroups.flatMap((group) => group.links.map(({ id }) => id)),
+      ]),
+    ]
+      .map((id) => pages.find((p) => p.id === id))
+      .filter(Boolean);
   if (hubGroups[page.id]) {
     const children = hubIds(page.id)
       .map((id) => pages.find((p) => p.id === id))
@@ -70,12 +80,7 @@ export function createStructuredData({
   const article = ['article-detail', 'notice-guide'].includes(page.template);
   const service = ['service-detail', 'checkup-detail', 'condition-detail'].includes(page.template);
   const testType = testTypes[page.id];
-  const imageAsset = assets.find(
-    (a) =>
-      (doctor || ['home', 'about'].includes(page.id)) &&
-      a.id === page.image &&
-      (doctor ? doctor.imageKind === 'portrait' : a.width === 1600),
-  );
+  const imageAsset = pageImage(page, { assets, visuals, physicians });
   const staff = page.id === 'home' || page.id === 'doctors' ? physicians : doctor ? [doctor] : [];
   const personId = (p) => absolute(`/doctors/${p.id}/#person`);
   const parts = [];
@@ -201,7 +206,7 @@ export function createStructuredData({
       url: absolute(imageAsset.file),
       width: imageAsset.width,
       height: imageAsset.height,
-      caption: doctor ? `${doctor.name} ${doctor.role}` : '영통탑내과 접수대와 대기 공간',
+      caption: imageAsset.caption,
     });
   for (const p of staff)
     graph.push({

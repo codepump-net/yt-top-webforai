@@ -4,6 +4,68 @@
   --library-paper: #f7f9f7;
 }
 
+.analytics-settings {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.analytics-consent {
+  position: fixed;
+  z-index: 110;
+  right: 20px;
+  bottom: 20px;
+  width: min(430px, calc(100vw - 32px));
+  padding: 20px;
+  border: 1px solid #afc7bc;
+  border-radius: 12px;
+  background: #fff;
+  color: #253a31;
+  box-shadow: 0 6px 30px #203b3226;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.analytics-consent p {
+  margin: 8px 0;
+}
+.analytics-consent > a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.analytics-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+.analytics-actions button {
+  flex: 1;
+  min-height: 44px;
+  border: 1px solid #527e6b;
+  border-radius: 6px;
+  padding: 8px;
+  background: #fff;
+  color: #125b51;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.analytics-actions button:last-child {
+  background: #125b51;
+  color: #fff;
+}
+@media (max-width: 850px) {
+  .analytics-consent {
+    right: 16px;
+    bottom: 78px;
+  }
+}
+
 .home-library .hero {
   background: #f4f7f3;
   border-bottom: 1px solid var(--line);
@@ -120,6 +182,59 @@
 .home-library .section-heading p {
   font-size: 15px;
   margin-top: 10px;
+}
+
+.home-library .home-practical-guides {
+  padding-bottom: 0;
+}
+
+.home-guide-groups {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.home-guide-groups nav {
+  padding: 22px;
+  border: 1px solid var(--library-line);
+  border-radius: 10px;
+  background: var(--library-paper);
+}
+
+.home-guide-groups h3 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.home-guide-groups ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-guide-groups a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 0;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.home-guide-groups a svg {
+  flex-shrink: 0;
+}
+
+.home-guide-groups a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 850px) {
+  .home-guide-groups {
+    grid-template-columns: 1fr;
+  }
 }
 
 .home-library .patient-entry {

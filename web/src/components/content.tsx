@@ -26,6 +26,7 @@ import {
   childrenFor,
   hubGroups,
   patientEntrances,
+  homeGuideGroups,
   sectionFor,
   questionAnchor,
   siteMapGroups,
@@ -200,6 +201,33 @@ function Home() {
           </a>
         </div>
       </div>
+      <section
+        className="section container home-practical-guides"
+        aria-labelledby="home-guides-title"
+      >
+        <div className="section-heading">
+          <div>
+            <h2 id="home-guides-title">검사·검진·방문 안내 바로 찾기</h2>
+            <p>예약할 검사와 준비약 이름을 선택해 준비물과 방문 전 확인사항을 살펴보세요.</p>
+          </div>
+        </div>
+        <div className="home-guide-groups">
+          {homeGuideGroups.map((group) => (
+            <nav key={group.id} aria-labelledby={`home-guide-${group.id}`}>
+              <h3 id={`home-guide-${group.id}`}>{group.title}</h3>
+              <ul>
+                {group.links.map(({ id, label }) => (
+                  <li key={id}>
+                    <a href={href(pageById(id)!.path)}>
+                      {label} <ArrowRight size={16} aria-hidden="true" />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          ))}
+        </div>
+      </section>
       <section className="section container patient-entry-section">
         <SectionHeading
           eyebrow="START HERE"

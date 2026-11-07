@@ -1,10 +1,8 @@
 'use client';
 
 import { Search } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 
 export function HomeSearch({ searchUrl, sitemapUrl }: { searchUrl: string; sitemapUrl: string }) {
-  const router = useRouter();
   return (
     <section className="container home-search" aria-labelledby="home-search-title">
       <h2 id="home-search-title">증상·질환·검사로 찾기</h2>
@@ -15,7 +13,11 @@ export function HomeSearch({ searchUrl, sitemapUrl }: { searchUrl: string; sitem
         onSubmit={(event) => {
           event.preventDefault();
           const input = event.currentTarget.elements.namedItem('home-query') as HTMLInputElement;
-          router.push(`/search/#q=${encodeURIComponent(input.value.trim())}`);
+          // A separate document keeps the search query away from the analytics
+          // tag loaded on a previously consented page. Fragments stay local.
+          const target = new URL(searchUrl, window.location.origin);
+          target.hash = `q=${encodeURIComponent(input.value.trim())}`;
+          window.location.assign(target.href);
         }}
       >
         <label htmlFor="home-query">어떤 안내가 필요하신가요?</label>

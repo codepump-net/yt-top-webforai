@@ -1,0 +1,500 @@
+{
+  "checkedAt": "2026-11-07",
+  "scope": "내부 운영 자료. 환자용 웹 출력에 포함하지 않음.",
+  "baseline": {
+    "source": "사용자가 열어 둔 Google Search Console에서 읽은 보고서와 당일 공개 HTTP 확인",
+    "performance": {
+      "period": "최근 28일",
+      "clicks": 1,
+      "impressions": 37,
+      "ctrPercent": 2.7,
+      "averagePosition": 5.9,
+      "pagesWithImpressions": [
+        "https://yttop.kr/"
+      ]
+    },
+    "indexing": {
+      "reportUpdatedAt": "2026-10-23",
+      "indexed": 1,
+      "discoveredNotIndexed": 131,
+      "warning": "당일 전체 색인 수로 단정하지 않음."
+    },
+    "sitemap": {
+      "lastRead": "2026-11-04",
+      "status": "성공",
+      "discoveredUrls": 132
+    },
+    "visitPage": {
+      "indexInspection": "Google에는 아직 알려지지 않은 URL",
+      "liveTest": "URL을 Google에 등록할 수 있음"
+    },
+    "originalHomeLinkToNewSiteCount": 0
+  },
+  "implemented": [
+    {
+      "item": "홈에서 검사·검진·방문 안내 12개에 직접 연결",
+      "purpose": "환자가 검사와 준비약을 바로 선택하고 크롤러도 실제 HTML 링크를 따라갈 수 있게 함"
+    },
+    {
+      "item": "기존 준비 안내 6개의 검색 제목, 그중 2개의 요약 구체화",
+      "purpose": "기존 본문에 있는 금식·복용약·물·커피·정결제·착용 시간이라는 목적을 명확히 설명"
+    },
+    {
+      "item": "배정된 이미지가 있는 18개 페이지의 공유·대표 이미지 연결",
+      "purpose": "실제 화면에 있는 배너·도표·실제 인물 사진을 메타데이터와 연결. 실루엣은 의사 사진으로 사용하지 않음"
+    },
+    {
+      "item": "한국어 포함 비자검진 6개 언어 버전의 사이트맵 상호 링크",
+      "purpose": "기존 언어별 URL 관계를 검색엔진에 동일하게 제공"
+    },
+    {
+      "item": "정적 HTML 본문 링크 경로 감사와 회귀 검사",
+      "purpose": "검색창·사이트맵·공통 메뉴·푸터 없이도 안내에 도달하며 핵심 안내는 홈에서 한 번에 열리는지 빌드마다 확인"
+    },
+    {
+      "item": "사용자 제공 GA4 측정 ID 연결 코드와 수집 동의·철회 설정",
+      "purpose": "동의 후에만 태그를 로드하며 검색·사례 페이지 제외, URL 쿼리·프래그먼트 제거, Google 신호·광고 개인맞춤 사용 중지. 실제 전화 연결·예약 완료와 클릭을 구분."
+    }
+  ],
+  "nextActions": [
+    {
+      "priority": "P0",
+      "action": "최종 배포 후 핵심 URL 실시간 검사와 색인 생성 요청",
+      "owner": "Search Console 권한자",
+      "status": "배포 검증 후 진행",
+      "urls": [
+        "https://yttop.kr/visit/",
+        "https://yttop.kr/checkups/national/",
+        "https://yttop.kr/services/heart/echocardiography/",
+        "https://yttop.kr/health/colonoscopy-preparation-questions/",
+        "https://yttop.kr/checkups/employment/"
+      ]
+    },
+    {
+      "priority": "P1",
+      "action": "기존 병원 홈페이지에서 건강백과와 검사 준비 안내 연결",
+      "owner": "yttop.co.kr CMS 관리자",
+      "status": "original-site-links.html에 바로 사용할 문구와 HTML 준비. 기존 홈페이지에 적용하지 않음"
+    },
+    {
+      "priority": "P1",
+      "action": "네이버 서치어드바이저의 실제 소유확인·사이트맵 성공·수집 및 노출 상태 확인",
+      "owner": "등록 계정 권한자",
+      "status": "인증 태그 반영은 확인했지만 계정 내 처리 결과는 미확인"
+    },
+    {
+      "priority": "P1",
+      "action": "공식 블로그 등 병원 운영 채널의 관련 검사 안내에 적절한 건강백과 페이지 링크",
+      "owner": "각 공식 채널 관리자",
+      "status": "해당 게시물의 환자 필요에 맞춰 진행. 발송·게시하지 않음"
+    },
+    {
+      "priority": "P1",
+      "action": "병원 지도·업체 정보의 주소·연락처·진료시간·기존 홈페이지 정보 일치 여부 확인",
+      "owner": "병원 운영 담당자",
+      "status": "새 도메인으로 일괄 교체하지 않음"
+    },
+    {
+      "priority": "P2",
+      "action": "실제 검색어와 색인 결과를 보고 기존 안내 보완",
+      "owner": "콘텐츠 담당자와 실제 의료 검토 담당자",
+      "status": "새 의료 주장·가격·검토자·질문 빈도를 임의로 만들지 않음"
+    },
+    {
+      "priority": "P2",
+      "action": "GA4 방문 분석과 전화·길찾기 클릭 집계 연결",
+      "owner": "GA4 속성 소유자와 개발자",
+      "status": "사용자가 G-FLPH2Y4NPY를 제공했고 실제 yttop.kr 웹 스트림과 일치를 확인함. 동의 후 수집하는 코드 연결·검증 진행 중."
+    }
+  ],
+  "weeklyReview": {
+    "cadence": "배포 직후 기준값을 남기고 주 1회, 28일 단위로 같은 조건 비교",
+    "metrics": [
+      "색인된 핵심 페이지 수와 미등록 사유",
+      "홈 외 페이지의 노출·클릭",
+      "병원명 검색어와 일반 검사·준비 검색어를 구분한 노출·클릭",
+      "동일 페이지·검색어의 CTR과 평균 게재순위",
+      "실제 색인 요청 날짜·마지막 수집 날짜·Google 선택 대표 주소"
+    ],
+    "interpretation": "클릭수/노출수가 작은 상태에서 CTR 변화를 과대 해석하지 않음. 코드 검사 통과와 실제 검색 성과는 별개."
+  },
+  "publication": {
+    "clinicalBodiesAndSourcesUnchanged": true,
+    "clinicAndPhysicianFactsUnchanged": true,
+    "routeCount": 135,
+    "intendedIndexable": 132,
+    "approval": "기존 실제 사용자 확인의 시각·기간·범위를 유지하고, 이번 요청으로 허용된 링크·메타데이터·표시 변경에 한해 digest 갱신. 새 의료 승인으로 표시하지 않음.",
+    "operationalPrivacyNoticeUpdated": true
+  },
+  "sources": [
+    "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?hl=ko",
+    "https://developers.google.com/search/docs/appearance/title-link?hl=ko",
+    "https://developers.google.com/search/docs/appearance/snippet?hl=ko",
+    "https://developers.google.com/search/docs/specialty/international/localized-versions?hl=ko",
+    "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl?hl=ko",
+    "https://developers.google.com/analytics/devguides/collection/ga4/reference/config?hl=ko",
+    "https://developers.google.com/analytics/devguides/collection/ga4/views?hl=ko"
+  ],
+  "metadataChanges": [
+    {
+      "id": "home",
+      "path": "/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "about",
+      "path": "/about/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "checkups",
+      "path": "/checkups/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "heart-disease",
+      "path": "/conditions/heart-disease/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "doctor-park-jongseol",
+      "path": "/doctors/park-jongseol/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "checkup-preparation",
+      "path": "/health/checkup-preparation-checklist/",
+      "fields": [
+        "metaTitle",
+        "description",
+        "updatedAt"
+      ],
+      "before": {
+        "metaTitle": "건강검진 전 준비 확인표 | TOP 건강백과",
+        "description": "건강검진 전에는 예약한 검사 목록부터 확인하세요. 음식·음료와 복약, 신분 확인·서류, 진정 검사 후 귀가 계획을 나누어 준비할 수 있습니다.",
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "metaTitle": "건강검진 전 금식·복용약·준비물 확인표 | TOP 건강백과",
+        "description": "건강검진 전 금식과 물·커피, 복용약, 신분증·제출 서류와 귀가 준비를 확인하세요. 예약한 검사별 준비를 구분하고, 약 조절과 금식은 병원에서 받은 개인별 지침을 우선하세요.",
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "colonoscopy-preparation",
+      "path": "/health/colonoscopy-preparation-questions/",
+      "fields": [
+        "metaTitle",
+        "description",
+        "updatedAt"
+      ],
+      "before": {
+        "metaTitle": "대장내시경 전 음식·정결제·귀가 준비 | TOP 건강백과",
+        "description": "대장내시경 준비는 3일 전부터 잔여물이 적은 식사, 처방된 장정결제와 물 복용, 검사 직전 금식 순서로 진행합니다. 씨 있는 과일·잡곡·질긴 채소를 피하고, 마지막 변이 맑거나 연한 노란 물에 가까운지 살펴보세요.",
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "metaTitle": "대장내시경 전 음식·물·커피·정결제 준비 | TOP 건강백과",
+        "description": "대장내시경 전 음식·물·커피, 처방받은 정결제와 검사 후 귀가 준비를 확인하세요. 3일 전 식사 조절부터 금식까지 구분하고, 오라팡·플렌뷰 안내와 병원에서 받은 개인별 지침을 함께 살펴보세요.",
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "services",
+      "path": "/services/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "cancer-support",
+      "path": "/services/cancer-support/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "endoscopy",
+      "path": "/services/endoscopy/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "heart-index",
+      "path": "/services/heart/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "holter",
+      "path": "/services/heart/holter/",
+      "fields": [
+        "metaTitle",
+        "updatedAt"
+      ],
+      "before": {
+        "metaTitle": "홀터검사 | TOP 건강백과",
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "metaTitle": "홀터검사 예약·72시간 착용·생활 안내 | TOP 건강백과",
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "respiratory-infections",
+      "path": "/conditions/respiratory-infections/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "vaccinations",
+      "path": "/services/vaccinations/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "orafang-preparation",
+      "path": "/health/orafang-preparation/",
+      "fields": [
+        "metaTitle",
+        "updatedAt"
+      ],
+      "before": {
+        "metaTitle": "오라팡 복용과 대장내시경 준비 | TOP 건강백과",
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "metaTitle": "오라팡 복용법·물 섭취·대장내시경 준비 | TOP 건강백과",
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "plenvu-preparation",
+      "path": "/health/plenvu-preparation/",
+      "fields": [
+        "metaTitle",
+        "updatedAt"
+      ],
+      "before": {
+        "metaTitle": "플렌뷰 복용과 대장내시경 준비 | TOP 건강백과",
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "metaTitle": "플렌뷰 복용법·용액 만들기·주의사항 | TOP 건강백과",
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "after-endoscopy",
+      "path": "/health/after-endoscopy/",
+      "fields": [
+        "metaTitle",
+        "updatedAt"
+      ],
+      "before": {
+        "metaTitle": "조직검사·용종절제 후 식사와 생활 | TOP 건강백과",
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "metaTitle": "내시경 조직검사·용종절제 후 식사·생활 안내 | TOP 건강백과",
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "chronic-disease",
+      "path": "/conditions/chronic-disease/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "symptoms",
+      "path": "/symptoms/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "diseases",
+      "path": "/diseases/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "digestive-disease",
+      "path": "/conditions/digestive/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "neck-disease",
+      "path": "/conditions/thyroid-carotid-neck/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    },
+    {
+      "id": "kidney-disease",
+      "path": "/conditions/kidney/",
+      "fields": [
+        "updatedAt"
+      ],
+      "before": {
+        "updatedAt": "2026-10-15"
+      },
+      "after": {
+        "updatedAt": "2026-11-07"
+      }
+    }
+  ],
+  "limits": "검색엔진의 수집 일정·색인·순위 상승은 보장하지 않음. 실제 성과는 Search Console에서 후속 관측.",
+  "localDiscoveryComparison": {
+    "before": {
+      "coreGuidesOneClick": 4,
+      "coreGuideCount": 12,
+      "maxContentLinkDepth": 3
+    },
+    "after": {
+      "coreGuidesOneClick": 12,
+      "coreGuideCount": 12,
+      "maxContentLinkDepth": 3,
+      "unreachablePatientPages": []
+    },
+    "scope": "Static main-content links, excluding breadcrumbs, search and sitemaps; not Google crawl or indexing data."
+  },
+  "analytics": {
+    "measurementId": "G-FLPH2Y4NPY",
+    "streamUrl": "https://yttop.kr",
+    "consentRequired": true,
+    "enhancedMeasurement": "사용자가 중지를 원하지 않아 기존 설정 사용 유지. 관리 화면의 on 상태 확인.",
+    "excluded": [
+      "사이트 검색·사례 페이지",
+      "검색어가 있는 URL",
+      "URL 쿼리·프래그먼트와 상세 유입 경로",
+      "직접 입력한 이름·연락처·주민등록번호"
+    ],
+    "status": "로컬 실제 Google 전송 검사 통과: 동의 전 요청 0, 컨테이너 로더 1, page_view 1, 올바른 측정 ID와 수집 서버 HTTP 204. 최종 배포 후 검증 예정.",
+    "containerId": "GTM-PMTZZ9VT"
+  },
+  "localValidation": {
+    "unitTests": 100,
+    "pythonHarness": 17,
+    "contentAndStaticRoutes": 135,
+    "intendedIndexable": 132,
+    "targetedBrowserChecks": "홈 발견 경로·접근성·다국어 사이트맵·대표 이미지와 GA4 동의·철회·검색어 제외 검사 통과",
+    "clinicalBodiesAndFacts": "기존 의료 본문·출처·진료 사실 불변; 개인정보 처리 안내의 운영 내용만 새 분석 처리에 맞게 갱신"
+  }
+}

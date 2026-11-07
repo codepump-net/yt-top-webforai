@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next';
 import { Header, Footer } from '@/components/chrome';
-import { href, siteIdentity } from '@/lib/site';
+import { href, siteIdentity, reviewMode, clinic } from '@/lib/site';
+import analytics from '../../../../content/analytics.json';
+import { AnalyticsConsent } from '@/components/analytics-consent';
 import { PrintQuestions } from '@/components/print-questions';
 import '../globals.css';
 import '../library.css';
@@ -25,6 +27,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer />
         <PrintQuestions />
+        {!reviewMode && (
+          <AnalyticsConsent
+            measurementId={analytics.measurementId}
+            containerId={analytics.containerId}
+            privacyUrl={href('/privacy/')}
+            mapUrl={clinic.mapUrl}
+          />
+        )}
       </body>
     </html>
   );

@@ -35,9 +35,25 @@ run('node_modules/next/dist/bin/next', ['build']);
 const data = await loadContent();
 const absolute = (path) => absoluteUrl(path, origin, basePath);
 const xml = (list) =>
-  '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+  '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' +
   list
-    .map((p) => `  <url><loc>${absolute(p.path)}</loc><lastmod>${p.updatedAt}</lastmod></url>`)
+    .map((p) => {
+      const originalId = p.translationOf ?? p.id;
+      const versions = list.filter(
+        (entry) => entry.id === originalId || entry.translationOf === originalId,
+      );
+      const alternates =
+        versions.length > 1
+          ? [
+              ...versions.map(
+                (entry) =>
+                  `<xhtml:link rel="alternate" hreflang="${entry.language ?? 'ko'}" href="${absolute(entry.path)}"/>`,
+              ),
+              `<xhtml:link rel="alternate" hreflang="x-default" href="${absolute(versions.find((entry) => entry.id === originalId).path)}"/>`,
+            ].join('')
+          : '';
+      return `  <url><loc>${absolute(p.path)}</loc><lastmod>${p.updatedAt}</lastmod>${alternates}</url>`;
+    })
     .join('\n') +
   '\n</urlset>\n';
 await fs.writeFile(
@@ -119,4 +135,5 @@ await fs.writeFile(
   ),
 );
 run('scripts/audit.mjs');
+run('scripts/discovery-audit.mjs');
 console.log(`Export complete: ${routes.length} routes, ${mode}, ${absolute('/')}`);

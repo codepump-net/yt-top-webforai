@@ -18,6 +18,7 @@
     "harness-check": "node scripts/harness-check.mjs",
     "test": "vitest run",
     "audit:static": "node scripts/audit.mjs",
+    "audit:discovery": "node scripts/discovery-audit.mjs",
     "test:e2e": "playwright test",
     "test:performance": "node scripts/performance.mjs",
     "serve": "node scripts/serve.mjs",
