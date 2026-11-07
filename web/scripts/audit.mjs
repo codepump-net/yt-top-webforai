@@ -41,6 +41,8 @@ function localFile(url, currentPath) {
 for (const route of manifest.routes) {
   const html = await fs.readFile('out/' + route.file, 'utf8');
   const $ = load(html);
+  if ($('.analytics-consent,.analytics-settings,[aria-label="방문 통계 설정"]').length)
+    errors.push(`${route.path}: internal analytics must not add visitor prompts or settings controls`);
   const title = $('title').text();
   if (!title || titles.has(title)) errors.push(`${route.path}: missing/duplicate title`);
   titles.add(title);

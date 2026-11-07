@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import fs from 'node:fs';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 
-test('analytics waits for consent, sanitizes URLs, can be withdrawn and excludes internal search', async ({
+test('operator analytics has no visitor UI or actions, denies storage and excludes search data', async ({
   browser,
 }) => {
   test.skip(manifest.mode !== 'production', 'Review builds never install analytics.');
@@ -25,27 +25,32 @@ test('analytics waits for consent, sanitizes URLs, can be withdrawn and excludes
   );
   const page = await context.newPage();
   await page.goto('https://yttop.kr' + manifest.basePath + '/?name=PRIVATE#q=PRIVATE');
-  const choices = page.getByRole('complementary', { name: '방문 통계 설정' });
-  await expect(choices).toBeVisible();
-  expect(tagRequests).toEqual([]);
-  await choices.getByRole('button', { name: '동의하지 않음', exact: true }).click();
-  await expect(choices).toBeHidden();
-  expect(tagRequests).toEqual([]);
-  await page.getByRole('button', { name: '방문 통계 설정', exact: true }).click();
-  await choices.getByRole('button', { name: '통계 수집에 동의', exact: true }).click();
   await expect.poll(() => tagRequests.length).toBe(1);
   expect(tagRequests[0]).toBe('https://www.googletagmanager.com/gtm.js?id=GTM-PMTZZ9VT');
+  await expect(
+    page.locator('.analytics-consent,.analytics-settings,[aria-label="방문 통계 설정"]'),
+  ).toHaveCount(0);
+  await expect(page.getByRole('button', { name: '통계 수집에 동의', exact: true })).toHaveCount(0);
   const commands = await page.evaluate(() => {
     const target = window as Window & { dataLayer?: ArrayLike<unknown>[] };
     return (target.dataLayer ?? []).map((command) => Array.from(command));
   });
   expect(JSON.stringify(commands)).not.toContain('PRIVATE');
+  expect(
+    commands.find((command) => command[0] === 'consent' && command[1] === 'default')?.[2],
+  ).toEqual({
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+  });
   const config = commands.find((command) => command[0] === 'config');
   expect(config?.[1]).toBe('G-FLPH2Y4NPY');
   expect(config?.[2]).toMatchObject({ send_page_view: true });
   expect(
     commands.filter((command) => command[0] === 'event' && command[1] === 'page_view'),
   ).toHaveLength(0);
+  expect(await page.evaluate(() => localStorage.length)).toBe(0);
   const contact = await page.evaluate(() => {
     const link = document.querySelector('a[href^="tel:"]')!;
     link.addEventListener('click', (event) => event.preventDefault(), { once: true });
@@ -54,16 +59,6 @@ test('analytics waits for consent, sanitizes URLs, can be withdrawn and excludes
     return Array.from(target.dataLayer!.at(-1)!);
   });
   expect(contact).toEqual(['event', 'contact_click', { contact_method: 'phone' }]);
-  await page.getByRole('button', { name: '방문 통계 설정', exact: true }).click();
-  await choices.getByRole('button', { name: '동의하지 않음', exact: true }).click();
-  await expect
-    .poll(() =>
-      page.evaluate(
-        () => (window as unknown as Record<string, unknown>)['ga-disable-G-FLPH2Y4NPY'],
-      ),
-    )
-    .toBe(true);
-  await page.evaluate(() => localStorage.setItem('yttop-analytics-consent-v1', 'granted'));
   await page.goto('https://yttop.kr' + manifest.basePath + '/search/#q=PRIVATE');
   await expect(page.locator('#site-query')).toHaveValue('PRIVATE');
   expect(tagRequests).toHaveLength(1);

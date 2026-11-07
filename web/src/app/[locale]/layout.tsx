@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { clinic, siteIdentity, href, phoneHref, reviewMode } from '@/lib/site';
 import analytics from '../../../../content/analytics.json';
-import { AnalyticsConsent, AnalyticsSettingsButton } from '@/components/analytics-consent';
+import { Analytics } from '@/components/analytics';
 import { languageNames, pageLabels } from '@/lib/languages';
 import { contentUse } from '@/components/article-footer';
 import { OfficialChannels } from '@/components/official-channels';
@@ -65,19 +65,16 @@ export default async function LanguageLayout({
               </a>
               <a href={href('/')}>{t.koreanSite}</a>
               <a href={href('/copyright/')}>{contentUse[language as keyof typeof contentUse][1]}</a>
-              {!reviewMode && <AnalyticsSettingsButton english />}
             </div>
             <p className="footer-note">© 2026 Yeongtong Top Internal Medicine Clinic</p>
             <OfficialChannels variant="footer" />
           </div>
         </footer>
         {!reviewMode && (
-          <AnalyticsConsent
+          <Analytics
             measurementId={analytics.measurementId}
             containerId={analytics.containerId}
-            privacyUrl={href('/privacy/')}
             mapUrl={clinic.mapUrl}
-            english
           />
         )}
       </body>

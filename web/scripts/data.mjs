@@ -50,7 +50,7 @@ export async function loadContent() {
     'src/lib/site.ts',
     'src/lib/page-image.mjs',
     'src/lib/analytics.mjs',
-    'src/components/analytics-consent.tsx',
+    'src/components/analytics.tsx',
     '../content/analytics.json',
     'src/lib/content-model.mjs',
     'src/lib/structured-data.mjs',

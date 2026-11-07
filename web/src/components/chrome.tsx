@@ -9,11 +9,9 @@ import {
   basePath,
   pages,
   sectionId,
-  reviewMode,
 } from '@/lib/site';
 import { SiteNavigation } from './site-navigation';
 import { OfficialChannels } from './official-channels';
-import { AnalyticsSettingsButton } from './analytics-consent';
 
 export function Header() {
   return (
@@ -101,7 +99,6 @@ export function Footer() {
               </a>
               <a href={href('/sitemap/')}>전체 페이지</a>
               <a href={href('/privacy/')}>개인정보 처리 안내</a>
-              {!reviewMode && <AnalyticsSettingsButton />}
               <a href={href('/copyright/')}>저작권·콘텐츠 이용 안내</a>
             </div>
           </div>
