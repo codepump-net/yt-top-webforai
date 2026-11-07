@@ -21,8 +21,8 @@ it('propagates changed contact and address through prose and schema without sour
   copy.hours.find((h) => h.id === 'weekdays').closes = '19:00';
   const clinic = resolveClinic(copy);
   const pages = resolvePages(manuscripts, clinic);
-  expect(pages.find((p) => p.id === 'home').description).toContain(copy.phone);
-  expect(pages.find((p) => p.id === 'home').description).toContain(copy.addressParts.street);
+  expect(pages.find((p) => p.id === 'home').intro).toContain(copy.phone);
+  expect(pages.find((p) => p.id === 'home').intro).toContain(copy.addressParts.street);
   for (const id of ['visa-en', 'visa-th', 'visa-ru', 'visa-ne'])
     expect(JSON.stringify(pages.find((p) => p.id === id))).toContain(copy.addressLabels.en);
   expect(pages.find((p) => p.id === 'visit').description).toContain('19:00');
