@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
-    "next": "16.3.8",
+    "next": "16.4.5",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "zod": "^4.1.0"
@@ -43,13 +43,18 @@
     "cheerio": "^1.1.0",
     "chrome-launcher": "1.2.1",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.3.8",
+    "eslint-config-next": "16.4.5",
     "lighthouse": "13.4.1",
     "postcss": "^8.5.0",
     "prettier": "3.9.6",
     "sharp": "0.35.5",
     "tailwindcss": "4.3.3",
     "typescript": "^5.9.0",
-    "vitest": "5.0.0"
+    "vitest": "5.1.0"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.1"
+    }
   }
 }

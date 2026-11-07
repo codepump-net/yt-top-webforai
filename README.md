@@ -26,7 +26,7 @@
 
 - **[초기 개발·검증 이력](docs/development-completion.ko.md)** — 최초 76페이지 구현과 당시 CI·Pages 상태
 - **[개발·운영 인수 문서](docs/development-handoff.ko.md)** — 실행, 원고 수정, 실제 검수, 자동 배포, AI 인용 관측
-- **[웹 앱 실행](web/README.md)** — Next.js 16.3.8 · React 19.3.0 · TypeScript · Tailwind CSS 4.3.3
+- **[웹 앱 실행](web/README.md)** — Next.js 16.4.5 · React 19.3.0 · TypeScript · Tailwind CSS 4.3.3
 - [콘텐츠 원장](content/README.md) — 135개 경로, 의료진 2명, 진단 사례 원문 링크 25개
 - [자동 검사·배포 워크플로](.github/workflows/pages.yml)
 

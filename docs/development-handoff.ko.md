@@ -6,7 +6,7 @@
 
 ## 구현 결과
 
-Next.js 16.3.8 App Router, React 19.3.0, TypeScript, Tailwind CSS 4.3.3을 사용했습니다. `output: export`로 모든 페이지의 HTML을 미리 생성합니다. Node.js 24는 개발·빌드에만 필요하며 배포된 사이트는 서버 API나 데이터베이스 없이 동작합니다. 버전의 정확한 설치 결과는 `web/package-lock.json`에 고정했습니다.
+Next.js 16.4.5 App Router, React 19.3.0, TypeScript, Tailwind CSS 4.3.3을 사용했습니다. `output: export`로 모든 페이지의 HTML을 미리 생성합니다. Node.js 24는 개발·빌드에만 필요하며 배포된 사이트는 서버 API나 데이터베이스 없이 동작합니다. 버전의 정확한 설치 결과는 `web/package-lock.json`에 고정했습니다.
 
 ESLint는 Next.js 구성에 포함된 React·접근성 플러그인의 호환 범위에 맞춰 9.39.5에 고정했습니다. ESLint 10은 해당 플러그인과 실제 실행 오류가 있어 사용하지 않습니다. 추후 플러그인 호환 업데이트 후 함께 올립니다. Prettier 3.9.6으로 소스 형식을 정리했습니다.
 
@@ -142,3 +142,9 @@ npm run measure -- .local/observations.json
 원본 크롤링과 OCR, 515개 수집 이미지가 있는 `research/`는 로컬 조사 자료로 유지하고 공개 저장소에 올리지 않습니다. 앱에는 선별된 이미지와 출처를 가진 편집 원고만 들어갑니다. `seed_content.py`, `polish_content.py`, `prepare-assets.mjs`는 최초 가져오기 도구이며 CI 필수 단계가 아닙니다. 이후 원고를 수정한 뒤 초기화 도구를 다시 실행하면 편집 내용을 덮어쓸 수 있으므로 일반 유지보수는 JSON 파일을 직접 수정합니다.
 
 장애 복구는 정상 커밋으로 코드·콘텐츠 변경을 되돌리는 새 커밋을 만들어 main에 push하는 방식으로 진행합니다. 과거 실행의 배포만 재실행하면 최신 SHA 검사가 막도록 되어 있습니다. 정상 커밋의 원고도 검수 만료 여부를 다시 검사하므로, 오래된 의료정보를 검사 없이 재배포하지 않습니다. 도메인이나 basePath를 변경했다면 해당 값으로 다시 빌드합니다.
+
+## 2026-11-07 Google 인증 파일 추가와 배포 의존성 갱신
+
+사용자가 제공한 `google88d628c717fa2f5c.html`을 내용 변경 없이 `web/public/`에 추가했다. 기존 Google 인증 파일과 네이버 태그도 유지한다. 파일 게시와 Google 계정 화면의 소유권 확인은 별도 단계이며, 계정에서 확인 버튼을 누른 결과를 배포 성공으로 대신 기록하지 않는다.
+
+첫 배포 실행 [42371936737](https://github.com/codepump-net/yt-top-webforai/actions/runs/42371936737)은 기존 의존성의 신규 보안 권고 때문에 중단됐다. Next.js·ESLint 설정을 16.4.5, Vitest를 5.1.0으로 갱신하고 Zod·Vite·undici·Puppeteer의 관련 전이 의존성을 lockfile에서 갱신했다. `@typescript-eslint/typescript-estree`가 요구하는 minimatch 10 계열에는 [GHSA-g3hv-75wg-m249](https://github.com/advisories/GHSA-g3hv-75wg-m249) 수정이 없어 이 의존 경로에만 `minimatch ^11.0.1` override를 적용했다. 상위 패키지가 수정 버전을 직접 허용하면 이 override를 제거한다. 공개 승인 기록과 배포 검증 조건은 변경하지 않았다. 갱신 후 로컬 의존성 검사는 예외 없이 통과했다.
