@@ -17,7 +17,7 @@
 
 .analytics-consent {
   position: fixed;
-  z-index: 110;
+  z-index: 35;
   right: 20px;
   bottom: 20px;
   width: min(430px, calc(100vw - 32px));
@@ -63,6 +63,25 @@
   .analytics-consent {
     right: 16px;
     bottom: 78px;
+  }
+}
+
+body:has(.mobile-nav[open]) .analytics-consent {
+  visibility: hidden;
+}
+
+@media (max-height: 480px) {
+  .analytics-consent {
+    position: static;
+    width: auto;
+    margin: 16px;
+  }
+}
+
+@media print {
+  .analytics-consent,
+  .analytics-settings {
+    display: none !important;
   }
 }
 
