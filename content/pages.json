@@ -4,7 +4,7 @@
     "path": "/",
     "title": "TOP 건강백과",
     "metaTitle": "TOP 건강백과 | 영통탑내과의 증상·질환·검사 안내",
-    "description": "TOP 건강백과는 영통탑내과가 운영하는 건강정보 사이트입니다. 증상별 위험 신호, 질환의 이해, 검사 선택과 준비, 내시경·건강검진, 진료시간·주차를 확인하세요. {{clinic.subway}}. 주소 {{clinic.address}}. 전화 {{clinic.phone}}.",
+    "description": "영통탑내과가 운영하는 TOP 건강백과. 증상·질환 정보와 내시경·건강검진 준비, 진료시간·주차 안내를 확인하세요.",
     "template": "home",
     "category": "병원 안내",
     "intro": "TOP 건강백과는 영통탑내과가 운영하는 건강정보 사이트입니다. 증상별 위험 신호, 질환의 이해, 검사 선택과 준비, 내시경·건강검진, 진료시간·주차를 확인하세요. {{clinic.subway}}. 주소 {{clinic.address}}. 전화 {{clinic.phone}}.",
