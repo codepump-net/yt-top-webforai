@@ -39,6 +39,12 @@ const date = z
   .string()
   .regex(/^\d{4}-\d{2}-\d{2}$/)
   .refine((v) => !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0, 10) === v);
+const koreanDate = new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'Asia/Seoul',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+});
 export const pageSchema = z
   .object({
     id: z.string().regex(/^[a-z0-9-]+$/),
@@ -90,6 +96,7 @@ export const pageSchema = z
     risk: z.enum(['operational', 'medical', 'urgent_context_review']),
     publishedAt: z.string().datetime({ offset: true }).nullable(),
     updatedAt: date,
+    modifiedAt: z.iso.datetime({ offset: true }).optional(),
     indexable: z.boolean(),
     reviewStatus: z.enum(['pending', 'approved']),
     contentKind: z.enum(['sanitized-case-summary', 'original-editorial-summary']),
@@ -252,6 +259,12 @@ export function validateContent(
       errors.push(`${page.id}: missing image`);
     if (new Date(page.updatedAt + 'T00:00:00+09:00') > now)
       errors.push(`${page.id}: future modified date`);
+    if (page.modifiedAt) {
+      const modified = new Date(page.modifiedAt);
+      if (modified > now) errors.push(`${page.id}: future modified timestamp`);
+      if (koreanDate.format(modified) !== page.updatedAt)
+        errors.push(`${page.id}: modified timestamp differs from the Korean content date`);
+    }
     if (page.publishedAt && new Date(page.publishedAt) > now)
       errors.push(`${page.id}: future publication`);
     if (page.contentKind === 'sanitized-case-summary' && page.image)

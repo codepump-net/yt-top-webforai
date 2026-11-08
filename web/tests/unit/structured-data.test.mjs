@@ -2,8 +2,8 @@ import { expect, it } from 'vitest';
 import { loadContent } from '../../scripts/data.mjs';
 import { createStructuredData } from '../../src/lib/structured-data.mjs';
 const data = await loadContent();
-const graphFor = (id, base = '/hospital') => {
-  const page = data.pages.find((p) => p.id === id);
+const graphFor = (id, base = '/hospital', overrides = {}) => {
+  const page = { ...data.pages.find((p) => p.id === id), ...overrides };
   return createStructuredData({
     ...data,
     page,
@@ -12,6 +12,36 @@ const graphFor = (id, base = '/hospital') => {
     review: undefined,
   })['@graph'];
 };
+it('emits recorded modification datetimes with timezones on every page and article', () => {
+  for (const page of data.pages.filter((p) => p.id !== 'not-found')) {
+    expect(page.modifiedAt, page.id).toMatch(
+      /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/,
+    );
+    const nodes = graphFor(page.id).filter(
+      (node) => node['@id'].endsWith('#webpage') || node['@type'] === 'Article',
+    );
+    expect(nodes.length, page.id).toBeGreaterThan(0);
+    for (const node of nodes) {
+      expect(node.dateModified, page.id).toBe(page.modifiedAt);
+      expect(node.datePublished, page.id).toBeUndefined();
+    }
+  }
+});
+it('preserves known publication and modification timestamps and their offsets', () => {
+  const dates = {
+    modifiedAt: '2026-09-11T09:30:00+09:00',
+    publishedAt: '2026-09-10T17:15:00Z',
+  };
+  const graph = graphFor('colonoscopy-preparation', '/hospital', dates);
+  for (const node of graph.filter((n) => n.dateModified)) {
+    expect(node.dateModified).toBe(dates.modifiedAt);
+    expect(node.datePublished).toBe(dates.publishedAt);
+  }
+});
+it('omits unknown modification times instead of converting a date into a made-up time', () => {
+  const graph = graphFor('colonoscopy-preparation', '/hospital', { modifiedAt: undefined });
+  expect(graph.some((node) => 'dateModified' in node)).toBe(false);
+});
 it('keeps one hospital identity across article, service and staff graphs', () => {
   for (const p of data.pages.filter((p) => p.id !== 'not-found')) {
     const graph = graphFor(p.id);

@@ -84,6 +84,12 @@ export function createStructuredData({
   const staff = page.id === 'home' || page.id === 'doctors' ? physicians : doctor ? [doctor] : [];
   const personId = (p) => absolute(`/doctors/${p.id}/#person`);
   const parts = [];
+  // Calendar dates stay in the visible content and sitemap. Google datetime
+  // properties use recorded timestamps only; never invent a time for a date.
+  const dates = {
+    ...(page.modifiedAt ? { dateModified: page.modifiedAt } : {}),
+    ...(page.publishedAt ? { datePublished: page.publishedAt } : {}),
+  };
   const pageNode = {
     '@type': doctor
       ? 'ProfilePage'
@@ -102,8 +108,7 @@ export function createStructuredData({
     isPartOf: ref(siteId),
     publisher: ref(clinicId),
     breadcrumb: ref(pageUrl + '#breadcrumb'),
-    dateModified: page.updatedAt,
-    ...(page.publishedAt ? { datePublished: page.publishedAt } : {}),
+    ...dates,
     citation: page.sources.map((s) => s.url),
     relatedLink: page.related
       .slice(0, 6)
@@ -302,8 +307,7 @@ export function createStructuredData({
       url: pageUrl,
       mainEntityOfPage: ref(pageId),
       publisher: ref(clinicId),
-      dateModified: page.updatedAt,
-      ...(page.publishedAt ? { datePublished: page.publishedAt } : {}),
+      ...dates,
       citation: page.sources.map((s) => s.url),
     });
     pageNode.mainEntity = ref(articleId);

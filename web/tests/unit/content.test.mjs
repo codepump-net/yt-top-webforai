@@ -37,10 +37,39 @@ describe('Content and release contract', () => {
     pages[0].publishedAt = '2099-01-01T00:00:00+09:00';
     expect(validateContent(pages, data).some((e) => e.includes('future publication'))).toBe(true);
   });
+  it.each(['2026-11-07', '2026-11-07T22:07:11', '2026-02-30T22:07:11+09:00'])(
+    'rejects an invalid modification datetime: %s',
+    (modifiedAt) => {
+      const pages = structuredClone(data.pages);
+      pages[0].modifiedAt = modifiedAt;
+      expect(validateContent(pages, data).join(' ')).toMatch(/modifiedAt/);
+    },
+  );
+  it('rejects future modification timestamps even when the calendar date has begun', () => {
+    const pages = structuredClone(data.pages);
+    pages[0].modifiedAt = pages[0].updatedAt + 'T23:59:59+09:00';
+    expect(
+      validateContent(pages, {
+        ...data,
+        now: new Date(pages[0].updatedAt + 'T23:30:00+09:00'),
+      }),
+    ).toContain('home: future modified timestamp');
+  });
+  it('compares modification timestamps with the content date in Korean time', () => {
+    const pages = structuredClone(data.pages);
+    pages[0].updatedAt = '2026-09-26';
+    pages[0].modifiedAt = '2026-09-25T15:30:00Z';
+    expect(validateContent(pages, data)).toEqual([]);
+    pages[0].modifiedAt = '2026-09-25T14:59:59Z';
+    expect(validateContent(pages, data)).toContain(
+      'home: modified timestamp differs from the Korean content date',
+    );
+  });
   it('compares calendar dates in Korean time at the UTC day boundary', () => {
     const pages = data.pages.map((p) => ({
       ...p,
       updatedAt: '2026-09-25',
+      modifiedAt: undefined,
       sources: p.sources.map((s) => ({
         ...s,
         ...(p.template === 'notice-guide' ? { checkedAt: '2026-09-25' } : {}),
@@ -105,6 +134,7 @@ describe('Content and release contract', () => {
       related: [],
       reviewStatus: 'approved',
       updatedAt: '2026-09-11',
+      modifiedAt: undefined,
     };
     for (const item of [...p.blocks, ...p.questions]) item.links = [];
     const { operationsReview: ignored, ...facts } = data.clinic;

@@ -43,6 +43,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T23:01:24+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -69,6 +70,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": false,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -131,6 +133,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -157,6 +160,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": false,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -225,6 +229,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -335,6 +340,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -479,6 +485,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -602,6 +609,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -753,6 +761,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -869,6 +878,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -968,6 +978,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -1011,6 +1022,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -1139,6 +1151,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -1254,6 +1267,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1456,6 +1470,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1486,6 +1501,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1539,6 +1555,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1569,6 +1586,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1689,6 +1707,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1730,6 +1749,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -1923,6 +1943,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2108,6 +2129,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2279,6 +2301,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2431,6 +2454,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2467,6 +2491,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2510,6 +2535,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:21:13+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2541,6 +2567,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": false,
     "reviewStatus": "pending",
     "contentKind": "original-editorial-summary"
@@ -2598,6 +2625,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2749,6 +2777,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -2862,6 +2891,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3023,6 +3053,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3171,6 +3202,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3296,6 +3328,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3408,6 +3441,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3624,6 +3658,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3740,6 +3775,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3896,6 +3932,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -3994,6 +4031,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4167,6 +4205,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4259,6 +4298,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4365,6 +4405,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4458,6 +4499,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4565,6 +4607,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4597,6 +4640,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4665,6 +4709,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -4907,6 +4952,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -5062,6 +5108,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -5157,6 +5204,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -5539,6 +5587,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -5668,6 +5717,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -5772,6 +5822,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6196,6 +6247,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6351,6 +6403,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6567,6 +6620,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6672,6 +6726,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6816,6 +6871,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -6922,6 +6978,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7052,6 +7109,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7143,6 +7201,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -7359,6 +7418,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7434,6 +7494,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7564,6 +7625,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7678,6 +7740,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7755,6 +7818,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7837,6 +7901,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7964,6 +8029,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -8033,6 +8099,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -8104,6 +8171,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -8175,6 +8243,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -8246,6 +8315,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -8317,6 +8387,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -8348,6 +8419,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -8380,6 +8452,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -8406,6 +8479,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -8599,6 +8673,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -8800,6 +8875,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -8995,6 +9071,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -9198,6 +9275,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -9393,6 +9471,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -9604,6 +9683,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -9810,6 +9890,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -10004,6 +10085,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -10197,6 +10279,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -10396,6 +10479,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -10627,6 +10711,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -10820,6 +10905,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -11015,6 +11101,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -11210,6 +11297,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -11407,6 +11495,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -11599,6 +11688,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -11793,6 +11883,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -11988,6 +12079,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -12181,6 +12273,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -12379,6 +12472,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -12439,6 +12533,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -12523,6 +12618,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -12603,6 +12699,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -12680,6 +12777,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -12753,6 +12851,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -12804,6 +12903,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -12889,6 +12989,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -12971,6 +13072,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13056,6 +13158,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -13120,6 +13223,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-11-07",
+    "modifiedAt": "2026-11-07T22:07:11+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -13202,6 +13306,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -13276,6 +13381,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13345,6 +13451,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -13445,6 +13552,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -13519,6 +13627,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13595,6 +13704,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13661,6 +13771,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13737,6 +13848,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13813,6 +13925,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13889,6 +14002,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -13964,6 +14078,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14039,6 +14154,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14114,6 +14230,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14180,6 +14297,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14256,6 +14374,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14323,6 +14442,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14400,6 +14520,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14475,6 +14596,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14551,6 +14673,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14617,6 +14740,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14683,6 +14807,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14757,6 +14882,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14824,6 +14950,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14899,6 +15026,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary",
@@ -14946,6 +15074,7 @@
     "risk": "operational",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -14993,6 +15122,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -15040,6 +15170,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -15153,6 +15284,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -15207,6 +15339,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -15261,6 +15394,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -15323,6 +15457,7 @@
     "risk": "medical",
     "publishedAt": null,
     "updatedAt": "2026-10-15",
+    "modifiedAt": "2026-10-15T22:30:10+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"

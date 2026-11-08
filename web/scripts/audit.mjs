@@ -2,12 +2,14 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { gzipSync } from 'node:zlib';
 import { load } from 'cheerio';
+import { z } from 'zod';
 import { publicTextErrors, nonPublicArtifact } from './public-content-policy.mjs';
 import siteIdentity from '../../content/site.json' with { type: 'json' };
 const manifest = JSON.parse(await fs.readFile('reports/build-manifest.json', 'utf8'));
 const errors = [];
 const titles = new Set();
 const reports = [];
+const schemaDateTime = z.iso.datetime({ offset: true });
 let publicFilesChecked = 0;
 for (const file of await fs.readdir('out', { recursive: true })) {
   if (nonPublicArtifact(file)) errors.push(`${file}: internal artifact in public export`);
@@ -42,7 +44,9 @@ for (const route of manifest.routes) {
   const html = await fs.readFile('out/' + route.file, 'utf8');
   const $ = load(html);
   if ($('.analytics-consent,.analytics-settings,[aria-label="방문 통계 설정"]').length)
-    errors.push(`${route.path}: internal analytics must not add visitor prompts or settings controls`);
+    errors.push(
+      `${route.path}: internal analytics must not add visitor prompts or settings controls`,
+    );
   const title = $('title').text();
   if (!title || titles.has(title)) errors.push(`${route.path}: missing/duplicate title`);
   titles.add(title);
@@ -126,6 +130,12 @@ for (const route of manifest.routes) {
       );
       if (pageNode?.inLanguage !== (route.language ?? 'ko'))
         errors.push(`${route.path}: schema language`);
+      for (const node of graph)
+        for (const field of ['dateModified', 'datePublished'])
+          if (node[field] !== undefined && !schemaDateTime.safeParse(node[field]).success)
+            errors.push(
+              `${route.path}: ${node['@type']}.${field} must be an ISO 8601 datetime with a timezone`,
+            );
       if (
         clinic?.['@id'] !== 'https://yttop.co.kr/#clinic' ||
         clinic?.url !== 'https://yttop.co.kr/'
