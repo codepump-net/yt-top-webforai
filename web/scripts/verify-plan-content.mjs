@@ -57,7 +57,7 @@ const report = {
   infectionGuideSource: document
     ? { pdf: document.pdf, sha256: document.sha256, pageCount: document.pageCount }
     : null,
-  acceptanceRecord: 'docs/plan-content-checklist-2026-09-29/infection-resolution.ko.md',
+  acceptanceRecord: 'docs/client-requests/plan-content-checklist-2026-09-29/infection-resolution.ko.md',
   errors,
 };
 await fs.mkdir('reports', { recursive: true });

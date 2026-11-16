@@ -5,11 +5,17 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
-const evidence = path.join(root, 'docs/logo-correction-2026-10-01');
+const evidence = path.join(root, 'docs/client-requests/logo-correction-2026-10-01');
 const apply = process.argv.includes('--apply');
 const digest = (b) => crypto.createHash('sha256').update(b).digest('hex');
-const load = async (p) => JSON.parse(await fs.readFile(path.join(root, p), 'utf8'));
-const audit = await load('docs/logo-audit-2026-10-01/findings.json');
+// Preserve archived evidence bytes while resolving paths after the docs move.
+const archivedPath = (value) =>
+  typeof value === 'string'
+    ? value.replace(/^docs\/([^/]*\d{4}-\d{2}-\d{2}[^/]*)(?=\/|$)/, 'docs/client-requests/$1')
+    : value;
+const load = async (p) =>
+  JSON.parse(await fs.readFile(path.join(root, p), 'utf8'), (_key, value) => archivedPath(value));
+const audit = await load('docs/client-requests/logo-audit-2026-10-01/findings.json');
 const assets = await load('content/assets.json');
 const reference = assets.find((a) => a.id === 'logo');
 const logo = await fs.readFile(path.join(root, 'web/public' + reference.file));
@@ -26,7 +32,7 @@ const records = [];
 
 async function correct({ id, sourceFile, originalHash, historical = false }) {
   const basename = path.basename(sourceFile);
-  const beforeFile = `docs/logo-correction-2026-10-01/before/${historical ? 'historical' : 'current'}/${basename}`;
+  const beforeFile = `docs/client-requests/logo-correction-2026-10-01/before/${historical ? 'historical' : 'current'}/${basename}`;
   const beforePath = path.join(root, beforeFile);
   let input;
   try {
@@ -126,7 +132,7 @@ async function correct({ id, sourceFile, originalHash, historical = false }) {
   const outputFile = historical
     ? `assets/corrected-logo-2026-10-01/historical/${basename}`
     : sourceFile;
-  const previewFile = `docs/logo-correction-2026-10-01/after/${historical ? 'historical-' : ''}${basename}`;
+  const previewFile = `docs/client-requests/logo-correction-2026-10-01/after/${historical ? 'historical-' : ''}${basename}`;
   await fs.writeFile(path.join(root, previewFile), output);
   await sharp(output)
     .extract(cleanup)

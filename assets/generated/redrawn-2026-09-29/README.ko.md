@@ -10,11 +10,11 @@
 - [프롬프트 기록](prompts.json)에 17개 입력과 암환자·증상백과 배너의 수정 입력을 보관했다. 암환자 그림은 외래 상담 장면이며 실제 환자·의료진의 사진이 아니다.
 - 안내도의 문구는 `content/visuals.json`, 예방접종 9행은 `content/pages.json`의 현재 HTML 안내와 대조했다. 의료 승인이나 새로운 임상 검토를 받았다고 표시하지 않는다.
 
-검사·전후 비교는 [작업 결과](../../../docs/plan-content-checklist-2026-09-29/redrawn-images.ko.md)와 [17개 파일 기록](../../../docs/plan-content-checklist-2026-09-29/redraw-evidence/assets.json)에 있다.
+검사·전후 비교는 [작업 결과](../../../docs/client-requests/plan-content-checklist-2026-09-29/redrawn-images.ko.md)와 [17개 파일 기록](../../../docs/client-requests/plan-content-checklist-2026-09-29/redraw-evidence/assets.json)에 있다.
 
 ## 정확성 후속 수정
 
-17개를 OCR·직접 열람·공식 자료와 대조하고 검사·시술, 만성질환, 예방접종 배너 및 접종 일정표 4개를 다시 생성했다. `prompts.json`의 `accuracyEdits`에 입력과 결과 해시를 남겼다. [최신 정확성 검토](../../../docs/plan-content-checklist-2026-09-29/image-accuracy.ko.md)와 [현재 17개 파일 기록](../../../docs/plan-content-checklist-2026-09-29/accuracy-evidence/assets.json)을 확인한다.
+17개를 OCR·직접 열람·공식 자료와 대조하고 검사·시술, 만성질환, 예방접종 배너 및 접종 일정표 4개를 다시 생성했다. `prompts.json`의 `accuracyEdits`에 입력과 결과 해시를 남겼다. [최신 정확성 검토](../../../docs/client-requests/plan-content-checklist-2026-09-29/image-accuracy.ko.md)와 [현재 17개 파일 기록](../../../docs/client-requests/plan-content-checklist-2026-09-29/accuracy-evidence/assets.json)을 확인한다.
 
 ## 공식 로고 합성 수정
 
@@ -23,5 +23,5 @@
 - 현재 PNG 17개와 공개 파일을 함께 갱신했다. 두 파일의 바이트는 동일하다.
 - 파일명의 `hq-original`은 현재 저장 마스터를 가리킨다. 합성 후 파일을 원래 image_gen 출력의 미수정 바이트라고 설명하지 않는다.
 - 과거 검수 전 PNG 4개의 수정판은 `assets/corrected-logo-2026-10-01/historical/`에 보관한다. 과거 검증 증거 원본은 유지한다.
-- 현재 파일 해시·교체 좌표·전후 픽셀 검증은 [공식 로고 수정 기록](../../../docs/logo-correction-2026-10-01/corrections.json)에 있다. 9월 29일의 파일 원장은 당시 상태를 기록한 이력이다.
+- 현재 파일 해시·교체 좌표·전후 픽셀 검증은 [공식 로고 수정 기록](../../../docs/client-requests/logo-correction-2026-10-01/corrections.json)에 있다. 9월 29일의 파일 원장은 당시 상태를 기록한 이력이다.
 - 재현은 `web/scripts/apply-official-logo.mjs --apply`를 실행한다. 기본 실행은 검토용 수정판만 생성한다.

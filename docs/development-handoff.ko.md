@@ -1,8 +1,10 @@
 # 영통탑내과 정적 홈페이지 개발·운영 인수 문서
 
-작성일: 2026-09-11. 실제 구현의 기준 문서입니다. 사전 개발 계획과 다른 점은 이 문서와 코드가 우선합니다. 공개 콘텐츠는 [환자용 기준](patient-content-policy.ko.md)과 [전수 정리 결과](content-audit-2026-09-11/README.md)를 따릅니다. 사이트는 기존 `yttop.co.kr`과 함께 운영하는 병원 홈페이지입니다.
+> 2026-11-16 현행 안내: [문서 색인](README.md), [현재 아키텍처](architecture/system.ko.md), [개발·검사](development/testing.ko.md), [운영 런북](operations/runbook.ko.md), [기능별 명세](features/README.md)를 먼저 읽는다. 아래는 여러 시점의 인수·작업 기록을 보존한 문서다. 45개 경로·과거 도메인·`PUBLICATION_MODE` 선택 등 당시 설명을 현재 설정으로 사용하지 않는다. 현재 원장 135개·색인 후보 132개이며 main은 production 검증을 수행한다. 실제 배포 상태는 해당 실행의 증거로 확인한다.
 
-최신 변경: [검색 공개 전환·구조화 데이터 확장](production-release-2026-09-11/README.ko.md). 사용자가 의료·운영 검토 완료와 검색 공개를 명시적으로 확인했습니다. 현재 원고와 렌더러에 연결된 공개 확인 기록을 검사하고 main을 production으로 빌드합니다. [이전 AEO·GEO 개선](aeo-geo-improvement-results-2026-09-11/README.md)은 공개 전환 전의 이력입니다.
+작성일: 2026-09-11. 실제 구현의 기준 문서입니다. 사전 개발 계획과 다른 점은 이 문서와 코드가 우선합니다. 공개 콘텐츠는 [환자용 기준](patient-content-policy.ko.md)과 [전수 정리 결과](client-requests/content-audit-2026-09-11/README.md)를 따릅니다. 사이트는 기존 `yttop.co.kr`과 함께 운영하는 병원 홈페이지입니다.
+
+최신 변경: [검색 공개 전환·구조화 데이터 확장](client-requests/production-release-2026-09-11/README.ko.md). 사용자가 의료·운영 검토 완료와 검색 공개를 명시적으로 확인했습니다. 현재 원고와 렌더러에 연결된 공개 확인 기록을 검사하고 main을 production으로 빌드합니다. [이전 AEO·GEO 개선](client-requests/aeo-geo-improvement-results-2026-09-11/README.md)은 공개 전환 전의 이력입니다.
 
 ## 구현 결과
 
@@ -157,7 +159,7 @@ npm run measure -- .local/observations.json
 
 개인정보 처리 안내만 실제 통계 처리에 맞게 갱신했다. 의료 본문·진료 사실·기존 의료 출처·의료 검토 상태는 바꾸지 않았으며 기존 공개 확인의 시각·기간·범위는 유지한다. 승인된 운영·기술 변경에 대한 digest만 갱신하고 새 의료 승인이나 검토자를 만들지 않았다. 통계 확인은 운영자의 Google Analytics 계정에서 수행하며 개발·분석 보고서는 공개 웹 출력에 포함하지 않는다. 설치 검증 방문은 실제 환자 방문 성과와 구분한다. 배포와 전체 검증은 최종 변경의 GitHub Actions 실행에서 확인한다.
 
-[전체 작업과 후속 운영 기준](seo-improvement-2026-11-07/action-plan.json)은 내부 자료이며 웹 출력에 포함하지 않는다. 사용자는 기존 홈페이지 편집 권한이 없으므로 기존 홈페이지 링크 추가는 작업 범위에서 제외했다. 과거 준비한 링크 HTML은 참고 이력이며 후속 필수 작업이 아니다. 실제 검색 노출·클릭·색인 수의 증가는 후속 Search Console 관측으로 확인한다.
+[전체 작업과 후속 운영 기준](client-requests/seo-improvement-2026-11-07/action-plan.json)은 내부 자료이며 웹 출력에 포함하지 않는다. 사용자는 기존 홈페이지 편집 권한이 없으므로 기존 홈페이지 링크 추가는 작업 범위에서 제외했다. 과거 준비한 링크 HTML은 참고 이력이며 후속 필수 작업이 아니다. 실제 검색 노출·클릭·색인 수의 증가는 후속 Search Console 관측으로 확인한다.
 
 최종 사이트 커밋 `0e1482ba90e51d8ce8c4f874b60ee503bc5d0eb0`의 [배포 실행 42376575041](https://github.com/codepump-net/yt-top-webforai/actions/runs/42376575041)이 성공했다. 루트·프로젝트 경로 각각 단위 검사 100개, Python 하네스 17개, 브라우저 검사 72개와 콘텐츠·접근성·성능 검사를 통과했고 운영 사이트 135개 경로를 검증했다. 운영 사이트의 독립 브라우저 설치 검사에서는 통계 UI 0개, GA 쿠키 없음, 컨테이너 한 번 로드, `page_view` 수집 서버 HTTP 204를 확인했다.
 

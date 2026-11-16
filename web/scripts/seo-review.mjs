@@ -6,7 +6,7 @@ import { load } from 'cheerio';
 import { gzipSync } from 'node:zlib';
 import { loadContent } from './data.mjs';
 import { sha256 } from './content-contract.mjs';
-const folder = process.argv[2] ?? '../docs/seo-aeo-geo-review-2026-09-11';
+const folder = process.argv[2] ?? '../docs/client-requests/seo-aeo-geo-review-2026-09-11';
 if (!path.resolve(folder).startsWith(path.resolve('../docs') + path.sep))
   throw new Error('Audit reports must stay in docs');
 await fs.mkdir(folder, { recursive: true });

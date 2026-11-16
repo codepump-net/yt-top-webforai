@@ -2,7 +2,10 @@ import { test, expect } from '@playwright/test';
 import fs from 'node:fs';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 const coverage = JSON.parse(
-  fs.readFileSync('../docs/aeo-geo-improvement-results-2026-09-11/question-coverage.json', 'utf8'),
+  fs.readFileSync(
+    '../docs/client-requests/aeo-geo-improvement-results-2026-09-11/question-coverage.json',
+    'utf8',
+  ),
 );
 const url = (p: string) => `http://127.0.0.1:3000${manifest.basePath}${p}`;
 test('research-derived questions, evidence and contextual links are usable without JavaScript', async ({

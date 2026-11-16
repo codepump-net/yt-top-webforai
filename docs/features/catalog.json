@@ -1,0 +1,98 @@
+[
+  {
+    "id": "F01",
+    "title": "홈·환자 목적 진입",
+    "status": "implemented",
+    "document": "f01-home.ko.md"
+  },
+  {
+    "id": "F02",
+    "title": "공통 탐색·사이트맵",
+    "status": "implemented",
+    "document": "f02-navigation.ko.md"
+  },
+  {
+    "id": "F03",
+    "title": "증상·질환·준비 허브",
+    "status": "implemented",
+    "document": "f03-directories.ko.md"
+  },
+  {
+    "id": "F04",
+    "title": "환자 안내·질문·출처 읽기",
+    "status": "implemented",
+    "document": "f04-patient-articles.ko.md"
+  },
+  {
+    "id": "F05",
+    "title": "병원·의료진·공식 채널",
+    "status": "implemented",
+    "document": "f05-clinic-physicians.ko.md"
+  },
+  {
+    "id": "F06",
+    "title": "진료분야·검사·지지치료",
+    "status": "implemented",
+    "document": "f06-care-services.ko.md"
+  },
+  {
+    "id": "F07",
+    "title": "검진·서류·비자 번역",
+    "status": "implemented",
+    "document": "f07-checkups-languages.ko.md"
+  },
+  {
+    "id": "F08",
+    "title": "방문·전화·지도·비용 문의",
+    "status": "implemented",
+    "document": "f08-visit-contact.ko.md"
+  },
+  {
+    "id": "F09",
+    "title": "사이트 검색·검색 개인정보",
+    "status": "implemented",
+    "document": "f09-search.ko.md"
+  },
+  {
+    "id": "F10",
+    "title": "공지·기간·공식 문서",
+    "status": "implemented",
+    "document": "f10-notices-documents.ko.md"
+  },
+  {
+    "id": "F11",
+    "title": "이미지·도해·확대",
+    "status": "implemented",
+    "document": "f11-visual-assets.ko.md"
+  },
+  {
+    "id": "F12",
+    "title": "이용정책·사례 연결·오류 복구",
+    "status": "implemented",
+    "document": "f12-policies-errors.ko.md"
+  },
+  {
+    "id": "F13",
+    "title": "검색 발견·메타·구조화 데이터",
+    "status": "implemented",
+    "document": "f13-seo-discovery.ko.md"
+  },
+  {
+    "id": "F14",
+    "title": "콘텐츠 검증·출판·배포",
+    "status": "implemented",
+    "document": "f14-publication-release.ko.md"
+  },
+  {
+    "id": "F15",
+    "title": "운영 측정·AI 관측",
+    "status": "limited",
+    "document": "f15-measurement.ko.md"
+  },
+  {
+    "id": "F16",
+    "title": "운영자 대시보드",
+    "status": "planned",
+    "document": "f16-admin-dashboard.ko.md"
+  }
+]

@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "scope": "Repository configuration only; not live deployment, approval, indexing or search performance evidence.",
+  "sourceDigest": "f77c1f3c002857b504b8a88f03bc506b8962f45a547276928c6cafd809896183",
+  "sourceFiles": [
+    "content/pages.json",
+    "content/page-intents.json",
+    "content/physicians.json",
+    "content/assets.json",
+    "content/case-links.json",
+    "content/notices.json",
+    "content/official-channels.json",
+    "content/reviews.json",
+    "content/visuals.json",
+    "content/measurement-queries.json",
+    "content/measurement-conversations.json",
+    "web/package.json",
+    "web/src/lib/information-architecture.mjs",
+    "content/encyclopedia-categories.json",
+    "docs/features/catalog.json",
+    "docs/tools/update-inventory.mjs"
+  ],
+  "runtime": {
+    "node": ">=24 <25",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "typescriptDeclaredRange": "^5.9.0",
+    "tailwindcss": "4.3.3"
+  },
+  "routes": {
+    "total": 135,
+    "intendedIndexable": 132,
+    "notIndexable": [
+      "/404.html",
+      "/cases/",
+      "/search/"
+    ],
+    "patientIntents": 135,
+    "byLanguage": {
+      "en": 1,
+      "ko": 130,
+      "ne": 1,
+      "ru": 1,
+      "th": 1,
+      "zh-Hans": 1
+    },
+    "byTemplate": {
+      "about": 1,
+      "article-detail": 56,
+      "article-index": 4,
+      "case-index": 1,
+      "checkup-detail": 12,
+      "checkup-index": 1,
+      "condition-detail": 19,
+      "condition-index": 4,
+      "fees": 1,
+      "home": 1,
+      "not-found": 1,
+      "notice-guide": 6,
+      "notice-index": 1,
+      "physician-detail": 2,
+      "physician-index": 1,
+      "policy": 1,
+      "search": 1,
+      "service-detail": 15,
+      "service-hub": 3,
+      "service-index": 1,
+      "sitemap": 1,
+      "utility-detail": 1,
+      "visit": 1
+    },
+    "allRoutesByNavigationSection": {
+      "about": 12,
+      "cancer-support": 3,
+      "checkups": 14,
+      "conditions": 22,
+      "diseases": 27,
+      "notices": 7,
+      "services": 26,
+      "symptoms": 24
+    }
+  },
+  "content": {
+    "physicians": 2,
+    "registeredAssets": 38,
+    "originalCaseLinks": 25,
+    "patientNotices": 6,
+    "officialChannels": 3,
+    "namedReviewRecords": 0,
+    "configuredBanners": 12,
+    "configuredDiagrams": 4,
+    "measurementQuestions": 73,
+    "conversationScenarios": 13,
+    "conversationTurns": 39
+  },
+  "features": [
+    {
+      "id": "F01",
+      "title": "홈·환자 목적 진입",
+      "status": "implemented",
+      "document": "f01-home.ko.md",
+      "primaryRouteCount": 1
+    },
+    {
+      "id": "F02",
+      "title": "공통 탐색·사이트맵",
+      "status": "implemented",
+      "document": "f02-navigation.ko.md",
+      "primaryRouteCount": 1
+    },
+    {
+      "id": "F03",
+      "title": "증상·질환·준비 허브",
+      "status": "implemented",
+      "document": "f03-directories.ko.md",
+      "primaryRouteCount": 4
+    },
+    {
+      "id": "F04",
+      "title": "환자 안내·질문·출처 읽기",
+      "status": "implemented",
+      "document": "f04-patient-articles.ko.md",
+      "primaryRouteCount": 56
+    },
+    {
+      "id": "F05",
+      "title": "병원·의료진·공식 채널",
+      "status": "implemented",
+      "document": "f05-clinic-physicians.ko.md",
+      "primaryRouteCount": 4
+    },
+    {
+      "id": "F06",
+      "title": "진료분야·검사·지지치료",
+      "status": "implemented",
+      "document": "f06-care-services.ko.md",
+      "primaryRouteCount": 42
+    },
+    {
+      "id": "F07",
+      "title": "검진·서류·비자 번역",
+      "status": "implemented",
+      "document": "f07-checkups-languages.ko.md",
+      "primaryRouteCount": 13
+    },
+    {
+      "id": "F08",
+      "title": "방문·전화·지도·비용 문의",
+      "status": "implemented",
+      "document": "f08-visit-contact.ko.md",
+      "primaryRouteCount": 2
+    },
+    {
+      "id": "F09",
+      "title": "사이트 검색·검색 개인정보",
+      "status": "implemented",
+      "document": "f09-search.ko.md",
+      "primaryRouteCount": 1
+    },
+    {
+      "id": "F10",
+      "title": "공지·기간·공식 문서",
+      "status": "implemented",
+      "document": "f10-notices-documents.ko.md",
+      "primaryRouteCount": 7
+    },
+    {
+      "id": "F11",
+      "title": "이미지·도해·확대",
+      "status": "implemented",
+      "document": "f11-visual-assets.ko.md",
+      "primaryRouteCount": 0
+    },
+    {
+      "id": "F12",
+      "title": "이용정책·사례 연결·오류 복구",
+      "status": "implemented",
+      "document": "f12-policies-errors.ko.md",
+      "primaryRouteCount": 4
+    },
+    {
+      "id": "F13",
+      "title": "검색 발견·메타·구조화 데이터",
+      "status": "implemented",
+      "document": "f13-seo-discovery.ko.md",
+      "primaryRouteCount": 0
+    },
+    {
+      "id": "F14",
+      "title": "콘텐츠 검증·출판·배포",
+      "status": "implemented",
+      "document": "f14-publication-release.ko.md",
+      "primaryRouteCount": 0
+    },
+    {
+      "id": "F15",
+      "title": "운영 측정·AI 관측",
+      "status": "limited",
+      "document": "f15-measurement.ko.md",
+      "primaryRouteCount": 0
+    },
+    {
+      "id": "F16",
+      "title": "운영자 대시보드",
+      "status": "planned",
+      "document": "f16-admin-dashboard.ko.md",
+      "primaryRouteCount": 0
+    }
+  ]
+}

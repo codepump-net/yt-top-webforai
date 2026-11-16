@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import fs from 'node:fs';
 const manifest = JSON.parse(fs.readFileSync('reports/build-manifest.json', 'utf8'));
 const retired = JSON.parse(
-  fs.readFileSync('../docs/content-audit-2026-09-11/retired-pages.json', 'utf8'),
+  fs.readFileSync('../docs/client-requests/content-audit-2026-09-11/retired-pages.json', 'utf8'),
 );
 const url = (route: string) => `http://127.0.0.1:3000${manifest.basePath}${route}`;
 

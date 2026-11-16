@@ -1,27 +1,39 @@
 ﻿# yt-top-webforai
 
-기존 `yttop.co.kr`과 함께 운영할 **환자용 영통탑내과 병원 홈페이지**의 React 정적 사이트 구현 저장소입니다. 병원 소개·진료·검사·방문 안내를 환자와 AI 모델이 이해하기 쉽게 구성하며, 조사·개발 보고서는 사이트에 게시하지 않습니다.
+기존 `yttop.co.kr`과 함께 운영하는 **영통탑내과 운영 TOP 건강백과**의 React 정적 사이트 구현 저장소입니다. 병원 소개·진료·검사·방문 안내를 환자와 AI 모델이 이해하기 쉽게 구성하며, 조사·개발 보고서는 사이트에 게시하지 않습니다.
 
-- **[2026-11-07 검색 발견·클릭 개선과 GA4 연결 작업](docs/seo-improvement-2026-11-07/action-plan.json)** — 홈의 준비·방문 안내 12개 직접 연결, 검색 메타데이터·이미지·다국어 사이트맵, 정적 링크 감사와 방문자 UI 없는 쿠키 없는 측정. 계정·기존 홈페이지에서 할 후속 작업과 측정 기준 포함.
+## 현행 개발·운영 문서
 
-- **[2026-10-16 AEO GEO 운영 대시보드 상세 개발계획](docs/aeo-geo-operations-plan-2026-10-16/README.ko.md)** — 무료 운영을 우선한 관리 앱·수집기 구성, 데이터 계약, 개발 작업과 배포·운영 기준. 계획 단계.
-- **[2026-10-15 검색 공개와 SEO 수정](docs/seo-release-2026-10-15/README.ko.md)** — 9개 페이지 검색 메타데이터, production 배포 설정과 검색 공개 검증 보완. 현행 132개 페이지의 의료·운영 확인을 받아 검색 공개 전환 진행.
-- **[2026-10-15 검색 미노출 원인 진단](docs/seo-indexing-review-2026-10-15/README.ko.md)** — 실제 135개 경로의 noindex, 빈 사이트맵과 검토 모드 배포를 확인.
+- **[전체 문서 안내](docs/README.md)** — 2026-11-16 코드 기준 목표·사이트맵·아키텍처·디자인·SEO·개발·운영 구조.
+- **[기능별 개발 명세 16개](docs/features/README.md)** — 현재 동작·수정 접점·완료 조건·관련 검사와 확장 후보.
+- **[pwd-2026-2 Lecture 09 참고자료](docs/lectures/pwd-2026-2/lecture-09/README.ko.md)** — 프로젝트 분석·기능 명세 실습·제출물·평가 제안.
+- **[135개 경로와 담당 기능](docs/product/route-catalog.csv)** · [다음 개발 백로그](docs/roadmap/backlog.ko.md).
+- **[의뢰자 요청 자료](docs/client-requests/README.md)** — 날짜별 요청 폴더 26개와 요청별 검토·반영 자료.
 
-- **[2026-09-27 블로그 미반영사항 통합반영안 적용](docs/integrated-update-2026-09-27/README.ko.md)** — 진료분야 8개, 하위 안내 14개 추가, 홈 검색·단일 목차·예방접종 표·사례 제외. 총 108개 경로를 [작업 의도 확인 후 review 모드로 배포](docs/integrated-update-2026-09-27/deployment.ko.md)하고 실제 페이지 검증 완료.
-- **[2026-09-26 심장·혈관 20편 및 홈페이지 업데이트](docs/director-content-review-2026-09-26/implementation.ko.md)** — 당시 영문 URL로 총 94개 경로 구현. 검사 정보·공통 안내·백과 분류 개선, 2026-09-27 검토 모드 배포 완료.
-- **[2026-09-25 세션 작업 요약·배포 결과](docs/patient-navigation-2026-09-25/session-summary.ko.md)** — 74개 경로 배포와 실제 사이트 검증 완료. 메뉴·목차 개편, 출처·오타 교정 및 후속 확인 사항.
-- **[2026-09-25 환자 목적별 메뉴·화면 개편](docs/patient-navigation-2026-09-25/README.ko.md)** — 7개 메뉴, 4개 진입로, 좌측 목차와 두 백과 탐색. 별도 220편 원고 연결은 원고 위치 확인 후 진행합니다.
-- **[2026-09-25 원장님 원고 기반 개편](docs/director-content-review-2026-09-25/implementation.ko.md)** — 당시 개발 범위 71개 경로, 한국어 안내 21개·번역 5개 추가. 새 편집본은 검토용이며 기존 공개 승인과 분리합니다.
+## 의뢰자 요청별 작업·배포 기록
 
-- **[검색 공개 전환·구조화 데이터 확장](docs/production-release-2026-09-11/README.ko.md)** — 사용자 확인에 따른 production 공개, 43개 색인 대상, 82개 질문·답변과 의료진·검사·서비스 연결
-- **[실제 배포 사이트 3곳 비교](docs/seo-aeo-geo-comparison-2026-09-11/README.ko.md)** — 공개 전환 전의 HTTP·모바일 성능·콘텐츠 비교 근거
+아래 기록의 페이지 수·배포 모드는 해당 시점의 이력입니다. 현행 기준은 위 문서와 현재 코드·원장을 확인합니다.
 
-- **[AEO·GEO 개선 실행 계획](docs/aeo-geo-improvement-plan-2026-09-11/README.md)** — 기존 Q&A 조사 후보 13개 활용, 당시 45개 경로 개선, 병원 확인·구현·배포·레퍼런스 비교 기준
-- **[AEO·GEO 개선 반영·전후 비교](docs/aeo-geo-improvement-results-2026-09-11/README.md)** — 의료 상세 25개 보강, 조사 질문 13개 반영, 근거·공통 사실·검증 및 남은 공개 조건
-- **[최종 SEO·AEO·GEO 비교 검토](docs/seo-aeo-geo-review-2026-09-11/README.md)** — 기존 3개 사례와 기술·답변·근거·공개 상태 비교, 남은 개선 우선순위
+- **[2026-11-07 검색 발견·클릭 개선과 GA4 연결 작업](docs/client-requests/seo-improvement-2026-11-07/action-plan.json)** — 홈의 준비·방문 안내 12개 직접 연결, 검색 메타데이터·이미지·다국어 사이트맵, 정적 링크 감사와 방문자 UI 없는 쿠키 없는 측정. 계정에서 확인할 측정 기준과 원 사이트 수정의 범위 제외 기록 포함.
 
-- **[환자용 콘텐츠 전수 정리](docs/content-audit-2026-09-11/README.md)** — 기존 76개 경로 검토, 당시 45개 경로, 사례 원문 25개 연결, 기존 공지 채널 유지
+- **[2026-10-16 AEO GEO 운영 대시보드 상세 개발계획](docs/client-requests/aeo-geo-operations-plan-2026-10-16/README.ko.md)** — 무료 운영을 우선한 관리 앱·수집기 구성, 데이터 계약, 개발 작업과 배포·운영 기준. 계획 단계.
+- **[2026-10-15 검색 공개와 SEO 수정](docs/client-requests/seo-release-2026-10-15/README.ko.md)** — 9개 페이지 검색 메타데이터, production 배포 설정과 검색 공개 검증 보완. 현행 132개 페이지의 의료·운영 확인을 받아 검색 공개 전환 진행.
+- **[2026-10-15 검색 미노출 원인 진단](docs/client-requests/seo-indexing-review-2026-10-15/README.ko.md)** — 실제 135개 경로의 noindex, 빈 사이트맵과 검토 모드 배포를 확인.
+
+- **[2026-09-27 블로그 미반영사항 통합반영안 적용](docs/client-requests/integrated-update-2026-09-27/README.ko.md)** — 진료분야 8개, 하위 안내 14개 추가, 홈 검색·단일 목차·예방접종 표·사례 제외. 총 108개 경로를 [작업 의도 확인 후 review 모드로 배포](docs/client-requests/integrated-update-2026-09-27/deployment.ko.md)하고 실제 페이지 검증 완료.
+- **[2026-09-26 심장·혈관 20편 및 홈페이지 업데이트](docs/client-requests/director-content-review-2026-09-26/implementation.ko.md)** — 당시 영문 URL로 총 94개 경로 구현. 검사 정보·공통 안내·백과 분류 개선, 2026-09-27 검토 모드 배포 완료.
+- **[2026-09-25 세션 작업 요약·배포 결과](docs/client-requests/patient-navigation-2026-09-25/session-summary.ko.md)** — 74개 경로 배포와 실제 사이트 검증 완료. 메뉴·목차 개편, 출처·오타 교정 및 후속 확인 사항.
+- **[2026-09-25 환자 목적별 메뉴·화면 개편](docs/client-requests/patient-navigation-2026-09-25/README.ko.md)** — 7개 메뉴, 4개 진입로, 좌측 목차와 두 백과 탐색. 별도 220편 원고 연결은 원고 위치 확인 후 진행합니다.
+- **[2026-09-25 원장님 원고 기반 개편](docs/client-requests/director-content-review-2026-09-25/implementation.ko.md)** — 당시 개발 범위 71개 경로, 한국어 안내 21개·번역 5개 추가. 새 편집본은 검토용이며 기존 공개 승인과 분리합니다.
+
+- **[검색 공개 전환·구조화 데이터 확장](docs/client-requests/production-release-2026-09-11/README.ko.md)** — 사용자 확인에 따른 production 공개, 43개 색인 대상, 82개 질문·답변과 의료진·검사·서비스 연결
+- **[실제 배포 사이트 3곳 비교](docs/client-requests/seo-aeo-geo-comparison-2026-09-11/README.ko.md)** — 공개 전환 전의 HTTP·모바일 성능·콘텐츠 비교 근거
+
+- **[AEO·GEO 개선 실행 계획](docs/client-requests/aeo-geo-improvement-plan-2026-09-11/README.md)** — 기존 Q&A 조사 후보 13개 활용, 당시 45개 경로 개선, 병원 확인·구현·배포·레퍼런스 비교 기준
+- **[AEO·GEO 개선 반영·전후 비교](docs/client-requests/aeo-geo-improvement-results-2026-09-11/README.md)** — 의료 상세 25개 보강, 조사 질문 13개 반영, 근거·공통 사실·검증 및 남은 공개 조건
+- **[최종 SEO·AEO·GEO 비교 검토](docs/client-requests/seo-aeo-geo-review-2026-09-11/README.md)** — 기존 3개 사례와 기술·답변·근거·공개 상태 비교, 남은 개선 우선순위
+
+- **[환자용 콘텐츠 전수 정리](docs/client-requests/content-audit-2026-09-11/README.md)** — 기존 76개 경로 검토, 당시 45개 경로, 사례 원문 25개 연결, 기존 공지 채널 유지
 - **[공개 콘텐츠 기준](docs/patient-content-policy.ko.md)** — 병원 홈페이지 목적, 병행 운영, 내부 문구·보고서 배포 차단
 
 - **[이전 UI 검토·수정 이력](docs/ui-fixes-2026-09-11.ko.md)** — 당시 76페이지의 반응형·메뉴·키보드·검색·인쇄 검증
@@ -32,7 +44,7 @@
 - [콘텐츠 원장](content/README.md) — 135개 경로, 의료진 2명, 진단 사례 원문 링크 25개
 - [자동 검사·배포 워크플로](.github/workflows/pages.yml)
 
-배포 주소: `https://yttop.kr/`. 현재 경로는 135개이며 검색 대상은 132개입니다. 2026-10-15 진단 시 실제 배포는 review/noindex 상태였습니다. [검색 공개와 SEO 수정](docs/seo-release-2026-10-15/README.ko.md)에서 코드 변경·검증과 배포 상태를 관리합니다. 기존 GitHub Pages 주소는 새 도메인으로 이동하며, `yttop.co.kr`은 별도로 병행 운영합니다. 원장님 원본 자료는 로컬 `plan/`, 원본 조사 자료는 로컬 `research/`에 보존합니다.
+배포 주소: `https://yttop.kr/`. 현재 경로는 135개이며 검색 대상은 132개입니다. 2026-10-15 진단 시 실제 배포는 review/noindex 상태였습니다. [검색 공개와 SEO 수정](docs/client-requests/seo-release-2026-10-15/README.ko.md)에서 코드 변경·검증과 배포 상태를 관리합니다. 기존 GitHub Pages 주소는 새 도메인으로 이동하며, `yttop.co.kr`은 별도로 병행 운영합니다. 원장님 원본 자료는 로컬 `plan/`, 원본 조사 자료는 로컬 `research/`에 보존합니다.
 
 ## 개발 스펙
 

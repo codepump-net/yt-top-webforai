@@ -1,5 +1,5 @@
 // Accepted replacement after the user's 2026-09-29 instruction to resolve missing materials.
-// See docs/plan-content-checklist-2026-09-29/infection-resolution.ko.md.
+// See docs/client-requests/plan-content-checklist-2026-09-29/infection-resolution.ko.md.
 export const infectionGuideSource = Object.freeze({
   noticeId: 'notice-2026-09-17-infection-guide',
   pageCount: 16,

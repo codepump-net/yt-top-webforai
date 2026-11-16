@@ -1,25 +1,52 @@
-# 홈페이지 개발 문서
+# TOP 건강백과 개발·운영 문서
 
-- **[2026-10-16 AEO GEO 운영 대시보드 상세 개발계획](aeo-geo-operations-plan-2026-10-16/README.ko.md)** — 무료 운영을 우선한 Cloudflare·GitHub Actions 구성, 데이터·API 계약, 단계별 개발·검증, 인증·배포·복구 절차. 계획 문서이며 앱 구현·배포 완료 기록이 아님.
+현행 문서 기준일: **2026-11-16**. 환자용 사이트의 목표·현재 구현·기능별 개발·운영·확장을 연결한다. `pwd-2026-2 lecture 09`의 프로젝트 분석 참고자료로도 사용한다. 이 문서들은 병원 사이트의 공개 페이지로 배포하지 않는다.
 
-- **[2026-09-29 이번 세션 요약보고서](plan-content-checklist-2026-09-29/session-report.ko.md)** — 주요 작업, 최종 검증과 커밋·푸시·review 배포 결과.
-- **[2026-09-29 배포 전 최종 검토](plan-content-checklist-2026-09-29/predeploy-review.ko.md)** — 이식 패키지 논이슈 제외, 최초 54개 재대조. 날짜·지원 대상·접종 조건·시제·띄어쓰기 수정과 전체 검증, 실제 공개 승인 상태 기록.
-- **[2026-09-29 자료 부족 해결·감염병 원문 반영](plan-content-checklist-2026-09-29/infection-resolution.ko.md)** — 사용자 후속 지시에 따른 공식 16쪽 대체, 동일 PDF·원문 확대·전수 검증 완료. 현재 체크리스트 54개 충족·부분 충족 0개·미충족 0개. 로컬 review 결과.
+## 처음 읽을 문서
 
-- **[2026-09-29 감염병 예방 자료 검색·확보](plan-content-checklist-2026-09-29/infection-source-retrieval.ko.md)** — 질병관리청 공식 PDF 3개 다운로드, 실제 7쪽·16쪽·38쪽 확인. 요청된 15쪽 원문은 동일성 미확인.
-- **[2026-09-29 plan 원문·원본 언급 전수 조사](plan-content-checklist-2026-09-29/original-material-references.ko.md)** — 7개 문서의 관련 표현·줄 번호, 감염병 PDF의 식별 가능한 정보와 준비할 자료.
-- **[2026-09-29 전체 미해결 항목표](plan-content-checklist-2026-09-29/outstanding-items.ko.md)** — 자료 부족 7개 해결 결과와 별도 운영·승인·배포 확인 사항.
-- **[2026-09-29 생성 이미지 정확성 검토](plan-content-checklist-2026-09-29/image-accuracy.ko.md)** — 17개 전수 대조, 4개 이미지 수정, 공식 근거·전후 파일·남은 확인 사항과 재검증 기록.
-- **[2026-09-29 콘텐츠 요청·작업 전후 체크리스트](plan-content-checklist-2026-09-29/README.ko.md)** — 이식 절차를 제외한 plan 요청 54개 검수 기준, 문구 20곳·공지 6편·이미지 17개·공식 대체 원문 16쪽 대조. [작업 후 결과 기록표](plan-content-checklist-2026-09-29/work-results.ko.md) · [원문 요청 대응](plan-content-checklist-2026-09-29/source-coverage.ko.md). [개발 결과](plan-content-checklist-2026-09-29/implementation.ko.md): 초기 구현 기록. [PNG 17개 최초 재제작 결과](plan-content-checklist-2026-09-29/redrawn-images.ko.md): 로컬 135경로, 47개 충족·2개 부분 충족·5개 미충족(감염병 원문 관련). [최종 재검토와 추가 코드 보완](plan-content-checklist-2026-09-29/final-review.ko.md).
-- **[2026-09-27 통합반영안 적용](integrated-update-2026-09-27/README.ko.md)** — 108개 경로, 검색·진료분야·예방접종·단일 목차·사례 제외. [작업 의도 확인 및 review 배포 완료](integrated-update-2026-09-27/deployment.ko.md) · [간단 작업 결과 보고서](integrated-update-2026-09-27/work-report.ko.md)
-- **[2026-09-27 plan 문서 검토](plan-review-2026-09-27/README.ko.md)** — 적용 전 구현 상태와 원고 차이 검토 기록. 이후 작업 범위는 위 통합반영안 적용 기록을 우선
-- **[2026-09-26 콘텐츠 업데이트](director-content-review-2026-09-26/implementation.ko.md)** — 심장·혈관 20편, 검사 정보·공통 안내·백과 분류. 검토 모드 94개 경로, [9월 27일 배포 완료](director-content-review-2026-09-26/deployment.ko.md)
-- **[2026-09-26 세션 요약](director-content-review-2026-09-26/session-summary.ko.md)** — 요구사항 반영 대조, 재검토 수정 사항과 검증 결과
-- **[검색 공개 전환 기록](production-release-2026-09-11/README.ko.md)** — 사용자 의료·운영 검토 완료 확인, production 설정과 구조화 데이터 확장
-- **[개발·운영 인수 문서](development-handoff.ko.md)** — 현재 실행·검증·배포 절차
-- **[환자용 콘텐츠 기준](patient-content-policy.ko.md)** — 공개 범위와 사실·출처 기준
-- **[콘텐츠 전수 정리](content-audit-2026-09-11/README.md)** — 당시 45개 경로와 기존 병원 사이트 병행 운영
-- **[3개 사이트 실제 비교](seo-aeo-geo-comparison-2026-09-11/README.ko.md)** — 검색 공개 전환 전의 측정과 비교
-- [초기 상세 실행 계획](implementation-plan/README.md), [개발 스펙](website-spec.ko.md), [URL 대응표](route-map.csv), [완료 기준](acceptance-criteria.csv) — 역사적 설계 자료
+| 순서 | 문서 | 알 수 있는 내용 |
+|---|---|---|
+| 1 | [프로젝트 개요와 docs 운영](project/overview.ko.md) | 제품 정의·현재 구조·폴더 책임·문서 우선순위 |
+| 2 | [핵심 목표·사용자·사용 여정](product/goals-and-users.ko.md) | 환자의 필요·범위·성공 지표 |
+| 3 | [사이트맵](product/sitemap.ko.md) · [전체 경로표](product/route-catalog.csv) | 메뉴·URL·색인 정책·135개 경로와 기능 연결 |
+| 4 | [시스템 구성](architecture/system.ko.md) · [콘텐츠 모델](architecture/content-model.ko.md) | 저장소·데이터·렌더링·배포·변경 영향 |
+| 5 | [디자인 콘셉트·UI 규칙](design/design-system.ko.md) | 색상·서체·화면 패턴·반응형·접근성 |
+| 6 | [SEO·AEO·GEO](seo/seo-aeo-geo.ko.md) | 메타·구조화 데이터·발견·관측과 한계 |
+| 7 | [기능별 명세 16개](features/README.md) | 개발 접점·완료 조건·관련 검사·확장 후보 |
+| 8 | [개발 절차](development/workflow.ko.md) · [검사 기준](development/testing.ko.md) | 작업 분해·명령·검증·PR |
+| 9 | [운영 런북](operations/runbook.ko.md) · [확장 백로그](roadmap/backlog.ko.md) | 출판·배포·정기 점검·복구·다음 작업 |
+| 10 | [Lecture 09 참고자료](lectures/pwd-2026-2/lecture-09/README.ko.md) · [워크숍](lectures/pwd-2026-2/lecture-09/workshop.ko.md) | 수업 흐름·기능 명세 실습·제출물·평가 제안 |
 
-갱신일: 2026-10-16. 과거 76개 페이지 계획은 현재 경로 원장이나 공개 승인 기록을 대신하지 않는다. 조사·검증 보고서는 웹 출력과 분리한다.
+## 폴더 구조
+
+```text
+docs/
+  README.md                         전체 진입점
+  patient-content-policy.ko.md      공개 콘텐츠 상위 기준
+  project/                         제품 정의·문서 운영
+  product/                         사용자·사이트맵·생성 경로표
+  architecture/                    시스템·콘텐츠 모델·생성 인벤토리
+  design/                          디자인 콘셉트·UI 규칙
+  seo/                             발견·답변·구조화 데이터·관측
+  features/                        F01~F16 명세·카탈로그
+  development/                     작업·검사·이번 문서 검증
+  operations/                      출판·배포·유지보수·복구
+  roadmap/                         우선순위·의존성·확장 과제
+  lectures/pwd-2026-2/lecture-09/    강의 보조자료·워크숍
+  templates/                       기능 명세·작업 카드·ADR
+  decisions/                       의미 있는 결정과 이유
+  tools/                           원장 기반 docs 갱신 도구
+  client-requests/                  의뢰자 요청서·요청별 검토·반영 자료
+```
+
+공개 범위는 [콘텐츠 기준](patient-content-policy.ko.md), 실제 경로·목적은 `content/pages.json`·`page-intents.json`, 동작은 코드·검사, 배포 사실은 해당 실행의 증거로 판단한다. 문서 수치는 [생성 인벤토리](architecture/inventory.json)로 대조하며 모든 현재 경로는 주 담당 기능 하나와 연결된다.
+
+저장소 루트에서 Node.js 24로 `node docs/tools/update-inventory.mjs`를 실행해 생성 문서를 갱신하고 `--check`로 차이를 검사한다. [기능 명세](templates/feature-spec.ko.md)·[작업 카드](templates/task.ko.md)·[ADR](templates/adr.ko.md)을 재사용한다. 이번 정리의 실제 검증은 [검증 기록](development/documentation-validation.ko.md)을 참고한다.
+
+## 의뢰자 요청 자료
+
+날짜가 포함된 기존 폴더 26개는 **[client-requests/](client-requests/README.md)**에 모아 관리한다. 요청서와 해당 요청의 계획·검토·구현·검증·배포 자료를 원래 폴더명으로 함께 보관한다. 전체 요청 목록과 자료 진입점은 해당 색인에서 확인한다.
+
+요청별 과거 페이지 수·검토 모드는 당시 기록이다. 현행 구현은 위 문서와 현재 원장을 우선한다.
+
+기존 공통 설계 자료: [개발 스펙](website-spec.ko.md) · [초기 상세 계획](implementation-plan/README.md) · [이전 인수 기록](development-handoff.ko.md).
