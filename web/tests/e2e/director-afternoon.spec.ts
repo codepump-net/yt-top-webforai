@@ -68,6 +68,38 @@ test('new symptom guides are discoverable and carry useful safety and reuse info
   await expect(page.locator('.result-card[href$="/notices/"]')).toBeVisible();
 });
 
+test('shared article fragments and cancer prevention links remain usable without scripts', async ({
+  browser,
+}) => {
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  const page = await context.newPage();
+  try {
+    const presyncope = '/symptoms/cardio/presyncope-cardiac-evaluation/';
+    for (const article of [presyncope, '/symptoms/cardio/orthopnea-leg-edema/']) {
+      await page.goto(url(article + '#evaluation'));
+      await expect(page.locator('section#section-5 > h2#evaluation')).toBeInViewport();
+      await page.goto(url(article + '#section-5'));
+      await expect(page.locator('section#section-5 > h2#evaluation')).toBeInViewport();
+      if (article === presyncope)
+        await expect(page.locator('#understand')).toContainText('안전한 곳에 앉거나 눕습니다');
+    }
+    await page.goto(url('/symptoms/cardio/valve-regurgitation-follow-up/'));
+    await expect(
+      page.locator('#sources a[href$="/options-for-heart-valve-replacement"]'),
+    ).toHaveCount(0);
+    const prevention = '/diseases/cancer-family-history/cancer-prevention-lifestyle/';
+    for (const article of ['/checkups/cancer-screening/', '/health/cancer-family-history/']) {
+      await page.goto(url(article));
+      await page
+        .locator(`.article-connections a[href="${manifest.basePath}${prevention}"]`)
+        .click();
+      await expect(page).toHaveURL(url(prevention));
+    }
+  } finally {
+    await context.close();
+  }
+});
+
 test('home notices precede visit information and retain original announcement channel', async ({
   page,
 }) => {

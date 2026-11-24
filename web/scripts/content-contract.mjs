@@ -62,6 +62,7 @@ export const pageSchema = z
       z
         .object({
           id: anchor.optional(),
+          legacyAnchor: anchor.optional(),
           heading: z.string().min(2),
           text: z.string().refine((t) => t.length === 0 || t.length >= 20, 'Paragraph too short'),
           paragraphs: z.array(z.string().min(10)).optional(),
@@ -200,6 +201,15 @@ export function validateContent(
     if (new Set(all).size !== all.length) errors.push(`Duplicate ${field}`);
   }
   const ids = new Set(pages.map((p) => p.id));
+  const anchorsByPage = new Map(
+    pages.map((page) => [
+      page.id,
+      [
+        ...page.blocks.flatMap((block) => [block.id, block.legacyAnchor]),
+        ...page.questions.map((question) => question.id),
+      ].filter(Boolean),
+    ]),
+  );
   for (const page of pages) {
     if (page.translationOf) {
       const original = pages.find((p) => p.id === page.translationOf);
@@ -215,7 +225,7 @@ export function validateContent(
     const sourceIds = page.sources.map((s) => s.id).filter(Boolean);
     if (new Set(sourceIds).size !== sourceIds.length)
       errors.push(`${page.id}: duplicate source ID`);
-    const anchors = [...page.blocks, ...page.questions].map((b) => b.id).filter(Boolean);
+    const anchors = anchorsByPage.get(page.id);
     if (
       new Set(anchors).size !== anchors.length ||
       anchors.some((a) => ['questions', 'related'].includes(a))
@@ -225,12 +235,8 @@ export function validateContent(
       for (const ref of item.sourceIds ?? [])
         if (!sourceIds.includes(ref)) errors.push(`${page.id}: unknown source ${ref}`);
       for (const link of item.links ?? []) {
-        const target = pages.find((p) => p.id === link.pageId);
-        if (
-          !target ||
-          (link.anchor &&
-            ![...target.blocks, ...target.questions].some((b) => b.id === link.anchor))
-        )
+        const targetAnchors = anchorsByPage.get(link.pageId);
+        if (!targetAnchors || (link.anchor && !targetAnchors.includes(link.anchor)))
           errors.push(`${page.id}: invalid contextual link ${link.pageId}#${link.anchor ?? ''}`);
       }
     }

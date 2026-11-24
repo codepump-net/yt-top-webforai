@@ -300,6 +300,7 @@
     ],
     "related": [
       "cancer-family-history",
+      "disease-cancer-prevention-lifestyle",
       "national-checkup",
       "gastroscopy",
       "colonoscopy",
@@ -339,8 +340,8 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
-    "modifiedAt": "2026-10-15T22:30:10+09:00",
+    "updatedAt": "2026-11-24",
+    "modifiedAt": "2026-11-24T18:54:05+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -7832,6 +7833,7 @@
     "questions": [],
     "related": [
       "cancer-screening",
+      "disease-cancer-prevention-lifestyle",
       "colonoscopy",
       "colon-polyp-followup"
     ],
@@ -7867,8 +7869,8 @@
     "image": null,
     "risk": "medical",
     "publishedAt": null,
-    "updatedAt": "2026-10-15",
-    "modifiedAt": "2026-10-15T22:30:10+09:00",
+    "updatedAt": "2026-11-24",
+    "modifiedAt": "2026-11-24T18:54:05+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -15270,6 +15272,7 @@
         "heading": "눈앞이 캄캄하고 쓰러질 것 같을 때",
         "text": "눈앞이 캄캄해지고 식은땀이 나며 힘이 빠지는 느낌은 실제로 의식을 잃기 전 단계인 전실신일 수 있습니다. 오래 서 있거나 통증·긴장 뒤 생기는 미주신경성 실신처럼 비교적 양성인 경우도 있지만, 부정맥·판막질환·심근병증·출혈·저혈당처럼 빠른 평가가 필요한 원인도 있습니다.",
         "paragraphs": [
+          "하던 일을 멈추고 안전한 곳에 앉거나 눕습니다. 회복 전 운전이나 높은 곳의 작업을 피하세요. 증상이 심하거나 지속되면 혼자 이동하지 말고 도움을 요청합니다.",
           "실제로 의식을 잃었거나 운동 중 발생했거나 흉통·두근거림이 동반됐다면 단순 빈혈이나 피곤함으로 넘기지 않아야 합니다."
         ],
         "sourceIds": [
@@ -15303,7 +15306,8 @@
       {
         "id": "section-5",
         "heading": "진료에서는 무엇을 확인하나요?",
-        "text": "발생 당시 자세와 상황, 경고 증상, 의식 소실 시간, 회복 과정, 목격자가 본 경련성 움직임, 배뇨·배변 실수, 복용약을 확인합니다. 누운 상태와 일어선 상태의 혈압·맥박, 혈당, 심전도와 산소포화도를 측정하고 필요에 따라 혈액검사, 72시간 홀터와 심장초음파를 시행합니다."
+        "text": "발생 당시 자세와 상황, 경고 증상, 의식 소실 시간, 회복 과정, 목격자가 본 경련성 움직임, 배뇨·배변 실수, 복용약을 확인합니다. 누운 상태와 일어선 상태의 혈압·맥박, 혈당, 심전도와 산소포화도를 측정하고 필요에 따라 혈액검사, 72시간 홀터와 심장초음파를 시행합니다.",
+        "legacyAnchor": "evaluation"
       },
       {
         "id": "section-6",
@@ -15409,7 +15413,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-11-24",
-    "modifiedAt": "2026-11-24T18:07:52+09:00",
+    "modifiedAt": "2026-11-24T18:54:05+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -15862,7 +15866,8 @@
       {
         "id": "section-5",
         "heading": "진료할 때 어떤 검사를 하나요?",
-        "text": "체중 변화, 혈압·맥박·산소포화도, 목정맥과 폐음, 다리 부종을 확인합니다. 필요에 따라 심전도, 심장초음파, 흉부 X선, 혈액검사와 소변검사를 시행합니다. 심장초음파는 심장의 수축·이완 기능과 판막을 확인하고, 흉부 X선은 폐울혈·폐렴·흉수 등을 평가하는 데 도움을 줍니다."
+        "text": "체중 변화, 혈압·맥박·산소포화도, 목정맥과 폐음, 다리 부종을 확인합니다. 필요에 따라 심전도, 심장초음파, 흉부 X선, 혈액검사와 소변검사를 시행합니다. 심장초음파는 심장의 수축·이완 기능과 판막을 확인하고, 흉부 X선은 폐울혈·폐렴·흉수 등을 평가하는 데 도움을 줍니다.",
+        "legacyAnchor": "evaluation"
       },
       {
         "id": "section-6",
@@ -15962,7 +15967,7 @@
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-11-24",
-    "modifiedAt": "2026-11-24T18:06:34+09:00",
+    "modifiedAt": "2026-11-24T18:54:05+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"
@@ -17288,19 +17293,13 @@
         "title": "2020 ESC Adult Congenital Heart Disease Guideline",
         "url": "https://academic.oup.com/eurheartj/article/42/6/563/5898606",
         "kind": "medical"
-      },
-      {
-        "id": "source-6",
-        "title": "American Heart Association – Options for Heart Valve Replacement",
-        "url": "https://www.heart.org/en/health-topics/heart-valve-problems-and-disease/options-for-heart-valve-replacement",
-        "kind": "medical"
       }
     ],
     "image": null,
     "risk": "urgent_context_review",
     "publishedAt": null,
     "updatedAt": "2026-11-24",
-    "modifiedAt": "2026-11-24T18:15:15+09:00",
+    "modifiedAt": "2026-11-24T18:54:05+09:00",
     "indexable": true,
     "reviewStatus": "approved",
     "contentKind": "original-editorial-summary"

@@ -54,6 +54,7 @@
   min-width: 20rem;
 }
 .article-section,
+.article-section > h2[id],
 .qa-list details {
   scroll-margin-top: 7rem;
 }

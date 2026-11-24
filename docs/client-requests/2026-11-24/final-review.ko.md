@@ -52,3 +52,23 @@
 
 - 실제 저자·의료 검토자를 화면에 표시할 경우에 필요한 개인별 확인 기록. 이번에는 사용자의 공개 확인을 기록했다. 수치·검사·의뢰 설명 중 변경 사항은 [공개 전 확인 사항](README.ko.md#공개-전-확인-사항)에 정리했다.
 - 암환자 지지치료 종합 안내에 적용할 실제 추가·교체 내용.
+
+## 공개 사이트 후속 대조
+
+2026-11-24. [배포 실행](https://github.com/codepump-net/yt-top-webforai/actions/runs/45367441621)의 출력과 공개 HTML 136개를 다시 대조했다. 개정 23편은 기존 주소에서, 신규 암 예방 글은 질환백과 ‘암과 가족력’과 검색에서 열렸다. 공개 글 24편의 `최종 검토일` 표기는 0건이다. 표 2개, FAQ 66개, 응급 안내 23개, 관련 글 링크 85건과 본문 안내 링크 5건을 확인했다. 이번 글에서 나가거나 사이트 내에서 이번 글로 이어지는 현재 링크의 고유 목적지·문단 조합 291개에서 잘못된 주소나 문단 연결은 없었다. Chromium의 모바일 390px·데스크톱 1440px에서 신규 글 검색, 질환백과, FAQ 열기, 국가암검진과 암 가족력 안내로의 이동을 확인했다.
+
+| 항목 | 공개 화면에서 확인한 내용 |
+|---|---|
+| 기존 문단 주소 2개 | 개정 전 목차에 있던 `#evaluation` ID가 두 글에서 사라졌다. 기존 공유 주소는 글을 열지만 해당 문단으로 이동하지 않는다. [전실신 기존 문단](https://yttop.kr/symptoms/cardio/presyncope-cardiac-evaluation/#evaluation) · [누울 때 숨참과 부종 기존 문단](https://yttop.kr/symptoms/cardio/orthopnea-leg-edema/#evaluation) |
+| 전실신의 낙상 예방 안내 | 개정 전의 ‘안전한 곳에 앉거나 눕기’ 안내가 개정본에서 빠졌다. 개정본에는 위험 신호와 실신 후 운전 안내가 있다. [현재 전실신 글](https://yttop.kr/symptoms/cardio/presyncope-cardiac-evaluation/) · [NHS 실신 환자 안내](https://www.nhs.uk/symptoms/fainting/) |
+| 판막 글의 외부 참고 링크 1개 | 미국심장협회의 심장판막 교체 링크가 HTTP 200으로 응답하지만 실제 목적지 본문이 ‘페이지를 찾을 수 없음’이다. 동일 자료의 새 주소를 확인했다. [판막 글의 출처 목록](https://yttop.kr/symptoms/cardio/valve-regurgitation-follow-up/#sources) · [협회 자료의 올바른 주소](https://www.heart.org/en/health-topics/heart-valve-problems-and-disease/understanding-your-heart-valve-treatment-options/options-for-heart-valve-replacement) |
+| 암 예방 글로 이어지는 관련 링크 | 신규 글에서 국가암검진과 암 가족력 안내로 갈 수 있다. 기존 두 안내의 본문·관련 글에는 신규 글로 가는 링크가 없다. 질환백과와 사이트맵에서 신규 글로 이동할 수 있다. [국가암검진 안내](https://yttop.kr/checkups/cancer-screening/) · [암 가족력 안내](https://yttop.kr/health/cancer-family-history/) |
+
+외부 출처 주소 94개를 확인했다. 일부 주소는 자동 요청에서 접근 제한을 반환해 검색 도구·브라우저로 교차 확인했다. 판막 교체 자료는 응답 코드와 실제 제목·본문을 함께 확인해 오연결로 판정했다. 접근 제한만 확인된 주소는 깨진 링크로 판정하지 않았다.
+
+## 후속 수정
+
+- 전실신과 숨참·부종 글에서 예전 `#evaluation`과 현재 `#section-5`가 같은 검사 안내로 연결된다. 두 주소는 자바스크립트 없이 동작한다.
+- 전실신의 낙상 예방 문단은 11월 개정 전 공개본에서 확인한 기존 승인 문구를 그대로 복구했다.
+- ‘페이지를 찾을 수 없음’을 반환하는 판막 교체 참고 링크는 제거했다. 판막질환 관련 나머지 참고자료는 이어서 이용할 수 있다.
+- 국가암검진과 암 가족력 안내의 관련 글에 암 예방 생활수칙을 추가했다. 신규 글에 있던 두 안내로의 링크와 함께 양방향 이동을 제공한다.

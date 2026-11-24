@@ -521,7 +521,7 @@ function BodyBlocks({ page }: { page: Page }) {
     <>
       {page.blocks.map((b, i) => (
         <section className="article-section" id={b.id ?? `section-${i + 1}`} key={b.heading}>
-          <h2>{b.heading}</h2>
+          <h2 id={b.legacyAnchor}>{b.heading}</h2>
           {b.text && <p>{b.text}</p>}
           {b.paragraphs?.map((text, n) => (
             <p key={n}>{text}</p>

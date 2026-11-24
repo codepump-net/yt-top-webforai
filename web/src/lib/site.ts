@@ -36,6 +36,7 @@ export type ContentLink = { pageId: string; anchor?: string; label: string };
 export type ContentTable = { caption: string; columns: string[]; rows: string[][] };
 export type Block = {
   id?: string;
+  legacyAnchor?: string;
   heading: string;
   text: string;
   paragraphs?: string[];
