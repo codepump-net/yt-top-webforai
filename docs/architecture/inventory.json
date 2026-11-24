@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "scope": "Repository configuration only; not live deployment, approval, indexing or search performance evidence.",
-  "sourceDigest": "e0cfae241ba663201843587fe358d9259577cb9a1b5646db04ec4e9fa42e0945",
+  "sourceDigest": "786843710150578c57b29076b60420672f3cd05921b1f5c2f7f773496b65f815",
   "sourceFiles": [
     "content/pages.json",
     "content/page-intents.json",
