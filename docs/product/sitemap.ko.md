@@ -6,7 +6,7 @@
 
 | 종류 | 독자·목적 | 구현·저장 위치 |
 |---|---|---|
-| 설계 사이트맵 | 개발자가 사용자 여정과 기능 책임을 이해 | 이 문서와 [135개 전체 경로표](route-catalog.csv) |
+| 설계 사이트맵 | 개발자가 사용자 여정과 기능 책임을 이해 | 이 문서와 [136개 전체 경로표](route-catalog.csv) |
 | HTML 사이트맵 | 방문자가 안내를 탐색 | `/sitemap/`, `siteMapGroups()` |
 | XML 사이트맵 | 검색엔진에 색인 대상 후보를 알림 | production `web/out/sitemap.xml` |
 

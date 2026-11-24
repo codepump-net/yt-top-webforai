@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "scope": "Repository configuration only; not live deployment, approval, indexing or search performance evidence.",
-  "sourceDigest": "f77c1f3c002857b504b8a88f03bc506b8962f45a547276928c6cafd809896183",
+  "sourceDigest": "e0cfae241ba663201843587fe358d9259577cb9a1b5646db04ec4e9fa42e0945",
   "sourceFiles": [
     "content/pages.json",
     "content/page-intents.json",
@@ -28,17 +28,17 @@
     "tailwindcss": "4.3.3"
   },
   "routes": {
-    "total": 135,
-    "intendedIndexable": 132,
+    "total": 136,
+    "intendedIndexable": 133,
     "notIndexable": [
       "/404.html",
       "/cases/",
       "/search/"
     ],
-    "patientIntents": 135,
+    "patientIntents": 136,
     "byLanguage": {
       "en": 1,
-      "ko": 130,
+      "ko": 131,
       "ne": 1,
       "ru": 1,
       "th": 1,
@@ -46,7 +46,7 @@
     },
     "byTemplate": {
       "about": 1,
-      "article-detail": 56,
+      "article-detail": 57,
       "article-index": 4,
       "case-index": 1,
       "checkup-detail": 12,
@@ -74,7 +74,7 @@
       "cancer-support": 3,
       "checkups": 14,
       "conditions": 22,
-      "diseases": 27,
+      "diseases": 28,
       "notices": 7,
       "services": 26,
       "symptoms": 24
@@ -120,7 +120,7 @@
       "title": "환자 안내·질문·출처 읽기",
       "status": "implemented",
       "document": "f04-patient-articles.ko.md",
-      "primaryRouteCount": 56
+      "primaryRouteCount": 57
     },
     {
       "id": "F05",

@@ -40,6 +40,7 @@
 | 2026-10-16 | [AEO·GEO 운영 대시보드 개발계획](aeo-geo-operations-plan-2026-10-16/) | [README.ko.md](aeo-geo-operations-plan-2026-10-16/README.ko.md) |
 | 2026-11-07 | [검색 발견·클릭·측정 개선](seo-improvement-2026-11-07/) | [action-plan.json](seo-improvement-2026-11-07/action-plan.json) |
 | 2026-11-08 | [구조화 데이터 날짜·시간 수정](structured-data-datetime-2026-11-08/) | [README.ko.md](structured-data-datetime-2026-11-08/README.ko.md) |
+| 2026-11-24 | [11월 콘텐츠 24편 반영](2026-11-24/) | [반영·검토 기록](2026-11-24/README.ko.md) |
 
 ## 요청 관련 개별 자료
 

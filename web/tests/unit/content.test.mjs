@@ -5,7 +5,7 @@ import { assetPath, absoluteUrl, normalizeBase, jsonSafe } from '../../src/lib/u
 const data = await loadContent();
 describe('Content and release contract', () => {
   it('validates all registered patient-purpose pages', () => {
-    expect(data.pages).toHaveLength(135);
+    expect(data.pages).toHaveLength(136);
     expect(validateContent(data.pages, data)).toEqual([]);
   });
   it('blocks production without real reviews', () => {

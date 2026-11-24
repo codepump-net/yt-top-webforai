@@ -9,7 +9,7 @@
 | `site.json` | TOP 건강백과 이름·운영자 표시 | 브랜드·메타·JSON-LD |
 | `clinic.json` | 병원 사실·주소 부품·시간 구간·원 사이트 | 전화·방문·병원 엔터티 |
 | `physicians.json` | 의료진 2명의 실제 프로필·이미지 종류 | 목록·상세·Person |
-| `pages.json` | 135개 경로·원고·질문·출처·색인 설정 | 화면·SEO·검색·빌드 |
+| `pages.json` | 136개 경로·원고·질문·출처·색인 설정 | 화면·SEO·검색·빌드 |
 | `page-intents.json` | 경로별 환자 필요 | 내부 콘텐츠 범위 검사 |
 | `encyclopedia-categories.json`, `search-aliases.json` | 환자용 분류·검색 용어 | 허브·검색 |
 | `assets.json`, `visuals.json` | 자산 출처·해시·크기, 배너·도해 연결 | 자산 검사·본문·대표 이미지 |

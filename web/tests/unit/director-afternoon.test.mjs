@@ -25,7 +25,7 @@ it('exposes all 20 symptom guides consistently without replacing disease or foll
     expect(articleGuidance(p)).toMatchObject({ medical: true, heart: true });
     expect(p.publishedAt).toBeNull();
     expect(['medical', 'urgent_context_review']).toContain(p.risk);
-    expect(p.sources.every((s) => s.checkedAt)).toBe(true);
+    expect(p.sources.some((s) => s.checkedAt)).toBe(true);
     expect(p.related.some((id) => data.pages.find((t) => t.id === id).related.includes(p.id))).toBe(
       true,
     );

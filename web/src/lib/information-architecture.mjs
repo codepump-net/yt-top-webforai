@@ -18,7 +18,7 @@ const diseaseMembers = {
   digestive: ['gallstones', 'liver-disease', 'colon-polyp-followup'],
   'respiratory-infection': ['influenza', 'covid-19'],
   cardiovascular: cardiovascularIds,
-  'cancer-family-history': ['cancer-family-history'],
+  'cancer-family-history': ['cancer-family-history', 'disease-cancer-prevention-lifestyle'],
   'endocrine-metabolic-thyroid': ['obesity-medication', 'thyroid-cancer-surveillance'],
 };
 const directoryGroups = (list, members) =>

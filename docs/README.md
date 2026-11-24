@@ -8,7 +8,7 @@
 |---|---|---|
 | 1 | [프로젝트 개요와 docs 운영](project/overview.ko.md) | 제품 정의·현재 구조·폴더 책임·문서 우선순위 |
 | 2 | [핵심 목표·사용자·사용 여정](product/goals-and-users.ko.md) | 환자의 필요·범위·성공 지표 |
-| 3 | [사이트맵](product/sitemap.ko.md) · [전체 경로표](product/route-catalog.csv) | 메뉴·URL·색인 정책·135개 경로와 기능 연결 |
+| 3 | [사이트맵](product/sitemap.ko.md) · [전체 경로표](product/route-catalog.csv) | 메뉴·URL·색인 정책·136개 경로와 기능 연결 |
 | 4 | [시스템 구성](architecture/system.ko.md) · [콘텐츠 모델](architecture/content-model.ko.md) | 저장소·데이터·렌더링·배포·변경 영향 |
 | 5 | [디자인 콘셉트·UI 규칙](design/design-system.ko.md) | 색상·서체·화면 패턴·반응형·접근성 |
 | 6 | [SEO·AEO·GEO](seo/seo-aeo-geo.ko.md) | 메타·구조화 데이터·발견·관측과 한계 |

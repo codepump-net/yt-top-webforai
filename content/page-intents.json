@@ -673,5 +673,10 @@
     "id": "notice-2026-09-17-infection-guide",
     "path": "/notices/2026-09-17-infection-guide/",
     "patientNeed": "질병관리청 최신 데이터(9.17 기준)로 보는 우리 가족 감염병 예방 가이드의 대상·기간·준비사항과 공식 자료를 확인하고 필요한 진료·접종 문의를 할 수 있다."
+  },
+  {
+    "id": "disease-cancer-prevention-lifestyle",
+    "path": "/diseases/cancer-family-history/cancer-prevention-lifestyle/",
+    "patientNeed": "일상에서 실천할 암 예방 수칙을 이해하고 예방접종과 개인 위험에 맞는 암검진을 확인한다."
   }
 ]

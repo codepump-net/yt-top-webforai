@@ -7,7 +7,7 @@
 - **[전체 문서 안내](docs/README.md)** — 2026-11-16 코드 기준 목표·사이트맵·아키텍처·디자인·SEO·개발·운영 구조.
 - **[기능별 개발 명세 16개](docs/features/README.md)** — 현재 동작·수정 접점·완료 조건·관련 검사와 확장 후보.
 - **[pwd-2026-2 Lecture 09 참고자료](docs/lectures/pwd-2026-2/lecture-09/README.ko.md)** — 프로젝트 분석·기능 명세 실습·제출물·평가 제안.
-- **[135개 경로와 담당 기능](docs/product/route-catalog.csv)** · [다음 개발 백로그](docs/roadmap/backlog.ko.md).
+- **[136개 경로와 담당 기능](docs/product/route-catalog.csv)** · [다음 개발 백로그](docs/roadmap/backlog.ko.md).
 - **[의뢰자 요청 자료](docs/client-requests/README.md)** — 날짜별 요청 폴더 26개와 요청별 검토·반영 자료.
 
 ## 의뢰자 요청별 작업·배포 기록
@@ -41,10 +41,10 @@
 - **[초기 개발·검증 이력](docs/development-completion.ko.md)** — 최초 76페이지 구현과 당시 CI·Pages 상태
 - **[개발·운영 인수 문서](docs/development-handoff.ko.md)** — 실행, 원고 수정, 실제 검수, 자동 배포, AI 인용 관측
 - **[웹 앱 실행](web/README.md)** — Next.js 16.4.5 · React 19.3.0 · TypeScript · Tailwind CSS 4.3.3
-- [콘텐츠 원장](content/README.md) — 135개 경로, 의료진 2명, 진단 사례 원문 링크 25개
+- [콘텐츠 원장](content/README.md) — 136개 경로, 의료진 2명, 진단 사례 원문 링크 25개
 - [자동 검사·배포 워크플로](.github/workflows/pages.yml)
 
-배포 주소: `https://yttop.kr/`. 현재 경로는 135개이며 검색 대상은 132개입니다. 2026-10-15 진단 시 실제 배포는 review/noindex 상태였습니다. [검색 공개와 SEO 수정](docs/client-requests/seo-release-2026-10-15/README.ko.md)에서 코드 변경·검증과 배포 상태를 관리합니다. 기존 GitHub Pages 주소는 새 도메인으로 이동하며, `yttop.co.kr`은 별도로 병행 운영합니다. 원장님 원본 자료는 로컬 `plan/`, 원본 조사 자료는 로컬 `research/`에 보존합니다.
+배포 주소는 `https://yttop.kr/`입니다. 저장소의 검토본은 136개 경로와 색인 대상 설정 133개를 포함합니다. 11월 원고 24편의 공개 배포 상태는 [11월 반영·검토 기록](docs/client-requests/2026-11-24/README.ko.md)에서 확인할 수 있습니다. 기존 GitHub Pages 주소는 새 도메인으로 이동하며, `yttop.co.kr`은 별도로 병행 운영합니다. 원장님 원본 자료는 로컬 `plan/`과 [요청별 자료](docs/client-requests/README.md), 원본 조사 자료는 로컬 `research/`에 보존합니다.
 
 ## 개발 스펙
 
